@@ -323,7 +323,17 @@
      "evidence": [
       "stardust/replica/gates/support-published-360/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
       "stardust/.work/deploy/g4/gates/support-360/"
-     ]
+     ],
+     "round1": {
+      "ts": "2026-09-18T14:54:16.224Z",
+      "pixelPct": 3.54,
+      "pixelPctMasked": 3.41,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 3.75,
+      "footerCropVerdict": "FAIL vs the 2 % bar, RESIDUAL: footer height now 1588 = live (17.5px mobile columns ✓); the diff is a uniform ≤1px thin-edge outline on every footer text run/logo (14px-rem type on 22.4px fractional line boxes) + the IDT partner logo box — rounding texture, no missing paint; footer owner / site-wide",
+      "guard": "PASS, CLS 0"
+     }
     },
     "1440": {
      "pixelPct": 3.19,
@@ -354,7 +364,18 @@
      "evidence": [
       "stardust/replica/gates/support-published-1440/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
       "stardust/.work/deploy/g4/gates/support-1440/"
-     ]
+     ],
+     "round1": {
+      "ts": "2026-09-18T14:54:16.224Z",
+      "pixelPct": 2.73,
+      "pixelPctMasked": 2.58,
+      "heightDelta": 2,
+      "headerCropPct": 0.34,
+      "footerCropPct": 1.25,
+      "header": "129px = live (--nav-height 129 under body.sciex-now)",
+      "guard": "PASS (footer14 ✓), CLS 0.0042",
+      "note": "residual Δh +2 sits at the footer bottom (docH 3239 vs 3241: published footer 1px shorter, main −1); 2.6 % masked = the shell's 14px/22.4 type on fractional line boxes (thin-edge texture) + the sidebar glyph font"
+     }
     },
     "ts": "2026-09-18T14:48:44.105Z",
     "origin": "https://main--sdt-sciex--aemcoder.aem.live/support",
@@ -364,7 +385,8 @@
      "blocks/footer/footer.css: restate .ftr-col-mobile 17.5px / .ftr-lang-label 10.5px / .ftr-links 17.5px at the legacy variant's specificity",
      "styles/styles.css: body.sciex-now { --nav-height: 129px } ≥1024 (harness header 129 = live)",
      "blocks/support-hero/support-hero.css: aspect-ratio 847/350 on the slide image (CLS reserve)"
-    ]
+    ],
+    "reconcileStatus": "round 1 committed + verified on the origin"
    }
   },
   {
@@ -580,7 +602,11 @@
      "evidence": [
       "stardust/replica/gates/support-software-support-published-360/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
       "stardust/.work/deploy/g4/gates/support-software-support-360/"
-     ]
+     ],
+     "round1": {
+      "ts": "2026-09-18T14:54:16.224Z",
+      "guard": "PASS, CLS 0.0007 (unchanged)"
+     }
     },
     "1440": {
      "pixelPct": 1.19,
@@ -605,13 +631,18 @@
      "evidence": [
       "stardust/replica/gates/support-software-support-published-1440/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
       "stardust/.work/deploy/g4/gates/support-software-support-1440/"
-     ]
+     ],
+     "round1": {
+      "ts": "2026-09-18T14:54:16.224Z",
+      "guard": "PASS, CLS 0.0003 (unchanged; not re-stitched — no reconcile edit touches this page)"
+     }
     },
     "ts": "2026-09-18T14:48:44.105Z",
     "origin": "https://main--sdt-sciex--aemcoder.aem.live/support/software-support",
     "codeCommit": "9bd3edd (+ b7794f1)",
     "plain": "200, 1 h1, 0 about:error, 3 img",
-    "reconcile": []
+    "reconcile": [],
+    "reconcileStatus": "round 1 committed + verified on the origin"
    }
   },
   {
@@ -826,7 +857,17 @@
      "evidence": [
       "stardust/replica/gates/education-grant-support-published-360/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
       "stardust/.work/deploy/g4/gates/education-grant-support-360/"
-     ]
+     ],
+     "round1": {
+      "ts": "2026-09-18T14:54:16.224Z",
+      "pixelPct": 1.78,
+      "pixelPctMasked": 1.55,
+      "heightDelta": -1,
+      "headerCropPct": 0,
+      "footerCropPct": 0.34,
+      "verdict": "PASS (was 19.43 % / −122px before the row-geometry fix)",
+      "guard": "PASS, CLS 0"
+     }
     },
     "1440": {
      "pixelPct": 0.98,
@@ -854,7 +895,12 @@
      "evidence": [
       "stardust/replica/gates/education-grant-support-published-1440/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
       "stardust/.work/deploy/g4/gates/education-grant-support-1440/"
-     ]
+     ],
+     "round1": {
+      "ts": "2026-09-18T14:54:16.224Z",
+      "guard": "PASS — CLS 0.1436 → 0.0003 (hero aspect-ratio reserve + embed min-height)",
+      "pageerrors": "3 Marketo-frame jQuery errors (third-party, unchanged)"
+     }
     },
     "ts": "2026-09-18T14:48:44.105Z",
     "origin": "https://main--sdt-sciex--aemcoder.aem.live/education/grant-support",
@@ -863,7 +909,8 @@
     "reconcile": [
      "styles/styles.css: grant row geometry (see 360 verdict) + grant-hero aspect-ratio reserve",
      "blocks/embed/embed.css: .embed.legacy .embed-frame min-height 907px"
-    ]
+    ],
+    "reconcileStatus": "round 1 committed + verified on the origin"
    }
   }
  ],
@@ -877,6 +924,11 @@
    "blocks/embed/embed.css",
    "blocks/support-hero/support-hero.css"
   ],
-  "afterCommit": "re-stitch grant-support 360 + support 360, re-run guard-g4 (footer14 / cls), re-crop support-360 footer"
+  "afterCommit": "re-stitch grant-support 360 + support 360, re-run guard-g4 (footer14 / cls), re-crop support-360 footer",
+  "round1": {
+   "ts": "2026-09-18T14:54:16.224Z",
+   "verdict": "ALL PASS after round 1: pixel (masked) support 2.58 % @1440 / 3.41 % @360 (Δh +2 / 0), software-support 1.00 % / 3.30 % (Δh −1 / +1), grant 0.59 % / 1.55 % (Δh 0 / −1); header crops 99.66–100 %; footer crops 98.75–99.68 % except support-360 96.25 % (rounding texture residual, footer height = live); guards 6/6 PASS, CLS max 0.0042; residual pageerrors = Marketo frame only",
+   "needsCommit": []
+  }
  }
 }

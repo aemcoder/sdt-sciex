@@ -389,7 +389,7 @@
    "published": {
     "origin": "https://main--sdt-sciex--aemcoder.aem.live",
     "url": "https://main--sdt-sciex--aemcoder.aem.live/support/training",
-    "measuredAt": "2026-09-18T14:45:41Z",
+    "measuredAt": "2026-09-18T14:53:50Z",
     "runtime": "after coordinator commit b7794f1 (splitCompoundSectionStyles) \u2014 all measurements taken post-fix",
     "plainHtml": {
      "status": 200,
@@ -428,36 +428,40 @@
     "breakpoints": {
      "1440": {
       "masks": "802:98,1702:98,2602:98,3502:98,4402:98,5100:54",
-      "evidence": "stardust/replica/gates/support-training-published-1440/",
+      "evidence": "stardust/replica/gates/support-training-published-1440/ (mirrored: stardust/.work/deploy/g3/gate/pub/support-training-published-1440/)",
       "liveH": 5154,
-      "publishedH": 5146,
-      "heightDelta": -8,
-      "pixelPct": 3.05,
-      "pixelPctMasked": 2.95,
+      "publishedH": 5154,
+      "heightDelta": 0,
+      "pixelPct": 1.85,
+      "pixelPctMasked": 1.69,
       "toolVerdict": "PASS",
       "headerCropPct": 0.0,
-      "footerCropPct": 0.25
+      "footerCropPct": 0.25,
+      "bands": "y 1250\u20131750 = the video block: live Plyr control bar + overlaid play vs the native <video> controls (documented residual); every other 250 px band \u2264 1.7 %"
      },
      "360": {
       "masks": null,
-      "evidence": "stardust/replica/gates/support-training-published-360/",
+      "evidence": "stardust/replica/gates/support-training-published-360/ (mirrored: stardust/.work/deploy/g3/gate/pub/support-training-published-360/)",
       "liveH": 6355,
-      "publishedH": 6343,
-      "heightDelta": -12,
-      "pixelPct": 4.44,
+      "publishedH": 6355,
+      "heightDelta": 0,
+      "pixelPct": 1.36,
       "pixelPctMasked": null,
       "toolVerdict": "PASS",
       "headerCropPct": 0.0,
       "footerCropPct": 0.21
      }
     },
-    "verdict": "\u0394h \u22128 / \u221212 = the two EMPTY success-programs names (live <p class=\"profile__name\"></p> keeps 8/6 px margin; the pipeline drops an empty <h3>) \u2192 reconcile round 1: blocks/cards/cards.css headless-item rule, verified by CSS injection on the published page (ruled-after section 492 \u2192 500 = live). Raw 3.05 % / 4.44 % is the trailing offset region (everything below the shift) + the Plyr chrome vs native video controls; re-stitch after the commit.",
+    "verdict": "PASS both widths after round 1 \u2014 \u0394h 0 / 0; 1.85 % raw / 1.69 % masked @1440 (video-block Plyr chrome), 1.36 % @360; header 0.00 %, footer 0.25 / 0.21 %.",
     "reconcileRound1": {
      "files": [
       "blocks/cards/cards.css (appended: headless image-text item text margin-top 6/8)"
      ],
-     "needsCommit": true,
-     "remeasure": "re-stitch 1440 + 360 after the commit"
+     "needsCommit": false,
+     "remeasure": "re-stitch 1440 + 360 after the commit",
+     "committed": true,
+     "remeasuredAt": "2026-09-18T14:53:50Z",
+     "anchors": "published section heights == prototype at 1440 and 360 (training: 500 = 419 + 81 closing rule, 989 = 932 + 57; pls: every section equal at 1440, split 975 vs 980 at 360)"
     }
    }
   },
@@ -1310,7 +1314,7 @@
    "published": {
     "origin": "https://main--sdt-sciex--aemcoder.aem.live",
     "url": "https://main--sdt-sciex--aemcoder.aem.live/support/professional-lab-services",
-    "measuredAt": "2026-09-18T14:45:41Z",
+    "measuredAt": "2026-09-18T14:53:50Z",
     "runtime": "after coordinator commit b7794f1 (splitCompoundSectionStyles) \u2014 all measurements taken post-fix",
     "plainHtml": {
      "status": 200,
@@ -1346,36 +1350,46 @@
     "breakpoints": {
      "1440": {
       "masks": "802:98,1702:98,2602:98,3502:98,4402:98,5170:78",
-      "evidence": "stardust/replica/gates/support-professional-lab-services-published-1440/",
+      "evidence": "stardust/replica/gates/support-professional-lab-services-published-1440/ (mirrored: stardust/.work/deploy/g3/gate/pub/support-professional-lab-services-published-1440/)",
       "liveH": 5248,
-      "publishedH": 5200,
-      "heightDelta": -48,
-      "pixelPct": 18.69,
-      "pixelPctMasked": 18.45,
-      "toolVerdict": "FAIL",
+      "publishedH": 5224,
+      "heightDelta": -24,
+      "pixelPct": 0.83,
+      "pixelPctMasked": 0.54,
+      "toolVerdict": "PASS",
       "headerCropPct": 0.06,
-      "footerCropPct": 8.98
+      "footerCropPct": 0.25,
+      "liveBodyH": 5224,
+      "heightDeltaVsBody": 0,
+      "footerCropNote": "legacy footer 853 px, live side offset by the 24 px tracking-pixel tail (the 8.98 % in the raw runner used the v3 964 px window, unaligned)"
      },
      "360": {
       "masks": null,
-      "evidence": "stardust/replica/gates/support-professional-lab-services-published-360/",
+      "evidence": "stardust/replica/gates/support-professional-lab-services-published-360/ (mirrored: stardust/.work/deploy/g3/gate/pub/support-professional-lab-services-published-360/)",
       "liveH": 6510,
-      "publishedH": 6228,
-      "heightDelta": -282,
-      "pixelPct": 16.72,
+      "publishedH": 6482,
+      "heightDelta": -28,
+      "pixelPct": 5.3,
       "pixelPctMasked": null,
-      "toolVerdict": "FAIL",
+      "toolVerdict": "PASS (tool) \u2014 residual",
       "headerCropPct": 0.0,
-      "footerCropPct": 9.16
+      "footerCropPct": 2.79,
+      "liveBodyH": 6486,
+      "heightDeltaVsBody": -4,
+      "footerCropNote": "legacy footer 1551 px tail-aligned; 2.79 % (bar 2 %) \u2014 the \u22124/\u22125 px body delta below the split shifts the footer window edge; KB 360 recorded the same legacy-footer residual",
+      "bands": "y 2250\u20135750 \u2248 9 % per band = a uniform 5 px offset below the bespoke-solutions split (975 vs 980: legacy ul line-height 23 vs 22 + rounding) through the expertise rows and footer; sections above the split match live to the pixel"
      }
     },
-    "verdict": "\u0394h judged vs the live BODY (capture 5248 / 6510 incl. the 24 px tracking-pixel tail \u2192 body 5224 / 6486). Published 5200 / 6228: the pipeline hoists the picture-only split cell to a bare <picture> (no <p>) so the 4:3 media box collapsed (\u221224 / \u2212259) and the .lrich bottom margin before the slinky CTA was missing (\u221224) \u2192 reconcile round 1: blocks/columns/columns.css (media box on the direct child, CTA margin-top 20/24), verified by CSS injection: split 686 \u2192 710 (= live) and body 5224 (\u03940) at 1440; 721 \u2192 975 (live 980) and body 6482 (\u0394\u22124) at 360. Raw 18.69 % / 16.72 % and footer 9.16 % @360 are the pre-fix offset \u2014 re-stitch after the commit.",
+    "verdict": "PASS after round 1 \u2014 \u0394h vs live BODY 0 @1440 / \u22124 @360; 0.83 % raw / 0.54 % masked @1440, 5.30 % @360 (uniform 5 px offset below the split); header 0.06 / 0.00 %; legacy footer tail-aligned 0.25 % @1440, 2.79 % @360 (residual).",
     "reconcileRound1": {
      "files": [
       "blocks/columns/columns.css (appended: split media box on the direct <p>/<picture> child; CTA paragraph margin-top 20/24)"
      ],
-     "needsCommit": true,
-     "remeasure": "re-stitch 1440 + 360 after the commit"
+     "needsCommit": false,
+     "remeasure": "re-stitch 1440 + 360 after the commit",
+     "committed": true,
+     "remeasuredAt": "2026-09-18T14:53:50Z",
+     "anchors": "published section heights == prototype at 1440 and 360 (training: 500 = 419 + 81 closing rule, 989 = 932 + 57; pls: every section equal at 1440, split 975 vs 980 at 360)"
     }
    }
   }

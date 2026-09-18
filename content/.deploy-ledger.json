@@ -1,8 +1,35 @@
 {
-  "/stories": {
+  "/products/capillary-electrophoresis": {
     "status": "live",
     "attempts": 1,
-    "ts": "2026-09-18T14:28:21.849Z",
+    "ts": "2026-09-18T14:45:48.905Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/products/hplc-products": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T14:45:48.906Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/products/mass-spectrometers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T14:45:55.246Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/products": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T14:45:55.320Z",
     "put": 200,
     "preview": 200,
     "live": 200,

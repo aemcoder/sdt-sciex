@@ -257,7 +257,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/forensics-testing",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -265,17 +265,17 @@
      "360": {
       "pass": true,
       "cls": 0,
-      "docH": 12746
+      "docH": 12754
      },
      "1440": {
       "pass": true,
-      "cls": 0,
+      "cls": 0.0002,
       "pageerrors": 0,
       "blocks": 10,
       "imgs": 13,
       "zeroWidthImgs": 0,
       "stylesMissing": [],
-      "docH": 7955,
+      "docH": 7967,
       "video": {
        "src": "https://sciex.com/content/dam/SCIEX/videos/forensics/pierre-tox-box-intro.mp4",
        "poster": true,
@@ -289,9 +289,9 @@
     "breakpoints": {
      "360": {
       "width": 360,
-      "pixelPct": 13.58,
-      "pixelPctMasked": 13.46,
-      "heightDelta": 39,
+      "pixelPct": 7.14,
+      "pixelPctMasked": 7.01,
+      "heightDelta": 31,
       "headerCropPct": 0,
       "footerCropPct": 1.78,
       "masks": "MASKED 1475 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 8000:100, 8900:100, 980",
@@ -299,13 +299,13 @@
      },
      "1440": {
       "width": 1440,
-      "pixelPct": 7.62,
-      "pixelPctMasked": 7.08,
-      "heightDelta": 12,
+      "pixelPct": 2.16,
+      "pixelPctMasked": 1.51,
+      "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.26,
-      "masks": "MASKED 875 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 7892:75@7880 — authored-",
-      "pass": false
+      "masks": "MASKED 875 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 7892:75 — authored-volat",
+      "pass": true
      }
     },
     "evidence": [
@@ -318,7 +318,8 @@
      "Δh +12 at 1440 (−39 at 360): the live empty Splide media frame (16 px) was dropped; native <video controls> replaces the Plyr chrome (masked Plyr control labels appear as content-diff 🟡 MISSING BODY: Play/Pause/Mute…); the last media-card keeps a live-only trailing mb-32 below 768.",
      "video: hotlinked live mp4 (https://sciex.com/…/pierre-tox-box-intro.mp4) plays from the published origin (poster = pipeline rendition)."
     ],
-    "reconcilePending": true,
+    "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": false
    }
   },
@@ -546,7 +547,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/clinical",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -558,7 +559,7 @@
      },
      "1440": {
       "pass": true,
-      "cls": 0,
+      "cls": 0.0002,
       "pageerrors": 0,
       "blocks": 4,
       "imgs": 3,
@@ -602,6 +603,7 @@
      "published support-band/footer rhythm: Δ0 on sections; live footer disclaimer \"Related to GEN-MKT-18-6312-B\" reproduced."
     ],
     "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": true
    }
   },
@@ -786,7 +788,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/environmental-testing",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -794,11 +796,11 @@
      "360": {
       "pass": true,
       "cls": 0,
-      "docH": 8270
+      "docH": 8225
      },
      "1440": {
       "pass": true,
-      "cls": 0.0002,
+      "cls": 0,
       "pageerrors": 0,
       "blocks": 4,
       "imgs": 8,
@@ -814,18 +816,18 @@
     "breakpoints": {
      "360": {
       "width": 360,
-      "pixelPct": 13.78,
-      "pixelPctMasked": 13.19,
-      "heightDelta": -7,
+      "pixelPct": 5.94,
+      "pixelPctMasked": 6.02,
+      "heightDelta": 38,
       "headerCropPct": 0,
       "footerCropPct": 1.82,
-      "masks": "MASKED 975 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 8000:100, 8188:75@8195 —",
+      "masks": "MASKED 975 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 8000:100, 8188:75@8150 —",
       "pass": false
      },
      "1440": {
       "width": 1440,
-      "pixelPct": 3.28,
-      "pixelPctMasked": 3.07,
+      "pixelPct": 3.17,
+      "pixelPctMasked": 2.97,
       "heightDelta": 43,
       "headerCropPct": 0,
       "footerCropPct": 0.36,
@@ -839,9 +841,10 @@
      "stardust/.work/deploy/g2/pub/"
     ],
     "residuals": [
-     "Δh −43 at 1440: the live junk `<p><a>&nbsp;</a></p>` in the 4th application card was dropped (#112)."
+     "Δh 43 at 1440 / 38 at 360: the live junk `<p><a>&nbsp;</a></p>` in the 4th application card was dropped (#112)."
     ],
-    "reconcilePending": true,
+    "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": false
    }
   },
@@ -1045,7 +1048,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/food-and-beverage-testing",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -1057,7 +1060,7 @@
      },
      "1440": {
       "pass": true,
-      "cls": 0.0002,
+      "cls": 0,
       "pageerrors": 0,
       "blocks": 3,
       "imgs": 4,
@@ -1073,8 +1076,8 @@
     "breakpoints": {
      "360": {
       "width": 360,
-      "pixelPct": 0.41,
-      "pixelPctMasked": 0.34,
+      "pixelPct": 0.15,
+      "pixelPctMasked": 0.15,
       "heightDelta": -1,
       "headerCropPct": 0,
       "footerCropPct": 1.81,
@@ -1083,8 +1086,8 @@
      },
      "1440": {
       "width": 1440,
-      "pixelPct": 1.02,
-      "pixelPctMasked": 0.61,
+      "pixelPct": 0.9,
+      "pixelPctMasked": 0.48,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.43,
@@ -1099,6 +1102,7 @@
     ],
     "residuals": [],
     "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": true
    }
   },
@@ -1312,7 +1316,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/biomedical-and-omics-research",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -1367,7 +1371,8 @@
     "residuals": [
      "Δh −1: the live 1 px spacer dropped; two empty social walls omitted."
     ],
-    "reconcilePending": true,
+    "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": true
    }
   },
@@ -1573,7 +1578,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/cannabis-testing",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -1585,7 +1590,7 @@
      },
      "1440": {
       "pass": true,
-      "cls": 0.0002,
+      "cls": 0,
       "pageerrors": 0,
       "blocks": 4,
       "imgs": 3,
@@ -1601,8 +1606,8 @@
     "breakpoints": {
      "360": {
       "width": 360,
-      "pixelPct": 0.47,
-      "pixelPctMasked": 0.52,
+      "pixelPct": 0.19,
+      "pixelPctMasked": 0.21,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0,
@@ -1611,8 +1616,8 @@
      },
      "1440": {
       "width": 1440,
-      "pixelPct": 0.52,
-      "pixelPctMasked": 0.15,
+      "pixelPct": 0.4,
+      "pixelPctMasked": 0.01,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.26,
@@ -1627,6 +1632,7 @@
     ],
     "residuals": [],
     "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": true
    }
   },
@@ -1796,7 +1802,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -1850,6 +1856,7 @@
     ],
     "residuals": [],
     "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": true
    }
   },
@@ -2086,7 +2093,7 @@
     }
    },
    "published": {
-    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "gatedAt": "2026-09-18T14:58:13.125Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/education/clinical-mass-spec-knowledge-center",
     "regime": "published-origin",
     "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
@@ -2098,7 +2105,7 @@
      },
      "1440": {
       "pass": true,
-      "cls": 0,
+      "cls": 0.0002,
       "pageerrors": 0,
       "blocks": 3,
       "imgs": 3,
@@ -2140,20 +2147,24 @@
     ],
     "residuals": [],
     "reconcilePending": false,
+    "reconcileRound1": "applied + re-measured (columns split cover rhythm, accent arrow 16 px, ticks spaced letter-spacing)",
     "pass": true
    }
   }
  ],
- "publishedAt": "2026-09-18T14:48:32.931Z",
+ "publishedAt": "2026-09-18T14:58:13.125Z",
  "reconcile": {
-  "pending": true,
+  "pending": false,
   "round": 1,
   "needsCommit": [
    "blocks/columns/columns.css (append: `columns split cover` media-cell rhythm 12/16 top+bottom — restores the live empty-frame + pager height, forensics split-right)",
    "styles/styles.css (append: accent arrow gap back to 16 px in lead / columns lead contexts — live-now measurement; `lead ticks spaced` li letter-spacing normal — 360 wraps)"
   ],
   "expected": "forensics 1440 Δh 12 → 0 (raw 7.6% → ≈0.5% incl. video band); forensics 360 Δh −39 → −31 (live trailing mb-32 on the last media-card stays); environmental 360 ul +45 → 0 (doc Δ −7 → −52 = the junk paragraph, as at 1440); accent CTAs 16 px wider as live",
-  "afterCommit": "re-run stardust/.work/deploy/g2/run-pubgate.sh 1440 + 360, guard.mjs, drive.mjs (PUB=1), then finalize-pub.mjs"
+  "afterCommit": "re-run stardust/.work/deploy/g2/run-pubgate.sh 1440 + 360, guard.mjs, drive.mjs (PUB=1), then finalize-pub.mjs",
+  "committed": true,
+  "remeasuredAt": "2026-09-18T14:58:13.094Z",
+  "result": "forensics 1440 Δh 12→0, 7.62→2.16% (band 1500–2000 = video first-frame capture artefact + native controls); forensics 360 Δh 39→31 (live-only trailing mb-32 on the last media-card, documented residual); environmental 1440 Δh 43 kept (dropped live junk anchor), 360 ul fixed (−7→38 = the same junk paragraph now the only offset); accent CTAs at live-now width"
  },
  "publishedChromeParity": " | ✗ 60 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms. | CP-EXIT 2"
 }

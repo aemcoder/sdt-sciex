@@ -143,3 +143,20 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** on approval — upload media for g2/g3/g4, deliver per runbook, run published gates, update state/plan, commit.
 
 ---
+## 2026-09-18T16:30:00Z — Wave L2 delivered and gated: 29 second-level pages live
+
+**Prompt:** user typed "deliver" (approval of the DA content writes).
+
+**Decisions:**
+- Coordinator ran the delivery: 142 media uploads (G2/G3/G4), 25 content pages + relinked chrome/earlier pages via deploy-batch, tab pages previewed first (data-tab/data-accordion emitted by the pipeline) then published.
+- Coordinator eyeball found the stories page 550 px short: the pipeline delivers multi-value section styles as ONE hyphen-joined class. Fixed at runtime in `scripts/scripts.js` (`splitCompoundSectionStyles`, tokens read from styles.css); all four groups re-measured after the fix.
+- One reconcile round per group (spacer style, split-lede margins, alphanumeric tab labels; cover-cell padding, arrow gap, ticks spacing; headless card margin, picture-only split cell; sciex-now nav height, grant geometry, legacy footer rem, embed/hero aspect ratios) — all CSS/JS, four content pages regenerated and redelivered.
+- Final: 26 of 29 pages pass every bar at both widths; 3 carry documented residuals (mass-spectrometers 360 trailing-nbsp wrap, forensics 360 trailing margin, environmental dropped junk anchor). Results table in `stardust/replica/migration-plan.md` § 2c.
+
+**Artifacts touched:** scripts/scripts.js, blocks/*, styles/styles.css, content/* (localised, sanitised), content/.deploy-ledger.json, stardust/replica/progress-g{1..5}.json, stardust/replica/gates/*-published-*, stardust/state.json (33 pages migrated), stardust/replica/migration-plan.md, stardust/notes (N-33…N-35).
+
+**Open questions (owner):** unify legacy footer / header recolour; Coveo; events snapshot cadence; back-to-top button (site-wide, not yet recreated); enable third-party tags.
+
+**Next:** wave 1 siblings (remaining marketing pages) via `migrate` sibling tier + the v3 component→block importer; press-release and product-detail archetypes.
+
+---

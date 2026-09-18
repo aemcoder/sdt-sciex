@@ -112,6 +112,57 @@ swaps are the intended `<h3>` canonicalisation of card titles; stories-rail pagi
 static (`1 / 2`) where live prints `N / total`; the KB first breadcrumb link
 (`/content/SCIEX/language/masters/en`) is kept as captured and 404s on the new origin.
 
+### 2c. Wave L2 — second-level menu items (delivered 2026-09-18, published-origin regime)
+
+All 25 second-level pages plus the 4 pages already on Edge Delivery are live on
+`https://main--sdt-sciex--aemcoder.aem.live`. Numbers are published page vs live sciex.com;
+"masked" excludes the live fixed third-party widgets at stitched-capture seams; Δh = document
+height delta. Bars: pixel ≤ 10 %, |Δh| ≤ 8 px, header/footer crops ≤ 2 %, 0 structural 🔴,
+AI-readability ≥ 98 (100 on every recreated page). Residuals are named per page in
+`stardust/replica/progress-g<n>.json`.
+
+| Page | 1440 (masked) | Δh | 360 | Δh | Verdict |
+|---|---|---|---|---|---|
+| /products | 0.05 % | 0 | 0.16 % | 0 | pass |
+| /products/mass-spectrometers | 0.03 % | 0 | 11.48 % | −23 | 360 residual: pipeline strips a trailing `&nbsp;` that wraps one line on live |
+| /products/capillary-electrophoresis | 0.07 % | 0 | 0.16 % | 0 | pass |
+| /products/hplc-products | 0.05 % | 0 | 0.16 % | 0 | pass |
+| /products/integrated-solutions | 0.01 % | 0 | 0.04 % | 0 | pass |
+| /products/software | 0.08 % | 0 | 0.18 % | +1 | pass (tabs + accordion driven on the origin) |
+| /products/consumables | 0.04 % | 0 | 0.06 % | 0 | pass |
+| /technology | 0.02 % | 0 | 0.16 % | 0 | pass |
+| /applications | 0.02 % | 0 | 0.10 % | 0 | pass |
+| /applications/forensics-testing | 1.51 % | 0 | 7.01 % | +31 | 360 residual: live-only trailing margin on the last media card |
+| /applications/clinical | 0.06 % | 0 | 0.03 % | 0 | pass |
+| /applications/environmental-testing | 2.97 % | +43 | 6.02 % | +38 | residual: a live junk `<p><a>&nbsp;</a></p>` anchor was dropped (#112) |
+| /applications/food-and-beverage-testing | 0.48 % | 0 | 0.15 % | −1 | pass |
+| /applications/biomedical-and-omics-research | 1.63 % | +1 | 2.82 % | +1 | pass |
+| /applications/cannabis-testing | 0.01 % | 0 | 0.21 % | 0 | pass |
+| /education/clinical-mass-spec-knowledge-center | 0.06 % | 0 | 0.09 % | 0 | pass |
+| /about-us | 0.04 % | 0 | 0.11 % | 0 | pass |
+| /about-us/press-releases | 0.21 % | 0 | 0.13 % | 0 | pass |
+| /support/training | 1.69 % | 0 | 1.36 % | 0 | pass (video: native controls vs Plyr) |
+| /support/instrument-service-and-support | 0.48 % | 0 | 0.10 % | 0 | pass |
+| /stories | 3.42 % | −4 | 5.66 % | −4 | pass (posters vs decoded video frames on 57 cards) |
+| /support/professional-lab-services | 0.54 % | 0 (vs live body) | 5.30 % | −4 | pass; 5 px legacy line-height offset at 360 |
+| /support | 2.58 % | +2 | 3.41 % | 0 | pass; 360 footer crop 96 % (14px-rem glyph texture) |
+| /support/software-support | 1.00 % | −1 | 3.30 % | +1 | pass |
+| /education/grant-support | 0.59 % | 0 | 1.55 % | −1 | pass (CLS 0.144 → 0.0003 after aspect-ratio fix) |
+| /events (port) | body 0.51 % | 0 | body 0.39 % | 0 | pass (chrome differs by design: live serves their EDS header) |
+| /resource-hub (port) | body 0.45 % | 0 | body 0.15 % | 0 | pass |
+| /resource-hub/regulatory-documents (port) | body 0.62 % | 0 | body 0.39 % | 0 | pass |
+| /about-us/contact-us (port) | body 1.02 % | −1 | body 1.52 % | −2 | pass |
+
+Block library after L2: header, footer (+legacy), breadcrumb (+legacy), sub-nav, hero, hero-band
+(image|overlay|product|tall|tight), hero-video, cards (promo|products|icons|stories|image|image-text|
+icon-grid|media|three-up|legacy|tiles + size modifiers), tabs, section-tabs (+ `tab | Label`
+sections), accordion, carousel (quotes|media), columns (banners|lead|split variants), support-band,
+statement-cards, event-rows, expertise-rows, article-meta, article-tools, video, embed, page-title,
+support-shell, support-hero, image-map, search-band, plus the ported sx-* / resource-hub blocks.
+Template classes: `kb-article`, `legacy`, `sciex-now`, `page-content`, `sx-port`. Section styles
+are a closed set in `styles/styles.css`; multi-value styles are split at runtime
+(`scripts/scripts.js`, see notes N-34).
+
 ## 3. Phases (what runs in this run vs. later)
 
 | Phase | Owner skill | This run | Later |
@@ -134,7 +185,7 @@ a `qa` sweep between waves.
 | Wave | Scope | Pages | Prereq | Method |
 |---|---|---:|---|---|
 | 0 (this run) ✅ | Home + 2 archetypes | 3 | — | replica gate → deploy → published-origin gate (§ 2b) |
-| 1 | Marketing landings: `/applications/**`, `/products` category level, `/technology/**`, `/diagnostics/**`, `/about-us` marketing pages, `/extraordinary-science` | ~200 | Archetype #2 approved; sibling-variance probe on 8–10 siblings (hero height/scrim, sub-nav presence, card-grid column counts, quote carousel presence) | `migrate` sibling tier → `rollout` |
+| 1 | Marketing landings: `/applications/**`, `/products` category level, `/technology/**`, `/diagnostics/**`, `/about-us` marketing pages, `/extraordinary-science` (**second-level menu pages of every top-level menu delivered in wave L2, § 2c — 29 pages**) | ~200 | Archetype #2 approved; sibling-variance probe on 8–10 siblings (hero height/scrim, sub-nav presence, card-grid column counts, quote carousel presence) | `migrate` sibling tier → `rollout` |
 | 2 | Product detail + method detail + spectral-library detail (`detail-page`) | ~140 | New archetype: `/products/…/x500r-qtof-system` gated; `detail-page` archetype (`/products/methods/…`) gated | replica (2 archetypes) → migrate siblings → rollout |
 | 3 | Knowledge-base articles | 1,789 | Archetype #3 approved ✅; importer contract in `stardust/eds-conversion-log-kb.md` § 4 (variable cells + source selectors); slugs hyphenated + redirect map (see § 7); importer measured on a 50-page sample (content-count acceptance); non-English suffixes need the locale-tree decision; KB search → results page decided (dynamics) | batch importer from the rendered DOM sidecars; `deploy-batch.mjs` with ledger; `qa` per 500 pages |
 | 4 | Press releases (291 articles + 19 year indexes + index), profiles (59) | ~370 | Press-release archetype gated; year-index listing archetype (index-backed or authored rows) | migrate siblings → rollout; listing via `helix-query.yaml` or authored rows (document-first) |

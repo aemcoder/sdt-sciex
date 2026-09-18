@@ -314,3 +314,10 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
 - **Suggest:** update #120 to the observed join behaviour; make `build-harness.mjs`/the
   harness emulator reproduce the pipeline's join so local gates catch it; add a lint rule
   in davids-model-lint for multi-value `style` rows (🟡 with the exact delivered class).
+
+## N-35 — Concurrent agents need per-group gate evidence roots
+- **Observed:** two groups reported their `*-published-*` gate directories vanishing mid-run; a
+  sibling group's mirror script ran `rm -rf stardust/replica/gates/$slug-published-$W` while
+  re-running its own slugs. Shared `stardust/replica/gates/` invites cross-agent clobbering.
+- **Suggest:** gate.sh / published-gate scripts should never `rm -rf` a gate dir (write a new
+  iteration subdir instead), and the replica skill should document a per-run evidence root.
