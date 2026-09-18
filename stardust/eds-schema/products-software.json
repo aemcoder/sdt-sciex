@@ -1,0 +1,1469 @@
+{
+ "source": "http://localhost:8829/products-software-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Software",
+     "href": "/products/software"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Achieve ultimate analytical performance with SCIEX mass spectrometry software"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX software solutions connect instruments, data, and people—turning complex analytical workflows into streamlined, compliant, and future‑ready laboratory operations."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "When operating high‑performance LC‑MS/MS systems, scientists expect confidence in every result. SCIEX software solutions are comprehensive offerings of mass spectrometry software designed to help laboratories achieve ultimate analytical performance across research and routine LC‑MS/MS workflows. Built around SCIEX OS software as the core platform, SCIEX software solutions deliver fast, accurate, and conclusive results by unifying instrument control, method development, data processing, and compliance within a single, integrated software environment."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "media-image",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "tabs",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The right tool for the right job is what you want in your laboratory. Choose the SCIEX software you need for your specific workflows to improve efficiencies and increase productivity."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Our comprehensive portfolio of modern laboratory software helps you make the most of your mass spectrometry system."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Instrument control software"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Method development"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Data processing"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Analyst end-of-life"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Instrument control software"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Method development"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Data processing"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Analyst end-of-life"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Instrument control software"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Method development"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Data processing"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Analyst end-of-life"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Instrument control software"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "SCIEX OS software is the engine that drives SCIEX mass spectrometry. It delivers powerful, intuitive control across the SCIEX portfolio—from nominal mass systems (triple quadrupole) to accurate mass systems (TOF)—while providing the tools you need to monitor performance, protect data quality, and maximize instrument uptime."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "SCIEX OS software provides a modern, integrated environment for confident data processing across quantitative and qualitative mass spectrometry workflows. Designed to simplify review, improve consistency, and support defensible results, it helps laboratories process data efficiently while staying ready for what’s next."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Method development"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "method development with guided optimization and streamlined tools built on the engine you trust, so you can build robust, reproducible methods faster and with greater confidence with SCIEX OS software."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Simplify and accelerate"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "applies machine learning and artificial intelligence to predict optimal transitions, helping you move from compound to method with less trial‑and‑error."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Faster method development starts with intelligent MRM prediction. AI Quantitation software"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Key software solutions for method development"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "SCIEX OS software streamlines and accelerates method development by bringing guided optimization, intuitive tools, and trusted performance together in one integrated platform. It helps scientists build robust, reproducible methods with greater confidence—so they can move faster from development to reliable results"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Faster method development starts with intelligent MRM prediction"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "AI Quantitation software streamlines time-consuming steps in method development workflows by applying machine learning and artificial intelligence to predict optimal transitions, helping you move from compound to method more quickly, with less trial‑and‑error."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/artificial-intelligence-quant"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Leadscape"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Empowering high-throughput quantitative workflows. Leadscape software significantly improves turn-around times in drug candidate analysis in HT-ADME workflows. It increases productivity by simplifying and expediting LC–MS method development cycle time for sensitive and selective bioanalytical assays, without compromising data integrity."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Read more",
+     "href": "https://sciex.com/tech-notes/pharma/discovery/automating-high-throughput-adme-assays-with-leadscape-analyze-s"
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "AI Quantitation software learning hub"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Learn how AI Quantitation software can easily predict MRM transitions for your compounds."
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Learn more",
+     "href": "https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Streamlined analysis: Combining mass spectral data analysis and endpoint calculations for drug discovery insights"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "This technical note shows how AI Quantitation software delivers quick and accurate quantitative results to support drug discovery"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Learn more",
+     "href": "https://sciex.com/tech-notes/pharma/streamlined-analysis-combining-mass-spectral-data-analysis-and-endpoint-calculations-for-drug-discovery-insights"
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "Data processing"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "SCIEX data processing software empowers laboratories to turn complex mass spectrometry data into confident, high‑quality results—faster and with less effort. Built on the SCIEX OS software platform, it allows for workflow-focused usability, powerful automated analysis, and compliance-ready data integrity to help scientists move seamlessly from acquisition to reporting with fewer touchpoints, greater consistency, and full confidence in their results"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Automated, workflow‑driven processing"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Reduces manual intervention through intelligent decision rules and batch automation, improving consistency and productivity across targeted and non‑targeted workflows."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Designed for confident results"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Delivers strong data integrity with audit trails, role‑based access, and high‑quality reporting to support regulated and compliance‑driven environments."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Seamless integration across the SCIEX ecosystem"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Fully integrated within SCIEX OS and compatible with advanced analytics tools for small molecules, biopharma, and multi‑omics workflows—enabling harmonized acquisition, processing, and interpretation."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Future‑ready software foundation"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "A scalable platform that evolves with your lab, supporting new instruments, expanding workflows, and continuous innovation delivered through SCIEX OS software."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Third party software"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "We know how important 3rd party software is to our customers for different workflows, and have selected the best partnerships within our capacity that give you the most value."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Quantitative bioanalysis"
+    },
+    {
+     "role": "heading",
+     "order": 54,
+     "text": "Quantitative bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "SCIEX OS software reduces variability in quantitative bioanalysis by standardizing data acquisition, processing, and review in a single environment, with automated QC, traceable audit trails, and algorithm‑driven peak integration for consistent, defensible results."
+    },
+    {
+     "role": "heading",
+     "order": 56,
+     "text": "Key software solutions for quantitative bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "SCIEX OS-MQ software"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "The next generation of software to enhance your MS quantification productivity. Compatible with all SCIEX systems (replaces MultiQuant and PeakView software)"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Central Administrator Console"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Control, manage and audit. Laboratories with multiple instruments can now use the Central Administrator Console (CAC) on SCIEX OS software 3.0 or later to create and manage projects."
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "heading",
+     "order": 63,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Quantitative bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Unlock reliable and sensitive quantitative biological data with LC-MS solutions that work as hard as you do. Make your bioanalysis effortless when quantifying small and large molecule therapeutic candidates, including cyclic peptides and glucagon-like peptide-1 (GLP-1)."
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk/quantitative-bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Biopharmaceutical and large molecule workflows"
+    },
+    {
+     "role": "heading",
+     "order": 68,
+     "text": "Biopharmaceutical and large molecule workflows"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "The SCIEX biopharmaceutical software solution unites SCIEX OS software, Biologics Explorer software, and Genedata Expressionist—with PMI Byos compatibility—to streamline large‑molecule and oligonucleotide analysis from acquisition to interpretation, enabling faster, more automated, high‑confidence biologics workflows."
+    },
+    {
+     "role": "heading",
+     "order": 70,
+     "text": "Key software solutions for biopharmaceutical and large molecule workflows"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Biologics Explorer software"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Leveraging the latest acquisition techniques and built on a heritage of proven performance, Biologics Explorer software delivers highly accurate and informative workflows for fully characterizing protein biotherapeutics."
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/biologics-explorer-software"
+    },
+    {
+     "role": "heading",
+     "order": 74,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Oligonucleotide analysis"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Break through the boundaries of characterizing synthetic oligonucleotides—such as antisense oligonucleotides (ASOs), small interfering RNA (siRNA) and single guide RNA (sgRNA)—along with plasmids, DNA and more. Discover intuitive solutions that let you set your own schedule and optimize your workflows for what matters for your nucleic acid products."
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/oligonucleotide-analysis"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Protein therapeutics"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Tackle the next frontier in protein therapeutics with analytical strategies ignited by collaboration."
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/protein-therapeutics"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "mRNA-LNP research"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Expand the frontiers of genetic medicine development with state-of-the-art analytical solutions for lipid nanoparticles (LNPs), messenger RNA (mRNA) and related impurities. Set your own schedule with confidence empowered by relevant, accurate and reproducible data and workflows."
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/mrna-research"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "Cell and gene therapy analysis"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Embrace a new era of medicine with intuitive and flexible analytical solutions designed to deliver meaningful results. Reduce the complexity of developing gene-editing tools and next-generation vaccines with data-driven confidence."
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Pharma, ADME-Tox and DMPK"
+    },
+    {
+     "role": "heading",
+     "order": 88,
+     "text": "Pharma, ADME-Tox and DMPK"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "The SCIEX software solution for ADME and DMPK brings together the standardized workflows of SCIEX OS software with integrated structural interpretation from Molecule Profiler software and AI‑driven automation from AI Quantitation software from Mass Analytica. AI Quantitation software delivers a streamlined path from acquisition to ADME endpoints, reducing manual effort, improving cross‑study consistency, and accelerating data‑driven decisions in both routine and high‑throughput discovery workflows."
+    },
+    {
+     "role": "heading",
+     "order": 90,
+     "text": "Key software solutions for pharma, ADME-Tox and DMPK"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "AI Quantitation software for processing"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "AI Quantitation software delivers a streamlined path from acquisition to ADME endpoints, reducing manual effort, improving cross‑study consistency, and accelerating data‑driven decisions in both routine and high‑throughput discovery workflows."
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/artificial-intelligence-quant"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "SCIEX OS software provides a modern, integrated environment for confident data processing across quantitative and qualitative mass spectrometry workflows. Designed to simplify review, improve consistency, and support defensible results, it helps laboratories process data efficiently while staying ready for what’s next."
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "Molecule Profiler software"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Driven by MS and MS/MS data analysis coupled with extensive libraries, Molecule Profiler software delivers highly accurate and flexible workflows for determining impurities and biotransformations for a wide variety of therapeutic molecules."
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/molecule-profiler-software"
+    },
+    {
+     "role": "heading",
+     "order": 100,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "ADME-Tox and DMPK"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Advance the development of your next therapeutic drug with easy-to-operate, integrated analytical systems that can provide new insights into ADME-Tox and DMPK. Rapidly and comprehensively characterize drug candidates with robust and sensitive solutions for identification, monitoring and quantitation."
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk/adme-pharmacokinetic-research"
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "High-throughput mass spectrometry"
+    },
+    {
+     "role": "body",
+     "order": 105,
+     "text": "Screen thousands of candidates for desirable drug properties and process data with confidence faster than ever before. Get the information you need to make go/no-go decisions as quickly as possible in the drug discovery phase of your work."
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research/high-throughput-mass-spectrometry"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "Metabolite identification"
+    },
+    {
+     "role": "body",
+     "order": 108,
+     "text": "Advance your drug discoveries with reliable metabolite data that save time and money. Our range of solutions supports routine monitoring and complex identification to give your team confidence during synthetic therapeutic development."
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research/metabolite-identification"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Food and environmental workflows"
+    },
+    {
+     "role": "heading",
+     "order": 111,
+     "text": "Food and environmental workflows"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "SCIEX OS software and SCIEX OS‑MQ software provide food and environmental labs with a unified, traceable LC‑MS/MS workflow that simplifies acquisition, automates peak integration, and data review—capabilities already applied in high‑throughput contaminant testing. With built‑in data integrity controls and consistent processing across batches, the software helps laboratories meet regulatory requirements and deliver fast, reliable quantitation across complex matrices."
+    },
+    {
+     "role": "heading",
+     "order": 113,
+     "text": "Key software solutions for food and environmental"
+    },
+    {
+     "role": "body",
+     "order": 114,
+     "text": "SCIEX OS-MQ software"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "The next generation of software to enhance your MS quantification productivity. Compatible with all SCIEX systems (replaces MultiQuant and PeakView software)"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "heading",
+     "order": 117,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "Environmental testing"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Respond quickly and meet regulations (MRLs) with confident results for the screening, identification, and quantitation of low-level chemical contaminants."
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Food testing"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "Detect and identify targeted and non-targeted analysis at or below maximum residue limits with high-quality data you can trust."
+    },
+    {
+     "role": "cta",
+     "order": 123,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "Small molecule screening. impurities, food and forensic screening"
+    },
+    {
+     "role": "heading",
+     "order": 125,
+     "text": "Small molecule screening, impurities, food and forensic screening"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "SCIEX software solutions built on SCIEX OS software and extensive MS/MS spectral and in-silico libraries provide a unified, traceable environment for detecting, identifying, and characterizing impurities and unknowns across food and environmental matrices, drugs of abuse, toxicology, and pharmaceutical products. Molecule Profiler software extends this environment for the characterization of drug impurities."
+    },
+    {
+     "role": "heading",
+     "order": 127,
+     "text": "Key software solutions for small molecule screening, impurities, food and forensic screening"
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "SCIEX OS software provides a modern, integrated environment for confident data processing across quantitative and qualitative mass spectrometry workflows. Designed to simplify review, improve consistency, and support defensible results, it helps laboratories process data efficiently while staying ready for what’s next."
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Molecule Profiler software"
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "Driven by MS and MS/MS data analysis coupled with extensive libraries, Molecule Profiler software delivers highly accurate and flexible workflows for determining impurities and biotransformations for a wide variety of therapeutic molecules."
+    },
+    {
+     "role": "cta",
+     "order": 133,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/molecule-profiler-software"
+    },
+    {
+     "role": "heading",
+     "order": 134,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "Forensic toxicology"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "Whether you need to comprehensively screen for drugs, confirm and quantify them, identify unknown substances or characterize new and emerging drugs, SCIEX has a solution that meets all your most demanding requirements."
+    },
+    {
+     "role": "cta",
+     "order": 137,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/forensic-toxicology"
+    },
+    {
+     "role": "body",
+     "order": 138,
+     "text": "Environmental testing"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "Respond quickly and meet regulations (MRLs) with confident results for the screening, identification, and quantitation of low-level chemical contaminants."
+    },
+    {
+     "role": "cta",
+     "order": 140,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "Food testing"
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "Detect and identify targeted and non-targeted analysis at or below maximum residue limits with high-quality data you can trust."
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "body",
+     "order": 144,
+     "text": "Impurity analysis"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "Increase confidence in impurity analysis with compliant-ready solutions and services on one software platform that supports your team through the development process. Reliably identify, quantify and monitor non-intentionally added substances (NIAS) throughout development, manufacturing and storage."
+    },
+    {
+     "role": "cta",
+     "order": 146,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/impurity-analysis"
+    },
+    {
+     "role": "body",
+     "order": 147,
+     "text": "Pharma impurities, including nitrosamines"
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "Achieve robust and sensitive nitrosamine, impurity and degradant analyses with instruments that are trusted, easy to use and supported with dependable service and technical support."
+    },
+    {
+     "role": "cta",
+     "order": 149,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/impurity-analysis/pharma-impurities"
+    },
+    {
+     "role": "body",
+     "order": 150,
+     "text": "Omics workflows"
+    },
+    {
+     "role": "heading",
+     "order": 151,
+     "text": "Advanced discovery and structural analysis for omics workflows"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "SCIEX works in partnership with established third‑party software providers to support trusted omics data‑processing tools. Together, SCIEX OS software, Skyline, PEAKS, and MS‑DIAL help simplify complex discovery workflows, improve throughput and quantitative robustness, and enable higher‑confidence interpretation within proteomics, metabolomics, and lipidomics studies."
+    },
+    {
+     "role": "body",
+     "order": 153,
+     "text": "SCIEX software solutions support multiple omics workflows by combining SCIEX OS software with established third‑party software, including Skyline, PEAKS, and MS‑DIAL. When paired with ZT Scan DIA technology, this approach is designed to support advanced proteomics, metabolomics, and lipidomics discovery workflows, while maintaining continuity with familiar analysis tools."
+    },
+    {
+     "role": "body",
+     "order": 154,
+     "text": "Together, these tools form a modular and flexible software framework that supports multiple omics workflows, helping researchers simplify discovery, improve feature detection and structural interpretation, to accelerate biological insight."
+    },
+    {
+     "role": "heading",
+     "order": 155,
+     "text": "Key software solutions for advanced discovery and structural analysis for omics"
+    },
+    {
+     "role": "body",
+     "order": 156,
+     "text": "SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 157,
+     "text": "SCIEX OS software provides a modern, integrated environment for confident data processing across quantitative and qualitative mass spectrometry workflows. Designed to simplify review, improve consistency, and support defensible results, it helps laboratories process data efficiently while staying ready for what’s next."
+    },
+    {
+     "role": "cta",
+     "order": 158,
+     "text": "Read more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "PEAKS"
+    },
+    {
+     "role": "body",
+     "order": 160,
+     "text": "Built on industry-leading de novo sequencing enhanced by deep learning, PEAKS uniquely integrates spectral library and database search, PTM and sequence variant discovery, and robust quantification in a single, streamlined workflow - enabling researchers to uncover novel biology, maximize proteome coverage, and trust every result, whether working with IDA/DDA, Zeno SWATH or ZT Scan DIA, or targeted proteomics data."
+    },
+    {
+     "role": "body",
+     "order": 161,
+     "text": "MS-DIAL"
+    },
+    {
+     "role": "body",
+     "order": 162,
+     "text": "Open‑source software for untargeted metabolomics and lipidomics, supporting peak detection, deconvolution, compound annotation, and statistical analysis in complex biological datasets. Optimized for SCIEX SWATH, ZT Scan DIA and EAD workflows, enabling improved precursor–fragment association and greater structural confidence for small‑molecule discovery."
+    },
+    {
+     "role": "body",
+     "order": 163,
+     "text": "SKYLINE"
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "A freely available and open-source Windows client application that allows you to process SCIEX raw data directly for building Selected Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM), Data Independent Acquisition (DIA/SWATH), and DDA with MS1 quantitative methods and analyze the resulting mass spectrometer data. Its flexible configuration supports all molecules. It aims to employ cutting-edge technologies to create and iteratively refine targeted methods for large-scale quantitative mass spectrometry studies in life sciences."
+    },
+    {
+     "role": "heading",
+     "order": 165,
+     "text": "Additional information and resources"
+    },
+    {
+     "role": "body",
+     "order": 166,
+     "text": "Biomedical and omics research"
+    },
+    {
+     "role": "body",
+     "order": 167,
+     "text": "Scale up your research to identify key genes, proteins, lipids and metabolites and easily integrate your data to find relevant insights."
+    },
+    {
+     "role": "cta",
+     "order": 168,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/biomedical-and-omics-research"
+    },
+    {
+     "role": "body",
+     "order": 169,
+     "text": "ZenoTOF 8600 system"
+    },
+    {
+     "role": "body",
+     "order": 170,
+     "text": "Extraordinary discoveries demand extraordinary proof. The SCIEX ZenoTOF 8600 system combines proven technology from our most sensitive triple quad with that of our most versatile Zeno trap-enabled QTOF. Delivering up to 10x improvements in sensitivity* means achieving lower limits of quantitation and enabling enhanced performance across a multitude of accurate mass workflows."
+    },
+    {
+     "role": "cta",
+     "order": 171,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/8600-system"
+    },
+    {
+     "role": "heading",
+     "order": 172,
+     "text": "Analyst software"
+    },
+    {
+     "role": "body",
+     "order": 173,
+     "text": "As scientific discovery accelerates, the tools supporting your work must evolve just as quickly. That’s why SCIEX is beginning the end-of-support for Analyst software platform, a trusted solution for over 27 years.​​ This transition reflects our commitment to advancing capability and performance. SCIEX OS software is our next-generation software platform, built to meet the needs of modern labs. It offers streamlined workflows, enhanced compliance features, and full compatibility with Windows 11 (expected in Q3 2025)."
+    },
+    {
+     "role": "cta",
+     "order": 174,
+     "text": "Analyst end-of-support Resource Center",
+     "href": "https://sciex.com/support/software-support/analyst-software-end-of-support"
+    },
+    {
+     "role": "cta",
+     "order": 175,
+     "text": "Benefits of SCIEX OS software",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    }
+   ],
+   "imgCount": 36,
+   "editableTexts": 91,
+   "repeats": [
+    {
+     "unitSelector": "DIV.vtabs__tab",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.vtabs__panel-grid",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.vtabs__mob-item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "testimonial",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The software is just as important as the hardware. The most recent SCIEX OS software is particularly user-friendly, making it ideal for day-to-day operation and training."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Rawi Ramautar"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Principal Investigator at the Leiden Academic Centre for Drug Research"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Services and compliance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SCIEX provides expert mass spectrometry software support and integrated compliance services to help you get the most from your instruments—faster and with confidence. By running the right software for your workflow and regulatory needs, you can improve productivity, ensure data integrity, and generate high‑quality results."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Our software ecosystem combines best‑in‑class capabilities with proactive technical and compliance support, delivered by experts who understand SCIEX systems and global regulatory requirements. The result is smoother lab operations, faster returns on your investment, and a lab that stays efficient and audit‑ready."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Moving forward together from Analyst to SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Why is SCIEX OS software the right choice for your lab?"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/software-support/migrating-to-sciex-os"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Change control plan"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Mitigate the potential risks of your next software update"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/software-support/change-control-plan"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Lab compliance services"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "SCIEX is the right partner to choose for a compliant mass spectrometry lab."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services/lab-compliance-services"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Professional laboratory services"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "At SCIEX, we offer a range of professional lab services to help our customers tackle their most pressing scientific challenges."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Mass spectrometry software support plans"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Access the latest functionality of your software"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/software-support/sw-support-plns"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Quick links"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Your voice is important to us"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Do you have ideas for new software features, and updates to the current ones?"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Submit idea",
+     "href": "https://sciex.com/support/software-feature-requests"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Software download is just a click away"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Keeping your operating system and applications up to date is one of the best ways to optimize productivity and security. Get the latest updates for your software now."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Download software",
+     "href": "https://sciex.com/support/software-support/software-downloads"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Software license activation"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Have you purchased SCIEX software and want to get started now?"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Activate software",
+     "href": "https://sciex.com/support/activate-software"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Software status updates"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Are you looking for the most current information on the status of a software version or unsure about the support policy?"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Check status",
+     "href": "https://sciex.com/support/software-support/software-support-policy"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "End user license agreement (EULA)"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Review the terms and conditions of your software."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Review EULAs",
+     "href": "https://sciex.com/support/customer-documents?filters=asset%2Feula%2C"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX user´s upgrade spot"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Continuous improvement is one of SCIEX’s core values. This rule applies to our software engineering process, too. That is why our software developers listen to users’ feedback to ensure customers get the best in analytical performance, system security and user experience."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Say hello to the future of quantitative analysis"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Boost your quantitative workflows by upgrading from MultiQuant software to SCIEX OS-MQ software."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Advance your data processing capabilities"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Make the leap from MasterView software to the all-new SCIEX OS-Q software to cover your quantitative and qualitative workflows in one single piece of software."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Windows 10 is here"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Can your software run on Windows 10? Don't let your computer slow down your science. Take advantage of our special software upgrade program."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "https://sciex.com/landing-pages/upgrade-with-confidence"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Make the best of your investment"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Never feel out of date again with novel software support plans. Future proof your lab with priority support and complimentary upgrades."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Software licensing simplified"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "The subscription software your laboratory needs is now available. We’re here to help you make the switch!"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn more",
+     "href": "https://sciex.com/content/dam/SCIEX/pdf/brochures/Software-Licensing-Simplified-Reason-for-Software-Subscription.pdf"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Community news"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Software licensing comparison: subscription or perpetual?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In this blog, we compare both options and explain the value of each choice for your laboratory."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read more",
+     "href": "https://sciex.com/community/blogs/blogs/software-licensing-comparison-subscription-or-perpetual"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "split-right",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Your one stop for SCIEX products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "You can now purchase your favorite SCIEX software products online at the SCIEX Store."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Start shopping",
+     "href": "https://us-store.sciex.com/USD/software?_gl=1*1kxr9e1*_ga*MTk3MTk3NjE3OC4xNzA5MDUyNzkx*_ga_KD23C87L58*MTcxMzM1NjAzMy4yMS4xLjE3MTMzNjYxNTQuMC4wLjA.&_ga=2.74933202.1306187906.1713170925-1971976178.1709052791&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "html-injection",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "#os-tabs .tw-pb-32 { padding: 2pc 0; } .tw-container.tw-hidden.md\\:tw-flex.tw-flex-row.tw-w-full.tw-items-stretch.tw-flex-wrap div button:not(button.tw-h-full.tw-text-left.text-base-bolder.tw-w-160.hover\\:tw-text-blue-700.focus-visible\\:tw-outline.focus-visible\\:tw-outline-2.focus-visible\\:tw-outline-offset-\\[-2px\\].focus-visible\\:tw-outline-blue-700.tw-text-blue-700) { word-spacing: 100vw; }"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

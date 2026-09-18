@@ -22,6 +22,25 @@
  *                     § applications.
  *   cards stories three-up — modifier: live .image-card-carousel perPage 3 (pharma "Thought
  *                     leaders"): 3-up at ≥1024, t-charlie title; same rail mechanics.
+ *   cards image flat / cols-3 / cols-2 — G1 page-template modifiers
+ *                     (stardust/eds-conversion-log-g1.md): `flat` = head without top
+ *                     rule/padding (live .app-cards__head on /products/…); `cols-3` = live
+ *                     .app-cards__grid--md3 (three-card, media-card, service grid); `cols-2` =
+ *                     .app-cards__grid--md2 alone (stays 2-up). Same row shape as `image`.
+ *                     Head level = live type scale (h2 text-charlie, h3 text-delta, h4 text-echo).
+ *   cards image-text — live .image-text-2-col (/products, CE, software quick links):
+ *                     ruled rows with a 100/120/192 px thumb, 2 columns from 1024; ruled head
+ *                     (h2/h3 [+ p intro]) is DEFAULT CONTENT before the block, reabsorbed (EW8).
+ *                     Row = picture | body
+ *                     (<h3>title</h3><p>text</p><p><em><a>Learn more</a></em></p>)
+ *                     Schema: stardust/eds-schema/products.json § image-text-2-col (10 units).
+ *   cards icon-grid  — live .icon-card (/products, 6 units, svg icons, 4-up) and .icon-3-col
+ *                     (/products/consumables, 8 units, no icons, `cols-3`): ruled columns, optional
+ *                     40 px icon, h3 + text + arrow link pinned to the bottom; head (h3 [+ p])
+ *                     reabsorbed (EW8). Row = icon | body — the icon cell holds an authored
+ *                     <img src="…/media/products/icon-<name>.svg" alt=""> (pure-vector,
+ *                     small) or is empty. Schema: stardust/eds-schema/products.json § icon-card,
+ *                     products-consumables.json § icon-3-col.
  * Section head (h2 [+ lede]) is DEFAULT CONTENT before the block (D1); `icons` and
  * `stories` reabsorb it by MOVING the wrapper's children (EW8), the others leave it alone.
  * Link text of the CTA doubles as the media link's aria-label (attribute, not rendered text).
@@ -281,6 +300,66 @@ function decorateImage(block, cards) {
   block.replaceChildren(container);
 }
 
+/* ---------- image-text: live .image-text-2-col — ruled rows, thumb | title/text/link,
+   head reabsorbed (EW8) ---------- */
+function decorateImageText(block, cards) {
+  const container = el('div', 'container');
+  const list = el('div', 'imgtext-list');
+  const head = sectionHead(block);
+  if (head) {
+    const h = el('div', 'imgtext-head');
+    h.append(...head.childNodes);
+    head.remove();
+    list.append(h);
+  }
+  cards.forEach((card) => {
+    const item = el('div', 'imgtext-item');
+    if (card.media) {
+      const thumb = el('div', 'imgtext-thumb');
+      const pic = card.media.matches('picture, img') ? card.media : card.media.querySelector('picture, img');
+      const a = mediaLink(card);
+      a.append(pic);
+      thumb.append(a);
+      item.append(thumb);
+    }
+    const body = el('div', 'imgtext-body');
+    const copy = el('div');
+    if (card.heading) { const t = el('div', 'imgtext-title'); t.append(card.heading); copy.append(t); }
+    if (card.texts.length) { const t = el('div', 'imgtext-text'); t.append(...card.texts); copy.append(t); }
+    body.append(copy);
+    card.ctas.forEach((c) => body.append(c));
+    item.append(body);
+    list.append(item);
+  });
+  container.append(list);
+  block.replaceChildren(container);
+}
+
+/* ---------- icon-grid: live .icon-card / .icon-3-col — ruled columns, optional icon,
+   link pinned bottom ---------- */
+function decorateIconGrid(block, cards) {
+  const container = el('div', 'container');
+  const head = sectionHead(block);
+  if (head) {
+    const h = el('div', 'icongrid-head');
+    h.append(...head.childNodes);
+    head.remove();
+    container.append(h);
+  }
+  const grid = el('div', 'icongrid-grid');
+  cards.forEach((card) => {
+    const node = el('div', 'icongrid-card');
+    const icon = card.icon || card.media;
+    if (icon) { const i = el('div', 'icongrid-icon'); i.append(icon); node.append(i); }
+    if (card.heading) { const t = el('div', 'icongrid-title'); t.append(card.heading); node.append(t); }
+    if (card.texts.length) { const t = el('div', 'icongrid-text'); t.append(...card.texts); node.append(t); }
+    if (card.ctas.length) { const l = el('div', 'icongrid-cta'); l.append(...card.ctas); node.append(l); }
+    grid.append(node);
+  });
+  container.append(grid);
+  block.replaceChildren(container);
+}
+
 export default async function decorate(block) {
   const rows = [...block.children];
   if (!rows.length) return;
@@ -288,6 +367,8 @@ export default async function decorate(block) {
   if (block.classList.contains('promo')) decoratePromo(block, cards.filter((c) => c.media));
   else if (block.classList.contains('icons')) decorateIcons(block, cards);
   else if (block.classList.contains('stories')) decorateStories(block, cards);
+  else if (block.classList.contains('image-text')) decorateImageText(block, cards);
+  else if (block.classList.contains('icon-grid')) decorateIconGrid(block, cards);
   else if (block.classList.contains('image')) decorateImage(block, cards);
   else decorateProducts(block, cards);
 }

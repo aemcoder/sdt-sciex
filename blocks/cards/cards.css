@@ -663,3 +663,680 @@
     transform: none;
   }
 }
+
+/* stylelint-disable no-descending-specificity -- variant appends after the base rules (#109) */
+
+/* ==========================================================================================
+   G1 variants (products / technology page-template) — APPENDED by the stardust:deploy G1 agent.
+   Values from stardust/prototypes/css/v3-products.css § CARD GRIDS / IMAGE-TEXT / ICON CARDS.
+   Variant specificity throughout (#109); authored h3 / p styled through wrappers (EW2).
+   ---------------------------------------------------------------------------------------
+   cards image flat    — the page-template head: no top rule, no top padding (pharma's `image`
+                         head keeps its rule). Head level = live type scale: h2 text-charlie,
+                         h3 text-delta, h4 text-echo.
+   cards image cols-3  — live .app-cards__grid--md3 (three-card / media-card / service grids)
+   cards image cols-2  — live .app-cards__grid--md2 alone (stays 2-up at ≥1024)
+   cards image-text    — live .image-text-2-col: ruled rows, 100/120/192 px thumb, 2 columns
+                         from 1024; ruled head (h2/h3 [+ p intro]) reabsorbed (EW8)
+   cards icon-grid     — live .icon-card / .icon-3-col: ruled columns, optional 40 px icon,
+                         h3 + text + arrow link pinned to the bottom; `cols-3` = .icon-3-col
+   ========================================================================================== */
+.cards.image.flat .image-grid-head {
+  border-top: 0;
+}
+
+.cards.image.flat .image-grid-head :is(h1, h2, h3, h4) {
+  padding-top: 0;
+}
+
+.cards.image .image-grid-head h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.cards.image .image-grid-head h4 {
+  font-size: 20px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+/* ---- image-text ---- */
+.cards.image-text {
+  padding: 32px 0;
+}
+
+.cards.image-text .imgtext-list {
+  display: flex;
+  flex-direction: column;
+  column-gap: 32px;
+}
+
+.cards.image-text .imgtext-head {
+  width: 100%;
+  padding-bottom: 32px;
+  border-top: 1px solid var(--border-default);
+}
+
+.cards.image-text .imgtext-head :is(h1, h2, h3, h4) {
+  padding-top: 24px;
+  color: var(--grey-900);
+}
+
+.cards.image-text .imgtext-head h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.cards.image-text .imgtext-head p {
+  padding-top: 16px;
+  margin-top: 0;
+  color: var(--grey-500);
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.cards.image-text .imgtext-item {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+  border-top: 1px solid var(--border-default);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.cards.image-text .imgtext-thumb {
+  position: relative;
+  align-self: flex-start;
+  flex: none;
+  width: 100px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.cards.image-text .imgtext-thumb a {
+  display: inline;
+}
+
+.cards.image-text .imgtext-thumb picture {
+  display: contents;
+}
+
+.cards.image-text .imgtext-thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.cards.image-text .imgtext-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.cards.image-text .imgtext-title :is(h2, h3, h4) {
+  margin-bottom: 6px;
+  color: var(--grey-900);
+  font-size: 17px;
+  font-weight: 530;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.cards.image-text .imgtext-text {
+  color: var(--grey-500);
+  overflow-wrap: break-word;
+}
+
+.cards.image-text .imgtext-text p + p {
+  padding-top: 16px;
+}
+
+.cards.image-text .imgtext-body p:has(> a.button, > em > a, > strong > a) {
+  margin-top: 12px;
+}
+
+.cards.image-text .imgtext-thumb img:hover {
+  transform: scale(1.05);
+}
+
+/* ---- icon-grid ---- */
+.cards.icon-grid {
+  padding: 32px 0;
+}
+
+.cards.icon-grid .icongrid-head {
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.cards.icon-grid .icongrid-head :is(h1, h2, h3, h4) {
+  color: var(--grey-900);
+}
+
+.cards.icon-grid .icongrid-head h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.cards.icon-grid .icongrid-head p {
+  padding-top: 16px;
+  margin-top: 0;
+  color: var(--grey-500);
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.cards.icon-grid .icongrid-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.cards.icon-grid .icongrid-card {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--grey-100);
+  padding-top: 24px;
+}
+
+.cards.icon-grid .icongrid-icon {
+  margin-bottom: 16px;
+  line-height: 0;
+}
+
+.cards.icon-grid .icongrid-icon p {
+  margin: 0;
+}
+
+.cards.icon-grid .icongrid-icon :is(svg, img) {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.cards.icon-grid .icongrid-title :is(h2, h3, h4) {
+  color: var(--grey-900);
+  font-size: 17px;
+  font-weight: 530;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.cards.icon-grid .icongrid-text {
+  margin-top: 6px;
+  color: var(--grey-500);
+  overflow-wrap: break-word;
+}
+
+.cards.icon-grid .icongrid-text p + p {
+  padding-top: 16px;
+}
+
+.cards.icon-grid .icongrid-cta {
+  margin-top: auto;
+}
+
+.cards.icon-grid .icongrid-cta p {
+  margin-top: 12px;
+}
+
+@media (width >= 640px) {
+  .cards.icon-grid .icongrid-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cards.icon-grid .icongrid-card {
+    padding-right: 16px;
+  }
+}
+
+@media (width >= 768px) {
+  .cards.image .image-grid-head h3 {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  .cards.image .image-grid-head h4 {
+    font-size: calc(14.588px + 0.7353vw);
+    line-height: 1.3;
+  }
+
+  .cards.image.cols-3 .image-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cards.image.cols-2 .image-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cards.image-text {
+    padding: 48px 0;
+  }
+
+  .cards.image-text .imgtext-head {
+    padding-bottom: 48px;
+  }
+
+  .cards.image-text .imgtext-head :is(h1, h2, h3, h4) {
+    padding-top: 32px;
+  }
+
+  .cards.image-text .imgtext-head h3 {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  .cards.image-text .imgtext-head p {
+    padding-top: 20px;
+    width: 58.3333%;
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .cards.image-text .imgtext-thumb {
+    width: 120px;
+  }
+
+  .cards.image-text .imgtext-title :is(h2, h3, h4) {
+    margin-bottom: 8px;
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .cards.image-text .imgtext-text p + p {
+    padding-top: 20px;
+  }
+
+  .cards.image-text .imgtext-body p:has(> a.button, > em > a, > strong > a) {
+    margin-top: 16px;
+  }
+
+  .cards.icon-grid {
+    padding: 48px 0;
+  }
+
+  .cards.icon-grid .icongrid-head {
+    padding-bottom: 48px;
+  }
+
+  .cards.icon-grid .icongrid-head h3 {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  .cards.icon-grid .icongrid-head p {
+    padding-top: 20px;
+    width: 58.3333%;
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .cards.icon-grid .icongrid-icon {
+    margin-bottom: 20px;
+  }
+
+  .cards.icon-grid .icongrid-title :is(h2, h3, h4) {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .cards.icon-grid .icongrid-text {
+    flex-grow: 1;
+    margin-top: 8px;
+  }
+
+  .cards.icon-grid .icongrid-text p + p {
+    padding-top: 20px;
+  }
+
+  .cards.icon-grid .icongrid-cta p {
+    margin-top: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards.image.cols-3 .image-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cards.image.cols-2 .image-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .cards.image-text .imgtext-list {
+    flex-flow: row wrap;
+  }
+
+  .cards.image-text .imgtext-item {
+    width: calc(50% - 16px);
+    column-gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .cards.image-text .imgtext-thumb {
+    width: 192px;
+  }
+
+  .cards.icon-grid .icongrid-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 48px 32px;
+  }
+
+  .cards.icon-grid.cols-3 .icongrid-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .cards.icon-grid .icongrid-card {
+    padding-top: 32px;
+  }
+}
+
+@media (width >= 1280px) {
+  .cards.image .image-grid-head h3,
+  .cards.image-text .imgtext-head h3,
+  .cards.icon-grid .icongrid-head h3 { font-size: 32px; }
+
+  .cards.image .image-grid-head h4 { font-size: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards.image-text .imgtext-thumb img:hover {
+    transform: none;
+  }
+}
+
+/* ---------- G4 legacy variants — APPENDED, CSS-only over the default card template (cards.js untouched):
+   `cards legacy` = live .columnlistcard .lg-card (/support/software-support: 2 half-white cards on a teal
+   canvas, icon square, h4→h3, chevron link); `cards tiles` = live .hor-list-box .lg-tile (/education/grant-support:
+   2 × 49.5% tiles, 185px icon cell, absolute-inset copy). Values: stardust/prototypes/css/support-software-support.css,
+   education-grant-support.css. Log: stardust/eds-conversion-log-g4.md. ---------- */
+.cards.legacy,
+.cards.tiles {
+  font-family: helvetica, arial, sans-serif;
+  text-align: left;
+}
+
+.cards.legacy .container,
+.cards.tiles .container {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards.legacy .card,
+.cards.tiles .card {
+  position: relative;
+  transition: all 0.3s ease;
+  background: rgb(255 255 255 / 50%);
+}
+
+.cards.legacy .card:hover,
+.cards.tiles .card:hover {
+  background: #fff;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 10%);
+}
+
+.cards.legacy .card-media,
+.cards.tiles .card-media {
+  position: relative;
+  align-self: auto;
+  width: auto;
+  aspect-ratio: auto;
+  overflow: visible;
+  margin: 0;
+}
+
+.cards.legacy .card-media a,
+.cards.tiles .card-media a {
+  position: static;
+  display: inline;
+}
+
+.cards.legacy .card-media picture,
+.cards.legacy .card-media img,
+.cards.tiles .card-media picture,
+.cards.tiles .card-media img {
+  position: static;
+  inset: auto;
+  width: auto;
+  height: auto;
+  object-fit: fill;
+  transition: none;
+}
+
+.cards.legacy .card-body,
+.cards.tiles .card-body {
+  display: block;
+  flex: none;
+  align-self: auto;
+  width: auto;
+}
+
+.cards.legacy .card-title,
+.cards.tiles .card-title { margin: 0; }
+
+.cards.legacy .card-title :is(h2, h3, h4),
+.cards.tiles .card-title :is(h2, h3, h4) {
+  margin: 10px 0;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 26px;
+  color: #5f6062;
+}
+
+.cards.legacy .card-text,
+.cards.tiles .card-text {
+  flex-grow: 0;
+  color: #585857;
+}
+
+.cards.legacy .card-text p,
+.cards.tiles .card-text p {
+  padding-top: 0;
+  color: #585857;
+}
+
+/* legacy: teal canvas (10px + 2px white rule) → 49% cards, .5% gutters */
+.cards.legacy {
+  max-width: 1140px;
+  margin-top: 40px;
+}
+
+.cards.legacy .container {
+  padding: 10px;
+  background: #e4f1f5;
+  border-top: 2px solid #fff;
+}
+
+.cards.legacy .three-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0;
+  padding: 10px;
+}
+
+.cards.legacy .card {
+  flex: 0 0 49%;
+  margin: 0.5%;
+  padding: 10px 10px 70px; /* .lg-card__wrap 10 + .lg-card__content padding-bottom 60 */
+  text-align: center;
+}
+
+.cards.legacy .card-media {
+  padding: 23.5%;
+  text-align: center;
+}
+
+.cards.legacy .card-media img {
+  display: inline;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.cards.legacy .card:hover .card-media img { opacity: 0.9; }
+
+.cards.legacy .card-text p {
+  margin: 0 0 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* the chevron link (.lg-card__more): full-width rule pinned 10px above the card bottom */
+.cards.legacy .card-body p:has(a) {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid #dbdbdb;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.cards.legacy .card-body p a:any-link {
+  color: #00afdb;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.cards.legacy .card-body p a::after {
+  content: "\f105";
+  float: right;
+  position: relative;
+  top: 1px;
+  font: normal normal normal 16px/1 fontawesome; /* stylelint-disable-line font-family-no-missing-generic-family-keyword -- icon font, no generic fallback by design */
+  -webkit-font-smoothing: antialiased;
+}
+
+.cards.legacy .card:hover .card-body p a,
+.cards.legacy .card-body p a:hover { color: #f59831; }
+
+/* tiles: teal canvas, 2 × 49.5%, 0.6vw row gap, 185px icon cell + 185px-tall copy box */
+.cards.tiles .three-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0;
+  background: #e4f1f5;
+}
+
+.cards.tiles .card {
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 0 0 49.5%;
+  margin-bottom: 0.6vw;
+  padding: 10px;
+}
+
+.cards.tiles .card:nth-last-child(-n+2) { margin-bottom: 0; }
+
+.cards.tiles .card-media {
+  display: flex;
+  flex: 0 0 185px;
+  margin-right: 10px;
+}
+
+.cards.tiles .card-media img {
+  display: inline;
+  max-width: 100%;
+  align-self: flex-start;
+  vertical-align: middle;
+}
+
+/* artwork-bound tints (live img.darkforensics-bg / img.darkenvt-bg on tiles 4 and 8) */
+.cards.tiles .card:nth-child(4) .card-media img { background: rgb(160 40 66); }
+.cards.tiles .card:nth-child(8) .card-media img { background: rgb(2 105 55); }
+
+.cards.tiles .card-body {
+  position: relative;
+  flex: 1 1 auto;
+  height: 185px; /* live .lg-tile__intro > div is absolutely inset: the copy never sizes the tile */
+}
+
+.cards.tiles .card-body p {
+  margin: 0 0 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #585857;
+}
+
+.cards.tiles .card-body p a:any-link {
+  color: #00afdb;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.cards.tiles .card-body p a:any-link:hover { color: #034a59; }
+
+@media (width <= 767px) {
+  .cards.legacy { margin-top: 20px; }
+  .cards.legacy .card { padding-bottom: 10px; }
+
+  .cards.legacy .card-title :is(h2, h3, h4),
+  .cards.tiles .card-title :is(h2, h3, h4) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .cards.tiles .card-title :is(h2, h3, h4) { margin: 0 0 10px; }
+
+  .cards.legacy .card-text p {
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .cards.legacy .card-body p:has(a) {
+    position: relative;
+    bottom: auto;
+    padding-top: 20px;
+  }
+
+  .cards.tiles .card {
+    flex-basis: 100%;
+    margin-bottom: 3vw;
+  }
+
+  .cards.tiles .card:nth-last-child(-n+2) { margin-bottom: 0; }
+
+  .cards.tiles .card-media {
+    display: block;
+    flex-basis: 125px;
+    margin-bottom: 10.8px;
+  }
+
+  .cards.tiles .card-body { height: auto; }
+
+  .cards.tiles .card-body p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

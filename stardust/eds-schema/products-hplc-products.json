@@ -1,0 +1,315 @@
+{
+ "source": "http://localhost:8829/products-hplc-products-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "High-performance liquid chromatography",
+     "href": "/products/hplc-products"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Front-end HPLC systems"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-small",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "spacer",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The right data comes from the right front-end solutions."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Count on SCIEX high-performance liquid chromatography (HPLC) systems to efficiently separate samples prior to mass spectrometry analysis. Explore a comprehensive spectrum of separation technologies, encompassing analytical flow, microflow, along with the precision of ultra-low flow CESI-MS."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "three-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore SCIEX products for chromatography and separations"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Save time for what matters most. Explore the analytical solutions that build effective and reliable solutions to perform your important assays."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "ExionLC AE system"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "The ExionLC AE system offers precise analytical flow LC seamlessly integrated with your favorite SCIEX MS system for reproducible and reliable assays, batch after batch."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more",
+     "href": "/products/hplc-products/exionlc-ae"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Intabio ZT system"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Be unstoppable with comprehensive charge variant analysis on a single system."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "CESI 8000 Plus system"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Achieve a new dimension of separation with highest sensitivities for challenging analytes by combining CE and electrospray ionization (ESI)."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "SelexION"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "SelexION differential ion mobility (DMS) provides more selectivity to resolve difficult analytes and achieve higher confidence in detection and quantitation."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Learn more",
+     "href": "/products/ion-mobility-spectrometry/selexion-differential-mobility-separation-device"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Micro HPLC columns"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Designed and optimized for SCIEX's microLC systems, our columns operate at high linear flow velocities to ensure optimal performance at faster speeds and higher throughput levels."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn more",
+     "href": "/products/hplc-products/microlc-products/micro-hplc-columns"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "ExionLC 2.0 system"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "ExionLC 2.0 and 2.0+ systems are an excellent solution for a wide range of workflows at a exceptional value. Based off well-established technology, these systems provide full-integration, control and compatibility with SCIEX mass spectrometers."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Learn more",
+     "href": "/products/hplc-products/exionlc-2"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore SCIEX service and support"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mass spectrometer service and support plans"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "LC-MS plans designed to provide the confidence you need to achieve your analytical goals."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore plans",
+     "href": "/support/instrument-service-and-support/lc-ms-hardware-plans"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Software support plans"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Keep your results on the cutting edge with a support plan for your operating and processing software. Use your SCIEX software with confidence that it is up to date and secure."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Explore plans",
+     "href": "/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "StatusScope remote monitoring service"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Experience real-time diagnosis, resolution and monitoring of your system with the StatusScope remote monitoring service. Get full visibility into critical parameters directly in your SCIEX Now dashboard."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/support/instrument-service-and-support/statusscope-remote-monitoring"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "SCIEX Now Visual Assist augmented reality remote support"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Bring your system back online in minutes instead of hours. Receive immediate visual support from a SCIEX service engineer while you are in front of your instrument. Identify problems faster and allow SCIEX specialists to see what you are experiencing."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/content/dam/SCIEX/pdf/flyers/Visual-Assist-flyer.pdf"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "SCIEX Now Learning Hub Success Programs"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Get the training your team needs to succeed with SCIEX Now Learning Hub success programs. These series of training courses and resources are designed to upskill your staff to use the latest SCIEX instruments and software."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "/support/training/success-programs"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "source": "http://localhost:8829/technology-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Technology",
+     "href": "/technology"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "CE and LC mass spectrometry technology"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX continues to revolutionize the industry with groundbreaking LC-MS/MS and capillary electrophoresis technology that influences life-changing research"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Redefining achievable"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Our ongoing commitment to innovation, significant investments in R&D and world-leading customer collaborations means that we’re able to redefine what is achievable at the forefront of scientific advances."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Driven by science"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "SCIEX remains focused on developing the best mass spectrometry technology, and we've built on the legacy of Beckman Coulter capillary electrophoresis technology. We’re driven by your science to deliver extraordinary technology."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.textblock__heading",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.textblock__body",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "media-card",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "High resolution accurate mass spectrometry"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Boost performance and productivity in your lab with high resolution mass spec technology."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/qtof-technology"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "SWATH DIA"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "The only data independent acquisition (DIA) technique that allows comprehensive detection and quantitation of virtually every detectable compound in a sample (MS/MSALL). SWATH DIA gives you confidence in your quantitative results and virtually eliminates the risk of missing a critical component."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/swath-acquisition"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Acoustic ejection mass spectrometry"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "SCIEX AEMS technology redefines the future of high-throughput quantification by opening a new frontier in contactless sampling and delivering rich data sets faster than ever."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/acoustic-ejection-mass-spectrometry"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Nominal mass spectrometry"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "When you need the gold standard in quantitative mass spectrometry, or help dealing with selectivity issues."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/nominal-mass-lc-ms-ms"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "QTRAP system technology"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Significantly bolster your confidence in your mass spec data. SCIEX QTRAP systems are triple quad systems like no other. With all the performance of a triple quad but added functionality to overcome matrix interferences, increase screening throughput, and more."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/qtrap-technology"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Differential ion mobility technology"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "The SelexION technology is an effective differential mobility separation tool for improving data quality for qualitative and quantitation analysis of challenging samples requiring advanced analytical selectivity."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/selexion-technology"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Ionization source technology"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Quality ion sources deliver more ions to the mass analyzer, increasing coverage over a wide analyte range. While the Turbo V ion source is renowned within laboratories all over the world, the technology continues to evolve with flexible options to cover a broader range of applications and flow rates."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/ionization-source-technology"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Microflow LC-MS technology"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "See more with your limited sample. Our unique microflow technology delivers high quality data when you’re short on sample, and can boost sensitivity from traditional flow LC to improve your assays, for ultimate performance and flexibility without sacrificing robustness."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/microflow-technology"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Ultra low-flow CESI-MS technology"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "The integration of capillary electrophoresis (CE) with electrospray ionization (ESI) into a single dynamic process within the same device delivers high-efficiency electrophoretic and hydrodynamic separation at ultra-low flow rates to enhance sensitivity and quantitation while reducing ion suppression bias."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/ultra-low-flow-cesi-ms-technology"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "icIEF-UV/MS​ technology"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Accelerate your biotherapeutic development by directly coupling icIEF-UV​ (imaged capillary isoelectric focusing with UV detection) charge variant analysis with high-resolution mass spectrometry detection for intact proteins."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/icief-ms-technology"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Electron activated dissociation"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "The new information that EAD provides allows scientists to make faster, more informed decisions, accelerating research and development and improving productivity for routine analytical applications."
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Read more",
+     "href": "https://sciex.com/technology/electron-activated-dissociation"
+    }
+   ],
+   "imgCount": 11,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 11,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

@@ -2,7 +2,8 @@
  "_provenance": {
   "writtenBy": "stardust:deploy sx-port:deliver + sx-port:published-gate (agent g5)",
   "writtenAt": "2026-09-18T12:39:33Z",
-  "regime": "published-origin: live sciex.com (their EDS chrome) vs https://main--sdt-sciex--aemcoder.aem.live (our v3 chrome) — header/footer differ BY DESIGN (our chrome is the site's canonical chrome); the gate is the BODY band, anchored on the first content section of each side (anchor.mjs)"
+  "regime": "published-origin: live sciex.com (their EDS chrome) vs https://main--sdt-sciex--aemcoder.aem.live (our v3 chrome) — header/footer differ BY DESIGN (our chrome is the site's canonical chrome); the gate is the BODY band, anchored on the first content section of each side (anchor.mjs)",
+  "updatedAt": "2026-09-18T12:46:18Z"
  },
  "group": "g5",
  "media": {
@@ -34,7 +35,7 @@
  },
  "reconcile": {
   "round": 1,
-  "status": "applied locally, verified on the harness (bodies: 1440 1873/2440/1459/2224 vs live 1873/2440/1459/2225; 360 2326/4936/2202/4124 vs live 2326/4936/2202/4126) — NEEDS COMMIT, then re-run the published gate",
+  "status": "committed 0058cf5 and re-gated: body heights match live (dh 0/0/0/-1 @1440, 0/0/0/-2 @360)",
   "changes": [
    "styles/styles.css (sx-port section): main > .section:empty + .section { margin-top: 0 } (first visible section flush under header, was +40 px)",
    "styles/styles.css: :where(body.sx-port) main img { display:inline; vertical-align:baseline } and main svg likewise (source cascade has no img/svg{display:block}; workflow icons +31 px, event cards +7 px)",
@@ -164,7 +165,52 @@
     "stardust/replica/gates/events-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/events-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/events-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
-   ]
+   ],
+   "final1440": {
+    "raw": 2.34,
+    "masked": 2.07,
+    "mask": "802:98,1702:98,2602:98",
+    "heightDelta": -121,
+    "chromeDelta": "header +1 px, footer +120 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      130,
+      1873
+     ],
+     "pubBox": [
+      131,
+      1873
+     ],
+     "heightDelta": 0,
+     "bandPct": 0.51,
+     "textureThickPct": 76,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/events-published-1440/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "final360": {
+    "raw": 4.65,
+    "masked": 4.64,
+    "mask": "780:120,1680:120,2580:120,3480:120,4380:120",
+    "heightDelta": -57,
+    "chromeDelta": "header -6 px, footer +63 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      66,
+      2326
+     ],
+     "pubBox": [
+      60,
+      2326
+     ],
+     "heightDelta": 0,
+     "bandPct": 0.39,
+     "textureThickPct": 28,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/events-published-360/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "guardV2": "PASS (re-run after 0058cf5: blocks loaded + grid/flex, 0 pageerrors, 0 broken/zero-width imgs, rows from snapshots; events facetItems 30)"
   },
   {
    "slug": "resource-hub",
@@ -278,7 +324,52 @@
     "stardust/replica/gates/resource-hub-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/resource-hub-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/resource-hub-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
-   ]
+   ],
+   "final1440": {
+    "raw": 2.42,
+    "masked": 2.35,
+    "mask": "802:98,1702:98,2602:98",
+    "heightDelta": -121,
+    "chromeDelta": "header +1 px, footer +120 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      130,
+      2440
+     ],
+     "pubBox": [
+      131,
+      2440
+     ],
+     "heightDelta": 0,
+     "bandPct": 0.45,
+     "textureThickPct": 78.2,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/resource-hub-published-1440/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "final360": {
+    "raw": 4.41,
+    "masked": 4.33,
+    "mask": "780:120,1680:120,2580:120,3480:120,4380:120,5280:120,6180:120",
+    "heightDelta": -57,
+    "chromeDelta": "header -6 px, footer +75 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      66,
+      4936
+     ],
+     "pubBox": [
+      60,
+      4936
+     ],
+     "heightDelta": 0,
+     "bandPct": 0.15,
+     "textureThickPct": 41.8,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/resource-hub-published-360/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "guardV2": "PASS (re-run after 0058cf5: blocks loaded + grid/flex, 0 pageerrors, 0 broken/zero-width imgs, rows from snapshots; events facetItems 30)"
   },
   {
    "slug": "resource-hub-regulatory-documents",
@@ -376,7 +467,52 @@
     "stardust/replica/gates/resource-hub-regulatory-documents-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/resource-hub-regulatory-documents-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/resource-hub-regulatory-documents-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
-   ]
+   ],
+   "final1440": {
+    "raw": 2.74,
+    "masked": 2.48,
+    "mask": "802:98,1702:98",
+    "heightDelta": -121,
+    "chromeDelta": "header +1 px, footer +120 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      130,
+      1459
+     ],
+     "pubBox": [
+      131,
+      1459
+     ],
+     "heightDelta": 0,
+     "bandPct": 0.62,
+     "textureThickPct": 69.9,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/resource-hub-regulatory-documents-published-1440/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "final360": {
+    "raw": 5.6,
+    "masked": 5.71,
+    "mask": "780:120,1680:120,2580:120,3480:120",
+    "heightDelta": -57,
+    "chromeDelta": "header -6 px, footer +63 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      66,
+      2202
+     ],
+     "pubBox": [
+      60,
+      2202
+     ],
+     "heightDelta": 0,
+     "bandPct": 0.39,
+     "textureThickPct": 40.6,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/resource-hub-regulatory-documents-published-360/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "guardV2": "PASS (re-run after 0058cf5: blocks loaded + grid/flex, 0 pageerrors, 0 broken/zero-width imgs, rows from snapshots; events facetItems 30)"
   },
   {
    "slug": "about-us-contact-us",
@@ -492,7 +628,64 @@
     "stardust/replica/gates/about-us-contact-us-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/about-us-contact-us-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
     "stardust/replica/gates/about-us-contact-us-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
-   ]
+   ],
+   "final1440": {
+    "raw": 2.34,
+    "masked": 2.16,
+    "mask": "802:98,1702:98,2602:98",
+    "heightDelta": -120,
+    "chromeDelta": "header +1 px, footer +120 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      130,
+      2225
+     ],
+     "pubBox": [
+      131,
+      2224
+     ],
+     "heightDelta": -1,
+     "bandPct": 1.02,
+     "textureThickPct": 44.4,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/about-us-contact-us-published-1440/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "final360": {
+    "raw": 6.43,
+    "masked": 6.66,
+    "mask": "780:120,1680:120,2580:120,3480:120,4380:120,5280:120,6180:120",
+    "heightDelta": -55,
+    "chromeDelta": "header -6 px, footer +63 px (their EDS chrome vs our canonical chrome — justified)",
+    "body": {
+     "liveBox": [
+      66,
+      4126
+     ],
+     "pubBox": [
+      60,
+      4124
+     ],
+     "heightDelta": -2,
+     "bandPct": 1.52,
+     "textureThickPct": 33,
+     "passes": true
+    },
+    "evidence": "stardust/replica/gates/about-us-contact-us-published-360/{build,diff-v2,diff-masked-v2,body-band-diff-v2}.png, anchor-published-v2.json, pixel-masked-v2.json"
+   },
+   "guardV2": "PASS (re-run after 0058cf5: blocks loaded + grid/flex, 0 pageerrors, 0 broken/zero-width imgs, rows from snapshots; events facetItems 30)"
   }
- ]
+ ],
+ "regate": {
+  "at": "2026-09-18T12:46:18Z",
+  "commit": "0058cf5",
+  "verdict": "PASS all 8 (body band <= 1.52 %, |body dh| <= 2 px)",
+  "residuals": [
+   "header/footer deltas: their EDS chrome vs our canonical v3 chrome (+1/-6 px header, +120/+63 px footer) — justified",
+   "live fixed widgets (chat bubble, WalkMe) in-band and sub-pixel glyph shifts across stitch chunks (body-band texture 28-78 % thick) — accepted",
+   "AI-readability 6 (events) / 81 (contact-us): client-rendered listing + country finder — logged",
+   "events snapshot ages (owner cadence); resource-hub search icon button dark-filled vs outlined on live (their header CSS restyles it on the source)"
+  ],
+  "pendingCommit": "none"
+ }
 }

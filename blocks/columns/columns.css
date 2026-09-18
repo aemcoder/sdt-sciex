@@ -203,3 +203,310 @@ main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper 
 @media (width >= 1536px) {
   .columns.banners { max-width: 1536px; }
 }
+
+/* stylelint-disable no-descending-specificity -- variant appends after the base rules (#109) */
+
+/* ==========================================================================================
+   G1 variants (products / technology page-template) — APPENDED by the stardust:deploy G1 agent.
+   Values from stardust/prototypes/css/v3-products.css § SPLIT and css/applications-pharma-and-
+   biopharma.css § TEXT CONTAINER. Written at variant specificity so they beat the stock ≥900px
+   rules in every media query (#109); descendant selectors on authored elements only (EW2).
+   ---------------------------------------------------------------------------------------
+   columns lead  — live .text-container-left-aligned-2-col: ONE row, TWO cells — headings | body.
+                   Heading level = live type scale (h2 text-charlie, h3 text-delta, h4 text-echo);
+                   body paragraphs at text-lg grey-500. Block owns the container + 32/48 rhythm.
+   columns split — live .split-component-left/right: ONE row, TWO cells in DOM order —
+                   media | content (`split`) or content | media (`split right`, media first < 768).
+                   Media cell: <p><img></p> [+ <p>caption</p>]; content cell: h3, [p lede], p body,
+                   CTA paragraphs (<strong><a> primary, <em><a> arrow link). Modifiers: `right`,
+                   `narrow` (content 5/12), `portrait` (image fills a 4:5 box), `big-lede` (the paragraph after the heading paints at
+                   text-delta grey-500 — live p.text-delta, MS "LC-MS 101 video").
+   ========================================================================================== */
+.columns.lead,
+.columns.split {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 32px 24px;
+}
+
+.columns.lead > div,
+.columns.split > div {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0;
+}
+
+.columns.lead > div > div,
+.columns.split > div > div {
+  order: 0;
+  flex: 0 1 auto;
+  width: 100%;
+}
+
+/* ---- lead: two text columns ---- */
+.columns.lead > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 32px;
+}
+
+.columns.lead > div > div:last-child {
+  padding-bottom: 0;
+}
+
+.columns.lead h2,
+.columns.lead h3,
+.columns.lead h4 {
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+.columns.lead h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.columns.lead h4 {
+  font-size: 20px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.columns.lead p {
+  color: var(--grey-500);
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+  overflow-wrap: break-word;
+}
+
+/* ---- split: media | content ---- */
+.columns.split.right > div {
+  flex-direction: column-reverse;
+}
+
+.columns.split > div > div:has(picture, img) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+
+.columns.split > div > div:has(picture, img) p {
+  margin: 0;
+  line-height: 0;
+}
+
+.columns.split > div > div:has(picture, img) picture {
+  display: block;
+}
+
+/* live img carries only an aspect utility: natural width capped at 100 % (the software
+   split-right renders its 570 px asset at 570 px in a 656 px column) */
+.columns.split img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* `portrait` — live tw-aspect-[4/5] on the image (software split-right): the square 570 px
+   asset FILLS a 4:5 box, no object-fit (as live renders it) */
+.columns.split.portrait img {
+  aspect-ratio: 4 / 5;
+}
+
+.columns.split > div > div:has(picture, img) p:not(:has(picture, img)) {
+  display: block;
+  margin-top: 12px;
+  color: var(--grey-500);
+  font-size: 13px;
+  font-weight: 330;
+  letter-spacing: 0.065px;
+  line-height: 18px;
+}
+
+.columns.split > div > div:not(:has(picture, img)) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+.columns.split h2,
+.columns.split h3 {
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+.columns.split h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.columns.split > div > div:not(:has(picture, img)) p {
+  color: var(--grey-500);
+  overflow-wrap: break-word;
+}
+
+.columns.split.big-lede > div > div:not(:has(picture, img)) p:not(:has(a)) {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.columns.split p:has(> a.button, > strong > a, > em > a) {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media (width >= 640px) {
+  .columns.lead,
+  .columns.split { max-width: 640px; }
+}
+
+@media (width >= 768px) {
+  .columns.lead,
+  .columns.split {
+    max-width: 768px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .columns.lead > div,
+  .columns.split > div,
+  .columns.split.right > div {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .columns.lead > div {
+    column-gap: 32px;
+  }
+
+  .columns.split > div {
+    justify-content: space-between;
+  }
+
+  .columns.lead > div > div {
+    gap: 20px;
+    width: 50%;
+    padding-bottom: 0;
+  }
+
+  .columns.lead h3 {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  .columns.lead h4 {
+    font-size: calc(14.588px + 0.7353vw);
+    line-height: 1.3;
+  }
+
+  .columns.lead p {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .columns.split > div > div:has(picture, img) {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+  .columns.split > div > div:has(picture, img) p:not(:has(picture, img)) {
+    margin-top: 16px;
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    line-height: 20px;
+  }
+
+  .columns.split > div > div:not(:has(picture, img)) {
+    width: 50%;
+    gap: 20px;
+    padding-top: 0;
+    padding-left: 4.1667%;
+  }
+
+  .columns.split.right > div > div:not(:has(picture, img)) {
+    padding-left: 0;
+  }
+
+  .columns.split.narrow > div > div:not(:has(picture, img)) {
+    width: 41.6667%;
+  }
+
+  .columns.split h3,
+  .columns.split.big-lede > div > div:not(:has(picture, img)) p:not(:has(a)) {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  /* live .split__btns .btn-primary spans the column until 1024 */
+  .columns.split a.button.primary {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (width >= 1024px) {
+  .columns.lead,
+  .columns.split {
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .columns.split > div > div:not(:has(picture, img)) {
+    padding-left: 4.1667%;
+    padding-right: 4.1667%;
+  }
+
+  .columns.split.right > div > div:not(:has(picture, img)) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .columns.split a.button.primary {
+    display: inline-flex;
+    width: auto;
+  }
+}
+
+@media (width >= 1280px) {
+  .columns.lead,
+  .columns.split {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .columns.lead h3,
+  .columns.split h3,
+  .columns.split.big-lede > div > div:not(:has(picture, img)) p:not(:has(a)) { font-size: 32px; }
+
+  .columns.lead h4 { font-size: 24px; }
+}
+
+@media (width >= 1440px) {
+  .columns.lead,
+  .columns.split { max-width: 1440px; }
+}
+
+@media (width >= 1536px) {
+  .columns.lead,
+  .columns.split { max-width: 1536px; }
+}

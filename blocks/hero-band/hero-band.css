@@ -1,0 +1,280 @@
+/* hero-band — live v3 .hero-small (values: stardust/prototypes/css/v3-products.css § HERO SMALL,
+   lifted from tokens-g1-products-mass-spectrometers-* and tokens-g1-products-consumables-*).
+   Wrappers carry the layout; authored h1 / p / picture are styled through them (EW2). */
+.hero-band {
+  padding-bottom: 32px;
+}
+
+.hero-band-sec {
+  position: relative;
+}
+
+.hero-band-frame {
+  position: relative;
+  min-height: 420px;
+}
+
+.hero-band-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-band-media p {
+  margin: 0;
+  height: 100%;
+  line-height: 0;
+}
+
+.hero-band-media picture {
+  display: block;
+  height: 100%;
+}
+
+.hero-band-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-band-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-color: #000;
+  opacity: 0.4;
+}
+
+.hero-band-caption {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero-band-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-band-col {
+  width: 100%;
+}
+
+.hero-band-btn {
+  margin-top: 16px;
+}
+
+/* ---- product variant (live .hero-small--product): grey band, square product image ---- */
+.hero-band.product .hero-band-sec {
+  background-color: var(--grey-50);
+}
+
+.hero-band.product .hero-band-row {
+  color: var(--grey-900);
+}
+
+.hero-band.product .hero-band-figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 64px;
+  padding-right: 64px;
+}
+
+.hero-band.product .hero-band-product {
+  flex: 1 1 0%;
+  margin-top: 40px;
+  aspect-ratio: 1 / 1;
+  line-height: 0;
+}
+
+.hero-band.product .hero-band-product picture {
+  display: block;
+  height: 100%;
+}
+
+/* live img carries tw-aspect-square with no object-fit: the 424×334 asset fills the 1:1 box */
+.hero-band.product .hero-band-product img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-band.product .hero-band-col {
+  flex: 1 1 0%;
+  width: 100%;
+  margin-top: 48px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hero-band.product .hero-band-eyebrow {
+  display: flex;
+  align-items: center;
+}
+
+.hero-band.product .hero-band-eyebrow p {
+  font-size: 13px;
+  font-weight: 530;
+  letter-spacing: 0.065px;
+  line-height: 18px;
+}
+
+.hero-band.product .hero-band-title {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.hero-band.product .hero-band-text {
+  max-width: 100%;
+  margin-top: 16px;
+  color: var(--grey-500);
+}
+
+.hero-band.product .hero-band-text p {
+  overflow-wrap: break-word;
+}
+
+@media (width >= 640px) {
+  .hero-band.product .hero-band-product {
+    max-width: 416px;
+    max-height: 416px;
+  }
+}
+
+@media (width >= 768px) {
+  .hero-band {
+    padding-bottom: 48px;
+  }
+
+  .hero-band-frame {
+    min-height: 512px;
+  }
+
+  .hero-band-caption {
+    min-height: 512px;
+    padding-top: 80px;
+    padding-bottom: 64px;
+  }
+
+  .hero-band-row {
+    flex-direction: row;
+  }
+
+  .hero-band-inner {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-band-inner > * + * {
+    margin-left: 16px;
+  }
+
+  .hero-band-btn {
+    margin-top: 20px;
+  }
+
+  /* live md:tw-container — geometry from 768 up only */
+  .hero-band-container-md {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 768px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero-band.product .hero-band-caption {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .hero-band.product .hero-band-row {
+    flex-direction: row-reverse;
+  }
+
+  .hero-band.product .hero-band-figure {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-band.product .hero-band-product {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .hero-band.product .hero-band-col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-band.product .hero-band-eyebrow p {
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    line-height: 20px;
+  }
+
+  .hero-band.product .hero-band-title,
+  .hero-band.product .hero-band-text {
+    margin-top: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-band-container-md {
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .hero-band.product .hero-band-product {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hero-band.product .hero-band-col {
+    margin-top: 0;
+  }
+
+  .hero-band.product .hero-band-title {
+    max-width: 75%;
+  }
+
+  .hero-band.product .hero-band-text {
+    max-width: 50%;
+  }
+}
+
+@media (width >= 1280px) {
+  .hero-band-container-md {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .hero-band.product .hero-band-title {
+    max-width: 66.667%;
+  }
+
+  .hero-band.product .hero-band-text {
+    max-width: 75%;
+  }
+}
+
+@media (width >= 1440px) {
+  .hero-band-container-md { max-width: 1440px; }
+}
+
+@media (width >= 1536px) {
+  .hero-band-container-md { max-width: 1536px; }
+}

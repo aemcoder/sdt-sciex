@@ -1,0 +1,367 @@
+{
+ "source": "http://localhost:8829/products-capillary-electrophoresis-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Capillary Electrophoresis",
+     "href": "/products/capillary-electrophoresis"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Capillary electrophoresis instruments"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-small",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Level-up the development and QC of your biotherapeutics and beyond"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The diverse landscape of plasmids, protein therapeutics (monoclonal antibodies, mAbs, and more), in vitro transcribed RNA (IVT RNA), gene editing starting material and viral vectors require pushing the boundaries of analytical technologies. SCIEX and its capillary electrophoresis (CE) portfolio are your partner to explore new frontiers and achieve actionable outcomes. With a track-record of delivering high-quality results reproducibly throughout the development of biotherapeutics and within quality control (QC) within the pharma industry, your laboratory’s needs are covered."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "spacer",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "three-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore all CE systems from SCIEX"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Intabio ZT system"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Experience simplified, comprehensive charge variant analysis with integrated icIEF-UV/MS technology."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "BioPhase 8800 system"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Discover a flexible platform with parallel processing designed to deliver consistent, comparable and compliant data at scale across the drug development continuum."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/products/capillary-electrophoresis/biophase-8800"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "PA 800 Plus system"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Take advantage of a flexible platform for multiple analytical assays with a temperature-controlled capillary for the highest data reproducibility and confidence."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/products/capillary-electrophoresis/pa-800-plus-pharmaceutical-analysis-system"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "P/ACE MDQ Plus system"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Perform high-quality separations for food and beverage testing, academic research, and more with a highly adjustable solution and industry-trusted CE technology."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/products/capillary-electrophoresis/p-ace-mdq-plus"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "CESI 8000 Plus system"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Achieve a new dimension of separation with the highest sensitivities for challenging analytes by combining CE and electrospray ionization (ESI)."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Blogs and webinars"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Better mRNA-LNPs: Encapsulation efficiency, mRNA integrity and more​"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Discover recommendations from Dr. Jane Luo, Senior Scientist at SCIEX, for sample preparation and CE analysis to assess messenger RNA (mRNA) encapsulation efficiencies, integrity and purity.​"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://community.sciex.com/2024/03/14/better-mrna-lnps-encapsulation-efficiency-mrna-integrity-and-purity-lipid-n-oxides-and-beyond?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Beyond mRNA: A revolution in the RNA drug landscape​"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Discover what Dr. Andrew Geall, Chief Development Officer and Co-Founder at Replicate Bioscience, has to say about self-replicating RNA (srRNA) and how to achieve improved characterization using CE.​"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://community.sciex.com/2023/11/07/beyond-mrna-how-advances-in-analytical-techniques-are-enabling-a-revolution-in-the-rna-drug-landscape?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "High-quality mRNA purity and integrity profiling​ ​"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Join the Q&A with Dr. Jérémie Parot, Research Scientist at SINTEF, to uncover pressing questions around mRNA analysis from lipid nanoparticles (LNPs).​"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "https://community.sciex.com/2022/08/05/high-throughput-lnp-mrna-integrity-profiling?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Create time for innovation​"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Join the discussion with Dr. Theresa Merlino, at J&J Innovative Medicines, and discover how to meet increasing analytical demands for process development and formulation groups using CE-SDS.​"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/landing-pages/ce-sds-content-pack"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The technology behind the scenes"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "icIEF-UV/MS​ technology​"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Fast track the characterization of protein therapeutics across the drug development pipeline with the integration of icIEF-UV​ charge variant analysis with high-resolution mass spectrometry for the detection of intact proteins.​"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/technology/icief-ms-technology"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Ultra low-flow CESI technology​"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "See samples from a new persepective and go beyond the unknown with CESI. The combination of CE with ESI lets you do so while ultra-low flow rates enhance sensitivity by reducing ion suppression."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/technology/ultra-low-flow-cesi-ms-technology"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The rich history of CE at SCIEX​"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Learn more about our capillary electrophoresis instruments, and see why scientists around the world rely on SCIEX technology to bring their research into the future.​"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/ce-features-and-benefits/history-of-ce"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Capillary electrophoresis systems service and support"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Help ensure the consistency of your CE analysis."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/support/instrument-service-and-support/ce-service-plans"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

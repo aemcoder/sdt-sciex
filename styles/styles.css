@@ -1357,3 +1357,317 @@ main .section.quote-solo .carousel-controls {
   main .section.lead .default-content-wrapper h4 { font-size: 24px; }
   main .section.lead.compact .default-content-wrapper p { font-size: 16px; }
 }
+
+/* ======================================================================================
+   G4 legacy SCIEX Now templates — APPENDED (stardust/eds-conversion-log-g4.md § 3).
+   template legacy    — metadata `Template: legacy`    → body.legacy    (/support/software-support,
+                        /education/grant-support: intermediate / generic-page templates)
+   template sciex-now — metadata `Template: sciex-now` → body.sciex-now (/support, the SCIEX Now shell)
+   The body.kb-article rules above are untouched; the declarations the templates share are repeated
+   here under the new body classes. Values lifted from stardust/prototypes/css/legacy-shared.css,
+   support.css, support-software-support.css, education-grant-support.css.
+   ====================================================================================== */
+
+body.legacy,
+body.sciex-now {
+  --body-font-family: geogrotesque-legacy, geogrotesque-fallback, helvetica, arial, sans-serif;
+  --heading-font-family: geogrotesque-legacy, geogrotesque-fallback, helvetica, arial, sans-serif;
+}
+
+/* --- template legacy: live #master cascade (Helvetica, grey ink, 16/24), fixed 1170px column --- */
+body.legacy main {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-variation-settings: normal;
+  color: #5f6062;
+  text-align: left;
+  padding-bottom: 50px; /* .home-section 40 + the legacy footer XF's 10px white strip */
+}
+
+body.legacy main > .section > div {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body.legacy main a:any-link {
+  color: #00afdb;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+body.legacy main a:any-link:hover { color: #034a59; }
+
+body.legacy main .default-content-wrapper p {
+  margin: 0 0 20px;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+body.legacy main .default-content-wrapper :is(h1, h2) {
+  margin: 0 0 10px;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0084a9;
+}
+
+body.legacy main .default-content-wrapper ul {
+  margin: 0 0 10px;
+  padding-left: 40px;
+  list-style: disc outside;
+}
+
+body.legacy main .default-content-wrapper li {
+  display: list-item;
+  margin: 0;
+  padding: 0;
+}
+
+body.legacy main .default-content-wrapper :is(b, strong) { font-weight: 700; }
+
+body.legacy main .default-content-wrapper img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+body.legacy main .default-content-wrapper sup { top: -0.5em; }
+
+@media (width <= 767px) {
+  body.legacy main {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  body.legacy main .default-content-wrapper p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  body.legacy main .default-content-wrapper :is(h1, h2) { font-size: 20px; }
+}
+
+/* breadcrumb.legacy on these templates: the 40px lead spacer sits BELOW the crumb (live .lg-lead-spacer /
+   .lg-grant__crumbspacer), the wrapper keeps its 8px padding — the KB variant puts the 40px above. */
+body.legacy .breadcrumb.legacy { padding: 8px 15px 48px; }
+
+@media (width <= 767px) {
+  body.legacy main .section.grant-crumb .breadcrumb.legacy { padding-bottom: 28px; } /* crumbspacer 20px at mobile */
+}
+
+/* --- section style `legacy-band` (live .spacing.sm-color-bar: full-column teal band, white centred heading) --- */
+body.legacy main .section.legacy-band > .default-content-wrapper {
+  max-width: 1140px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #007da4;
+  text-align: center;
+}
+
+body.legacy main .section.legacy-band .default-content-wrapper :is(h1, h2) {
+  margin: 0 0 15px;
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (width <= 767px) {
+  body.legacy main .section.legacy-band > .default-content-wrapper { margin: 20px auto; }
+}
+
+/* --- grant-support page (live .lg-grant app-page: BS3 row at 1170, .blue-text headings, #585857 copy) --- */
+body.legacy main .section.grant-hero .default-content-wrapper p {
+  margin: 0 0 30px;
+  line-height: 0; /* #111: the <picture> paragraph's inline strut */
+}
+
+body.legacy main .section.grant-hero .default-content-wrapper img {
+  display: block;
+  max-width: 100%;
+}
+
+body.legacy main .section.grant-intro > div,
+body.legacy main .section.grant-research > div,
+body.legacy main .section.grant-form > div {
+  max-width: 1170px;
+  padding: 0;
+}
+
+body.legacy main .section.grant-form > div { text-align: center; }
+
+body.legacy main :is(.section.grant-intro, .section.grant-research, .section.grant-form) .default-content-wrapper :is(h1, h2) {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #007da4;
+}
+
+body.legacy main .section.grant-intro .default-content-wrapper h1 strong { font-weight: 700; }
+
+body.legacy main .section.grant-intro .default-content-wrapper :is(p, li) {
+  font-size: 16px;
+  line-height: 24px;
+  color: #585857;
+}
+
+body.legacy main .section.grant-intro .default-content-wrapper p:has(a) { margin-bottom: 0; } /* live: CTA in a bare div */
+
+body.legacy main .section.ruo-note { padding-bottom: 40px; } /* trailing .lg-lead-spacer */
+
+body.legacy main .section.ruo-note .default-content-wrapper p {
+  margin: 0 0 20px;
+  font-size: 11px;
+  line-height: 18px;
+  color: #585857;
+}
+
+/* `legacy-cta` modifier `orange` (live .btn.orange; KB's legacy-cta paints .btn.blue) */
+main .section.legacy-cta.orange a.button.primary {
+  min-width: 0;
+  background: #f99d31;
+}
+
+main .section.legacy-cta.orange a.button.primary:hover,
+main .section.legacy-cta.orange a.button.primary:focus {
+  background: rgb(206 129 40);
+  color: #fff;
+}
+
+@media (width <= 767px) {
+  body.legacy main .section.grant-intro .default-content-wrapper :is(h1, h2),
+  body.legacy main .section.grant-research .default-content-wrapper h2,
+  body.legacy main .section.grant-form .default-content-wrapper h2 { font-size: 20px; }
+
+  body.legacy main .section.grant-intro .default-content-wrapper :is(p, li) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  body.legacy main .section.ruo-note .default-content-wrapper p { padding: 0 15px; }
+}
+
+/* --- template sciex-now: the SCIEX Now shell. main = the live flex .sn-shell — the support-shell section
+   floats left (sidebar column), every other section is the body column (.sn-body 6px + .sn-body__pad 20px,
+   .no-bleed 1170/15 inside). Sections stay in normal flow so module margins collapse as on live. --- */
+body.sciex-now main {
+  position: relative;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-variation-settings: normal;
+  color: #212529;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 10px; /* the legacy footer XF's white strip */
+  background:
+    linear-gradient(#fff, #fff) bottom / 100% 10px no-repeat,
+    linear-gradient(to right, #e4f0f4 292px, #f4f9fa 292px);
+}
+
+body.sciex-now main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body.sciex-now main > .section.support-shell-container {
+  float: left;
+  width: 292px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.sciex-now main > .section.support-shell-container > div {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.sciex-now main > .section:not(.support-shell-container) {
+  margin-left: 292px;
+  padding: 0 26px;
+}
+
+body.sciex-now main > .section:not(.support-shell-container) > div {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body.sciex-now main.sn-mini { background: linear-gradient(#fff, #fff) bottom / 100% 10px no-repeat, linear-gradient(to right, #e4f0f4 50px, #f4f9fa 50px); }
+body.sciex-now main.sn-mini > .section.support-shell-container { width: 50px; }
+body.sciex-now main.sn-mini > .section:not(.support-shell-container) { margin-left: 50px; }
+
+body.sciex-now main a:any-link {
+  color: #007aa0;
+  text-decoration: none;
+}
+
+body.sciex-now main .default-content-wrapper :is(h1, h2) {
+  margin: 0 0 7px;
+  font-family: inherit;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 39.2px;
+  letter-spacing: normal;
+  color: #0084a9;
+}
+
+body.sciex-now main .default-content-wrapper p {
+  margin: 0 0 14px;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+body.sciex-now main .default-content-wrapper ul {
+  margin: 0 0 14px;
+  padding-left: 40px;
+  list-style: disc outside;
+}
+
+body.sciex-now main .default-content-wrapper li {
+  display: list-item;
+  margin: 0;
+  padding: 0;
+}
+
+/* section style `sn-benefits`: the two <p>&nbsp;</p> line boxes around the flyer link (#112) → margins */
+body.sciex-now main .section.sn-benefits .default-content-wrapper p:has(a) { margin: 50.4px 0 56.4px; }
+
+/* section style `contact-bar` (live h2.support-header) + the shell's trailing .home-section 40px */
+body.sciex-now main .section.contact-bar { padding-bottom: 40px; }
+
+body.sciex-now main .section.contact-bar .default-content-wrapper h2 {
+  position: relative;
+  margin: 20px 0 0;
+  padding: 11px 15px;
+  min-height: 50px;
+  font-size: 23px;
+  line-height: 32.2px;
+  color: #fff;
+  background: #0083a9;
+  overflow: hidden;
+}
+
+@media (width >= 768px) and (width <= 991px) {
+  body.sciex-now main > .section:not(.support-shell-container) { margin-left: 337px; } /* live .main-body margin-left 45px */
+  body.sciex-now main.sn-mini > .section:not(.support-shell-container) { margin-left: 95px; }
+}
+
+@media (width <= 767px) {
+  body.sciex-now main { background: linear-gradient(#fff, #fff) bottom / 100% 10px no-repeat, #f4f9fa; }
+  body.sciex-now main > .section.support-shell-container { display: none; }
+  body.sciex-now main > .section:not(.support-shell-container) { margin-left: 0; }
+
+  body.sciex-now main .default-content-wrapper p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  body.sciex-now main .section.sn-benefits .default-content-wrapper p:has(a) { margin: 50px 0 56px; }
+  body.sciex-now main .section.contact-bar .default-content-wrapper h2 { margin-bottom: 7px; }
+}

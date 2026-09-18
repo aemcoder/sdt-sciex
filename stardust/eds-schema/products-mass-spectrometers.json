@@ -1,0 +1,657 @@
+{
+ "source": "http://localhost:8829/products-mass-spectrometers-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Mass Spectrometers",
+     "href": "/products/mass-spectrometers"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Mass spectrometry products"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-small",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-container-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Reliability"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Resilience"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Reproducibility"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Whether you're analyzing small or large molecules or biologics, our range of triple quadrupole and high-resolution LC-MS mass spectrometers have you covered."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Our cutting-edge full scan, accurate mass QTOF technology offers compact benchtop solutions for everything from routine, high-throughput, and high-resolution workflows. Expanding our range is the ZenoTOF 7600 system for more complex quantitative and qualitative analyses as well as unique fragmentation capabilities."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The QTRAP and triple quadrupole systems will provide you the highest levels of MS/MS selectivity and sensitivity. Designed for the most challenging assays requiring utmost sensitivity and precision, and with robustness you can rely on day after day. Overcome matrix interferences, increase screening throughput, and have full confidence in your results."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.textblock__col",
+     "count": 2,
+     "unit": {
+      "headings": 3,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "spacer",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Triple quadrupoles and linear ion traps"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SCIEX 7500+ system​"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Setting a new standard for instrument resilience and robustness, the SCIEX 7500+ system gives you the confidence to tackle emerging and challenging frontiers in drug discovery, environmental testing, and life science research. Take on tight timelines and get a maximized return on your investment with exceptional sensitivity and with the power to control your instrument downtime."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "QTRAP 6500+ system"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The QTRAP 6500+ system sees all the same benefits of exceptional sensitivity and robustness of the Triple Quad 6500+, but with QTRAP functionality turned on from the get-go. Instantly access qualitative QTRAP scans for identification, characterization and quantification of your samples. Combine sensitive MRM analysis with qualitative insights instantly.​"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "SCIEX Triple Quad 6500+ system​"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Achieve exceptional LOQs over a broad scope of chemical compounds in challenging matrices with the Triple Quad 6500+ system. Fast polarity switching and MRM speeds allow flexible chromatography and increased throughput, while a wide linear dynamic range delivers analysis over an enhanced breadth of applications."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-6500plus-system"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "SCIEX novus V55 system"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "A fifth-generation triple quadrupole designed for the realities of high-pressure, results-driven laboratories. Balancing value and performance, achieve enhanced laboratory productivity and benefit from greater efficiency in the smallest SCIEX triple quad yet."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/triple-quad-systems/novus-v55-system"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "SCIEX novus V55 system – QTRAP"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "A fifth-generation triple quadrupole with QTRAP technology designed for the realities of high-pressure, results-driven laboratories. Supporting both quantitative and qualitative performance, achieve enhanced laboratory productivity and benefit from greater efficiency in the smallest SCIEX QTRAP yet."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/triple-quad-systems/novus-v55-system"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "SCIEX 5500+ system​"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "The original high sensitivity workhorse. This mass spectrometer is trusted by thousands of labs worldwide to deliver high sensitivity quantitative data on production scale. Combined high sensivity with the versatile power of QTRAP technology to add additional qualitative capabilities. Ideal for labs quantifying at low levels using standard methods and protocols."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "SCIEX Triple Quad 4500 system"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "A versatile and powerful quantitative solution. The Triple Quad 4500 system is robust and hardworking, delivering precise data insight day in, day out. It is ideal for labs looking for high performance and versatility in a premium Triple Quad."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-4500-system"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "QTRAP 4500 system"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "The QTRAP 4500 system enjoys all the same benefits of versatility and robustness of the Triple Quad 4500, but with QTRAP functionality turned on at installation. Combine sensitive MRM analysis with the added qualitative insights and specificity afforded by QTRAP technology instantly.​"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/qtrap-systems/qtrap-4500-system"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "SCIEX Triple Quad 3500 system"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "A versatile and powerful quantitative solution that delivers exception value. Equipped with widely trusted technology such as the Turbo V ion source and LINAC collision cell, the Triple Quad 3500 system offers sensitive MRM analysis combined with trademark SCIEX robustness. Ideal for labs that need the power and prestige of a SCIEX Triple Quad at a lower price point"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-3500-system"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "QTOF instruments"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "ZenoTOF 8600 system"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The newest accurate mass platform with sensitivity levels up to 10x greater than existing SCIEX technology. This translates not only into the lower limits of quantitation but also into new enabled approaches to making biologically relevant discoveries that can be proved by the data."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/8600-system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "ZenoTOF 7600+ system"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Take quantitative accuracy to the next level. Combine fast scanning and sensitivity on a Zeno trap-enabled QTOF system to maximize the total number of high-quality MS/MS spectra generated per cycle. Extend the depth and certainty of quantitative measurements to unravel the complexity of proteomics samples."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/qtof-systems/7600-plus-system"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "ZenoTOF 7600 system"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "A high-resolution mass spectrometry solution that combines powerful MS/MS sensitivity and fragmentation technology. Harness the power of Zeno SWATH data independent acquisition (DIA) to deliver a high depth of coverage, particularly on low abundance species, quickly and robustly."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/qtof-systems/zenotof-7600-system"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "X500 systems"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "The X500 QTOF systems are your go-to benchtop systems for simplified, high-throughput data acquisition and processing for standardized analyses. The X500B is purpose-built for standard biotherapeutic characterization analyses while the X500R offers robust qualitative and quantitative performance for food, environmental and forensic workflows, or for metabolomic analysis."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/qtof-systems/x-series-qtof-systems"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Integrated solutions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "IntabioZT system"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The Intabio ZT system couples icIEF separation and UV detection with high-resolution mass spectrometry on the ZenoTOF 7600 for peak identification. Experience one integrated workflow with a single, accessible dataset containing the required information to make the right decisions, fast."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Echo® MS+ system with Triple Quad 6500+ system"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The Echo® MS+ system with Triple Quad 6500+ system combines high-quality data, unparalleled standards of quantitation, and high sample throughput so you can make informed decisions, today. Using contactless sampling via Acoustic Ejection Mass Spectrometry (AEMS) at sampling rates of up to 1 sample/second, this is a complete solution that removes bottlenecks in high-throughput analytical workflows."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/products/integrated-solutions/echo-ms-plus"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Echo® MS+ system with ZenoTOF 7600 system"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "When you need precision and analytical flexibility, the Echo® MS+ system with ZenoTOF 7600 system combines high-quality data with high sample throughput so you can make informed decisions, today. Using contactless sampling via Acoustic Ejection Mass Spectrometry (AEMS) coupled with the flexibility of scan types and mass range on the ZenoTOF 7600 system, make go/no-go decisions quickly."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/products/integrated-solutions/echo-ms-plus"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Clinical diagnostics IVD-R device portfolio"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Citrine system​"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The Citrine system brings ultimate sensitivity and robustness to meet your most challenging clinical diagnostics assays. The Citrine Triple Quad and Citrine QTRAP systems provide the speed and performance to increase your laboratory productivity today and address tomorrow’s clinical diagnostics and research needs."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/products/in-vitro-diagnostics/medical-devices/citrine-system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "4500MD system​"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The SCIEX Triple Quad 4500MD and QTRAP 4500MD systems provide the required sensitivity and specificity levels for core clinical diagnostics applications. The versatility of these mass spectrometers enables clinicians to perform routine quantitative analysis for the ever-increasing everyday demands of the modern clinical laboratory."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "New frontiers in quant"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Putting things together in a way nobody has thought about before—this definition of innovation is the origin of LC-MS/MS technology."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Watch the generation quant video series",
+     "href": "/generationquant"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "LC-MS 101 video"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "New to LC-MS? Watch this training video to learn the basics.​"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "101 LC-MS video",
+     "href": "/content/dam/SCIEX/videos/amer/lc-ms-ms-101-2022-fundamentals-and-theory.mp4"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore SCIEX service and support"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mass spectrometer service and support plans"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "LC-MS plans designed to provide the confidence you need to achieve your analytical goals."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore plans",
+     "href": "/support/instrument-service-and-support/lc-ms-hardware-plans"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Software support plans"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Keep your results on the cutting edge with a support plan for your operating and processing software. Use your SCIEX software with confidence that it is up to date and secure."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Explore plans",
+     "href": "/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "StatusScope remote monitoring service"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Experience real-time diagnosis, resolution and monitoring of your system with the StatusScope remote monitoring service. Get full visibility into critical parameters directly in your SCIEX Now dashboard."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/support/instrument-service-and-support/statusscope-remote-monitoring"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "SCIEX Now Visual Assist augmented reality remote support"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Bring your system back online in minutes instead of hours. Receive immediate visual support from a SCIEX service engineer while you are in front of your instrument. Identify problems faster and allow SCIEX specialists to see what you are experiencing."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://www.sciex.com/support/instrument-service-and-support/visual-assist?ajs_aid=5c2a5afc-8b4c-419c-8215-7a91960bb2ac"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "SCIEX Now Learning Hub Success Programs"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Get the training your team needs to succeed with SCIEX Now Learning Hub success programs. These series of training courses and resources are designed to upskill your staff to use the latest SCIEX instruments and software."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "/support/training/success-programs"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

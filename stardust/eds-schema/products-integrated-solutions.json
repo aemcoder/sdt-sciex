@@ -1,0 +1,122 @@
+{
+ "source": "http://localhost:8829/products-integrated-solutions-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Integrated Solutions",
+     "href": "/products/integrated-solutions"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Integrated mass spectrometry solutions"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-container-1-col",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "You have questions, and we have answers with integrated LC-MS solutions from SCIEX. Thoroughly tested and tightly aligned, these end-to-end mass spectrometry workflows give you everything you need to get the most out of your sample from start to finish. Engineered for both novice and expert users across a wide range of market applications, choose from workflows that matter most to your lab."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Integrated for simplicity, the mass spec solutions offered here include straightforward approaches to analyses, so you can propel your lab to the answers you’ve been looking for. The combination of LC-MS hardware, software, consumables, training and support have been specifically designed to bring your lab to a new level of productivity."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Intabio ZT system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The Intabio ZT system couples icIEF separation and UV detection with high-resolution mass spectrometry on the ZenoTOF 7600 system. Experience one integrated workflow with a single, accessible dataset containing the required information to make the right decisions, fast."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Echo® MS+ system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "When the quantity of samples is your challenge, breakthrough with the Echo® MS+ system. It gives you high-quality data, analytical flexibility and high sample throughput to make informed decisions, today. With sampling rates of up to 1 sample per second, results can be generated on the same day."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/integrated-solutions/echo-ms-plus"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

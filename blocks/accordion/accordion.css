@@ -1,0 +1,146 @@
+/* accordion — live v3 cmp-accordion (values: stardust/prototypes/css/v3-products.css § ACCORDION and
+   the software page-level injection `#os-tabs .tw-pb-32 { padding: 32px 0 }`). Wrappers carry layout;
+   the authored label <p> is styled through .acc-label (EW2). */
+.accordion {
+  padding: 32px 0;
+}
+
+.accordion .acc-item {
+  border-bottom: 1px solid var(--border-default);
+  transition-duration: 0.3s;
+}
+
+.accordion .acc-item:first-child {
+  border-top: 1px solid var(--border-default);
+}
+
+.accordion .acc-row {
+  display: flex;
+  align-items: center;
+}
+
+.accordion .acc-cell {
+  flex: 1 1 0%;
+}
+
+.accordion .acc-head {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.accordion .acc-label {
+  flex: 1 1 auto;
+  text-align: left;
+  color: var(--grey-900);
+}
+
+.accordion .acc-label p {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 530;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.accordion .acc-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--blue-700);
+  cursor: pointer;
+}
+
+.accordion .acc-chev {
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion .acc-item.is-open .acc-chev {
+  transform: rotate(180deg);
+}
+
+.accordion .acc-chev svg {
+  display: block;
+}
+
+.accordion .acc-chev-mobile {
+  display: block;
+}
+
+.accordion .acc-chev-desktop {
+  display: none;
+}
+
+.accordion .acc-content {
+  display: none;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.accordion .acc-item.is-open .acc-content,
+.accordion .acc-item.is-closing .acc-content {
+  display: block;
+}
+
+/* panel rhythm — live: first section pt 4 / pb 32, every tw-pb-32 section inside forced to 32/32 */
+.accordion .acc-inner > .section > div > .block,
+.accordion .acc-inner > .section.lead {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.accordion .acc-inner > .section:first-child > div > .block,
+.accordion .acc-inner > .section.lead:first-child {
+  padding-top: 4px;
+  padding-bottom: 32px;
+}
+
+.accordion .acc-inner .container,
+.accordion .acc-inner .section > .default-content-wrapper,
+.accordion .acc-inner .columns.lead,
+.accordion .acc-inner .columns.split {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.accordion .acc-prose {
+  padding: 4px 0 32px;
+  color: var(--grey-500);
+}
+
+@media (width >= 768px) {
+  .accordion {
+    padding: 48px 0;
+  }
+
+  .accordion .acc-head {
+    padding: 20px 0;
+  }
+
+  .accordion .acc-label p {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .accordion .acc-chev-mobile {
+    display: none;
+  }
+
+  .accordion .acc-chev-desktop {
+    display: block;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion .acc-chev,
+  .accordion .acc-content {
+    transition: none;
+  }
+}
