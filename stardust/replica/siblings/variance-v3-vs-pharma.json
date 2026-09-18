@@ -1,0 +1,3093 @@
+{
+  "archetype": "https://sciex.com/applications/pharma-and-biopharma",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".hero-text",
+    "herosmall": ".hero-small",
+    "pageimage": ".media-image",
+    "subnav": ".page-sub-nav",
+    "cardgrid": ".image-card",
+    "testimonial": ".testimonial",
+    "imagetext": ".image-text-2-col",
+    "textcol": ".text-container-left-aligned-1-col"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "hero": {
+        "sel": ".hero-text",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 193
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "geogrotesque 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Biopharma / pharma research Be unstoppable with complete ana"
+      },
+      "herosmall": {
+        "sel": ".hero-small",
+        "count": 0
+      },
+      "pageimage": {
+        "sel": ".media-image",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 636
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "geogrotesque 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 1440,
+            "h": 540
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": ""
+      },
+      "subnav": {
+        "sel": ".page-sub-nav",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 65
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "geogrotesque 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Overview Applications Perspectives Stories"
+      },
+      "cardgrid": {
+        "sel": ".image-card",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 1475
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "geogrotesque 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+          "image": {
+            "w": 304,
+            "h": 228
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Pharma and biopharma applications Reclaim time for innovatio"
+      },
+      "testimonial": {
+        "sel": ".testimonial",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 658
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "geogrotesque 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 112,
+            "h": 112
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Perspectives \"You can theorize all you want, but until you a"
+      },
+      "imagetext": {
+        "sel": ".image-text-2-col",
+        "count": 0
+      },
+      "textcol": {
+        "sel": ".text-container-left-aligned-1-col",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 344
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "geogrotesque 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Overview To bring safe and effective therapies to market, it"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://sciex.com/applications/clinical",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".hero-text\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 490}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 0
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 512
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 52px/62.4px 270 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Clinical"
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 490
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Applications from biomarker discovery to verified diagnostic"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/applications/environmental-testing",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 241}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "pageimage",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "pageimage",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "pageimage",
+          "msg": "rect{h 636 → 608}; image{h 540 → 512}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{h 1475 → 703}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 3 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 792}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 241
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Environmental testing solutions Respond quickly and meet reg"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 608
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 703
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 304,
+                "h": 228
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Environmental testing applications Contaminants of emerging "
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 792
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Environmental testing solutions: Guiding regulatory decision"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/applications/food-and-beverage-testing",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 265}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "pageimage",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "pageimage",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "pageimage",
+          "msg": "rect{h 636 → 608}; image{h 540 → 512}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 392}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 265
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Food and beverage testing Stay compliant and up-to-date with"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 608
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 874
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Food and beverage testing applications This is the food test"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 392
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Food and beverage solutions for maximum precision and effici"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/applications/forensics-testing",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 4 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 479}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Forensic testing and analysis"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 479
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Forensic solutions easily integrated into your existing labo"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/applications/biomedical-and-omics-research",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".hero-text\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "textcol",
+          "msg": "\".text-container-left-aligned-1-col\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 0
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 826
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Biomedical and omics research applications SCIEX solutions a"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/applications/cannabis-testing",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 250}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 832}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 250
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Cannabis and hemp testing analytical solutions & technologie"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 832
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "For cannabis and hemp professionals interested in chemical c"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products/mass-spectrometers",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "cardgrid",
+          "msg": "1 → 5 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "cardgrid",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{h 1475 → 1980}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "textcol",
+          "msg": "\".text-container-left-aligned-1-col\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Mass spectrometry products"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 5,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1980
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 304,
+                "h": 228
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Triple quadrupoles and linear ion traps SCIEX 7500+ system​ "
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products/capillary-electrophoresis",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 2 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 314}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Capillary electrophoresis instruments"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 715
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Blogs and webinars Better mRNA-LNPs: Encapsulation efficienc"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 314
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Level-up the development and QC of your biotherapeutics and "
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products/hplc-products",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{h 1475 → 1266}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 236}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Front-end HPLC systems"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1266
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 304,
+                "h": 228
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore SCIEX service and support Mass spectrometer service "
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 236
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "The right data comes from the right front-end solutions. Cou"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products/integrated-solutions",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{h 1475 → 730}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → null; image{w 304 → 640, h 228 → 480}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 324}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → null"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Integrated mass spectrometry solutions"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 730
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 640,
+                "h": 480
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Intabio ZT system The Intabio ZT system couples icIEF separa"
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 324
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "You have questions, and we have answers with integrated LC-M"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products/software",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 250}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "pageimage",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "pageimage",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "pageimage",
+          "msg": "rect{h 636 → 608}; image{h 540 → 512}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{w 1440 → 1312, h 1475 → 954}; image{w 304 → 640, h 228 → 480}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "testimonial",
+          "msg": "rect{h 658 → 413}; image [object Object] → null"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 3 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 238}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 250
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Achieve ultimate analytical performance with SCIEX mass spec"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 608
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1312,
+                "h": 954
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 640,
+                "h": 480
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Instrument control software SCIEX OS software is the engine "
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 413
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "The software is just as important as the hardware. The most "
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 677
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Moving forward together from Analyst to SCIEX OS software Wh"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 238
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "SCIEX software solutions connect instruments, data, and peop"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products/consumables",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".hero-text\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "textcol",
+          "msg": "\".text-container-left-aligned-1-col\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 0
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 592
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 52px/62.4px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 416,
+                "h": 416
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Consumables and standards to help you succeed Consumables SC"
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/technology",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 431}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "CE and LC mass spectrometry technology"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 431
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "SCIEX continues to revolutionize the industry with groundbre"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/products",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{h 1475 → 1312}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20); image{w 304 → 416, h 228 → 312}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "textcol",
+          "msg": "\".text-container-left-aligned-1-col\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Analytical instruments, software, and support"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 560
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1312
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 416,
+                "h": 312
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Explore SCIEX service and support Mass spectrometer service "
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1318
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "SCIEX products Mass spectrometry products Discover advanced "
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/applications",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 326}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cardgrid",
+          "msg": "rect{h 1475 → 1273}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 530}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 326
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Mass spectrometry and capillary electrophoresis application "
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 1273
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 304,
+                "h": 228
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Applications of mass spectrometry and capillary electrophore"
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 0
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 530
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "From routine testing to the most complex analytical experime"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/about-us",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 173}"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "herosmall",
+          "msg": "\".hero-small\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 2 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 418}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 173
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "About us"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 536
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 512
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 846
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Our customers Jennifer Van Eyk, Ph.D. Co-Director, Precision"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 418
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 32px/41.6px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Advances in human wellness depend on the power of precise sc"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/support/training",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 250}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "pageimage",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "pageimage",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "pageimage",
+          "msg": "rect{h 636 → 390}; image{h 540 → 294}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 3 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 277}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 250
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "SCIEX Now Learning Hub for all your mass spectrometer, LC, a"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 390
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 1440,
+                "h": 294
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 468
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Centralized View your enrolled and completed courses, print "
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 277
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "The Learning Hub helps you get the most from instruments Whe"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/support/instrument-service-and-support",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 403}; image null → [object Object]"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 311}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 403
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": {
+                "w": 269,
+                "h": 202
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "LC-MS and CE instrumentation service and support"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 514
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Maximum uptime Keep your lab moving forward. Return to full "
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 311
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Unlock the potential of your LC-MS or CE instrument Generate"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/stories",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "hero",
+          "msg": "\".hero-text\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 422}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h2 geogrotesque 64px/76.8px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 0
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 612
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 40px/52px 270 rgb(20, 20, 20)",
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Discover thought leaders Tyler Heibeck, PhD Senior Lab Direc"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 422
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 geogrotesque 64px/76.8px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "SCIEX Stories Thought leaders and expert voices from the wor"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://sciex.com/education/clinical-mass-spec-knowledge-center",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 193 → 217}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "pageimage",
+          "msg": "\".media-image\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "subnav",
+          "msg": "\".page-sub-nav\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cardgrid",
+          "msg": "\".image-card\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "testimonial",
+          "msg": "\".testimonial\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "imagetext",
+          "msg": "\".image-text-2-col\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "textcol",
+          "msg": "1 → 2 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "textcol",
+          "msg": "1 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "textcol",
+          "msg": "rect{h 344 → 602}; heading h2 geogrotesque 40px/52px 270 rgb(20, 20, 20) → h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "hero": {
+            "sel": ".hero-text",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 217
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 geogrotesque 64px/76.8px 270 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Clinical Mass Spec Knowledge Center A resource and education"
+          },
+          "herosmall": {
+            "sel": ".hero-small",
+            "count": 0
+          },
+          "pageimage": {
+            "sel": ".media-image",
+            "count": 0
+          },
+          "subnav": {
+            "sel": ".page-sub-nav",
+            "count": 0
+          },
+          "cardgrid": {
+            "sel": ".image-card",
+            "count": 0
+          },
+          "testimonial": {
+            "sel": ".testimonial",
+            "count": 0
+          },
+          "imagetext": {
+            "sel": ".image-text-2-col",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 502
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 192,
+                "h": 144
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Mass spec operator Everything you need to enable your LC-MS/"
+          },
+          "textcol": {
+            "sel": ".text-container-left-aligned-1-col",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 602
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "geogrotesque 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 geogrotesque 24px/31.2px 270 rgb(20, 20, 20)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Get the most from your SCIEX clinical diagnostics instrument"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 20,
+    "varying": 20,
+    "probesVarying": [
+      "hero",
+      "herosmall",
+      "pageimage",
+      "subnav",
+      "cardgrid",
+      "testimonial",
+      "textcol",
+      "imagetext"
+    ]
+  }
+}
