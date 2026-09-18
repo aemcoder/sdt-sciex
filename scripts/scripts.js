@@ -146,11 +146,78 @@ function decorateButtons(main) {
  * Decorates the main element.
  * @param {Element} main The main element
  */
+
+/**
+ * Section styles authored with several values (`style: lead compact`) reach the
+ * browser as ONE hyphen-joined class (`lead-compact`) on current pipelines, so no
+ * `.section.lead.compact` rule can match. Split such classes back into the known
+ * style tokens (read from styles.css `main .section.<token>` rules, with a static
+ * fallback) BEFORE sections become visible. Tokens may themselves contain hyphens
+ * (`flush-top`, `big-lede`), so the split is a tokenisation over hyphen parts.
+ */
+const SECTION_STYLE_FALLBACK = ['article-body', 'big-lede', 'bravo', 'center', 'compact', 'contact-bar',
+  'dark', 'flush-bottom', 'flush-top', 'gap-top', 'grant-crumb', 'grant-form', 'grant-hero', 'grant-intro',
+  'grant-research', 'grey', 'hero-side-image', 'hero-text', 'lead', 'legacy-band', 'legacy-cta', 'legacy-hero',
+  'loose-bottom', 'loose-top', 'media-video', 'mid-bottom', 'mid-top', 'orange', 'page-image', 'quote-solo',
+  'ruled', 'ruled-after', 'ruo-note', 'small', 'sn-benefits', 'spaced', 'ticks', 'tight-bottom', 'tight-top',
+  'video-split'];
+
+function knownSectionStyleTokens() {
+  const tokens = new Set(SECTION_STYLE_FALLBACK);
+  [...document.styleSheets].forEach((sheet) => {
+    let rules;
+    try { rules = sheet.cssRules; } catch { return; }
+    if (!rules) return;
+    [...rules].forEach((rule) => {
+      const text = rule.selectorText || '';
+      if (!text.includes('.section.')) return;
+      text.split(',').forEach((sel) => {
+        const m = sel.match(/\.section((?:\.[a-z0-9-]+)+)/);
+        if (m) m[1].split('.').filter(Boolean).forEach((t) => tokens.add(t));
+      });
+    });
+  });
+  return tokens;
+}
+
+function tokeniseStyle(cls, tokens) {
+  const parts = cls.split('-');
+  const memo = new Map();
+  const walk = (i) => {
+    if (i === parts.length) return [];
+    if (memo.has(i)) return memo.get(i);
+    let best = null;
+    for (let j = parts.length; j > i; j -= 1) {
+      const cand = parts.slice(i, j).join('-');
+      if (tokens.has(cand)) {
+        const rest = walk(j);
+        if (rest) { best = [cand, ...rest]; break; }
+      }
+    }
+    memo.set(i, best);
+    return best;
+  };
+  const out = walk(0);
+  return out && out.length > 1 ? out : null;
+}
+
+function splitCompoundSectionStyles(main) {
+  const tokens = knownSectionStyleTokens();
+  main.querySelectorAll(':scope > div.section').forEach((section) => {
+    [...section.classList].forEach((cls) => {
+      if (cls === 'section' || cls.endsWith('-container') || tokens.has(cls)) return;
+      const split = tokeniseStyle(cls, tokens);
+      if (split) split.forEach((t) => section.classList.add(t));
+    });
+  });
+}
+
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  splitCompoundSectionStyles(main);
   decorateBlocks(main);
   decorateButtons(main);
 }
