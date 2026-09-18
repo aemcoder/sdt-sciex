@@ -1,0 +1,2680 @@
+{
+ "source": "http://localhost:8833/stories-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "stories-title",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX Stories"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Thought leaders and expert voices from the world of mass spectrometry."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [],
+   "defaultContent": true
+  },
+  {
+   "section": "hero-large",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "A cast of thousands"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The Pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/a-cast-of-thousands"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "hero-large#2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Pioneering future treatments"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "The Pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Find out more",
+     "href": "/stories/articles/pioneering-future-treatments"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Discover thought leaders"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tyler Heibeck, PhD"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Sutro Biopharma"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Senior Lab Director"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "View profile",
+     "href": "/stories/thought-leaders/tyler-heibeck"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Shane Karnik"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Aliri Bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Senior Laboratory Director, Bioanalytical"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "View profile",
+     "href": "/stories/thought-leaders/shane-karnik"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Birgit Schilling, PhD"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Buck Institute for Research on Aging"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Associate Professor"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Buck Institute for Research on Aging"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Director of the Mass Spectrometry Center"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "View profile",
+     "href": "/stories/thought-leaders/birgit-schilling"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Craig Butt, PhD"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Senior Staff Scientist, Food/Environmental,"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Global Technical Marketing"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "SCIEX"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "View profile",
+     "href": "/stories/thought-leaders/craig-butt"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.image-text-2-col-content",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "thought-leaders-cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "View all thought leaders",
+     "href": "https://sciex.com/stories/thought-leaders/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [],
+   "defaultContent": true
+  },
+  {
+   "section": "media-card-carousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Latest Stories"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1 /"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "2"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/a-lifetime-of-exposure"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "A lifetime of exposure"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "The pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/a-lifetime-of-exposure"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The right treatment"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Drug discovery is a team sport"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "What remains in our soil"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/what-remains-in-our-soil"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.splide__slide",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 37
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "tabs",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Topics"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Biopharma"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Clinical Research"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Data science"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Drug discovery"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Education"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Environment"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Food safety"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Forensics"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "History"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Innovation"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Omics"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Precision medicine"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Technology"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Biopharma"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Clinical Research"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Data science"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Drug discovery"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Education"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Environment"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Food safety"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Forensics"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "History"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Innovation"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Omics"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Precision medicine"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Technology"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Biopharma"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Clinical Research"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Data science"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Drug discovery"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Education"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Environment"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Food safety"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Forensics"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "History"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Innovation"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Omics"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Precision medicine"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Technology"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "PausePlay% buffered00:0000:09UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/aliri-bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "A cast of thousands"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "The Pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/aliri-bioanalysis"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/pioneering-future-treatments"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Pioneering future treatments"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "The pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/pioneering-future-treatments"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/mending-broken-hearts-sciex"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Mending Broken Hearts"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/mending-broken-hearts-sciex"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "The Proteome Universe"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/making-big-data-connections"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Making Big Data Connections"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/making-big-data-connections"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Immerse Yourself in Data"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "The Proteome Universe"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Episode 5 : Revolution"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Episode 4 : Evolution"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Probing the microbiome"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-system-robustness-enables-analysis-large-scale-sample-sets"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "The five minute PK study"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/true-high-throughput-bioanalysis-echo-ms-system"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Quantified carcinogenic impurities in medicines"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/analysis-nitrosamine-compounds-multiple-sartan-apis-review-optimization-ph-eur-monograph"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "body",
+     "order": 86,
+     "text": "Episode 3 : Explosion"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "COVID-19 therapies investigated"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Drug discovery"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "Forensic traces of drugs in blood"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-sensitivity-detection-forensic-drug-panel-human-whole-blood"
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "What remains in our soil"
+    },
+    {
+     "role": "body",
+     "order": 97,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/what-remains-in-our-soil"
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Digging into artificial turf"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/digging-into-artificial-turf"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Pushing sensitivity limits for pesticides"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/precise-testing-pesticides-food-sciex-triple-quad-7500-lc-ms-system-qtrap-ready"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "PausePlay% buffered00:0000:14UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/a-school-of-thought"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "A school of thought"
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "The pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/a-school-of-thought"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Probing the microbiome"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-system-robustness-enables-analysis-large-scale-sample-sets"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "The five minute PK study"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/true-high-throughput-bioanalysis-echo-ms-system"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "PausePlay% buffered00:0000:09UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/defining-naturesboundaries"
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Defining Nature\u2019s Boundaries"
+    },
+    {
+     "role": "body",
+     "order": 117,
+     "text": "Talk environmental science"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/defining-naturesboundaries"
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Secrets of the Norwegian lake"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/pfas-contamination-paper-factory-pristine-norwegian-lake"
+    },
+    {
+     "role": "body",
+     "order": 122,
+     "text": "The hidden impact of fighting fires"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/identifying-unknown-pfas-profile-fire-fighting-foams"
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "A discovery in the ice"
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/short-chain-pfas-arctic-ice"
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "Quantified carcinogenic impurities in medicines"
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/analysis-nitrosamine-compounds-multiple-sartan-apis-review-optimization-ph-eur-monograph"
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "New PFAS chemicals discovered in New Jersey soils"
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "Fireside Chats with Craig Butt"
+    },
+    {
+     "role": "cta",
+     "order": 133,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/new-pfas-chemicals-discovered-in-new-jersey-soils"
+    },
+    {
+     "role": "cta",
+     "order": 134,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "body",
+     "order": 135,
+     "text": "Episode 1 : Origins"
+    },
+    {
+     "role": "body",
+     "order": 136,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 137,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "body",
+     "order": 138,
+     "text": "Forensic traces of drugs in blood"
+    },
+    {
+     "role": "body",
+     "order": 139,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 140,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-sensitivity-detection-forensic-drug-panel-human-whole-blood"
+    },
+    {
+     "role": "body",
+     "order": 141,
+     "text": "What remains in our soil"
+    },
+    {
+     "role": "body",
+     "order": 142,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/what-remains-in-our-soil"
+    },
+    {
+     "role": "cta",
+     "order": 144,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/a-lifetime-of-exposure"
+    },
+    {
+     "role": "body",
+     "order": 145,
+     "text": "A lifetime of exposure"
+    },
+    {
+     "role": "body",
+     "order": 146,
+     "text": "The pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 147,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/a-lifetime-of-exposure"
+    },
+    {
+     "role": "body",
+     "order": 148,
+     "text": "Pushing sensitivity limits for pesticides"
+    },
+    {
+     "role": "body",
+     "order": 149,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/precise-testing-pesticides-food-sciex-triple-quad-7500-lc-ms-system-qtrap-ready"
+    },
+    {
+     "role": "body",
+     "order": 151,
+     "text": "Probing the microbiome"
+    },
+    {
+     "role": "body",
+     "order": 152,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 153,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-system-robustness-enables-analysis-large-scale-sample-sets"
+    },
+    {
+     "role": "body",
+     "order": 154,
+     "text": "The five minute PK study"
+    },
+    {
+     "role": "body",
+     "order": 155,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 156,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/true-high-throughput-bioanalysis-echo-ms-system"
+    },
+    {
+     "role": "cta",
+     "order": 157,
+     "text": "PausePlay% buffered00:0000:09UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/defining-naturesboundaries"
+    },
+    {
+     "role": "body",
+     "order": 158,
+     "text": "Defining Nature\u2019s Boundaries"
+    },
+    {
+     "role": "body",
+     "order": 159,
+     "text": "Talk environmental science"
+    },
+    {
+     "role": "cta",
+     "order": 160,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/defining-naturesboundaries"
+    },
+    {
+     "role": "body",
+     "order": 161,
+     "text": "Secrets of the Norwegian lake"
+    },
+    {
+     "role": "body",
+     "order": 162,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 163,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/pfas-contamination-paper-factory-pristine-norwegian-lake"
+    },
+    {
+     "role": "body",
+     "order": 164,
+     "text": "The hidden impact of fighting fires"
+    },
+    {
+     "role": "body",
+     "order": 165,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 166,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/identifying-unknown-pfas-profile-fire-fighting-foams"
+    },
+    {
+     "role": "body",
+     "order": 167,
+     "text": "A discovery in the ice"
+    },
+    {
+     "role": "body",
+     "order": 168,
+     "text": "PFAS fireside chats"
+    },
+    {
+     "role": "cta",
+     "order": 169,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/short-chain-pfas-arctic-ice"
+    },
+    {
+     "role": "body",
+     "order": 170,
+     "text": "Quantified carcinogenic impurities in medicines"
+    },
+    {
+     "role": "body",
+     "order": 171,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 172,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/analysis-nitrosamine-compounds-multiple-sartan-apis-review-optimization-ph-eur-monograph"
+    },
+    {
+     "role": "cta",
+     "order": 173,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "body",
+     "order": 174,
+     "text": "Episode 3 : Explosion"
+    },
+    {
+     "role": "body",
+     "order": 175,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 176,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "body",
+     "order": 177,
+     "text": "New PFAS chemicals discovered in New Jersey soils"
+    },
+    {
+     "role": "body",
+     "order": 178,
+     "text": "Fireside Chats with Craig Butt"
+    },
+    {
+     "role": "cta",
+     "order": 179,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/new-pfas-chemicals-discovered-in-new-jersey-soils"
+    },
+    {
+     "role": "body",
+     "order": 180,
+     "text": "Forensic traces of drugs in blood"
+    },
+    {
+     "role": "body",
+     "order": 181,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 182,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-sensitivity-detection-forensic-drug-panel-human-whole-blood"
+    },
+    {
+     "role": "body",
+     "order": 183,
+     "text": "Pushing sensitivity limits for pesticides"
+    },
+    {
+     "role": "body",
+     "order": 184,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 185,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/precise-testing-pesticides-food-sciex-triple-quad-7500-lc-ms-system-qtrap-ready"
+    },
+    {
+     "role": "body",
+     "order": 186,
+     "text": "Probing the microbiome"
+    },
+    {
+     "role": "body",
+     "order": 187,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 188,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-system-robustness-enables-analysis-large-scale-sample-sets"
+    },
+    {
+     "role": "body",
+     "order": 189,
+     "text": "The five minute PK study"
+    },
+    {
+     "role": "body",
+     "order": 190,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 191,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/true-high-throughput-bioanalysis-echo-ms-system"
+    },
+    {
+     "role": "body",
+     "order": 192,
+     "text": "Quantified carcinogenic impurities in medicines"
+    },
+    {
+     "role": "body",
+     "order": 193,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 194,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/analysis-nitrosamine-compounds-multiple-sartan-apis-review-optimization-ph-eur-monograph"
+    },
+    {
+     "role": "body",
+     "order": 195,
+     "text": "Forensic traces of drugs in blood"
+    },
+    {
+     "role": "body",
+     "order": 196,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 197,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-sensitivity-detection-forensic-drug-panel-human-whole-blood"
+    },
+    {
+     "role": "body",
+     "order": 198,
+     "text": "Pushing sensitivity limits for pesticides"
+    },
+    {
+     "role": "body",
+     "order": 199,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 200,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/precise-testing-pesticides-food-sciex-triple-quad-7500-lc-ms-system-qtrap-ready"
+    },
+    {
+     "role": "body",
+     "order": 201,
+     "text": "Probing the microbiome"
+    },
+    {
+     "role": "body",
+     "order": 202,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 203,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-system-robustness-enables-analysis-large-scale-sample-sets"
+    },
+    {
+     "role": "body",
+     "order": 204,
+     "text": "The five minute PK study"
+    },
+    {
+     "role": "body",
+     "order": 205,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 206,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/true-high-throughput-bioanalysis-echo-ms-system"
+    },
+    {
+     "role": "body",
+     "order": 207,
+     "text": "Quantified carcinogenic impurities in medicines"
+    },
+    {
+     "role": "body",
+     "order": 208,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 209,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/analysis-nitrosamine-compounds-multiple-sartan-apis-review-optimization-ph-eur-monograph"
+    },
+    {
+     "role": "cta",
+     "order": 210,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "body",
+     "order": 211,
+     "text": "Episode 1 : Origins"
+    },
+    {
+     "role": "body",
+     "order": 212,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 213,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "cta",
+     "order": 214,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 215,
+     "text": "Episode 4 : Evolution"
+    },
+    {
+     "role": "body",
+     "order": 216,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 217,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "cta",
+     "order": 218,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/generation-quant-foundations"
+    },
+    {
+     "role": "body",
+     "order": 219,
+     "text": "Episode 2 : Foundations"
+    },
+    {
+     "role": "body",
+     "order": 220,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 221,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/generation-quant-foundations"
+    },
+    {
+     "role": "cta",
+     "order": 222,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 223,
+     "text": "Episode 5 : Revolution"
+    },
+    {
+     "role": "body",
+     "order": 224,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 225,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "cta",
+     "order": 226,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "body",
+     "order": 227,
+     "text": "Episode 3 : Explosion"
+    },
+    {
+     "role": "body",
+     "order": 228,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 229,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "cta",
+     "order": 230,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "body",
+     "order": 231,
+     "text": "Episode 1 : Origins"
+    },
+    {
+     "role": "body",
+     "order": 232,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 233,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "cta",
+     "order": 234,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 235,
+     "text": "Episode 4 : Evolution"
+    },
+    {
+     "role": "body",
+     "order": 236,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 237,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "cta",
+     "order": 238,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 239,
+     "text": "The right treatment"
+    },
+    {
+     "role": "body",
+     "order": 240,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 241,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 242,
+     "text": "Multi-omic drug discovery"
+    },
+    {
+     "role": "body",
+     "order": 243,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 244,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/multi-omic-drug-discovery"
+    },
+    {
+     "role": "cta",
+     "order": 245,
+     "text": "PausePlay% buffered00:0000:14UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/a-school-of-thought"
+    },
+    {
+     "role": "body",
+     "order": 246,
+     "text": "A school of thought"
+    },
+    {
+     "role": "body",
+     "order": 247,
+     "text": "The pursuit"
+    },
+    {
+     "role": "cta",
+     "order": 248,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/a-school-of-thought"
+    },
+    {
+     "role": "cta",
+     "order": 249,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/generation-quant-foundations"
+    },
+    {
+     "role": "body",
+     "order": 250,
+     "text": "Episode 2 : Foundations"
+    },
+    {
+     "role": "body",
+     "order": 251,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 252,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/generation-quant-foundations"
+    },
+    {
+     "role": "cta",
+     "order": 253,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "body",
+     "order": 254,
+     "text": "Drug discovery is a team sport"
+    },
+    {
+     "role": "body",
+     "order": 255,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 256,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "cta",
+     "order": 257,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 258,
+     "text": "Episode 5 : Revolution"
+    },
+    {
+     "role": "body",
+     "order": 259,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 260,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 261,
+     "text": "The other Amanita toxin"
+    },
+    {
+     "role": "body",
+     "order": 262,
+     "text": "Forensics"
+    },
+    {
+     "role": "cta",
+     "order": 263,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/allenic-norleucine-amanita-toxin"
+    },
+    {
+     "role": "body",
+     "order": 264,
+     "text": "Cracking PTMs with EAD"
+    },
+    {
+     "role": "body",
+     "order": 265,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 266,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/electron-activated-dissociation-for-ptm-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 267,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "body",
+     "order": 268,
+     "text": "Episode 3 : Explosion"
+    },
+    {
+     "role": "body",
+     "order": 269,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 270,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "cta",
+     "order": 271,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 272,
+     "text": "Episode 4 : Evolution"
+    },
+    {
+     "role": "body",
+     "order": 273,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 274,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "cta",
+     "order": 275,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 276,
+     "text": "The right treatment"
+    },
+    {
+     "role": "body",
+     "order": 277,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 278,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 279,
+     "text": "Organ-on-a-chip metabolomics"
+    },
+    {
+     "role": "body",
+     "order": 280,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 281,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/accurate-mass-technology-advancement-metabolomics-system-biology"
+    },
+    {
+     "role": "body",
+     "order": 282,
+     "text": "Multi-omic drug discovery"
+    },
+    {
+     "role": "body",
+     "order": 283,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 284,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/multi-omic-drug-discovery"
+    },
+    {
+     "role": "cta",
+     "order": 285,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/making-big-data-connections"
+    },
+    {
+     "role": "body",
+     "order": 286,
+     "text": "Making Big Data Connections"
+    },
+    {
+     "role": "body",
+     "order": 287,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 288,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/making-big-data-connections"
+    },
+    {
+     "role": "cta",
+     "order": 289,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/prolonging-your-healthspan"
+    },
+    {
+     "role": "body",
+     "order": 290,
+     "text": "Prolonging Your Healthspan"
+    },
+    {
+     "role": "body",
+     "order": 291,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 292,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/prolonging-your-healthspan"
+    },
+    {
+     "role": "cta",
+     "order": 293,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "body",
+     "order": 294,
+     "text": "Immerse Yourself in Data"
+    },
+    {
+     "role": "body",
+     "order": 295,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 296,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "cta",
+     "order": 297,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "body",
+     "order": 298,
+     "text": "The Proteome Universe"
+    },
+    {
+     "role": "body",
+     "order": 299,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 300,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "cta",
+     "order": 301,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 302,
+     "text": "Episode 5 : Revolution"
+    },
+    {
+     "role": "body",
+     "order": 303,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 304,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 305,
+     "text": "The other Amanita toxin"
+    },
+    {
+     "role": "body",
+     "order": 306,
+     "text": "Forensics"
+    },
+    {
+     "role": "cta",
+     "order": 307,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/allenic-norleucine-amanita-toxin"
+    },
+    {
+     "role": "body",
+     "order": 308,
+     "text": "Cracking PTMs with EAD"
+    },
+    {
+     "role": "body",
+     "order": 309,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 310,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/electron-activated-dissociation-for-ptm-analysis"
+    },
+    {
+     "role": "body",
+     "order": 311,
+     "text": "Cracking PTMs with EAD"
+    },
+    {
+     "role": "body",
+     "order": 312,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 313,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/electron-activated-dissociation-for-ptm-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 314,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 315,
+     "text": "Episode 4 : Evolution"
+    },
+    {
+     "role": "body",
+     "order": 316,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 317,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "cta",
+     "order": 318,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 319,
+     "text": "The right treatment"
+    },
+    {
+     "role": "body",
+     "order": 320,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 321,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 322,
+     "text": "Organ-on-a-chip metabolomics"
+    },
+    {
+     "role": "body",
+     "order": 323,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 324,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/accurate-mass-technology-advancement-metabolomics-system-biology"
+    },
+    {
+     "role": "cta",
+     "order": 325,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/making-big-data-connections"
+    },
+    {
+     "role": "body",
+     "order": 326,
+     "text": "Making Big Data Connections"
+    },
+    {
+     "role": "body",
+     "order": 327,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 328,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/making-big-data-connections"
+    },
+    {
+     "role": "cta",
+     "order": 329,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/prolonging-your-healthspan"
+    },
+    {
+     "role": "body",
+     "order": 330,
+     "text": "Prolonging Your Healthspan"
+    },
+    {
+     "role": "body",
+     "order": 331,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 332,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/prolonging-your-healthspan"
+    },
+    {
+     "role": "cta",
+     "order": 333,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "body",
+     "order": 334,
+     "text": "Drug discovery is a team sport"
+    },
+    {
+     "role": "body",
+     "order": 335,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 336,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "cta",
+     "order": 337,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/mending-broken-hearts-sciex"
+    },
+    {
+     "role": "body",
+     "order": 338,
+     "text": "Mending Broken Hearts"
+    },
+    {
+     "role": "body",
+     "order": 339,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 340,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/mending-broken-hearts-sciex"
+    },
+    {
+     "role": "cta",
+     "order": 341,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "body",
+     "order": 342,
+     "text": "Immerse Yourself in Data"
+    },
+    {
+     "role": "body",
+     "order": 343,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 344,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "cta",
+     "order": 345,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "body",
+     "order": 346,
+     "text": "The Proteome Universe"
+    },
+    {
+     "role": "body",
+     "order": 347,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 348,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "cta",
+     "order": 349,
+     "text": "PausePlay% buffered00:0000:09UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/defining-naturesboundaries"
+    },
+    {
+     "role": "body",
+     "order": 350,
+     "text": "Defining Nature\u2019s Boundaries"
+    },
+    {
+     "role": "body",
+     "order": 351,
+     "text": "Talk environmental science"
+    },
+    {
+     "role": "cta",
+     "order": 352,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/defining-naturesboundaries"
+    },
+    {
+     "role": "cta",
+     "order": 353,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 354,
+     "text": "Episode 5 : Revolution"
+    },
+    {
+     "role": "body",
+     "order": 355,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 356,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 357,
+     "text": "Cracking PTMs with EAD"
+    },
+    {
+     "role": "body",
+     "order": 358,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 359,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/electron-activated-dissociation-for-ptm-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 360,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 361,
+     "text": "COVID-19 therapies investigated"
+    },
+    {
+     "role": "body",
+     "order": 362,
+     "text": "Drug discovery"
+    },
+    {
+     "role": "cta",
+     "order": 363,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "cta",
+     "order": 364,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "body",
+     "order": 365,
+     "text": "Episode 1 : Origins"
+    },
+    {
+     "role": "body",
+     "order": 366,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 367,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-1-origins"
+    },
+    {
+     "role": "body",
+     "order": 368,
+     "text": "Forensic traces of drugs in blood"
+    },
+    {
+     "role": "body",
+     "order": 369,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 370,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-sensitivity-detection-forensic-drug-panel-human-whole-blood"
+    },
+    {
+     "role": "cta",
+     "order": 371,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "body",
+     "order": 372,
+     "text": "Episode 4 : Evolution"
+    },
+    {
+     "role": "body",
+     "order": 373,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 374,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-4-evolution"
+    },
+    {
+     "role": "cta",
+     "order": 375,
+     "text": "PausePlay% buffered00:0000:06UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 376,
+     "text": "The right treatment"
+    },
+    {
+     "role": "body",
+     "order": 377,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 378,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-right-treatment"
+    },
+    {
+     "role": "body",
+     "order": 379,
+     "text": "Pushing sensitivity limits for pesticides"
+    },
+    {
+     "role": "body",
+     "order": 380,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 381,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/precise-testing-pesticides-food-sciex-triple-quad-7500-lc-ms-system-qtrap-ready"
+    },
+    {
+     "role": "body",
+     "order": 382,
+     "text": "Probing the microbiome"
+    },
+    {
+     "role": "body",
+     "order": 383,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 384,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/high-system-robustness-enables-analysis-large-scale-sample-sets"
+    },
+    {
+     "role": "cta",
+     "order": 385,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/generation-quant-foundations"
+    },
+    {
+     "role": "body",
+     "order": 386,
+     "text": "Episode 2 : Foundations"
+    },
+    {
+     "role": "body",
+     "order": 387,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 388,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/generation-quant-foundations"
+    },
+    {
+     "role": "cta",
+     "order": 389,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "body",
+     "order": 390,
+     "text": "Drug discovery is a team sport"
+    },
+    {
+     "role": "body",
+     "order": 391,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 392,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/drug-discovery-is-a-team-sport"
+    },
+    {
+     "role": "body",
+     "order": 393,
+     "text": "The five minute PK study"
+    },
+    {
+     "role": "body",
+     "order": 394,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 395,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/true-high-throughput-bioanalysis-echo-ms-system"
+    },
+    {
+     "role": "cta",
+     "order": 396,
+     "text": "PausePlay% buffered00:0000:08UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "body",
+     "order": 397,
+     "text": "Immerse Yourself in Data"
+    },
+    {
+     "role": "body",
+     "order": 398,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 399,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/immerse-yourself-in-data"
+    },
+    {
+     "role": "cta",
+     "order": 400,
+     "text": "PausePlay% buffered00:0000:10UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "body",
+     "order": 401,
+     "text": "The Proteome Universe"
+    },
+    {
+     "role": "body",
+     "order": 402,
+     "text": "Talk Precision Medicine"
+    },
+    {
+     "role": "cta",
+     "order": 403,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/the-proteome-universe"
+    },
+    {
+     "role": "cta",
+     "order": 404,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 405,
+     "text": "Episode 5 : Revolution"
+    },
+    {
+     "role": "body",
+     "order": 406,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 407,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-5-revolution"
+    },
+    {
+     "role": "body",
+     "order": 408,
+     "text": "The other Amanita toxin"
+    },
+    {
+     "role": "body",
+     "order": 409,
+     "text": "Forensics"
+    },
+    {
+     "role": "cta",
+     "order": 410,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/allenic-norleucine-amanita-toxin"
+    },
+    {
+     "role": "body",
+     "order": 411,
+     "text": "Quantified carcinogenic impurities in medicines"
+    },
+    {
+     "role": "body",
+     "order": 412,
+     "text": "Inside the technote"
+    },
+    {
+     "role": "cta",
+     "order": 413,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/analysis-nitrosamine-compounds-multiple-sartan-apis-review-optimization-ph-eur-monograph"
+    },
+    {
+     "role": "body",
+     "order": 414,
+     "text": "Cracking PTMs with EAD"
+    },
+    {
+     "role": "body",
+     "order": 415,
+     "text": "Omics"
+    },
+    {
+     "role": "cta",
+     "order": 416,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/electron-activated-dissociation-for-ptm-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 417,
+     "text": "PausePlay% buffered00:0000:15UnmuteMuteDisable captionsEnable captionsSettingsCaptionsDisabledQualityundefinedSpeedNormalCaptionsGo back to previous menuQualityGo back to previous menuSpeedGo back to previous menu0.5\u00d70.75\u00d7Normal1.25\u00d71.5\u00d71.75\u00d72\u00d74\u00d7PIPExit fullscreenEnter fullscreen Play",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    },
+    {
+     "role": "body",
+     "order": 418,
+     "text": "Episode 3 : Explosion"
+    },
+    {
+     "role": "body",
+     "order": 419,
+     "text": "Generation Quant"
+    },
+    {
+     "role": "cta",
+     "order": 420,
+     "text": "Find out more",
+     "href": "https://sciex.com/stories/articles/episode-3-explosion"
+    }
+   ],
+   "imgCount": 51,
+   "editableTexts": 109,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tw-container",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.tw-h-auto",
+     "count": 13,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.tw-grid",
+     "count": 14,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.md:tw-hidden",
+     "count": 13,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "topics-cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "View all topics",
+     "href": "/stories/topics"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [],
+   "defaultContent": true
+  }
+ ],
+ "note": "G3 re-cut: the /stories prototype mirrors the live XF DOM (no data-section); section names assigned in page order (stories-title h1+lede \u00b7 hero-large \u00d72 \u00b7 image-text-2-col \u00b7 thought-leaders-cta \u00b7 media-card-carousel \u00b7 tabs (13 panels \u00d7 media-card grid) \u00b7 topics-cta); defaultContent marks the D1 prose sections."
+}

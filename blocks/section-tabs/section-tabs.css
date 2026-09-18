@@ -312,3 +312,17 @@
     transition: none;
   }
 }
+
+/* ==========================================================================================
+   G3 variant `ruled` — APPENDED by the stardust:deploy G3 agent. Live .tabs.panelcontainer on
+   /stories ("Topics"): the head is an h2 (text-charlie) inside a `tw-border-t` container, pt 24/32,
+   pb 32/48 (stardust/.work/deploy/g3/stories-probe3.json § tabs). Same bar / panel mechanics.
+   ========================================================================================== */
+.section-tabs.ruled .stabs-head {
+  border-top: 1px solid var(--border-default);
+}
+
+.section-tabs.ruled .stabs-head h2 {
+  margin: 0;
+  color: var(--grey-900);
+}

@@ -2,3 +2,12 @@
 {"t":"2026-09-18T09:30:57.167Z","path":"/index","step":"verify","ok":true}
 {"t":"2026-09-18T09:30:58.009Z","path":"/nav","step":"verify","ok":true}
 {"t":"2026-09-18T10:45:09.995Z","path":"/applications/pharma-and-biopharma","step":"verify","ok":true}
+{"t":"2026-09-18T12:03:00.642Z","path":"/events","step":"verify","ok":true}
+{"t":"2026-09-18T12:03:01.283Z","path":"/about-us/contact-us","step":"verify","ok":true}
+{"t":"2026-09-18T12:03:05.928Z","path":"/resource-hub/regulatory-documents","step":"verify","ok":true}
+{"t":"2026-09-18T12:03:06.752Z","path":"/resource-hub","step":"verify","ok":true}
+{"t":"2026-09-18T12:12:41.365Z","path":"/footer-legacy","step":"verify","ok":true}
+{"t":"2026-09-18T12:12:41.608Z","path":"/applications/pharma-and-biopharma","step":"verify","ok":true}
+{"t":"2026-09-18T12:12:47.336Z","path":"/index","step":"verify","ok":true}
+{"t":"2026-09-18T12:12:47.556Z","path":"/footer","step":"verify","ok":true}
+{"t":"2026-09-18T12:12:53.996Z","path":"/nav","step":"verify","ok":true}

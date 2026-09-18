@@ -1,0 +1,160 @@
+{
+ "source": "http://localhost:8833/about-us-press-releases-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "About Us",
+     "href": "/about-us"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Press Releases",
+     "href": "/about-us/press-releases"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Press releases"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "press-release-years",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "2026 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2026"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "2025 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2025"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "2024 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2024"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "2023 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2023"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "2022 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2022"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "2021 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2021"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "2020 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2020"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "2019 press releases"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "View press releases",
+     "href": "https://sciex.com/about-us/press-releases/2019"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.link-tile",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

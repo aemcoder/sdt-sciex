@@ -106,9 +106,103 @@ function buildSlide(item, i, total, idBase) {
   return li;
 }
 
+/* ==========================================================================================
+   G3 variant `media` — APPENDED by the stardust:deploy G3 agent (dispatcher branch in decorate()).
+   Live legacy `.multi-column-rich` Swiper (#multi-column-slider on
+   /support/professional-lab-services, page-content template): 4 slides (40 px icon, title, rich
+   text) 20 % wide from 768 with gap 30 +
+   mr 32 — all in view, so the prev / "N/total" / next header is LOCKED (painted white-on-white);
+   below 768 the slides are 1-up (gap 15 + mr 12) with blue pagination.
+   Schema: stardust/eds-schema/support-professional-lab-services.json § service-pillars (4 units).
+   Decode tier: reconstructive; every authored node MOVES (EW1–EW3).
+ *
+ * Authoring (one row per slide, cells icon | body):
+ *   <div>
+ *     <div><p><img src="https://content.da.live/…/media/about-support/icon-customized.svg" alt="customized"></p></div>
+ *     <div><h3>Customization</h3><p>One size does not fit all. …</p></div>
+ *   </div>
+ * Generated text: the pagination numerals "N" / "total" (runtime values, allowlisted — as
+ * `quotes`).
+   ========================================================================================== */
+function decorateMedia(block) {
+  const rows = [...block.children];
+  const items = rows.map((row) => {
+    const nodes = [...row.children].flatMap(cellNodes);
+    const media = nodes.find(isMedia) || null;
+    const heading = nodes.find((n) => /^H[1-6]$/.test(n.tagName)) || null;
+    const texts = nodes.filter((n) => n !== media && n !== heading);
+    return { media, heading, texts };
+  });
+  const container = el('div', 'container');
+  const swiper = el('div', 'mcar-swiper');
+  const header = el('div', 'mcar-header');
+  const buttons = el('div', 'mcar-buttons');
+  const prev = el('button', 'mcar-btn mcar-btn-prev');
+  prev.type = 'button'; prev.setAttribute('aria-label', 'Previous slide');
+  prev.innerHTML = ARROW_PREV;
+  const pag = el('div', 'mcar-pag');
+  const cur = el('span', 'mcar-pag-current');
+  const tot = el('span', 'mcar-pag-total');
+  pag.append(cur, document.createTextNode('/'), tot);
+  const next = el('button', 'mcar-btn mcar-btn-next');
+  next.type = 'button'; next.setAttribute('aria-label', 'Next slide');
+  next.innerHTML = ARROW_NEXT;
+  buttons.append(prev, pag, next);
+  header.append(buttons);
+  const list = el('div', 'mcar-wrapper');
+  items.forEach((it) => {
+    const slide = el('div', 'mcar-slide');
+    if (it.media) {
+      const pic = it.media.matches('picture, img') ? it.media : it.media.querySelector('picture, img');
+      slide.append(wrapNode(pic, 'mcar-icon'));
+    }
+    const body = el('div', 'mcar-body');
+    if (it.heading) body.append(wrapNode(it.heading, 'mcar-title'));
+    if (it.texts.length) { const t = el('div', 'mcar-text'); t.append(...it.texts); body.append(t); }
+    slide.append(body);
+    list.append(slide);
+  });
+  swiper.append(header, list);
+  container.append(swiper);
+  block.replaceChildren(container);
+
+  /* index-based slide (Swiper slidesPerView auto): locked when every slide fits */
+  const slides = [...list.children];
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let index = 0;
+  const gap = () => (parseFloat(getComputedStyle(list).columnGap) || 0);
+  const pitch = () => slides[0].getBoundingClientRect().width
+    + (parseFloat(getComputedStyle(slides[0]).marginRight) || 0) + gap();
+  const perView = () => Math.max(1, Math.floor(
+    (list.getBoundingClientRect().width + gap()) / pitch(),
+  ));
+  const paint = (animate) => {
+    const max = Math.max(0, slides.length - perView());
+    index = Math.max(0, Math.min(max, index));
+    const locked = max === 0;
+    buttons.classList.toggle('is-lock', locked);
+    prev.disabled = index <= 0;
+    next.disabled = index >= max;
+    prev.classList.toggle('is-disabled', prev.disabled);
+    next.classList.toggle('is-disabled', next.disabled);
+    cur.textContent = String(index + 1);
+    tot.textContent = String(max + 1);
+    list.style.transition = animate && !reduce.matches ? 'transform 0.3s ease-out' : '';
+    list.style.transform = `translate3d(${-index * pitch()}px, 0, 0)`;
+    slides.forEach((s, k) => s.classList.toggle('is-active', k === index));
+  };
+  prev.addEventListener('click', () => { index -= 1; paint(true); });
+  next.addEventListener('click', () => { index += 1; paint(true); });
+  paint(false);
+  window.addEventListener('resize', () => paint(false));
+  if ('ResizeObserver' in window) { const ro = new ResizeObserver(() => paint(false)); ro.observe(list); }
+  requestAnimationFrame(() => requestAnimationFrame(() => paint(false)));
+}
+
 export default function decorate(block) {
   const rows = [...block.children];
   if (!rows.length) return;
+  if (block.classList.contains('media')) { decorateMedia(block); return; }
   const items = rows.map(classify).filter((it) => it.quote || it.media);
   const idBase = `carousel-${Math.random().toString(36).slice(2, 7)}`;
 

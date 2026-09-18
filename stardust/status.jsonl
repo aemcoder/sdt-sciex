@@ -150,3 +150,5 @@
 {"ts": "2026-09-18T14:02:59Z", "skill": "stardust:deploy", "phase": "g3:support-instrument-service-and-support:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0"}
 {"ts": "2026-09-18T14:02:59Z", "skill": "stardust:deploy", "phase": "g3:support-training:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0"}
 {"ts":"2026-09-18T14:06:32.003Z","skill":"stardust:deploy","phase":"g2:convert","event":"end","group":"g2","result":"8/8 pages lint=0 roundtrip=0 ew=0 qa=0; drive PASS; ready.json written (needsCommit, no DA write)"}
+{"ts": "2026-09-18T14:15:03Z", "skill": "stardust:deploy", "phase": "g3:support-professional-lab-services:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0 drive=0"}
+{"ts": "2026-09-18T14:15:03Z", "skill": "stardust:deploy", "phase": "g3:stories:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=1 drive=0"}

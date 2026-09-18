@@ -903,3 +903,26 @@ body.page-content .columns.split > div > div:not(:has(picture, img)) {
 .columns.lead > div > :where(div) {
   align-content: flex-start;
 }
+
+/* page-content `split` (live .tcd--media): the media row's title is the 40/52 body heading (h3 on live),
+   not the 32/40 lead heading — restated after the shared rule above */
+body.page-content .columns.split h2 {
+  margin: 0 0 20px;
+  font-size: 40px;
+  line-height: 34px;
+}
+
+@media (width >= 768px) {
+  body.page-content .columns.split h2 {
+    line-height: 52px;
+  }
+}
+
+/* page-content columns below 768: the live .two-columns-detailed has no vertical padding until md */
+@media (width <= 767px) {
+  body.page-content .columns.lead,
+  body.page-content .columns.split {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,206 @@
+/* hero-video — live .hero-large on /stories (tokens: stardust/.work/deploy/g3/stories-probe3.json;
+   Tailwind utilities on the settled DOM: tw-min-h-[calc(95svh-64px)] md:[calc(95svh-133px)],
+   tw-container tw-py-40 md:tw-pt-80 md:tw-pb-64 tw-flex tw-items-end, text-bravo white title,
+   text-base kicker, bold white arrow link). Wrappers carry the layout; the authored h1/h2, p and
+   picture are styled through them (EW2). */
+.hero-video {
+  padding: 0;
+}
+
+.hero-video .hero-video-sec {
+  position: relative;
+}
+
+.hero-video .hero-video-stage {
+  position: relative;
+  min-height: calc(95svh - 64px);
+  background-color: var(--grey-900);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-video .hero-video-media {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video .hero-video-poster {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero-video .hero-video-poster[hidden] {
+  display: none;
+}
+
+.hero-video .hero-video-poster p {
+  margin: 0;
+  height: 100%;
+  line-height: 0;
+}
+
+.hero-video .hero-video-poster picture {
+  display: block;
+  height: 100%;
+}
+
+.hero-video .hero-video-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video .hero-video-caption {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  min-height: calc(95svh - 64px);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.hero-video .hero-video-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-video .hero-video-col {
+  width: 100%;
+}
+
+/* title = live text-bravo (31/38 → 52/62.4), white, mt 16/20, max-w 9/12 lg · 8/12 xl */
+.hero-video .hero-video-title {
+  margin-top: 16px;
+}
+
+.hero-video .hero-video-title :is(h1, h2, h3) {
+  margin: 0;
+  color: #fff;
+  font-size: 31px;
+  font-weight: 270;
+  line-height: 38px;
+  overflow-wrap: break-word;
+}
+
+/* kicker = live text-base white, mt 16/20, max-w 6/12 lg · 5/12 xl */
+.hero-video .hero-video-kicker {
+  margin-top: 16px;
+}
+
+.hero-video .hero-video-kicker p {
+  margin: 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+}
+
+.hero-video .hero-video-actions {
+  display: block;
+}
+
+.hero-video .hero-video-cta {
+  margin-top: 16px;
+}
+
+/* the arrow link (<em><a> → a.button.secondary) paints white and bold (tw-font-bold = 450) here */
+.hero-video .hero-video-cta a {
+  color: #fff;
+  font-weight: 450;
+  background-image: linear-gradient(currentcolor, currentcolor);
+}
+
+.hero-video .hero-video-cta a.button.secondary:hover {
+  color: #fff;
+}
+
+.hero-video .hero-video-source p {
+  margin: 0;
+}
+
+.hero-video .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (width >= 768px) {
+  .hero-video .hero-video-stage,
+  .hero-video .hero-video-caption {
+    min-height: calc(95svh - 133px);
+  }
+
+  .hero-video .hero-video-caption {
+    padding-top: 80px;
+    padding-bottom: 64px;
+  }
+
+  .hero-video .hero-video-row {
+    flex-direction: row;
+  }
+
+  .hero-video .hero-video-title,
+  .hero-video .hero-video-kicker,
+  .hero-video .hero-video-cta {
+    margin-top: 20px;
+  }
+
+  .hero-video .hero-video-title :is(h1, h2, h3) {
+    font-size: calc(-0.5px + 4.1016vw);
+    line-height: 1.2;
+  }
+
+  .hero-video .hero-video-kicker p {
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+
+  .hero-video .hero-video-actions {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-video .hero-video-title {
+    max-width: 75%;
+  }
+
+  .hero-video .hero-video-kicker {
+    max-width: 50%;
+  }
+}
+
+@media (width >= 1280px) {
+  .hero-video .hero-video-title {
+    max-width: 66.6667%;
+  }
+
+  .hero-video .hero-video-title :is(h1, h2, h3) {
+    font-size: 52px;
+  }
+
+  .hero-video .hero-video-kicker {
+    max-width: 41.6667%;
+  }
+}

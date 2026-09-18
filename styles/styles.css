@@ -2429,3 +2429,69 @@ main .section.lead a.button.accent::after,
 @media (width >= 1536px) {
   main .section.media-video .video .video-wrap { max-width: 1536px; }
 }
+
+/* `hero-side-image` — the live geometry is a flex-shrink accident worth reproducing: the picture is a
+   blockified flex item whose basis is the 1440 px intrinsic image, so the h1 column (basis 66.67 %) and
+   the picture shrink in proportion (505 px | 807 px at 1440) and the img takes 33.33 % OF THE PICTURE
+   (269 × 202). Modelled with the same bases; below 768 the picture stacks at full width. */
+/* stylelint-disable-next-line no-duplicate-selectors -- appended geometry revision (cascade order) */
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper {
+  flex-flow: column nowrap;
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors -- appended geometry revision (cascade order) */
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper p:has(> picture, > img, > a > picture, > a > img) {
+  aspect-ratio: auto;
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors -- appended geometry revision (cascade order) */
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper p img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* page-image on the page-content template keeps NO rhythm (live .cmp-image sits flush) — the flush
+   rhythm rules lose to the desktop `page-image` padding by cascade order, so restate them here */
+main .section.page-image.flush-top { padding-top: 0; }
+main .section.page-image.flush-bottom { padding-bottom: 0; }
+
+@media (width >= 768px) {
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper {
+    flex-flow: row nowrap;
+  }
+
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper h1 {
+    flex: 0 1 66.6667%;
+    width: 66.6667%;
+    min-width: 0;
+  }
+
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper p:has(> picture, > img, > a > picture, > a > img) {
+    flex: 0 1 1440px;
+    width: auto;
+    min-width: 0;
+    margin-top: 0;
+  }
+
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper p img {
+    width: 33.3333%;
+  }
+
+  main .section.page-image.flush-top { padding-top: 0; }
+  main .section.page-image.flush-bottom { padding-bottom: 0; }
+}
+
+/* legacy-hero lede below 768: the live lede column collapses its inner paragraph margin (24) through
+   the wrapper's 16 → 24 px below the text, not 40 */
+@media (width <= 767px) {
+  body.page-content main .section.legacy-hero .default-content-wrapper p { margin-bottom: 24px; }
+}
+
+/* page-content: the legacy footer XF's 10 px white strip only — this template has no 40 px .home-section
+   (the prototype footer sits 10 px under the last component; kb-article keeps its 50) */
+/* stylelint-disable-next-line no-duplicate-selectors -- appended correction (cascade order) */
+body.page-content main {
+  padding-bottom: 10px;
+}

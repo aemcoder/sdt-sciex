@@ -1604,7 +1604,7 @@
   width: 100%;
   max-width: 640px;
   margin: 0 auto;
-  padding: 32px 24px 0;
+  padding: 20px 24px 0; /* live media tw-mb-20 md:tw-mb-32 */
 }
 
 .cards.media .media-card-title :is(h2, h3, h4) {
@@ -1650,7 +1650,7 @@
 .cards.media.grid .media-text {
   max-width: none;
   margin: 0;
-  padding: 32px 0 0;
+  padding: 20px 0 0;
 }
 
 @media (width >= 640px) {
@@ -1695,6 +1695,7 @@
 
   .cards.media .media-text {
     max-width: 384px;
+    padding-top: 32px;
   }
 
   .cards.media .media-card-title :is(h2, h3, h4) {
@@ -1721,6 +1722,10 @@
 
   .cards.media.grid .media-slide {
     margin-bottom: 0;
+  }
+
+  .cards.media.grid .media-text {
+    padding-top: 32px;
   }
 }
 

@@ -343,3 +343,183 @@
     transition: none;
   }
 }
+
+/* ==========================================================================================
+   G3 variant `media` — APPENDED by the stardust:deploy G3 agent. Live legacy .multi-column-rich
+   Swiper (values: stardust/prototypes/css/support-professional-lab-services.css § Multi-column rich).
+   Legacy weights 330 / 450. Wrappers carry layout; authored h3 / p / picture styled through them (EW2).
+   ========================================================================================== */
+.carousel.media {
+  overflow: hidden;
+  margin-top: 0;
+  padding-bottom: 64px;
+  border-bottom: 1px solid var(--border-default);
+  color: var(--grey-500);
+}
+
+.carousel.media .mcar-swiper {
+  position: relative;
+  z-index: 1;
+}
+
+.carousel.media .mcar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel.media .mcar-buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel.media .mcar-btn {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: 9999px;
+  color: #fff;
+  background: var(--blue-700);
+  cursor: pointer;
+}
+
+.carousel.media .mcar-btn svg {
+  display: block;
+}
+
+.carousel.media .mcar-btn:disabled {
+  background: #fff;
+  color: #fff;
+  cursor: auto;
+}
+
+.carousel.media .mcar-pag {
+  display: flex;
+  align-items: center;
+  margin: 0 12px;
+  color: var(--blue-700);
+  font-size: 13px;
+  font-weight: 330;
+  letter-spacing: 0.3em;
+  line-height: 18px;
+}
+
+/* live Swiper `is-lock`: every slide fits → controls painted white-on-white (kept in flow) */
+.carousel.media .mcar-buttons.is-lock .mcar-pag {
+  color: #fff;
+  background: #fff;
+}
+
+.carousel.media .mcar-wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  column-gap: 15px;
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel.media .mcar-slide {
+  position: relative;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 12px;
+  padding: 32px 16px 6px 0;
+  border-top: 1px solid var(--border-default);
+}
+
+.carousel.media .mcar-slide:last-child {
+  margin-right: 0;
+}
+
+.carousel.media .mcar-icon {
+  margin-bottom: 20px;
+  line-height: 0;
+}
+
+.carousel.media .mcar-icon :is(img, svg) {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel.media .mcar-body {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.carousel.media .mcar-title :is(h2, h3, h4, h5) {
+  margin: 0 0 6px;
+  color: var(--grey-900);
+  font-size: 17px;
+  font-weight: 450;
+  line-height: 25px;
+}
+
+.carousel.media .mcar-text {
+  flex-grow: 1;
+  margin-bottom: 0;
+  color: var(--grey-500);
+  font-size: 15px;
+  font-weight: 330;
+  line-height: 23px;
+}
+
+.carousel.media .mcar-text p {
+  margin: 0 0 24px;
+  color: var(--grey-500);
+  font-size: 15px;
+  font-weight: 330;
+  line-height: 22px;
+}
+
+@media (width >= 768px) {
+  .carousel.media {
+    padding-bottom: 96px;
+  }
+
+  .carousel.media .mcar-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .carousel.media .mcar-pag {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .carousel.media .mcar-wrapper {
+    margin-top: 48px;
+    column-gap: 30px;
+  }
+
+  .carousel.media .mcar-slide {
+    width: 20%;
+    margin-right: 32px;
+  }
+
+  .carousel.media .mcar-title :is(h2, h3, h4, h5) {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .carousel.media .mcar-text,
+  .carousel.media .mcar-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

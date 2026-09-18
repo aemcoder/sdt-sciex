@@ -1,0 +1,330 @@
+{
+ "source": "http://localhost:8833/about-us-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "About us"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-image",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "About Us",
+     "href": "/about-us"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "mission",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Advances in human wellness depend on the power of precise science."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SCIEX empowers our customers to solve the most impactful analytical challenges in quantitation and characterization. With groundbreaking innovation and outstanding reliability and support, SCIEX has been at the forefront of the field for over 50 years. Since the launch of the first-ever commercially successful triple quadrupole in 1981, we continue to develop technologies and solutions that influence life-changing research and outcomes. That’s why thousands of life science experts around the world choose SCIEX to get the answers they can trust."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "SCIEX is proud to be part of . Danaher’s science and technology leadership puts SCIEX solutions at the forefront of the industry, so they can reach more people. Being part of Danaher means we can offer unparalleled breadth and depth of expertise and solutions to our customers. Together with Danaher’s other businesses across Biotechnology, Diagnostics and Life Sciences, we unlock the transformative potential of cutting-edge science and technology to improve billions of lives every day."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Danaher",
+     "href": "https://www.danaher.com/"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "our-customers",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our customers"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Jennifer Van Eyk, Ph.D."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Co-Director, Precision Health Cedars-Sinai, Los Angeles, California."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "View customer profile",
+     "href": "/about-us/customer-profiles/jennifer-van-eyk"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "David Boocock Ph.D."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "John van Geest Cancer Research Centre, Nottingham Trent University"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "View customer profile",
+     "href": "/about-us/customer-profiles/david-boocock"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Dc Ben Schulz"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "National Health and Medical Research Council Career Development Fellow, University of Queensland"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "View customer profile",
+     "href": "/about-us/customer-profiles/dr-ben-schulz"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Dr. Catherine Guette"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Group Leader of the Clinical Proteomics Unit, Cancer Research Institution"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "View customer profile",
+     "href": "/about-us/customer-profiles/dr-catherine-guette"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Prof. Oliver Fiehn"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "West Coast Metabolomics, Center University of California, Davis"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "View customer profile",
+     "href": "/about-us/customer-profiles/prof-oliver-fiehn"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Prof. Gérard Hopfgartner, Ph.D."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Department of Inorganic and Analytical Chemistry, University of Geneva"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "View customer profile",
+     "href": "/about-us/customer-profiles/prof-gerard-hopfgartner-phd"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 13,
+   "repeats": [
+    {
+     "unitSelector": "DIV.profile",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "customer-profiles-cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "View the Customer Profiles",
+     "href": "/about-us/customer-profiles"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "more-about-sciex",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More about SCIEX"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Our History"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "50 years of innovation"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/about-us/our-history"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Meet Our Executives"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Explore Product Stewardship"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/about-us/executive-management"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Career opportunities"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Learn more",
+     "href": "https://jobs.danaher.com/global/en/sciex"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Press Releases"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "/about-us/press-releases"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "SCIEX In the News"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/about-us/press-releases/in-the-news"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Contact us"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Learn more",
+     "href": "/about-us/contact-us"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.link-tile",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,527 @@
+{
+ "source": "http://localhost:8829/products-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Products",
+     "href": "/products"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Analytical instruments, software, and support"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-small",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text-container-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Systems, software, and solutions to take your lab to the next level"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Achieve unmatched accuracy and sensitivity with SCIEX mass spectrometers, Capillary electrophoresis (CE), separations, and chromatography solutions. Our state-of-the-art triple quadrupole and high-resolution mass spectrometers, combined with exceptional service and software options, deliver precise results and dependability you can count on to drive real impact from your scientific research."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Innovation drives progress, and we design all of our systems with scientists like you in mind. Our products are widely used in labs that specialize in environmental testing, food and beverage testing, pharma and biopharma discovery and development, forensics screening, clinical diagnostics, and life science research."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.textblock__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "spacer",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "image-text-2-col",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX products"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mass spectrometry products"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Discover advanced mass spectrometry solutions with a rich innovation history to address a wide range of applications."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Capillary electrophoresis products"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Optimize your efficiency using SCIEX capillary electrophoresis systems with added sensitivity for unique workflows."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/products/capillary-electrophoresis"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Chromatography and separations products"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Benefit from groundbreaking chromatography solutions and separation techniques."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/products/hplc-products"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Data acquisition and processing software"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Achieve ultimate analytical performance with tailored, powerful SCIEX software tools."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/products/software"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Spares and consumables"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Custom-designed consumables and standards and access to the spare parts catalogue."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "/products/consumables"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Methods and applications"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Improve analytical performance with preconfigured methods."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Learn more",
+     "href": "/products/methods"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Support and service"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Lean on SCIEX for your professional, instrument and software service and support needs."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Learn more",
+     "href": "/support/instrument-service-and-support"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Ion Sources"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Rugged, reliable, easily interchangeable. SCIEX ion sources are available for a wide range of applications and flow rates to pair with your favorite mass spectrometer.​"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Learn more",
+     "href": "/products/ion-sources"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Technology"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Explore the innovations and scientific breakthroughs behind pioneering LC-MS and capillary electrophoresis technology."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Learn more",
+     "href": "/technology"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Accessories"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Thoughtfully designed accessories for our LC-MS systems that are aligned with your goals for precise molecular detection and quantitation​."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Learn more",
+     "href": "/products/accessories"
+    }
+   ],
+   "imgCount": 10,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "icon-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Applications of mass spectrometry and capillary electrophoresis"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Whether you are identifying antibody drug conjugates to treat cancer cells, monitoring lifesaving immunosuppressant drug doses, or analyzing components to combat contaminant adulteration, SCIEX helps make possible what was once impossible. Explore our key application areas below."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Life science research"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "From biomarker discovery to translational research and beyond, SCIEX technology empowers you to uncover crucial biological insights with unparalleled precision and effeciency."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more",
+     "href": "/applications/biomedical-and-omics-research"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Pharma and biopharma research"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Transform your analytical workflows with complete analytical strategies for addressing the complexities of developing modern therapeutics, from discovery to delivery."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "/applications/pharma-and-biopharma"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Clinical research and diagnostics"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Explore SCIEX solutions for clinical laboratories engaged in multiple workflows from discovering and validating new biomarkers to executing end-to-end validated workflows for high throughput testing in the clinic."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "/applications/clinical"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Forensic testing"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Quantify low levels of drugs and metabolites in complex biological samples with high precision and accuracy. Detect previously undetectable potent novel psychoactive substances with confidence. Expand the capabilities of your forensic laboratory."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Learn more",
+     "href": "/applications/forensics-testing"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Food and beverage testing"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Detect and identify targeted and non-targeted analysis at or below maximum residue limits with high-quality data you can trust."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn more",
+     "href": "/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Environmental testing"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Respond quickly and meet regulations with confident results for the screening, identification, and quantitation of low-level chemical contaminants."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Learn more",
+     "href": "/applications/environmental-testing"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DIV.icon-card",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "image-card",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore SCIEX service and support"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mass spectrometer service and support plans"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "LC-MS plans designed to provide the confidence you need to achieve your analytical goals."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore plans",
+     "href": "/support/instrument-service-and-support/lc-ms-hardware-plans"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Software support plans"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Keep your results on the cutting edge with a support plan for your operating and processing software. Use your SCIEX software with confidence that it is up to date and secure."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Explore plans",
+     "href": "/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "StatusScope remote monitoring service"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Experience real-time diagnosis, resolution and monitoring of your system with the StatusScope remote monitoring service. Get full visibility into critical parameters directly in your SCIEX Now dashboard."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/support/instrument-service-and-support/statusscope-remote-monitoring"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "SCIEX Now Visual Assist augmented reality remote support"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Bring your system back online in minutes instead of hours. Receive immediate visual support from a SCIEX service engineer while you are in front of your instrument. Identify problems faster and allow SCIEX specialists to see what you are experiencing."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "/content/dam/SCIEX/pdf/flyers/Visual-Assist-flyer.pdf"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "SCIEX Now Learning Hub Success Programs"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Get the training your team needs to succeed with SCIEX Now Learning Hub success programs. These series of training courses and resources are designed to upskill your staff to use the latest SCIEX instruments and software."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "/support/training/success-programs"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Customer documents​"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Peruse product documents for effective installation and operation of your SCIEX LC, CE and/or MS systems​. From software installation guides, to release notes, from user and operator guides to EULAs, we want you to have access to it all."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Learn more",
+     "href": "/support/customer-documents"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

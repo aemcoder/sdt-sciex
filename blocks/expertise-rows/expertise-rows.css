@@ -1,0 +1,174 @@
+/* expertise-rows — live legacy 2x2-list (values: stardust/prototypes/css/support-professional-lab-services.css
+   § 2x2 list; tokens-g3-support-professional-lab-services-{1440,360}). Legacy weights 330 / 450.
+   Wrappers carry the layout; authored h2/h3/p/picture styled through them (EW2). */
+.expertise-rows {
+  padding-top: 64px;
+  border-top: 1px solid #e1e1e1;
+}
+
+.expertise-rows .xrows-head {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  padding-bottom: 20px;
+}
+
+.expertise-rows .xrows-title :is(h1, h2, h3, h4) {
+  margin: 0 16px 20px 0;
+  color: var(--grey-900);
+  font-size: 32px;
+  font-weight: 330;
+  line-height: 40px;
+}
+
+.expertise-rows .xrows-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.expertise-rows .xrows-item {
+  display: flex;
+  padding: 24px 0;
+  border-top: 1px solid #e1e1e1;
+}
+
+.expertise-rows .xrows-media {
+  position: relative;
+  align-self: flex-start;
+  width: 33.3333%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.expertise-rows .xrows-media picture {
+  display: contents;
+}
+
+.expertise-rows .xrows-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+
+.expertise-rows .xrows-item:hover .xrows-media img {
+  transform: scale(1.05);
+}
+
+.expertise-rows .xrows-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 66.6667%;
+}
+
+.expertise-rows .xrows-heading :is(h2, h3, h4) {
+  margin: 0 0 6px;
+  color: var(--grey-900);
+  font-size: 17px;
+  font-weight: 450;
+  line-height: 25px;
+}
+
+/* live body = [empty .expertise__lead p, mb 12/16] [text p, mb 24] [empty .expertise__p, mb 24] inside a
+   flex column (margins do not collapse): the two empty legacy paragraphs are modelled as group margins */
+.expertise-rows .xrows-text {
+  margin: 12px 0 24px;
+}
+
+.expertise-rows .xrows-text p {
+  margin: 0 0 24px;
+  color: #5f6062;
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: normal;
+  line-height: 22px;
+}
+
+/* the bold blue link (live .expertise__link: 450, blue-700, 1px underline, 16×14 arrow ml 8) */
+.expertise-rows .xrows-body p:has(> a.button, > em > a, > strong > a) {
+  margin: 0;
+}
+
+.expertise-rows .xrows-body a.button.secondary,
+.expertise-rows .xrows-body p > em > a {
+  color: var(--blue-700);
+  font-size: 15px;
+  font-weight: 450;
+  line-height: 23px;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.expertise-rows .xrows-body a.button.secondary:hover,
+.expertise-rows .xrows-body p > em > a:hover {
+  color: var(--blue-800);
+}
+
+.expertise-rows .xrows-body a.button.secondary:hover::after {
+  margin-left: 12px;
+}
+
+@media (width >= 768px) {
+  .expertise-rows {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+
+  .expertise-rows .xrows-head {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding-bottom: 48px;
+  }
+
+  .expertise-rows .xrows-title :is(h1, h2, h3, h4) {
+    margin-bottom: 8px;
+  }
+
+  .expertise-rows .xrows-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .expertise-rows .xrows-item {
+    padding: 32px 0;
+    margin-right: 16px; /* live md:odd:tw-mr-16 on every row div (lift: row x 720 w 640) */
+  }
+
+  .expertise-rows .xrows-media {
+    margin-right: 32px;
+  }
+
+  .expertise-rows .xrows-heading :is(h2, h3, h4) {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .expertise-rows .xrows-text {
+    margin-top: 16px;
+  }
+
+  .expertise-rows .xrows-text p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .expertise-rows .xrows-body a.button.secondary,
+  .expertise-rows .xrows-body p > em > a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .expertise-rows .xrows-media img,
+  .expertise-rows .xrows-body a.button.secondary {
+    transition: none;
+  }
+
+  .expertise-rows .xrows-item:hover .xrows-media img {
+    transform: none;
+  }
+}
