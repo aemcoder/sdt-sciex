@@ -2509,3 +2509,35 @@ main .section.lead a.button.accent:any-link::after,
 .columns.lead a.button.accent:any-link::after {
   margin-left: 16px;
 }
+
+/* --- G4 published reconcile (APPENDED, 2026-09-18 phase 2) ---
+   1. /support: live's 14px nav type makes the site header 129px, the foundation reserves --nav-height 131px
+      (published header 131 → every module +2px, chrome-parity REGION BOX Δh +2).
+   2. grant-support: live's app-page row is the unpadded 1140px main PLUS the BS3 −15px row margins — at 1440 that
+      is 1170px @135 (which the 1170 column happened to match), at 360 it is 390px @−15 (the text bleeds 15px past
+      both viewport edges) and the hero/RUO span the full 360 — published 360 measured +122px from the extra wraps. */
+@media (width >= 1024px) {
+  body.sciex-now { --nav-height: 129px; }
+}
+
+body.legacy main .section.grant-hero > div {
+  max-width: 1140px;
+  padding: 0;
+}
+
+body.legacy main .section.grant-intro > div,
+body.legacy main .section.grant-research > div,
+body.legacy main .section.grant-form > div,
+body.legacy main .section.ruo-note > div {
+  width: min(100% + 30px, 1170px);
+  max-width: none;
+  margin-left: calc((100% - min(100% + 30px, 1170px)) / 2);
+  margin-right: 0;
+  padding: 0;
+}
+
+/* G2 addendum (published reconcile round) — `lead ticks spaced`: the live .atomic-tick-list ul inherits the body's
+   letter-spacing: normal (not text-base's .075px) — at 360 two items wrapped one line more on the published origin */
+main .section.lead.ticks.spaced div.default-content-wrapper li {
+  letter-spacing: normal;
+}

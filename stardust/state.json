@@ -299,7 +299,7 @@
   {
    "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
    "url": "https://sciex.com/about-us/press-releases/2026/the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
-   "title": "The Echo\u00ae MS+ system integration with the ZenoTOF 8600 system delivers enhanced sensitivity for high-throughput screening",
+   "title": "The Echo® MS+ system integration with the ZenoTOF 8600 system delivers enhanced sensitivity for high-throughput screening",
    "type": "article",
    "status": "directed",
    "history": [
@@ -363,7 +363,7 @@
      "status": "migrated",
      "at": "2026-09-18T14:45:41Z",
      "via": "stardust:deploy",
-     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "commit": "content delivered via DA Source API (coordinator); code on main — G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
      "gate": "stardust/replica/progress-g3.json"
     }
    ],
@@ -468,7 +468,7 @@
      "status": "migrated",
      "at": "2026-09-18T14:45:41Z",
      "via": "stardust:deploy",
-     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "commit": "content delivered via DA Source API (coordinator); code on main — G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
      "gate": "stardust/replica/progress-g3.json"
     }
    ],
@@ -511,7 +511,7 @@
    "url": "https://sciex.com/applications/biomedical-and-omics-research",
    "title": "Biomedical and omics research",
    "type": "program",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -520,22 +520,31 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications-biomedical-and-omics-research.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/applications-biomedical-and-omics-research-proposed.html",
+   "migratedPath": "content/applications/biomedical-and-omics-research.html",
    "family": "v3-application-page",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/biomedical-and-omics-research",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "applications-clinical",
    "url": "https://sciex.com/applications/clinical",
    "title": "Clinical",
    "type": "program",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -544,22 +553,31 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications-clinical.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/applications-clinical-proposed.html",
+   "migratedPath": "content/applications/clinical.html",
    "family": "v3-application-page",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/clinical",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "applications-environmental-testing",
    "url": "https://sciex.com/applications/environmental-testing",
    "title": "Environmental testing solutions",
    "type": "program",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -568,22 +586,31 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications-environmental-testing.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/applications-environmental-testing-proposed.html",
+   "migratedPath": "content/applications/environmental-testing.html",
    "family": "v3-application-page",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/environmental-testing",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "applications-food-and-beverage-testing",
    "url": "https://sciex.com/applications/food-and-beverage-testing",
    "title": "Food and Beverage Testing",
    "type": "program",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -592,22 +619,31 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications-food-and-beverage-testing.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/applications-food-and-beverage-testing-proposed.html",
+   "migratedPath": "content/applications/food-and-beverage-testing.html",
    "family": "v3-application-page",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/food-and-beverage-testing",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "applications-forensics-testing",
    "url": "https://sciex.com/applications/forensics-testing",
    "title": "Forensic Analysis & Testing Solutions",
    "type": "program",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -616,15 +652,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications-forensics-testing.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/applications-forensics-testing-proposed.html",
+   "migratedPath": "content/applications/forensics-testing.html",
    "family": "v3-application-page",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/forensics-testing",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
@@ -721,7 +766,7 @@
    "url": "https://sciex.com/applications",
    "title": "Mass Spectrometry, CE, and HPLC Applications Overview",
    "type": "landing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -730,15 +775,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/applications-proposed.html",
+   "migratedPath": "content/applications.html",
    "family": "v3-section-hub",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "diagnostics-clinical-laboratory-news",
@@ -1488,7 +1542,7 @@
      "status": "migrated",
      "at": "2026-09-18T14:45:41Z",
      "via": "stardust:deploy",
-     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "commit": "content delivered via DA Source API (coordinator); code on main — G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
      "gate": "stardust/replica/progress-g3.json"
     }
    ],
@@ -1505,7 +1559,7 @@
   {
    "slug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
    "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
-   "title": "Resetting Root Directory to Analyst\u00ae Data Folder Restores Selexion\u00ae DMS Functionality",
+   "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
    "type": "article",
    "status": "migrated",
    "history": [
@@ -1532,7 +1586,7 @@
      "at": "2026-09-18T10:54:53Z",
      "via": "stardust:deploy",
      "commit": "9cd9ad9",
-     "note": "delivered at the hyphenated slug (admin webPath normalises _en_us \u2192 -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
+     "note": "delivered at the hyphenated slug (admin webPath normalises _en_us → -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
     }
    ],
    "stale": false,
@@ -1548,7 +1602,7 @@
   {
    "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",
    "url": "https://sciex.com/support/knowledge-base-articles/where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to_en_us",
-   "title": "Location of the Current Instrument Data File for SCIEX Triple Quad\u2122 or QTRAP\u00ae LC-MS/MS 7500 Systems",
+   "title": "Location of the Current Instrument Data File for SCIEX Triple Quad™ or QTRAP® LC-MS/MS 7500 Systems",
    "type": "article",
    "status": "directed",
    "history": [
@@ -1718,7 +1772,7 @@
    "url": "https://sciex.com/support/software-support",
    "title": "Software Support",
    "type": "static",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1727,15 +1781,35 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T12:25:08Z",
+     "gate": "stardust/replica/progress-g4.json"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T12:25:08Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress-g4.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:56.901Z",
+     "via": "stardust:deploy",
+     "commit": "9bd3edd (+ b7794f1 runtime)",
+     "note": "legacy intermediate template (body.legacy); published gate 1440 PASS 1.00 % masked, 360 PASS 3.30 %"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/support-software-support.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/support-software-support-proposed.html",
+   "migratedPath": "content/support/software-support.html",
    "family": "legacy-intermediate",
-   "aemTemplate": "intermediate-template"
+   "aemTemplate": "intermediate-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/software-support",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "support-training",
@@ -1756,7 +1830,7 @@
      "status": "migrated",
      "at": "2026-09-18T14:45:41Z",
      "via": "stardust:deploy",
-     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "commit": "content delivered via DA Source API (coordinator); code on main — G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
      "gate": "stardust/replica/progress-g3.json"
     }
    ],
@@ -1775,7 +1849,7 @@
    "url": "https://sciex.com/support",
    "title": "Support",
    "type": "static",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1784,15 +1858,35 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T12:25:08Z",
+     "gate": "stardust/replica/progress-g4.json"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T12:25:08Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress-g4.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:56.901Z",
+     "via": "stardust:deploy",
+     "commit": "9bd3edd (+ b7794f1 runtime)",
+     "note": "SCIEX Now shell template (body.sciex-now); published gate 1440 PASS 3.11 % masked, 360 footer −40px fixed in tree (pending commit)"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/support.json",
-   "prototypePath": null,
-   "migratedPath": null,
+   "prototypePath": "stardust/prototypes/support-proposed.html",
+   "migratedPath": "content/support.html",
    "family": "sciex-now-legacy",
-   "aemTemplate": "generic-page-template"
+   "aemTemplate": "generic-page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "technology-electron-activated-dissociation",
@@ -1954,7 +2048,7 @@
    "type": null,
    "family": "v3",
    "aemTemplate": "page-template",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1963,13 +2057,22 @@
     {
      "status": "directed",
      "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/applications-cannabis-testing.json",
-   "prototypePath": null,
-   "migratedPath": null
+   "prototypePath": "stardust/prototypes/applications-cannabis-testing-proposed.html",
+   "migratedPath": "content/applications/cannabis-testing.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/cannabis-testing",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "education-clinical-mass-spec-knowledge-center",
@@ -1978,7 +2081,7 @@
    "type": null,
    "family": "v3",
    "aemTemplate": "page-template",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1987,13 +2090,22 @@
     {
      "status": "directed",
      "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:32.931Z",
+     "via": "stardust:deploy",
+     "commit": "b7794f1 (code, incl. runtime compound-style fix); content + 52 media delivered via DA Source API by the coordinator",
+     "gate": "stardust/replica/progress-g2.json (published{})"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/education-clinical-mass-spec-knowledge-center.json",
-   "prototypePath": null,
-   "migratedPath": null
+   "prototypePath": "stardust/prototypes/education-clinical-mass-spec-knowledge-center-proposed.html",
+   "migratedPath": "content/education/clinical-mass-spec-knowledge-center.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/education/clinical-mass-spec-knowledge-center",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "education-grant-support",
@@ -2002,7 +2114,7 @@
    "type": null,
    "family": "generic-page-template",
    "aemTemplate": "generic-page-template",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -2011,13 +2123,33 @@
     {
      "status": "directed",
      "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T12:25:08Z",
+     "gate": "stardust/replica/progress-g4.json"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T12:25:08Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress-g4.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:48:56.901Z",
+     "via": "stardust:deploy",
+     "commit": "9bd3edd (+ b7794f1 runtime)",
+     "note": "legacy generic-page template (body.legacy); published gate 1440 PASS 0.59 % masked; 360 −122px row-geometry fix in tree (pending commit); compound section styles need runtime b7794f1"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/education-grant-support.json",
-   "prototypePath": null,
-   "migratedPath": null
+   "prototypePath": "stardust/prototypes/education-grant-support-proposed.html",
+   "migratedPath": "content/education/grant-support.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/education/grant-support",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "events-f4f6",
@@ -2173,7 +2305,7 @@
      "status": "migrated",
      "at": "2026-09-18T14:45:41Z",
      "via": "stardust:deploy",
-     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "commit": "content delivered via DA Source API (coordinator); code on main — G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
      "gate": "stardust/replica/progress-g3.json"
     }
    ],
@@ -2206,7 +2338,7 @@
      "status": "migrated",
      "at": "2026-09-18T14:45:41Z",
      "via": "stardust:deploy",
-     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "commit": "content delivered via DA Source API (coordinator); code on main — G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
      "gate": "stardust/replica/progress-g3.json"
     }
    ],

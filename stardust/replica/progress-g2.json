@@ -106,95 +106,6 @@
     ]
    },
    "breakpoints": {
-    "1440": {
-     "iterations": 3,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 7.86,
-       "differingPx": 894737,
-       "heightDelta": 60,
-       "fixes": "first gate (pre-fix build): build-side lift named #7 +20 (empty .atomic-media inherited the .ab padding) and #11–14 −20 (split image column keeps its pb-16/20 on the last child) — both fixed before iter2; footer disclaimer code regex widened to the full XF span text (RUO-MKT-…)"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.61,
-       "differingPx": 70542,
-       "heightDelta": 0,
-       "fixes": "plyr: tree-shake had dropped .plyr__sr-only (labels visible) — kept; overlaid play button painted #00b2ff vs live transparent (computed rgba(0,0,0,0)) — scoped override; Splide ul/li mirrored (content 🟡 EDITABLE COUNT 39 vs 40 cleared)"
-      },
-      {
-       "label": "iter3",
-       "pixelPct": 0.36,
-       "differingPx": 41655,
-       "heightDelta": 0,
-       "fixes": "final — only widget seam rows remain"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "1 justified",
-      "pixelPct": 0.36,
-      "pixelPctMasked": 0.0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0.25,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "98 text nodes — 14 headings, 0 eyebrows, 23 CTAs, 61 body; 13 img",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: forensic-hair-nails-analysis-w1440.webp natural 1440x806 → rendered 656x492",
-       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
-      }
-     ],
-     "residuals": [
-      {
-       "band": "stitched-chunk seam rows 800:100, 1701:99, 2600:100, 3501:99, 4401:99, 5301:99, 6201:99, 7892:75",
-       "pct": 0.36,
-       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
-       "flaggedFor": "user"
-      },
-      {
-       "band": "plyr control bar x 720–1376 y 1891–1968",
-       "pct": 0.0,
-       "cause": "capture-state: live Plyr current-time reads '-01:13' in the settled gate capture but '01:13' in the extract DOM and at content-diff time (invertTime state depends on metadata load timing); prototype mirrors the DOM text — a few glyphs",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.25,
-       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
-       "where": "every viewport bottom; masked rows on the verdict line"
-      },
-      {
-       "what": "OneTrust banner dismissed via --dismiss",
-       "where": "viewport"
-      },
-      {
-       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
-       "where": "under header"
-      },
-      {
-       "what": "video asset /content/dam/SCIEX/videos/forensics/pierre-tox-box-intro.mp4 (134 MB) NOT harvested — poster + Plyr DOM/CSS ported, <source> omitted; play is inert until delivery uploads the media",
-       "where": "split-right #1 (Tox Chat Box)"
-      },
-      {
-       "what": "live Plyr overlaid play button computes background rgba(0,0,0,0) (white 18px glyph on the poster) — mirrored with a scoped override",
-       "where": "video poster centre"
-      }
-     ]
-    },
     "360": {
      "iterations": 2,
      "runs": [
@@ -254,7 +165,161 @@
        "where": "video poster centre"
       }
      ]
+    },
+    "1440": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 7.86,
+       "differingPx": 894737,
+       "heightDelta": 60,
+       "fixes": "first gate (pre-fix build): build-side lift named #7 +20 (empty .atomic-media inherited the .ab padding) and #11–14 −20 (split image column keeps its pb-16/20 on the last child) — both fixed before iter2; footer disclaimer code regex widened to the full XF span text (RUO-MKT-…)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.61,
+       "differingPx": 70542,
+       "heightDelta": 0,
+       "fixes": "plyr: tree-shake had dropped .plyr__sr-only (labels visible) — kept; overlaid play button painted #00b2ff vs live transparent (computed rgba(0,0,0,0)) — scoped override; Splide ul/li mirrored (content 🟡 EDITABLE COUNT 39 vs 40 cleared)"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.36,
+       "differingPx": 41655,
+       "heightDelta": 0,
+       "fixes": "final — only widget seam rows remain"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.36,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "98 text nodes — 14 headings, 0 eyebrows, 23 CTAs, 61 body; 13 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: forensic-hair-nails-analysis-w1440.webp natural 1440x806 → rendered 656x492",
+       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 800:100, 1701:99, 2600:100, 3501:99, 4401:99, 5301:99, 6201:99, 7892:75",
+       "pct": 0.36,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "plyr control bar x 720–1376 y 1891–1968",
+       "pct": 0,
+       "cause": "capture-state: live Plyr current-time reads '-01:13' in the settled gate capture but '01:13' in the extract DOM and at content-diff time (invertTime state depends on metadata load timing); prototype mirrors the DOM text — a few glyphs",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      },
+      {
+       "what": "video asset /content/dam/SCIEX/videos/forensics/pierre-tox-box-intro.mp4 (134 MB) NOT harvested — poster + Plyr DOM/CSS ported, <source> omitted; play is inert until delivery uploads the media",
+       "where": "split-right #1 (Tox Chat Box)"
+      },
+      {
+       "what": "live Plyr overlaid play button computes background rgba(0,0,0,0) (white 18px glyph on the poster) — mirrored with a scoped override",
+       "where": "video poster centre"
+      }
+     ]
     }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/forensics-testing",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 12746
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0,
+      "pageerrors": 0,
+      "blocks": 10,
+      "imgs": 13,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 7955,
+      "video": {
+       "src": "https://sciex.com/content/dam/SCIEX/videos/forensics/pierre-tox-box-intro.mp4",
+       "poster": true,
+       "w": 656
+      }
+     }
+    },
+    "plain": "ok   applications-forensics-testing {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":14,\"authoredImg\":14,\"bytes\":22631}",
+    "aiReadability": "strict 100%  (served 858 / rendered 834, missing 24; landmarks counted 41%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications-forensics-testing exit 0 | 0 structural 🔴 | 5 orange | 34 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 13.58,
+      "pixelPctMasked": 13.46,
+      "heightDelta": 39,
+      "headerCropPct": 0,
+      "footerCropPct": 1.78,
+      "masks": "MASKED 1475 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 8000:100, 8900:100, 980",
+      "pass": false
+     },
+     "1440": {
+      "width": 1440,
+      "pixelPct": 7.62,
+      "pixelPctMasked": 7.08,
+      "heightDelta": 12,
+      "headerCropPct": 0,
+      "footerCropPct": 0.26,
+      "masks": "MASKED 875 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 7892:75@7880 — authored-",
+      "pass": false
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-forensics-testing-published-1440/",
+     "stardust/replica/gates/applications-forensics-testing-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [
+     "stitched capture shows the mp4 first frame instead of the poster (a fresh load paints the poster — verified by element screenshot on published + harness): capture artefact of the settle pass; band 1500–2000 also carries native controls vs Plyr chrome.",
+     "Δh +12 at 1440 (−39 at 360): the live empty Splide media frame (16 px) was dropped; native <video controls> replaces the Plyr chrome (masked Plyr control labels appear as content-diff 🟡 MISSING BODY: Play/Pause/Mute…); the last media-card keeps a live-only trailing mb-32 below 768.",
+     "video: hotlinked live mp4 (https://sciex.com/…/pierre-tox-box-intro.mp4) plays from the published origin (poster = pipeline rendition)."
+    ],
+    "reconcilePending": true,
+    "pass": false
    }
   },
   {
@@ -344,6 +409,66 @@
     ]
    },
    "breakpoints": {
+    "360": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.23,
+       "differingPx": 4260,
+       "heightDelta": 0,
+       "fixes": "centred disclaimer was centred at 360 — live centres from md only (lift: text-align start)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.1,
+       "differingPx": 1897,
+       "heightDelta": 0,
+       "fixes": "after the centre fix"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.4,
+       "differingPx": 7455,
+       "heightDelta": 0,
+       "fixes": "after .t-sm metrics"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "19 text nodes — 2 headings, 0 eyebrows, 10 CTAs, 7 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: sciex-clinical-banner-main-w375.webp natural 375x133 → rendered 360x420",
+       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    },
     "1440": {
      "iterations": 3,
      "runs": [
@@ -381,7 +506,7 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.29,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.25,
@@ -418,67 +543,66 @@
        "where": "under header"
       }
      ]
+    }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/clinical",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 5194
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0,
+      "pageerrors": 0,
+      "blocks": 4,
+      "imgs": 3,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 3307,
+      "video": null
+     }
     },
-    "360": {
-     "iterations": 3,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.23,
-       "differingPx": 4260,
-       "heightDelta": 0,
-       "fixes": "centred disclaimer was centred at 360 — live centres from md only (lift: text-align start)"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.1,
-       "differingPx": 1897,
-       "heightDelta": 0,
-       "fixes": "after the centre fix"
-      },
-      {
-       "label": "iter3",
-       "pixelPct": 0.4,
-       "differingPx": 7455,
-       "heightDelta": 0,
-       "fixes": "after .t-sm metrics"
-      },
-      {
-       "label": "final",
-       "pixelPct": 0.0,
-       "differingPx": 0,
-       "heightDelta": 0
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "1 justified",
-      "pixelPct": 0.0,
-      "pixelPctMasked": 0.0,
+    "plain": "ok   applications-clinical {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":3,\"authoredImg\":3,\"bytes\":6603}",
+    "aiReadability": "strict 100%  (served 380 / rendered 372, missing 8; landmarks counted 23%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications-clinical exit 0 | 0 structural 🔴 | 4 orange | 0 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 0.03,
+      "pixelPctMasked": 0.03,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "19 text nodes — 2 headings, 0 eyebrows, 10 CTAs, 7 body; 3 img",
+      "masks": "MASKED 575 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5119:75 — authored-volatile, excluded]",
       "pass": true
      },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: sciex-clinical-banner-main-w375.webp natural 375x133 → rendered 360x420",
-       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
-      }
-     ],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture",
-       "where": "-"
-      }
-     ]
-    }
+     "1440": {
+      "width": 1440,
+      "pixelPct": 0.34,
+      "pixelPctMasked": 0.06,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.26,
+      "masks": "MASKED 375 rows: 800:100, 1700:100, 2600:100, 3232:75 — authored-volatile, excluded]",
+      "pass": true
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-clinical-published-1440/",
+     "stardust/replica/gates/applications-clinical-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [
+     "published support-band/footer rhythm: Δ0 on sections; live footer disclaimer \"Related to GEN-MKT-18-6312-B\" reproduced."
+    ],
+    "reconcilePending": false,
+    "pass": true
    }
   },
   {
@@ -559,6 +683,46 @@
     ]
    },
    "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.01,
+       "differingPx": 444,
+       "heightDelta": 0,
+       "fixes": "build-side lift: tick-list wrapped more (t-base letter-spacing .075 vs live normal on the inherited ul) — fixed before the gate"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "34 text nodes — 5 headings, 0 eyebrows, 7 CTAs, 22 body; 8 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    },
     "1440": {
      "iterations": 1,
      "runs": [
@@ -582,7 +746,7 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.37,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.25,
@@ -619,47 +783,66 @@
        "where": "under header"
       }
      ]
-    },
-    "360": {
-     "iterations": 1,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.01,
-       "differingPx": 444,
-       "heightDelta": 0,
-       "fixes": "build-side lift: tick-list wrapped more (t-base letter-spacing .075 vs live normal on the inherited ul) — fixed before the gate"
-      },
-      {
-       "label": "final",
-       "pixelPct": 0.0,
-       "differingPx": 0,
-       "heightDelta": 0
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.0,
-      "pixelPctMasked": 0.0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "34 text nodes — 5 headings, 0 eyebrows, 7 CTAs, 22 body; 8 img",
-      "pass": true
-     },
-     "justified": [],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture",
-       "where": "-"
-      }
-     ]
     }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/environmental-testing",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 8270
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0.0002,
+      "pageerrors": 0,
+      "blocks": 4,
+      "imgs": 8,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 4999,
+      "video": null
+     }
+    },
+    "plain": "ok   applications-environmental-testing {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":8,\"authoredImg\":8,\"bytes\":12491}",
+    "aiReadability": "strict 100%  (served 469 / rendered 443, missing 26; landmarks counted 28%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications-environmental-testing exit 0 | 0 structural 🔴 | 4 orange | 0 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 13.78,
+      "pixelPctMasked": 13.19,
+      "heightDelta": -7,
+      "headerCropPct": 0,
+      "footerCropPct": 1.82,
+      "masks": "MASKED 975 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 8000:100, 8188:75@8195 —",
+      "pass": false
+     },
+     "1440": {
+      "width": 1440,
+      "pixelPct": 3.28,
+      "pixelPctMasked": 3.07,
+      "heightDelta": 43,
+      "headerCropPct": 0,
+      "footerCropPct": 0.36,
+      "masks": "MASKED 575 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 4967:75@4924 — authored-volatile, excluded]",
+      "pass": false
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-environmental-testing-published-1440/",
+     "stardust/replica/gates/applications-environmental-testing-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [
+     "Δh −43 at 1440: the live junk `<p><a>&nbsp;</a></p>` in the 4th application card was dropped (#112)."
+    ],
+    "reconcilePending": true,
+    "pass": false
    }
   },
   {
@@ -745,6 +928,53 @@
     "dead": []
    },
    "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.26,
+       "differingPx": 4833,
+       "heightDelta": 0,
+       "fixes": "pre-fix tick list (2.4% band 500–1000: glyph shift from .075px letter-spacing)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.4,
+       "differingPx": 7396,
+       "heightDelta": 0,
+       "fixes": "after fix"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "21 text nodes — 3 headings, 0 eyebrows, 5 CTAs, 13 body; 4 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    },
     "1440": {
      "iterations": 2,
      "runs": [
@@ -775,7 +1005,7 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.4,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.35,
@@ -812,54 +1042,64 @@
        "where": "under header"
       }
      ]
+    }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/food-and-beverage-testing",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 5110
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0.0002,
+      "pageerrors": 0,
+      "blocks": 3,
+      "imgs": 4,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 3572,
+      "video": null
+     }
     },
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.26,
-       "differingPx": 4833,
-       "heightDelta": 0,
-       "fixes": "pre-fix tick list (2.4% band 500–1000: glyph shift from .075px letter-spacing)"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.4,
-       "differingPx": 7396,
-       "heightDelta": 0,
-       "fixes": "after fix"
-      },
-      {
-       "label": "final",
-       "pixelPct": 0.0,
-       "differingPx": 0,
-       "heightDelta": 0
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.0,
-      "pixelPctMasked": 0.0,
-      "heightDelta": 0,
+    "plain": "ok   applications-food-and-beverage-testing {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":4,\"authoredImg\":4,\"bytes\":6899}",
+    "aiReadability": "strict 100%  (served 340 / rendered 324, missing 16; landmarks counted 22%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications-food-and-beverage-testing exit 0 | 0 structural 🔴 | 4 orange | 0 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 0.41,
+      "pixelPctMasked": 0.34,
+      "heightDelta": -1,
       "headerCropPct": 0,
-      "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "21 text nodes — 3 headings, 0 eyebrows, 5 CTAs, 13 body; 4 img",
+      "footerCropPct": 1.81,
+      "masks": "MASKED 575 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5034:75@5035 — authored-volatile, excluded]",
       "pass": true
      },
-     "justified": [],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture",
-       "where": "-"
-      }
-     ]
-    }
+     "1440": {
+      "width": 1440,
+      "pixelPct": 1.02,
+      "pixelPctMasked": 0.61,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.43,
+      "masks": "MASKED 375 rows: 800:100, 1700:100, 2600:100, 3497:75 — authored-volatile, excluded]",
+      "pass": true
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-food-and-beverage-testing-published-1440/",
+     "stardust/replica/gates/applications-food-and-beverage-testing-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [],
+    "reconcilePending": false,
+    "pass": true
    }
   },
   {
@@ -956,6 +1196,55 @@
     ]
    },
    "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.02,
+       "differingPx": 548,
+       "heightDelta": 0,
+       "fixes": "first gate"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.02,
+      "pixelPctMasked": 0.02,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "46 text nodes — 5 headings, 0 eyebrows, 14 CTAs, 27 body; 11 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: life-science-research-hero-2880x1024-w375.webp natural 375x133 → rendered 360x420",
+       "why": "object-fit: cover crop exactly as live"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: jenny-van-eyk_final-export_with-ruo_v1.2.00_00_15_28.still044.jpg natural 1920x1080 → rendered 312x234",
+       "why": "object-fit: cover crop exactly as live"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      },
+      {
+       "what": "two .social-media-wall components are EMPTY in the settled DOM and in every live capture (third-party wall embed never rendered headless; see dynamic-features T-rows) — replicated empty (0 px)",
+       "where": "between Product highlights and Let's connect"
+      }
+     ]
+    },
     "1440": {
      "iterations": 1,
      "runs": [
@@ -1020,56 +1309,66 @@
        "where": "between Product highlights and Let's connect"
       }
      ]
+    }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/biomedical-and-omics-research",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 8875
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0.0002,
+      "pageerrors": 0,
+      "blocks": 9,
+      "imgs": 11,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 4912,
+      "video": null
+     }
     },
-    "360": {
-     "iterations": 1,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.02,
-       "differingPx": 548,
-       "heightDelta": 0,
-       "fixes": "first gate"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "2 justified",
-      "pixelPct": 0.02,
-      "pixelPctMasked": 0.02,
-      "heightDelta": 0,
+    "plain": "ok   applications-biomedical-and-omics-research {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":11,\"authoredImg\":11,\"bytes\":16008}",
+    "aiReadability": "strict 100%  (served 584 / rendered 556, missing 28; landmarks counted 32%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications-biomedical-and-omics-research exit 0 | 0 structural 🔴 | 5 orange | 2 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 2.8,
+      "pixelPctMasked": 2.82,
+      "heightDelta": 1,
       "headerCropPct": 0,
       "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "46 text nodes — 5 headings, 0 eyebrows, 14 CTAs, 27 body; 11 img",
+      "masks": "MASKED 975 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 7100:100, 8000:100, 8801:75@8800 —",
       "pass": true
      },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: life-science-research-hero-2880x1024-w375.webp natural 375x133 → rendered 360x420",
-       "why": "object-fit: cover crop exactly as live"
-      },
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: jenny-van-eyk_final-export_with-ruo_v1.2.00_00_15_28.still044.jpg natural 1920x1080 → rendered 312x234",
-       "why": "object-fit: cover crop exactly as live"
-      }
-     ],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture",
-       "where": "-"
-      },
-      {
-       "what": "two .social-media-wall components are EMPTY in the settled DOM and in every live capture (third-party wall embed never rendered headless; see dynamic-features T-rows) — replicated empty (0 px)",
-       "where": "between Product highlights and Let's connect"
-      }
-     ]
-    }
+     "1440": {
+      "width": 1440,
+      "pixelPct": 1.96,
+      "pixelPctMasked": 1.63,
+      "heightDelta": 1,
+      "headerCropPct": 0,
+      "footerCropPct": 0.26,
+      "masks": "MASKED 575 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 4838:75@4837 — authored-volatile, excluded]",
+      "pass": true
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-biomedical-and-omics-research-published-1440/",
+     "stardust/replica/gates/applications-biomedical-and-omics-research-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [
+     "Δh −1: the live 1 px spacer dropped; two empty social walls omitted."
+    ],
+    "reconcilePending": true,
+    "pass": true
    }
   },
   {
@@ -1156,72 +1455,6 @@
     ]
    },
    "breakpoints": {
-    "1440": {
-     "iterations": 1,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.37,
-       "differingPx": 21110,
-       "heightDelta": 0,
-       "fixes": "build-side lift: media-card head −33 (live head carries tw-border-t + h2 pt-24/32) — fixed before the gate"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "2 justified",
-      "pixelPct": 0.37,
-      "pixelPctMasked": 0.0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0.25,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "21 text nodes — 4 headings, 0 eyebrows, 5 CTAs, 12 body; 3 img",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: icon-cannabis-pesticide-testing-02-enlarge-w1440.webp natural 744x744 → rendered 640x480",
-       "why": "live crops the square 744×744 icon renditions into the 4/3 card media with object-fit: cover — mirrored"
-      },
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: icon-cannabis-mycotoxin-testing-02-enlarge-w1440.webp natural 744x744 → rendered 640x480",
-       "why": "live crops the square 744×744 icon renditions into the 4/3 card media with object-fit: cover — mirrored"
-      }
-     ],
-     "residuals": [
-      {
-       "band": "stitched-chunk seam rows 801:99, 1701:99, 2601:99, 3887:75",
-       "pct": 0.37,
-       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.25,
-       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
-       "where": "every viewport bottom; masked rows on the verdict line"
-      },
-      {
-       "what": "OneTrust banner dismissed via --dismiss",
-       "where": "viewport"
-      },
-      {
-       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
-       "where": "under header"
-      }
-     ]
-    },
     "360": {
      "iterations": 1,
      "runs": [
@@ -1271,7 +1504,130 @@
        "where": "-"
       }
      ]
+    },
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.37,
+       "differingPx": 21110,
+       "heightDelta": 0,
+       "fixes": "build-side lift: media-card head −33 (live head carries tw-border-t + h2 pt-24/32) — fixed before the gate"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.37,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "21 text nodes — 4 headings, 0 eyebrows, 5 CTAs, 12 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: icon-cannabis-pesticide-testing-02-enlarge-w1440.webp natural 744x744 → rendered 640x480",
+       "why": "live crops the square 744×744 icon renditions into the 4/3 card media with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: icon-cannabis-mycotoxin-testing-02-enlarge-w1440.webp natural 744x744 → rendered 640x480",
+       "why": "live crops the square 744×744 icon renditions into the 4/3 card media with object-fit: cover — mirrored"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 801:99, 1701:99, 2601:99, 3887:75",
+       "pct": 0.37,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
     }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/cannabis-testing",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 5842
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0.0002,
+      "pageerrors": 0,
+      "blocks": 4,
+      "imgs": 3,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 3962,
+      "video": null
+     }
+    },
+    "plain": "ok   applications-cannabis-testing {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":3,\"authoredImg\":3,\"bytes\":6920}",
+    "aiReadability": "strict 100%  (served 435 / rendered 422, missing 13; landmarks counted 26%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications-cannabis-testing exit 0 | 0 structural 🔴 | 4 orange | 0 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 0.47,
+      "pixelPctMasked": 0.52,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "masks": "MASKED 675 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 5767:75 — authored-volatile, excluded]",
+      "pass": true
+     },
+     "1440": {
+      "width": 1440,
+      "pixelPct": 0.52,
+      "pixelPctMasked": 0.15,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.26,
+      "masks": "MASKED 475 rows: 800:100, 1700:100, 2600:100, 3500:100, 3887:75 — authored-volatile, excluded]",
+      "pass": true
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-cannabis-testing-published-1440/",
+     "stardust/replica/gates/applications-cannabis-testing-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [],
+    "reconcilePending": false,
+    "pass": true
    }
   },
   {
@@ -1349,6 +1705,40 @@
     "dead": []
    },
    "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0,
+       "differingPx": 0,
+       "heightDelta": 0,
+       "fixes": "first gate — 0 differing px"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "29 text nodes — 3 headings, 0 eyebrows, 7 CTAs, 19 body; 6 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    },
     "1440": {
      "iterations": 1,
      "runs": [
@@ -1366,7 +1756,7 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.28,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.31,
@@ -1403,41 +1793,64 @@
        "where": "under header"
       }
      ]
+    }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 6675
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0,
+      "pageerrors": 0,
+      "blocks": 3,
+      "imgs": 6,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 3563,
+      "video": null
+     }
     },
-    "360": {
-     "iterations": 1,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.0,
-       "differingPx": 0,
-       "heightDelta": 0,
-       "fixes": "first gate — 0 differing px"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.0,
-      "pixelPctMasked": 0.0,
+    "plain": "ok   applications {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":6,\"authoredImg\":6,\"bytes\":9483}",
+    "aiReadability": "strict 100%  (served 414 / rendered 399, missing 15; landmarks counted 25%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "applications exit 0 | 0 structural 🔴 | 4 orange | 0 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 0.09,
+      "pixelPctMasked": 0.1,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "29 text nodes — 3 headings, 0 eyebrows, 7 CTAs, 19 body; 6 img",
+      "masks": "MASKED 775 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5300:100, 6200:100, 6600:75 — authored-volatile, exclu",
       "pass": true
      },
-     "justified": [],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture",
-       "where": "-"
-      }
-     ]
-    }
+     "1440": {
+      "width": 1440,
+      "pixelPct": 0.3,
+      "pixelPctMasked": 0.02,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.32,
+      "masks": "MASKED 375 rows: 800:100, 1700:100, 2600:100, 3488:75 — authored-volatile, excluded]",
+      "pass": true
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/applications-published-1440/",
+     "stardust/replica/gates/applications-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [],
+    "reconcilePending": false,
+    "pass": true
    }
   },
   {
@@ -1524,6 +1937,69 @@
     ]
    },
    "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.21,
+       "differingPx": 3836,
+       "heightDelta": 0,
+       "fixes": "same list cause (1.8% band 500–1000)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.4,
+       "differingPx": 7491,
+       "heightDelta": 0,
+       "fixes": "after fix"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "3 justified",
+      "pixelPct": 0,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "25 text nodes — 3 headings, 0 eyebrows, 4 CTAs, 18 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: mass-spec-operator_180x100-w375.webp natural 180x100 → rendered 100x75",
+       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: method-developer_180x100-w375.webp natural 180x100 → rendered 100x75",
+       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: laboratory-manager_180x100-w375.webp natural 180x100 → rendered 100x75",
+       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    },
     "1440": {
      "iterations": 2,
      "runs": [
@@ -1554,7 +2030,7 @@
       "orange": 0,
       "visualFlags": "3 justified",
       "pixelPct": 0.3,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0.25,
@@ -1607,71 +2083,77 @@
        "where": "under header"
       }
      ]
+    }
+   },
+   "published": {
+    "gatedAt": "2026-09-18T14:48:32.931Z",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/education/clinical-mass-spec-knowledge-center",
+    "regime": "published-origin",
+    "runtimeFix": "b7794f1 splitCompoundSectionStyles (all measurements taken after it)",
+    "guard": {
+     "360": {
+      "pass": true,
+      "cls": 0,
+      "docH": 5154
+     },
+     "1440": {
+      "pass": true,
+      "cls": 0,
+      "pageerrors": 0,
+      "blocks": 3,
+      "imgs": 3,
+      "zeroWidthImgs": 0,
+      "stylesMissing": [],
+      "docH": 3200,
+      "video": null
+     }
     },
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.21,
-       "differingPx": 3836,
-       "heightDelta": 0,
-       "fixes": "same list cause (1.8% band 500–1000)"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.4,
-       "differingPx": 7491,
-       "heightDelta": 0,
-       "fixes": "after fix"
-      },
-      {
-       "label": "final",
-       "pixelPct": 0.0,
-       "differingPx": 0,
-       "heightDelta": 0
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "3 justified",
-      "pixelPct": 0.0,
-      "pixelPctMasked": 0.0,
+    "plain": "ok   education-clinical-mass-spec-knowledge-center {\"status\":200,\"h1\":1,\"aboutError\":0,\"img\":3,\"authoredImg\":3,\"bytes\":6677}",
+    "aiReadability": "strict 100%  (served 384 / rendered 367, missing 17; landmarks counted 24%) | code   100%  ok  (fragments credited +0, app blocks −0, allowlisted −0)",
+    "contentDiffProtoPublished": "education-clinical-mass-spec-knowledge-center exit 0 | 0 structural 🔴 | 4 orange | 0 yellow",
+    "breakpoints": {
+     "360": {
+      "width": 360,
+      "pixelPct": 0.08,
+      "pixelPctMasked": 0.09,
       "heightDelta": 0,
       "headerCropPct": 0,
       "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentInventory": "25 text nodes — 3 headings, 0 eyebrows, 4 CTAs, 18 body; 3 img",
+      "masks": "MASKED 575 rows: 800:100, 1700:100, 2600:100, 3500:100, 4400:100, 5079:75 — authored-volatile, excluded]",
       "pass": true
      },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: mass-spec-operator_180x100-w375.webp natural 180x100 → rendered 100x75",
-       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
-      },
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: method-developer_180x100-w375.webp natural 180x100 → rendered 100x75",
-       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
-      },
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE: laboratory-manager_180x100-w375.webp natural 180x100 → rendered 100x75",
-       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
-      }
-     ],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture",
-       "where": "-"
-      }
-     ]
-    }
+     "1440": {
+      "width": 1440,
+      "pixelPct": 0.35,
+      "pixelPctMasked": 0.06,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "masks": "MASKED 375 rows: 800:100, 1700:100, 2600:100, 3125:75 — authored-volatile, excluded]",
+      "pass": true
+     }
+    },
+    "evidence": [
+     "stardust/replica/gates/education-clinical-mass-spec-knowledge-center-published-1440/",
+     "stardust/replica/gates/education-clinical-mass-spec-knowledge-center-published-360/",
+     "stardust/.work/deploy/g2/pub/"
+    ],
+    "residuals": [],
+    "reconcilePending": false,
+    "pass": true
    }
   }
- ]
+ ],
+ "publishedAt": "2026-09-18T14:48:32.931Z",
+ "reconcile": {
+  "pending": true,
+  "round": 1,
+  "needsCommit": [
+   "blocks/columns/columns.css (append: `columns split cover` media-cell rhythm 12/16 top+bottom — restores the live empty-frame + pager height, forensics split-right)",
+   "styles/styles.css (append: accent arrow gap back to 16 px in lead / columns lead contexts — live-now measurement; `lead ticks spaced` li letter-spacing normal — 360 wraps)"
+  ],
+  "expected": "forensics 1440 Δh 12 → 0 (raw 7.6% → ≈0.5% incl. video band); forensics 360 Δh −39 → −31 (live trailing mb-32 on the last media-card stays); environmental 360 ul +45 → 0 (doc Δ −7 → −52 = the junk paragraph, as at 1440); accent CTAs 16 px wider as live",
+  "afterCommit": "re-run stardust/.work/deploy/g2/run-pubgate.sh 1440 + 360, guard.mjs, drive.mjs (PUB=1), then finalize-pub.mjs"
+ },
+ "publishedChromeParity": " | ✗ 60 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms. | CP-EXIT 2"
 }
