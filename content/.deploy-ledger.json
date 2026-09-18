@@ -1,44 +1,8 @@
 {
-  "/applications/pharma-and-biopharma": {
+  "/stories": {
     "status": "live",
     "attempts": 1,
-    "ts": "2026-09-18T12:12:35.563Z",
-    "put": 200,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/footer-legacy": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T12:12:35.564Z",
-    "put": 200,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/footer": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T12:12:41.368Z",
-    "put": 200,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/index": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T12:12:41.608Z",
-    "put": 200,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/nav": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T12:12:47.338Z",
+    "ts": "2026-09-18T14:28:21.849Z",
     "put": 200,
     "preview": 200,
     "live": 200,
