@@ -38,6 +38,12 @@
         ],
         "createdAt": "2026-09-18T12:00:37.129Z",
         "reason": "stardust replica (preserve mode): value lifted verbatim from live sciex.com CSS; any delta not in stardust/replica/inconsistency-register.md is a fidelity defect — coordinator decision"
+      },
+      {
+        "rule": "overused-font",
+        "value": "helvetica",
+        "createdAt": "2026-09-18T13:06:11.022Z",
+        "reason": "stardust replica (preserve mode): live sciex.com legacy templates (SCIEX Now shell, intermediate, generic, KB) compute Helvetica/Arial for body copy (gate evidence stardust/replica/capture/tokens-g4-*.json, tokens-kb-*.json); the replica mirrors the source face — coordinator decision"
       }
     ]
   }

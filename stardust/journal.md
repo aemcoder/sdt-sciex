@@ -126,3 +126,20 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** gate the prototypes per group → deploy phase (convert → coordinator commit → deliver + published gate) → siblings importer for the remaining v3 pages.
 
 ---
+## 2026-09-18T14:20:00Z — L2 wave converted end to end; delivery blocked on the DA-write permission
+
+**Prompt:** (same wave) continue.
+
+**Decisions:**
+- All 25 second-level pages are recreated, gated (24 pass every bar; professional-lab-services carries a documented Δh residual from the live tracking-pixel tail) and converted to EDS blocks + content pages; four pages already on Edge Delivery were ported and are LIVE with body-band fidelity 0.15–1.52 %.
+- Block library grown to 11 new blocks (hero-band, section-tabs, accordion, statement-cards, event-rows, hero-video, expertise-rows, support-shell, support-hero, image-map, search-band, video, page-title, embed) plus cards/columns/carousel variants and a small closed set of section styles; template classes `kb-article`, `legacy`, `sciex-now`, `page-content`, `sx-port` scope chrome compensations.
+- Shared-chrome fixes by the coordinator: footer disclaimer slot appends when the fragment has no code; breadcrumb `legacy` variant does not self-link the last crumb.
+- The session's permission classifier denied the batch DA content writes for the new pages (classified as a production deploy). Not retried from the coordinator; delivery waits for the user's approval. Runbook: `stardust/.work/deploy/l2-delivery.md`; per-group commands in `stardust/.work/deploy/g<n>/ready.json`.
+
+**Artifacts touched:** blocks/, styles/, fonts/, content/ (23 new pages), stardust/eds-conversion-log-g{1,2,3,4}.md, stardust/eds-port-log.md, stardust/eds-schema/, stardust/replica/progress-g{1..5}.json, stardust/replica/gates/, stardust/prototypes/ (+25), stardust/state.json (5 ported slugs migrated), .impeccable/config.json (replica-mode suppressions).
+
+**Open questions:** approval to deliver (23 pages + 142 media files) to da.live; Coveo reuse; events snapshot cadence; keep or unify legacy footer/header recolour.
+
+**Next:** on approval — upload media for g2/g3/g4, deliver per runbook, run published gates, update state/plan, commit.
+
+---
