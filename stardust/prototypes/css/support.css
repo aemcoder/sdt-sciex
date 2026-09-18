@@ -1,0 +1,157 @@
+/* ==========================================================================
+   SCIEX Now SUPPORT SHELL archetype (/support, legacy globalpage +
+   clientlib-sciex-now "Unify" admin theme). Page modules only; imports
+   canon.css + legacy-shared.css first. Values lifted from live computed
+   styles: stardust/replica/capture/tokens-g4-support-{360,1440,1920}.json
+   + the page's own inline <style> blocks. Recreation, not redesign.
+   ========================================================================== */
+
+/* --- Shell: flex row of [top bar (absolute)] [sidebar] [body] ------------- */
+.sn-shell { display: flex; position: relative; font: 400 14px/22.4px Helvetica, Arial, sans-serif; color: var(--lg-ink-sn); -webkit-font-smoothing: antialiased; box-sizing: border-box; }
+.sn-shell *, .sn-shell *::before, .sn-shell *::after { box-sizing: border-box; }
+.sn-shell a { color: var(--lg-blue-3); text-decoration: none; }
+
+/* SCIEX Now bar (live header.u-header: absolute over the shell top, 82px; brand box shares the sidebar tint) */
+.sn-bar { position: absolute; top: 0; left: 0; right: 0; z-index: 2; font-size: 13px; line-height: 20.8px; color: #fff; }
+.sn-bar__section { position: relative; min-height: 65px; }
+.sn-bar__nav { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; min-height: 50px; border: 1px solid transparent; border-radius: 4px; }
+.sn-bar__brand-box { display: flex; width: 292px; max-width: 100%; padding: 12px 15px; background: var(--lg-side-bg); overflow: hidden; }
+.sn-bar__brand { display: flex; align-self: center; float: left; margin: 5px 14px 0 0; padding: 0 15px; font-size: 17.5px; line-height: 17.5px; white-space: nowrap; }
+.sn-bar__logo { display: block; width: 135px; height: 50px; }
+.sn-bar__toggler { position: relative; display: flex; align-self: center; width: 20px; height: 20px; margin-left: auto; }
+.sn-bar__toggler i { position: absolute; top: 50%; left: 50%; font-size: 20px; line-height: 20px; transform: translate(-10px, -10px); }
+
+/* Sidebar (live aside.sidebar-wrapper: col-auto, 292px, padding-top 85 clears the bar) */
+.sn-side { flex: 0 0 auto; width: 292px; max-width: 100%; min-height: 100%; padding: 85px 6px 0; background: var(--lg-side-bg); color: var(--lg-blue-3); }
+.sn-search { height: 106px; }   /* live .sidebar-search-cont{height:106px} — fixed height, so the help margin never collapses into the nav header's 40px */
+.sn-search__form { margin: 0 15px; }
+.sn-search__group { position: relative; display: flex; flex-wrap: wrap; align-items: stretch; max-width: 450px; }
+.sn-search__input { position: relative; flex: 1 1 auto; float: left; width: 1%; height: 46px; padding: 14px 40px 14px 14px; font: 400 14px/21px Arial, Verdana, sans-serif; color: var(--lg-blue-3); background: #fff; border: 1px solid #fff; border-radius: 3px; box-shadow: inset 0 1px 1px rgba(0,0,0,.075); outline: 0; }
+.sn-search__input::placeholder { color: var(--lg-blue-3); opacity: 1; }
+.sn-search__btn { position: absolute; top: 0; right: 0; bottom: -5px; display: flex; align-items: center; justify-content: center; width: 40px; margin: 0 0 5px; padding: 7px 15px; font-size: 18px; line-height: 27px; color: #000; background: var(--lg-link); border: 0; border-radius: 0; cursor: pointer; }
+.sn-search__btn i { font-size: 18px; line-height: 18px; }
+.sn-help { margin: 5px 15px 10px; }
+.mfp-hide { display: none !important; }   /* live Magnific-Popup: the Get Help modal DOM stays in the sidebar, hidden until opened */
+.btn-sn { position: relative; display: inline-block; padding: 7px 15px; margin-bottom: 5px; font: 400 14px/21px Helvetica, Arial, sans-serif; text-align: center; white-space: nowrap; vertical-align: middle; border: 1px solid transparent; border-radius: 0; cursor: pointer; transition: .25s ease; }
+.btn-sn--orange, .sn-shell a.btn-sn--orange { color: #fff; background: var(--lg-orange); }
+
+.sn-nav { margin: 0; padding: 0; list-style: none; }
+.sn-nav__header { margin: 40px 0 10px; padding: 0 15px; font-size: 12px; line-height: 19.2px; font-weight: 700; text-transform: uppercase; white-space: nowrap; list-style: none; }
+.sn-nav__item { position: relative; list-style: none; }
+.sn-nav__link { display: flex; align-items: flex-start; padding: 3px 15px; white-space: nowrap; overflow: hidden; }
+.sn-nav__icon { display: flex; align-self: center; position: relative; margin-right: 10px; font-size: 18px; line-height: 28.8px; }
+.sn-nav__icon i { font-size: 18px; line-height: 18px; }
+.sn-nav__label { flex: 1 1 0%; align-self: center; padding: 7px 0; overflow: hidden; }
+.sn-nav__ctl { display: flex; align-self: center; }
+.sn-nav__ctl i { font-size: 14px; line-height: 14px; }
+
+/* Body column (live .main-body: flex 1, max-width calc(100% - 250px), z-index 400) */
+.sn-body { position: relative; z-index: 400; flex: 1 0 0; max-width: calc(100% - 250px); padding: 0 6px; background: var(--lg-shell-bg); }
+.sn-body__pad { padding: 0 20px; }
+.sn-shell .sciex-section { }
+.sn-shell .home-section { padding-bottom: 40px; }
+.sn-shell .no-bleed { margin: 0 auto; max-width: 1170px; padding: 0 15px; }
+
+/* Hero carousel (live .overlayboxcarousel > #myCarousel; one slide, square indicator hanging 50px below) */
+.sn-hero { position: relative; margin-bottom: 25px; }
+.sn-hero__inner { position: relative; }               /* live #myCarousel: no clip — the indicator hangs 50px below the slide */
+.sn-hero__slide { position: relative; overflow: hidden; } /* live .carousel-inner */
+.sn-hero__img { display: block; width: 100%; border: 1px solid var(--lg-img-border); }
+.sn-hero__indicators { position: absolute; right: 0; bottom: -50px; z-index: 15; display: flex; justify-content: center; margin: 0; padding: 0; list-style: none; text-align: center; }
+.sn-hero__indicators li { box-sizing: content-box; width: 15px; height: 15px; text-indent: -999px; cursor: pointer; background: var(--lg-blue); border: 1px solid var(--lg-blue); }
+.sn-hero__bar { position: absolute; left: 0; right: 0; bottom: 0; padding: 13px 15px 13px 10px; background: rgba(95,96,98,.75); color: #fff; font-size: 15px; line-height: normal; overflow: hidden; }
+.sn-hero__title { display: flex; justify-content: space-between; align-items: center; margin: 0; padding: 8px 0; font: 400 28px/normal Helvetica, Arial, sans-serif; color: var(--lg-blue); }
+.sn-hero__cta { font-size: 14px; line-height: 24px; color: #fff; }
+.sn-hero__cta .btn-sn { display: block; float: right; margin: auto; }
+
+/* Richtext (sciex-now variant: 28px teal h2, 14/22.4 body, 14px paragraph rhythm) */
+.sn-shell .richtext h2 { margin: 0 0 7px; font-size: 28px; line-height: 39.2px; font-weight: 400; color: var(--lg-blue); }
+.sn-shell .richtext p { margin: 0 0 14px; }
+.sn-shell .richtext ul { margin: 0 0 14px; padding-left: 40px; list-style: disc outside; }   /* explicit: canon's preflight resets ul list-style at mobile */
+.sn-shell .richtext li { list-style: inherit; display: list-item; }
+
+/* Support-network infographic (live inline <style>, mirrored) */
+.ig-comp .ig-desktop { margin-top: 80px; }
+.ig-comp #hover-content { position: relative; max-width: 1000px; margin: 0 auto; }
+.ig-comp #hover-content #ig-text { position: absolute; top: 0; right: 0; max-width: 350px; height: 100%; display: flex; align-items: center; justify-content: center; padding: 0 20px; }
+#hover-content #ig-text .map1-content h2 { margin: 0 0 7px; font-weight: 700; font-size: 28px; line-height: 32px; color: var(--lg-blue); }
+#hover-content #ig-text .map1-content h3 { margin: 0 0 7px; font-weight: 700; font-size: 22px; line-height: 28px; color: var(--lg-link); }
+.ig-comp .imgHover { display: block; max-width: 100%; }
+.ig-comp .imgHover[hidden] { display: none; }
+.ig-mobile { display: none; }
+@media (max-width: 1024px) {
+  .ig-desktop { display: none; }
+  .ig-mobile { display: block; }
+  .ig-mobile h2 { margin: 10px 0 7px; font-size: 18px; line-height: 24px; font-weight: 400; color: var(--lg-blue); }
+  .ig-mobile h3 { margin: 0 0 7px; font-weight: 400; font-size: 15px; line-height: 20px; background: none; color: var(--lg-text); padding: 0; }
+}
+
+/* Green search band (live .banner-bottom-search.section-space: 62px clip at desktop) */
+.sn-band { position: relative; height: 62px; margin: 15px 0 80px; overflow: hidden; color: #fff; }
+.sn-band__row { display: flex; flex-wrap: wrap; margin: 0 -15px; padding: 15px; background: var(--lg-green); }
+.sn-band__row::before, .sn-band__row::after { content: " "; display: table; }
+.sn-band__col { position: relative; width: 100%; flex: 0 0 50%; max-width: 50%; min-height: 1px; padding: 0 6px; float: left; }   /* BS4 .col-* base width:100% (mobile: full-width rows) */
+.sn-shell .sn-band__lede { margin: 5px 0 0; font: 400 20px/24px proxima-nova, Arial, Verdana, sans-serif; color: #fff; }   /* live inline: 'proxima-nova',Arial,Verdana — Typekit kit never rehosted; Arial is the live stack's own fallback */
+.sn-band__search { margin-bottom: 10px; }
+.sn-band__input { display: inline-block; width: 100%; padding: 5px; font: 400 14px/22.4px Arial, Verdana, sans-serif; color: var(--lg-text); background: #fff; border: 2px inset rgb(118,118,118); }
+.sn-band__input::placeholder { color: rgb(126,128,131); opacity: 1; }
+.sn-band__submit { position: absolute; top: 0; right: 0; width: 36px; height: 34px; padding: 1px 6px; font: 400 14px/22.4px Helvetica, Arial, sans-serif; color: #fff; background: var(--lg-link) url(../assets/media/g4/search-white.png) 50% 50% no-repeat; border: 0; border-radius: 0; cursor: pointer; white-space: pre; }
+
+/* Video (live .StandardVideo > .video-banner > .video-wrapper) */
+.sn-video__wrap { position: relative; display: block; max-width: 860px; margin: 0 auto; padding: 30px 15px; }
+.sn-video__wrap video { display: inline-block; vertical-align: baseline; width: 100%; max-width: 100%; }   /* baseline (not preflight's middle): live line box leaves a 6.4px strut gap under the player */
+.sn-video__content { color: #fff; }
+.sn-video__content h1 { margin: 0 0 5px; padding-top: 10px; font-size: 35px; line-height: 49px; font-weight: 400; color: var(--lg-blue); }
+.sn-shell .sn-video__content .body-copy p { margin: 0; font-size: 11px; line-height: 17.6px; color: #fff; }
+
+/* Contact bar (live h2.support-header) */
+.sn-contact__header { position: relative; margin: 20px 0 0; padding: 11px 15px; min-height: 50px; font: 400 23px/32.2px Helvetica, Arial, sans-serif; color: #fff; background: var(--lg-blue-4); overflow: hidden; }
+.sn-contact__row { display: flex; }
+
+/* --- Mobile (live inline @media ≤767 + clientlib): bar + sidebar gone, body full width ------------------- */
+@media (min-width: 768px) and (max-width: 991px) { .sn-body { margin-left: 45px; } }
+@media (max-width: 767px) {
+  .sn-bar, .sn-side { display: none; }
+  .sn-body { max-width: 100%; margin-left: 0; }
+  .sn-shell .richtext p, .sn-shell p { font-size: 15px; line-height: 22px; }
+  .sn-shell .richtext h2 { }
+  .sn-hero__bar { position: relative; padding: 5px; }
+  .sn-hero__title { font-size: 18px; }
+  .sn-band { height: auto; overflow: visible; }
+  .sn-band__col { flex: 0 1 auto; max-width: none; float: none; }
+  .sn-shell .sn-band__lede { margin: 0 0 14px; font-size: 20px; line-height: 24px; }
+  .sn-shell .sn-video__content .body-copy p { line-height: 22px; }
+  .sn-contact__header { margin-bottom: 7px; }
+  .sn-contact__row { display: block; margin: 0 -15px; }
+}
+
+/* --- Interaction parity (stardust/replica/motion/support.json + capture/states-g4-support-1440.json) ---------- */
+/* bar: class "stuck" observed added at scrollY ≈ 82–94 and removed ≤ 60 → position fixed, top 0, z-index 0, no animation */
+.sn-bar.stuck { position: fixed; top: 0; left: 0; right: 0; z-index: 0; }
+/* sidebar mini state (toggler click: body.u-side-nav-mini + aside mini classes; widths 292→50, labels/search/help fade) */
+.sn-shell.is-mini .sn-side { width: 50px; }
+.sn-shell.is-mini .sn-bar__brand-box { width: 50px; padding-left: 5px; padding-right: 5px; }
+.sn-shell.is-mini .sn-bar__brand { display: none; opacity: 0; }
+.sn-shell.is-mini .sn-bar__toggler { margin: 0 10px 0 auto; }
+.sn-shell.is-mini .sn-search__form, .sn-shell.is-mini .sn-help, .sn-shell.is-mini .sn-nav__header { opacity: 0; }
+.sn-shell.is-mini .sn-nav__label { width: 0; flex: 0 0 0; opacity: 0; }
+.sn-shell.is-mini .sn-body { max-width: calc(100% - 50px); }
+/* sidebar link hover (observed): icon span, label and control span → orange; the pie-chart glyph keeps its explicit ink */
+.sn-nav__icon, .sn-nav__label, .sn-nav__ctl { transition: all .2s ease-in; }
+.sn-nav__icon i { color: var(--lg-blue-3); }
+.sn-nav__link:hover .sn-nav__icon, .sn-nav__link:hover .sn-nav__label, .sn-nav__link:hover .sn-nav__ctl { color: var(--lg-orange); }
+/* hero CTA hover (observed): orange → link blue, .2s; "Get Help" has no hover diff on live */
+.sn-hero__cta .btn-sn { transition: .2s; }
+.sn-hero__cta .btn-sn:hover { background: var(--lg-link); color: #fff; }
+
+/* stacking: live .sciex-footer wrapper (10px strip + footer) is position:relative; z-index:50 — paints above the z-0 fixed bar */
+.page--sn .sciex-footer { position: relative; z-index: 50; }
+
+/* --- Chrome compensation for this shell: the v3 header/footer XFs inherit the sciex-now body type (14px/22.4) and
+       html{font-size:14px} scales the rem utilities ×1.4 (chrome-parity iter1: 10 header + 47 footer deltas) ------- */
+.page--sn .hdr-nav__row > ul > li > a, .page--sn .hdr-dropbtn { font-size: 14px; line-height: 22.4px; }
+.page--sn .ftr-col__head, .page--sn .ftr-col--desktop ul, .page--sn .ftr-col--desktop a, .page--sn .ftr-social span { font-size: 14px; line-height: 22.4px; }
+@media (min-width: 640px) { .page--sn .ftr-links > * ~ * { margin-left: 17.5px; } }   /* sm:tw-space-x-5 at a 14px rem */
+.page--sn .ftr-lang__label { margin-left: 10.5px; }
+.page--sn .ftr-col--mobile { padding: 17.5px 0; }                                      /* tw-py-5 at a 14px rem (360 chrome-parity: column pitch 58 vs 49) */
+.page--sn .ftr-col--mobile button, .page--sn .ftr-col--mobile a, .page--sn .ftr-col--mobile ul { font-size: 14px; line-height: 22.4px; }                                    /* 0.75rem at 14px */

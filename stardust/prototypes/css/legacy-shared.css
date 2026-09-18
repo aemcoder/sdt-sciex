@@ -1,0 +1,105 @@
+/* ==========================================================================
+   SCIEX LEGACY-TEMPLATE shared layer (G4: globalpage SCIEX Now shell,
+   intermediate-template, generic-page-template). Imports canon.css first.
+   These pages run the LEGACY front end (Bootstrap 3 grid + clientlib-global/
+   base, html{font-size:62.5%}) under the shared v3 header XF and the
+   legacy "new-footer" XF. Values lifted from live computed styles:
+   stardust/replica/capture/tokens-g4-<slug>-{360,1440,1920}.json.
+   Recreation, not redesign.
+   ========================================================================== */
+
+/* --- Icon fonts (open licences, harvested from the live clientlibs) ------- */
+@font-face { font-family: FontAwesome; src: url(../assets/fonts/fontawesome-webfont.woff) format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Glyphicons Halflings'; src: url(../assets/fonts/glyphicons-halflings-regular.woff) format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: hs-admin-icons; src: url(../assets/fonts/hs-admin-icons.woff) format("woff"); font-weight: normal; font-style: normal; }
+/* Legacy pages ALSO declare the static Geogrotesque family (clientlib-global: Ge2003-*.woff2); weight-400 chrome
+   text resolves to the static Regular cut, not canon's 450 VF face (KB chrome-parity finding). Same-owner reuse. */
+@font-face { font-family: Geogrotesque; font-style: normal; font-weight: 400; src: url(../assets/fonts/Ge2003-Rg.woff2) format("woff2"); }
+
+/* --- Legacy palette (live customProps + computed colours) ---------------- */
+:root {
+  --lg-blue:      #0084a9;   /* rgb(0,132,169) headings */
+  --lg-blue-2:    #007da4;   /* rgb(0,125,164) --blue-color, colour bar 2, .blue-text */
+  --lg-blue-3:    #007aa0;   /* rgb(0,122,160) SCIEX Now shell ink */
+  --lg-blue-4:    #0083a9;   /* contact bar */
+  --lg-link:      #00afdb;
+  --lg-link-hover:#004a65;
+  --lg-text:      #5f6062;   /* rgb(95,96,98) legacy body ink */
+  --lg-text-2:    #585857;   /* rgb(88,88,87) card copy */
+  --lg-ink-sn:    #212529;   /* rgb(33,37,41) SCIEX Now shell body */
+  --lg-orange:    #f99d31;   /* rgb(249,157,49) */
+  --lg-teal-bg:   #e4f1f5;   /* rgb(228,241,245) */
+  --lg-shell-bg:  #f4f9fa;   /* rgb(244,249,250) */
+  --lg-side-bg:   #e4f0f4;   /* rgb(228,240,244) */
+  --lg-green:     #65bc28;
+  --lg-bar-grey:  #b1b1b1;
+  --lg-bar-green: #76bc21;
+  --lg-bar-navy:  #003e52;
+  --lg-crumb:     #9fa1a4;
+  --lg-rule:      #dbdbdb;
+  --lg-img-border:#d3d3d3;
+}
+
+/* --- Icon glyph mechanisms (as live: pseudo-element glyphs) --------------- */
+.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.glyphicon { position: relative; top: 1px; display: inline-block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.glyphicon-chevron-right::before { content: "\e080"; }
+[class^="hs-admin-"], [class*=" hs-admin-"] { font-family: hs-admin-icons; speak: none; font-style: normal; font-weight: 400; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.hs-admin-align-left::before  { content: "\e905"; }
+.hs-admin-angle-right::before { content: "\e90f"; }
+.hs-admin-pie-chart::before   { content: "\e9f6"; }
+.hs-admin-search::before      { content: "\ea0f"; }
+
+/* --- Legacy content-root cascade (live #master: Helvetica stack, grey ink; clientlib-global body 16/24, ≤767 15/23) */
+.lg-root { font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 24px; font-variation-settings: normal; color: var(--lg-text); text-align: left; }
+.lg-root a { color: var(--lg-link); text-decoration: none; transition: all .25s ease; }
+.lg-root a:hover { color: var(--lg-link-hover); }
+.lg-root p { margin: 0 0 20px; }
+.lg-root ul { margin: 0 0 10px; padding-left: 40px; }
+.lg-root h1, .lg-root h2, .lg-root h3, .lg-root h4 { font-weight: 400; }
+.lg-root h2 { font-size: 24px; line-height: normal; margin: 0 0 10px; color: var(--lg-blue); }
+.lg-root strong, .lg-root b { font-weight: 700; }
+.lg-root img { vertical-align: middle; max-width: 100%; }
+.lg-root sup { top: -.5em; }
+@media (max-width: 767px) {
+  .lg-root { font-size: 15px; line-height: 23px; }
+  .lg-root p { font-size: 15px; line-height: 22px; }
+  .lg-root h2 { font-size: 20px; }
+}
+
+/* Bootstrap-era page furniture shared by the template pages */
+.home-section { padding-bottom: 40px; }
+.no-bleed { margin: 0 auto; max-width: 1170px; padding: 0 15px; }
+.lg-lead-spacer { display: flex; padding-bottom: 40px; }      /* live: empty .pad-bottom40.flex > .w-100 */
+.lg-lead-spacer > div { width: 100%; }
+
+/* Legacy breadcrumb (live .breadcrumb > .cmp-breadcrumb; hidden ≤ 992px) */
+.lg-breadcrumb { padding: 8px 15px; border-radius: 4px; }
+.lg-breadcrumb__inner { margin: 20px 0; }
+.lg-breadcrumb__main { max-width: 1140px; margin: 0 auto; font-size: 14px; color: var(--lg-crumb); }
+.lg-breadcrumb__list { margin: 0; padding: 0; list-style: none; }
+.lg-breadcrumb__item { display: inline; }
+.lg-breadcrumb__item::after { display: inline-block; font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\f105"; }
+.lg-breadcrumb__item:last-child::after { content: ""; }
+.lg-breadcrumb__item:last-child { font-weight: 700; }
+.lg-root .lg-breadcrumb__link, .lg-breadcrumb__text { margin: 0 10px 0 5px; color: var(--lg-text); text-transform: capitalize; }
+.lg-breadcrumb__item:first-child .lg-breadcrumb__link { margin-left: 0; }
+.lg-root .lg-breadcrumb__link:hover { color: #f59831; }
+@media (max-width: 992px) { .lg-breadcrumb__inner { display: none; } }
+
+/* Legacy orange CTA (live .btn.orange) */
+.btn-legacy, .lg-root a.btn-legacy { display: inline-block; padding: 7px 15px; margin-bottom: 5px; font-size: 14px; line-height: 20px; font-weight: 300; color: #fff; background: var(--lg-orange); border: 0; border-radius: 0; text-align: center; white-space: nowrap; vertical-align: middle; cursor: pointer; transition: .25s ease; }
+
+/* --- Chrome compensation for the legacy templates (mirrors the KB pass's .page--kb findings) ----------------
+       the legacy template has no support band and its footer XF carries a 10px white strip (live .sciex-footer padding-top). */
+.page--legacy .footer-spacer { padding-top: 10px; }
+.page--legacy .hdr-dropbtn { font-weight: 400; padding: 0; }
+.page--legacy .ftr-col--desktop { padding: 32px 0; }
+.page--legacy .ftr-links { column-gap: 0; }
+@media (min-width: 640px) { .page--legacy .ftr-links > * ~ * { margin-left: 12.5px; } }
+.page--legacy .ftr-partners li { padding: 0; }
+.page--legacy .ftr-partners ul { align-items: flex-start; }
+.page--legacy .ftr-lang__label { margin-left: 7.5px; }
+.page--legacy .ftr-disclaimer { font-weight: 330; }
+.page--legacy .ftr-col--mobile { padding: 12.5px 0; }
+.page--legacy .ftr-lang--mobile { display: none; }

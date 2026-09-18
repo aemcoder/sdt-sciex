@@ -1,0 +1,206 @@
+{
+  "url": "https://sciex.com/applications/biomedical-and-omics-research",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".statement-3-card a.tw-group",
+      "changed": [
+        "img.tw-transition-transform.tw-duration-500.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.tw-transition-transform.tw-duration-500",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.tw-transition-transform.tw-duration-500",
+            "transform": "matrix(1.04379, 0, 0, 1.04379, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".statement-3-card img",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "matrix(1.00032, 0, 0, 1.00032, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.04388, 0, 0, 1.04388, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".atomic-buttons a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".media-card-item img",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.0438, 0, 0, 1.0438, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.tw-grid.tw-grid-cols-1.md:tw-grid-cols-3 > div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 1564,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tw-grid.tw-grid-cols-1.md:tw-grid-cols-3 > div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 1647,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tw-grid.tw-grid-cols-1.md:tw-grid-cols-3 > div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 1802,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tw-grid.tw-grid-cols-1.md:tw-grid-cols-3 > div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 1802,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-size",
+        "el": "div.cmp-container > div.atomic-child > div.atomic-buttons.|.tw-inline-flex > div.tw-w-full.md:tw-w-auto > a.tw-text-mobBase.md:tw-text-base.tw-inline-block",
+        "y": 3094,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "background-size",
+        "el": "div.cmp-container > div.atomic-child > div.atomic-buttons.|.tw-inline-flex > div.tw-w-full.md:tw-w-auto > a.tw-text-mobBase.md:tw-text-base.tw-inline-block",
+        "y": 3146,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > picture > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 2463,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": []
+  }
+}

@@ -1,0 +1,56 @@
+/* ==========================================================================
+   SCIEX "intermediate-template" archetype (/support/software-support):
+   teal page-title band + brand colour bar, breadcrumb, richtext, title band,
+   icon card row. Page modules only; imports canon.css + legacy-shared.css.
+   Values lifted from live computed styles:
+   stardust/replica/capture/tokens-g4-support-software-support-{360,1440}.json
+   ========================================================================== */
+
+/* --- Page title band (live .pagetitle > .color-bar.blue-bg > .main-content.flex) */
+.lg-pagetitle__bar { background: var(--lg-teal-bg); }
+.lg-pagetitle__content { display: flex; justify-content: space-between; max-width: 1140px; min-height: 250px; margin: 0 auto; }
+.lg-pagetitle__icon { flex: 0 0 16%; align-self: center; }
+.lg-pagetitle__icon img { max-width: 100%; vertical-align: middle; }
+.lg-pagetitle__text { flex: 1 1 auto; align-self: center; }
+.lg-pagetitle__text h1 { display: inline; margin: 0 0 15px; font: 400 36px/normal Helvetica, Arial, sans-serif; color: var(--lg-blue); }
+.lg-pagetitle__text h1.blue-text { color: var(--lg-blue-2); }
+/* brand colour bar: zero-height container, four 25% floats hanging into the breadcrumb wrapper's top padding (as live) */
+.brand-color-bar-component { max-width: 1140px; margin: 0 auto; height: 0; }
+.brand-color-bar-component > div { float: left; width: 25%; height: 10px; }
+.brand-color-bar-1 { background: var(--lg-bar-grey); }
+.brand-color-bar-2 { background: var(--lg-blue-2); }
+.brand-color-bar-3 { background: var(--lg-bar-green); }
+.brand-color-bar-4 { background: var(--lg-bar-navy); }
+
+/* --- Title band (live .spacing.sm-color-bar.align-center) */
+.lg-band { margin: 40px 0; padding: 20px; background: var(--lg-blue-2); text-align: center; }
+.lg-band h1 { margin: 0 0 15px; font: 400 28px/normal Helvetica, Arial, sans-serif; color: #fff; text-align: center; }
+
+/* --- Icon card row (live .columnlistcard > .spacing > .app-page.wrapper.intro-module > .multi-column.vertical-card) */
+.lg-cards { margin-top: 40px; max-width: 1140px; }
+.lg-cards__wrap { padding: 10px; background: var(--lg-teal-bg); border-top: 2px solid #fff; }
+.lg-cards__grid { display: flex; flex-wrap: wrap; justify-content: flex-start; padding: 10px; }
+.lg-card { flex: 0 0 49%; margin: .5%; background: rgba(255,255,255,.5); text-align: center; }
+.lg-card__wrap { position: relative; padding: 10px; }
+.lg-card__bg { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: #fff; opacity: 0; }
+.lg-card__content { position: relative; padding-bottom: 60px; border-top: 1px solid transparent; }
+.lg-card__square { padding: 23.5%; }
+.lg-card__square img { max-width: 100%; height: auto; vertical-align: middle; }
+.lg-card__content h4 { margin: 10px 0; font: 500 18px/26px Helvetica, Arial, sans-serif; color: var(--lg-text); }
+.lg-root .lg-card__content p { margin: 0 0 20px; font-size: 14px; line-height: 20px; color: var(--lg-text-2); }
+.lg-card__more { position: absolute; left: 0; right: 0; bottom: 10px; padding-top: 10px; border-top: 1px solid var(--lg-rule); text-align: left; }
+.lg-card__more .glyphicon { float: right; top: 1px; font-size: inherit; }
+
+@media (max-width: 767px) {
+  .lg-pagetitle__bar { margin-bottom: 40px; text-align: center; }
+  .lg-pagetitle__content { min-height: 150px; }
+  .lg-pagetitle__icon { flex: 0 0 100%; max-width: 100px; }
+  .lg-pagetitle__text { flex: 1 1 100%; text-align: left; }
+  .lg-pagetitle__text h1 { font-size: 22px; line-height: 28px; }
+  .lg-band { margin: 20px 0; }
+  .lg-cards { margin-top: 20px; }
+  .lg-card__content { padding-bottom: 0; }
+  .lg-card__content h4 { font-size: 16px; line-height: 22px; }
+  .lg-root .lg-card__content p { margin-bottom: 25px; font-size: 13px; line-height: 18px; }
+  .lg-card__more { position: relative; bottom: auto; padding-top: 20px; }
+}

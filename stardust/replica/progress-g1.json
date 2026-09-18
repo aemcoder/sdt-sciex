@@ -1,0 +1,1202 @@
+{
+ "group": "g1",
+ "pages": [
+  {
+   "archetype": "products-mass-spectrometers",
+   "pageType": "page-template",
+   "liveUrl": "https://sciex.com/products/mass-spectrometers",
+   "protoPath": "stardust/prototypes/products-mass-spectrometers-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-mass-spectrometers-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g1-products-mass-spectrometers-1440.json",
+     "stardust/replica/capture/tokens-g1-products-mass-spectrometers-360.json",
+     "stardust/replica/capture/tokens-g1-products-mass-spectrometers-1920.json"
+    ],
+    "media": "stardust/prototypes/assets/media/g1/ (38 renditions; manifest stardust/.work/g1/media-manifest.json)"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "hero-small",
+    "text-container-left-aligned-2-col",
+    "spacer",
+    "image-card x4 (9/4/3/2 cards, 4-up)",
+    "split-left x2",
+    "image-card (5 cards, 3-up)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.41,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "visual": "none"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.39,
+       "heightDelta": 0,
+       "fix": "split heading <p> colour grey-500 (rows 6608\u20136671 read black; live p.text-echo.tw-text-grey-500)",
+       "masked": "0.00% (18 px)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.39,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "supportBandCropPct": 0.0,
+      "chromeParity": "quiet (header 13 pairs, footer 46 pairs, 0 findings)",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "rows 801\u2013899, 1701\u20131799, \u2026 8001\u20138099 (every 900 px chunk seam) + 9410\u20139488",
+       "pct": 0.39,
+       "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left, chat launcher bottom-right) repeat at each stitched seam; not site markup; masked 0.00% with --mask 801:99,1701:99,2601:99,3501:99,4401:99,5301:99,6201:99,7101:99,8001:99,9410:79",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widgets inside the last chunk (rows 9410\u20139488); support band 0.00%",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher (fixed, third-party) in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      },
+      {
+       "what": "WalkMe 'please login' balloon in the extract screenshot only \u2014 never rendered in the gate capture",
+       "where": "header"
+      }
+     ],
+     "wideCheck1920": "box map identical to live (doc 9458 both; h1 1408 wide @x256, hero frame 1920x512, 2-col 688/688, card 328x568, 3-up grid 1408, split media/content 704/704 with 58.66 px padding, button 359.7x50, footer 828.6)"
+    },
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.02,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "same split heading colour (rows 12658\u201312733)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE hero-small w375 360x127\u2192360x420",
+       "why": "intentional object-fit:cover crop, identical on live (tw-object-cover)"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no fixed WalkMe/chat widgets rendered at 360 in the live capture",
+       "where": "-"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "observed": [
+     "hover card image \u2192 img transform scale(1.05) .5s (fired)",
+     "hover arrow link \u2192 colour blue-800 .3s, underline left 0\u2192100% .5s, svg margin-left 8\u219212 .5s (fired)"
+    ],
+    "implemented": [
+     "all already in css/applications-pharma-and-biopharma.css (.card__media img:hover, .link-arrow:hover) \u2014 nothing new"
+    ],
+    "dead": [
+     "primary button hover (gradient fill) \u2014 no change",
+     "breadcrumb link hover \u2014 no change",
+     "0 animations, 0 class mutations, header static"
+    ],
+    "file": "stardust/replica/motion/products-mass-spectrometers.json"
+   },
+   "newComponents": [
+    "hero-small (image variant, empty caption) \u2192 .hero-small",
+    "spacer \u2192 .spacer",
+    "image-card grid variants (4-up/3-up, plain head) \u2192 .app-cards__grid--md2/--md3/--lg4 + .app-cards__head--plain",
+    "split-left \u2192 .split.split--left",
+    "hero-text bottom padding \u2192 .hero-text--pb",
+    "section rhythm utilities \u2192 .u-pt-*/.u-pb-*"
+   ]
+  },
+  {
+   "archetype": "products",
+   "pageType": "page-template",
+   "liveUrl": "https://sciex.com/products",
+   "protoPath": "stardust/prototypes/products-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g1-products-1440.json",
+     "stardust/replica/capture/tokens-g1-products-360.json"
+    ],
+    "media": "stardust/prototypes/assets/media/g1/"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "hero-small (no overlay)",
+    "text-container-left-aligned-2-col (h2.text-charlie)",
+    "spacer",
+    "image-text-2-col (ruled head + 10 rows)",
+    "icon-card (6, 4-up, svg icons)",
+    "image-card (6 cards, 3-up)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 7.3,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "visual": "none",
+       "hot": "rows 388\u2013899 (hero-small) 66%"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.39,
+       "heightDelta": 0,
+       "fix": "hero-small overlay is per-page authored \u2014 live products hero has NO .overlay div; builder now emits it only when the live frame carries one (mean luminance 85 vs 143 in the band)",
+       "masked": "0.00% (9 px)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.39,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "rows 801\u2013899 \u2026 4401\u20134499 (chunk seams) + 6097\u20136175",
+       "pct": 0.39,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) at every stitched seam; masked 0.00% with --mask 801:99,1701:99,2601:99,3501:99,4401:99,6097:79",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical (captured after the overlay fix)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE hero-small w375 360x127\u2192360x420",
+       "why": "object-fit:cover crop, identical on live"
+      }
+     ],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": [
+     "hover image-text thumbnail \u2192 img transform scale(1.05) (transition all .5s) fired",
+     "hover image-text arrow link \u2192 colour change fired",
+     "hover image-card image \u2192 scale fired"
+    ],
+    "implemented": [
+     ".imgtext__thumb img:hover { transform: scale(1.05) } in v3-products.css; arrow-link + card hovers inherited from pharma CSS"
+    ],
+    "dead": [
+     "icon-card arrow link hover probe returned no change (same markup/classes as the other arrow links \u2014 rule inherited, not added)",
+     "0 animations, 0 class mutations"
+    ],
+    "file": "stardust/replica/motion/products.json"
+   },
+   "newComponents": [
+    "image-text-2-col \u2192 .imgtext (ruled head optional; rows 1-col \u2192 2-col at lg; thumb 100/120/192)",
+    "icon-card \u2192 .icon-cards (+ .icon-cards__grid--sm2/--lg4; optional svg icon, h3, text, arrow link pinned bottom)",
+    "hero-small without overlay (builder-conditional)",
+    "text-container 2-col with h2.text-charlie"
+   ]
+  },
+  {
+   "pageType": "page-template",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "archetype": "products-capillary-electrophoresis",
+   "liveUrl": "https://sciex.com/products/capillary-electrophoresis",
+   "protoPath": "stardust/prototypes/products-capillary-electrophoresis-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-capillary-electrophoresis-proposed.html",
+   "capture": {
+    "tokens": "component tokens reused from tokens-g1-products-mass-spectrometers-* (cards, hero-small, textblock) and tokens-g1-products-* (image-text-2-col); no page-specific lift needed",
+    "media": "stardust/prototypes/assets/media/g1/"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "hero-small",
+    "text-container-left-aligned-1-col",
+    "spacer",
+    "three-card (5 cards, 3-up)",
+    "image-text-2-col x2 (4 rows each, ruled head)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.37,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "visual": "none",
+       "masked": "0.00% (10 px)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.37,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "rows 801\u2013899 \u2026 3501\u20133599 (chunk seams) + 5019\u20135097",
+       "pct": 0.37,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher at stitched seams; masked 0.00% (--mask 801:99,1701:99,2601:99,3501:99,4401:99,5019:79)",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE hero-small w375 360x127\u2192360x420",
+       "why": "object-fit:cover crop, identical on live"
+      }
+     ],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": [
+     "hover three-card image \u2192 img transform scale(1.05) .5s (fired)",
+     "hover three-card arrow link \u2192 colour .3s, underline left .5s, svg margin .5s (fired)"
+    ],
+    "implemented": [
+     "inherited from pharma CSS (.card__media img:hover, .link-arrow:hover) \u2014 nothing new"
+    ],
+    "dead": [
+     "image-text-2-col thumbnail hover probe on this page returned no change (the same element fired on /products; rule kept from that observation)",
+     "0 animations, 0 class mutations"
+    ],
+    "file": "stardust/replica/motion/products-capillary-electrophoresis.json"
+   },
+   "newComponents": [
+    "three-card \u2192 .app-cards.app-cards--three-card + .app-cards__grid--md3 (same card model as image-card)",
+    "text-container-left-aligned-1-col with h3.text-delta + textarea (pharma .textblock--1col)"
+   ]
+  },
+  {
+   "pageType": "page-template",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "archetype": "products-hplc-products",
+   "liveUrl": "https://sciex.com/products/hplc-products",
+   "protoPath": "stardust/prototypes/products-hplc-products-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-hplc-products-proposed.html",
+   "capture": {
+    "tokens": "component tokens reused (cards, hero-small, textblock) \u2014 no page-specific lift",
+    "media": "stardust/prototypes/assets/media/g1/"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "hero-small (overlay)",
+    "spacer",
+    "text-container-left-aligned-1-col",
+    "three-card (6 cards, 3-up)",
+    "image-card (5 cards, 4-up)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.41,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "visual": "1 justified",
+       "masked": "0.00% (9 px)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.41,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE excion-lc hero w1440 1440x1080\u21921440x512",
+       "why": "object-fit:cover hero crop, identical on live (the authored hero asset is 4:3)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "chunk seams 801/1701/2601/3501/4401 + 4923\u20135001",
+       "pct": 0.41,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher at stitched seams; masked 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE excion-lc hero w375 360x269\u2192360x420",
+       "why": "object-fit:cover crop, identical on live"
+      }
+     ],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": "see stardust/replica/motion/products-hplc-products.json (card image + arrow-link hovers)",
+    "implemented": [
+     "inherited from pharma CSS \u2014 nothing new"
+    ],
+    "dead": [],
+    "file": "stardust/replica/motion/products-hplc-products.json"
+   },
+   "newComponents": [
+    "spacer placed BEFORE the text container (order mirrored from the live grid)"
+   ]
+  },
+  {
+   "pageType": "page-template",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "archetype": "products-consumables",
+   "liveUrl": "https://sciex.com/products/consumables (products-consumables-lc-ms-performance-kits redirects here \u2014 same page)",
+   "protoPath": "stardust/prototypes/products-consumables-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-consumables-proposed.html",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g1-products-consumables-1440.json",
+     "stardust/replica/capture/tokens-g1-products-consumables-360.json"
+    ],
+    "media": "stardust/prototypes/assets/media/g1/"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-small (product variant: grey-50 band, square product image, eyebrow, h1.text-bravo, lede, primary button)",
+    "icon-3-col (8 items, 3-up, no icons)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.3,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "visual": "1 justified",
+       "masked": "0.00% (7 px)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.3,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE reagents_424x334 \u2192 416x416",
+       "why": "live img carries tw-aspect-square (1:1 box, natural 424x334) \u2014 mirrored"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "chunk seams 801/1701/2601 + 3035\u20133113",
+       "pct": 0.3,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher at stitched seams; masked 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE reagents w375 360x283 \u2192 232x232",
+       "why": "tw-aspect-square box, identical on live"
+      }
+     ],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": [
+     "hover icon-3-col arrow link \u2192 colour change fired"
+    ],
+    "implemented": [
+     "inherited from pharma .link-arrow:hover \u2014 nothing new"
+    ],
+    "dead": [
+     "hero primary button hover (gradient fill) \u2014 no change",
+     "0 animations, 0 class mutations"
+    ],
+    "file": "stardust/replica/motion/products-consumables.json"
+   },
+   "newComponents": [
+    "hero-small product variant \u2192 .hero-small--product (md:container only, row-reverse from md, image max 416, title max-w 66.7 % / lede 75 % at xl)",
+    "icon-3-col \u2192 .icon-cards.icon-cards--icon-3-col + .icon-cards__grid--sm2 --lg3"
+   ]
+  },
+  {
+   "pageType": "page-template",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "archetype": "products-integrated-solutions",
+   "liveUrl": "https://sciex.com/products/integrated-solutions",
+   "protoPath": "stardust/prototypes/products-integrated-solutions-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-integrated-solutions-proposed.html",
+   "capture": {
+    "tokens": "component tokens reused (hero-text, textblock, image-card) \u2014 no page-specific lift",
+    "media": "stardust/prototypes/assets/media/g1/"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "text-container-left-aligned-1-col (body only, no heading)",
+    "image-card (2 cards, 2-up, no head)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.24,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "masked": "0.00%"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.24,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.3,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "chunk seams + last chunk",
+       "pct": 0.24,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher at stitched seams; masked 0.00% (--mask 801:99,1701:99,2581:79)",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.3,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": [
+     "hover card image \u2192 scale(1.05) fired",
+     "hover arrow link \u2192 colour fired"
+    ],
+    "implemented": [
+     "inherited from pharma CSS \u2014 nothing new"
+    ],
+    "dead": [
+     "0 animations, 0 class mutations"
+    ],
+    "file": "stardust/replica/motion/products-integrated-solutions.json"
+   },
+   "newComponents": [
+    "image-card 2-up without head \u2192 .app-cards__grid--md2 (stays 2 columns at lg)"
+   ]
+  },
+  {
+   "pageType": "page-template",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py"
+   },
+   "archetype": "technology",
+   "liveUrl": "https://sciex.com/technology",
+   "protoPath": "stardust/prototypes/technology-proposed.html",
+   "protoServedAt": "http://localhost:8824/technology-proposed.html",
+   "capture": {
+    "tokens": "component tokens reused (hero-text, textblock with h3.text-echo, media-card = card model) \u2014 no page-specific lift",
+    "media": "stardust/prototypes/assets/media/g1/"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "text-container-left-aligned-1-col (5 stacked h3.text-echo headings)",
+    "media-card (11 cards, 3-up, picture-wrapped images, no head)"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.4,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "masked": "0.00%"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.4,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.37,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE qtof_technology_550 550x550 \u2192 416x312",
+       "why": "4:3 card frame with object-fit:cover over a square asset \u2014 identical on live"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "chunk seams + last chunk",
+       "pct": 0.4,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher at stitched seams; masked 0.00% (--mask 801:99,1701:99,2601:99,3501:99,4398:79)",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.37,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE qtof_technology_550 w375 360x360 \u2192 312x234",
+       "why": "same cover crop, identical on live"
+      }
+     ],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": [
+     "hover media-card image \u2192 scale(1.05) fired",
+     "hover arrow link \u2192 colour fired"
+    ],
+    "implemented": [
+     "inherited from pharma CSS \u2014 nothing new"
+    ],
+    "dead": [
+     "0 animations, 0 class mutations"
+    ],
+    "file": "stardust/replica/motion/technology.json"
+   },
+   "newComponents": [
+    "media-card \u2192 .app-cards.app-cards--media-card + .app-cards__grid--md3 (same card model; images wrapped in <picture>)",
+    "text-container with .t-echo headings (pharma .t-echo)"
+   ]
+  },
+  {
+   "pageType": "page-template",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-products.css",
+     "stardust/prototypes/css/products-software.css (page-level: mirrors the live htmlInjectionContainer <style>)"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js",
+     "inline <script> from stardust/.work/g1/inline-tabs.js (tabs + accordion)"
+    ],
+    "builder": "stardust/.work/g1/build-g1.py + build-g1-tabs.py"
+   },
+   "archetype": "products-software",
+   "liveUrl": "https://sciex.com/products/software",
+   "protoPath": "stardust/prototypes/products-software-proposed.html",
+   "protoServedAt": "http://localhost:8824/products-software-proposed.html",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g1-products-software-1440.json",
+     "stardust/replica/capture/tokens-g1-products-software-360.json",
+     "stardust/replica/capture/tokens-g1-products-software-splits-1440.json"
+    ],
+    "media": "stardust/prototypes/assets/media/g1/ (54 rendered images incl. hidden tab panels)"
+   },
+   "componentSequence": [
+    "breadcrumb",
+    "hero-text",
+    "text-container-1-col (h3.text-echo + textarea)",
+    "media-image",
+    "tabs (4 panels: image-card | text+media-card x2 | text+accordion(6 items, each text+media-card x2) | text) \u2014 NOT in v3-components.json perPage",
+    "testimonial (1 slide, no controls)",
+    "text-container-1-col",
+    "image-text-2-col x3 (pt-0 / ruled head+intro)",
+    "text-container-1-col (ruled column)",
+    "split-left",
+    "split-right (5/12 content, natural-width 4:5 image)",
+    "htmlInjectionContainer <style>"
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 9.1,
+       "heightDelta": -131,
+       "contentRed": 0,
+       "yellow": 3,
+       "note": "image-text-2-col head <p> intro dropped by the builder; live <style> injection text inventoried as body"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 3.71,
+       "heightDelta": -33,
+       "contentRed": 0,
+       "yellow": 0,
+       "fix": "imgtext head intro rendered; <style> injection mirrored"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.43,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "fix": "live .atomic-container-border-t on 'Community news' column (1 px rule + 32 px pt) \u2192 .textblock__col--ruled",
+       "masked": "0.01% (927 px: inactive tab labels not word-wrapped)"
+      },
+      {
+       "label": "iter3b (pixel-only, live capture cached \u2014 no live hit)",
+       "pixelPct": 0.42,
+       "heightDelta": 0,
+       "fix": "css/products-software.css mirrors the page's injected word-spacing:100vw on inactive tab buttons",
+       "masked": "0.00% (18 px)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.42,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE os-mq-blue_550 550x550 \u2192 192x144",
+       "why": "4:3 thumbnail frame with object-fit:cover over a square asset \u2014 identical on live"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "chunk seams 801\u20268001 + 8554\u20138632",
+       "pct": 0.42,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher at stitched seams; masked 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widgets in the last chunk",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "open states (not gated)",
+       "cause": "tab panels 2\u20134 and the accordion panels are hidden at t=0; verified working + eyeballed (stardust/.work/g1/build-tabs-open-1440.png) but not pixel-gated against live open states",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher in live capture",
+       "where": "every viewport bottom"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "hero"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "supportBandCropPct": 0.0,
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE os-mq-blue_550 w375 \u2192 100x75",
+       "why": "same cover crop, identical on live"
+      }
+     ],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "observed": [
+     "desktop tab click \u2192 active tab underline grey-100\u2194blue-700 + button colour swap, mobile label block/hidden swap, dropdown item hidden swap, panel grid 1fr/0fr + tab-content block/hidden (64 class mutations)",
+     "desktop tab button hover \u2192 colour blue-700 (fired)",
+     "mobile select button \u2192 chevron rotate-180 (.3s), dropdown + scrim hidden toggle, panel grid-template-rows transition .3s ease-in-out",
+     "accordion button \u2192 chevron transform .3s + .accordion-content height transition .3s"
+    ],
+    "implemented": [
+     "all of the above: inline <script> (tabs state machine, mobile dropdown + scrim, accordion height animation) + .vtabs/.acc CSS in v3-products.css; verified in the prototype at 1440 and 360 (stardust/.work/g1/probe-tabs-build.mjs, 0 pageerrors)"
+    ],
+    "dead": [
+     "card image hover inside the tab panel and split-right arrow-link hover probes returned no change (same classes as elsewhere \u2014 pharma rules kept)",
+     "0 animations"
+    ],
+    "files": [
+     "stardust/replica/motion/products-software.json",
+     "stardust/replica/motion/products-software-360.json"
+    ]
+   },
+   "newComponents": [
+    "tabs \u2192 .vtabs (bar/mob-btn/dropdown/panel-grid; panels hold any component)",
+    "accordion \u2192 .acc (ruled rows, chevron, height-animated content, all open at t=0)",
+    "media-image \u2192 pharma .page-image inside a rhythm section",
+    "testimonial single slide \u2192 pharma .testimonial without controls",
+    "text-container ruled column \u2192 .textblock__col--ruled",
+    "tick list \u2192 .textblock__ticks",
+    "split-right \u2192 .split--right + .split__content--5",
+    "html-injection \u2192 verbatim <style> mirror (.html-injection)"
+   ]
+  }
+ ],
+ "summary": {
+  "pages": 8,
+  "allPass": true,
+  "maskPolicy": "WalkMe copilot tab + chat launcher (third-party fixed widgets) at every 900 px stitched seam and in the last chunk on live 1440 captures \u2192 pixel-compare --mask <seam>:99 \u2026,<docH-79>:79; never rendered at 360",
+  "chrome": "canon header/footer/support band spliced verbatim from home-proposed.html; per-page footer disclaimer code (RUO-MKT-\u2026) mirrored; header crop 0.00 %, support band 0.00 %, footer crop 0.25\u20130.37 % (widgets) at 1440; all 0.00 % at 360; chrome-parity quiet on mass-spec (13 header / 46 footer pairs)"
+ }
+}

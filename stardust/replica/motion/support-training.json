@@ -1,0 +1,285 @@
+{
+  "url": "https://sciex.com/support/training",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".plyr__control--overlaid",
+      "frames": [
+        {
+          "t": 27035,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27304,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27523.799999952316,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 27728.699999809265,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".image-text-2-col-content img",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.0438, 0, 0, 1.0438, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".image-text-2-col-content > div > a",
+      "changed": [
+        "img.tw-aspect-4/3.tw-transition-all.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.tw-aspect-4/3.tw-transition-all",
+            "transform": "matrix(1.00032, 0, 0, 1.00032, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.tw-aspect-4/3.tw-transition-all",
+            "transform": "matrix(1.04388, 0, 0, 1.04388, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".plyr__control--overlaid",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -24, -24)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "0",
+          "transition": "0.3s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1, 0, 0, 1, -24, -24)",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "0",
+          "transition": "0.3s"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > button.plyr__control.plyr__control--overlaid.plyr__control--pressed",
+        "y": 709,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > button.plyr__control.plyr__control--overlaid.plyr__control--pressed",
+        "y": 709,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > div.plyr__controls",
+        "y": 709,
+        "dur": "0.4s, 0.4s, 0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > div.plyr__controls",
+        "y": 709,
+        "dur": "0.4s, 0.4s, 0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1279,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1279,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1207,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1207,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > div.plyr__controls",
+        "y": 709,
+        "dur": "0.4s, 0.4s, 0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > div.plyr__controls",
+        "y": 709,
+        "dur": "0.4s, 0.4s, 0.4s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "plyr--playing",
+          "plyr--hide-controls"
+        ],
+        "el": "div.media-video.aem-GridColumn.aem-GridColumn--default--12 > section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video",
+        "y": 709
+      },
+      {
+        "added": [
+          "plyr--hide-controls"
+        ],
+        "el": "div.media-video.aem-GridColumn.aem-GridColumn--default--12 > section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video",
+        "y": 709
+      },
+      {
+        "added": [
+          "plyr--hide-controls"
+        ],
+        "el": "div.media-video.aem-GridColumn.aem-GridColumn--default--12 > section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video",
+        "y": 709
+      },
+      {
+        "added": [
+          "plyr__control--pressed"
+        ],
+        "el": "section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > button.plyr__control.plyr__control--overlaid.plyr__control--pressed",
+        "y": 709
+      },
+      {
+        "added": [
+          "plyr__control--pressed"
+        ],
+        "el": "div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video > div.plyr__controls > button.plyr__controls__item.plyr__control.plyr__control--pressed",
+        "y": 709
+      },
+      {
+        "added": [
+          "plyr--hide-controls"
+        ],
+        "el": "div.media-video.aem-GridColumn.aem-GridColumn--default--12 > section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video",
+        "y": 709
+      },
+      {
+        "added": [
+          "plyr--hide-controls"
+        ],
+        "el": "div.media-video.aem-GridColumn.aem-GridColumn--default--12 > section.tw-pt-32.md:tw-pt-48.tw-pb-32 > div.tw-container.false.false > div.tw-w-full > div.plyr.plyr--full-ui.plyr--video",
+        "y": 709
+      }
+    ]
+  }
+}

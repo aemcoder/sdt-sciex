@@ -1,0 +1,289 @@
+{
+  "url": "https://sciex.com/about-us",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".image-text-2-col-content img",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.0438, 0, 0, 1.0438, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".image-text-2-col-content > div > a",
+      "changed": [
+        "img.tw-aspect-4/3.tw-transition-all.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.tw-aspect-4/3.tw-transition-all",
+            "transform": "matrix(1.00032, 0, 0, 1.00032, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.tw-aspect-4/3.tw-transition-all",
+            "transform": "matrix(1.04387, 0, 0, 1.04387, 0, 0)",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".icon-3-col .tw-grid a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 104, 250)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 104, 250)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), backdrop-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1), -webkit-backdrop-filter 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".atomic-buttons a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".atomic-richtext-content a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(112, 112, 112)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(112, 112, 112)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1097,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1119,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1047,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.image-text-2-col-content.tw-w-full.lg:tw-w-[calc(50%-16px)] > div.tw-self-start.tw-relative.tw-w-[100px] > a > picture > img.tw-aspect-4/3.tw-transition-all.tw-duration-500",
+        "y": 1047,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "div.tw-grid.tw-grid-cols-1.sm:tw-grid-cols-2 > div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > svg.tw-transition-all.tw-duration-500.motion-reduce:tw-transition-none",
+        "y": 2020,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "margin-left",
+        "el": "div.tw-grid.tw-grid-cols-1.sm:tw-grid-cols-2 > div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > svg.tw-transition-all.tw-duration-500.motion-reduce:tw-transition-none",
+        "y": 2020,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "div.tw-container > div.tw-grid.tw-grid-cols-1.sm:tw-grid-cols-2 > div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group",
+        "y": 2020,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "color",
+        "el": "div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > div.tw-text-mobBase.md:tw-text-base.tw-relative > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2020,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "left",
+        "el": "div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > div.tw-text-mobBase.md:tw-text-base.tw-relative > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2020,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > div.tw-text-mobBase.md:tw-text-base.tw-relative > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2036,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "left",
+        "el": "div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > div.tw-text-mobBase.md:tw-text-base.tw-relative > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2036,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "div.tw-grid.tw-grid-cols-1.sm:tw-grid-cols-2 > div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > svg.tw-transition-all.tw-duration-500.motion-reduce:tw-transition-none",
+        "y": 2036,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "margin-left",
+        "el": "div.tw-grid.tw-grid-cols-1.sm:tw-grid-cols-2 > div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group > svg.tw-transition-all.tw-duration-500.motion-reduce:tw-transition-none",
+        "y": 2036,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "color",
+        "el": "div.tw-container > div.tw-grid.tw-grid-cols-1.sm:tw-grid-cols-2 > div.tw-flex.tw-flex-col.tw-border-t > div.tw-mt-auto > a.tw-transition.tw-duration-300.tw-group",
+        "y": 2036,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "background-size",
+        "el": "div.cmp-container > div.atomic-child > div.atomic-buttons.|.tw-inline-flex > div.tw-w-full.md:tw-w-auto > a.tw-text-mobBase.md:tw-text-base.tw-inline-block",
+        "y": 1714,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "background-size",
+        "el": "div.cmp-container > div.atomic-child > div.atomic-buttons.|.tw-inline-flex > div.tw-w-full.md:tw-w-auto > a.tw-text-mobBase.md:tw-text-base.tw-inline-block",
+        "y": 1714,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.cmp-container > div.atomic-child > div.atomic-richtext-content.|.text-base > p > a",
+        "y": 707,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": []
+  }
+}

@@ -1,0 +1,7 @@
+/* products-software.css — page-level authored CSS mirrored from the live page's htmlInjectionContainer <style>
+   (sciex.com/products/software). Two rules only:
+   1. inactive desktop tab buttons get word-spacing:100vw → every label word wraps onto its own line
+      ("Data / processing", "Analyst / end-of-life"); the active tab keeps normal spacing (gate 1440 iter3 residual rows 1612–1649);
+   2. inside the "Data processing" accordion (#os-tabs) every section carrying tw-pb-32 is forced to padding: 32px 0. */
+.vtabs__tab:not(.is-active) .vtabs__btn { word-spacing: 100vw; }
+#os-tabs.u-pb-32-48, #os-tabs .u-pb-32-48 { padding: 32px 0; }

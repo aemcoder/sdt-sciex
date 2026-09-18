@@ -31,3 +31,6 @@ _palette-pick.html
 # Captured session state. Secrets; never commit.
 _storage-state.json
 *-clearance.json
+
+# project-owned: harvested prototype media is regenerable from the live site (50 MB+ per group)
+prototypes/assets/media/g*/

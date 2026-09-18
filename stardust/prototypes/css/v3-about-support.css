@@ -1,0 +1,142 @@
+/* ==========================================================================
+   v3-about-support.css — G3 "about + support" page modules for the v3
+   landing archetype (sciex.com/about-us, /support/…, /stories).
+   Loads AFTER css/canon.css and css/applications-pharma-and-biopharma.css
+   (breadcrumb, hero-text, .sec rhythm, .textblock, .richtext, page-image).
+   Every value is lifted from the live Tailwind classes in the settled DOM and
+   confirmed by the computed-style lift (stardust/replica/capture/tokens-g3-*.json).
+   Tailwind breakpoints as shipped live: sm 640, md 768, lg 1024, xl 1280.
+   ========================================================================== */
+
+/* --- Modifiers on pharma-archetype modules ------------------------------- */
+/* about-us hero-text section is tw-pt-32 md:tw-pt-48 tw-pb-32 md:tw-pb-48 (h1 only, no lede) */
+.hero-text--pad { padding-bottom: 32px; }
+@media (min-width: 768px) { .hero-text--pad { padding-bottom: 48px; } }
+/* breadcrumb placed AFTER the hero carries tw-pb-0 */
+.breadcrumb--pb0, .breadcrumb--pb0.breadcrumb { padding-bottom: 0; }
+/* text-container with tw-pt-0 (button-only block after a card list) */
+.sec--pt0 { padding-top: 0; }
+
+/* ==========================================================================
+   HERO IMAGE (live .hero-small without copy — full-bleed picture, 420/512 tall)
+   ========================================================================== */
+.hero-image { padding-bottom: 16px; }
+.hero-image__sec { position: relative; background-size: cover; background-position: center; background-repeat: no-repeat; }
+.hero-image__frame { position: relative; min-height: 420px; }
+.hero-image__frame picture { display: contents; }
+.hero-image__frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.hero-image__container { position: relative; display: flex; align-items: flex-end; width: 100%; min-height: 420px; padding-top: 40px; padding-bottom: 40px; z-index: 10; }
+.hero-image__row { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; width: 100%; color: #fff; }
+.hero-image__copy { width: 100%; }
+@media (min-width: 768px) {
+  .hero-image { padding-bottom: 24px; }
+  .hero-image__frame, .hero-image__container { min-height: 512px; }
+  .hero-image__container { padding-top: 80px; padding-bottom: 64px; }
+  .hero-image__row { flex-direction: row; }
+  .hero-image__copy > div { display: flex; align-items: center; }
+  .hero-image__copy > div > * + * { margin-left: 16px; }
+}
+
+/* ==========================================================================
+   BUTTON ROW (live .atomic-buttons inside a text-container)
+   ========================================================================== */
+.btn-row { display: inline-flex; width: 100%; flex-wrap: wrap; align-items: center; column-gap: 16px; row-gap: 16px; padding-bottom: 16px; }
+.btn-row > div { width: 100%; }
+@media (min-width: 768px) {
+  .btn-row { display: flex; width: auto; padding-bottom: 20px; }
+  .btn-row > div { width: auto; }
+}
+
+/* ==========================================================================
+   PROFILE LIST (live .image-text-2-col — heading row + 2-up image/text cards)
+   ========================================================================== */
+.profile-list__row { display: flex; flex-direction: column; column-gap: 32px; }
+.profile-list__head { width: 100%; padding-bottom: 32px; border-top: 1px solid var(--border-default); }
+.profile-list__head h2 { padding-top: 24px; color: var(--grey-900); }
+.profile { display: flex; width: 100%; column-gap: 20px; padding-top: 24px; padding-bottom: 24px; border-top: 1px solid var(--border-default); }
+.profile__media { align-self: flex-start; position: relative; width: 100px; aspect-ratio: 4 / 3; overflow: hidden; }
+.profile__media a, .profile__media picture { display: inline; }
+.profile__media img { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: 4 / 3; object-fit: cover; transition: all .5s; }
+.profile__media img:hover { transform: scale(1.05); }
+.profile__body { display: flex; flex-direction: column; height: 100%; width: 50%; flex-grow: 1; }
+.profile__name { color: var(--grey-900); margin-bottom: 6px; }
+.profile__text { color: var(--grey-500); overflow-wrap: break-word; }
+.profile .link-arrow { margin-top: 12px; }
+@media (min-width: 768px) {
+  .profile-list__head { padding-bottom: 48px; }
+  .profile-list__head h2 { padding-top: 32px; }
+  .profile__media { width: 120px; }
+  .profile__name { margin-bottom: 8px; }
+  .profile .link-arrow { margin-top: 16px; }
+}
+@media (min-width: 1024px) {
+  .profile-list__row { flex-direction: row; flex-wrap: wrap; }
+  .profile { width: calc(50% - 16px); column-gap: 32px; padding-top: 32px; padding-bottom: 32px; }
+  .profile__media { width: 192px; }
+}
+
+/* ==========================================================================
+   LINK GRID (live .icon-3-col — heading + 3-up title/blurb/Learn-more tiles)
+   ========================================================================== */
+.link-grid__head { width: 100%; padding-bottom: 32px; }
+.link-grid__head h2 { color: var(--grey-900); }
+.link-grid__grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 24px; }
+.link-tile { display: flex; flex-direction: column; border-top: 1px solid var(--grey-100); padding-top: 24px; }
+.link-tile h3 { color: var(--grey-900); }
+.link-tile__text { color: var(--grey-500); margin-top: 6px; overflow-wrap: break-word; }
+.link-tile__cta { margin-top: auto; }
+.link-tile .link-arrow { margin-top: 12px; }
+@media (min-width: 640px) {
+  .link-grid__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .link-tile { padding-right: 16px; }
+}
+@media (min-width: 768px) {
+  .link-grid__head { padding-bottom: 48px; }
+  .link-tile__text { margin-top: 8px; flex-grow: 1; }
+  .link-tile .link-arrow { margin-top: 16px; }
+}
+@media (min-width: 1024px) {
+  .link-grid__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 32px; row-gap: 48px; }
+  .link-tile { padding-top: 32px; }
+}
+
+/* ==========================================================================
+   SUPPORT / TRAINING additions (lifted from tokens-g3-support-training-*.json)
+   ========================================================================== */
+/* profile-list heading without the top rule (live: tw-pb-32 md:tw-pb-48 tw-w-full, h2 text-delta, no pt) */
+.profile-list__head--plain { border-top: 0; }
+.profile-list__head--plain h2 { padding-top: 0; }
+/* text-container column with tw-border-t + inner cmp-container pt 24/32 (live .atomic-container-border-t, empty) */
+.textblock__col--border-t { border-top: 1px solid var(--border-default); }
+.textblock__col--border-t > div { padding-top: 24px; }
+@media (min-width: 768px) { .textblock__col--border-t > div { padding-top: 32px; } }
+/* media-video: contained Plyr html5 player (vendor CSS in css/support-training.css) */
+.media-video__frame { width: 100%; }
+/* media-image wrapped in a link (live a.tw-w-full > picture > img.tw-w-full) */
+.page-image a { display: inline; width: 100%; }
+
+/* ==========================================================================
+   INSTRUMENT SERVICE & SUPPORT additions (tokens-g3-support-instrument-service-and-support-*.json)
+   ========================================================================== */
+/* hero-text with a side image: h1 column md:tw-w-8/12 md:tw-pr-32, picture img tw-mt-32 tw-aspect-[4/3] md:tw-mt-0 md:tw-w-4/12 */
+.hero-text__img { display: block; margin-top: 32px; width: 100%; aspect-ratio: 4 / 3; overflow: hidden; object-fit: cover; }
+@media (min-width: 768px) {
+  .hero-text__col--8 { width: 66.666667%; padding-right: 32px; }
+  .hero-text__img { margin-top: 0; width: 33.333333%; }
+}
+/* live .atomic-textarea: plain paragraphs, first carries tw-pb-16 md:tw-pb-20 (no richtext top rhythm) */
+.textarea { color: var(--grey-500); padding-bottom: 16px; overflow-wrap: break-word; }
+.textarea__p-pad { padding-bottom: 16px; }
+@media (min-width: 768px) { .textarea { padding-bottom: 20px; } .textarea__p-pad { padding-bottom: 20px; } }
+/* three-card: same card grid as the pharma image-card module but 3-up from md (live md:tw-grid-cols-3) */
+@media (min-width: 768px) { .app-cards__grid.card-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .app-cards__grid.card-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+/* textarea inherits the 1-col body measure (live .atomic-textarea 874.7px = 66.67% of the xl container) */
+@media (min-width: 1280px) { .textblock--1col .textarea { width: 66.666667%; } }
+
+/* ==========================================================================
+   PRESS RELEASES additions — live .icon-4-col (link-grid, 4-up at lg, empty icon slot per tile)
+   ========================================================================== */
+.link-tile__icon { margin-bottom: 16px; }
+@media (min-width: 768px) { .link-tile__icon { margin-bottom: 20px; } }
+@media (min-width: 1024px) { .link-grid__grid--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); } }

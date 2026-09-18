@@ -11,6 +11,33 @@
         ],
         "createdAt": "2026-09-18T08:41:35.788Z",
         "reason": "stardust replica (preserve mode): the prototype mirrors live sciex.com computed padding verbatim; replica/reference/recreation-procedure.md treats any delta not in stardust/replica/inconsistency-register.md as a fidelity defect — coordinator decision"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/about-us-proposed.html"
+        ],
+        "createdAt": "2026-09-18T12:00:37.102Z",
+        "reason": "stardust replica (preserve mode): value lifted verbatim from live sciex.com CSS; any delta not in stardust/replica/inconsistency-register.md is a fidelity defect — coordinator decision"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/css/v3-applications.css"
+        ],
+        "createdAt": "2026-09-18T12:00:37.116Z",
+        "reason": "stardust replica (preserve mode): value lifted verbatim from live sciex.com CSS; any delta not in stardust/replica/inconsistency-register.md is a fidelity defect — coordinator decision"
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/css/v3-applications.css"
+        ],
+        "createdAt": "2026-09-18T12:00:37.129Z",
+        "reason": "stardust replica (preserve mode): value lifted verbatim from live sciex.com CSS; any delta not in stardust/replica/inconsistency-register.md is a fidelity defect — coordinator decision"
       }
     ]
   }
