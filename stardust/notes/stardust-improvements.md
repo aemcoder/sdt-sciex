@@ -200,3 +200,31 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
   invoked via `run-capped.mjs` with a progress file — the same rule the master skill
   already states for replica's gate.sh. Add "the deploy-batch ledger is the resume point;
   never treat a killed agent as a failed deploy" to § Deploy.
+
+## N-22 — admin.hlx.page normalises `_` to `-` in web paths; the PUT succeeds, the preview 404s
+- **Observed:** the KB slug `…-in-analyst_en_us` PUT to DA returned 201, but
+  `POST /preview/…_en_us` returned 404 — the admin API looks the source up at the
+  normalised path `…-in-analyst-en-us`. 1,789 KB URLs carry `_<locale>` suffixes, so
+  this is a family-wide redirect requirement, not a one-off.
+- **Suggest:** deploy's path discipline (§ Deploy, "lowercase every segment…") should add
+  "no underscores — the admin API normalises `_` to `-`"; `deploy-batch.mjs` should
+  normalise and emit a `redirects.tsv` row automatically; `localize-links.mjs` must map
+  the captured `_en_us` hrefs to the normalised target.
+
+## N-23 — Footer marketing codes are per page on the live site
+- **Observed:** every live page's footer experience fragment ends with its own code
+  (home GEN-MKT-18-7897-A, pharma MKT-27286-A, KB legacy none). A single `/footer`
+  document cannot carry them; the coordinator added a `Disclaimer Code` page-metadata
+  slot that the footer block substitutes at decorate time.
+- **Suggest:** replica's canon-chrome model should have a notion of "per-page slot inside
+  shared chrome" (captured per page during extract, mapped to page metadata at deploy),
+  and deploy § 6 Chrome should document the metadata-substitution pattern.
+
+## N-24 — Inline elements with vertical margins are a recurring lift trap
+- **Observed:** live footer copyright is an inline `<span>` with `margin-bottom: 20px`
+  (no effect) sitting in a 23px line box; the block-level recreation honoured the margin
+  → +5px on every page at 360. Computed-style lifts record the margin but not that it is
+  inert.
+- **Suggest:** the CSS-lift probe should flag `display: inline` elements carrying
+  vertical margin/padding as "inert vertical box" and record the containing line-box
+  height instead.

@@ -285,9 +285,7 @@
           "content-diff ROLE SWAP: card titles authored <h3> vs live <p> (accepted semantic upgrade)",
           "1440 footer crop 0.25% thick texture (partner-logo strip antialiasing)"
         ],
-        "fixesPending": [
-          "footer .ftr-legal 360 +5px (footer owner)"
-        ],
+        "fixesPending": [],
         "remeasuredAfterStoriesFix": {
           "1440": {
             "pixelPct": 0.47,
@@ -297,6 +295,29 @@
           },
           "at": "2026-09-18T10:44:18.187Z",
           "commit": "9cd9ad9"
+        },
+        "remeasuredAfterFooterFix": {
+          "360": {
+            "pixelPct": 0.11,
+            "heightDelta": 0,
+            "evidence": "stardust/replica/gates/home-published-360/{published-v2,diff-v2}.png"
+          },
+          "1440": {
+            "note": "footer copyright rule is mobile-only; 1440 unchanged at 0.47 %"
+          },
+          "at": "2026-09-18T11:00:16.575Z",
+          "commit": "ecf32ab"
+        },
+        "final": {
+          "360": {
+            "pixelPct": 0.11,
+            "heightDelta": 0
+          },
+          "1440": {
+            "pixelPct": 0.47,
+            "heightDelta": 0
+          },
+          "regime": "published-origin"
         }
       }
     },
@@ -553,20 +574,30 @@
       ],
       "published": {
         "360": {
-          "pixelPct": 5.74,
-          "heightDelta": -11,
+          "pixelPct": 0.34,
+          "pixelPctMasked": 0.15,
+          "masks": "1660:40,2510:40 (Qualtrics launcher at stitch seams, x 316–347)",
+          "heightDelta": 0,
           "headerCropPct": 0,
-          "footerCropPct": 4.85,
+          "footerCropPct": 0.35,
+          "footerCropNote": "thick texture = the launcher seams inside the footer band (rows 1665–1694, 2516–2545); footer top 1100 = live, height 1551 = live",
+          "anchors": "breadcrumb 60/56, title 116/165, meta 281/155, tools 466/60, body 556/435, cta 991/59, footer 1100/1551, doc 2651 = live 2651",
           "cls": 0.0003,
           "computedStyleGuard": {
-            "pass": true,
-            "pageerrors": 0
+            "blocks": 3,
+            "decorated": 3,
+            "header": "loaded",
+            "footer": "loaded",
+            "legacyFooterVariant": true,
+            "pageerrors": 0,
+            "pass": true
           },
-          "status": "reconcile round 1 pending re-measure",
-          "diagnosis": "+6 article-body ≤767 line-box heights (fixed in styles.css, awaiting commit) + 5 footer .ftr-copy (footer owner)",
+          "reconcile": "round 1: +6 article-body ≤767 line boxes (styles.css, cfd6fbd) + 5 footer .ftr-copy (coordinator, ecf32ab) → Δh 0",
+          "pass": true,
           "evidence": [
-            "stardust/replica/gates/kb-article-published-360/{published,diff-unmasked,chrome-header-diff,chrome-footer-diff}.png",
+            "stardust/replica/gates/kb-article-published-360/{published,published-r0,diff-unmasked,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
             "pixel-unmasked.txt",
+            "pixel-masked.txt",
             "chrome-parity.json",
             "anchor-published.json",
             "guard.json"
@@ -608,7 +639,8 @@
             "ai-readability.txt",
             "anchor-published.json",
             "guard.json"
-          ]
+          ],
+          "remeasuredAfterFooterFix": "identical: 0.42 / 0.11 %, Δh 0, header 100 %, footer 99.69 %"
         },
         "url": "https://main--sdt-sciex--aemcoder.aem.live/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
         "slugMapping": {
@@ -617,19 +649,18 @@
           "why": "admin webPath normalisation (preview 404 on the underscore source)"
         },
         "regime": "published-origin",
-        "gatedAt": "2026-09-18T10:56:55.921Z",
-        "commit": "9cd9ad9",
+        "gatedAt": "2026-09-18T11:01:55Z",
+        "commit": "cfd6fbd (styles ≤767 rhythm) + ecf32ab (footer .ftr-copy) on 9cd9ad9",
         "footerFragment": "/footer-legacy",
         "residuals": [
-          "360: footer legal band +5px — .ftr-copy <p> taller than live inline <span> (shared blocks/footer, footer owner; same as home 360)",
-          "1440 footer crop 0.31% thick = WalkMe + Qualtrics fixed widgets in the live capture (capture-state, not markup)",
-          "chrome-parity: live \"All\" facet is a <button> vs EDS <span> (same as home); footer column labels <h3> vs live <div>; partner names sr-only in EDS only",
-          "content-diff ROLE SWAP: \"Answer\" authored <h2> vs live bold <p> (accepted semantic upgrade)"
+          "1440 footer crop 0.31 % / 360 footer crop 0.35 % = WalkMe + Qualtrics fixed widgets in the live captures (capture-state, not markup)",
+          "chrome-parity: live \"All\" facet is a <button> vs EDS <span> (same as home); footer column labels <h3> vs live <div>; partner names sr-only in EDS only; family NAME geogrotesque-legacy on this template (alias, same faces)",
+          "content-diff ROLE SWAP: \"Answer\" authored <h2> vs live bold <p> (accepted semantic upgrade)",
+          "first breadcrumb href /content/SCIEX/language/masters/en kept as captured (404 on new origin — redirect policy)",
+          "slug: delivered at -en-us; redirect from the captured _en_us form pending the KB URL-normalisation decision"
         ],
-        "fixesPending": [
-          "styles.css ≤767 article-body rhythm — in tree, needs commit + code-sync + 360 re-measure",
-          "footer .ftr-copy 360 +5px (footer owner)"
-        ]
+        "fixesPending": [],
+        "footerDisclaimerCheck": "published legacy footer disclaimer textContent byte-identical to content/footer-legacy.html (723 chars, ends \"under license.\", no GEN-MKT code) — the Disclaimer Code substitution did not touch it"
       }
     },
     {
@@ -877,10 +908,10 @@
       ],
       "published": {
         "360": {
-          "pixelPct": 3.66,
-          "heightDelta": -11,
+          "pixelPct": 1.08,
+          "heightDelta": -2,
           "headerCropPct": 0,
-          "footerCropPct": 4.72,
+          "footerCropPct": 0.21,
           "supportCropPct": 0.18,
           "cls": 0,
           "computedStyleGuard": {
@@ -892,26 +923,32 @@
             "pageerrors": 0,
             "pass": true
           },
-          "anchors": "identical through the stories rail (5588/6213); connect head 32px short (live .textblock__col pb 32 <768) → columns-container 516 vs 548; support band 266=266; footer 2025 vs live 2002 (+23, shared footer block)",
+          "anchors": "all main sections identical to the prototype gate (60/549/629/1159/4912/5588/6213+548); support band 6760 vs 6762 (−2 sub-pixel), footer 2002 = live 2002",
           "reconcile": {
-            "status": "pending-commit",
-            "patch": "blocks/columns/columns.css — connect head wrapper padding-bottom 32px <768 (0 at ≥768)",
-            "expected": "connect band back to 548 → main anchors identical; residual Δh = footer +23"
+            "status": "applied (ecf32ab)",
+            "patch": "blocks/columns/columns.css connect head pb 32 <768",
+            "result": "columns-container 516 → 548; Δh −11 → −2"
           },
           "evidence": [
             "stardust/replica/gates/applications-pharma-and-biopharma-published-360/{live,published,diff,inspect-6000-8200}.png",
             "chrome-{header,footer,support}-diff.png",
             "anchor-published.json",
             "pixel-unmasked.txt"
-          ]
+          ],
+          "round": 2,
+          "priorRound": {
+            "pixelPct": 3.66,
+            "heightDelta": -11,
+            "footerCropPct": 4.72
+          }
         },
         "1440": {
-          "pixelPct": 0.35,
-          "pixelPctMasked": 0.03,
+          "pixelPct": 0.34,
+          "pixelPctMasked": 0.02,
           "mask": "802:98,1701:99,2601:99,3525:75,4401:99,5995:75 (live fixed WalkMe/chat widgets at chunk seams — same as prototype gate)",
           "heightDelta": 0,
           "headerCropPct": 0,
-          "footerCropPct": 0.31,
+          "footerCropPct": 0.25,
           "supportCropPct": 0.07,
           "anchors": "every main section top identical to prototype/live (1157/1501/2976/3634/4376/4851/5106, doc 6070)",
           "chromeParity": "header 13 pairs/2 findings (live \"All\" facet <button> vs EDS <span>; sr-only brand text), footer 18 findings (div→h3, span→p, disclaimer code MKT-27286-A live vs GEN-MKT-18-7897-A EDS shared footer) — semantic/content, no geometry drift",
@@ -943,12 +980,13 @@
             "ai-readability.txt",
             "anchor-published.json",
             "pixel-{unmasked,masked}.txt"
-          ]
+          ],
+          "round": 2
         },
         "url": "https://main--sdt-sciex--aemcoder.aem.live/applications/pharma-and-biopharma",
         "regime": "published-origin",
-        "gatedAt": "2026-09-18T10:52:18.234Z",
-        "commit": "9cd9ad9",
+        "gatedAt": "2026-09-18T11:01:47.709Z",
+        "commit": "ecf32ab",
         "delivery": {
           "put": 201,
           "preview": 200,
@@ -958,11 +996,24 @@
           "ledger": "content/.deploy-ledger.json"
         },
         "residuals": [
-          "360 footer band 4.72% / +23px vs live: shared footer block (copyright/link spacing) and disclaimer code variant (live pharma XF footer ends \"MKT-27286-A\", EDS shared footer \"GEN-MKT-18-7897-A\") — footer owner, not page rhythm",
-          "1440 footer crop 0.31% thick texture (partner-logo strip antialiasing; same class as home 0.25%)",
-          "chrome-parity semantic findings identical to home (All facet button, sr-only brand, footer div→h3/span→p)",
+          "360 Δh −2 px: sub-pixel accumulation in the connect/banners band (support band starts 6760 vs 6762) — 2px vertical offset shows as thin-text bands 6250–8000 (≤10 %/250px band); within the 8px bar",
+          "1440 footer crop 0.25 % thick texture (partner-logo strip antialiasing; = home)",
+          "chrome-parity semantic findings identical to home (All facet button vs span, sr-only brand, footer div→h3/span→p)",
           "content-diff ROLE SWAP: card titles <h3> in EDS vs <div> on live/prototype (accepted semantic upgrade)"
-        ]
+        ],
+        "reconcileRounds": 1,
+        "redelivery": {
+          "reason": "Disclaimer Code metadata (MKT-27286-A) added by coordinator",
+          "put": 200,
+          "preview": 200,
+          "live": 200,
+          "plain": "200 · 1 h1 · 0 about:error · 16 img",
+          "disclaimerMeta": "meta[name=disclaimer-code]=MKT-27286-A; footer disclaimer ends \"MKT-27286-A\" at 1440 and 360 (old GEN-MKT code absent)"
+        },
+        "pass": {
+          "360": true,
+          "1440": true
+        }
       }
     }
   ]

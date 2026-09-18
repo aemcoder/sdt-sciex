@@ -28,12 +28,13 @@
   },
   "/applications/pharma-and-biopharma": {
     "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T10:45:03.815Z",
-    "put": 201,
+    "attempts": 2,
+    "ts": "2026-09-18T11:00:26.384Z",
+    "put": 200,
     "preview": 200,
     "live": 200,
-    "verify": "ok"
+    "verify": "ok",
+    "note": "redelivered (Disclaimer Code metadata) via curl PUT→preview→live"
   },
   "/footer-legacy": {
     "status": "live",

@@ -1,6 +1,6 @@
 <!-- stardust:provenance
 writtenBy: stardust:replica
-writtenAt: 2026-09-18T08:30:00Z
+writtenAt: 2026-09-18T08:30:00Z (finalised 2026-09-18T13:30:00Z)
 againstInput: "migrate https://sciex.com to EDS with stardust as a same-design replica; full plan, 3 pages to final fidelity"
 readArtifacts:
   - /tmp/sciex-urls.txt (sitemap, 2,826 URLs)
@@ -74,6 +74,44 @@ Runner-up archetypes, first in line for the next run: press-release article (291
 (`/products/…/x500r-qtof-system`: eyebrow + split hero with product image, key-feature grid,
 resource tiles, featured-application list, key-facts grid), and press-release year index (listing).
 
+### 2a. Delivered in this run (published origin `https://main--sdt-sciex--aemcoder.aem.live`)
+
+| Page | Published path | Blocks (new in bold) |
+|---|---|---|
+| Home | `/` | header, footer, **hero**, **cards** promo·products·icons·stories, **tabs**, **support-band** |
+| Pharma landing | `/applications/pharma-and-biopharma` | **breadcrumb**, **sub-nav**, cards image·three-up, **carousel quotes**, columns banners, support-band; section style `lead` |
+| KB article | `/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us` | breadcrumb legacy, **article-meta**, **article-tools**; section styles `article-body`, `legacy-cta`; `template: kb-article`; `footer: /footer-legacy` |
+
+Chrome documents: `/nav` (5 sections: brand, mega-menu lists depth 4, tools, account, search),
+`/footer` (6 bands) and `/footer-legacy` (legacy XF values, register R-01). Foundation:
+`styles/styles.css` (tokens, reset, section scaffold, styles `grey|dark|lead|article-body|legacy-cta`),
+`styles/fonts.css` + `fonts/` (Geogrotesque VF, UltLt, Ge2003 Regular, FontAwesome; licence pending),
+`scripts/site-config.js` (10 third-party tags scaffolded `enabled: false`). Conversion logs:
+`stardust/eds-conversion-log.md` (+ `-pharma.md`, `-kb.md`); schemas under `stardust/eds-schema/`.
+Gate evidence and numbers: `stardust/replica/progress.json` (`published` per archetype) and
+`stardust/replica/gates/*-published-{1440,360}/`.
+
+### 2b. Gate results (this run)
+
+Prototype regime = clean recreation vs live; published regime = the Edge Delivery page vs live
+(only the published number counts). Pixel = differing pixels / all pixels; "masked" excludes the
+live site's fixed third-party widgets (WalkMe copilot tab, chat/Qualtrics launcher) that repeat at
+every stitched-capture seam and are not page content. Δh = document height delta. All three pass
+every bar (pixel ≤ 10 %, |Δh| ≤ 8 px, 0 structural content-diff 🔴, header/footer crops ≤ 2 %).
+
+| Archetype | Prototype 1440 / 360 | Published 1440 | Published 360 | Header / footer crop (published) | CLS | AI-readability |
+|---|---|---|---|---|---|---|
+| Home | 0.40 % / 0.00 % | 0.47 %, Δh 0 | 0.11 %, Δh 0 | 0.00 % / 0.25 % | 0.0002 / 0.0117 | 100 |
+| Pharma landing | 0.32 % (0.00 masked) / 0.00 % | 0.34 % (0.02 masked), Δh 0 | 1.08 %, Δh −2 | 0.00 % / 0.25 % (360: 0.21 %) | 0.0002 / 0 | 100 |
+| KB article | 0.37 % / 0.20 % | 0.42 % (0.11 masked), Δh 0 | 0.34 % (0.15 masked), Δh 0 | 0.00 % / 0.31 % (360: 0.35 %) | 0.0005 / 0.0003 | 100 |
+
+Residuals (all recorded per archetype in `stardust/replica/progress.json`): footer-crop texture
+from the live widgets; chrome-parity findings are semantic only (live `<button>` vs `<span>` on the
+search facet, `<div>` vs `<h3>` footer column labels, sr-only partner names); content-diff role
+swaps are the intended `<h3>` canonicalisation of card titles; stories-rail pagination numerals are
+static (`1 / 2`) where live prints `N / total`; the KB first breadcrumb link
+(`/content/SCIEX/language/masters/en`) is kept as captured and 404s on the new origin.
+
 ## 3. Phases (what runs in this run vs. later)
 
 | Phase | Owner skill | This run | Later |
@@ -83,7 +121,7 @@ resource tiles, featured-application list, key-facts grid), and press-release ye
 | 2 Preserve direction | `replica` (mechanical) | ✅ verbatim promotion, `direction.md`, empty inconsistency register (pure replica), dynamics Phases 1–3 triage | Register entries only if the user adds them |
 | 3 Recreate | `replica` | ✅ 3 archetype prototypes (canon CSS + per-archetype CSS), CSS lifted at 1440/360/1920 | +1 prototype per additional family (press release, product detail, listing, support legacy, method detail, stewardship) |
 | 4 Source-fidelity gate | `replica` | ✅ per archetype × {1440, 360}: content-diff 0 🔴, visual-diff justified, pixel ≤10 %, |Δh| ≤8px, chrome crops ≤2 %, motion observed → implemented | Same per new archetype |
-| 5a Deploy archetypes | `deploy` | ✅ blocks + `styles.css` + header/footer blocks + `/nav`, `/footer`, 3 content pages → DA → preview → live; published-origin gate | — |
+| 5a Deploy archetypes | `deploy` | ✅ blocks + `styles.css` + header/footer blocks + `/nav`, `/footer`, `/footer-legacy`, 3 content pages → DA → preview → live; published-origin gate passed (§ 2b) | — |
 | 5b Siblings | `migrate` (sibling tier) → `rollout` | ✗ planned only | Waves below; sibling-variance probe per template before cloning; content-count acceptance per page |
 | 5c Dynamics Phases 4–5 | `dynamics` via `rollout` D2 | ✗ triage only | Implement `self`-reproducible rows; owner decision batch |
 | 6 QA | `qa` | ✗ | After each wave |
@@ -95,12 +133,13 @@ a `qa` sweep between waves.
 
 | Wave | Scope | Pages | Prereq | Method |
 |---|---|---:|---|---|
-| 0 (this run) | Home + 2 archetypes | 3 | — | replica gate → deploy |
+| 0 (this run) ✅ | Home + 2 archetypes | 3 | — | replica gate → deploy → published-origin gate (§ 2b) |
 | 1 | Marketing landings: `/applications/**`, `/products` category level, `/technology/**`, `/diagnostics/**`, `/about-us` marketing pages, `/extraordinary-science` | ~200 | Archetype #2 approved; sibling-variance probe on 8–10 siblings (hero height/scrim, sub-nav presence, card-grid column counts, quote carousel presence) | `migrate` sibling tier → `rollout` |
 | 2 | Product detail + method detail + spectral-library detail (`detail-page`) | ~140 | New archetype: `/products/…/x500r-qtof-system` gated; `detail-page` archetype (`/products/methods/…`) gated | replica (2 archetypes) → migrate siblings → rollout |
-| 3 | Knowledge-base articles | 1,789 | Archetype #3 approved; importer measured on a 50-page sample (content-count acceptance); locale suffixes (`_en_us`, `_ja`, `_de`…) mapped to a per-language tree or kept as slugs (owner decision); KB search → results page decided (dynamics) | batch importer from the rendered DOM sidecars; `deploy-batch.mjs` with ledger; `qa` per 500 pages |
+| 3 | Knowledge-base articles | 1,789 | Archetype #3 approved ✅; importer contract in `stardust/eds-conversion-log-kb.md` § 4 (variable cells + source selectors); slugs hyphenated + redirect map (see § 7); importer measured on a 50-page sample (content-count acceptance); non-English suffixes need the locale-tree decision; KB search → results page decided (dynamics) | batch importer from the rendered DOM sidecars; `deploy-batch.mjs` with ledger; `qa` per 500 pages |
 | 4 | Press releases (291 articles + 19 year indexes + index), profiles (59) | ~370 | Press-release archetype gated; year-index listing archetype (index-backed or authored rows) | migrate siblings → rollout; listing via `helix-query.yaml` or authored rows (document-first) |
 | 5 | Support: SCIEX Now legacy pages (`/support/**`, `generic-page-template`), product stewardship (94 compliance pages), contact/careers | ~180 | Support-legacy archetype gated (different chrome: left sidebar); decision on the SCIEX Now personalization surface (login, "My …" links) | replica → migrate → rollout |
+| Port, don't recreate | `/about-us/contact-us`, `/support/customer-documents` (→ `/search-results`), `/support/knowledge-base-articles` (KB landing) — already Edge Delivery on sciex.com, block code public at `sciex.com/blocks/*` | 3 | Owner confirms the code is theirs; Coveo decision | Port blocks + content verbatim; re-gate |
 | Out of scope | `/training/**` (109, login-gated → `/support/login`), `/support/login`, `/support/create-account`, `/support/manage-my-instruments`, account dashboards | ~115 | Owner decision: these are authenticated SCIEX Now surfaces, not public content | Redirect map to the existing portal or keep on current host |
 
 ## 5. Block catalogue (draft — locked in `stardust/eds-conversion-log.md` at deploy time)
@@ -136,7 +175,9 @@ Every row carries a disposition; owner decisions are batched in `stardust/dynami
 
 - **Fonts.** Policy per `recreation-procedure.md` § Fonts policy — self-hosted faces are reused; a licensed kit is substituted metric-matched with the brand family first in the stack. Resolution recorded in `stardust/replica/progress.json#fontsPolicy`.
 - **Crawl sample vs. plan.** `--prep` ran on 73 of 2,826 URLs (stratified by family); the plan sizes families from the sitemap, not the sample. Each wave re-extracts its roster.
-- **KB locale suffixes** (`_en_us`, `_ja`, …) and encoded slugs (`%25C3%25A8`) need a URL-normalisation rule before wave 3; EDS paths must be lowercase, extensionless, no trailing slash.
+- **KB locale suffixes — DECIDED BY EVIDENCE.** The admin API normalises `_` to `-` in web paths (the `_en_us` PUT succeeded, its preview 404ed; the page is live at `…-in-analyst-en-us`). Wave 3 therefore publishes every KB article at the hyphenated slug and ships a redirect map `…_<locale>` → `…-<locale>` (1,789 rows, `stardust/redirects.tsv`); encoded slugs (`%25C3%25A8…`) are decoded and transliterated the same way. Localised KB articles (`_ja`, `_de`, `_zh`…) additionally need the locale-tree decision (owner).
+- **Per-page footer marketing code.** Live footer fragments end with a per-page code (GEN-MKT-18-7897-A on home, MKT-27286-A on pharma, none on legacy). Delivered as a `Disclaimer Code` page-metadata row substituted by the footer block; the sibling importer must capture it per page (`footer p:last-of-type` trailing token).
+- **Two live footers** (register R-01): legacy-template pages get `footer: /footer-legacy`; the importer sets it from the page's AEM template. Unifying on the v3 footer is a one-line owner decision (drop the override).
 - **Consent banner** appears in the crawl's home screenshot; the gate dismisses it (`--dismiss`) so it never enters the fidelity number.
 - **SCIEX Now personalization** (logged-in state, "My …" links, dashboard) is out of scope for a static replica; interim tier is anonymous state + links to the existing portal (owner decision).
 - **Training pages** are login-gated; they are excluded from the public roster.

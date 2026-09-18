@@ -86,3 +86,25 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** commit the three agents' outputs, push, deliver pharma + KB, run their published gates, finalise plan/report.
 
 ---
+## 2026-09-18T13:45:00Z — Three archetypes live on Edge Delivery; published-origin gates pass; run complete pending review
+
+**Prompt:** (same run) finish delivery.
+
+**Decisions:**
+- Home, pharma landing and KB article delivered to da.live and published; every archetype passes the published-origin gate at 1440 and 360 (numbers in `stardust/replica/migration-plan.md` § 2b and `stardust/replica/progress.json`).
+- Coordinator fixes in shared chrome: footer copyright modelled as live's 23px inline line box (removed a +5px mobile delta on every page); footer disclaimer code now reads page metadata `Disclaimer Code` (live footers carry a per-page marketing code).
+- KB slug policy decided by evidence: the admin API normalises `_en_us` to `-en-us`; wave 3 publishes hyphenated slugs with a redirect map.
+- Legacy-template pages keep their own footer (`/footer-legacy`, register R-01 deferred) and template scope (`template: kb-article`).
+- Third-party tags (OneTrust, GTM, WalkMe, Dreamdata, …) are scaffolded disabled in `scripts/site-config.js`; enabling them is an owner decision.
+
+**Artifacts touched:** blocks/ (11 blocks), styles/, fonts/, content/ (index, nav, footer, footer-legacy, applications/pharma-and-biopharma, support/knowledge-base-articles/…-en-us), stardust/eds-conversion-log*.md, stardust/eds-schema/, stardust/replica/progress.json, stardust/state.json (3 pages `migrated`), stardust/replica/migration-plan.md (final), stardust/notes/stardust-improvements.md (N-01…N-24).
+
+**Findings worth flagging:**
+- Pixel probes rate small colour/specificity defects as noise; a coordinator side-by-side eyeball found the only real defect (KB Comment label) and the desktop stories controls.
+- Splitting deploy into "convert + local gates" and "deliver + published gate" with a single coordinator commit avoided both the watchdog stall and concurrent-commit races.
+
+**Open questions (owner):** Geogrotesque licence on the new host; Coveo search reuse; unify footers or keep the legacy variant; KB locale tree for non-English suffixes; which tags to enable; roster for `/form-pages/*`.
+
+**Next:** user review of the three pages and the plan; then wave 1 (`migrate` sibling tier for ~200 marketing landings → `rollout`).
+
+---
