@@ -1,0 +1,104 @@
+/* article-meta — lifted from stardust/prototypes/css/kb-article.css (.kb-meta / .kb-details /
+   .kb-stars--avg), values from the live legacy template (Bootstrap 3 row model, computed). */
+
+/* glyph family `fontawesome` (FontAwesome 4.2 woff) is declared once in styles/styles.css § template kb-article */
+
+.article-meta {
+  margin: 0 -15px;
+  font-family: helvetica, arial, sans-serif;
+  font-variation-settings: normal;
+  color: #5f6062;
+}
+
+.article-meta::before,
+.article-meta::after {
+  content: " ";
+  display: table;
+}
+
+.article-meta::after {
+  clear: both;
+}
+
+.article-meta .details,
+.article-meta .rating {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+}
+
+.article-meta .details { width: 66.6667%; }
+.article-meta .rating { width: 33.3333%; }
+
+@media (width >= 768px) {
+  .article-meta .details { width: 83.3333%; }
+  .article-meta .rating { width: 16.6667%; }
+}
+
+.article-meta table {
+  width: 100%;
+  margin: 0 0 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 16px;
+}
+
+.article-meta td {
+  padding: 5px 0;
+  vertical-align: top;
+}
+
+.article-meta td.label { width: 140px; }
+
+/* authored paragraphs ride inside the cells (EW2: descendant selector, no class on the <p>) */
+.article-meta td p {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+.article-meta a:any-link {
+  color: #00afdb;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.article-meta a:any-link:hover { color: #034a59; }
+
+/* average rating — 5 glyphs, right-aligned, live .stars.orange */
+.article-meta .stars {
+  color: #f99c34;
+  text-align: right;
+}
+
+.article-meta .stars i {
+  display: inline-block;
+  font: normal normal normal 14px/1 fontawesome; /* stylelint-disable-line font-family-no-missing-generic-family-keyword -- icon font, no generic fallback by design */
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.article-meta .stars i::before { content: "\f006"; }
+.article-meta .stars i.full::before { content: "\f005"; }
+.article-meta .stars i.half::before { content: "\f123"; }
+
+/* the authored rating label + value: accessible name, visually hidden (live shows glyphs only) */
+.article-meta .rating-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .article-meta a:any-link { transition: none; }
+}

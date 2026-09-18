@@ -873,3 +873,11 @@ header .hdr-mob-overlay.is-open {
     transition: none !important;
   }
 }
+
+/* --- template kb-article (metadata `Template: kb-article` → body.kb-article; the legacy SCIEX Now
+   pages): the standalone-search "All" dropdown button computes weight 400 / padding 0 on this
+   template (chrome-parity iter1; stardust/prototypes/css/kb-article.css § .page--kb). --- */
+body.kb-article header .hdr-dropbtn {
+  font-weight: 400;
+  padding: 0;
+}

@@ -11,3 +11,17 @@
 @font-face { font-family: geogrotesque; font-style: normal; font-weight: 330; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
 @font-face { font-family: geogrotesque; font-style: normal; font-weight: 270; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
 @font-face { font-family: geogrotesque; font-style: normal; font-weight: 200; font-display: swap; src: url('../fonts/geogrotesque-ultlt.woff2') format('woff2'); }
+
+/* Legacy-template pages (metadata `Template: kb-article` → body.kb-article) ALSO load the static
+   Geogrotesque family on sciex.com, so weight-400 chrome text renders the static Regular cut
+   (Ge2003-Rg) instead of the 450 VF face (inconsistency-register R-02: copyright 139px vs 149px).
+   Declared as its own family so the fork stays template-scoped: styles.css swaps
+   --body-font-family to it under body.kb-article; every other weight maps to the same VF file as
+   above (one download, browser-cached). Same-owner harvested face — fonts/LICENSING.md policy. */
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 400; font-display: swap; src: url('../fonts/ge2003-rg.woff2') format('woff2'); }
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 300; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 450; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 530; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 330; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 270; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
+@font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 200; font-display: swap; src: url('../fonts/geogrotesque-ultlt.woff2') format('woff2'); }

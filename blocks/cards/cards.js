@@ -15,6 +15,13 @@
  *   cards stories   — live .media-card-carousel: 2-up story cards, Splide rail below 768.
  *                     Row = picture | body. The pagination "1 / 2" is generated
  *                     (allowlisted runtime numerals, mobile-only controls).
+ *   cards image     — live .image-card (pharma landing #B): 7 application cards, 1/2/4-up
+ *                     grid, head (h2 + lede) reabsorbed into a bordered head row. Row =
+ *                     picture | body (<h3>title</h3><p>text</p><p><em><a>Learn more</a></em></p>).
+ *                     Schema: stardust/eds-schema/applications-pharma-and-biopharma.json
+ *                     § applications.
+ *   cards stories three-up — modifier: live .image-card-carousel perPage 3 (pharma "Thought
+ *                     leaders"): 3-up at ≥1024, t-charlie title; same rail mechanics.
  * Section head (h2 [+ lede]) is DEFAULT CONTENT before the block (D1); `icons` and
  * `stories` reabsorb it by MOVING the wrapper's children (EW8), the others leave it alone.
  * Link text of the CTA doubles as the media link's aria-label (attribute, not rendered text).
@@ -247,6 +254,31 @@ function decorateStories(block, cards) {
   paint(false);
   window.addEventListener('resize', () => paint(false));
   window.addEventListener('load', () => paint(false));
+  /* EDS decorates before blocks/cards/cards.css has necessarily applied and often after
+     window.load has already fired, so the first paint can see full-width slides and wrongly
+     mount the controls at desktop. Re-measure whenever the list or a slide is resized
+     (fires once the block CSS lands) and on the next frames. */
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(() => paint(false));
+    ro.observe(list); ro.observe(slides[0]);
+  }
+  requestAnimationFrame(() => requestAnimationFrame(() => paint(false)));
+}
+
+/* ---------- image: application cards, 1/2/4-up grid, head reabsorbed (EW8) ---------- */
+function decorateImage(block, cards) {
+  const container = el('div', 'container');
+  const head = sectionHead(block);
+  if (head) {
+    const h = el('div', 'image-grid-head');
+    h.append(...head.childNodes);
+    head.remove();
+    container.append(h);
+  }
+  const grid = el('div', 'image-grid');
+  cards.forEach((card) => grid.append(buildCard(card)));
+  container.append(grid);
+  block.replaceChildren(container);
 }
 
 export default async function decorate(block) {
@@ -256,5 +288,6 @@ export default async function decorate(block) {
   if (block.classList.contains('promo')) decoratePromo(block, cards.filter((c) => c.media));
   else if (block.classList.contains('icons')) decorateIcons(block, cards);
   else if (block.classList.contains('stories')) decorateStories(block, cards);
+  else if (block.classList.contains('image')) decorateImage(block, cards);
   else decorateProducts(block, cards);
 }

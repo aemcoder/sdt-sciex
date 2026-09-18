@@ -185,3 +185,18 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
 - **Suggest:** make the coordinator-level side-by-side eyeball (live.png | build.png at
   reduced scale) a required gate output per breakpoint, and add a computed
   foreground/background contrast probe over CTAs inside the content root.
+
+## N-21 — A single "deploy the whole page + foundation + chrome" agent stalled after delivery
+- **Observed:** the home deploy agent (foundation, fonts, header/footer blocks, /nav + /footer
+  docs, 5 home blocks, content page, DA delivery) committed, pushed and delivered
+  successfully, then was killed by the harness's 600 s no-progress watchdog during the
+  published-origin gate, leaving no conversion log, no ledger update and the sanitised
+  content uncommitted. The coordinator re-measured (0.47 % / 1.05 %) and split the rest
+  into three lean agents that do NOT commit or write to DA (the coordinator commits once
+  and resumes them for delivery).
+- **Suggest:** deploy SKILL.md § 7 should prescribe the two-phase split (convert + local
+  gates → coordinator commit → deliver + published gate) as the default for parallel page
+  agents, and every long instrument (stitch-shot, chrome-parity, CLS probe) should be
+  invoked via `run-capped.mjs` with a progress file — the same rule the master skill
+  already states for replica's gate.sh. Add "the deploy-batch ledger is the resume point;
+  never treat a killed agent as a failed deploy" to § Deploy.

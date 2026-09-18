@@ -1,0 +1,474 @@
+{
+ "source": "http://localhost:8805/applications-pharma-and-biopharma-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Biopharma / pharma research",
+     "href": "/applications/pharma-and-biopharma"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Biopharma / pharma research"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Be unstoppable with complete analytical strategies for addressing the complexities of developing modern therapeutics, from discovery to delivery."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-image",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "sub-nav",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Overview",
+     "href": "#A"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Applications",
+     "href": "#B"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Perspectives",
+     "href": "#C"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Stories",
+     "href": "#D"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "overview",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Overview"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "To bring safe and effective therapies to market, it is vital for pharma and biopharma research to have the right information available at every stage of the process."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Transform your analytical workflows by collaborating with a team that is devoted to advancing pharma and biopharma research through a commitment to innovation combined with best-in-class hardware, software and support. Together, we are driving progress for modern medicine and enabling comprehensive small and large molecule analysis, from discovery to commercialization."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "applications",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Pharma and biopharma applications"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Reclaim time for innovation by identifying and advancing drug candidates more confidently with analytical strategies that support your team across modalities, from discovery to commercialization."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bioanalysis and DMPK"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Build stronger foundations with bioanalytical solutions for drug metabolism and pharmacokinetics (DMPK) applications."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Cell and gene therapy analysis"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Embrace a new era of medicine with intuitive and flexible analytical solutions designed to deliver meaningful results. Reduce the complexity of developing gene-editing tools and next-generation vaccines with data-driven confidence."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Drug discovery research"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Gain a competitive advantage, from drug discovery to commercialization, with high-quality data. Our fully integrated LC-MS solutions deliver quick, simple and reliable results for therapeutic drug manufacturers and contract research organizations."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Impurity analysis"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Increase confidence in impurity analysis with compliant-ready solutions and services on one software platform that supports your team through the development process. Reliably identify, quantify and monitor non-intentionally added substances (NIAS) throughout development, manufacturing and storage."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/impurity-analysis"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "mRNA-LNP research"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Expand the frontiers of genetic medicine development with state-of-the-art analytical solutions for lipid nanoparticles (LNPs), messenger RNA (mRNA) and related impurities. Set your own schedule with confidence empowered by relevant, accurate and reproducible data and workflows."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/mrna-research"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Oligonucleotide analysis"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Break through the boundaries of characterizing synthetic oligonucleotides—such as antisense oligonucleotides (ASOs), small interfering RNA (siRNA) and single guide RNA (sgRNA)—along with plasmids, DNA and more. Discover intuitive solutions that let you set your own schedule and optimize your workflows for what matters for your nucleic acid products."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/oligonucleotide-analysis"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Protein therapeutics"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Tackle the next frontier in protein therapeutics with analytical strategies ignited by collaboration."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma/protein-therapeutics"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 9,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "perspectives",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Perspectives"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "\"You can theorize all you want, but until you actually step into the lab and do the work, you don’t know what the outcomes are going to be.\""
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Shane Karnik"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Senior Lab Director, Aliri Bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "\"I want to be able to say that I contributed to a project that has a meaningful impact on someone's life. That's the role I see [mass spectrometry] having here and for the future in helping achieve that goal.\""
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Miguel Valasco"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Clinical Trial Associate, Sutro Biopharma"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "\"The whole process has to change because it’s new technology. You can’t analyze these large molecules the same as you do the small molecules. So we all have to think of ways to handle these new issues that we have never seen before.\""
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Emily Munk"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Analytical Investigator, Aliri Bioanalysis"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "1 /"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "3"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.testimonial__slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "thought-leaders",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Thought leaders"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "A cast of thousands"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A contract research organization in Colorado Springs works hard to get quality data for clients in a timely manner. Scientists at Aliri Bioanalysis help to get life-changing drugs to patients who urgently need them."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Watch now",
+     "href": "https://sciex.com/stories/articles/a-cast-of-thousands"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Pioneering future treatments"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Follow scientists at Sutro Biopharma as they discuss what it means for them to move something forward and contribute to projects that can have a positive impact on people's lives."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Watch now",
+     "href": "https://sciex.com/stories/articles/pioneering-future-treatments"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Rewrite the Rules"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Hear insights from leading scientists on how they have moved past conventional norms to overcome significant analytical challenges in the biopharmaceutical space."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Watch now",
+     "href": "https://sciex.com/Hidden/landing-pages/rewrite-the-rules-vodcast"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.stories__slide",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "connect",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Let's connect"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Stay up-to-date with conversations on LinkedIn"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.textblock__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "linkedin-banners",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.textblock__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

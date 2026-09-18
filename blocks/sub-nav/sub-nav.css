@@ -1,0 +1,199 @@
+/* sub-nav — live .page-sub-nav + JS-added .sticky-subnav (values from
+   stardust/prototypes/css/applications-pharma-and-biopharma.css § STICKY SUB-NAV).
+   The sticky element is the block's SECTION so the bar sticks for the rest of <main>. */
+
+main .section.sub-nav-container {
+  margin-bottom: 32px;
+}
+
+main .section.sub-nav-container.sticky-subnav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+}
+
+.sub-nav {
+  background: #fff;
+  margin: 0;
+}
+
+.sub-nav .sub-nav-bar {
+  background: #fff;
+  border-bottom: 1px solid var(--grey-100);
+}
+
+.sub-nav .sub-nav-outer {
+  width: 100%;
+}
+
+.sub-nav .sub-nav-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-nav .sub-nav-inner {
+  flex: 1 1 0%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+}
+
+.sub-nav .sub-nav-scroll {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  transition: all 0.2s;
+  user-select: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sub-nav .sub-nav-scroll.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sub-nav .sub-nav-scroll.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.sub-nav .sub-nav-scroll ul,
+.sub-nav .sub-nav-scroll ol {
+  display: flex;
+  margin: 0;
+  padding: 0 24px 0 0;
+  list-style: none;
+}
+
+.sub-nav .sub-nav-scroll li {
+  display: block;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 530;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+}
+
+.sub-nav .sub-nav-scroll a {
+  position: relative;
+  display: block;
+  white-space: nowrap;
+  color: var(--grey-900);
+  text-decoration: none;
+  margin-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: color 0.3s;
+}
+
+.sub-nav .sub-nav-scroll a:hover {
+  color: var(--blue-700);
+}
+
+/* live .subnav__underline: 2px bar, width 0 → 100% on .active, all .5s */
+.sub-nav .sub-nav-scroll a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 0;
+  height: 2px;
+  transition: all 0.5s;
+}
+
+.sub-nav .sub-nav-scroll a.active::after {
+  width: 100%;
+  background-color: var(--blue-700);
+}
+
+@media (width >= 640px) {
+  .sub-nav .sub-nav-inner {
+    max-width: 640px;
+  }
+}
+
+@media (width >= 768px) {
+  main .section.sub-nav-container {
+    margin-bottom: 48px;
+  }
+
+  .sub-nav .sub-nav-outer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 768px;
+  }
+
+  .sub-nav .sub-nav-flex {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sub-nav .sub-nav-inner {
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+  }
+
+  .sub-nav .sub-nav-scroll ul,
+  .sub-nav .sub-nav-scroll ol {
+    padding-right: 0;
+  }
+
+  .sub-nav .sub-nav-scroll li {
+    font-size: calc(14.1176px + 0.1471vw);
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+
+  .sub-nav .sub-nav-scroll a {
+    margin-right: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (width >= 1024px) {
+  .sub-nav .sub-nav-outer {
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (width >= 1280px) {
+  .sub-nav .sub-nav-outer {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+
+  .sub-nav .sub-nav-scroll li {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1440px) {
+  .sub-nav .sub-nav-outer {
+    max-width: 1440px;
+  }
+}
+
+@media (width >= 1536px) {
+  .sub-nav .sub-nav-outer {
+    max-width: 1536px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sub-nav .sub-nav-scroll a,
+  .sub-nav .sub-nav-scroll a::after {
+    transition: none;
+  }
+}

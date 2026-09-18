@@ -1,0 +1,88 @@
+/* article-tools — lifted from stardust/prototypes/css/kb-article.css (.kb-tools / .fa), the live
+   legacy `div.shade-box` utilities band. */
+
+/* glyph family `fontawesome` (FontAwesome 4.2 woff) is declared once in styles/styles.css § template kb-article */
+
+/* live: min-height 60 (border-box) with a 40px float inside — no clearfix, as live */
+.article-tools {
+  min-height: 60px;
+  margin: 30px 0;
+  padding: 15px;
+  background: #f4f4f4;
+  font-family: helvetica, arial, sans-serif;
+  font-variation-settings: normal;
+  color: #5f6062;
+}
+
+.article-tools .utilities {
+  float: left;
+  margin: 8px 0;
+}
+
+.article-tools .share { float: left; }
+
+.article-tools .print,
+.article-tools .rate {
+  display: inline;
+}
+
+/* authored paragraphs stay inline inside the band (EW2: styled through the wrapper) */
+.article-tools :is(.print, .rate) p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+.article-tools a:any-link {
+  color: #00afdb;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.article-tools a:any-link:hover { color: #034a59; }
+
+/* live: "Rate Article:" is plain grey text; the login target rides the label link here */
+.article-tools .rate a:any-link,
+.article-tools .rate a:any-link:hover {
+  color: inherit;
+}
+
+.article-tools i {
+  display: inline-block;
+  font: normal normal normal 14px/1 fontawesome; /* stylelint-disable-line font-family-no-missing-generic-family-keyword -- icon font, no generic fallback by design */
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.article-tools .fa-print::before { content: "\f02f"; }
+.article-tools .stars i::before { content: "\f006"; }
+.article-tools .stars i.full::before { content: "\f005"; }
+.article-tools .stars i { cursor: pointer; }
+
+@media (prefers-reduced-motion: reduce) {
+  .article-tools a:any-link { transition: none; }
+}
+
+@media print {
+  .article-tools { display: none; }
+}
+
+/* the authored rating link: accessible name of the star group, visually hidden (live stars carry
+   the href on a text-less span) */
+.article-tools .stars-name {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.article-tools .stars { position: relative; }

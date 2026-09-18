@@ -627,3 +627,250 @@ a .prosemirror-editor a:any-link {
   color: inherit;
   text-decoration: none;
 }
+
+/* ======================================================================================
+   template kb-article — metadata `Template: kb-article` → body.kb-article (the legacy SCIEX
+   Now article family, 1,789 pages). Lifted from stardust/prototypes/css/kb-article.css: the
+   legacy content root computes the Helvetica stack + grey ink in a fixed 1170px column
+   (.no-bleed); default-content type (h1 / prose) is set here, eagerly, so nothing restyles
+   when a block's CSS lands. Chrome compensations: blocks/header/header.css and
+   blocks/footer/footer.css (appended, same scope). Log: stardust/eds-conversion-log-kb.md § 3.
+   ====================================================================================== */
+
+/* FontAwesome 4.2 (SIL OFL, harvested from the live clientlib) — the star / print / breadcrumb
+   chevron glyph mechanism as live; used by article-meta, article-tools, breadcrumb.legacy.
+   Declared eagerly so the family exists before the first glyph paints; a @font-face downloads
+   nothing until a matching element needs it, so non-KB pages never fetch it. */
+@font-face {
+  font-family: fontawesome;
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
+  src: url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+
+body.kb-article {
+  /* legacy pages also load the static Geogrotesque family: weight-400 chrome text renders the
+     static Regular (Ge2003-Rg) instead of the 450 VF face (R-02) — family in styles/fonts.css */
+  --body-font-family: geogrotesque-legacy, geogrotesque-fallback, helvetica, arial, sans-serif;
+  --heading-font-family: geogrotesque-legacy, geogrotesque-fallback, helvetica, arial, sans-serif;
+}
+
+body.kb-article main {
+  font-family: helvetica, arial, sans-serif;
+  font-variation-settings: normal;
+  color: #5f6062;
+  padding-bottom: 50px; /* live: .home-section padding-bottom 40 + the legacy footer XF's 10px white strip (no support band) */
+}
+
+/* live .no-bleed — every section wrapper (blocks and default content) sits in the fixed column */
+body.kb-article main > .section > div {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* article title (live .knowledgebasearticle h1 + the <hr> below it — never authored (#119):
+   1px #dbdbdb border over a 1px #dbe0e0 body, 15px above, 20px below) */
+body.kb-article main h1 {
+  margin: 0 0 21px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: 0 1px 0 #dbe0e0;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  color: #0084a9;
+}
+
+body.kb-article main .default-content-wrapper p {
+  margin: 0 0 20px;
+  font-size: inherit;
+  font-weight: 400;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+body.kb-article main .default-content-wrapper :is(b, strong) { font-weight: 700; }
+
+@media (width <= 767px) {
+  body.kb-article main .default-content-wrapper p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+/* --- section style `article-body` (the KB richtext body): 14pt bold notes, "Answer" heading,
+   and the two line boxes the pipeline drops from the source's trailing <br><br>&nbsp; (#112) --- */
+main .section.article-body .default-content-wrapper { padding-bottom: 48px; }
+
+main .section.article-body .default-content-wrapper p:has(> strong:only-child) { font-size: 14pt; }
+
+main .section.article-body .default-content-wrapper h2 {
+  margin: 44px 0 20px; /* live: bold 14pt paragraph preceded by a bare <br> line box (24px) */
+  font-family: inherit;
+  font-size: 14pt;
+  font-weight: 700;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* --- section style `legacy-cta` (live .btn.blue — the legacy button spec on the primary CTA) --- */
+main .section.legacy-cta .default-content-wrapper p { margin: 0 0 20px; }
+
+main .section.legacy-cta a.button.primary {
+  display: inline-block;
+  width: auto;
+  min-width: 160px;
+  margin-bottom: 5px;
+  padding: 7px 15px;
+  border: 0;
+  border-radius: 0;
+  background: #00afdb;
+  color: #fff;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  transition: 0.25s ease;
+}
+
+main .section.legacy-cta a.button.primary::after { content: none; }
+
+main .section.legacy-cta a.button.primary:hover,
+main .section.legacy-cta a.button.primary:focus {
+  background: #004a65;
+  color: #fff;
+}
+
+/* --- breadcrumb `legacy` variant (live legacy cmp-breadcrumb: 14px grey, FontAwesome chevrons,
+   bold last item, hidden ≤992px, 40px lead spacer above). Lives here, not in
+   blocks/breadcrumb/breadcrumb.css, because that block is owned by the applications page's
+   conversion (concurrent) — same authored contract (<ul><li><a>), skin overridden by variant. --- */
+.breadcrumb.legacy {
+  padding: 48px 15px 8px; /* 40px live .kb-lead-spacer + the wrapper's 8px */
+  font-family: helvetica, arial, sans-serif;
+  font-variation-settings: normal;
+}
+
+.breadcrumb.legacy nav { margin: 20px 0; }
+
+.breadcrumb.legacy .container {
+  max-width: 1140px;
+  padding: 0;
+}
+
+.breadcrumb.legacy .breadcrumb-trail ul,
+.breadcrumb.legacy .breadcrumb-trail ol {
+  display: block;
+  overflow: visible;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: inherit;
+  color: #9fa1a4;
+  user-select: auto;
+}
+
+.breadcrumb.legacy .breadcrumb-trail li {
+  display: inline;
+  white-space: normal;
+  color: inherit;
+  font-weight: 400; /* the global `main li` weight (330) must not reach the crumbs */
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+}
+
+.breadcrumb.legacy .breadcrumb-trail li::after {
+  content: "\f105";
+  display: inline-block;
+  font: normal normal normal 14px/1 fontawesome; /* stylelint-disable-line font-family-no-missing-generic-family-keyword -- icon font, no generic fallback by design */
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.breadcrumb.legacy .breadcrumb-trail li:last-child::after { content: ""; }
+.breadcrumb.legacy .breadcrumb-trail li:last-child { font-weight: 700; }
+.breadcrumb.legacy .breadcrumb-trail li + li::before { content: none; }
+
+.breadcrumb.legacy .breadcrumb-trail li a,
+.breadcrumb.legacy .breadcrumb-trail li:first-child a {
+  display: inline;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  margin: 0 10px 0 5px;
+  color: #5f6062;
+  text-indent: 0;
+  text-transform: capitalize;
+  letter-spacing: normal;
+  transition: all 0.25s ease;
+}
+
+.breadcrumb.legacy .breadcrumb-trail li:first-child a { margin-left: 0; }
+.breadcrumb.legacy .breadcrumb-trail li:first-child a::before { content: none; }
+.breadcrumb.legacy .breadcrumb-trail li a:hover { color: #f59831; }
+
+@media (width <= 992px) {
+  .breadcrumb.legacy nav { display: none; } /* live hides .cmp-breadcrumb itself; the wrapper keeps its padding */
+}
+
+/* ---- APPEND to styles/styles.css § section style vocabulary (coordinator) ----
+   `lead` — interior default-content prose (live .atomic-richtext .text-lg on grey-500:
+   e.g. the pharma landing "Overview" section). D1: h2 + paragraphs, no block.
+   Rhythm rides the wrapper's flex gap (no positional pseudo-classes — EW10). */
+main .section.lead {
+  padding: 32px 0;
+}
+
+main .section.lead .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main .section.lead .default-content-wrapper h2 {
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+main .section.lead .default-content-wrapper h2 + p {
+  margin-top: 0;
+}
+
+main .section.lead .default-content-wrapper p {
+  color: var(--grey-500);
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+  overflow-wrap: break-word;
+}
+
+@media (width >= 768px) {
+  main .section.lead {
+    padding: 48px 0;
+  }
+
+  main .section.lead .default-content-wrapper {
+    gap: 20px;
+  }
+
+  main .section.lead .default-content-wrapper p {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+}
+
+@media (width >= 1280px) {
+  main .section.lead .default-content-wrapper p {
+    width: 66.6667%;
+  }
+}

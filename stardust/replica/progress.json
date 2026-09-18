@@ -216,7 +216,80 @@
     "h1 carries a U+2028 line separator after 'spectrometry' (live byte pattern) — mirrored; it is what forces the 2-line wrap.",
     "Live <button> UA font shorthand resets font-variation-settings; the preflight 'font-variation-settings: inherit' is load-bearing for tab-label wraps.",
     "Live mega-menu 'Stories' and 'Community' panels have no nav item (dead) — not reproduced."
-   ]
+   ],
+   "published": {
+    "360": {
+     "pixelPct": 1.05,
+     "heightDelta": -5,
+     "cls": 0.0117,
+     "computedStyleGuard": {
+      "blocks": 7,
+      "decorated": 7,
+      "gridFlex": 7,
+      "header": "loaded",
+      "footer": "loaded",
+      "visibleImgs": 18,
+      "zeroWidthImgs": 0,
+      "pageerrors": 0,
+      "pass": true
+     },
+     "anchor": "all main section tops identical through footer top 6359; delta inside footer block: .ftr-legal 772 vs live 767 (social/columns 360=360, partners 860=860)",
+     "evidence": [
+      "stardust/replica/gates/home-published-360/{live,published}.png",
+      "anchor-published.json",
+      "anchor-live.json"
+     ]
+    },
+    "1440": {
+     "pixelPct": 0.47,
+     "heightDelta": 0,
+     "headerCropPct": 0,
+     "footerCropPct": 0.25,
+     "chromeParity": "header 13 pairs/2 findings (live All facet <button> padding vs EDS <span>; sr-only brand text), footer 44 pairs/18 findings (div→h3, span→p, disclaimer split, sr-only partner names) — semantic only, no geometry drift",
+     "contentDiffSummary": "proto→published (eds profile, root main): 10 findings — 5 🔴 ROLE SWAP body→heading (card <h3> semantic upgrade, accepted), 3 🟠 support-band EXTRA (outside proto <main>), 2 🟡 generated pagination numerals; live→published with root main not comparable (live main wraps mega-menu)",
+     "aiReadability": {
+      "strict": 100,
+      "code": 100,
+      "min": 98
+     },
+     "computedStyleGuard": {
+      "blocks": 7,
+      "decorated": 7,
+      "gridFlex": 7,
+      "header": "loaded",
+      "footer": "loaded",
+      "visibleImgs": 18,
+      "zeroWidthImgs": 0,
+      "pageerrors": 0,
+      "pass": true
+     },
+     "cls": 0.0002,
+     "evidence": [
+      "stardust/replica/gates/home-published-1440/{live,published,diff-coord}.png",
+      "chrome-header-diff.png",
+      "chrome-footer-diff.png",
+      "chrome-parity.json",
+      "content-diff-proto.txt",
+      "content-diff.txt (root-contaminated)",
+      "ai-readability.txt",
+      "anchor-published.json"
+     ]
+    },
+    "url": "https://main--sdt-sciex--aemcoder.aem.live/",
+    "regime": "published-origin",
+    "gatedAt": "2026-09-18T09:58:00Z",
+    "commit": "f0f8090",
+    "residuals": [
+     "360: footer .ftr-legal band +5px vs live (blocks/footer, not section rhythm) — footer owner",
+     "chrome-parity semantic findings: live search facet \"All\" is a <button> (8px padding) vs EDS <span>; footer column labels <h3> vs live <div>; partner names sr-only in EDS only",
+     "content-diff ROLE SWAP: card titles authored <h3> vs live <p> (accepted semantic upgrade)",
+     "1440 footer crop 0.25% thick texture (partner-logo strip antialiasing)"
+    ],
+    "fixesPending": [
+     "stories controls desktop — FIXED in blocks/cards/cards.js (ResizeObserver + rAF repaint), verified on harness, awaiting commit/push + /index redeliver",
+     "footer .ftr-legal 360 +5px (footer owner)"
+    ]
+   }
   },
   {
    "archetype": "kb-article",
@@ -505,6 +578,54 @@
     "media": "16 page images copied from stardust/current/assets/media/ to stardust/prototypes/assets/media/ (clean names) + 3 harvested 375-wide Dynamic Media renditions (hero, 2 LinkedIn banners) — not yet in _manifest.json"
    },
    "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 3.55,
+       "differingPx": 115562,
+       "heightDelta": -30,
+       "contentRed": 0,
+       "fixes": "first hot band 6500–7000 → anchor diff named #D-list 467 vs 435: rail slides inherited the app-card mobile margin-bottom 32px (.card) — set .stories__slide margin-bottom:0; sub-pixel 0.4/0.8px from rendition choice — harvested the 375-wide hero + LinkedIn banner renditions and wired <source media=(max-width:375px)> as live"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0,
+       "differingPx": 44,
+       "heightDelta": 0,
+       "contentRed": 0
+      },
+      {
+       "label": "motion",
+       "pixelPct": 0,
+       "differingPx": 44,
+       "heightDelta": 0,
+       "note": "after interaction layer — byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "supportBandCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer/support",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture (44 differing px total)",
+       "where": "-"
+      }
+     ]
+    },
     "1440": {
      "iterations": 1,
      "runs": [
@@ -537,10 +658,10 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.32,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
-      "headerCropPct": 0.0,
-      "supportBandCropPct": 0.0,
+      "headerCropPct": 0,
+      "supportBandCropPct": 0,
       "footerCropPct": 0.25,
       "chromeParity": "quiet (exit 0) header/footer/support (header live selector .headerbar)",
       "pass": true
@@ -561,7 +682,7 @@
       },
       {
        "band": "rows 4562–4563 x 383–434",
-       "pct": 0.0,
+       "pct": 0,
        "cause": "104 px inside the LinkedIn pharma banner — webp decode/scaling noise of the 1440 rendition",
        "flaggedFor": "none"
       }
@@ -581,54 +702,6 @@
       }
      ],
      "wideCheck1920": "box map identical to live in all 20 probed boxes (doc 6113 both; h1 1408×76.8, lede 704, hero img 1920×720, sub-nav outer 1536, overview body 938.7, cards 328×544 img 328×246, quote 1171.3, meta 204.7, story slide 448×538, D track 1568 @x176, connect col 688, banner 688×160.5, spacer p 560, footer y5283 h829.5)"
-    },
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 3.55,
-       "differingPx": 115562,
-       "heightDelta": -30,
-       "contentRed": 0,
-       "fixes": "first hot band 6500–7000 → anchor diff named #D-list 467 vs 435: rail slides inherited the app-card mobile margin-bottom 32px (.card) — set .stories__slide margin-bottom:0; sub-pixel 0.4/0.8px from rendition choice — harvested the 375-wide hero + LinkedIn banner renditions and wired <source media=(max-width:375px)> as live"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.0,
-       "differingPx": 44,
-       "heightDelta": 0,
-       "contentRed": 0
-      },
-      {
-       "label": "motion",
-       "pixelPct": 0.0,
-       "differingPx": 44,
-       "heightDelta": 0,
-       "note": "after interaction layer — byte-identical"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.0,
-      "heightDelta": 0,
-      "headerCropPct": 0.0,
-      "supportBandCropPct": 0.0,
-      "footerCropPct": 0.0,
-      "chromeParity": "quiet (exit 0) header/footer/support",
-      "pass": true
-     },
-     "justified": [],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture (44 differing px total)",
-       "where": "-"
-      }
-     ]
     }
    },
    "motion": {

@@ -783,7 +783,7 @@
       "url": "https://sciex.com/",
       "title": "LC-MS, CE, and software solutions | SCIEX",
       "type": "landing",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -802,16 +802,23 @@
           "at": "2026-09-18T09:00:19.516Z",
           "approvedBy": "hands-off",
           "gate": "stardust/replica/progress.json"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T09:58:00Z",
+          "via": "stardust:deploy",
+          "commit": "f0f8090"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
       "prototypePath": "stardust/prototypes/home-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "content/index.html",
       "family": "home-landing",
       "aemTemplate": "page-template",
-      "archetype": true
+      "archetype": true,
+      "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/"
     },
     {
       "slug": "products-accessories",

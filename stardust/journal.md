@@ -70,3 +70,19 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** gate the pharma and KB prototypes, deploy them on the shared foundation, run the published-origin gate on all three, finalise plan + report.
 
 ---
+## 2026-09-18T11:20:00Z — Home delivered to Edge Delivery; deploy agent stalled after delivery; work re-split
+
+**Prompt:** (same run; user typed "retry" after the deploy agent stalled.)
+
+**Decisions:**
+- The stalled agent had already committed and pushed the foundation, chrome and home blocks (commit f0f8090) and delivered /nav, /footer, /index (all `live` in content/.deploy-ledger.json). Nothing was redone; the coordinator measured the published home: 1440 → 0.47 % pixel, Δh 0; 360 → 1.05 %, Δh −5 px. Eyeball found one defect: stories-rail controls visible at desktop.
+- Remaining work re-dispatched as three lean agents that do not commit or write to DA (avoids concurrent-commit races and the watchdog): home finisher (stories fix, published chrome gates, conversion log, state), pharma convert, KB convert. The coordinator commits once, pushes, forces Code Sync, then resumes the page agents for delivery + published-origin gates.
+- KB page keeps its legacy footer as captured via a `footer: /footer-legacy` metadata override and a `legacy` footer variant (register R-01 stays deferred).
+
+**Artifacts touched:** blocks/, styles/, fonts/, img/flags/, scripts/site-config.js, content/{nav,footer,index}.html (by the deploy agent, committed); stardust/replica/gates/home-published-{1440,360}/ (coordinator); stardust/notes/stardust-improvements.md (N-13…N-21).
+
+**Open questions:** none new.
+
+**Next:** commit the three agents' outputs, push, deliver pharma + KB, run their published gates, finalise plan/report.
+
+---
