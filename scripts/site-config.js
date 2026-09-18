@@ -56,3 +56,39 @@ export function loadEnabledTags() {
     document.head.append(s);
   });
 }
+
+/**
+ * sxPort — the pages ported from the source's OWN Edge Delivery code base (sciex.com/blocks/*,
+ * see stardust/eds-port-log.md): /events, /resource-hub, /resource-hub/regulatory-documents,
+ * /about-us/contact-us. Every off-origin fetch those blocks made on sciex.com is answered from a
+ * committed snapshot under /data (off-origin-data.md Tier 2) — the block code is unchanged apart
+ * from import paths; the endpoints live here.
+ */
+export const sxPort = {
+  coveo: {
+    // OWNER DECISION (S-02/S-03/L-01): may the replica reuse Coveo org `danaherproductionrfl96bkr`
+    // (search hubs below) with its public tokens from the new host? Until decided the ported
+    // code runs against scripts/sx/coveo-headless-shim.js over the snapshots listed here.
+    enabled: false,
+    org: 'danaherproductionrfl96bkr',
+    headless: 'https://static.cloud.coveo.com/headless/v3/headless.esm.js',
+    hubs: {
+      SCIEXEventListing: { // blocks/events (L-01)
+        snapshots: ['/data/events/upcoming.json', '/data/events/on-demand.json'],
+        provenance: '/data/events/_provenance.json',
+        pageSize: 10,
+        blockSelector: '.events.block',
+      },
+      // blocks/resourcehub-search (S-03): query suggestions off in the snapshot tier
+      SCIEXMainSearch: { snapshots: [], suggestions: false },
+    },
+  },
+  partners: { // blocks/contact-information (A-03) — was GET /bin/sciex/partners
+    url: '/data/partners/partners.json',
+    provenance: '/data/partners/_provenance.json',
+    source: 'https://sciex.com/bin/sciex/partners',
+  },
+  // The S-02 results page (/search-results) is not on this host yet: search submits from the
+  // ported resource-hub search complete on the source host. Set to '' once /search-results ships.
+  searchResultsOrigin: 'https://sciex.com',
+};

@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T09:00:19.516Z",
+    "writtenAt": "2026-09-18T11:13:41.889Z",
     "stardustVersion": "0.22.1",
     "againstInput": "https://sciex.com --prep --dynamics",
     "notes": "--prep on a stratified 73-page roster of the 2,826-URL sitemap (hands-off cap policy: 100 overall / 20 per template); plan covers the full inventory"
@@ -12,7 +12,7 @@
     "extractedAt": "2026-09-18T06:55:17.031Z",
     "pageCap": 100,
     "totalDiscovered": 2826,
-    "crawled": 73
+    "crawled": 82
   },
   "direction": {
     "resolvedAt": "2026-09-18T07:33:47.860Z",
@@ -1829,6 +1829,222 @@
       "migratedPath": null,
       "family": "login-gated",
       "aemTemplate": null
+    },
+    {
+      "slug": "applications-cannabis-testing",
+      "url": "https://sciex.com/applications/cannabis-testing",
+      "title": "Cannabis Testing & Analysis with the Power of LC-MS/MS",
+      "type": null,
+      "family": "v3",
+      "aemTemplate": "page-template",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:12:51.747Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/applications-cannabis-testing.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "education-clinical-mass-spec-knowledge-center",
+      "url": "https://sciex.com/education/clinical-mass-spec-knowledge-center",
+      "title": "Clinical Mass Spec Knowledge Center",
+      "type": null,
+      "family": "v3",
+      "aemTemplate": "page-template",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:13:04.006Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/education-clinical-mass-spec-knowledge-center.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "education-grant-support",
+      "url": "https://sciex.com/education/grant-support",
+      "title": "Grant Support Programs",
+      "type": null,
+      "family": "generic-page-template",
+      "aemTemplate": "generic-page-template",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:12:57.402Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/education-grant-support.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "events-f4f6",
+      "url": "https://sciex.com/events?event=on-demand",
+      "title": "Events",
+      "type": null,
+      "family": "eds-already",
+      "aemTemplate": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:13:11.101Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/events-f4f6.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "events",
+      "url": "https://sciex.com/events?event=upcoming",
+      "title": "Events",
+      "type": null,
+      "family": "eds-already",
+      "aemTemplate": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:13:09.620Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/events.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "resource-hub-regulatory-documents",
+      "url": "https://sciex.com/resource-hub/regulatory-documents",
+      "title": "Regulatory documents",
+      "type": null,
+      "family": "eds-already",
+      "aemTemplate": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:12:57.541Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/resource-hub-regulatory-documents.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "resource-hub",
+      "url": "https://sciex.com/resource-hub",
+      "title": "Resource hub",
+      "type": null,
+      "family": "eds-already",
+      "aemTemplate": null,
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:12:57.762Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/resource-hub.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "stories",
+      "url": "https://sciex.com/stories",
+      "title": "SCIEX Stories",
+      "type": null,
+      "family": "v3",
+      "aemTemplate": "page-template",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:13:05.823Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/stories.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "support-professional-lab-services",
+      "url": "https://sciex.com/support/professional-lab-services",
+      "title": "Professional laboratory services",
+      "type": null,
+      "family": "page-content",
+      "aemTemplate": "page-content",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-18T11:13:08.240Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-18T11:13:41.889Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/support-professional-lab-services.json",
+      "prototypePath": null,
+      "migratedPath": null
     }
   ]
 }

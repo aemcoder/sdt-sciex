@@ -1,0 +1,13 @@
+{
+  "url": "https://sciex.com/bin/sciex/partners",
+  "method": "GET",
+  "status": 200,
+  "contentType": "application/json",
+  "fetchedAt": "2026-09-18T11:38:21Z",
+  "fetchedBy": "stardust:deploy sx-port:convert (curl, real-Chrome UA; public, no cookies needed)",
+  "rows": 171,
+  "regions": 4,
+  "countries": 131,
+  "consumer": "blocks/contact-information via scripts/sx/blocks-controllers/partner-controller.js (sxPort.partners)",
+  "cadence": "one-time snapshot; refresh cadence or same-origin proxy is an owner decision (A-03)"
+}

@@ -1,0 +1,1725 @@
+{
+ "totalCount": 54,
+ "totalCountFiltered": 54,
+ "facets": [
+  {
+   "facetId": "applications",
+   "field": "applications",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "Biomedical and omics research",
+     "state": "idle",
+     "numberOfResults": 7
+    },
+    {
+     "value": "Biopharma",
+     "state": "idle",
+     "numberOfResults": 21
+    },
+    {
+     "value": "Clinical",
+     "state": "idle",
+     "numberOfResults": 5
+    },
+    {
+     "value": "Environmental testing",
+     "state": "idle",
+     "numberOfResults": 9
+    },
+    {
+     "value": "Food and beverage testing",
+     "state": "idle",
+     "numberOfResults": 13
+    },
+    {
+     "value": "Forensic testing",
+     "state": "idle",
+     "numberOfResults": 8
+    },
+    {
+     "value": "Pharma",
+     "state": "idle",
+     "numberOfResults": 12
+    }
+   ],
+   "indexScore": 0.2806402116402117,
+   "label": "Applications"
+  },
+  {
+   "facetId": "region",
+   "field": "region",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "All",
+     "state": "idle",
+     "numberOfResults": 37
+    },
+    {
+     "value": "Europe",
+     "state": "idle",
+     "numberOfResults": 5
+    },
+    {
+     "value": "India",
+     "state": "idle",
+     "numberOfResults": 1
+    },
+    {
+     "value": "North America",
+     "state": "idle",
+     "numberOfResults": 6
+    }
+   ],
+   "indexScore": 0.27721164021164024
+  },
+  {
+   "facetId": "eventyear",
+   "field": "eventyear",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "2025",
+     "state": "idle",
+     "numberOfResults": 31
+    },
+    {
+     "value": "2026",
+     "state": "idle",
+     "numberOfResults": 19
+    }
+   ],
+   "indexScore": 0.2511005291005291
+  },
+  {
+   "facetId": "eventmonth",
+   "field": "eventmonth",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "June",
+     "state": "idle",
+     "numberOfResults": 1
+    },
+    {
+     "value": "May",
+     "state": "idle",
+     "numberOfResults": 1
+    }
+   ],
+   "indexScore": 0.07859259259259259
+  }
+ ],
+ "categoryFacets": [],
+ "results": [
+  {
+   "title": "Quantitation of GLP 1 analogues for bioanalysis and IP 2026 updates",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/emea/quantitation-of-glp-1-analogues-for-bioanalysis-and-ip-2026-updates",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/emea/quantitation-of-glp-1-analogues-for-bioanalysis-and-ip-2026-updates",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/emea/quantitation-of-glp-1-analogues-for-bioanalysis-and-ip-2026-updates",
+   "primaryid": "MUYW2432INIE4MSDIFCWPQ5QKJBS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Quantitation of GLP‑1 analogues in bioanalysis and IP 2026 updates ... sciextext ... Make sure you watch it before it’s taken down. ... Watch out on demand webinar for an insightful exploring r...",
+   "raw": {
+    "sysurihash": "e1mszCPN2CAEgðRC",
+    "urihash": "e1mszCPN2CAEgðRC",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "7b7739376da601ed5628addc63d1d58ef8a71b23896a22ddce8ae1952f43",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India",
+     "Europe"
+    ],
+    "eventdate": 1780498800000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Quantitation of GLP 1 analogues for bioanalysis and IP 2026 updates",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/emea/quantitation-of-glp-1-analogues-for-bioanalysis-and-ip-2026-updates",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/emea/quantitation-of-glp-1-analogues-for-bioanalysis-and-ip-2026-updates",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/emea/quantitation-of-glp-1-analogues-for-bioanalysis-and-ip-2026-updates",
+   "Excerpt": "Quantitation of GLP‑1 analogues in bioanalysis and IP 2026 updates ... sciextext ... Make sure you watch it before it’s taken down. ... Watch out on demand webinar for an insightful exploring r..."
+  },
+  {
+   "title": "PFAS Proven Webinar",
+   "uri": "https://sciex.com/events/environmental/amer/pfas-proven-webinar",
+   "clickUri": "https://sciex.com/events/environmental/amer/pfas-proven-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/environmental/amer/pfas-proven-webinar",
+   "primaryid": "INTTQZTTIV4FGSZROQ2UGUTGIIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "PFAS testing doesn’t have to feel uncertain. ... When methods shift and scrutiny rises, you need results backed by proven performance. ... Join SCIEX to see how PACE Analytical Services is genera...",
+   "raw": {
+    "sysurihash": "Cg8fsExSK1t5CRfB",
+    "urihash": "Cg8fsExSK1t5CRfB",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "efd671f4e57013a5c979e9361e697fac1a9460f5e1ba3324ac3d555831b1",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "eventdate": 1779278400000,
+    "eventmonth": "May",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "PFAS Proven Webinar",
+   "Uri": "https://sciex.com/events/environmental/amer/pfas-proven-webinar",
+   "ClickUri": "https://sciex.com/events/environmental/amer/pfas-proven-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/environmental/amer/pfas-proven-webinar",
+   "Excerpt": "PFAS testing doesn’t have to feel uncertain. ... When methods shift and scrutiny rises, you need results backed by proven performance. ... Join SCIEX to see how PACE Analytical Services is genera..."
+  },
+  {
+   "title": "SCIEX Forensic winter school",
+   "uri": "https://sciex.com/events/sciex-forensic-winter-school",
+   "clickUri": "https://sciex.com/events/sciex-forensic-winter-school",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-forensic-winter-school",
+   "primaryid": "IVVG2ZKMJQ4HTQ5QLFWDSMKOORTC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "SCIEX forensic winter school: From trace to truth ... Tackling toxicology challenges with SCIEX technology ... Join us for an insightful session on SCIEX advanced forensic screening and quantitatio...",
+   "raw": {
+    "sysurihash": "EjmeLL8yðYl91Ntf",
+    "urihash": "EjmeLL8yðYl91Ntf",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "a0a3fa0e2dc2265f44cf302e0969e4ec1abf3fa9571ba461e96b88be1862",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing"
+    ]
+   },
+   "Title": "SCIEX Forensic winter school",
+   "Uri": "https://sciex.com/events/sciex-forensic-winter-school",
+   "ClickUri": "https://sciex.com/events/sciex-forensic-winter-school",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-forensic-winter-school",
+   "Excerpt": "SCIEX forensic winter school: From trace to truth ... Tackling toxicology challenges with SCIEX technology ... Join us for an insightful session on SCIEX advanced forensic screening and quantitatio..."
+  },
+  {
+   "title": "SCIEX OS software demo day",
+   "uri": "https://sciex.com/events/demo-day-2025",
+   "clickUri": "https://sciex.com/events/demo-day-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/demo-day-2025",
+   "primaryid": "KJXEURLUJVLG4ZKXMQ3VCWKEIQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Discover more with 4.0 ... Take a step forward in software innovation ... SCIEX OS software version 4.0 empowers you to do more with less effort, helping you to accelerate discoveries and improve p...",
+   "raw": {
+    "sysurihash": "RnJEtMVneWd7QYDD",
+    "urihash": "RnJEtMVneWd7QYDD",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "a1fa0d96dc617c20815038c4d1fa2865300c70a2d6ecc12b5f8902b1977b",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research",
+     "Environmental testing",
+     "Forensic testing",
+     "Biopharma",
+     "Pharma",
+     "Food and beverage testing",
+     "Clinical"
+    ]
+   },
+   "Title": "SCIEX OS software demo day",
+   "Uri": "https://sciex.com/events/demo-day-2025",
+   "ClickUri": "https://sciex.com/events/demo-day-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/demo-day-2025",
+   "Excerpt": "Discover more with 4.0 ... Take a step forward in software innovation ... SCIEX OS software version 4.0 empowers you to do more with less effort, helping you to accelerate discoveries and improve p..."
+  },
+  {
+   "title": "Advancing food safety and regulatory compliance",
+   "uri": "https://sciex.com/events/advancing-food-safety-and-regulatory-compliance",
+   "clickUri": "https://sciex.com/events/advancing-food-safety-and-regulatory-compliance",
+   "uniqueId": "42.53451$https://sciex.com/events/advancing-food-safety-and-regulatory-compliance",
+   "primaryid": "PB2VIYZUMVXWUSWDWFIXS6SGIZ3C4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Advancing food safety and regulatory compliance: Comprehensive screening of veterinary drug residues in food using SCIEX LC-MS/MS technology ... Gain insights into the latest regulatory requirement...",
+   "raw": {
+    "sysurihash": "xuTc4eojJñQyzFFv",
+    "urihash": "xuTc4eojJñQyzFFv",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "71581bf30cfb5e1209dde6c4849236b3d6b326e18e8d2ecc6defb1508012",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Advancing food safety and regulatory compliance",
+   "Uri": "https://sciex.com/events/advancing-food-safety-and-regulatory-compliance",
+   "ClickUri": "https://sciex.com/events/advancing-food-safety-and-regulatory-compliance",
+   "UniqueId": "42.53451$https://sciex.com/events/advancing-food-safety-and-regulatory-compliance",
+   "Excerpt": "Advancing food safety and regulatory compliance: Comprehensive screening of veterinary drug residues in food using SCIEX LC-MS/MS technology ... Gain insights into the latest regulatory requirement..."
+  },
+  {
+   "title": "SCIEX Summit 2025",
+   "uri": "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+   "primaryid": "NJ4WU53FINXHQOKUOZHHM4RRIQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Catch up on a live 3-day event focused on advancing analytical science and innovation when it counts. ... #C6C6C6 ... SCIEX summit 2025 ... Discover how scientists and researchers from around the w...",
+   "raw": {
+    "sysurihash": "jyjweCnx9TvNvr1D",
+    "urihash": "jyjweCnx9TvNvr1D",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "c52f46768fe8a462ad3b773fccd6b5f3bb59e692c3578844f034f0f73ea1",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma",
+     "Biopharma",
+     "Forensic testing",
+     "Food and beverage testing",
+     "Biomedical and omics research",
+     "Clinical"
+    ]
+   },
+   "Title": "SCIEX Summit 2025",
+   "Uri": "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+   "Excerpt": "Catch up on a live 3-day event focused on advancing analytical science and innovation when it counts. ... #C6C6C6 ... SCIEX summit 2025 ... Discover how scientists and researchers from around the w..."
+  },
+  {
+   "title": "Gain comprehensive molecular knowledge without peptide mapping with J&amp;J Innovative Medicine",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-middle-down-analysis-for-cell-line-optimization",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-middle-down-analysis-for-cell-line-optimization",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/wod-middle-down-analysis-for-cell-line-optimization",
+   "primaryid": "MFITC5GDWBVFO5BXJVLUGTTFNE4S4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Guide decisions during drug development with the information to make risk-reducing decisions earlier. ... In biotherapeutic development, optimizing cell culture conditio...",
+   "raw": {
+    "sysurihash": "aQ1tðjWt7MWCNei9",
+    "urihash": "aQ1tðjWt7MWCNei9",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "4e5eab310b87bfe36fa246749136ee344d47e6d7b52e9d7525547a4e7acf",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Gain comprehensive molecular knowledge without peptide mapping with J&amp;J Innovative Medicine",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-middle-down-analysis-for-cell-line-optimization",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-middle-down-analysis-for-cell-line-optimization",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/wod-middle-down-analysis-for-cell-line-optimization",
+   "Excerpt": "sciextext ... text-left ... Guide decisions during drug development with the information to make risk-reducing decisions earlier. ... In biotherapeutic development, optimizing cell culture conditio..."
+  },
+  {
+   "title": "Leave time for innovation by implementing high-throughput CE-SDS with J&amp;J Innovative Medicine",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/high-throughput-ce-sds-webinar-on-demand",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/high-throughput-ce-sds-webinar-on-demand",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/high-throughput-ce-sds-webinar-on-demand",
+   "primaryid": "I43UMV2YKJ5FM6LLN5TWI6BQGIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... Discover how to answer the increasing analytical demands on process development and formulation groups with high throughput capillary electrophoresis solutions. ... Moni...",
+   "raw": {
+    "sysurihash": "G7FWXRzVykogdx02",
+    "urihash": "G7FWXRzVykogdx02",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "eb06342073c516a734332f39c7acea193e1a105d613ac3464b83e4527b83",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Leave time for innovation by implementing high-throughput CE-SDS with J&amp;J Innovative Medicine",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/high-throughput-ce-sds-webinar-on-demand",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/high-throughput-ce-sds-webinar-on-demand",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/high-throughput-ce-sds-webinar-on-demand",
+   "Excerpt": "sciextext ... text-left ... Discover how to answer the increasing analytical demands on process development and formulation groups with high throughput capillary electrophoresis solutions. ... Moni..."
+  },
+  {
+   "title": "Take a more in-depth look at glycan composition with Novartis",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/glycan-composition-novartis-on-demand-webinar",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/glycan-composition-novartis-on-demand-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/glycan-composition-novartis-on-demand-webinar",
+   "primaryid": "IVE4HMCULI4EETLOKRXUI3DJO5RS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Take a more in-depth look at glycan composition ... #000 ... sciextext ... text-left ... Glycan analysis provides key information on critical quality attributes that could affect stability, safety ...",
+   "raw": {
+    "sysurihash": "EIðTZ8BMnToDliwc",
+    "urihash": "EIðTZ8BMnToDliwc",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "fd8727b21d4429bec0e2645c215b2fc418df4db6bc7a377cba5aa8592661",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Take a more in-depth look at glycan composition with Novartis",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/glycan-composition-novartis-on-demand-webinar",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/glycan-composition-novartis-on-demand-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/glycan-composition-novartis-on-demand-webinar",
+   "Excerpt": "Take a more in-depth look at glycan composition ... #000 ... sciextext ... text-left ... Glycan analysis provides key information on critical quality attributes that could affect stability, safety ..."
+  },
+  {
+   "title": "Tackle the complexities of biotherapeutic characterization with middle-down analysis",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/middle-down-biopharma-workflow",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/middle-down-biopharma-workflow",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/middle-down-biopharma-workflow",
+   "primaryid": "HB4VQ4SRGI3FS3ZVYOYWYRKWJJVS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Complete the form to access content for insights and innovative strategies for subunit analysis in early development ... sciextext ... text-left ... Access this content ...",
+   "raw": {
+    "sysurihash": "8yXrQ26Yo5ñlEVJk",
+    "urihash": "8yXrQ26Yo5ñlEVJk",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "e704d03195571bb726a510c47cd438a943244af564c5cd07f41edbfe7ef0",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Tackle the complexities of biotherapeutic characterization with middle-down analysis",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/middle-down-biopharma-workflow",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/middle-down-biopharma-workflow",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/middle-down-biopharma-workflow",
+   "Excerpt": "sciextext ... text-left ... Complete the form to access content for insights and innovative strategies for subunit analysis in early development ... sciextext ... text-left ... Access this content ..."
+  },
+  {
+   "title": "New approaches to characterizing PTMs of charge isoforms with Pfizer",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/pfizer-ptm-charge-isoforms-wod",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/pfizer-ptm-charge-isoforms-wod",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/pfizer-ptm-charge-isoforms-wod",
+   "primaryid": "IJUFC6BTKN5GUZ2YKFTGWN22GMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "New approaches to characterizing post-translational modifications of charge isoforms ... #000 ... text-left ... Discover a powerful, high-speed workflow for charge isoform characterization for new ...",
+   "raw": {
+    "sysurihash": "BhQx3SzjgXQfk7Z3",
+    "urihash": "BhQx3SzjgXQfk7Z3",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "53db3bf69021aab16687b455f4771d47309b99c5957178c05b71d3e5c29f",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "New approaches to characterizing PTMs of charge isoforms with Pfizer",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/pfizer-ptm-charge-isoforms-wod",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/pfizer-ptm-charge-isoforms-wod",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/pfizer-ptm-charge-isoforms-wod",
+   "Excerpt": "New approaches to characterizing post-translational modifications of charge isoforms ... #000 ... text-left ... Discover a powerful, high-speed workflow for charge isoform characterization for new ..."
+  },
+  {
+   "title": "Guide decisions through drug development: Localize critical PTMs at the sub-unit level",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/guide-decisions-through-drug-development-on-demand-webinar",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/guide-decisions-through-drug-development-on-demand-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/guide-decisions-through-drug-development-on-demand-webinar",
+   "primaryid": "ONFG6RCOJFTMHMDQKJXUIMCNNVBS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Guide decisions through drug development: Localize critical PTMs at the sub-unit level ... text-left ... With increasing complexity of novel biopharmaceuticals comes new challenges in developing st...",
+   "raw": {
+    "sysurihash": "sJoDNIfðpRoD0MmC",
+    "urihash": "sJoDNIfðpRoD0MmC",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "39754dbe16fdb4a3c73345e2c85c954535257fe2d7194fbb9d2db71cd24e",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Guide decisions through drug development: Localize critical PTMs at the sub-unit level",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/guide-decisions-through-drug-development-on-demand-webinar",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/guide-decisions-through-drug-development-on-demand-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/guide-decisions-through-drug-development-on-demand-webinar",
+   "Excerpt": "Guide decisions through drug development: Localize critical PTMs at the sub-unit level ... text-left ... With increasing complexity of novel biopharmaceuticals comes new challenges in developing st..."
+  },
+  {
+   "title": "Enable fast turnaround for process development with Sanofi",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/on-demand-webinar-with-brian-wei-phd",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/on-demand-webinar-with-brian-wei-phd",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/on-demand-webinar-with-brian-wei-phd",
+   "primaryid": "PIYFMTSGHFGTI4DZMRGWKY2BJQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... Glycan analysis provides key information on critical quality attributes that could affect stability, safety and efficacy of a protein therapeutic. ... Specific needs for...",
+   "raw": {
+    "sysurihash": "z0VNF9M4pydMecAL",
+    "urihash": "z0VNF9M4pydMecAL",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "7cc5dfa0a01a9ca5299be3016af1499bf663ae61a6629c2ce89dbf5a0260",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Enable fast turnaround for process development with Sanofi",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/on-demand-webinar-with-brian-wei-phd",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/on-demand-webinar-with-brian-wei-phd",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/on-demand-webinar-with-brian-wei-phd",
+   "Excerpt": "sciextext ... text-left ... Glycan analysis provides key information on critical quality attributes that could affect stability, safety and efficacy of a protein therapeutic. ... Specific needs for..."
+  },
+  {
+   "title": "Drive process improvement by implementing an icIEF-UV/MS workflow into the CLD toolbox with J&amp;J Innovative Medicine",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-icief-uv-ms-workflow-on-intabio-zt-system",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-icief-uv-ms-workflow-on-intabio-zt-system",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/wod-icief-uv-ms-workflow-on-intabio-zt-system",
+   "primaryid": "JVSGG2BUPB4WWMTSKBIWSV3RHEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Driving process improvement by implementing an icIEF-UV/MS workflow on the Intabio ZT system into the cell line development toolbox ... #000 ... Overview ... sciextext ... text-left ... With increa...",
+   "raw": {
+    "sysurihash": "Mdch4xyk2rPQiWq9",
+    "urihash": "Mdch4xyk2rPQiWq9",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "b1462d9d92092201501746295eda430cfdc7efcf28fef4966bfbda281e4c",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Drive process improvement by implementing an icIEF-UV/MS workflow into the CLD toolbox with J&amp;J Innovative Medicine",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-icief-uv-ms-workflow-on-intabio-zt-system",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/wod-icief-uv-ms-workflow-on-intabio-zt-system",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/wod-icief-uv-ms-workflow-on-intabio-zt-system",
+   "Excerpt": "Driving process improvement by implementing an icIEF-UV/MS workflow on the Intabio ZT system into the cell line development toolbox ... #000 ... Overview ... sciextext ... text-left ... With increa..."
+  },
+  {
+   "title": "Viral vector digital symposium",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/viral-vector-digital-symposium-on-demand",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/viral-vector-digital-symposium-on-demand",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/viral-vector-digital-symposium-on-demand",
+   "primaryid": "NZEXMTBTKB2XUOKDOE2ESN3ZJIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Discover intuitive, innovative and informative analytical solutions for viral vector characterization to help ensure safe and effective drugs. ... Overcome the challenges of developin...",
+   "raw": {
+    "sysurihash": "nIvL3Puz9Cq4I7yJ",
+    "urihash": "nIvL3Puz9Cq4I7yJ",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "2c94d9c3cdcc674629d95c7eac75589c3f0975a6cbb655201da8641d93a0",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Viral vector digital symposium",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/viral-vector-digital-symposium-on-demand",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/viral-vector-digital-symposium-on-demand",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/viral-vector-digital-symposium-on-demand",
+   "Excerpt": "text-left ... Discover intuitive, innovative and informative analytical solutions for viral vector characterization to help ensure safe and effective drugs. ... Overcome the challenges of developin..."
+  },
+  {
+   "title": "mRNA LNP digital symposium",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/mrna-lnp-digital-symposium-on-demand",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/mrna-lnp-digital-symposium-on-demand",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/mrna-lnp-digital-symposium-on-demand",
+   "primaryid": "GB4UWNDVOBSWKWDXMNAUMU2OYOYS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "text-left ... Discover dedicated analytical solutions that will let you develop a path toward better mRNA-LNP-based therapeutics and vaccines. ... Tune in to industry experts explaining how to move...",
+   "raw": {
+    "sysurihash": "0yK4upeeXwcAFSNñ",
+    "urihash": "0yK4upeeXwcAFSNñ",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "169f4fa032835792034e0407832c51c646cf71649b35503ee1e621bf823e",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "mRNA LNP digital symposium",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/mrna-lnp-digital-symposium-on-demand",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/mrna-lnp-digital-symposium-on-demand",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/mrna-lnp-digital-symposium-on-demand",
+   "Excerpt": "text-left ... Discover dedicated analytical solutions that will let you develop a path toward better mRNA-LNP-based therapeutics and vaccines. ... Tune in to industry experts explaining how to move..."
+  },
+  {
+   "title": "Pharmaceutical webinar channel from discovery to QA/QC",
+   "uri": "https://sciex.com/events/ondemand-webinars/biopharma/biopharmaceutical-webinar-channel",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biopharma/biopharmaceutical-webinar-channel",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/biopharmaceutical-webinar-channel",
+   "primaryid": "GRKMHMCXJNJFC2CYGJUDO6CVKJZS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... To bring safe and effective therapies to market, it is vital that biopharma research has the right information available at every stage of the process. ... That’s why ...",
+   "raw": {
+    "sysurihash": "4TðWKRQhX2h7xURs",
+    "urihash": "4TðWKRQhX2h7xURs",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "ee9bebe4d34e9f814e1851d494dfd866f42f923fdbf82dd9c68055ff42e5",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Pharmaceutical webinar channel from discovery to QA/QC",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biopharma/biopharmaceutical-webinar-channel",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biopharma/biopharmaceutical-webinar-channel",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biopharma/biopharmaceutical-webinar-channel",
+   "Excerpt": "sciextext ... text-left ... To bring safe and effective therapies to market, it is vital that biopharma research has the right information available at every stage of the process. ... That’s why ..."
+  },
+  {
+   "title": "Pharmaceutical webinar channel from discovery to QA/QC",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/webinar-channel",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/webinar-channel",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/webinar-channel",
+   "primaryid": "IVAXKTKMIY4XI3SXJRATM2C2NIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Keeping up with the pace of scientific progress isn’t easy. ... That’s why we curated a series of webinars that bring together SCIEX expertise, industry perspectives, and practica...",
+   "raw": {
+    "sysurihash": "EAuMLF9tnWLA6hZj",
+    "urihash": "EAuMLF9tnWLA6hZj",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "351721816df079e767ee709771bd01368c4469f6c8df3cffa35e8a07bf36",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Pharmaceutical webinar channel from discovery to QA/QC",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/webinar-channel",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/webinar-channel",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/webinar-channel",
+   "Excerpt": "text-left ... Keeping up with the pace of scientific progress isn’t easy. ... That’s why we curated a series of webinars that bring together SCIEX expertise, industry perspectives, and practica..."
+  },
+  {
+   "title": "Hair and nail analysis in forensic applications",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/hair-nail-analysis",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/hair-nail-analysis",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/hair-nail-analysis",
+   "primaryid": "KJAUYWJRMFZVARTFOVSHI6DSJ4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Drug testing can be performed in various biological matrices, such as urine, blood, saliva, sweat, hair, and nails. ... While urine and blood testing are most common, hair and nail testing are incr...",
+   "raw": {
+    "sysurihash": "RALY1asPFeudtxrO",
+    "urihash": "RALY1asPFeudtxrO",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "888341bfe30a87b1d50135fc9b44a669655591016dd2611beefd3e13c15b",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "Hair and nail analysis in forensic applications",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/hair-nail-analysis",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/hair-nail-analysis",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/hair-nail-analysis",
+   "Excerpt": "Drug testing can be performed in various biological matrices, such as urine, blood, saliva, sweat, hair, and nails. ... While urine and blood testing are most common, hair and nail testing are incr..."
+  },
+  {
+   "title": "High-throughput drug discovery assays with the Echo® MS+ system",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/ht-drug-discovery-assays-echomsplus",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/ht-drug-discovery-assays-echomsplus",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/ht-drug-discovery-assays-echomsplus",
+   "primaryid": "KNYGQ5SSNRNG2RCIMVJUEMWDWA3S4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Is the next life-changing drug one of the thousands waiting to be analyzed in your lab? ... The Echo ® MS+ system could help break through the bottlenecks by allowing y...",
+   "raw": {
+    "sysurihash": "SphvRlZmDHeSB2ð7",
+    "urihash": "SphvRlZmDHeSB2ð7",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "80b6db90f2d198d4a455f45bbd9f66f7bcd2f8a8145e0980b7c0775d2892",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "High-throughput drug discovery assays with the Echo® MS+ system",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/ht-drug-discovery-assays-echomsplus",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/ht-drug-discovery-assays-echomsplus",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/ht-drug-discovery-assays-echomsplus",
+   "Excerpt": "sciextext ... text-left ... Is the next life-changing drug one of the thousands waiting to be analyzed in your lab? ... The Echo ® MS+ system could help break through the bottlenecks by allowing y..."
+  },
+  {
+   "title": "Proteomics research videos series with zt scan dia on demand",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/proteomics-research-videos-series-with-zt-scan-dia-ondemand",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/proteomics-research-videos-series-with-zt-scan-dia-ondemand",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/proteomics-research-videos-series-with-zt-scan-dia-ondemand",
+   "primaryid": "NFRU253FMFKWEUZRIJCFAU3SMQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Transformative proteomics discoveries await! ... text-left ... Why watch these videos? ... Cutting-edge innovation: See the transformative potential of ZT Scan DIA for proteomics research ... Exper...",
+   "raw": {
+    "sysurihash": "icMweaUbS1BDPSrd",
+    "urihash": "icMweaUbS1BDPSrd",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "b641a7236f59cbefa33bb082d8e3369c9982f73efdf70522b9d763f7da6d",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Proteomics research videos series with zt scan dia on demand",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/proteomics-research-videos-series-with-zt-scan-dia-ondemand",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/proteomics-research-videos-series-with-zt-scan-dia-ondemand",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/proteomics-research-videos-series-with-zt-scan-dia-ondemand",
+   "Excerpt": "Transformative proteomics discoveries await! ... text-left ... Why watch these videos? ... Cutting-edge innovation: See the transformative potential of ZT Scan DIA for proteomics research ... Exper..."
+  },
+  {
+   "title": "Pharma masterclasses from SCIEX and industry experts",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/pharma-masterclasses",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/pharma-masterclasses",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/pharma-masterclasses",
+   "primaryid": "YOYEI6LFIJJFGZ2XOZGUOVTHJZDS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Pharma LC-MS masterclasses ... Expert insights for solving today's most complex analytical challenges ... #000 ... sciextext ... Keeping pace with scientific news and innovations impacting method d...",
+   "raw": {
+    "sysurihash": "ðDyeBRSgWvMGVgNG",
+    "urihash": "ðDyeBRSgWvMGVgNG",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "d72dda2714c09117ff2431279a3adface6410cbd59b96aef453c7f225c6a",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Pharma masterclasses from SCIEX and industry experts",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/pharma-masterclasses",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/pharma-masterclasses",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/pharma-masterclasses",
+   "Excerpt": "Pharma LC-MS masterclasses ... Expert insights for solving today's most complex analytical challenges ... #000 ... sciextext ... Keeping pace with scientific news and innovations impacting method d..."
+  },
+  {
+   "title": "Modern LC MS Bioanalysis Across Therapeutic Modalities",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/modern-lc-ms-bioanalysis-across-therapeutic-modalities",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/modern-lc-ms-bioanalysis-across-therapeutic-modalities",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/modern-lc-ms-bioanalysis-across-therapeutic-modalities",
+   "primaryid": "OBRVEM2RN5IFOMSHNZLDG3DGIEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Modern LC-MS strategies to help you generate confident results across evolving therapeutic modalities. ... #000 ... text-left ... Bioanalysis is evolving as therapeutic drug candidates diversify an...",
+   "raw": {
+    "sysurihash": "pcR3QoPW2GnV3lfA",
+    "urihash": "pcR3QoPW2GnV3lfA",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "57e95350702f3dee1bc3bfd86e0c9ad1560b95d0c1df266a4d23fe9ee317",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma"
+    ]
+   },
+   "Title": "Modern LC MS Bioanalysis Across Therapeutic Modalities",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/modern-lc-ms-bioanalysis-across-therapeutic-modalities",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/modern-lc-ms-bioanalysis-across-therapeutic-modalities",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/modern-lc-ms-bioanalysis-across-therapeutic-modalities",
+   "Excerpt": "Modern LC-MS strategies to help you generate confident results across evolving therapeutic modalities. ... #000 ... text-left ... Bioanalysis is evolving as therapeutic drug candidates diversify an..."
+  },
+  {
+   "title": "India-EMEAI-1A Brand Redefine Leadership in Quant-NDSRI-Webinar-2024",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/emea/india-emeai-1a-brand-redefine-leadership-in-quant-ndsri-webinar-2024",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/emea/india-emeai-1a-brand-redefine-leadership-in-quant-ndsri-webinar-2024",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/emea/india-emeai-1a-brand-redefine-leadership-in-quant-ndsri-webinar-2024",
+   "primaryid": "INLW25GDWFCWESKBJF4WE5DYINKC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Make sure you watch it before it’s taken down. ... Watch out on demand webinar for an insightful webinar exploring how critical topic of NDSRIs, specifically focusing on their analysis and implic...",
+   "raw": {
+    "sysurihash": "CWmtñEbIAIybtxCT",
+    "urihash": "CWmtñEbIAIybtxCT",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "00d37f53535f2f401978f4b71fb8a663655ed87ce71bb654fb7a96c9a282",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "India-EMEAI-1A Brand Redefine Leadership in Quant-NDSRI-Webinar-2024",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/emea/india-emeai-1a-brand-redefine-leadership-in-quant-ndsri-webinar-2024",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/emea/india-emeai-1a-brand-redefine-leadership-in-quant-ndsri-webinar-2024",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/emea/india-emeai-1a-brand-redefine-leadership-in-quant-ndsri-webinar-2024",
+   "Excerpt": "Make sure you watch it before it’s taken down. ... Watch out on demand webinar for an insightful webinar exploring how critical topic of NDSRIs, specifically focusing on their analysis and implic..."
+  },
+  {
+   "title": "SCIEX OS software transforms your workflows",
+   "uri": "https://sciex.com/events/ondemand-webinars/streamline-data-processing-with-sciexos",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/streamline-data-processing-with-sciexos",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/streamline-data-processing-with-sciexos",
+   "primaryid": "PFUTA4CTGBXTS6SLNZIEGSDKMYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "SCIEX OS software transforms your workflows ... More than just an upgrade—unlock efficiency, confidence, and control with SCIEX OS software ... #C6C6C6 ... Overview ... Presenter ... April Quinn-...",
+   "raw": {
+    "sysurihash": "yi0pS0o9zKnPCHjf",
+    "urihash": "yi0pS0o9zKnPCHjf",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "221c22ac7017d85314a6edb15e321339acebee9a82a1328d927e113531b1",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "SCIEX OS software transforms your workflows",
+   "Uri": "https://sciex.com/events/ondemand-webinars/streamline-data-processing-with-sciexos",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/streamline-data-processing-with-sciexos",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/streamline-data-processing-with-sciexos",
+   "Excerpt": "SCIEX OS software transforms your workflows ... More than just an upgrade—unlock efficiency, confidence, and control with SCIEX OS software ... #C6C6C6 ... Overview ... Presenter ... April Quinn-..."
+  },
+  {
+   "title": "SCIEX OS software transforms your workflows",
+   "uri": "https://sciex.com/events/ondemand-webinars/transform-your-workflows-sciexos",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/transform-your-workflows-sciexos",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/transform-your-workflows-sciexos",
+   "primaryid": "NY4GSYTBJQYVKSSRK43TANWDWFZS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "More than just an upgrade—unlock efficiency, confidence, and control with SCIEX OS software ... text-left ... Watch the second webinar in our series on streamlining data processing with SCIEX OS ...",
+   "raw": {
+    "sysurihash": "n8ibaL1UJQW706ñs",
+    "urihash": "n8ibaL1UJQW706ñs",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "9f1300fab3097374522b43f25ef5f35bd3dbea83abab4dedd137d500545e",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma",
+     "Biopharma",
+     "Food and beverage testing",
+     "Biomedical and omics research",
+     "Clinical",
+     "Forensic testing",
+     "Environmental testing"
+    ]
+   },
+   "Title": "SCIEX OS software transforms your workflows",
+   "Uri": "https://sciex.com/events/ondemand-webinars/transform-your-workflows-sciexos",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/transform-your-workflows-sciexos",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/transform-your-workflows-sciexos",
+   "Excerpt": "More than just an upgrade—unlock efficiency, confidence, and control with SCIEX OS software ... text-left ... Watch the second webinar in our series on streamlining data processing with SCIEX OS ..."
+  },
+  {
+   "title": "Live webinar: HRMS workflows for peptide impurity characterization",
+   "uri": "https://sciex.com/events/ondemand-webinars/pharma/emea/hrms-workflows-for-peptide-impurity-characterization",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/pharma/emea/hrms-workflows-for-peptide-impurity-characterization",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/emea/hrms-workflows-for-peptide-impurity-characterization",
+   "primaryid": "OZ3W4SDZMVFWEUSZJNTUU52EIIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... Make sure you watch it before it’s taken down. ... Watch out on demand webinar on exploring advanced HRMS and CMC approaches for the characterization of impurities in synthetic pept...",
+   "raw": {
+    "sysurihash": "vwnHyeKbRYKgJwDB",
+    "urihash": "vwnHyeKbRYKgJwDB",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "a193c36894a635054331b7f38bb221adf0fb9e9c02091bf3e95d28a9edd7",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Live webinar: HRMS workflows for peptide impurity characterization",
+   "Uri": "https://sciex.com/events/ondemand-webinars/pharma/emea/hrms-workflows-for-peptide-impurity-characterization",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/pharma/emea/hrms-workflows-for-peptide-impurity-characterization",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/pharma/emea/hrms-workflows-for-peptide-impurity-characterization",
+   "Excerpt": "sciextext ... Make sure you watch it before it’s taken down. ... Watch out on demand webinar on exploring advanced HRMS and CMC approaches for the characterization of impurities in synthetic pept..."
+  },
+  {
+   "title": "Advanced quantitation of mycotoxins and tropane alkaloids in foodstuffs",
+   "uri": "https://sciex.com/events/ondemand-webinars/food/advanced-quantitation-of-mycotoxins-and-tropane-alkaloids-in-foodstuffs",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/food/advanced-quantitation-of-mycotoxins-and-tropane-alkaloids-in-foodstuffs",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/advanced-quantitation-of-mycotoxins-and-tropane-alkaloids-in-foodstuffs",
+   "primaryid": "IEZGOSSKHHB3CSTXOFQWYVCCI5YS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... Watch this on-demand on the challenges and advancements in the quantitation of mycotoxins and tropane alkaloids in foodstuffs. ... Mycotoxins, produced by fungi, and tropane alkaloids...",
+   "raw": {
+    "sysurihash": "A2gJJ9ñJwqalTBGq",
+    "urihash": "A2gJJ9ñJwqalTBGq",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "718bf3342e2348560ee043b37da2b229a51b1c86b481a8291d094fb10cbc",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Advanced quantitation of mycotoxins and tropane alkaloids in foodstuffs",
+   "Uri": "https://sciex.com/events/ondemand-webinars/food/advanced-quantitation-of-mycotoxins-and-tropane-alkaloids-in-foodstuffs",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/food/advanced-quantitation-of-mycotoxins-and-tropane-alkaloids-in-foodstuffs",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/advanced-quantitation-of-mycotoxins-and-tropane-alkaloids-in-foodstuffs",
+   "Excerpt": "sciextext ... Watch this on-demand on the challenges and advancements in the quantitation of mycotoxins and tropane alkaloids in foodstuffs. ... Mycotoxins, produced by fungi, and tropane alkaloids..."
+  },
+  {
+   "title": "Food Back to Basics - Q12026",
+   "uri": "https://sciex.com/events/ondemand-webinars/food/food-back-to-basics",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/food/food-back-to-basics",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/food-back-to-basics",
+   "primaryid": "JBXTMSKTOYYTAWCZJBFFC42RNAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Welcome to LC-MS/MS essentials: back to food basics, a webinar series designed to refresh, reinforce, and rebuild essential skills in food safety testing. ... Whether you're just starting out or yo...",
+   "raw": {
+    "sysurihash": "Ho6ISv10XYHJQsQh",
+    "urihash": "Ho6ISv10XYHJQsQh",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "133b77dbc7e70ec24a7d208fbbba57956b10837c1b3cb408c3d333ab5b7b",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Food Back to Basics - Q12026",
+   "Uri": "https://sciex.com/events/ondemand-webinars/food/food-back-to-basics",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/food/food-back-to-basics",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/food-back-to-basics",
+   "Excerpt": "Welcome to LC-MS/MS essentials: back to food basics, a webinar series designed to refresh, reinforce, and rebuild essential skills in food safety testing. ... Whether you're just starting out or yo..."
+  },
+  {
+   "title": "European Food Testing Forum",
+   "uri": "https://sciex.com/events/ondemand-webinars/food/european-food-testing-forum",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/food/european-food-testing-forum",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/european-food-testing-forum",
+   "primaryid": "J4ZUWSTYPBUFETKGOUZWE3LKMQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Presentations to watch: ... High-throughput gender screening in eggs ... Dr. Simone Lemeer, In Ovo B.V., The Netherlands ... Untargeted screening of emerging contaminants in food contact materials:...",
+   "raw": {
+    "sysurihash": "O3KJxxhRMFu3bmjd",
+    "urihash": "O3KJxxhRMFu3bmjd",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "72b6273d45d623170643b211b7d90d97e544030e48a9302879fee0838225",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "European Food Testing Forum",
+   "Uri": "https://sciex.com/events/ondemand-webinars/food/european-food-testing-forum",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/food/european-food-testing-forum",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/european-food-testing-forum",
+   "Excerpt": "Presentations to watch: ... High-throughput gender screening in eggs ... Dr. Simone Lemeer, In Ovo B.V., The Netherlands ... Untargeted screening of emerging contaminants in food contact materials:..."
+  },
+  {
+   "title": "PFAS Summit Part III",
+   "uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part3",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part3",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part3",
+   "primaryid": "IRKHAYRXOBSUI3SHGRCDIZJWKIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "PFAS summit: a scientific series, part III: a day in the life of the PFAS lifecycle! ... Do we already know everything there is to know about PFAS testing? ... This class of compounds continue to b...",
+   "raw": {
+    "sysurihash": "DTpb7peDnG4D4e6R",
+    "urihash": "DTpb7peDnG4D4e6R",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "8d438903c1fb4a43d87536e00c1c35c83c9097db9c1f7c44098d1cf8c6c4",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "PFAS Summit Part III",
+   "Uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part3",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part3",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part3",
+   "Excerpt": "PFAS summit: a scientific series, part III: a day in the life of the PFAS lifecycle! ... Do we already know everything there is to know about PFAS testing? ... This class of compounds continue to b..."
+  },
+  {
+   "title": "Residue Testing in Food",
+   "uri": "https://sciex.com/events/ondemand-webinars/food/residue-testing-in-food",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/food/residue-testing-in-food",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/residue-testing-in-food",
+   "primaryid": "JHB3C6L2KZUFE5KVNZNHQQ3OI53S4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Residue testing in food: A 3-part webinar series ... Three expert-led webinars to help you detect residues, meet regulations, and deliver defensible LC-MS/MS results. ... Residue testing is becomin...",
+   "raw": {
+    "sysurihash": "IñyzVhRuUnZxCnGw",
+    "urihash": "IñyzVhRuUnZxCnGw",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "356a3411f2e219025ab2119624f39c54c4a42661b3a8b6909d48de341003",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "Residue Testing in Food",
+   "Uri": "https://sciex.com/events/ondemand-webinars/food/residue-testing-in-food",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/food/residue-testing-in-food",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/residue-testing-in-food",
+   "Excerpt": "Residue testing in food: A 3-part webinar series ... Three expert-led webinars to help you detect residues, meet regulations, and deliver defensible LC-MS/MS results. ... Residue testing is becomin..."
+  },
+  {
+   "title": "PFAS Back to Basics",
+   "uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-back-to-basics",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-back-to-basics",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-back-to-basics",
+   "primaryid": "GXB3AQKMOBSGSM2MOZCVQ3SDKZNC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Demystifying PFAS, from fundamentals to first steps in the lab A webinar series for mass spec scientists and a practical training resource for lab managers building confident food testing teams ......",
+   "raw": {
+    "sysurihash": "5ðALpdi3LvEXnCVZ",
+    "urihash": "5ðALpdi3LvEXnCVZ",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "7a2ff55ecbfeeb820479e9fc81bf8e2e4e018dc650d490f9ce5ff2704375",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "PFAS Back to Basics",
+   "Uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-back-to-basics",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-back-to-basics",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-back-to-basics",
+   "Excerpt": "Demystifying PFAS, from fundamentals to first steps in the lab A webinar series for mass spec scientists and a practical training resource for lab managers building confident food testing teams ......"
+  },
+  {
+   "title": "India-2.2 Upgrading core quant for core food testing-Vitamin fortification-2024",
+   "uri": "https://sciex.com/events/ondemand-webinars/food/india-2-2-upgrading-core-quant-for-core-food-testing-vitamin-fortification-2024",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/food/india-2-2-upgrading-core-quant-for-core-food-testing-vitamin-fortification-2024",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/india-2-2-upgrading-core-quant-for-core-food-testing-vitamin-fortification-2024",
+   "primaryid": "MRFTAZCVGZDDC23ZPI2TIWTDLAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "speakers ... sciextext ... Make sure you watch it before it’s taken down. ... Watch out on-demand webinar for an insightful webinar exploring the Fortification of essential vitamins in everyday f...",
+   "raw": {
+    "sysurihash": "dK0dU6F1kyz54ZcX",
+    "urihash": "dK0dU6F1kyz54ZcX",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "67c893c2493aa7f0f89d4fa283b4cbc58e367feb9a50f8738579ee830b31",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "India-2.2 Upgrading core quant for core food testing-Vitamin fortification-2024",
+   "Uri": "https://sciex.com/events/ondemand-webinars/food/india-2-2-upgrading-core-quant-for-core-food-testing-vitamin-fortification-2024",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/food/india-2-2-upgrading-core-quant-for-core-food-testing-vitamin-fortification-2024",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/food/india-2-2-upgrading-core-quant-for-core-food-testing-vitamin-fortification-2024",
+   "Excerpt": "speakers ... sciextext ... Make sure you watch it before it’s taken down. ... Watch out on-demand webinar for an insightful webinar exploring the Fortification of essential vitamins in everyday f..."
+  },
+  {
+   "title": "PFAS Summit Part II",
+   "uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part2",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part2",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part2",
+   "primaryid": "K5TWS4SKMFZDE2TQLFCFKQ2LYOYC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Food testing is an emerging trend in per- and polyfluoroalkyl substances (PFAS) analysis. ... Join the discussion as SCIEX customers and industry experts explore how these “forever chemicals” h...",
+   "raw": {
+    "sysurihash": "WgirJar2jpYDUCKð",
+    "urihash": "WgirJar2jpYDUCKð",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "f9d51fbba7cc3808467d0aef1cfd1eb70419f36f688c34be9c4c0e3f7e3e",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing",
+     "Environmental testing"
+    ]
+   },
+   "Title": "PFAS Summit Part II",
+   "Uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part2",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part2",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-summit-part2",
+   "Excerpt": "Food testing is an emerging trend in per- and polyfluoroalkyl substances (PFAS) analysis. ... Join the discussion as SCIEX customers and industry experts explore how these “forever chemicals” h..."
+  },
+  {
+   "title": "PFAS Science Series",
+   "uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-science-series",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-science-series",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-science-series",
+   "primaryid": "HBFHGUKUJZ2FETTHJFXTMZTQJYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Enrich your understanding of PFAS chemicals and their impact ... Stay on the leading edge of all things PFAS with this enlightening webinar series on testing workflows and cutting-edge technology t...",
+   "raw": {
+    "sysurihash": "8JsQTNtRNgIo6fpN",
+    "urihash": "8JsQTNtRNgIo6fpN",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "0b5b1b94de04491191f71bcb81ee31451a5f5a95f99a04fbbeab22683097",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "PFAS Science Series",
+   "Uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-science-series",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-science-series",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-science-series",
+   "Excerpt": "Enrich your understanding of PFAS chemicals and their impact ... Stay on the leading edge of all things PFAS with this enlightening webinar series on testing workflows and cutting-edge technology t..."
+  },
+  {
+   "title": "WOD - TIAFT 2025",
+   "uri": "https://sciex.com/events/ondemand-webinars/forensic/tiaft-2025",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/forensic/tiaft-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/forensic/tiaft-2025",
+   "primaryid": "GBYTCTKXYOYVQS2WOHB3CT3OLB5FQLRVGM2DKMJOMRSWMYLVNR2A",
+   "excerpt": "We were proud to participate in the 62nd Annual Meeting of the International Association of Forensic Toxicologists (TIAFT) in Auckland, New Zealand. ... Throughout the meeting, our team shared new ...",
+   "raw": {
+    "sysurihash": "0q1MWñXKVqñOnXzX",
+    "urihash": "0q1MWñXKVqñOnXzX",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "bb0e0e901168c4c71ade90de7553273bf241d58d18b330032019532a2124",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing"
+    ]
+   },
+   "Title": "WOD - TIAFT 2025",
+   "Uri": "https://sciex.com/events/ondemand-webinars/forensic/tiaft-2025",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/forensic/tiaft-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/forensic/tiaft-2025",
+   "Excerpt": "We were proud to participate in the 62nd Annual Meeting of the International Association of Forensic Toxicologists (TIAFT) in Auckland, New Zealand. ... Throughout the meeting, our team shared new ..."
+  },
+  {
+   "title": "LC/MS-MS 201 webinar series",
+   "uri": "https://sciex.com/events/ondemand-webinars/lcms-ms-201-webinar-series",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/lcms-ms-201-webinar-series",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/lcms-ms-201-webinar-series",
+   "primaryid": "GNWEU4TCKDB3CQ2EONWWMMLWOVAS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Sharpen your data acquisition and processing skills with our LC-MS/MS 201 webinar series. ... Based on our LC-MS/MS 101 webinar series, these sessions go beyond the fundamentals of LC-MS/MS and int...",
+   "raw": {
+    "sysurihash": "3lJrbPñCDsmf1vuA",
+    "urihash": "3lJrbPñCDsmf1vuA",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "14ba886c689a58d085819d0ffb1e1e727e085bbfde49030215c1030fa701",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All",
+     "North America"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "LC/MS-MS 201 webinar series",
+   "Uri": "https://sciex.com/events/ondemand-webinars/lcms-ms-201-webinar-series",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/lcms-ms-201-webinar-series",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/lcms-ms-201-webinar-series",
+   "Excerpt": "Sharpen your data acquisition and processing skills with our LC-MS/MS 201 webinar series. ... Based on our LC-MS/MS 101 webinar series, these sessions go beyond the fundamentals of LC-MS/MS and int..."
+  },
+  {
+   "title": "PFAS Summit",
+   "uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-summit",
+   "primaryid": "PBITSSDYMJRESQSKKU3EQOBTMUXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Part 2: Seeking a safer future ... After 25 years, scientists are still trying to understand some aspects of how PFAS behave in the environment. ... Chris Higgins looks at how we arrived at where w...",
+   "raw": {
+    "sysurihash": "xQ9HxbbIBJU6H83e",
+    "urihash": "xQ9HxbbIBJU6H83e",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "2725ce4e2b951db9ca57dc47c0b062fb9470b2e188c60fe50606cdc52d6a",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "PFAS Summit",
+   "Uri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/environ/pfas-summit",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/environ/pfas-summit",
+   "Excerpt": "Part 2: Seeking a safer future ... After 25 years, scientists are still trying to understand some aspects of how PFAS behave in the environment. ... Chris Higgins looks at how we arrived at where w..."
+  },
+  {
+   "title": "Forensic toxicology webinar on demand",
+   "uri": "https://sciex.com/events/ondemand-webinars/forensic/forensic-toxicology-webinar-on-demand",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/forensic/forensic-toxicology-webinar-on-demand",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/forensic/forensic-toxicology-webinar-on-demand",
+   "primaryid": "N5YXCQJTKFKU4WTDPBVXSVCJOIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... The rise of novel psychoactive substances (NPS) alongside traditional drugs of abuse continues to challenge forensic toxicology labs. ... This dynamic environment demand...",
+   "raw": {
+    "sysurihash": "oqqA3QUNZcxkyTIr",
+    "urihash": "oqqA3QUNZcxkyTIr",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "5ea73399a6bfd73d7bb00ab607b4016a430c28ec3b23ea41c8907c9c3474",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing"
+    ]
+   },
+   "Title": "Forensic toxicology webinar on demand",
+   "Uri": "https://sciex.com/events/ondemand-webinars/forensic/forensic-toxicology-webinar-on-demand",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/forensic/forensic-toxicology-webinar-on-demand",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/forensic/forensic-toxicology-webinar-on-demand",
+   "Excerpt": "sciextext ... text-left ... The rise of novel psychoactive substances (NPS) alongside traditional drugs of abuse continues to challenge forensic toxicology labs. ... This dynamic environment demand..."
+  },
+  {
+   "title": "QTOF Kratom analysis for toxicology labs",
+   "uri": "https://sciex.com/events/ondemand-webinars/forensic/qtof-kratom-analysis-for-toxicology-labs",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/forensic/qtof-kratom-analysis-for-toxicology-labs",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/forensic/qtof-kratom-analysis-for-toxicology-labs",
+   "primaryid": "ONSUU6KBLFI4HMKCOF4HU3KOKJWC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... How can you confidently identify and quantify emerging drugs using a single LC-MS platform? ... Watch this on-demand webinar with Dr. Alex Krotulski to learn how a high-...",
+   "raw": {
+    "sysurihash": "seJyAYQñBqxzmNRl",
+    "urihash": "seJyAYQñBqxzmNRl",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "4b8bddc6842d2dd72ee0b7ac2863f171a703835f2935a4f8e1caadfd624c",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing"
+    ]
+   },
+   "Title": "QTOF Kratom analysis for toxicology labs",
+   "Uri": "https://sciex.com/events/ondemand-webinars/forensic/qtof-kratom-analysis-for-toxicology-labs",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/forensic/qtof-kratom-analysis-for-toxicology-labs",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/forensic/qtof-kratom-analysis-for-toxicology-labs",
+   "Excerpt": "sciextext ... text-left ... How can you confidently identify and quantify emerging drugs using a single LC-MS platform? ... Watch this on-demand webinar with Dr. Alex Krotulski to learn how a high-..."
+  },
+  {
+   "title": "Reveal autoimmune disease mechanism with multiomics",
+   "uri": "https://sciex.com/events/ondemand-webinars/clinical/reveal-autoimmune-disease-mechanism-with-multiomics",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/clinical/reveal-autoimmune-disease-mechanism-with-multiomics",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/clinical/reveal-autoimmune-disease-mechanism-with-multiomics",
+   "primaryid": "LFX4HMK2LFYGCNDRJ5ZXIUDOJ5BC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Integrated proteomics and multiomics approaches are enabling deeper investigation of immune dysregulation and the biological pathways underlying autoimmune diseases. ......",
+   "raw": {
+    "sysurihash": "YoñZYpa4qOstPnOB",
+    "urihash": "YoñZYpa4qOstPnOB",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "2c25790416a43559c08144e359a763619a7b73278b0d36b401952f2075e6",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Clinical",
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Reveal autoimmune disease mechanism with multiomics",
+   "Uri": "https://sciex.com/events/ondemand-webinars/clinical/reveal-autoimmune-disease-mechanism-with-multiomics",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/clinical/reveal-autoimmune-disease-mechanism-with-multiomics",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/clinical/reveal-autoimmune-disease-mechanism-with-multiomics",
+   "Excerpt": "sciextext ... text-left ... Integrated proteomics and multiomics approaches are enabling deeper investigation of immune dysregulation and the biological pathways underlying autoimmune diseases. ......"
+  },
+  {
+   "title": "AI quantitation software learning hub",
+   "uri": "https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub",
+   "primaryid": "GBTDMV3RMVAVRQ5RKN5EQQKVLJRC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "text-left ... AI Quantitation software transforms the way you approach compound optimization and HRMS data processing. ... Powered by advanced machine learning models, it automates previously time...",
+   "raw": {
+    "sysurihash": "0f6WqeAXñSzHAUZb",
+    "urihash": "0f6WqeAXñSzHAUZb",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "e21962c54119a46d71fbe5a3b1277fd7132e66552d3f708934068899e1af",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "AI quantitation software learning hub",
+   "Uri": "https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/ai-quantitation-software-learning-hub",
+   "Excerpt": "text-left ... AI Quantitation software transforms the way you approach compound optimization and HRMS data processing. ... Powered by advanced machine learning models, it automates previously time..."
+  },
+  {
+   "title": "See how researchers are applying the ZenoTOF 8600 system across omics workflows",
+   "uri": "https://sciex.com/events/ondemand-webinars/biomedical-and-omics-research-lsr/lsr-evo-talks-2026",
+   "clickUri": "https://sciex.com/events/ondemand-webinars/biomedical-and-omics-research-lsr/lsr-evo-talks-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biomedical-and-omics-research-lsr/lsr-evo-talks-2026",
+   "primaryid": "OF4HET3XLBVWI6KSPHB3C2CQM5YC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Designed for confident evaluation. ... Real research, beyond performance claims ... These on-demand presentations feature researchers sharing how they apply the ZenoTOF 8600 system across diverse o...",
+   "raw": {
+    "sysurihash": "qxrOwXkdyRyñhPgp",
+    "urihash": "qxrOwXkdyRyñhPgp",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "df2b7ee6f5aec8dda22f7940a02938d0fc985eb5beeab4cc29c59d37ea0f",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "See how researchers are applying the ZenoTOF 8600 system across omics workflows",
+   "Uri": "https://sciex.com/events/ondemand-webinars/biomedical-and-omics-research-lsr/lsr-evo-talks-2026",
+   "ClickUri": "https://sciex.com/events/ondemand-webinars/biomedical-and-omics-research-lsr/lsr-evo-talks-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/ondemand-webinars/biomedical-and-omics-research-lsr/lsr-evo-talks-2026",
+   "Excerpt": "Designed for confident evaluation. ... Real research, beyond performance claims ... These on-demand presentations feature researchers sharing how they apply the ZenoTOF 8600 system across diverse o..."
+  },
+  {
+   "title": "A disruptive approach to characterization of mAb charge variants with FujiFilm Diosynth Biotechnologies",
+   "uri": "https://sciex.com/events/biopharma/fujifilm-on-demand",
+   "clickUri": "https://sciex.com/events/biopharma/fujifilm-on-demand",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/fujifilm-on-demand",
+   "primaryid": "NRGXJQ5RMJHUG5BUJNUVIRLFNBWS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "A disruptive approach to characterization of mAb charge variants ... Rapidly assess the impact of cell culture conditions on mAb quality and production. ... #C6C6C6 ... horizontal ... sciextext ......",
+   "raw": {
+    "sysurihash": "lMtñbOCt4KiTEehm",
+    "urihash": "lMtñbOCt4KiTEehm",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "6c05205538cec9d371878ad652daad28181b843e915bd407da044123d698",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "A disruptive approach to characterization of mAb charge variants with FujiFilm Diosynth Biotechnologies",
+   "Uri": "https://sciex.com/events/biopharma/fujifilm-on-demand",
+   "ClickUri": "https://sciex.com/events/biopharma/fujifilm-on-demand",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/fujifilm-on-demand",
+   "Excerpt": "A disruptive approach to characterization of mAb charge variants ... Rapidly assess the impact of cell culture conditions on mAb quality and production. ... #C6C6C6 ... horizontal ... sciextext ......"
+  },
+  {
+   "title": "Gain multiple pieces of critical data on complex biotherapeutics up front with AstraZeneca",
+   "uri": "https://sciex.com/events/biopharma/characterization-of-charge-variants-adc-wod",
+   "clickUri": "https://sciex.com/events/biopharma/characterization-of-charge-variants-adc-wod",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/characterization-of-charge-variants-adc-wod",
+   "primaryid": "LJUDLQ5QI5KE4NKNKNFTQOCCOU4C4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Take a deep dive into the characterization of charge variants on an ADC using icIEF-UV/MS AstraZeneca’s scientists saw an unexpected shift in their cIEF profiles when ...",
+   "raw": {
+    "sysurihash": "Zh5ðGTN5MSK88Bu8",
+    "urihash": "Zh5ðGTN5MSK88Bu8",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "9c4f5c0d8612b224d0398119aa928901a1a5d139b21f38bf79dc2bba618d",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Gain multiple pieces of critical data on complex biotherapeutics up front with AstraZeneca",
+   "Uri": "https://sciex.com/events/biopharma/characterization-of-charge-variants-adc-wod",
+   "ClickUri": "https://sciex.com/events/biopharma/characterization-of-charge-variants-adc-wod",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/characterization-of-charge-variants-adc-wod",
+   "Excerpt": "sciextext ... text-left ... Take a deep dive into the characterization of charge variants on an ADC using icIEF-UV/MS AstraZeneca’s scientists saw an unexpected shift in their cIEF profiles when ..."
+  },
+  {
+   "title": "Establish MAM to track the cause of color change in a protein therapeutic with J&amp;J Innovative Medicine",
+   "uri": "https://sciex.com/events/biopharma/wod-protein-therapeutic-color-change",
+   "clickUri": "https://sciex.com/events/biopharma/wod-protein-therapeutic-color-change",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/wod-protein-therapeutic-color-change",
+   "primaryid": "HBHVCQ3XIRWDQS6DWFDMHMLGMVHHKLRVGM2DKMJOMRSWMYLVNR2A",
+   "excerpt": "sciextext ... text-left ... Learn about the link between AGE formation and color change in final drug products. ... Explore how to develop assays that enable rapid monitoring and tracking of these ...",
+   "raw": {
+    "sysurihash": "8OQCwDl8KñFñfeNu",
+    "urihash": "8OQCwDl8KñFñfeNu",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "3b30fbf6932e1af10d8d434eecd8a168648055fa46f089199250620d4eeb",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Establish MAM to track the cause of color change in a protein therapeutic with J&amp;J Innovative Medicine",
+   "Uri": "https://sciex.com/events/biopharma/wod-protein-therapeutic-color-change",
+   "ClickUri": "https://sciex.com/events/biopharma/wod-protein-therapeutic-color-change",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/wod-protein-therapeutic-color-change",
+   "Excerpt": "sciextext ... text-left ... Learn about the link between AGE formation and color change in final drug products. ... Explore how to develop assays that enable rapid monitoring and tracking of these ..."
+  },
+  {
+   "title": "Address the unexpected in CLD with J&amp;J Innovative Medicine",
+   "uri": "https://sciex.com/events/biopharma/janssen-intabio-wod",
+   "clickUri": "https://sciex.com/events/biopharma/janssen-intabio-wod",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/janssen-intabio-wod",
+   "primaryid": "M5ZWOOL2YOYDOSSPMFMFA6KQLJEC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Address the unexpected in cell line development ... Guide decisions during cell line development with charge variant identification at the intact level. ... #C6C6C6 ... horizontal ... sciextext ......",
+   "raw": {
+    "sysurihash": "gsg9zð7JOaXPyPZH",
+    "urihash": "gsg9zð7JOaXPyPZH",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "a84ff0124135ecf0c60e9013917ca444ca563e1660418a46c06fc7cba640",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Address the unexpected in CLD with J&amp;J Innovative Medicine",
+   "Uri": "https://sciex.com/events/biopharma/janssen-intabio-wod",
+   "ClickUri": "https://sciex.com/events/biopharma/janssen-intabio-wod",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/janssen-intabio-wod",
+   "Excerpt": "Address the unexpected in cell line development ... Guide decisions during cell line development with charge variant identification at the intact level. ... #C6C6C6 ... horizontal ... sciextext ......"
+  },
+  {
+   "title": "Charge variant analysis of complex therapeutics with Merck",
+   "uri": "https://sciex.com/events/biopharma/wod-intact-level-multi-attribute-monitoring-using-icief-uv-ms",
+   "clickUri": "https://sciex.com/events/biopharma/wod-intact-level-multi-attribute-monitoring-using-icief-uv-ms",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/wod-intact-level-multi-attribute-monitoring-using-icief-uv-ms",
+   "primaryid": "JY2GC5WDWFQW633IOJVGS2RTLBMS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Charge variant profiling is vital for biotherapeutic development, as it tracks molecular attributes that impact drug safety and efficacy. ... However, analyzing complex ...",
+   "raw": {
+    "sysurihash": "N4avñaoohrjij3XY",
+    "urihash": "N4avñaoohrjij3XY",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "33a37fc3aa0813b601a41e916947328899d76dd640835a781b39749eb3ed",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Charge variant analysis of complex therapeutics with Merck",
+   "Uri": "https://sciex.com/events/biopharma/wod-intact-level-multi-attribute-monitoring-using-icief-uv-ms",
+   "ClickUri": "https://sciex.com/events/biopharma/wod-intact-level-multi-attribute-monitoring-using-icief-uv-ms",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/wod-intact-level-multi-attribute-monitoring-using-icief-uv-ms",
+   "Excerpt": "sciextext ... text-left ... Charge variant profiling is vital for biotherapeutic development, as it tracks molecular attributes that impact drug safety and efficacy. ... However, analyzing complex ..."
+  },
+  {
+   "title": "EMEAI-PFAS-PFAS in Pharma webinar-2026",
+   "uri": "https://sciex.com/events/pharma/emea/pfas-in-pharma-webinar-2026",
+   "clickUri": "https://sciex.com/events/pharma/emea/pfas-in-pharma-webinar-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma/emea/pfas-in-pharma-webinar-2026",
+   "primaryid": "NNYVQOKWPFZXIRJWIU4TMTKNNMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "As regulatory expectations around per- and polyfluoroalkyl substances (PFAS) continue to evolve, pharmaceutical laboratories are under increasing pressure to detect and quantify PFAS at ultra-trace...",
+   "raw": {
+    "sysurihash": "kqX9VystE6E96MMk",
+    "urihash": "kqX9VystE6E96MMk",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "d97e13daf7eb4ad5af932a4a14333e545821017926ea94e87d808ca6d541",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "EMEAI-PFAS-PFAS in Pharma webinar-2026",
+   "Uri": "https://sciex.com/events/pharma/emea/pfas-in-pharma-webinar-2026",
+   "ClickUri": "https://sciex.com/events/pharma/emea/pfas-in-pharma-webinar-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma/emea/pfas-in-pharma-webinar-2026",
+   "Excerpt": "As regulatory expectations around per- and polyfluoroalkyl substances (PFAS) continue to evolve, pharmaceutical laboratories are under increasing pressure to detect and quantify PFAS at ultra-trace..."
+  },
+  {
+   "title": "Ask the PFAS expert",
+   "uri": "https://sciex.com/events/environmental/ask-the-pfas-expert",
+   "clickUri": "https://sciex.com/events/environmental/ask-the-pfas-expert",
+   "uniqueId": "42.53451$https://sciex.com/events/environmental/ask-the-pfas-expert",
+   "primaryid": "NZVGEMSYKEZDCRKCJJIFG6TIJAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Running into roadblocks in your workflow? ... Just want to dive deeper into the science? ... Welcome to our ‘Ask the PFAS experts’ series, where your questions drive the conversation. ... In th...",
+   "raw": {
+    "sysurihash": "njb2XQ21EBJPSzhH",
+    "urihash": "njb2XQ21EBJPSzhH",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "14a7620f6b0f9fc9fd9087275a3538186dee0f65dff898e440e575919adf",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Ask the PFAS expert",
+   "Uri": "https://sciex.com/events/environmental/ask-the-pfas-expert",
+   "ClickUri": "https://sciex.com/events/environmental/ask-the-pfas-expert",
+   "UniqueId": "42.53451$https://sciex.com/events/environmental/ask-the-pfas-expert",
+   "Excerpt": "Running into roadblocks in your workflow? ... Just want to dive deeper into the science? ... Welcome to our ‘Ask the PFAS experts’ series, where your questions drive the conversation. ... In th..."
+  },
+  {
+   "title": "Accurate Mass Fundamentals",
+   "uri": "https://sciex.com/events/accurate-mass-fundamentals",
+   "clickUri": "https://sciex.com/events/accurate-mass-fundamentals",
+   "uniqueId": "42.53451$https://sciex.com/events/accurate-mass-fundamentals",
+   "primaryid": "GJQVIMKHYOYGSN2QONGUGOBTO42C4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "text-left ... Discover what accurate mass can do for you ... Accurate mass fundamentals breaks down the barriers of complexity, demystifies misconceptions, and provides helpful tips on how to impro...",
+   "raw": {
+    "sysurihash": "2aT1Gði7PsMC83w4",
+    "urihash": "2aT1Gði7PsMC83w4",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "cc2179c2642d1cc5010072e1f486f5fd0e86de95793595b24e370b5096a8",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma",
+     "Biopharma",
+     "Clinical",
+     "Food and beverage testing",
+     "Forensic testing",
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Accurate Mass Fundamentals",
+   "Uri": "https://sciex.com/events/accurate-mass-fundamentals",
+   "ClickUri": "https://sciex.com/events/accurate-mass-fundamentals",
+   "UniqueId": "42.53451$https://sciex.com/events/accurate-mass-fundamentals",
+   "Excerpt": "text-left ... Discover what accurate mass can do for you ... Accurate mass fundamentals breaks down the barriers of complexity, demystifies misconceptions, and provides helpful tips on how to impro..."
+  },
+  {
+   "title": "PFAS: What’s new and what’s next",
+   "uri": "https://sciex.com/events/environmental/amer/pfas-whats-new-whats-next-virtual-summit",
+   "clickUri": "https://sciex.com/events/environmental/amer/pfas-whats-new-whats-next-virtual-summit",
+   "uniqueId": "42.53451$https://sciex.com/events/environmental/amer/pfas-whats-new-whats-next-virtual-summit",
+   "primaryid": "J5WFEWBVKF5G4QKNGZIE44ZWO4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Take PFAS testing from confusion to clarity ... Between confusing regulations, ever-changing methods, and the dreaded audits, it’s easy to feel like you’re stuck in a never-ending game of “wh...",
+   "raw": {
+    "sysurihash": "OlRX5QznAM6PNs6w",
+    "urihash": "OlRX5QznAM6PNs6w",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "2084f876805ac7aa2f540f712e28cd42d1780aa402941668fb1e05ac2314",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "PFAS: What’s new and what’s next",
+   "Uri": "https://sciex.com/events/environmental/amer/pfas-whats-new-whats-next-virtual-summit",
+   "ClickUri": "https://sciex.com/events/environmental/amer/pfas-whats-new-whats-next-virtual-summit",
+   "UniqueId": "42.53451$https://sciex.com/events/environmental/amer/pfas-whats-new-whats-next-virtual-summit",
+   "Excerpt": "Take PFAS testing from confusion to clarity ... Between confusing regulations, ever-changing methods, and the dreaded audits, it’s easy to feel like you’re stuck in a never-ending game of “wh..."
+  },
+  {
+   "title": "Build a Method",
+   "uri": "https://sciex.com/events/build-a-method",
+   "clickUri": "https://sciex.com/events/build-a-method",
+   "uniqueId": "42.53451$https://sciex.com/events/build-a-method",
+   "primaryid": "JQZUNQ5RONKHQNCBJZGWCY3KMRKC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Boost your method development capabilities ... Creating a reliable and successful method can be challenging at times, especially if you’re dealing with complex matrices. ... Finding the right bal...",
+   "raw": {
+    "sysurihash": "L3FñsTx4ANMacjdT",
+    "urihash": "L3FñsTx4ANMacjdT",
+    "eventtype": [
+     "On-demand"
+    ],
+    "permanentid": "16f2c6390ffdd9508a88e3343790aa6b87f0e457c60ac49f3710d65ed90a",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "Build a Method",
+   "Uri": "https://sciex.com/events/build-a-method",
+   "ClickUri": "https://sciex.com/events/build-a-method",
+   "UniqueId": "42.53451$https://sciex.com/events/build-a-method",
+   "Excerpt": "Boost your method development capabilities ... Creating a reliable and successful method can be challenging at times, especially if you’re dealing with complex matrices. ... Finding the right bal..."
+  }
+ ]
+}

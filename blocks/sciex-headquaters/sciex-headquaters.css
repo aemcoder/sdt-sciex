@@ -1,0 +1,89 @@
+/* stylelint-disable -- sx-port: ported from https://sciex.com/blocks/sciex-headquaters/sciex-headquaters.css (2026-09-18), stylelint --fix formatting only. See stardust/eds-port-log.md */
+
+.sciex-hq {
+    padding: 60px 0;
+  }
+  
+  .sciex-hq__wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .sciex-hq__heading-wrapper {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .sciex-hq__heading {
+       color: #1A1A1A;
+    text-align: center;
+    font-family: "Geogrotesque Sharp VF";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 370;
+    line-height: normal;
+  }
+
+  .sciex-hq__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--columns, 4), minmax(0, 1fr));
+    gap: 40px 80px;
+    align-items: start;
+    width: 100%;
+}
+  
+  .sciex-hq__item {
+    position: relative;
+    padding-left: 24px;
+  }
+  
+  .sciex-hq__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #1e5bff;
+  }
+  
+  .sciex-hq__label {
+    color: #1A1A1A;
+    font-family: "Geogrotesque Sharp VF";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 370;
+    line-height: normal;
+    margin-bottom: 8px;
+  }
+  
+  .sciex-hq__value {
+    color: #666;
+    font-family: "Geogrotesque Sharp VF";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 370;
+    line-height: normal;
+  }
+  
+  /* Responsive */
+  @media (width <= 1024px) {
+    .sciex-hq__grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px;
+      }
+  }
+  
+  @media (width <= 640px) {
+    .sciex-hq__grid {
+        grid-template-columns: 1fr;
+      }
+  
+    .sciex-hq {
+      padding: 60px 0;
+    }
+  
+    .sciex-hq__heading {
+      font-size: 28px;
+    }
+  }

@@ -1,0 +1,259 @@
+/* stylelint-disable -- sx-port: ported from https://sciex.com/blocks/contact-information/contact-information.css (2026-09-18), stylelint --fix formatting only. See stardust/eds-port-log.md */
+/* ===============================
+   WRAPPER
+================================= */
+
+.contact-wrapper {
+  margin-top: 96px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title{
+color: #666;
+font-family: "Geogrotesque Sharp VF";
+font-size: 40px;
+font-style: normal;
+font-weight: 370;
+line-height: normal;
+width: 60%;
+}
+
+.address {
+  white-space: pre-line;
+}
+
+
+.search-input::placeholder {
+color: var(--Grey-900, #141414);
+}
+
+.search-input {  
+  background: var(--Grey-50, #F5F5F5);
+  font-size: 15px;
+  color: var(--Grey-900, #141414);
+  font-style: normal;
+  font-weight: 370;
+  line-height: normal;
+  outline: none;
+  width: 90%;
+}
+
+.search-wrapper{
+  width: 100%;
+  max-width: 864px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: var(--Grey-50, #F5F5F5);
+  
+}
+
+.clear-button {
+  color: var(--Blue-700, #0068FA);
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 530;
+  line-height: 24px;
+  letter-spacing: 0.08px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid #0068FA;
+  border-radius: 0;
+  width: fit-content;
+  margin: 20px 0;
+}
+
+/* ===============================
+   FILTER DROPDOWNS
+================================= */
+
+.filters {
+  display: flex;
+  gap: 32px;
+}
+
+/* ===============================
+   CUSTOM DROPDOWN
+================================= */
+
+.custom-select {
+  position: relative;
+  max-width: 416px;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Visible select box */
+.select-trigger {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px 16px;
+  background: #fff;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  transition: border 0.2s ease;
+}
+
+.select-trigger:hover {
+  border-color: #999;
+}
+
+/* SVG Arrow */
+.select-trigger .arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'><path d='M14 5L8 11L2 5' stroke='%23141414' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: transform 0.25s ease;
+}
+
+/* Rotate arrow when open */
+.custom-select.open .arrow {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Dropdown list */
+.options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  display: none;
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 10;
+  margin-top: 4px;
+}
+
+/* Show dropdown */
+.custom-select.open .options {
+  display: block;
+}
+
+/* Individual option */
+.option {
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.option:hover {
+   background-color: #f0f0f0;
+
+}
+
+
+
+/* ===============================
+   CARDS GRID
+================================= */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 40px;
+}
+
+/* ===============================
+   CARD DESIGN
+================================= */
+
+.contact-card {
+  background-color: #fff;
+  max-width: 416px;
+  min-height: 227px;
+  padding: 18px 35px;
+  border-left: 4px solid #0057ff; /* Blue left border */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.company-name {
+  color: #1A1A1A;
+font-size: 20px;
+font-style: normal;
+font-weight: 370;
+line-height: normal;
+}
+
+.product-line {
+ color: #1A1A1A;
+font-size: 15px;
+font-style: normal;
+font-weight: 370;
+line-height: normal;
+}
+
+.address,.phone,.email,.fax,.hours {
+color: #666;
+font-size: 15px;
+font-style: normal;
+font-weight: 370;
+line-height: normal;
+}
+
+.website-link{
+  color: var(--Blue-700, #0068FA) !important;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 40px 0 0;
+  gap: 7px;
+}
+
+
+
+
+/* ===============================
+   RESPONSIVE
+================================= */
+
+@media (width <= 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-title{
+    width: 80%;
+    font-size: 32px;
+  }
+
+}
+
+@media (width <= 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  
+
+  .custom-select,
+  .search-wrapper,
+  .contact-title {
+    width: 100%;
+    max-width: 100%;
+  }
+}

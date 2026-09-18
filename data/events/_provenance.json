@@ -1,0 +1,48 @@
+{
+  "_provenance": {
+    "organizationId": "danaherproductionrfl96bkr",
+    "searchHub": "SCIEXEventListing",
+    "endpoint": "POST https://danaherproductionrfl96bkr.org.coveo.com/rest/search/v2?organizationId=danaherproductionrfl96bkr",
+    "auth": "public search token authored in the live /events page (events block, row 3) \u2014 not copied into this repo",
+    "requestFields": {
+      "q": "",
+      "numberOfResults": 100,
+      "fieldsToInclude": [
+        "eventyear",
+        "eventmonth",
+        "eventtype",
+        "eventdate",
+        "region",
+        "applications"
+      ],
+      "facets": [
+        "region",
+        "applications",
+        "eventyear",
+        "eventmonth"
+      ]
+    },
+    "fetchedAt": "2026-09-18T11:38:21Z",
+    "fetchedBy": "stardust:deploy sx-port:convert (curl, real-Chrome UA)",
+    "consumer": "blocks/events via scripts/sx/coveo-headless-shim.js (sxPort.coveo.hubs.SCIEXEventListing)",
+    "cadence": "one-time snapshot; refresh cadence / Coveo re-enable is an owner decision (stardust/eds-port-log.md)",
+    "shapeNote": "raw Coveo Search API v2 response; per-result ranking/highlight noise removed, results[]/facets[]/totalCount kept"
+  },
+  "files": {
+    "upcoming.json": {
+      "tab": "Upcoming",
+      "cq": "NOT @eventtype==On-demand",
+      "rows": 71,
+      "totalCount": 71
+    },
+    "on-demand.json": {
+      "tab": "OnDemand",
+      "cq": "@eventtype==On-demand",
+      "rows": 54,
+      "totalCount": 54
+    }
+  },
+  "url": "https://danaherproductionrfl96bkr.org.coveo.com/rest/search/v2",
+  "fetchedAt": "2026-09-18T11:38:21Z",
+  "rows": 125
+}

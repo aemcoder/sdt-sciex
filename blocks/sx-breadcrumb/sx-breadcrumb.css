@@ -1,0 +1,134 @@
+/* stylelint-disable -- sx-port: ported from https://sciex.com/blocks/breadcrumb/breadcrumb.css (2026-09-18), stylelint --fix formatting only; block/class selectors prefixed sx-. See stardust/eds-port-log.md */
+main > .sx-breadcrumb-container {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+/* ported: was an unscoped `main > .section > div` rule (global side effect on the source); scoped to pages carrying this block */
+main:has(.sx-breadcrumb) > .section > div {
+  padding: 15px 47px;
+}
+
+@media (width >= 900px) {
+  main .sx-breadcrumb-container {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+}
+
+.sx-breadcrumb-link{
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.sx-breadcrumb-wrapper nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allow wrapping */
+  row-gap: 0.5rem; /* Optional: spacing between wrapped lines */
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.sx-breadcrumb-wrapper nav a,
+.sx-breadcrumb-wrapper nav span {
+  color: var(--Grey-500, #707070) !important;
+
+  /* Typography */
+  font-family: Geogrotesque;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 330 !important;
+  line-height: 20px !important;
+  letter-spacing: 0.07px !important;
+  word-break: break-word;
+  white-space: normal; /* Allow wrapping within items */
+}
+
+.sx-breadcrumb > nav a {
+  text-decoration: none !important;
+  color: black;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.sx-breadcrumb > nav a:hover {
+  color: #d8862a;
+  text-decoration: underline;
+}
+
+.sx-breadcrumb .sx-breadcrumb-separator {
+  margin-inline: 1.5ch;
+  color: black;
+}
+
+/* Wrapping behavior for smaller screens */
+@media (width <= 767px) {
+  .sx-breadcrumb-wrapper {
+    padding: 16px 15px !important;
+  }
+
+  .sx-breadcrumb-wrapper nav {
+    justify-content: flex-start;
+  }
+
+  .sx-breadcrumb-wrapper nav a {
+    white-space: normal;
+  }
+}
+
+@media (width >= 375px) {
+  .sx-breadcrumb-wrapper {
+    padding: 16px 15px !important;
+    max-width: 40pc !important;
+  }
+}
+
+@media (width >= 640px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 40pc !important;
+  }
+}
+
+@media (width >= 768px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 8in !important;
+  }
+}
+
+@media (width >= 1024px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 63pc !important;
+    padding-left: 47px !important;
+    padding-right: 47px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+@media (width >= 1280px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 79pc !important;
+    padding-left: 47px !important;
+    padding-right: 47px !important;
+  }
+}
+
+@media (width >= 1366px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 84pc !important;
+    padding-left: 47px !important;
+    padding-right: 47px !important;
+  }
+}
+
+@media (width >= 1440px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 89pc !important;
+  }
+}
+
+@media (width >= 1536px) {
+  .sx-breadcrumb-wrapper {
+    max-width: 95pc !important;
+  }
+}

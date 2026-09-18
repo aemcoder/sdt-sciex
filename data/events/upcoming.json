@@ -1,0 +1,2457 @@
+{
+ "totalCount": 71,
+ "totalCountFiltered": 71,
+ "facets": [
+  {
+   "facetId": "eventyear",
+   "field": "eventyear",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "2025",
+     "state": "idle",
+     "numberOfResults": 11
+    },
+    {
+     "value": "2026",
+     "state": "idle",
+     "numberOfResults": 57
+    }
+   ],
+   "indexScore": 0.2890422535211268
+  },
+  {
+   "facetId": "region",
+   "field": "region",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "All",
+     "state": "idle",
+     "numberOfResults": 11
+    },
+    {
+     "value": "APAC",
+     "state": "idle",
+     "numberOfResults": 1
+    },
+    {
+     "value": "Europe",
+     "state": "idle",
+     "numberOfResults": 30
+    },
+    {
+     "value": "India",
+     "state": "idle",
+     "numberOfResults": 15
+    },
+    {
+     "value": "Korea",
+     "state": "idle",
+     "numberOfResults": 6
+    },
+    {
+     "value": "North America",
+     "state": "idle",
+     "numberOfResults": 6
+    },
+    {
+     "value": "South America",
+     "state": "idle",
+     "numberOfResults": 1
+    },
+    {
+     "value": "UK",
+     "state": "idle",
+     "numberOfResults": 1
+    }
+   ],
+   "indexScore": 0.2849416498993964
+  },
+  {
+   "facetId": "applications",
+   "field": "applications",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "Application",
+     "state": "idle",
+     "numberOfResults": 2
+    },
+    {
+     "value": "Biomedical and omics research",
+     "state": "idle",
+     "numberOfResults": 16
+    },
+    {
+     "value": "Biopharma",
+     "state": "idle",
+     "numberOfResults": 20
+    },
+    {
+     "value": "Clinical",
+     "state": "idle",
+     "numberOfResults": 8
+    },
+    {
+     "value": "Environmental testing",
+     "state": "idle",
+     "numberOfResults": 24
+    },
+    {
+     "value": "Food and beverage testing",
+     "state": "idle",
+     "numberOfResults": 21
+    },
+    {
+     "value": "Forensic testing",
+     "state": "idle",
+     "numberOfResults": 14
+    },
+    {
+     "value": "Pharma",
+     "state": "idle",
+     "numberOfResults": 21
+    }
+   ],
+   "indexScore": 0.2829698189134809,
+   "label": "Applications"
+  },
+  {
+   "facetId": "eventmonth",
+   "field": "eventmonth",
+   "moreValuesAvailable": false,
+   "values": [
+    {
+     "value": "April",
+     "state": "idle",
+     "numberOfResults": 3
+    },
+    {
+     "value": "August",
+     "state": "idle",
+     "numberOfResults": 3
+    },
+    {
+     "value": "December",
+     "state": "idle",
+     "numberOfResults": 1
+    },
+    {
+     "value": "February",
+     "state": "idle",
+     "numberOfResults": 5
+    },
+    {
+     "value": "January",
+     "state": "idle",
+     "numberOfResults": 2
+    },
+    {
+     "value": "July",
+     "state": "idle",
+     "numberOfResults": 3
+    },
+    {
+     "value": "June",
+     "state": "idle",
+     "numberOfResults": 7
+    },
+    {
+     "value": "March",
+     "state": "idle",
+     "numberOfResults": 7
+    },
+    {
+     "value": "May",
+     "state": "idle",
+     "numberOfResults": 3
+    },
+    {
+     "value": "November",
+     "state": "idle",
+     "numberOfResults": 1
+    },
+    {
+     "value": "October",
+     "state": "idle",
+     "numberOfResults": 9
+    },
+    {
+     "value": "September",
+     "state": "idle",
+     "numberOfResults": 11
+    }
+   ],
+   "indexScore": 0.27851106639839035
+  }
+ ],
+ "categoryFacets": [],
+ "results": [
+  {
+   "title": "RAFA 2026",
+   "uri": "https://sciex.com/events/foodbev/emea/rafa-2026",
+   "clickUri": "https://sciex.com/events/foodbev/emea/rafa-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/foodbev/emea/rafa-2026",
+   "primaryid": "ONEVENTEJNTVG2DCIFHFSUTONYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Join our workshop on November 4, 2026 or visit our booth #10 at Clarion Congress Hotel Prague ... text-left ... SCIEX workshop: From known risks to hidden threats: comprehensive and advanced workfl...",
+   "raw": {
+    "sysurihash": "sIR6dKgShbANYRnn",
+    "urihash": "sIR6dKgShbANYRnn",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "588e0f0d43a47b031b47f43cbe54a6b1ac9522c3e856b99fc47dbf4bd037",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1793803500000,
+    "eventmonth": "November",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "RAFA 2026",
+   "Uri": "https://sciex.com/events/foodbev/emea/rafa-2026",
+   "ClickUri": "https://sciex.com/events/foodbev/emea/rafa-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/foodbev/emea/rafa-2026",
+   "Excerpt": "Join our workshop on November 4, 2026 or visit our booth #10 at Clarion Congress Hotel Prague ... text-left ... SCIEX workshop: From known risks to hidden threats: comprehensive and advanced workfl..."
+  },
+  {
+   "title": "SCIEX user meeting 2026",
+   "uri": "https://sciex.com/events/sciex-user-meeting-2026",
+   "clickUri": "https://sciex.com/events/sciex-user-meeting-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-user-meeting-2026",
+   "primaryid": "GNVUQTRQI5HVGQKXII3TQUCBO4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "#000 ... LSR – Pharma/Biopharma 14:00 – Dall'identificazione alla caratterizzazione strutturale di piccole molecole ... Clinical ... 15:50 – Discussione finale e chiusura dei lavori",
+   "raw": {
+    "sysurihash": "3kHN0GOSAWB78PAw",
+    "urihash": "3kHN0GOSAWB78PAw",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "0dcab6d9969f071292fb4905696c839934caa69db41a869d10319083532c",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1792663200000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research",
+     "Biopharma",
+     "Clinical",
+     "Environmental testing",
+     "Food and beverage testing",
+     "Forensic testing",
+     "Pharma"
+    ]
+   },
+   "Title": "SCIEX user meeting 2026",
+   "Uri": "https://sciex.com/events/sciex-user-meeting-2026",
+   "ClickUri": "https://sciex.com/events/sciex-user-meeting-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-user-meeting-2026",
+   "Excerpt": "#000 ... LSR – Pharma/Biopharma 14:00 – Dall'identificazione alla caratterizzazione strutturale di piccole molecole ... Clinical ... 15:50 – Discussione finale e chiusura dei lavori"
+  },
+  {
+   "title": "maintenance webinar oct",
+   "uri": "https://sciex.com/events/maintenance-webinar-oct",
+   "clickUri": "https://sciex.com/events/maintenance-webinar-oct",
+   "uniqueId": "42.53451$https://sciex.com/events/maintenance-webinar-oct",
+   "primaryid": "JRZDMTKBJFQTQQ2QM5IDMSSRNYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Webinar ... #000 ... 진공 인터페이스 청소 ... 데일리 점검 체크리스트 ... 온라인 세미나 지금 신청하기 https://info.sciex.com/LP=6010 one-column 1060",
+   "raw": {
+    "sysurihash": "Lr6MAIa8CPgP6JQn",
+    "urihash": "Lr6MAIa8CPgP6JQn",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "1a807cdedbc09990b48c7bce47fef511a7901dce1b42b506bb9d1e9c94bb",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Korea"
+    ],
+    "eventdate": 1792504800000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing",
+     "Clinical",
+     "Biopharma",
+     "Pharma",
+     "Environmental testing",
+     "Forensic testing"
+    ]
+   },
+   "Title": "maintenance webinar oct",
+   "Uri": "https://sciex.com/events/maintenance-webinar-oct",
+   "ClickUri": "https://sciex.com/events/maintenance-webinar-oct",
+   "UniqueId": "42.53451$https://sciex.com/events/maintenance-webinar-oct",
+   "Excerpt": "Webinar ... #000 ... 진공 인터페이스 청소 ... 데일리 점검 체크리스트 ... 온라인 세미나 지금 신청하기 https://info.sciex.com/LP=6010 one-column 1060"
+  },
+  {
+   "title": "SCIEX protein characterisation meeting",
+   "uri": "https://sciex.com/events/biopharma/emea/sciex-biopharma-meeting-uk",
+   "clickUri": "https://sciex.com/events/biopharma/emea/sciex-biopharma-meeting-uk",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/emea/sciex-biopharma-meeting-uk",
+   "primaryid": "K42XIMLTPBKU6OJXIVKEU53OIEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "horizontal ... sciextext ... Join us for a focused scientific meeting exploring the latest approaches in protein characterisation and advanced mass spectrometry. ... Hear from SCIEX scientists and ...",
+   "raw": {
+    "sysurihash": "W5t1sxUO97ETJwnA",
+    "urihash": "W5t1sxUO97ETJwnA",
+    "eventtype": [
+     "In-person event",
+     "Live webinar"
+    ],
+    "permanentid": "c494ca661560269bfc4341f8eccd4c9ead03722dc425aaff332eeaadd0bf",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe",
+     "UK"
+    ],
+    "eventdate": 1792060200000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "SCIEX protein characterisation meeting",
+   "Uri": "https://sciex.com/events/biopharma/emea/sciex-biopharma-meeting-uk",
+   "ClickUri": "https://sciex.com/events/biopharma/emea/sciex-biopharma-meeting-uk",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/emea/sciex-biopharma-meeting-uk",
+   "Excerpt": "horizontal ... sciextext ... Join us for a focused scientific meeting exploring the latest approaches in protein characterisation and advanced mass spectrometry. ... Hear from SCIEX scientists and ..."
+  },
+  {
+   "title": "Estendere la potenza della LC-MS-Webinar",
+   "uri": "https://sciex.com/events/estendere-la-potenza-della-lc-ms-webinar",
+   "clickUri": "https://sciex.com/events/estendere-la-potenza-della-lc-ms-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/estendere-la-potenza-della-lc-ms-webinar",
+   "primaryid": "IFBWC4CTN55HGNKCHFXTCM2XYOYS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Una panoramica del sistema QTRAP Quando e perché la tecnologia MRM³ fa la differenza Flussi di lavoro applicativi reali ... A chi è rivolto ... registerform Iscriviti ora",
+   "raw": {
+    "sysurihash": "ACapSozs5B9o13Wñ",
+    "urihash": "ACapSozs5B9o13Wñ",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "b98e12e4d78d2be781ea2b79284aeb308bbd7af4a83241f8caad82319242",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1791972000000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing",
+     "Environmental testing",
+     "Forensic testing"
+    ]
+   },
+   "Title": "Estendere la potenza della LC-MS-Webinar",
+   "Uri": "https://sciex.com/events/estendere-la-potenza-della-lc-ms-webinar",
+   "ClickUri": "https://sciex.com/events/estendere-la-potenza-della-lc-ms-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/estendere-la-potenza-della-lc-ms-webinar",
+   "Excerpt": "Una panoramica del sistema QTRAP Quando e perché la tecnologia MRM³ fa la differenza Flussi di lavoro applicativi reali ... A chi è rivolto ... registerform Iscriviti ora"
+  },
+  {
+   "title": "SCIEX ADME DMPK Meeting UK",
+   "uri": "https://sciex.com/events/pharma/emea/sciex-adme-dmpk-meeting-uk",
+   "clickUri": "https://sciex.com/events/pharma/emea/sciex-adme-dmpk-meeting-uk",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma/emea/sciex-adme-dmpk-meeting-uk",
+   "primaryid": "NBTFEVSCGNJVO6CTHF4FQ32EPAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Join us for two days of scientific presentations, practical workshops, and valuable networking with peers across the UK ADME/DMPK community. ... Hear from your peers in the pharmaceut...",
+   "raw": {
+    "sysurihash": "hfRVB3SWxS9xXoDx",
+    "urihash": "hfRVB3SWxS9xXoDx",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "c0486080fb14745b8ab39c9c739d0da0537862c6086c24606027a5a74516",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1791882000000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "SCIEX ADME DMPK Meeting UK",
+   "Uri": "https://sciex.com/events/pharma/emea/sciex-adme-dmpk-meeting-uk",
+   "ClickUri": "https://sciex.com/events/pharma/emea/sciex-adme-dmpk-meeting-uk",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma/emea/sciex-adme-dmpk-meeting-uk",
+   "Excerpt": "text-left ... Join us for two days of scientific presentations, practical workshops, and valuable networking with peers across the UK ADME/DMPK community. ... Hear from your peers in the pharmaceut..."
+  },
+  {
+   "title": "MSACL 2026",
+   "uri": "https://sciex.com/events/clinical/amer/msacl-2026",
+   "clickUri": "https://sciex.com/events/clinical/amer/msacl-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/clinical/amer/msacl-2026",
+   "primaryid": "MJ2U6T2WG5LEISCILJLXIUSOOUXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Accelerate discovery. ... Join SCIEX at MSACL in Montréal, Canada this October to learn how advances in mass spectrometry are helping clinical researchers generate robust results faster, quantify ...",
+   "raw": {
+    "sysurihash": "buOOV7VDHHZWtRNu",
+    "urihash": "buOOV7VDHHZWtRNu",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "f8d3cc911d76155481d783b250245a1bcef1de8fd962fe7b21726de457cb",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "eventdate": 1791372600000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Clinical"
+    ]
+   },
+   "Title": "MSACL 2026",
+   "Uri": "https://sciex.com/events/clinical/amer/msacl-2026",
+   "ClickUri": "https://sciex.com/events/clinical/amer/msacl-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/clinical/amer/msacl-2026",
+   "Excerpt": "Accelerate discovery. ... Join SCIEX at MSACL in Montréal, Canada this October to learn how advances in mass spectrometry are helping clinical researchers generate robust results faster, quantify ..."
+  },
+  {
+   "title": "SCIEX Summit",
+   "uri": "https://sciex.com/events/sciex-summit",
+   "clickUri": "https://sciex.com/events/sciex-summit",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-summit",
+   "primaryid": "KRDWCSLYK5BHGTSMOPB3A3KGORMC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... Step into the frontier of innovation at the upcoming SCIEX summit 2026, where the brightest minds in analytical science will converge to ignite conversation, challenge convention, and...",
+   "raw": {
+    "sysurihash": "TGaIxWBsNLsðmFtX",
+    "urihash": "TGaIxWBsNLsðmFtX",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "9477187f237fe6e782d56166019c8e09211bfcd1141d3fac49665c7f6241",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "eventdate": 1791280800000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "SCIEX Summit",
+   "Uri": "https://sciex.com/events/sciex-summit",
+   "ClickUri": "https://sciex.com/events/sciex-summit",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-summit",
+   "Excerpt": "sciextext ... Step into the frontier of innovation at the upcoming SCIEX summit 2026, where the brightest minds in analytical science will converge to ignite conversation, challenge convention, and..."
+  },
+  {
+   "title": "Tackling emerging contaminants in food and water using the ZenoTOF 8600 system",
+   "uri": "https://sciex.com/events/tackling-emerging-contaminants-in-food-and-water-using-the-zenotof-8600-system",
+   "clickUri": "https://sciex.com/events/tackling-emerging-contaminants-in-food-and-water-using-the-zenotof-8600-system",
+   "uniqueId": "42.53451$https://sciex.com/events/tackling-emerging-contaminants-in-food-and-water-using-the-zenotof-8600-system",
+   "primaryid": "KNNDKQLEIRRUORCOJU4MHMKGGJTS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "text-left ... The objective of this webinar is to demonstrate how the ZenoTOF 8600 system enables advanced, reliable, and high-throughput analysis for food safety and environmental testing. ... Par...",
+   "raw": {
+    "sysurihash": "SZ5AdDcGDNM8ñF2g",
+    "urihash": "SZ5AdDcGDNM8ñF2g",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "2428bf3c5fbe5382f5637f37ee457630e2150c3695924bd2980e72f9699d",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1790848800000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Tackling emerging contaminants in food and water using the ZenoTOF 8600 system",
+   "Uri": "https://sciex.com/events/tackling-emerging-contaminants-in-food-and-water-using-the-zenotof-8600-system",
+   "ClickUri": "https://sciex.com/events/tackling-emerging-contaminants-in-food-and-water-using-the-zenotof-8600-system",
+   "UniqueId": "42.53451$https://sciex.com/events/tackling-emerging-contaminants-in-food-and-water-using-the-zenotof-8600-system",
+   "Excerpt": "text-left ... The objective of this webinar is to demonstrate how the ZenoTOF 8600 system enables advanced, reliable, and high-throughput analysis for food safety and environmental testing. ... Par..."
+  },
+  {
+   "title": "Biopharma Roadshow Canada",
+   "uri": "https://sciex.com/events/biopharma/amer/biopharma-roadshow-canada",
+   "clickUri": "https://sciex.com/events/biopharma/amer/biopharma-roadshow-canada",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/amer/biopharma-roadshow-canada",
+   "primaryid": "JRJUKVBXGIYDCWSMKZGGSWLCYOYS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... Join us for a day of science, collaboration, and practical insights focused on accelerating biopharmaceutical drug development. ... Thursday, October 1, 2026 | 10:00 a.m. – 3:00 p.m.",
+   "raw": {
+    "sysurihash": "LSET7201ZLVLiYbñ",
+    "urihash": "LSET7201ZLVLiYbñ",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "d3b459d3d4b4794dc07105ad333ebc5865e3e48dfb8dba4893dd40e7bf4c",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "eventdate": 1790848800000,
+    "eventmonth": "October",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Biopharma Roadshow Canada",
+   "Uri": "https://sciex.com/events/biopharma/amer/biopharma-roadshow-canada",
+   "ClickUri": "https://sciex.com/events/biopharma/amer/biopharma-roadshow-canada",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/amer/biopharma-roadshow-canada",
+   "Excerpt": "sciextext ... Join us for a day of science, collaboration, and practical insights focused on accelerating biopharmaceutical drug development. ... Thursday, October 1, 2026 | 10:00 a.m. – 3:00 p.m."
+  },
+  {
+   "title": "Clean Foods Inside and Out",
+   "uri": "https://sciex.com/events/foodbev/amer/clean-foods-inside-and-out",
+   "clickUri": "https://sciex.com/events/foodbev/amer/clean-foods-inside-and-out",
+   "uniqueId": "42.53451$https://sciex.com/events/foodbev/amer/clean-foods-inside-and-out",
+   "primaryid": "KZLVU3TXIR4GK6D2ORRUMYJWJIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Alimentos más limpios, por dentro y por fuera ... Alimentos más limpios comienzan con una mejor detección ... Los laboratorios de análisis de alimentos enfrentan una presión cada vez mayor par...",
+   "raw": {
+    "sysurihash": "VWZnwDxexztcFa6J",
+    "urihash": "VWZnwDxexztcFa6J",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "3577971516bcdad59fec65da4d764baa82c41223351a2b0d492d84844ba5",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "eventdate": 1790672400000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Clean Foods Inside and Out",
+   "Uri": "https://sciex.com/events/foodbev/amer/clean-foods-inside-and-out",
+   "ClickUri": "https://sciex.com/events/foodbev/amer/clean-foods-inside-and-out",
+   "UniqueId": "42.53451$https://sciex.com/events/foodbev/amer/clean-foods-inside-and-out",
+   "Excerpt": "Alimentos más limpios, por dentro y por fuera ... Alimentos más limpios comienzan con una mejor detección ... Los laboratorios de análisis de alimentos enfrentan una presión cada vez mayor par..."
+  },
+  {
+   "title": "HUPO 2026",
+   "uri": "https://sciex.com/events/hupo-2026",
+   "clickUri": "https://sciex.com/events/hupo-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/hupo-2026",
+   "primaryid": "GYYVGWLEJ5EDKY3XG5RFQWLKMYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... SCIEX is proud to sponsor HUPO 2026 in Singapore, where proteomics researchers from around the world will gather to explore the technologies, workflows, and ideas shaping the future o...",
+   "raw": {
+    "sysurihash": "61SYdOH5cw7bXYjf",
+    "urihash": "61SYdOH5cw7bXYjf",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "da32817ff49c428495321af04dc5bfec3d7662e4b3b530df27585627c592",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "eventdate": 1790597700000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "HUPO 2026",
+   "Uri": "https://sciex.com/events/hupo-2026",
+   "ClickUri": "https://sciex.com/events/hupo-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/hupo-2026",
+   "Excerpt": "text-left ... SCIEX is proud to sponsor HUPO 2026 in Singapore, where proteomics researchers from around the world will gather to explore the technologies, workflows, and ideas shaping the future o..."
+  },
+  {
+   "title": "Biopharma CE Oligo webinar 2026",
+   "uri": "https://sciex.com/events/biopharma-ce-oligo-webinar-2026",
+   "clickUri": "https://sciex.com/events/biopharma-ce-oligo-webinar-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma-ce-oligo-webinar-2026",
+   "primaryid": "GY4XUM3OKFLG4VKIMMYWIWS2GUXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Capillary electrophoresis (CE) has supported DNA, RNA, and oligonucleotide analysis for decades. ... Today, it is helping biopharmaceutical laboratories gain deeper insight into nucle...",
+   "raw": {
+    "sysurihash": "69z3nQVnUHc1dZZ5",
+    "urihash": "69z3nQVnUHc1dZZ5",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "aa3f1f0fbf744370be0c826539c877b1c1eb92be08a10ecb10d0d76534bc",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1790161200000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Biopharma CE Oligo webinar 2026",
+   "Uri": "https://sciex.com/events/biopharma-ce-oligo-webinar-2026",
+   "ClickUri": "https://sciex.com/events/biopharma-ce-oligo-webinar-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma-ce-oligo-webinar-2026",
+   "Excerpt": "text-left ... Capillary electrophoresis (CE) has supported DNA, RNA, and oligonucleotide analysis for decades. ... Today, it is helping biopharmaceutical laboratories gain deeper insight into nucle..."
+  },
+  {
+   "title": "Erweiterte Workflows mit dem QTRAP-System",
+   "uri": "https://sciex.com/events/erweiterte-workflows-mit-dem-qtrap-system",
+   "clickUri": "https://sciex.com/events/erweiterte-workflows-mit-dem-qtrap-system",
+   "uniqueId": "42.53451$https://sciex.com/events/erweiterte-workflows-mit-dem-qtrap-system",
+   "primaryid": "NRME243XO5DXCRTEKZTGMVKKNQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Komplexe analytische Herausforderungen mit QTRAP-gestützten Workflows meistern ... Moderne analytische Labore stehen zunehmend unter Druck, hochsensitive, selektive und zuverlässige...",
+   "raw": {
+    "sysurihash": "lXMswwGqFdVffUJl",
+    "urihash": "lXMswwGqFdVffUJl",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "dcc3ab2f917bf95c8c38dd0bb23439793b72986812a96caf030e1547b17a",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1790161200000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing",
+     "Forensic testing",
+     "Environmental testing"
+    ]
+   },
+   "Title": "Erweiterte Workflows mit dem QTRAP-System",
+   "Uri": "https://sciex.com/events/erweiterte-workflows-mit-dem-qtrap-system",
+   "ClickUri": "https://sciex.com/events/erweiterte-workflows-mit-dem-qtrap-system",
+   "UniqueId": "42.53451$https://sciex.com/events/erweiterte-workflows-mit-dem-qtrap-system",
+   "Excerpt": "text-left ... Komplexe analytische Herausforderungen mit QTRAP-gestützten Workflows meistern ... Moderne analytische Labore stehen zunehmend unter Druck, hochsensitive, selektive und zuverlässige..."
+  },
+  {
+   "title": "QTRAP Webinar 2026",
+   "uri": "https://sciex.com/events/qtrap-webinar-2026",
+   "clickUri": "https://sciex.com/events/qtrap-webinar-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/qtrap-webinar-2026",
+   "primaryid": "IRVVG2KFNVQU2N3WPJWDSUDZJAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Modern analytical laboratories face increasing complexity — from trace level quantitation to challenging matrices, demanding regulations, and the need for unequivocal confirmation. ...",
+   "raw": {
+    "sysurihash": "DkSiEmaM7vzl9PyH",
+    "urihash": "DkSiEmaM7vzl9PyH",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "435d527e7e0fa722b9069c1d489cc3c76eb6764b4bd351a59585a2e3ae17",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1790074800000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma",
+     "Biomedical and omics research",
+     "Food and beverage testing",
+     "Environmental testing",
+     "Clinical",
+     "Forensic testing"
+    ]
+   },
+   "Title": "QTRAP Webinar 2026",
+   "Uri": "https://sciex.com/events/qtrap-webinar-2026",
+   "ClickUri": "https://sciex.com/events/qtrap-webinar-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/qtrap-webinar-2026",
+   "Excerpt": "text-left ... Modern analytical laboratories face increasing complexity — from trace level quantitation to challenging matrices, demanding regulations, and the need for unequivocal confirmation. ..."
+  },
+  {
+   "title": "SOFT-TIAFT 2026",
+   "uri": "https://sciex.com/events/forensics/amer/better-forensic-outcomes-begin-with-sciex",
+   "clickUri": "https://sciex.com/events/forensics/amer/better-forensic-outcomes-begin-with-sciex",
+   "uniqueId": "42.53451$https://sciex.com/events/forensics/amer/better-forensic-outcomes-begin-with-sciex",
+   "primaryid": "YOYHOOCBOFEVI5KTGJRWK23MJIZS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Join us at SOFT-TIAFT this September to discover new approaches in forensic toxicology designed to help you do more with less. ... Discover solutions that can help you increase confidence, efficien...",
+   "raw": {
+    "sysurihash": "ðw8AqITuS2ceklJ3",
+    "urihash": "ðw8AqITuS2ceklJ3",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "83b4bc46d376127874f74c6a0ed5b1fd67ea8842c3e1c51ed4c448b2afc6",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "eventdate": 1789992000000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing"
+    ]
+   },
+   "Title": "SOFT-TIAFT 2026",
+   "Uri": "https://sciex.com/events/forensics/amer/better-forensic-outcomes-begin-with-sciex",
+   "ClickUri": "https://sciex.com/events/forensics/amer/better-forensic-outcomes-begin-with-sciex",
+   "UniqueId": "42.53451$https://sciex.com/events/forensics/amer/better-forensic-outcomes-begin-with-sciex",
+   "Excerpt": "Join us at SOFT-TIAFT this September to discover new approaches in forensic toxicology designed to help you do more with less. ... Discover solutions that can help you increase confidence, efficien..."
+  },
+  {
+   "title": "biophamar seminar",
+   "uri": "https://sciex.com/events/biophamar-seminar",
+   "clickUri": "https://sciex.com/events/biophamar-seminar",
+   "uniqueId": "42.53451$https://sciex.com/events/biophamar-seminar",
+   "primaryid": "HBFGCU3JKVVDKQRZOZ5ESNSXG4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "운영하는 실무자까지 모두에게 유용한 시간이 될 것으로 기대 ... sessiontimeline Agenda 13:40 ~ 14:00 등록 ... 15:50 ~ 16:05 휴식 ... 16:45 ~ 16:50 끝인사",
+   "raw": {
+    "sysurihash": "8JaSiUj5B9vzI6W7",
+    "urihash": "8JaSiUj5B9vzI6W7",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "2fc6656f26c0bae8b609deca2ae5aa5b8c71fa794353516230d18bc145cc",
+    "sourcetype": "Sitemap",
+    "eventdate": 1789652400000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma",
+     "Environmental testing",
+     "Food and beverage testing",
+     "Clinical",
+     "Forensic testing"
+    ]
+   },
+   "Title": "biophamar seminar",
+   "Uri": "https://sciex.com/events/biophamar-seminar",
+   "ClickUri": "https://sciex.com/events/biophamar-seminar",
+   "UniqueId": "42.53451$https://sciex.com/events/biophamar-seminar",
+   "Excerpt": "운영하는 실무자까지 모두에게 유용한 시간이 될 것으로 기대 ... sessiontimeline Agenda 13:40 ~ 14:00 등록 ... 15:50 ~ 16:05 휴식 ... 16:45 ~ 16:50 끝인사"
+  },
+  {
+   "title": "SCIEX ADME DMPK Meeting",
+   "uri": "https://sciex.com/events/sciex-adme-dmpk-meeting",
+   "clickUri": "https://sciex.com/events/sciex-adme-dmpk-meeting",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-adme-dmpk-meeting",
+   "primaryid": "GZIGSWTPGU4VCTRRGR4EIS3ZGQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Join us for two days of scientific presentations, practical workshops, and valuable networking with peers across the Nordic ADME/DMPK community. ... Hear from your peers in the pharma...",
+   "raw": {
+    "sysurihash": "6PiZo59QN14xDKy4",
+    "urihash": "6PiZo59QN14xDKy4",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "447e1104407655eeb6a78bc79b655d488f1456b93621d78a85bbe12bd506",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1789549200000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "SCIEX ADME DMPK Meeting",
+   "Uri": "https://sciex.com/events/sciex-adme-dmpk-meeting",
+   "ClickUri": "https://sciex.com/events/sciex-adme-dmpk-meeting",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-adme-dmpk-meeting",
+   "Excerpt": "text-left ... Join us for two days of scientific presentations, practical workshops, and valuable networking with peers across the Nordic ADME/DMPK community. ... Hear from your peers in the pharma..."
+  },
+  {
+   "title": "India-EMEAI-novus V55 Dr. DevKant-August 2026",
+   "uri": "https://sciex.com/events/pharma/emea/india-emeai-novus-v55-dr-devkant-august-2026",
+   "clickUri": "https://sciex.com/events/pharma/emea/india-emeai-novus-v55-dr-devkant-august-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma/emea/india-emeai-novus-v55-dr-devkant-august-2026",
+   "primaryid": "OJIXOOKQGZJVQ2JYGZSMHMJSMNTS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Join us for an insightful webinar exploring advanced LC-MS/MS approaches for the quantitative analysis of nitrosamine impurities using the SCIEX novus V55 system. ... This session will highlight hi...",
+   "raw": {
+    "sysurihash": "rQw9P6SXi86dñ2cg",
+    "urihash": "rQw9P6SXi86dñ2cg",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "601354871f3684e2f2b69312c14027fb73ab2d1c0c7fd2d99cf7b69c067a",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1789138800000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "India-EMEAI-novus V55 Dr. DevKant-August 2026",
+   "Uri": "https://sciex.com/events/pharma/emea/india-emeai-novus-v55-dr-devkant-august-2026",
+   "ClickUri": "https://sciex.com/events/pharma/emea/india-emeai-novus-v55-dr-devkant-august-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma/emea/india-emeai-novus-v55-dr-devkant-august-2026",
+   "Excerpt": "Join us for an insightful webinar exploring advanced LC-MS/MS approaches for the quantitative analysis of nitrosamine impurities using the SCIEX novus V55 system. ... This session will highlight hi..."
+  },
+  {
+   "title": "Nitrosamine Workshop",
+   "uri": "https://sciex.com/events/pharma/amer/nitrosamine-workshop",
+   "clickUri": "https://sciex.com/events/pharma/amer/nitrosamine-workshop",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma/amer/nitrosamine-workshop",
+   "primaryid": "GAYG6N3UKJUGC4KENAY4HMDKIZIS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Workshop overview: ... Join industry experts for an in-depth discussion on practical approaches to nitrosamine and NDSRI analysis in pharmaceutical small molecule and tobacco products. ... Through ...",
+   "raw": {
+    "sysurihash": "00o7tRhaqDh1ðjFQ",
+    "urihash": "00o7tRhaqDh1ðjFQ",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "34054de042eb3109686fe35e3758e931f2812e9422aa4fe3632372db0fc5",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "eventdate": 1788426000000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Nitrosamine Workshop",
+   "Uri": "https://sciex.com/events/pharma/amer/nitrosamine-workshop",
+   "ClickUri": "https://sciex.com/events/pharma/amer/nitrosamine-workshop",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma/amer/nitrosamine-workshop",
+   "Excerpt": "Workshop overview: ... Join industry experts for an in-depth discussion on practical approaches to nitrosamine and NDSRI analysis in pharmaceutical small molecule and tobacco products. ... Through ..."
+  },
+  {
+   "title": "biophase8800 webinar",
+   "uri": "https://sciex.com/events/biophase8800-webinar",
+   "clickUri": "https://sciex.com/events/biophase8800-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/biophase8800-webinar",
+   "primaryid": "ORKEKZLJYOYULQ5RJBZEUWTOGVYWKLRVGM2DKMJOMRSWMYLVNR2A",
+   "excerpt": "webinar ... 저농도 불순물 검출 - 제한된 시료량에서도 높은 감도를 확보하 ... 온라인 세미나 등록하기 https://info.sciex.com/LP=5957 one-column 1060",
+   "raw": {
+    "sysurihash": "tTEeiñEñHrJZn5qe",
+    "urihash": "tTEeiñEñHrJZn5qe",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "466e4a75e86080a993267e14e7fddb5a1c648beac2810b568b4a866815d1",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Korea"
+    ],
+    "eventdate": 1788357600000,
+    "eventmonth": "September",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma",
+     "Clinical",
+     "Forensic testing",
+     "Biomedical and omics research",
+     "Food and beverage testing",
+     "Environmental testing"
+    ]
+   },
+   "Title": "biophase8800 webinar",
+   "Uri": "https://sciex.com/events/biophase8800-webinar",
+   "ClickUri": "https://sciex.com/events/biophase8800-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/biophase8800-webinar",
+   "Excerpt": "webinar ... 저농도 불순물 검출 - 제한된 시료량에서도 높은 감도를 확보하 ... 온라인 세미나 등록하기 https://info.sciex.com/LP=5957 one-column 1060"
+  },
+  {
+   "title": "Live webinar: Distinguishing Ile/Leu Variants in Immunopeptidomics with SCIEX HRMS",
+   "uri": "https://sciex.com/events/lsr/live-webinar-distinguishing-ile-leu-variants-in-immunopeptidomics-with-sciex-hrms",
+   "clickUri": "https://sciex.com/events/lsr/live-webinar-distinguishing-ile-leu-variants-in-immunopeptidomics-with-sciex-hrms",
+   "uniqueId": "42.53451$https://sciex.com/events/lsr/live-webinar-distinguishing-ile-leu-variants-in-immunopeptidomics-with-sciex-hrms",
+   "primaryid": "KQ2FI6KKOFRGY532NN4UIRLVMUXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Time: 1:00 p.m. AEST (Sydney/Melbourne) | 11:00 a.m. SGT ... Accurate identification of immunopeptides is essential for understanding immune recognition in cancer. ... In this webinar, Reza present...",
+   "raw": {
+    "sysurihash": "T4TyJqblwzkyDEue",
+    "urihash": "T4TyJqblwzkyDEue",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "d4136d2bf522f5bcb79daf38104d3986c32c49f3fc5c73e88693846ae9f2",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Korea"
+    ],
+    "eventdate": 1787742000000,
+    "eventmonth": "August",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Live webinar: Distinguishing Ile/Leu Variants in Immunopeptidomics with SCIEX HRMS",
+   "Uri": "https://sciex.com/events/lsr/live-webinar-distinguishing-ile-leu-variants-in-immunopeptidomics-with-sciex-hrms",
+   "ClickUri": "https://sciex.com/events/lsr/live-webinar-distinguishing-ile-leu-variants-in-immunopeptidomics-with-sciex-hrms",
+   "UniqueId": "42.53451$https://sciex.com/events/lsr/live-webinar-distinguishing-ile-leu-variants-in-immunopeptidomics-with-sciex-hrms",
+   "Excerpt": "Time: 1:00 p.m. AEST (Sydney/Melbourne) | 11:00 a.m. SGT ... Accurate identification of immunopeptides is essential for understanding immune recognition in cancer. ... In this webinar, Reza present..."
+  },
+  {
+   "title": "PFAS Asia Summit 2026",
+   "uri": "https://sciex.com/events/pfas-asia-summit-2026",
+   "clickUri": "https://sciex.com/events/pfas-asia-summit-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/pfas-asia-summit-2026",
+   "primaryid": "IFATO5DVIF2DSSWDWBITQ3JZPE4S4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "PFAS Asia Summit is back in 2026! ... Join us with leading experts across science and industry to explore the latest PFAS developments shaping Asia. ... From evolving regulatory frameworks to cutti...",
+   "raw": {
+    "sysurihash": "AA7tuAt9JðQ8m9y9",
+    "urihash": "AA7tuAt9JðQ8m9y9",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "bddb56f5c9cf7404c025ca794f8681e34c64fd3aca76c3d8c494f2004b4c",
+    "sourcetype": "Sitemap",
+    "eventdate": 1786525200000,
+    "eventmonth": "August",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "PFAS Asia Summit 2026",
+   "Uri": "https://sciex.com/events/pfas-asia-summit-2026",
+   "ClickUri": "https://sciex.com/events/pfas-asia-summit-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/pfas-asia-summit-2026",
+   "Excerpt": "PFAS Asia Summit is back in 2026! ... Join us with leading experts across science and industry to explore the latest PFAS developments shaping Asia. ... From evolving regulatory frameworks to cutti..."
+  },
+  {
+   "title": "SCIEX Food Innovation Day",
+   "uri": "https://sciex.com/events/foodbev/amer/sciex-food-innovation-day",
+   "clickUri": "https://sciex.com/events/foodbev/amer/sciex-food-innovation-day",
+   "uniqueId": "42.53451$https://sciex.com/events/foodbev/amer/sciex-food-innovation-day",
+   "primaryid": "NNJGCUDGNNITGNZRLFHVGYTXGQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Location: Danaher Regional Offices ... Parque da Cidade Condominium | Sao Paulo, Brazil ... Discover practical LC-MS/MS strategies that will improve your food testing throughput, strengthen confide...",
+   "raw": {
+    "sysurihash": "kRaPfkQ371YOSbw4",
+    "urihash": "kRaPfkQ371YOSbw4",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "40f4eaa4a92043b68e5ba297194f73ccaa63bbaa8ebde0fc9d79ea648840",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "South America"
+    ],
+    "eventdate": 1786438800000,
+    "eventmonth": "August",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "SCIEX Food Innovation Day",
+   "Uri": "https://sciex.com/events/foodbev/amer/sciex-food-innovation-day",
+   "ClickUri": "https://sciex.com/events/foodbev/amer/sciex-food-innovation-day",
+   "UniqueId": "42.53451$https://sciex.com/events/foodbev/amer/sciex-food-innovation-day",
+   "Excerpt": "Location: Danaher Regional Offices ... Parque da Cidade Condominium | Sao Paulo, Brazil ... Discover practical LC-MS/MS strategies that will improve your food testing throughput, strengthen confide..."
+  },
+  {
+   "title": "Live webinar: Applications of LC-MS/HRMS for Trace Organic Micropollutant Analysis in Wastewater and Environmental Systems",
+   "uri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems",
+   "clickUri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems",
+   "uniqueId": "42.53451$https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems",
+   "primaryid": "KVHFCUDTJJYTKRCKKPB3AULNOZ2C4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "text-left ... Join us for an insightful webinar exploring how advanced LC-MS/HRMS workflows are enabling sensitive detection and comprehensive analysis of trace organic micropollutants in wastewate...",
+   "raw": {
+    "sysurihash": "UNQPsJq5DJSðQmvt",
+    "urihash": "UNQPsJq5DJSðQmvt",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "ad4aebbcd9f9702c94f958080cded9368a4977cf7940b7fcd2fbcad7ef8f",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1783695600000,
+    "eventmonth": "July",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "Live webinar: Applications of LC-MS/HRMS for Trace Organic Micropollutant Analysis in Wastewater and Environmental Systems",
+   "Uri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems",
+   "ClickUri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems",
+   "UniqueId": "42.53451$https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems",
+   "Excerpt": "text-left ... Join us for an insightful webinar exploring how advanced LC-MS/HRMS workflows are enabling sensitive detection and comprehensive analysis of trace organic micropollutants in wastewate..."
+  },
+  {
+   "title": "Live webinar: analysis of per- and polyfluoroalkyl substances (PFAS) in food substances using LC-MS/MS solutions.",
+   "uri": "https://sciex.com/events/analysis-of-pfas-in-food-substances",
+   "clickUri": "https://sciex.com/events/analysis-of-pfas-in-food-substances",
+   "uniqueId": "42.53451$https://sciex.com/events/analysis-of-pfas-in-food-substances",
+   "primaryid": "JRXFGWDRKZ3EIR3FK53E25DHMQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... Join us for an insightful webinar on the analysis of Per- and Polyfluoroalkyl Substances (PFAS) in food substances using advanced LC-MS/MS technology. ... This session w...",
+   "raw": {
+    "sysurihash": "LnSXqVvDGeWvMtgd",
+    "urihash": "LnSXqVvDGeWvMtgd",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "964d23f1682c475c316508e304373e878aad8b4df2cab2d51dfd681459cc",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1783522800000,
+    "eventmonth": "July",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Live webinar: analysis of per- and polyfluoroalkyl substances (PFAS) in food substances using LC-MS/MS solutions.",
+   "Uri": "https://sciex.com/events/analysis-of-pfas-in-food-substances",
+   "ClickUri": "https://sciex.com/events/analysis-of-pfas-in-food-substances",
+   "UniqueId": "42.53451$https://sciex.com/events/analysis-of-pfas-in-food-substances",
+   "Excerpt": "sciextext ... text-left ... Join us for an insightful webinar on the analysis of Per- and Polyfluoroalkyl Substances (PFAS) in food substances using advanced LC-MS/MS technology. ... This session w..."
+  },
+  {
+   "title": "SCIEX 技術說明會 - 2026 TSMS",
+   "uri": "https://sciex.com/events/tsms-2026",
+   "clickUri": "https://sciex.com/events/tsms-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/tsms-2026",
+   "primaryid": "NFAXMNSDJ4YFA4T2OBRUKTDONQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "#000 ... 時間：12:00 p.m. - 13:00 p.m. 地點：電機大樓 203 教室 ... 葉先生畢業於新加坡國立大學（NUS），取得化學碩士學位，主修 ... text-white-background",
+   "raw": {
+    "sysurihash": "iAv6CO0PrzpcELnl",
+    "urihash": "iAv6CO0PrzpcELnl",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "afe03e5cf11139089b87c9dcd83b2c4126748a676db0469f3deda23279ba",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Korea"
+    ],
+    "eventdate": 1782907200000,
+    "eventmonth": "July",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research",
+     "Biopharma",
+     "Clinical",
+     "Environmental testing",
+     "Food and beverage testing",
+     "Forensic testing",
+     "Pharma"
+    ]
+   },
+   "Title": "SCIEX 技術說明會 - 2026 TSMS",
+   "Uri": "https://sciex.com/events/tsms-2026",
+   "ClickUri": "https://sciex.com/events/tsms-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/tsms-2026",
+   "Excerpt": "#000 ... 時間：12:00 p.m. - 13:00 p.m. 地點：電機大樓 203 教室 ... 葉先生畢業於新加坡國立大學（NUS），取得化學碩士學位，主修 ... text-white-background"
+  },
+  {
+   "title": "Advancing Proteomics with ZenoTOF",
+   "uri": "https://sciex.com/events/lsr/emea/advancing-proteomics-with-zenotof",
+   "clickUri": "https://sciex.com/events/lsr/emea/advancing-proteomics-with-zenotof",
+   "uniqueId": "42.53451$https://sciex.com/events/lsr/emea/advancing-proteomics-with-zenotof",
+   "primaryid": "NNZDCNRYINUDGV3BGNXVIVLFNIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Live webinar: Advancing Proteomics with ZenoTOF: From Single-Cell Analysis to Plasma Biomarker Discovery ... Join us for an insightful webinar on how ZenoTOF-based high‑resolution mass spectromet...",
+   "raw": {
+    "sysurihash": "kr168Ch3Wa3oTUej",
+    "urihash": "kr168Ch3Wa3oTUej",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "f49c131cf934ec0de7d0d8b6009f01e173c3c1ee16effa4243c893e8c6da",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1782831600000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Advancing Proteomics with ZenoTOF",
+   "Uri": "https://sciex.com/events/lsr/emea/advancing-proteomics-with-zenotof",
+   "ClickUri": "https://sciex.com/events/lsr/emea/advancing-proteomics-with-zenotof",
+   "UniqueId": "42.53451$https://sciex.com/events/lsr/emea/advancing-proteomics-with-zenotof",
+   "Excerpt": "Live webinar: Advancing Proteomics with ZenoTOF: From Single-Cell Analysis to Plasma Biomarker Discovery ... Join us for an insightful webinar on how ZenoTOF-based high‑resolution mass spectromet..."
+  },
+  {
+   "title": "pfas webinar",
+   "uri": "https://sciex.com/events/pfas-webinar",
+   "clickUri": "https://sciex.com/events/pfas-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/pfas-webinar",
+   "primaryid": "YOYW453FG5WGORJZKVKTIMWDWBUMHMJOGUZTINJRFZSGKZTBOVWHI",
+   "excerpt": "hero-banner Webinar ... #000 ... Overview horizontal sciextext text-left ... 세미나 지금 신청하기 https://info.sciex.com/LP=5840 one-column 1060",
+   "raw": {
+    "sysurihash": "ñnwe7lgE9UU42ðhñ",
+    "urihash": "ñnwe7lgE9UU42ðhñ",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "0ab710ee7aad1c1c8e26ae897fb7b72ad9e4815bd9d70e5953043c32c6ca",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Korea"
+    ],
+    "eventdate": 1782784800000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "pfas webinar",
+   "Uri": "https://sciex.com/events/pfas-webinar",
+   "ClickUri": "https://sciex.com/events/pfas-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/pfas-webinar",
+   "Excerpt": "hero-banner Webinar ... #000 ... Overview horizontal sciextext text-left ... 세미나 지금 신청하기 https://info.sciex.com/LP=5840 one-column 1060"
+  },
+  {
+   "title": "AMER-Events-From the lecture hall webinar series-2026",
+   "uri": "https://sciex.com/events/amer-events-from-the-lecture-hall-webinar-series-2026",
+   "clickUri": "https://sciex.com/events/amer-events-from-the-lecture-hall-webinar-series-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/amer-events-from-the-lecture-hall-webinar-series-2026",
+   "primaryid": "OZYECQSOMZ4TKTDKOQYUQTKTKMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "New perspectives. ... We're bringing the classroom straight to you with From the lecture hall: Mass spectrometry fundamentals. ... This 3-part webinar series brings you inside a virtual classroom l...",
+   "raw": {
+    "sysurihash": "vpABNfy5Ljt1HMSS",
+    "urihash": "vpABNfy5Ljt1HMSS",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "540f1ef5f49cf92dbd91aa90cb350ed6293d5066d670e3d44ec45cf4484f",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "eventdate": 1782259200000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "AMER-Events-From the lecture hall webinar series-2026",
+   "Uri": "https://sciex.com/events/amer-events-from-the-lecture-hall-webinar-series-2026",
+   "ClickUri": "https://sciex.com/events/amer-events-from-the-lecture-hall-webinar-series-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/amer-events-from-the-lecture-hall-webinar-series-2026",
+   "Excerpt": "New perspectives. ... We're bringing the classroom straight to you with From the lecture hall: Mass spectrometry fundamentals. ... This 3-part webinar series brings you inside a virtual classroom l..."
+  },
+  {
+   "title": "AFWC Italy",
+   "uri": "https://sciex.com/events/afwc-italy",
+   "clickUri": "https://sciex.com/events/afwc-italy",
+   "uniqueId": "42.53451$https://sciex.com/events/afwc-italy",
+   "primaryid": "NBEG2Z2YPBHWISKTMZIUCSLXGQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "#000 ... Registrati ora https://info.sciex.com/LP=5761 one-column 975px sessiontimeline Agenda ... 10:15 - 10:45 | L'emergenza del TFA e l'evoluzione dei PFAS: sfide per la ...",
+   "raw": {
+    "sysurihash": "hHmgXxOdISfQAIw4",
+    "urihash": "hHmgXxOdISfQAIw4",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "b82b2fb1f5700de188e6d7f98e7dc2638de61a0b7a93926dc57183487e7e",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1782207000000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "AFWC Italy",
+   "Uri": "https://sciex.com/events/afwc-italy",
+   "ClickUri": "https://sciex.com/events/afwc-italy",
+   "UniqueId": "42.53451$https://sciex.com/events/afwc-italy",
+   "Excerpt": "#000 ... Registrati ora https://info.sciex.com/LP=5761 one-column 975px sessiontimeline Agenda ... 10:15 - 10:45 | L'emergenza del TFA e l'evoluzione dei PFAS: sfide per la ..."
+  },
+  {
+   "title": "Wasser Workshop 2026",
+   "uri": "https://sciex.com/events/wasser-workshop-2026",
+   "clickUri": "https://sciex.com/events/wasser-workshop-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/wasser-workshop-2026",
+   "primaryid": "JYZGWMSNOZH4HMLYNRZDM6TVMZZC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Hochauflösung in der Wasseranalytik ... Zweckverband Landeswasserversorgung Langenau ... Was Sie erwartet: ... Grundlagen zum Einsatz der hochaufgelösten MS in der Wasseranalytik ... Praktische A...",
+   "raw": {
+    "sysurihash": "N2k2MvOñxlr6zufr",
+    "urihash": "N2k2MvOñxlr6zufr",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "31381f397c218b89c8d8ab26a8eba5ee45b09d0a29f11f8d340675131208",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1781602200000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "Wasser Workshop 2026",
+   "Uri": "https://sciex.com/events/wasser-workshop-2026",
+   "ClickUri": "https://sciex.com/events/wasser-workshop-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/wasser-workshop-2026",
+   "Excerpt": "Hochauflösung in der Wasseranalytik ... Zweckverband Landeswasserversorgung Langenau ... Was Sie erwartet: ... Grundlagen zum Einsatz der hochaufgelösten MS in der Wasseranalytik ... Praktische A..."
+  },
+  {
+   "title": "EPRW workshop 2026",
+   "uri": "https://sciex.com/events/foodbev/emea/eprw-workshop-2026",
+   "clickUri": "https://sciex.com/events/foodbev/emea/eprw-workshop-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/foodbev/emea/eprw-workshop-2026",
+   "primaryid": "GN5EMS2ZMM3GI43XGJ5DAQ2BG4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "June 8-12, 2026 | Join our SCIEX workshop on June 11, 2026 or visit our joint booth with Phenomenex #11 and #12 ... Join our SCIEX workshop on June 11 or visit our shared booth with Phenomenex at b...",
+   "raw": {
+    "sysurihash": "3zFKYc6dsw2z0CA7",
+    "urihash": "3zFKYc6dsw2z0CA7",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "65c06cdca9ca2ab1b9c9f929e4e45160783dc56de984af5297e6b141aa48",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1781184000000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing",
+     "Environmental testing"
+    ]
+   },
+   "Title": "EPRW workshop 2026",
+   "Uri": "https://sciex.com/events/foodbev/emea/eprw-workshop-2026",
+   "ClickUri": "https://sciex.com/events/foodbev/emea/eprw-workshop-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/foodbev/emea/eprw-workshop-2026",
+   "Excerpt": "June 8-12, 2026 | Join our SCIEX workshop on June 11, 2026 or visit our joint booth with Phenomenex #11 and #12 ... Join our SCIEX workshop on June 11 or visit our shared booth with Phenomenex at b..."
+  },
+  {
+   "title": "QTRAP Webinar 2026",
+   "uri": "https://sciex.com/events/foodbev/emea/qtrap-webinar-2026",
+   "clickUri": "https://sciex.com/events/foodbev/emea/qtrap-webinar-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/foodbev/emea/qtrap-webinar-2026",
+   "primaryid": "M4ZXQVL2GFWGEZKOM5ZEGN3QMMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Resolviendo retos analíticos complejos con los flujos de trabajo QTRAP® ... Los laboratorios analíticos modernos se enfrentan a una complejidad creciente: desde la cuantificación a nivel de tra...",
+   "raw": {
+    "sysurihash": "g3xUz1lbeNgrC7pc",
+    "urihash": "g3xUz1lbeNgrC7pc",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "f258607766445c03cbe7343ebd58cd30daaa85986a7c385115968b09f574",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1781004600000,
+    "eventmonth": "June",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing",
+     "Environmental testing",
+     "Forensic testing"
+    ]
+   },
+   "Title": "QTRAP Webinar 2026",
+   "Uri": "https://sciex.com/events/foodbev/emea/qtrap-webinar-2026",
+   "ClickUri": "https://sciex.com/events/foodbev/emea/qtrap-webinar-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/foodbev/emea/qtrap-webinar-2026",
+   "Excerpt": "Resolviendo retos analíticos complejos con los flujos de trabajo QTRAP® ... Los laboratorios analíticos modernos se enfrentan a una complejidad creciente: desde la cuantificación a nivel de tra..."
+  },
+  {
+   "title": "Analytical Forum Water Contaminants user meeting",
+   "uri": "https://sciex.com/events/analytical-forum-water-contaminants-user-meeting",
+   "clickUri": "https://sciex.com/events/analytical-forum-water-contaminants-user-meeting",
+   "uniqueId": "42.53451$https://sciex.com/events/analytical-forum-water-contaminants-user-meeting",
+   "primaryid": "IJ2WIUBSPJ4UGSDZMNNDEM2XI4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "A knowledge sharing meeting from water analysts for water analysts ... YOUR input will define the topics and agenda! ... Learn from discussions about: ... Analytical software, workflows and high-th...",
+   "raw": {
+    "sysurihash": "BudP2zyCHycZ23WG",
+    "urihash": "BudP2zyCHycZ23WG",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "fe93ed504ed9c0d6dda0994df968d0f253cd41f7fed155936b1ab220f416",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1779874200000,
+    "eventmonth": "May",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "Analytical Forum Water Contaminants user meeting",
+   "Uri": "https://sciex.com/events/analytical-forum-water-contaminants-user-meeting",
+   "ClickUri": "https://sciex.com/events/analytical-forum-water-contaminants-user-meeting",
+   "UniqueId": "42.53451$https://sciex.com/events/analytical-forum-water-contaminants-user-meeting",
+   "Excerpt": "A knowledge sharing meeting from water analysts for water analysts ... YOUR input will define the topics and agenda! ... Learn from discussions about: ... Analytical software, workflows and high-th..."
+  },
+  {
+   "title": "India-EMEAI-Intabio webinar",
+   "uri": "https://sciex.com/events/biopharma/intabio-webinar",
+   "clickUri": "https://sciex.com/events/biopharma/intabio-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/intabio-webinar",
+   "primaryid": "GJQVE6KOKBEDMM3SNB2E2ODJOEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Assessing biotherapeutic stability through forced degradation using intact and subunit icIEF-UV/MS workflows ... #000 ... sciextext ... Biotherapeutic stability is essential for ensuring product qu...",
+   "raw": {
+    "sysurihash": "2aRyNPH63rhtM8iq",
+    "urihash": "2aRyNPH63rhtM8iq",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "fc4e7b30d03a77840e9ab9c534f20aae0b10e7759f8cf88c4df629c842f4",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "eventdate": 1778166000000,
+    "eventmonth": "May",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "India-EMEAI-Intabio webinar",
+   "Uri": "https://sciex.com/events/biopharma/intabio-webinar",
+   "ClickUri": "https://sciex.com/events/biopharma/intabio-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/intabio-webinar",
+   "Excerpt": "Assessing biotherapeutic stability through forced degradation using intact and subunit icIEF-UV/MS workflows ... #000 ... sciextext ... Biotherapeutic stability is essential for ensuring product qu..."
+  },
+  {
+   "title": "SCIEX seminar South 2026",
+   "uri": "https://sciex.com/events/seminar-south-2026",
+   "clickUri": "https://sciex.com/events/seminar-south-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/seminar-south-2026",
+   "primaryid": "GAYXE4DFNVJDSZCTYOYDGT32N5RS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "banner ... Maggio 7 – Università di Roma ... Agenda ... 11:00 – 11:30 : Pausa Caffè ... registerform Registrarti ora https://info.sciex.com/LP=5752 one-column 1055px",
+   "raw": {
+    "sysurihash": "01rpemR9dSð3Ozoc",
+    "urihash": "01rpemR9dSð3Ozoc",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "008fbe447f6097ab68801337a0b4d7b79e0d89a4d6461488b2c6cf611d0c",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "eventdate": 1777971600000,
+    "eventmonth": "May",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "SCIEX seminar South 2026",
+   "Uri": "https://sciex.com/events/seminar-south-2026",
+   "ClickUri": "https://sciex.com/events/seminar-south-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/seminar-south-2026",
+   "Excerpt": "banner ... Maggio 7 – Università di Roma ... Agenda ... 11:00 – 11:30 : Pausa Caffè ... registerform Registrarti ora https://info.sciex.com/LP=5752 one-column 1055px"
+  },
+  {
+   "title": "Extending the power of LC MS/MS",
+   "uri": "https://sciex.com/events/extending-the-power-of-lcmsms",
+   "clickUri": "https://sciex.com/events/extending-the-power-of-lcmsms",
+   "uniqueId": "42.53451$https://sciex.com/events/extending-the-power-of-lcmsms",
+   "primaryid": "MQ2FOWKZGBDUMQ2XKZ4GE43LI4XDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Solving complex analytical challenges with workflows enabled by the QTRAP® system ... Modern analytical laboratories face increasing complexity — from trace‑level quantitation to challenging m...",
+   "raw": {
+    "sysurihash": "d4WYY0GFCWVxbskG",
+    "urihash": "d4WYY0GFCWVxbskG",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "e182b756f41bbc1fd07b165ddd11c64e49808f1e4ce78813be9f82880678",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1777456800000,
+    "eventmonth": "April",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing",
+     "Forensic testing"
+    ]
+   },
+   "Title": "Extending the power of LC MS/MS",
+   "Uri": "https://sciex.com/events/extending-the-power-of-lcmsms",
+   "ClickUri": "https://sciex.com/events/extending-the-power-of-lcmsms",
+   "UniqueId": "42.53451$https://sciex.com/events/extending-the-power-of-lcmsms",
+   "Excerpt": "Solving complex analytical challenges with workflows enabled by the QTRAP® system ... Modern analytical laboratories face increasing complexity — from trace‑level quantitation to challenging m..."
+  },
+  {
+   "title": "SCIEX OS software unlocked: automating acquisition, analysis, and 21 CFR part 11 compliance reporting",
+   "uri": "https://sciex.com/events/webinar-sciexos-2026",
+   "clickUri": "https://sciex.com/events/webinar-sciexos-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-sciexos-2026",
+   "primaryid": "JFUVSNRRIJGGMYLWONYXSOJUGMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Unlocking SCIEX OS software: automating acquisition, analysis, and 21 CFR part 11 compliance reporting ... #000 ... sciextext ... text-left ... Modern laboratories require faster workflows, reliabl...",
+   "raw": {
+    "sysurihash": "IiY61BLfavsqy943",
+    "urihash": "IiY61BLfavsqy943",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "215e1575f45512e6b86e269ece7c1f9dd1a530b68f87851eb810ace596f4",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1776870000000,
+    "eventmonth": "April",
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "SCIEX OS software unlocked: automating acquisition, analysis, and 21 CFR part 11 compliance reporting",
+   "Uri": "https://sciex.com/events/webinar-sciexos-2026",
+   "ClickUri": "https://sciex.com/events/webinar-sciexos-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-sciexos-2026",
+   "Excerpt": "Unlocking SCIEX OS software: automating acquisition, analysis, and 21 CFR part 11 compliance reporting ... #000 ... sciextext ... text-left ... Modern laboratories require faster workflows, reliabl..."
+  },
+  {
+   "title": "Food Pesticides Webinar",
+   "uri": "https://sciex.com/events/food-pesticides-webinar",
+   "clickUri": "https://sciex.com/events/food-pesticides-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/food-pesticides-webinar",
+   "primaryid": "JNKHCVZUKN4XESCMNJIUG4LTMMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Join this on-demand webinar to hear from Lorena Manzano as she highlights the benefits of ZenoTOF 7600 system for the analysis of pharmaceuticals and pesticides in wastewater, soils a...",
+   "raw": {
+    "sysurihash": "KTqW4SyrHLjQCqsc",
+    "urihash": "KTqW4SyrHLjQCqsc",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "43597bb5b808f4a77fe4c87890f99be3153205b4204ed5a1fcc71229f667",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1776247200000,
+    "eventmonth": "April",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Food Pesticides Webinar",
+   "Uri": "https://sciex.com/events/food-pesticides-webinar",
+   "ClickUri": "https://sciex.com/events/food-pesticides-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/food-pesticides-webinar",
+   "Excerpt": "text-left ... Join this on-demand webinar to hear from Lorena Manzano as she highlights the benefits of ZenoTOF 7600 system for the analysis of pharmaceuticals and pesticides in wastewater, soils a..."
+  },
+  {
+   "title": "Comprehensive characterization of monoclonal antibodies using SCIEX HRMS platforms",
+   "uri": "https://sciex.com/events/webinar-mab-hrms-march-2026",
+   "clickUri": "https://sciex.com/events/webinar-mab-hrms-march-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-mab-hrms-march-2026",
+   "primaryid": "N5BWE4RYN5GVAV2UMNHFA3KYOQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... Gain insights into comprehensive characterization of monoclonal antibodies using SCIEX high-resolution mass spectrometry (HRMS) system. ... This webinar will highlight a...",
+   "raw": {
+    "sysurihash": "oCbr8oMPWTcNPmXt",
+    "urihash": "oCbr8oMPWTcNPmXt",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "1ed0fb7fdb9955dd3e7f3da534ea45290ca4b03c9ae3e007871530c578e0",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1774450800000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Comprehensive characterization of monoclonal antibodies using SCIEX HRMS platforms",
+   "Uri": "https://sciex.com/events/webinar-mab-hrms-march-2026",
+   "ClickUri": "https://sciex.com/events/webinar-mab-hrms-march-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-mab-hrms-march-2026",
+   "Excerpt": "sciextext ... text-left ... Gain insights into comprehensive characterization of monoclonal antibodies using SCIEX high-resolution mass spectrometry (HRMS) system. ... This webinar will highlight a..."
+  },
+  {
+   "title": "SCIEX OS software demo day 2026",
+   "uri": "https://sciex.com/events/sciex-os-software-demo-day-2026",
+   "clickUri": "https://sciex.com/events/sciex-os-software-demo-day-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-os-software-demo-day-2026",
+   "primaryid": "YOYHISLOMVX4HMDQPB5FONZRKZKHCLRVGM2DKMJOMRSWMYLVNR2A",
+   "excerpt": "Discover more with 4.0 ... text-left ... SCIEX OS software version 4.0 empowers you to do more with less effort, helping you to accelerate discoveries and improve productivity. ... In this live web...",
+   "raw": {
+    "sysurihash": "ðtIneoðpxzW71VTq",
+    "urihash": "ðtIneoðpxzW71VTq",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "d2cc91f6cab768ef5ba80fd3d9935fa7589eee130bb52044751e93ad38f6",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe",
+     "All"
+    ],
+    "eventdate": 1774368000000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "SCIEX OS software demo day 2026",
+   "Uri": "https://sciex.com/events/sciex-os-software-demo-day-2026",
+   "ClickUri": "https://sciex.com/events/sciex-os-software-demo-day-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-os-software-demo-day-2026",
+   "Excerpt": "Discover more with 4.0 ... text-left ... SCIEX OS software version 4.0 empowers you to do more with less effort, helping you to accelerate discoveries and improve productivity. ... In this live web..."
+  },
+  {
+   "title": "Fundamental seminar",
+   "uri": "https://sciex.com/events/fundamental-seminar",
+   "clickUri": "https://sciex.com/events/fundamental-seminar",
+   "uniqueId": "42.53451$https://sciex.com/events/fundamental-seminar",
+   "primaryid": "KZEUOQKXOJRGTQ5ROZNGWRKHKRZS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "본 세미나는 LC-MS/MS를 처음 접하시는 분부터 실무에서 이미 활용 ... HPLC 기초이론 - 김종대 부장, SCIEX ... LC-MS 기기 유지보수 - 이주안 차장, SCIEX",
+   "raw": {
+    "sysurihash": "VIGAWrbiñvZkEGTs",
+    "urihash": "VIGAWrbiñvZkEGTs",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "f12d695c9194371cc96084994c65e68d2baf19632fb1e756b9b196cf2079",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Korea"
+    ],
+    "eventdate": 1773925200000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "Fundamental seminar",
+   "Uri": "https://sciex.com/events/fundamental-seminar",
+   "ClickUri": "https://sciex.com/events/fundamental-seminar",
+   "UniqueId": "42.53451$https://sciex.com/events/fundamental-seminar",
+   "Excerpt": "본 세미나는 LC-MS/MS를 처음 접하시는 분부터 실무에서 이미 활용 ... HPLC 기초이론 - 김종대 부장, SCIEX ... LC-MS 기기 유지보수 - 이주안 차장, SCIEX"
+  },
+  {
+   "title": "Next-generation authentication of spices, honey, and meat using SCIEX QTRAP and HRMS platform",
+   "uri": "https://sciex.com/events/webinar-food-march-2026",
+   "clickUri": "https://sciex.com/events/webinar-food-march-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-food-march-2026",
+   "primaryid": "NB2ERQ5RJZFMHMLSKAZFQRODWFCUGUJOGUZTINJRFZSGKZTBOVWHI",
+   "excerpt": "sciextext ... text-left ... Join us for a live webinar on next-generation authentication of spices, honey, and meat using the SCIEX QTRAP and HRMS platforms. ... Food adulteration and mislabeling p...",
+   "raw": {
+    "sysurihash": "htHñNJñrP2XEñECQ",
+    "urihash": "htHñNJñrP2XEñECQ",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "d8cc904467c7b018298bf61028ef9ce868c8e6d49e45818fc4568f36625c",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1773846000000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Food and beverage testing"
+    ]
+   },
+   "Title": "Next-generation authentication of spices, honey, and meat using SCIEX QTRAP and HRMS platform",
+   "Uri": "https://sciex.com/events/webinar-food-march-2026",
+   "ClickUri": "https://sciex.com/events/webinar-food-march-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-food-march-2026",
+   "Excerpt": "sciextext ... text-left ... Join us for a live webinar on next-generation authentication of spices, honey, and meat using the SCIEX QTRAP and HRMS platforms. ... Food adulteration and mislabeling p..."
+  },
+  {
+   "title": "SETAC Europe 2026",
+   "uri": "https://sciex.com/events/setac-europe-2026",
+   "clickUri": "https://sciex.com/events/setac-europe-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/setac-europe-2026",
+   "primaryid": "OVNGMVLFORRXCZJYNFSEUSZZOUXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "May 17 - May 21, 2026 | Join our lunch workshop on May 18, 2026 or visit our booth #59 and #60 ... Join our lunch workshop! ... May 18, 2026 | 12:55 - 14:25 CET or visit our shared booth with Pheno...",
+   "raw": {
+    "sysurihash": "uZfUetcqe8idJK9u",
+    "urihash": "uZfUetcqe8idJK9u",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "867d435fc6d0dd65ff2f464ca6834b48a3ea262fac84bb05ab7e65c84ca5",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1773838500000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "SETAC Europe 2026",
+   "Uri": "https://sciex.com/events/setac-europe-2026",
+   "ClickUri": "https://sciex.com/events/setac-europe-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/setac-europe-2026",
+   "Excerpt": "May 17 - May 21, 2026 | Join our lunch workshop on May 18, 2026 or visit our booth #59 and #60 ... Join our lunch workshop! ... May 18, 2026 | 12:55 - 14:25 CET or visit our shared booth with Pheno..."
+  },
+  {
+   "title": "TFA Water Webinar 2026",
+   "uri": "https://sciex.com/events/tfa-water-webinar-2026",
+   "clickUri": "https://sciex.com/events/tfa-water-webinar-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/tfa-water-webinar-2026",
+   "primaryid": "IU2HQSJTNBMHQSLGKN4TS32KIQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "A fast and ultra-sensitive method for analysis of TFA in multiple water sources ... text-left ... Join us for an in-depth on-demand webinar on a robust and ultra-fast method for the analysis of tri...",
+   "raw": {
+    "sysurihash": "E4xI3hXxIfSy9oJD",
+    "urihash": "E4xI3hXxIfSy9oJD",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "5c59e97cca277f03e40c926efefb913ad022c8b77362a59fc399f245858e",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1773658800000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing"
+    ]
+   },
+   "Title": "TFA Water Webinar 2026",
+   "Uri": "https://sciex.com/events/tfa-water-webinar-2026",
+   "ClickUri": "https://sciex.com/events/tfa-water-webinar-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/tfa-water-webinar-2026",
+   "Excerpt": "A fast and ultra-sensitive method for analysis of TFA in multiple water sources ... text-left ... Join us for an in-depth on-demand webinar on a robust and ultra-fast method for the analysis of tri..."
+  },
+  {
+   "title": "Extractables and leachables: the complete workflow using the SCIEX X500R QTOF system",
+   "uri": "https://sciex.com/events/webinar-enl-hrms-q12026",
+   "clickUri": "https://sciex.com/events/webinar-enl-hrms-q12026",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-enl-hrms-q12026",
+   "primaryid": "NJCGU5CEJVYVKOODWBSGY6CWLA3C4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "sciextext ... text-left ... Join our upcoming webinar on extractables and leachables and explore the complete extractables and leachables workflow using the SCIEX X500R QTOF system. ... Learn how t...",
+   "raw": {
+    "sysurihash": "jDjtDMqU9ðdlxVX6",
+    "urihash": "jDjtDMqU9ðdlxVX6",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "ec4326de32b9bf4925c4ba69719a9b37a5742bc85d886513a4a4c7e4a113",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1773414000000,
+    "eventmonth": "March",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Extractables and leachables: the complete workflow using the SCIEX X500R QTOF system",
+   "Uri": "https://sciex.com/events/webinar-enl-hrms-q12026",
+   "ClickUri": "https://sciex.com/events/webinar-enl-hrms-q12026",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-enl-hrms-q12026",
+   "Excerpt": "sciextext ... text-left ... Join our upcoming webinar on extractables and leachables and explore the complete extractables and leachables workflow using the SCIEX X500R QTOF system. ... Learn how t..."
+  },
+  {
+   "title": "US HUPO 2026",
+   "uri": "https://sciex.com/events/lsr/amer/us-hupo-2026",
+   "clickUri": "https://sciex.com/events/lsr/amer/us-hupo-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/lsr/amer/us-hupo-2026",
+   "primaryid": "IV3FUVKUMRIVBQ5RPBLTMQRRONYC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Stop by Booth #19 and dive into the future of proteomics with us. ... Connect with the SCIEX team and discover how advanced mass spectrometry and data-driven workflows are accelerating discoveries ...",
+   "raw": {
+    "sysurihash": "EvZUTdQPñxW6B1sp",
+    "urihash": "EvZUTdQPñxW6B1sp",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "ee031754aadb0b9471bbfd320a1fe1e0ef1284a32dad5fc693ed6c553077",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "eventdate": 1771849800000,
+    "eventmonth": "February",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Application",
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "US HUPO 2026",
+   "Uri": "https://sciex.com/events/lsr/amer/us-hupo-2026",
+   "ClickUri": "https://sciex.com/events/lsr/amer/us-hupo-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/lsr/amer/us-hupo-2026",
+   "Excerpt": "Stop by Booth #19 and dive into the future of proteomics with us. ... Connect with the SCIEX team and discover how advanced mass spectrometry and data-driven workflows are accelerating discoveries ..."
+  },
+  {
+   "title": "Thank you",
+   "uri": "https://sciex.com/events/webinar-enl-hrms-q12026/thank-you",
+   "clickUri": "https://sciex.com/events/webinar-enl-hrms-q12026/thank-you",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-enl-hrms-q12026/thank-you",
+   "primaryid": "ORMDBQ5QYOYUSRGDWBQXUVCZI5STOWJOGUZTINJRFZSGKZTBOVWHI",
+   "excerpt": "sciextext ... text-left ... Thank you for your registration for our live webinar on extractables and leachables: the complete workflow using the SCIEX X500R QTOF system ... primary ... Add to calendar",
+   "raw": {
+    "sysurihash": "tX0ðñIDðazTYGe7Y",
+    "urihash": "tX0ðñIDðazTYGe7Y",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "c0152a1d0ac8ac0d92cada5e56bb298336bdcb888e0374bf67336f6d0136",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "eventdate": 1770994800000,
+    "eventmonth": "February",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Thank you",
+   "Uri": "https://sciex.com/events/webinar-enl-hrms-q12026/thank-you",
+   "ClickUri": "https://sciex.com/events/webinar-enl-hrms-q12026/thank-you",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-enl-hrms-q12026/thank-you",
+   "Excerpt": "sciextext ... text-left ... Thank you for your registration for our live webinar on extractables and leachables: the complete workflow using the SCIEX X500R QTOF system ... primary ... Add to calendar"
+  },
+  {
+   "title": "SLAS 2026",
+   "uri": "https://sciex.com/events/slas-2026",
+   "clickUri": "https://sciex.com/events/slas-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/slas-2026",
+   "primaryid": "JNLFMUCGO54UKOLPKAY4HMDMPI4S4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Join SCIEX for an energizing afternoon at SLAS 2026 with a special seminar featuring our product manager, product specialist, and scientists from Pfizer and BMS. Discover the latest news about the ...",
+   "raw": {
+    "sysurihash": "KVVPFwyE9oP1ðlz9",
+    "urihash": "KVVPFwyE9oP1ðlz9",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "955fe408f2b7df72ecaa396b6d56ad50185a36f342d5c77497cbb07e3286",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "eventdate": 1770724800000,
+    "eventmonth": "February",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Application",
+     "Pharma"
+    ]
+   },
+   "Title": "SLAS 2026",
+   "Uri": "https://sciex.com/events/slas-2026",
+   "ClickUri": "https://sciex.com/events/slas-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/slas-2026",
+   "Excerpt": "Join SCIEX for an energizing afternoon at SLAS 2026 with a special seminar featuring our product manager, product specialist, and scientists from Pfizer and BMS. Discover the latest news about the ..."
+  },
+  {
+   "title": "Pharma and biopharma fundamentals masterclasses",
+   "uri": "https://sciex.com/events/pharma-and-biopharma-fundamentals-masterclasses",
+   "clickUri": "https://sciex.com/events/pharma-and-biopharma-fundamentals-masterclasses",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma-and-biopharma-fundamentals-masterclasses",
+   "primaryid": "PBDVON32OJIXG4SMJVNHEVD2OMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... The pharma and biopharma fundamentals masterclasses are a year-long educational series designed for scientists who want to strengthen their knowledge, compare analytical strategies, a...",
+   "raw": {
+    "sysurihash": "xGW7zrQsrLMZrTzs",
+    "urihash": "xGW7zrQsrLMZrTzs",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "d04f799001e5d6669db2c8fc99063613b93179a27dfba99ea3c3dca90dff",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "eventdate": 1770721200000,
+    "eventmonth": "February",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma"
+    ]
+   },
+   "Title": "Pharma and biopharma fundamentals masterclasses",
+   "Uri": "https://sciex.com/events/pharma-and-biopharma-fundamentals-masterclasses",
+   "ClickUri": "https://sciex.com/events/pharma-and-biopharma-fundamentals-masterclasses",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma-and-biopharma-fundamentals-masterclasses",
+   "Excerpt": "text-left ... The pharma and biopharma fundamentals masterclasses are a year-long educational series designed for scientists who want to strengthen their knowledge, compare analytical strategies, a..."
+  },
+  {
+   "title": "Lorne Proteomics 2026",
+   "uri": "https://sciex.com/events/lorne-proteomics-2026",
+   "clickUri": "https://sciex.com/events/lorne-proteomics-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/lorne-proteomics-2026",
+   "primaryid": "MFRHKOBUOJVHEZLXNNHGYRLQKIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Join us at Lorne Proteomics 2026! ... Stop by our booth to explore innovative solutions that can accelerate your proteomics research. ... Discover how you can achieve deeper coverage, higher confid...",
+   "raw": {
+    "sysurihash": "abu84rjrewkNlEpR",
+    "urihash": "abu84rjrewkNlEpR",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "31a3a5cc4913be99c4685944b5ae700db6eb01c7e2f3681fa7a665bf5be6",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "APAC"
+    ],
+    "eventdate": 1769990400000,
+    "eventmonth": "February",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Lorne Proteomics 2026",
+   "Uri": "https://sciex.com/events/lorne-proteomics-2026",
+   "ClickUri": "https://sciex.com/events/lorne-proteomics-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/lorne-proteomics-2026",
+   "Excerpt": "Join us at Lorne Proteomics 2026! ... Stop by our booth to explore innovative solutions that can accelerate your proteomics research. ... Discover how you can achieve deeper coverage, higher confid..."
+  },
+  {
+   "title": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system",
+   "uri": "https://sciex.com/events/ce-test",
+   "clickUri": "https://sciex.com/events/ce-test",
+   "uniqueId": "42.53451$https://sciex.com/events/ce-test",
+   "primaryid": "LFFDGQ3CKA3FIU3VLFLU4SDZNQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system. ... #000 ... sciextext ... text-left ... Join us for an inform...",
+   "raw": {
+    "sysurihash": "YJ3CbP6TSuYWNHyl",
+    "urihash": "YJ3CbP6TSuYWNHyl",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "aa8b83f1f4a3e5413fa2f61e45ea8d84e4d0eea1929caf06e24035213d47",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India",
+     "Europe"
+    ],
+    "eventdate": 1769007600000,
+    "eventmonth": "January",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system",
+   "Uri": "https://sciex.com/events/ce-test",
+   "ClickUri": "https://sciex.com/events/ce-test",
+   "UniqueId": "42.53451$https://sciex.com/events/ce-test",
+   "Excerpt": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system. ... #000 ... sciextext ... text-left ... Join us for an inform..."
+  },
+  {
+   "title": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system",
+   "uri": "https://sciex.com/events/ce-webinar-jan2026",
+   "clickUri": "https://sciex.com/events/ce-webinar-jan2026",
+   "uniqueId": "42.53451$https://sciex.com/events/ce-webinar-jan2026",
+   "primaryid": "PF4WS4DINBFGWNZRGFZHQMZWNAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system. ... #000 ... sciextext ... text-left ... Join us for an inform...",
+   "raw": {
+    "sysurihash": "yyiphhJk711rx36h",
+    "urihash": "yyiphhJk711rx36h",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "0be1848b939a597490aedf6ba0039c7cf77522eb6250817e15b57865ccc2",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India",
+     "Europe"
+    ],
+    "eventdate": 1769007600000,
+    "eventmonth": "January",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system",
+   "Uri": "https://sciex.com/events/ce-webinar-jan2026",
+   "ClickUri": "https://sciex.com/events/ce-webinar-jan2026",
+   "UniqueId": "42.53451$https://sciex.com/events/ce-webinar-jan2026",
+   "Excerpt": "Genome integrity analysis of adeno-associated viruses (AAV) by genome sizing methodology using SCIEX capillary electrophoresis system. ... #000 ... sciextext ... text-left ... Join us for an inform..."
+  },
+  {
+   "title": "SCIEX OS software transforms your workflows",
+   "uri": "https://sciex.com/events/sciex-2026",
+   "clickUri": "https://sciex.com/events/sciex-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-2026",
+   "primaryid": "GRNGO6CCM54VQU2DNBXGGOLMOQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Turn your SCIEX system up to (Windows) 11 using SCIEX OS software for acquisition ... EST ... Watch the third webinar in our series on streamlining data processing with SCIEX OS software. ... SCIEX...",
+   "raw": {
+    "sysurihash": "4ZgxBgyXSChnc9lt",
+    "urihash": "4ZgxBgyXSChnc9lt",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "a282946d3ff531773535b5783b372beb329a59403869eb257a5067e28dc0",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "eventdate": 1765886400000,
+    "eventmonth": "December",
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "SCIEX OS software transforms your workflows",
+   "Uri": "https://sciex.com/events/sciex-2026",
+   "ClickUri": "https://sciex.com/events/sciex-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-2026",
+   "Excerpt": "Turn your SCIEX system up to (Windows) 11 using SCIEX OS software for acquisition ... EST ... Watch the third webinar in our series on streamlining data processing with SCIEX OS software. ... SCIEX..."
+  },
+  {
+   "title": "Streamline your ICH M10 workflows",
+   "uri": "https://sciex.com/events/streamline-your-ich-m10-workflows",
+   "clickUri": "https://sciex.com/events/streamline-your-ich-m10-workflows",
+   "uniqueId": "42.53451$https://sciex.com/events/streamline-your-ich-m10-workflows",
+   "primaryid": "O5HGC4TRINKVQ2SDOBBUQUKLIEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Are you navigating ICH M10 requirements for your regulated bioanalysis workflows? ... Join our experts as we break down the globally harmonized ICH M10 guidelines, show how labs are applying them i...",
+   "raw": {
+    "sysurihash": "wNarqCUXjCpCHQKA",
+    "urihash": "wNarqCUXjCpCHQKA",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "5b5d4f75728075bc5be6d394a82bb89becacc1d166def24fa6eaaa51f43e",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "Streamline your ICH M10 workflows",
+   "Uri": "https://sciex.com/events/streamline-your-ich-m10-workflows",
+   "ClickUri": "https://sciex.com/events/streamline-your-ich-m10-workflows",
+   "UniqueId": "42.53451$https://sciex.com/events/streamline-your-ich-m10-workflows",
+   "Excerpt": "Are you navigating ICH M10 requirements for your regulated bioanalysis workflows? ... Join our experts as we break down the globally harmonized ICH M10 guidelines, show how labs are applying them i..."
+  },
+  {
+   "title": "Choosing the right MS",
+   "uri": "https://sciex.com/events/choosing-the-right-ms",
+   "clickUri": "https://sciex.com/events/choosing-the-right-ms",
+   "uniqueId": "42.53451$https://sciex.com/events/choosing-the-right-ms",
+   "primaryid": "GJ2DJQ5RMNJVASDONBXWWRBSMRHS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "6 November, 11:00 a.m. ... CET ... Are you evaluating your next LC-MS investment or wondering which system best fits your workflows? ... Join the webinar with Aidan Harrison and gain clarity on the...",
+   "raw": {
+    "sysurihash": "2t4ñcSPHnhokD2dO",
+    "urihash": "2t4ñcSPHnhokD2dO",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "530ab72076a2a32002973c0759c5d3386adbd9b08af60b9a6b8a94310b6b",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing",
+     "Pharma",
+     "Biopharma",
+     "Environmental testing",
+     "Food and beverage testing",
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Choosing the right MS",
+   "Uri": "https://sciex.com/events/choosing-the-right-ms",
+   "ClickUri": "https://sciex.com/events/choosing-the-right-ms",
+   "UniqueId": "42.53451$https://sciex.com/events/choosing-the-right-ms",
+   "Excerpt": "6 November, 11:00 a.m. ... CET ... Are you evaluating your next LC-MS investment or wondering which system best fits your workflows? ... Join the webinar with Aidan Harrison and gain clarity on the..."
+  },
+  {
+   "title": "SCIEX Biopharma meeting 2025",
+   "uri": "https://sciex.com/events/sciex-biopharma-meeting-2025",
+   "clickUri": "https://sciex.com/events/sciex-biopharma-meeting-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-biopharma-meeting-2025",
+   "primaryid": "GVBVU6TGJZIE4N3SOJIFSTKTMUXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Welcome to the 2025 SCIEX Pharma and Biopharma meeting! ... This online event has been designed for our customers and brings together opinion leaders, top scientists and industry innovators to shar...",
+   "raw": {
+    "sysurihash": "5CZzfNPN7rrPYMSe",
+    "urihash": "5CZzfNPN7rrPYMSe",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "8fcc9d629a3a994709ec6197189be611d7c790c578b52dfed347834059f3",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma",
+     "Biopharma"
+    ]
+   },
+   "Title": "SCIEX Biopharma meeting 2025",
+   "Uri": "https://sciex.com/events/sciex-biopharma-meeting-2025",
+   "ClickUri": "https://sciex.com/events/sciex-biopharma-meeting-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-biopharma-meeting-2025",
+   "Excerpt": "Welcome to the 2025 SCIEX Pharma and Biopharma meeting! ... This online event has been designed for our customers and brings together opinion leaders, top scientists and industry innovators to shar..."
+  },
+  {
+   "title": "Therapeutic peptide characterization with LC-HRMS",
+   "uri": "https://sciex.com/events/glp-1-peptide-characterization-2025",
+   "clickUri": "https://sciex.com/events/glp-1-peptide-characterization-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/glp-1-peptide-characterization-2025",
+   "primaryid": "HBCFSZTSJAZVS5BVOVFTMZCNMYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "horizontal ... sciextext ... Therapeutic peptides are rapidly transforming the pharmaceutical landscape, offering targeted, potent, and safer treatment options for a wide range of diseases—from m...",
+   "raw": {
+    "sysurihash": "8DYfrH3Yt5uK6dMf",
+    "urihash": "8DYfrH3Yt5uK6dMf",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "1413c70220ab647cda88106f57d47b9658635e50fa00afb234b33d58fe5f",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India",
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "Therapeutic peptide characterization with LC-HRMS",
+   "Uri": "https://sciex.com/events/glp-1-peptide-characterization-2025",
+   "ClickUri": "https://sciex.com/events/glp-1-peptide-characterization-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/glp-1-peptide-characterization-2025",
+   "Excerpt": "horizontal ... sciextext ... Therapeutic peptides are rapidly transforming the pharmaceutical landscape, offering targeted, potent, and safer treatment options for a wide range of diseases—from m..."
+  },
+  {
+   "title": "ZenoTOF 8600 system: the game-changing technology in omics research",
+   "uri": "https://sciex.com/events/webinar-zenotof8600system-2025",
+   "clickUri": "https://sciex.com/events/webinar-zenotof8600system-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-zenotof8600system-2025",
+   "primaryid": "NJXXMZLDOQ3TOWCZONLEQSSLPIXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... We are excited to invite you to our live webinar on the ZenoTOF 8600 system, a revolutionary technology designed to take your omics research to the next level. ... Don...",
+   "raw": {
+    "sysurihash": "jovect77XYsVHJKz",
+    "urihash": "jovect77XYsVHJKz",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "2933a1e00e1c636301ed3ad3e70f639dacc8379217bf538cc674576fa45d",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "ZenoTOF 8600 system: the game-changing technology in omics research",
+   "Uri": "https://sciex.com/events/webinar-zenotof8600system-2025",
+   "ClickUri": "https://sciex.com/events/webinar-zenotof8600system-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-zenotof8600system-2025",
+   "Excerpt": "sciextext ... text-left ... We are excited to invite you to our live webinar on the ZenoTOF 8600 system, a revolutionary technology designed to take your omics research to the next level. ... Don..."
+  },
+  {
+   "title": "SOFT 2025",
+   "uri": "https://sciex.com/events/soft-2025",
+   "clickUri": "https://sciex.com/events/soft-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/soft-2025",
+   "primaryid": "J5HUYTLKYOYUC2LWIFFHSRCHGZYS4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Better forensic outcomes begin with SCIEX ... Join us this October at SOFT in Portland for a week of insights and networking that will shape the future of forensic toxicology. ... Stop by booth #50...",
+   "raw": {
+    "sysurihash": "OOLMjñAivAJyDG6q",
+    "urihash": "OOLMjñAivAJyDG6q",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "be72642f05d2c69eeb4982dd64f0a83bb8313affc6e28c8ad6d7c4b6dbc7",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "North America"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Forensic testing"
+    ]
+   },
+   "Title": "SOFT 2025",
+   "Uri": "https://sciex.com/events/soft-2025",
+   "ClickUri": "https://sciex.com/events/soft-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/soft-2025",
+   "Excerpt": "Better forensic outcomes begin with SCIEX ... Join us this October at SOFT in Portland for a week of insights and networking that will shape the future of forensic toxicology. ... Stop by booth #50..."
+  },
+  {
+   "title": "CE Pharm 2026",
+   "uri": "https://sciex.com/events/biopharma/ce-pharm-2026",
+   "clickUri": "https://sciex.com/events/biopharma/ce-pharm-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/biopharma/ce-pharm-2026",
+   "primaryid": "I54GSTSWKR4VGYTIOE3EKULRJAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... Advance your CE workflows, from development to lot release ... Join SCIEX at CE Pharm 2026 for a lunch and learn featuring new capabilities designed to support evolving CE workflows a...",
+   "raw": {
+    "sysurihash": "GxiNVTySbhq6EQqH",
+    "urihash": "GxiNVTySbhq6EQqH",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "51375424c2017d72028abb9f3e3c34b34fa77d5cb084da6a2f0879a30194",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma"
+    ]
+   },
+   "Title": "CE Pharm 2026",
+   "Uri": "https://sciex.com/events/biopharma/ce-pharm-2026",
+   "ClickUri": "https://sciex.com/events/biopharma/ce-pharm-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/biopharma/ce-pharm-2026",
+   "Excerpt": "sciextext ... Advance your CE workflows, from development to lot release ... Join SCIEX at CE Pharm 2026 for a lunch and learn featuring new capabilities designed to support evolving CE workflows a..."
+  },
+  {
+   "title": "EMEAI-Events-EBF 2026",
+   "uri": "https://sciex.com/events/pharma/emea/emeai-events-ebf-2026",
+   "clickUri": "https://sciex.com/events/pharma/emea/emeai-events-ebf-2026",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma/emea/emeai-events-ebf-2026",
+   "primaryid": "JRKTKQLMLEYU4V3DKNMVEY3ZIQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... Join us for an unforgettable evening of wine, conversation, and connection ... As a valued member of the SCIEX community, we invite you to join us for a special evening at Familia Tor...",
+   "raw": {
+    "sysurihash": "LU5AlY1NWcSYRcyD",
+    "urihash": "LU5AlY1NWcSYRcyD",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "be935882a9cbf607c745436e5278b9151bce111dbb953508a55879ef6b31",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "EMEAI-Events-EBF 2026",
+   "Uri": "https://sciex.com/events/pharma/emea/emeai-events-ebf-2026",
+   "ClickUri": "https://sciex.com/events/pharma/emea/emeai-events-ebf-2026",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma/emea/emeai-events-ebf-2026",
+   "Excerpt": "sciextext ... Join us for an unforgettable evening of wine, conversation, and connection ... As a valued member of the SCIEX community, we invite you to join us for a special evening at Familia Tor..."
+  },
+  {
+   "title": "Hupo 2025",
+   "uri": "https://sciex.com/events/pharma/intabio-sub-unit-level-analysis-on-demand-webinar",
+   "clickUri": "https://sciex.com/events/pharma/intabio-sub-unit-level-analysis-on-demand-webinar",
+   "uniqueId": "42.53451$https://sciex.com/events/pharma/intabio-sub-unit-level-analysis-on-demand-webinar",
+   "primaryid": "GJ5HGUSGIFKHA5RRMRAVKULWLEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Discover the future of proteomics with SCIEX at HUPO 2025, happening in our vibrant hometown city of Toronto, Ontario! ... As a proud sponsor of this world congress, we invite you to stop by the SC...",
+   "raw": {
+    "sysurihash": "2zsRFATpv1dAUQvY",
+    "urihash": "2zsRFATpv1dAUQvY",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "806ec92062bc8556409e4899c265afdf9406189aba954663be6b9739303e",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Hupo 2025",
+   "Uri": "https://sciex.com/events/pharma/intabio-sub-unit-level-analysis-on-demand-webinar",
+   "ClickUri": "https://sciex.com/events/pharma/intabio-sub-unit-level-analysis-on-demand-webinar",
+   "UniqueId": "42.53451$https://sciex.com/events/pharma/intabio-sub-unit-level-analysis-on-demand-webinar",
+   "Excerpt": "Discover the future of proteomics with SCIEX at HUPO 2025, happening in our vibrant hometown city of Toronto, Ontario! ... As a proud sponsor of this world congress, we invite you to stop by the SC..."
+  },
+  {
+   "title": "SCIEX OS software transforms your workflows",
+   "uri": "https://sciex.com/events/sciex-os-software-transforms-your-workflows",
+   "clickUri": "https://sciex.com/events/sciex-os-software-transforms-your-workflows",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-os-software-transforms-your-workflows",
+   "primaryid": "MRYU62KDGVUTS3CMOY4FCMBTKYXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Turn your SCIEX system up to (Windows) 11 using SCIEX OS software for acquisition ... EST ... Watch the third webinar in our series on streamlining data processing with SCIEX OS software. ... SCIEX...",
+   "raw": {
+    "sysurihash": "dqOiC5i9lLv8Q03V",
+    "urihash": "dqOiC5i9lLv8Q03V",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "906cc6473574358e4ffb5097d82155c73ad4aea2218b5c7cabf2f54146ad",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "SCIEX OS software transforms your workflows",
+   "Uri": "https://sciex.com/events/sciex-os-software-transforms-your-workflows",
+   "ClickUri": "https://sciex.com/events/sciex-os-software-transforms-your-workflows",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-os-software-transforms-your-workflows",
+   "Excerpt": "Turn your SCIEX system up to (Windows) 11 using SCIEX OS software for acquisition ... EST ... Watch the third webinar in our series on streamlining data processing with SCIEX OS software. ... SCIEX..."
+  },
+  {
+   "title": "Food webinar 2025",
+   "uri": "https://sciex.com/events/webinar-food-2025",
+   "clickUri": "https://sciex.com/events/webinar-food-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-food-2025",
+   "primaryid": "GVHVMTZYKFAWU5LOKE4GSS3CNMXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... Make sure you watch it before it’s taken down. ... Watch our on demand webinar to explore advanced LC-MS/MS workflows designed for comprehensive safety assessments of ...",
+   "raw": {
+    "sysurihash": "5OVO8QAjunQ8iKbk",
+    "urihash": "5OVO8QAjunQ8iKbk",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "9a7349061ce140e42291345286b9496c613c30d9d4bee139059c2f6e2266",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "syssourcetype": "Sitemap"
+   },
+   "Title": "Food webinar 2025",
+   "Uri": "https://sciex.com/events/webinar-food-2025",
+   "ClickUri": "https://sciex.com/events/webinar-food-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-food-2025",
+   "Excerpt": "sciextext ... text-left ... Make sure you watch it before it’s taken down. ... Watch our on demand webinar to explore advanced LC-MS/MS workflows designed for comprehensive safety assessments of ..."
+  },
+  {
+   "title": "Thank you",
+   "uri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems/thank-you",
+   "clickUri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems/thank-you",
+   "uniqueId": "42.53451$https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems/thank-you",
+   "primaryid": "OBZVAM3WOJTXCSSOOF5G5Q5RKJMC4NJTGQ2TCLTEMVTGC5LMOQ",
+   "excerpt": "Live webinar: ... LC-MS/HRMS Approaches for Monitoring Organic Micropollutants in Wastewater and Environmental Systems ... Thank you for your registration for our live webinar on LC-MS/HRMS Approac...",
+   "raw": {
+    "sysurihash": "psP3vrgqJNqznñRX",
+    "urihash": "psP3vrgqJNqznñRX",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "40f150b60f3677b7ba0a86723824af37124158d99766044c60b627cc732d",
+    "sourcetype": "Sitemap",
+    "region": [
+     "India"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Environmental testing",
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Thank you",
+   "Uri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems/thank-you",
+   "ClickUri": "https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems/thank-you",
+   "UniqueId": "42.53451$https://sciex.com/events/live-webinar-applications-of-lc-ms-hrms-for-trace-organic-micropollutant-analysis-in-wastewater-and-environmental-systems/thank-you",
+   "Excerpt": "Live webinar: ... LC-MS/HRMS Approaches for Monitoring Organic Micropollutants in Wastewater and Environmental Systems ... Thank you for your registration for our live webinar on LC-MS/HRMS Approac..."
+  },
+  {
+   "title": "SCIEX VIP evening at EBF 2025",
+   "uri": "https://sciex.com/events/sciex-vip-evening-at-ebf-2025",
+   "clickUri": "https://sciex.com/events/sciex-vip-evening-at-ebf-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-vip-evening-at-ebf-2025",
+   "primaryid": "JFAVANZSLF3HO2DILBXDQNSIKAXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "text-left ... Registration is closed ... Step out of the conference buzz and into a private evening at Torre del Veguer. ... Connect with peers in a calm setting, enjoy local flavors, and share rea...",
+   "raw": {
+    "sysurihash": "IAP72YvwhhXn86HP",
+    "urihash": "IAP72YvwhhXn86HP",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "c50a2dc18dbaa98171cb8a2af632fd6f3152a9c8c4ce9bda56b90a5a9e29",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Pharma"
+    ]
+   },
+   "Title": "SCIEX VIP evening at EBF 2025",
+   "Uri": "https://sciex.com/events/sciex-vip-evening-at-ebf-2025",
+   "ClickUri": "https://sciex.com/events/sciex-vip-evening-at-ebf-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-vip-evening-at-ebf-2025",
+   "Excerpt": "text-left ... Registration is closed ... Step out of the conference buzz and into a private evening at Torre del Veguer. ... Connect with peers in a calm setting, enjoy local flavors, and share rea..."
+  },
+  {
+   "title": "Hupo 2025",
+   "uri": "https://sciex.com/events/hupo-2025",
+   "clickUri": "https://sciex.com/events/hupo-2025",
+   "uniqueId": "42.53451$https://sciex.com/events/hupo-2025",
+   "primaryid": "JJWG2UCHHFHHQNTFPJ4GERKYPEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Discover the future of proteomics with SCIEX at HUPO 2025, happening in our vibrant hometown city of Toronto, Ontario! ... As a proud sponsor of this world congress, we invite you to stop by the SC...",
+   "raw": {
+    "sysurihash": "JlmPG9Nx6ezxbEXy",
+    "urihash": "JlmPG9Nx6ezxbEXy",
+    "eventtype": [
+     "In-person event"
+    ],
+    "permanentid": "8f845da6e495f56be4f79e55e5fb8e7e9abef04a5e8ff753bc387288f3bb",
+    "eventyear": "2025",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biomedical and omics research"
+    ]
+   },
+   "Title": "Hupo 2025",
+   "Uri": "https://sciex.com/events/hupo-2025",
+   "ClickUri": "https://sciex.com/events/hupo-2025",
+   "UniqueId": "42.53451$https://sciex.com/events/hupo-2025",
+   "Excerpt": "Discover the future of proteomics with SCIEX at HUPO 2025, happening in our vibrant hometown city of Toronto, Ontario! ... As a proud sponsor of this world congress, we invite you to stop by the SC..."
+  },
+  {
+   "title": "advancements for metabolomics and lipidomics workflows using high resolution mass spectrometry",
+   "uri": "https://sciex.com/events/webinar-hrms-jan2025",
+   "clickUri": "https://sciex.com/events/webinar-hrms-jan2025",
+   "uniqueId": "42.53451$https://sciex.com/events/webinar-hrms-jan2025",
+   "primaryid": "KJHGGNSCMFEHS2TBGJBXUUDQOQXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "sciextext ... text-left ... Join us for this insightful session as we dive into the evolving landscape of metabolomics and lipidomics powered by high resolution mass spectrometry. ... Discover how ...",
+   "raw": {
+    "sysurihash": "RNc6BaHyja2CzPpt",
+    "urihash": "RNc6BaHyja2CzPpt",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "6ef4583b9da3324b5ce2b679c8ae7326e0c429accb825d5a0d74d1984b17",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "Europe",
+     "India"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma"
+    ]
+   },
+   "Title": "advancements for metabolomics and lipidomics workflows using high resolution mass spectrometry",
+   "Uri": "https://sciex.com/events/webinar-hrms-jan2025",
+   "ClickUri": "https://sciex.com/events/webinar-hrms-jan2025",
+   "UniqueId": "42.53451$https://sciex.com/events/webinar-hrms-jan2025",
+   "Excerpt": "sciextext ... text-left ... Join us for this insightful session as we dive into the evolving landscape of metabolomics and lipidomics powered by high resolution mass spectrometry. ... Discover how ..."
+  },
+  {
+   "title": "SCIEX OS roundtable",
+   "uri": "https://sciex.com/events/sciex-os-roundtable",
+   "clickUri": "https://sciex.com/events/sciex-os-roundtable",
+   "uniqueId": "42.53451$https://sciex.com/events/sciex-os-roundtable",
+   "primaryid": "IRIU243SJZQVUR2KLFXFOM2SKEXDKMZUGUYS4ZDFMZQXK3DU",
+   "excerpt": "Our innovation. ... Join the SCIEX OS software user roundtable and help influence the future of software innovation for modern laboratories. ... This exclusive customer forum brings together SCIEX ...",
+   "raw": {
+    "sysurihash": "DQMsrNaZGJYnW3RQ",
+    "urihash": "DQMsrNaZGJYnW3RQ",
+    "eventtype": [
+     "Live webinar"
+    ],
+    "permanentid": "b0804474e950a2476d2257305096795688610d6943560ec9400f750ff9ad",
+    "eventyear": "2026",
+    "sourcetype": "Sitemap",
+    "region": [
+     "All"
+    ],
+    "syssourcetype": "Sitemap",
+    "applications": [
+     "Biopharma",
+     "Pharma",
+     "Forensic testing",
+     "Biomedical and omics research",
+     "Clinical",
+     "Food and beverage testing",
+     "Environmental testing"
+    ]
+   },
+   "Title": "SCIEX OS roundtable",
+   "Uri": "https://sciex.com/events/sciex-os-roundtable",
+   "ClickUri": "https://sciex.com/events/sciex-os-roundtable",
+   "UniqueId": "42.53451$https://sciex.com/events/sciex-os-roundtable",
+   "Excerpt": "Our innovation. ... Join the SCIEX OS software user roundtable and help influence the future of software innovation for modern laboratories. ... This exclusive customer forum brings together SCIEX ..."
+  }
+ ]
+}

@@ -108,3 +108,21 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** user review of the three pages and the plan; then wave 1 (`migrate` sibling tier for ~200 marketing landings → `rollout`).
 
 ---
+## 2026-09-18T14:10:00Z — Wave "L2": migrate every second-level menu item (user request)
+
+**Prompt:** "continue the migration, migrate all the second level menu items (for all the first levels)" with a screenshot of the Applications mega-menu left column.
+
+**Decisions:**
+- Second level = the left column of each top-level mega-menu panel (+ its "View all" page), resolved to landing URLs from `stardust/replica/capture/megamenu-desktop.json`: 27 items across Products (7), Applications (7), Training (1), Support (3), Service (3), Resource hub (1), About us (5, one external), Events (2 query variants of `/events`). Pharma is already live.
+- Nine missing pages captured (`/applications/cannabis-testing`, `/education/grant-support`, `/education/clinical-mass-spec-knowledge-center`, `/resource-hub`, `/resource-hub/regulatory-documents`, `/support/professional-lab-services`, `/stories`, `/events?event=upcoming|on-demand`); state.json now has 82 pages.
+- Component inventory of the v3 pages (`stardust/.work/coord/v3-components.json`): 25 AEM components; the pharma archetype implements 7. Rather than clone pharma blindly, five parallel groups build cumulative prototypes: G1 products (8 pages), G2 applications (8), G3 about/support v3 (6, incl. the `page-content` template and the XF-driven `/stories`), G4 legacy templates (3 archetypes: `/support`, `/support/software-support`, `/education/grant-support`), G5 port of the four pages already on Edge Delivery (`/events`, `/resource-hub`, `/resource-hub/regulatory-documents`, `/about-us/contact-us`) with `sx-` prefixing on block-name collisions and Coveo disabled (owner decision named).
+- Each group writes its own ledger (`progress-g<n>.json`) and CSS file; the coordinator dedupes duplicate components at deploy time and commits once per phase (the stall/race lesson from the first run).
+- External targets stay links: community.sciex.com, the shop (eProcurement redirects to shop.sciex.com).
+
+**Artifacts touched:** stardust/current/pages/ (+9), stardust/state.json (82 pages), stardust/.work/coord/{nav-l2.json,v3-components.json}, stardust/replica/siblings/ (variance probe), stardust/journal.md.
+
+**Open questions:** Coveo reuse (search results, resource hub); events data source cadence; whether `/support` should keep the SCIEX Now shell or move to the v3 template (replicated as captured).
+
+**Next:** gate the prototypes per group → deploy phase (convert → coordinator commit → deliver + published gate) → siblings importer for the remaining v3 pages.
+
+---

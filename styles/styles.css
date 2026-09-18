@@ -887,3 +887,261 @@ main .section.lead .default-content-wrapper p {
     line-height: 22px;
   }
 }
+
+/* ======================================================================================
+   sx-port — pages ported from the source's OWN EDS code base (sciex.com/blocks/*):
+   /events · /resource-hub · /resource-hub/regulatory-documents · /about-us/contact-us.
+   Metadata `Template: sx-port` → body.sx-port. ONLY the base rules those pages' blocks lean on
+   are reproduced here, from the effective cascade of sciex.com/styles/styles.css + site.css
+   (Tailwind preflight resets headings/paragraph margins to 0 and heading sizes to inherit;
+   what survives is the section container, link colour, button chrome and wrapper widths).
+   Their block CSS is ported verbatim under blocks/<name>/. Base rules use `:where(body.sx-port)` so
+   they keep the SOURCE specificity (tie with our base rules → later wins; the ported block CSS
+   still out-ranks them exactly as on sciex.com). See stardust/eds-port-log.md.
+   ====================================================================================== */
+
+/* the source names the same VF file under three families ("Geogrotesque" already matches our
+   geogrotesque face case-insensitively); alias the other two to our self-hosted file */
+@font-face {
+  font-family: "Geogrotesque Sharp VF";
+  src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2');
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geogrotesque MD";
+  src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2');
+  font-weight: 530;
+  font-style: normal;
+  font-display: swap;
+}
+
+body.sx-port {
+  /* source tokens (styles.css :root) referenced by the ported block CSS — their names are
+     load-bearing in the ported block CSS, so they stay as authored */
+  /* stylelint-disable custom-property-pattern */
+  --Blue-700: #0068fa;
+  --Grey-100: #ececec;
+  --Grey-200: #c6c6c6;
+  --Grey-500: #707070;
+  --Grey-700: #434343;
+  --Grey-900: #141414;
+  --Neutrals-900: #141414;
+  /* stylelint-enable custom-property-pattern */
+  --link-color: #3b63fb;
+  --link-hover-color: #1d3ecf;
+  --light-color: #f8f8f8;
+  --dark-color: #505050;
+  --heading-font-size-xxl: 52px;
+  --heading-font-size-xl: 40px;
+  --heading-font-size-l: 32px;
+  --heading-font-size-m: 24px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 16px;
+  --body-font-size-m: 22px;
+  --body-font-size-s: 19px;
+  --body-font-size-xs: 17px;
+
+  font-variation-settings: "wdth" 550;
+}
+
+@media (width >= 900px) {
+  body.sx-port {
+    --heading-font-size-xxl: 45px;
+    --heading-font-size-xl: 36px;
+    --heading-font-size-l: 28px;
+    --heading-font-size-m: 22px;
+    --body-font-size-m: 18px;
+    --body-font-size-s: 16px;
+    --body-font-size-xs: 14px;
+  }
+}
+
+body.sx-port main {
+  min-height: 600px;
+}
+
+/* source section container: 1200px centred wrappers, 40px rhythm (styles.css) */
+:where(body.sx-port) main > .section {
+  margin: 40px 0;
+  padding: 0;
+}
+
+:where(body.sx-port) main > .section > div {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+:where(body.sx-port) main > .section:first-of-type {
+  margin-top: 0;
+}
+
+@media (width >= 900px) {
+  :where(body.sx-port) main > .section > div {
+    padding: 0 32px;
+  }
+}
+
+/* the source widens these wrappers at ≥1440 (styles.css) */
+@media (width >= 1440px) {
+  body.sx-port main > .section > .tabs-container-wrapper,
+  body.sx-port main > .section > .contact-information-wrapper,
+  body.sx-port main > .section > .cta-with-text-wrapper,
+  body.sx-port main > .section > .sciex-headquaters-wrapper,
+  body.sx-port main > .section > .sciex-text-wrapper,
+  body.sx-port main > .section > .categories-wrapper,
+  body.sx-port main > .section > .featured-key-workflows-wrapper {
+    max-width: 90pc !important;
+  }
+}
+
+/* effective heading/paragraph base after the source's Tailwind preflight: no margins, size
+   inherited, the "Geogrotesque MD" face — every visible size comes from the block CSS */
+:where(body.sx-port) main h1,
+:where(body.sx-port) main h2,
+:where(body.sx-port) main h3,
+:where(body.sx-port) main h4,
+:where(body.sx-port) main h5,
+:where(body.sx-port) main h6 {
+  margin: 0;
+  font-family: "Geogrotesque MD", helvetica, arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: inherit;
+}
+
+:where(body.sx-port) main p,
+:where(body.sx-port) main li {
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: normal;
+  line-height: inherit;
+}
+
+:where(body.sx-port main) b,
+:where(body.sx-port main) strong {
+  font-weight: bolder;
+}
+
+/* source links: blue text links with hover underline (styles.css a:any-link) */
+:where(body.sx-port main) a:any-link {
+  color: var(--link-color);
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+:where(body.sx-port main) a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* source button chrome that the ported block CSS builds on (styles.css a.button/button
+   after preflight: transparent bg, zero padding, pill border) */
+:where(body.sx-port main, body.sx-port .event-modal) button {
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 2.4em;
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:where(body.sx-port main) a.button:any-link {
+  display: inline-block;
+  max-width: 100%;
+  margin: 12px 0;
+  border: 2px solid transparent;
+  border-radius: 2.4em;
+  padding: 0.5em 1.2em;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--link-color);
+  color: var(--background-color);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:where(body.sx-port main) a.button.secondary:any-link {
+  background-color: unset;
+  border: 2px solid currentcolor;
+  color: var(--text-color);
+}
+
+/* our formatted-CTA arrows must not leak into the ported hero/cta buttons */
+:where(body.sx-port main) a.button.primary::after,
+:where(body.sx-port main) a.button.secondary::after {
+  content: none;
+}
+
+/* source .icon: unsized inline span, img fills it (styles.css) */
+:where(body.sx-port main) .icon {
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
+
+:where(body.sx-port main) .icon img {
+  height: 100%;
+  width: 100%;
+}
+
+/* source images (pipeline <picture>) */
+:where(body.sx-port) main img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* the events block moves a filter modal to <body> and locks scroll on it (events.css) */
+body.sx-port.event-modal-open {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* source utility classes the ported content carries in its cells (icon-card `text-echo`,
+   `text-blue`; sciex.com/styles/styles.css) */
+:where(body.sx-port) .text-echo {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  font-variation-settings: "wght" 330, "wdth" 550;
+}
+
+:where(body.sx-port) .text-echo-bolder {
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  font-variation-settings: "wght" 530, "wdth" 550;
+}
+
+/* stylelint-disable custom-property-pattern */
+:where(body.sx-port) .text-blue {
+  color: var(--Blue-700, #0068fa);
+}
+
+:where(body.sx-port) .text-grey {
+  color: var(--Grey-700, #6b7280);
+}
+/* stylelint-enable custom-property-pattern */

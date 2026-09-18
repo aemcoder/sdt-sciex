@@ -1,0 +1,254 @@
+/* stylelint-disable -- sx-port: ported from https://sciex.com/blocks/cta-with-text/cta-with-text.css (2026-09-18), stylelint --fix formatting only. See stardust/eds-port-log.md */
+/* ========== Base Layout ========== */
+
+.cta-with-text-wrapper {
+  margin-top: 149px !important;
+}
+
+.support-cta-block {
+  width: 100%;
+}
+
+.support-cta-inner {
+  display: flex;
+  align-items: center;
+}
+
+/* ========== Typography ========== */
+
+.support-cta-title {
+  color: #000;
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 330;
+  line-height: 40px; /* 125% */
+  margin: 0;
+}
+
+.support-cta-desc {
+  color: var(--Gray-3, #828282);
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 330;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: 0.045px;
+  margin: 8px 0 0;
+}
+
+/* ========== Variations ========== */
+
+/* Banner */
+
+.support-cta--banner .support-cta-inner {
+  max-width: 860px;     
+  margin: 0 auto;    
+  padding: 16px 24px;
+  gap: 32px;
+  background: #fff;
+}
+
+/* Card */
+
+.support-cta--card .support-cta-inner {
+  padding: 32px;
+  gap: 32px;
+  background: var(--Grey-50, #F5F5F5);
+}
+
+.support-cta--card .support-cta-title {
+  color: var(--Grey-900, #141414);
+}
+
+/* ========== Button Base ========== */
+
+.support-cta-button {
+  display: flex;
+  padding: 10px 16px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 14px;
+  font-weight: 330;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Button Types */
+
+.support-cta-button--primary {
+  border: none;
+  display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+background: var(--Blue-700, #0068FA);
+color: var(--White-0, #FFF) !important;
+
+/* Desktop/text-base/bolder */
+font-family: "Geogrotesque Sharp VF";
+font-size: 16px;
+font-style: normal;
+font-weight: 530;
+line-height: 24px; /* 150% */
+letter-spacing: 0.08px;
+}
+
+.support-cta-button--secondary {
+  background: transparent;
+  color: var(--Blue-700, #0068FA);
+  border: 1px solid var(--Blue-700, #0068FA);
+}
+
+.support-cta-button--link {
+  background: transparent;
+  color: var(--Blue-700, #0068FA);
+  border: none;
+  padding: 0;
+}
+
+/* ========== Alignment Modifiers ========== */
+
+.support-cta--align-left .support-cta-inner {
+  flex-direction: row-reverse;
+}
+
+.support-cta--align-bottom .support-cta-inner {
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Optional: keep link visually aligned with buttons */
+.support-cta-link {
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 14px;
+  font-weight: 330;
+  color: var(--Blue-700, #0068FA);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.support-cta-link:hover {
+  text-decoration: underline;
+}
+
+/* ========== Button Alignment Based on Author Selection ========== */
+
+/* Right aligned (default banner style) */
+.support-cta--align-right .support-cta-action {
+  justify-content: flex-end;
+}
+
+/* Left aligned */
+.support-cta--align-left .support-cta-action {
+  justify-content: flex-start;
+}
+
+/* Bottom alignment (buttons under text, left aligned) */
+.support-cta--align-bottom .support-cta-action {
+  justify-content: flex-start;
+}
+
+/* Always keep buttons in a row */
+.support-cta-action {
+  display: flex;
+  flex-flow: row wrap;   
+  align-items: center;
+  gap: 16px;
+}
+
+/* ========== Contact Theme Modifiers ========== */
+
+/* Dark Theme */
+.support-cta--dark .support-cta-inner {
+  background: #000;
+}
+
+.support-cta--dark .support-cta-title,
+.support-cta--dark .support-cta-desc {
+  color: #fff;
+}
+
+/* Light Theme */
+.support-cta--light .support-cta-inner {
+  background: #F5F5F5;
+}
+
+/* ========== Contact Alignment Modifiers ========== */
+
+.support-cta--contact-left {
+ align-items: flex-start;
+}
+
+.support-cta--contact-middle {
+  align-items: center;
+}
+
+.support-cta--contact-right{
+  align-items: flex-end;
+}
+
+.support-cta--dark .support-cta-button--secondary {
+  border: 1px solid  #FFF;
+  color:  #FFF;;
+}
+
+/* ================= MOBILE FIX ================= */
+@media (width <= 768px) {
+  .cta-with-text-wrapper {
+    padding: 10px 16px !important;
+  }
+
+  .support-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .support-cta--banner .support-cta-inner {
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .support-cta-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .support-cta-desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .support-cta-action {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .support-cta-button,
+  .support-cta-link {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .support-cta--align-left .support-cta-inner,
+  .support-cta--align-right .support-cta-inner,
+  .support-cta--align-bottom .support-cta-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .support-cta--align-right .support-cta-action,
+  .support-cta--align-left .support-cta-action,
+  .support-cta--align-bottom .support-cta-action {
+    justify-content: flex-start;
+  }
+}
+
+

@@ -1,0 +1,141 @@
+/* stylelint-disable -- sx-port: ported from https://sciex.com/blocks/featured-key-workflows/featured-key-workflows.css (2026-09-18), stylelint --fix formatting only. See stardust/eds-port-log.md */
+.featured-key-workflows-wrapper {
+  margin-top: 64px !important;
+  margin-bottom: 64px !important;
+
+  /* max-width : 1440px !important; */
+}
+
+.featured-key-workflows-title {
+  color: var(--Grey-900, #141414);
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 330;
+  line-height: 52px;
+  margin-bottom: 40px;
+}
+
+.featured-key-workflows-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-left: 1px solid #ECECEC;
+}
+
+.workflow-card {
+  padding: 30px;
+  border-top: none;
+  border-right: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+  transition: background-color 0.3s ease;
+}
+
+.workflow-card:nth-child(-n+3) {
+  border-top: 1px solid #ECECEC;
+}
+
+.workflow-card h3 {
+  color: #000;
+  font-family: "Geogrotesque Sharp VF";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 530;
+  line-height: 32px;
+  margin-bottom: 16px;
+  height: 60px;
+}
+
+.workflow-card-icon img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 24px;
+}
+
+.workflow-card-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.workflow-card-link {
+  color: var(--Blue-700, #0068FA) !important;
+  text-decoration-line: underline !important;
+  text-decoration-color: currentcolor;   /* visible initially */
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 0.25s ease; /* animate only underline */
+}
+
+.workflow-card-link:hover {
+  text-decoration-color: transparent;    /* smoothly hides underline */
+}
+
+.workflow-card-link::after {
+  content: '';
+  display: inline-block;
+  background-image: url("/blocks/featured-key-workflows/icons/right-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  vertical-align: middle;
+  transition: transform 0.25s ease;
+}
+
+.workflow-card-link:hover::after {
+  transform: translateX(4px);
+}
+
+@media (width <= 1024px) {
+  .featured-key-workflows-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+   .workflow-card:nth-child(-n+3) {
+    border-top: none;
+  }
+
+  .workflow-card:nth-child(-n+2) {
+    border-top: 1px solid #ECECEC ;
+  }
+
+  .featured-key-workflows-wrapper {
+    margin-top: 32px !important;
+    margin-bottom: 32px !important
+  }
+}
+
+@media (width <= 767px) {
+  .featured-key-workflows-grid {
+    grid-template-columns: 1fr;
+  }
+
+   .workflow-card:nth-child(-n+2) {
+    border-top: none;
+  }
+
+  .workflow-card:nth-child(-n+1) {
+     border-top: 1px solid #ECECEC;
+  }
+
+  .featured-key-workflows-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .workflow-card h3 {
+    font-size: 16px;
+      height: auto;
+
+  }
+
+  .workflow-card-link {
+    font-size: 12px;
+  }
+
+  .workflow-card-link::after {
+    width: 12px;
+    height: 12px;
+  }
+}

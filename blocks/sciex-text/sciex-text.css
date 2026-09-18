@@ -1,0 +1,123 @@
+/* stylelint-disable -- sx-port: ported from https://sciex.com/blocks/sciex-text/sciex-text.css (2026-09-18), stylelint --fix formatting only. See stardust/eds-port-log.md */
+
+.sciex-text .text-left {
+    text-align: left;
+}
+
+.sciex-text .text-right {
+    text-align: right;
+}
+
+.sciex-text .text-center {
+    text-align: center;
+}
+
+.sciex-text h1 {
+    font-size: 52px;
+}
+
+.sciex-text h2 {
+    font-size: 40px;
+}
+
+.sciex-text h3 {
+    font-size: 32px;
+}
+
+.sciex-text h4 {
+    font-size: 24px;
+}
+
+.sciex-text h5 {
+    font-size: 18px;
+}
+
+.sciex-text h6 {
+    font-size: 16px;
+}
+
+.sciex-text h1,
+.sciex-text h2,
+.sciex-text h3,
+.sciex-text h4,
+.sciex-text h5,
+.sciex-text h6 {
+    color: var(--Neutrals-900, #141414);
+    font-family: "Geogrotesque Sharp VF", sans-serif !important;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.sciex-text p {
+    color: var(--Neutrals-500, #707070);
+    font-family: "Geogrotesque Sharp VF", sans-serif !important;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.sciex-text strong {
+    font-weight: 530;
+}
+
+.sciex-text ul {
+    list-style-type: inherit !important;
+    padding-left: 30px !important;
+
+    /* padding-top: 20px !important; */
+}
+
+.sciex-text ul li::marker {
+    font-size: 0.6em;
+}
+
+.sciex-text ol {
+    list-style-type: decimal !important;
+    padding-left: 30px !important;
+
+    /* padding-top: 20px !important; */
+}
+
+.sciex-text ul li,
+.sciex-text ul li a,
+.sciex-text ol li,
+.sciex-text ol li a {
+    color: var(--Neutrals-500, #707070);
+    font-family: "Geogrotesque Sharp VF", sans-serif;
+    font-style: normal;
+    font-weight: 330;
+}
+
+.sciex-text ul li {
+    font-size: 16px !important;
+    line-height: 26px !important;
+    letter-spacing: 0.045px !important;
+}
+
+.sciex-text ul li a {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.045px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.sciex-text ol li {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+}
+
+.sciex-text ol li a {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
