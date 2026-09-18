@@ -107,3 +107,4 @@
 {"ts":"2026-09-18T13:02:04Z","skill":"stardust:deploy","phase":"g1:products-software:convert","event":"end","group":"g1","result":"lint=0 roundtrip=0 ew=0 qa=1 "}
 {"ts":"2026-09-18T13:02:04Z","skill":"stardust:deploy","phase":"g1:products-consumables:convert","event":"end","group":"g1","result":"lint=0 roundtrip=0 ew=0 qa=0 "}
 {"ts":"2026-09-18T13:02:04Z","skill":"stardust:deploy","phase":"g1:technology:convert","event":"end","group":"g1","result":"lint=0 roundtrip=0 ew=0 qa=0 "}
+{"ts": "2026-09-18T13:21:14.765077Z", "skill": "stardust:deploy", "phase": "g1:deliver", "event": "blocked", "group": "g1", "result": "media 113/113 PUT 201; localize-links check PASS (5 live pages relinked); lint 0 red x13; sanitise done; deploy-batch PUT/preview DENIED by the Claude Code permission classifier ([Production Deploy]) \u2014 commands recorded in ready.json phase2.BLOCKED.commandsReady", "artifact": "stardust/.work/deploy/g1/ready.json"}
