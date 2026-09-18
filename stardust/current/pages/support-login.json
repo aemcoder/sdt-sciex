@@ -1,0 +1,253 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:52:06.657Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "support-login",
+  "url": "https://sciex.com/support/login",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:52:06.657Z",
+  "finalUrl": "https://login.lifesciences.danaher.com/u/login/identifier?state=hKFo2SAtNy1sNnREaVRSM3NiRUNXRkZUWHJFNkVCbVhyR2JIMKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFhLSnYwWEMxT0ZYMWpSQ2cwcW4wSGpoNDdIUEpiSnA2o2NpZNkgeXlnM0tJc2Q5alprTjd2ZHhDR3RIUzdOMmhWcE5pcXc&ui_locales=en",
+  "title": "Sign In",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Welcome"
+    }
+  ],
+  "body": [
+    "Use your Danaher login to sign into SCIEX.",
+    "Need an account? Sign up"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Continue",
+      "href": null
+    },
+    {
+      "label": "Sign up",
+      "href": "/u/signup/identifier?state=hKFo2SAtNy1sNnREaVRSM3NiRUNXRkZUWHJFNkVCbVhyR2JIMKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFhLSnYwWEMxT0ZYMWpSQ2cwcW4wSGpoNDdIUEpiSnA2o2NpZNkgeXlnM0tJc2Q5alprTjd2ZHhDR3RIUzdOMmhWcE5pcXc&ui_locales=en"
+    }
+  ],
+  "links": [
+    "https://login.lifesciences.danaher.com/u/signup/identifier?state=hKFo2SAtNy1sNnREaVRSM3NiRUNXRkZUWHJFNkVCbVhyR2JIMKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFhLSnYwWEMxT0ZYMWpSQ2cwcW4wSGpoNDdIUEpiSnA2o2NpZNkgeXlnM0tJc2Q5alprTjd2ZHhDR3RIUzdOMmhWcE5pcXc&ui_locales=en",
+    "https://www.abcam.com/",
+    "https://www.aldevron.com/",
+    "https://www.mybeckman.com/",
+    "https://www.genedata.com/",
+    "https://www.idbs.com/",
+    "https://www.idtdna.com/",
+    "https://www.leica-microsystems.com/",
+    "https://www.moleculardevices.com/",
+    "https://www.phenomenex.com/",
+    "https://www.sciex.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://lifesciences.danaher.com/icons/danaher.png",
+        "alt": "Danaher",
+        "w": 130,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/icons/danaher.png",
+        "alt": "Danaher Lifesciences",
+        "w": 130,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/icons/danaher.png",
+        "alt": "Danaher",
+        "w": 130,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/abcam-logo.webp",
+        "alt": "Abcam",
+        "w": 150,
+        "h": 33
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/aldevron-logo.webp",
+        "alt": "Aldevron",
+        "w": 150,
+        "h": 49
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/beckman-coulter-life-sciences-logo.webp",
+        "alt": "Beckman Coulter Life Sciences",
+        "w": 150,
+        "h": 88
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/genedata-logo.webp",
+        "alt": "Genedata",
+        "w": 150,
+        "h": 52
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/idbs-logo.webp",
+        "alt": "IDBS",
+        "w": 150,
+        "h": 46
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/idt-logo.webp",
+        "alt": "IDT",
+        "w": 150,
+        "h": 44
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/leica-microsystems-logo.webp",
+        "alt": "Leica Microsystems",
+        "w": 150,
+        "h": 70
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/moledev-logo.webp",
+        "alt": "Molecular Devices",
+        "w": 150,
+        "h": 33
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/PHENOMENEX.svg",
+        "alt": "Phenomenex",
+        "w": 300,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/sciex-logo.webp",
+        "alt": "SCIEX",
+        "w": 150,
+        "h": 51
+      }
+    ],
+    "allImgCount": 13,
+    "cssBackgrounds": [
+      "https://danaherls.scene7.com/is/image/danaher/danaher-background"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#0068FA",
+    "--button-font-color": "#ffffff",
+    "--secondary-button-border-color": "#c9cace",
+    "--social-button-border-color": "#c9cace",
+    "--radio-button-border-color": "#c9cace",
+    "--secondary-button-text-color": "#1e212a",
+    "--link-color": "#0068FA",
+    "--title-font-color": "#1e212a",
+    "--font-default-color": "#1e212a",
+    "--widget-background-color": "#ffffff",
+    "--box-border-color": "#c9cace",
+    "--font-light-color": "#65676e",
+    "--input-text-color": "#000000",
+    "--input-border-color": "#c9cace",
+    "--border-default-color": "#c9cace",
+    "--input-background-color": "#ffffff",
+    "--icon-default-color": "#65676e",
+    "--error-color": "#d03c38",
+    "--error-text-color": "#ffffff",
+    "--success-color": "#13a688",
+    "--base-focus-color": "#0068FA",
+    "--transparency-focus-color": "rgba(0, 104, 250, .15)",
+    "--base-hover-color": "#000000",
+    "--transparency-hover-color": "rgba(0,0,0, 0.1)",
+    "--ulp-captcha-widget-theme": "light",
+    "--default-font-size": "1rem",
+    "--small-font-size": "0.75rem",
+    "--title-font-size": "1.5rem",
+    "--lg-font-size": "1rem",
+    "--xl-font-size": "1.25rem",
+    "--spacing": "0.5rem",
+    "--button-border-width": "1px",
+    "--social-button-border-width": "1px",
+    "--radio-border-width": "1px",
+    "--input-border-width": "1px",
+    "--border-radius-outer": "5px",
+    "--box-border-width": "0px",
+    "--brand-primary": "#0068FA",
+    "--brand-primary-rgb": "0, 104, 250"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 158,
+    "realImageCount": 13,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "cdn.dreamdata.cloud",
+        "path": "/api/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16,
+        "hits": 1,
+        "example": "https://cdn.dreamdata.cloud/api/v1/p",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.auth0.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.dreamdata.cloud",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://login.lifesciences.danaher.com/u/login/identifier",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 2,
+        "fieldNames": [
+          "username"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 4,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 1,
+      "thirdPartyScriptHosts": 2,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/support-login.png",
+  "renderedHtml": "pages/support-login.html"
+}

@@ -1,0 +1,2118 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 70,
+    "concurrency": 4
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://sciex.com/content/SCIEX/na/us/en.thumb.16.16.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "dynamicSurface": {
+    "pages": 70,
+    "pagesWithSameSiteData": 67,
+    "pagesWithSearchForm": 2,
+    "pagesHydrated": 64,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78ce.json",
+        "pages": 69,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac12/en.json",
+        "pages": 69,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "cdn.dreamdata.cloud",
+        "path": "/api/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.dreamdata.cloud/api/v1/p",
+        "pages": 69,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "pages": 68,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/bin/sciex/currentuserdetails",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://sciex.com/bin/sciex/currentuserdetails",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/data_3c17a089273d4c61a1e6b218844911fa.br.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br.json",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/runtime_data.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/player/resources/prompts-manager/2.8.4/prompts.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ec.walkme.com",
+        "path": "/event/postEvent",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://ec.walkme.com/event/postEvent",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_et",
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.auth0Id",
+          "ep.logged_in_status",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/11360491560/",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "collection.decibelinsight.net",
+        "path": "/i/{n}/{n}/c.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://collection.decibelinsight.net/i/14130/1197818/c.json",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+        "path": "/web/v2/authentication",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://sciex.com/libs/granite/csrf/token.json",
+        "pages": 63,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "pages": 62,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+        "path": "/api2/event/sciex_prod",
+        "query": [
+          "event"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+        "pages": 62,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "pages": 61,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geoip-js.com",
+        "path": "/geoip/v2.1/country/me",
+        "query": [
+          "referrer"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.maxmind.com-country+json",
+        "sameSite": false,
+        "example": "https://geoip-js.com/geoip/v2.1/country/me",
+        "pages": 50,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 13,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "sessions.bugsnag.com",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://sessions.bugsnag.com/",
+        "pages": 13,
+        "examples": [
+          "support",
+          "products-spectral-library",
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Asset.php",
+        "query": [
+          "Module",
+          "Q_ARCACHEVERSION",
+          "Q_BRANDDC",
+          "Q_BrandTier",
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ORIGIN",
+          "Version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php",
+        "pages": 13,
+        "examples": [
+          "support",
+          "products-spectral-library",
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 10,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "products-mass-spectrometers"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+        "pages": 8,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "collection.decibelinsight.net",
+        "path": "/i/{n}/da/",
+        "query": [
+          "dc",
+          "dl",
+          "dnt",
+          "dv",
+          "jspsf",
+          "pvid",
+          "retryCode",
+          "sid",
+          "t_c",
+          "type",
+          "wid"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://collection.decibelinsight.net/i/14130/da/",
+        "pages": 6,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "applications-biomedical-and-omics-research"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.plyr.io",
+        "path": "/3.7.8/plyr.svg",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.plyr.io/3.7.8/plyr.svg",
+        "pages": 5,
+        "examples": [
+          "products-software-analyst-software",
+          "applications-forensics-testing",
+          "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ec-playback.walkme.com",
+        "path": "/session/init",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://ec-playback.walkme.com/session/init",
+        "pages": 4,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "googleads.g.doubleclick.net",
+        "path": "/pagead/id",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://googleads.g.doubleclick.net/pagead/id",
+        "pages": 3,
+        "examples": [
+          "products-software-analyst-software",
+          "technology-electron-activated-dissociation",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jnn-pa.googleapis.com",
+        "path": "/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json+protobuf",
+        "sameSite": false,
+        "example": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+        "pages": 3,
+        "examples": [
+          "products-software-analyst-software",
+          "technology-electron-activated-dissociation",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/log_event",
+        "query": [
+          "alt"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/log_event",
+        "pages": 3,
+        "examples": [
+          "products-software-analyst-software",
+          "technology-electron-activated-dissociation",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/hreflang.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://sciex.com/hreflang.json",
+        "pages": 3,
+        "examples": [
+          "support-knowledge-base-articles",
+          "support-customer-documents",
+          "about-us-contact-us"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/footer.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://sciex.com/footer.plain.html",
+        "pages": 3,
+        "examples": [
+          "support-knowledge-base-articles",
+          "support-customer-documents",
+          "about-us-contact-us"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/placeholders.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://sciex.com/placeholders.json",
+        "pages": 3,
+        "examples": [
+          "support-knowledge-base-articles",
+          "support-customer-documents",
+          "about-us-contact-us"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/nav.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://sciex.com/nav.plain.html",
+        "pages": 3,
+        "examples": [
+          "support-knowledge-base-articles",
+          "support-customer-documents",
+          "about-us-contact-us"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "notify.bugsnag.com",
+        "path": "/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://notify.bugsnag.com/",
+        "pages": 2,
+        "examples": [
+          "support",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "papi.walkme.com",
+        "path": "/deepui/p/analyzeAutomatonResult",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://papi.walkme.com/deepui/p/analyzeAutomatonResult",
+        "pages": 2,
+        "examples": [
+          "products-integrated-solutions",
+          "support-request-support"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "res.cdn.office.net",
+        "path": "/teams-js/validDomains/json/validDomains.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://res.cdn.office.net/teams-js/validDomains/json/validDomains.json",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/learner",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "sameSite": false,
+        "example": "https://training.sciex.com/api/rest/v2/learner",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/profiles/client-public",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "sameSite": false,
+        "example": "https://training.sciex.com/api/rest/v2/profiles/client-public",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/features",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "sameSite": false,
+        "example": "https://training.sciex.com/api/rest/v2/features",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/learner-discovery/conversations",
+        "query": [
+          "limit",
+          "offset"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://training.sciex.com/api/rest/learner-discovery/conversations",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/profiles/sso-configuration",
+        "query": [
+          "relayState"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "sameSite": false,
+        "example": "https://training.sciex.com/api/rest/v2/profiles/sso-configuration",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "data.pendo.io",
+        "path": "/data/guide.gif/{uuid}",
+        "query": [
+          "ct",
+          "jzb",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://data.pendo.io/data/guide.gif/e30c76de-ebde-46d2-485e-e3175186f503",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "data.pendo.io",
+        "path": "/data/guide.json/{uuid}",
+        "query": [
+          "ct",
+          "id",
+          "jzb",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://data.pendo.io/data/guide.json/e30c76de-ebde-46d2-485e-e3175186f503",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "1f810f57d4b1.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://1f810f57d4b1.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.gstatic.com",
+        "path": "/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+        "pages": 1,
+        "examples": [
+          "products-software-analyst-software"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "1e8546fddf2d.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://1e8546fddf2d.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "products-spectral-library"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "0b7cb4c06b82.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://0b7cb4c06b82.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "9d43c70b4a60.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://9d43c70b4a60.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "226ada51e1fb.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://226ada51e1fb.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "products-accessories"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/resource-hub",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://sciex.com/resource-hub",
+        "pages": 1,
+        "examples": [
+          "support-knowledge-base-articles"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "6a8966d6da43.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://6a8966d6da43.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support-software-support"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "b7b438861d53.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://b7b438861d53.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support-software-support-software-downloads"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/player",
+        "query": [
+          "prettyPrint"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/player",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "rr1---sn-nfpnnjvh-a0bl.googlevideo.com",
+        "path": "/videoplayback",
+        "query": [
+          "alr",
+          "c",
+          "cpn",
+          "cps",
+          "cver",
+          "ei",
+          "expire",
+          "fexp",
+          "fvip",
+          "id",
+          "ip",
+          "keepalive",
+          "lsig",
+          "lsparams",
+          "met",
+          "mh",
+          "mm",
+          "mn",
+          "ms",
+          "mt",
+          "mv",
+          "mvi",
+          "n",
+          "ns",
+          "pl",
+          "requiressl",
+          "rms",
+          "rn",
+          "rqh",
+          "sabr",
+          "sig",
+          "source",
+          "sparams",
+          "spc",
+          "svpuc",
+          "xpc"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/vnd.yt-ump",
+        "sameSite": false,
+        "example": "https://rr1---sn-nfpnnjvh-a0bl.googlevideo.com/videoplayback",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/api/stats/qoe",
+        "query": [
+          "afmt",
+          "afs",
+          "bat",
+          "bh",
+          "bwe",
+          "bwm",
+          "c",
+          "cat",
+          "cbr",
+          "cbrand",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cosver",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cver",
+          "docid",
+          "ei",
+          "el",
+          "event",
+          "fexp",
+          "fmt",
+          "ns",
+          "plid",
+          "qclc",
+          "seq",
+          "vfs",
+          "view",
+          "vis",
+          "vps"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube.com/api/stats/qoe",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/youtubei/v1/next",
+        "query": [
+          "prettyPrint"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.youtube.com/youtubei/v1/next",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "590916b43e41.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://590916b43e41.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/api/stats/playback",
+        "query": [
+          "afmt",
+          "autoplay",
+          "c",
+          "cbr",
+          "cbrand",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cosver",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cr",
+          "cver",
+          "docid",
+          "ei",
+          "el",
+          "epm",
+          "euri",
+          "fexp",
+          "fmt",
+          "fs",
+          "hl",
+          "inview",
+          "lact",
+          "len",
+          "mos",
+          "muted",
+          "ns",
+          "of",
+          "plid",
+          "referrer",
+          "rt",
+          "rtn",
+          "size",
+          "ver",
+          "vm",
+          "volume"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube.com/api/stats/playback",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.youtube.com",
+        "path": "/ptracking",
+        "query": [
+          "cpn",
+          "ei",
+          "html5",
+          "oid",
+          "pltype",
+          "ptk",
+          "video_id"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube.com/ptracking",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/api/stats/atr",
+        "query": [
+          "afmt",
+          "autoplay",
+          "c",
+          "cbr",
+          "cbrand",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cosver",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cr",
+          "cver",
+          "docid",
+          "ei",
+          "el",
+          "epm",
+          "euri",
+          "fexp",
+          "fmt",
+          "fs",
+          "hl",
+          "lact",
+          "len",
+          "mos",
+          "muted",
+          "ns",
+          "plid",
+          "rt",
+          "ver",
+          "vm",
+          "volume"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube.com/api/stats/atr",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_fill_experimental/volume_mute/v2/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_mute/v2/24px.svg",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_fill_experimental/volume_max/v2/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v2/24px.svg",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_fill_experimental/volume_min/v2/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_fill_experimental/volume_min/v2/24px.svg",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "fonts.gstatic.com",
+        "path": "/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.youtube.com",
+        "path": "/api/stats/watchtime",
+        "query": [
+          "afmt",
+          "autoplay",
+          "c",
+          "cbr",
+          "cbrand",
+          "cbrver",
+          "cl",
+          "cmt",
+          "cos",
+          "cosver",
+          "cplatform",
+          "cplayer",
+          "cpn",
+          "cr",
+          "cver",
+          "docid",
+          "ei",
+          "el",
+          "et",
+          "euri",
+          "fmt",
+          "fs",
+          "hl",
+          "idpj",
+          "inview",
+          "lact",
+          "ldpj",
+          "len",
+          "muted",
+          "ns",
+          "of",
+          "plid",
+          "referrer",
+          "rt",
+          "rti",
+          "rtn",
+          "size",
+          "st",
+          "state",
+          "ver",
+          "vm",
+          "volume"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://www.youtube.com/api/stats/watchtime",
+        "pages": 1,
+        "examples": [
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "5b814d4147b5.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://5b814d4147b5.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support-request-support"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/search-results.plain.html",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://sciex.com/search-results.plain.html",
+        "pages": 1,
+        "examples": [
+          "support-customer-documents"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "danaherproductionrfl96bkr.org.coveo.com",
+        "path": "/rest/search/v2",
+        "query": [
+          "organizationId"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://danaherproductionrfl96bkr.org.coveo.com/rest/search/v2",
+        "pages": 1,
+        "examples": [
+          "support-customer-documents"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "012d4aacd394.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://012d4aacd394.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support-partner-portal"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "b02ab05780c3.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://b02ab05780c3.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "support-product-security"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/bin/sciex/partners",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://sciex.com/bin/sciex/partners",
+        "pages": 1,
+        "examples": [
+          "about-us-contact-us"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/ddo/getWidgetVersions",
+        "query": [
+          "deviceType",
+          "locale",
+          "refNum",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/ddo/getWidgetVersions",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "jobs.danaher.com",
+        "path": "/widgets",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://jobs.danaher.com/widgets",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/DANAGLOBAL/globalSearchConfig",
+        "query": [
+          "deviceType",
+          "locale",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/DANAGLOBAL/globalSearchConfig",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/DANAGLOBAL/getBusinessRules",
+        "query": [
+          "deviceType",
+          "locale",
+          "payload",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/DANAGLOBAL/getBusinessRules",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/DANAGLOBAL/npsConfig",
+        "query": [
+          "deviceType",
+          "locale",
+          "payload",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/DANAGLOBAL/npsConfig",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/DANAGLOBAL/getRegionLocales",
+        "query": [
+          "deviceType",
+          "locale",
+          "payload",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/DANAGLOBAL/getRegionLocales",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.phenompeople.com",
+        "path": "/CareerConnectResources/CANVUS/canvas/icons/system-icons-1789032934566.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.phenompeople.com/CareerConnectResources/CANVUS/canvas/icons/system-icons-1789032934566.svg",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/DANAGLOBAL/getPiiConsentConfig",
+        "query": [
+          "deviceType",
+          "locale",
+          "payload",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/DANAGLOBAL/getPiiConsentConfig",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "insight.adsrvr.org",
+        "path": "/track/realtimeconversion",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://insight.adsrvr.org/track/realtimeconversion",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202608.1.0/assets/otCenterRounded.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otCenterRounded.json",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otCommonStyles.css",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "content-us.phenompeople.com",
+        "path": "/api/DANAGLOBAL/jobwidgetsettings",
+        "query": [
+          "deviceType",
+          "locale",
+          "siteType"
+        ],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content-us.phenompeople.com/api/DANAGLOBAL/jobwidgetsettings",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "88f73db52a00.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://88f73db52a00.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "about-us-whitepapers"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+        "path": "/web/events/{uuid}",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/events/48ffbd31-97f0-4f0a-ba71-ca3f2fbac322",
+        "pages": 1,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c3ff19cbaede.w.hcaptcha.com",
+        "path": "/logo.png",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/png",
+        "sameSite": false,
+        "example": "https://c3ff19cbaede.w.hcaptcha.com/logo.png",
+        "pages": 1,
+        "examples": [
+          "diagnostics-clinical-laboratory-news"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 69,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 69,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.walkme.com",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "static.cloud.coveo.com",
+        "pages": 66,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.dreamdata.cloud",
+        "pages": 65,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "img04.en25.com",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "snap.licdn.com",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "cdn.evgnet.com",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "cdn.decibelinsight.net",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "cdn.c360a.salesforce.com",
+        "pages": 64,
+        "examples": [
+          "diagnostics",
+          "about-us",
+          "extraordinary-science"
+        ]
+      },
+      {
+        "host": "siteintercept.qualtrics.com",
+        "pages": 61,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com",
+        "pages": 54,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.usefathom.com",
+        "pages": 51,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "geoip-js.com",
+        "pages": 50,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "cloud.tinymce.com",
+        "pages": 13,
+        "examples": [
+          "support",
+          "products-spectral-library",
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "host": "cdn.tiny.cloud",
+        "pages": 13,
+        "examples": [
+          "support",
+          "products-spectral-library",
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "host": "js.hcaptcha.com",
+        "pages": 13,
+        "examples": [
+          "support",
+          "products-spectral-library",
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "host": "znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com",
+        "pages": 13,
+        "examples": [
+          "support",
+          "products-spectral-library",
+          "products-spectral-library-hrms-all"
+        ]
+      },
+      {
+        "host": "cdn.drda.io",
+        "pages": 8,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "host": "www.google.com",
+        "pages": 4,
+        "examples": [
+          "products-software-analyst-software",
+          "technology-electron-activated-dissociation",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "host": "www.youtube.com",
+        "pages": 3,
+        "examples": [
+          "products-software-analyst-software",
+          "technology-electron-activated-dissociation",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "host": "static.doubleclick.net",
+        "pages": 3,
+        "examples": [
+          "products-software-analyst-software",
+          "technology-electron-activated-dissociation",
+          "support-instrument-service-and-support-statusscope-remote-monitoring"
+        ]
+      },
+      {
+        "host": "cdn.auth0.com",
+        "pages": 3,
+        "examples": [
+          "support-login",
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "host": "c.la1-c1-ia5.salesforceliveagent.com",
+        "pages": 2,
+        "examples": [
+          "support",
+          "support-request-support"
+        ]
+      },
+      {
+        "host": "d.la1-c1-ia5.salesforceliveagent.com",
+        "pages": 2,
+        "examples": [
+          "support",
+          "support-request-support"
+        ]
+      },
+      {
+        "host": "d.la13-core1.sfdc-yfeipo.salesforceliveagent.com",
+        "pages": 2,
+        "examples": [
+          "support",
+          "support-request-support"
+        ]
+      },
+      {
+        "host": "training.sciex.com",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "host": "cdn.pendo.io",
+        "pages": 2,
+        "examples": [
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "host": "sciex.co1.qualtrics.com",
+        "pages": 1,
+        "examples": [
+          "support-customer-documents"
+        ]
+      },
+      {
+        "host": "cdn.phenompeople.com",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "host": "pp-cdn.phenompeople.com",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "host": "js.adsrvr.org",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "host": "c.webfxcapi.com",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      },
+      {
+        "host": "www.gstatic.com",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 63,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      },
+      {
+        "hint": "vue",
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 67,
+        "examples": [
+          "technology",
+          "products",
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://sciex.com/search-results",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "term"
+        ],
+        "pages": 3,
+        "examples": [
+          "support",
+          "support",
+          "support-request-support"
+        ]
+      },
+      {
+        "action": "https://login.lifesciences.danaher.com/u/login/identifier",
+        "method": "post",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "username"
+        ],
+        "pages": 3,
+        "examples": [
+          "support-login",
+          "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+          "training-intact-analysis-of-antibody-drug-conjugates-"
+        ]
+      },
+      {
+        "action": "https://jobs.danaher.com/global/en/sciex",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "typehead"
+        ],
+        "pages": 1,
+        "examples": [
+          "about-us-career-opportunities"
+        ]
+      }
+    ]
+  }
+}

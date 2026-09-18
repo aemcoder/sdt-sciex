@@ -1,0 +1,3674 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:extract",
+  "writtenAt": "2026-09-18T07:26:11Z",
+  "readArtifacts": [
+   "stardust/current/_brand-extraction.json",
+   "stardust/current/DESIGN.md",
+   "stardust/current/pages/*.json",
+   "stardust/current/pages/*.html",
+   "stardust/.work/page-types.json"
+  ],
+  "synthesizedInputs": [],
+  "stardustVersion": "0.10.0",
+  "notes": [
+   "Descriptive current state; extensions.modules[] are prep-mode candidates (status: candidate) to be named/promoted in direct --prep.",
+   "Module instance lists are truncated to 12 slugs; instanceCount is the full count in the 73-page sample.",
+   "extensions.tensions are the mechanical detector results per brand-review-template.md plus agent-added observations marked _provenance: inferred."
+  ]
+ },
+ "schemaVersion": 2,
+ "generatedAt": "2026-09-18T07:26:11Z",
+ "title": "Design System: SCIEX (sciex.com) — current state",
+ "extensions": {
+  "colorMeta": {
+   "sciex-blue": {
+    "role": "primary",
+    "displayName": "SCIEX Blue",
+    "canonical": "#0068fa",
+    "tailwind": "blue-700",
+    "tonalRamp": [
+     "#004ebc",
+     "#005bdb",
+     "#0068fa",
+     "#1c7aff",
+     "#3c8dff",
+     "#5da0ff",
+     "#7db3ff",
+     "#9ec6ff",
+     "#bed9ff",
+     "#dfecff"
+    ],
+    "rampSource": "blue-900..blue-50 utilities in clientlib-site.min.css"
+   },
+   "sciex-blue-deep": {
+    "role": "primary-hover",
+    "displayName": "SCIEX Blue Deep",
+    "canonical": "#005bdb",
+    "tailwind": "blue-800"
+   },
+   "sciex-blue-active": {
+    "role": "primary-active",
+    "displayName": "SCIEX Blue Active",
+    "canonical": "#004ebc",
+    "tailwind": "blue-900"
+   },
+   "ink": {
+    "role": "neutral",
+    "displayName": "Ink",
+    "canonical": "#141414",
+    "tailwind": "grey-900",
+    "tonalRamp": [
+     "#141414",
+     "#2c2c2c",
+     "#434343",
+     "#5b5b5b",
+     "#707070",
+     "#8a8a8a",
+     "#a1a1a1",
+     "#c6c6c6",
+     "#ececec",
+     "#f5f5f5"
+    ],
+    "rampSource": "grey-900..grey-50 utilities in clientlib-site.min.css"
+   },
+   "graphite": {
+    "role": "neutral",
+    "displayName": "Graphite",
+    "canonical": "#2c2c2c",
+    "tailwind": "grey-800"
+   },
+   "body-grey": {
+    "role": "neutral",
+    "displayName": "Body Grey",
+    "canonical": "#707070",
+    "tailwind": "grey-500"
+   },
+   "footer-grey": {
+    "role": "neutral",
+    "displayName": "Footer Grey",
+    "canonical": "#8a8a8a",
+    "tailwind": "grey-400"
+   },
+   "hairline": {
+    "role": "neutral",
+    "displayName": "Hairline",
+    "canonical": "#ececec",
+    "tailwind": "grey-100"
+   },
+   "mist": {
+    "role": "neutral",
+    "displayName": "Mist",
+    "canonical": "#f5f5f5",
+    "tailwind": "grey-50"
+   }
+  },
+  "typographyMeta": {
+   "display": {
+    "displayName": "Display (text-alfa)",
+    "purpose": "Interior page H1; 34px→64px fluid, weight 270."
+   },
+   "display-home": {
+    "displayName": "Display home (text-bravo)",
+    "purpose": "Home / product-detail hero H1 on photo; 31px→52px."
+   },
+   "headline": {
+    "displayName": "Headline (text-charlie)",
+    "purpose": "Section H2; 27px→40px."
+   },
+   "headline-sm": {
+    "displayName": "Headline small (text-delta)",
+    "purpose": "Secondary H2, testimonial quote; 23px→32px."
+   },
+   "title": {
+    "displayName": "Title (text-echo)",
+    "purpose": "Section H3 / support-band H5; 20px→24px."
+   },
+   "card-title": {
+    "displayName": "Card title (text-lg-bolder)",
+    "purpose": "Card and mega-menu group titles; 18px/530."
+   },
+   "lead": {
+    "displayName": "Lead (text-lg)",
+    "purpose": "Intro paragraph under H1/H2; 18px/330 grey-500."
+   },
+   "body": {
+    "displayName": "Body (text-base)",
+    "purpose": "Paragraphs, nav, buttons, footer links; 16px/330 (15px below 600px)."
+   },
+   "body-strong": {
+    "displayName": "Body strong (text-base-bolder)",
+    "purpose": "Tabs, sub-nav anchors, header quote link; 16px/530."
+   },
+   "label": {
+    "displayName": "Label (text-sm)",
+    "purpose": "Copyright, disclaimer, utility links, breadcrumb; 14px."
+   }
+  },
+  "fontFiles": [
+   {
+    "family": "Geogrotesque",
+    "weight": "variable 200-700 (wght axis; site declares 270/330/450/530 faces)",
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Geogrotesque_Sharp_VF.woff2",
+    "licensingFlag": "private",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Rg.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "FontAwesome",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/fontawesome-webfont.woff",
+    "licensingFlag": "open",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Md.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Geogrotesque-Lt.woff",
+    "licensingFlag": "private",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": "variable 200-700 (wght axis; site declares 270/330/450/530 faces)",
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Geogrotesque_Sharp_VF.woff",
+    "licensingFlag": "private",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Geogrotesque-UltLt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Geogrotesque-UltLt.woff",
+    "licensingFlag": "private",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)"
+   },
+   {
+    "family": "Glyphicons Halflings",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/glyphicons-halflings-regular.woff",
+    "licensingFlag": "open",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Glyphicons Halflings",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/glyphicons-halflings-regular.ttf",
+    "licensingFlag": "open",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "FontAwesome",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/fontawesome-webfont.ttf",
+    "licensingFlag": "open",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Th.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Th.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-ThIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-ThIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLtIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLtIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Lt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Lt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-LtIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-LtIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Rg.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-RgIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-RgIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Md.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-MdIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-MdIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBd.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBd.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBdIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBdIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Bd.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/Ge2003-Bd.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-BdIt.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/Ge2003-BdIt.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage (clientlib-base/global)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700.otf",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700-italic.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700-italic.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700-italic.otf",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400.otf",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400-italic.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400-italic.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "italic",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400-italic.otf",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 300,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-300.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 300,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-300.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 300,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-300.otf",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 500,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-500.woff2",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 500,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-500.woff",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   },
+   {
+    "family": "proxima-nova",
+    "weight": 500,
+    "style": "normal",
+    "localPath": "stardust/current/assets/fonts/proxima-nova-500.otf",
+    "licensingFlag": "private",
+    "usedBy": "legacy-globalpage body font (15/73 pages)"
+   }
+  ],
+  "shadows": [
+   {
+    "name": "popover",
+    "value": "rgba(19,19,19,0.15) -2px 3px 18.4px 0px",
+    "purpose": "Account/login popover; the only shadow observed at rest."
+   },
+   {
+    "name": "card-hover (defined, unobserved)",
+    "value": "0 8px 16px 0 hsla(0,0%,7%,.05)",
+    "purpose": "Defined in clientlib-site.min.css; not seen rendered on the 73 pages."
+   }
+  ],
+  "motion": [
+   {
+    "name": "ease-standard",
+    "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "purpose": "All transitions (18 of 24 timing declarations)."
+   },
+   {
+    "name": "duration-colour",
+    "value": ".3s",
+    "purpose": "Button fill-up, link colour."
+   },
+   {
+    "name": "duration-slide",
+    "value": ".5s",
+    "purpose": "Arrow-link underline slide, card image scale(1.05), arrow nudge 8→12px."
+   },
+   {
+    "name": "duration-fast",
+    "value": ".15s / .2s",
+    "purpose": "Nav hover colour, footer icon opacity."
+   },
+   {
+    "name": "reduced-motion",
+    "value": "motion-reduce:tw-transition-none / motion-reduce:hover:tw-transform-none",
+    "purpose": "Disables slides and scales under prefers-reduced-motion."
+   }
+  ],
+  "breakpoints": [
+   {
+    "name": "sm",
+    "value": "600px"
+   },
+   {
+    "name": "md",
+    "value": "768px"
+   },
+   {
+    "name": "lg",
+    "value": "1024px"
+   },
+   {
+    "name": "xl",
+    "value": "1280px"
+   },
+   {
+    "name": "2xl",
+    "value": "1440px"
+   },
+   {
+    "name": "3xl",
+    "value": "1536px"
+   }
+  ],
+  "layout": {
+   "containerMaxWidth": "1440px",
+   "gutter": "64px ≥1280 / 24px mobile",
+   "contentWidth": "1312px",
+   "gridGap": "32px column / 48px row",
+   "headerHeight": "131px (64 + 67)",
+   "heroHeight": "512px",
+   "supportBandPadding": "48px 0",
+   "footerTopPadding": "64px → 96px"
+  },
+  "componentStyle": {
+   "buttons": {
+    "primary": {
+     "background": "#0068fa",
+     "color": "#ffffff",
+     "borderRadius": "4px",
+     "padding": "12px 20px",
+     "fontSize": "16px",
+     "fontWeight": 400,
+     "lineHeight": "24px",
+     "border": "1px solid #0068fa",
+     "shadow": null,
+     "icon": "16×14 arrow SVG (stroke currentColor) 8px left margin → 12px on hover",
+     "hoverDelta": "background-image linear-gradient(#005bdb) grows from background-size 100% 0 to 100% 100% (bottom-up fill), transition all .3s cubic-bezier(.4,0,.2,1); active: blue-900 #004ebc",
+     "focus": "focus-visible ring 2px #0068fa offset 2px",
+     "sourceSelector": "#hero-small a.tw-bg-blue-700.tw-rounded (label \"Our products\"); footer band a \"Contact support\"",
+     "sources": [
+      "index",
+      "applications-pharma-and-biopharma"
+     ],
+     "rest": {
+      "backgroundColor": "rgb(0, 104, 250)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "linear-gradient(to right, rgb(0, 91, 219), rgb(0, 91, 219), rgb(0, 91, 219))",
+      "backgroundSize": "100% 0px",
+      "borderColor": "rgb(0, 104, 250)",
+      "textDecoration": "none",
+      "transform": "none",
+      "boxShadow": "none",
+      "opacity": "1",
+      "left": "auto",
+      "marginLeft": "0px",
+      "width": "166.172px"
+     },
+     "hover": {
+      "backgroundColor": "rgb(0, 104, 250)",
+      "color": "rgb(255, 255, 255)",
+      "backgroundImage": "linear-gradient(to right, rgb(0, 91, 219), rgb(0, 91, 219), rgb(0, 91, 219))",
+      "backgroundSize": "100% 100%",
+      "borderColor": "rgb(0, 104, 250)",
+      "textDecoration": "none",
+      "transform": "none",
+      "boxShadow": "none",
+      "opacity": "1",
+      "left": "auto",
+      "marginLeft": "0px",
+      "width": "166.172px"
+     }
+    },
+    "secondary": {
+     "background": "transparent",
+     "color": "#141414",
+     "borderRadius": "4px",
+     "padding": "12px 20px",
+     "fontSize": "16px",
+     "fontWeight": 400,
+     "border": "1px solid #0068fa",
+     "hoverDelta": "same blue-800 fill-up; text turns white; active blue-900",
+     "sourceSelector": "a.tw-rounded.tw-border.tw-border-blue-700.tw-text-grey-900 (\"Contact support\" in product-detail hero)",
+     "sources": [
+      "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+      "products-hplc-products-microlc-products-m5-microlc"
+     ]
+    },
+    "ghost": {
+     "background": "transparent",
+     "color": "#0068fa",
+     "fontSize": "16px",
+     "fontWeight": "400 (card \"Learn more\") / 530 (hero \"Request a quote\" header link, \"Watch now\")",
+     "underline": "1px bar (span.tw-h-1.tw-bg-blue-700) under the label; slides to left:100% on hover (.5s)",
+     "hoverDelta": "text #005bdb; arrow margin 8px → 12px",
+     "sourceSelector": "a.tw-inline-flex.tw-text-blue-700.hover:tw-text-blue-800 > div > span + span.tw-absolute + svg",
+     "sources": [
+      "index",
+      "applications-pharma-and-biopharma"
+     ],
+     "rest": {
+      "color": "rgb(0, 104, 250)",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "textDecoration": "none",
+      "bar": {
+       "left": "0px",
+       "height": "1px",
+       "backgroundColor": "rgb(0, 104, 250)",
+       "width": "85.9219px",
+       "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "arrowMarginLeft": "8px"
+     },
+     "hover": {
+      "color": "rgb(0, 91, 219)",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "textDecoration": "none",
+      "bar": {
+       "left": "85.9219px",
+       "height": "1px",
+       "backgroundColor": "rgb(0, 104, 250)",
+       "width": "85.9219px",
+       "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+      },
+      "arrowMarginLeft": "12px"
+     }
+    },
+    "headerCells": {
+     "requestAQuote": {
+      "background": "#f5f5f5",
+      "color": "#0068fa",
+      "fontWeight": 530,
+      "height": "64px",
+      "padding": "20px 32px",
+      "sourceSelector": "li#request-a-quote > a"
+     },
+     "sciexNowDashboard": {
+      "background": "#0068fa",
+      "color": "#ffffff",
+      "fontWeight": 330,
+      "height": "64px",
+      "padding": "20px 32px",
+      "border": "1px solid #0068fa",
+      "hover": "blue-800 fill-up",
+      "sourceSelector": "a#sciex-now-dash.header-link"
+     }
+    },
+    "legacy": {
+     "blue": ".btn.blue #00afdb, white 14px/300, padding 7px 15px, min-width 160px, radius 0 (KB \"Comment\")",
+     "orange": ".btn.orange #f99d31 uppercase (detail-page BUY NOW), teal CONTACT SUPPORT with headset icon",
+     "sources": [
+      "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+      "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software"
+     ]
+    }
+   },
+   "dualCTAPattern": "primary-then-outline (Request a quote → Contact support) on product-detail heroes; primary-then-arrow-link (button → \"Learn more\") elsewhere",
+   "cards": {
+    "background": "transparent",
+    "borderRadius": "0px",
+    "padding": "0px",
+    "shadow": null,
+    "border": "none (image-card) / 1px solid #ececec top rule (icon-4-col, resources)",
+    "image": "4:3 (tw-aspect-4/3) object-cover, hover scale 1.05 (.5s), 416×312 at 3-up, 304×228 at 4-up",
+    "title": "18px/530 #141414 (text-lg-bolder), 20–32px below image",
+    "body": "16px/330 #707070 (text-base tw-text-grey-500)",
+    "cta": "arrow-link \"Learn more\" 12–16px below body",
+    "grid": "tw-grid md:tw-grid-cols-2 lg:tw-grid-cols-4 md:tw-gap-x-32 md:tw-gap-y-48",
+    "sourceSelector": "div.image-card section > .tw-container > .tw-grid > div",
+    "sources": [
+     "applications-pharma-and-biopharma",
+     "products-mass-spectrometers",
+     "applications"
+    ]
+   },
+   "inputs": {
+    "borderRadius": "0px",
+    "padding": "12px 16px",
+    "height": "40px",
+    "background": "#f5f5f5",
+    "color": "#a1a1a1 placeholder / #141414 value",
+    "border": "none",
+    "fontSize": "16px",
+    "submit": "30×30 button #5b5b5b radius 3px with magnifier SVG",
+    "scope": "\"All\" dropdown button 16px/330 #a1a1a1 inside the field",
+    "focusRing": "focus-visible:tw-ring-2 tw-ring-blue-700 tw-ring-offset-2",
+    "sourceSelector": "input#standalone-search-box (header search)",
+    "sources": [
+     "index",
+     "applications-pharma-and-biopharma",
+     "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+    ]
+   },
+   "popover": {
+    "background": "#ffffff",
+    "width": "240px",
+    "borderRadius": "4px",
+    "padding": "16px",
+    "shadow": "rgba(19,19,19,0.15) -2px 3px 18.4px 0px",
+    "zIndex": 200,
+    "sourceSelector": ".account-dropdown-content",
+    "sources": [
+     "index"
+    ]
+   },
+   "breadcrumb": {
+    "v3": "home icon (16px) + chevron separators, items 14px/330 #707070, current item #141414; padding 16px 0 32px; nav[aria-label=Breadcrumb]",
+    "legacy": "text \"Home > Products > …\" 14px capitalized #5f6062, current 700 (a.cmp-breadcrumb__item-link)",
+    "eds": "/blocks/breadcrumb/breadcrumb.css",
+    "sources": [
+     "applications-pharma-and-biopharma",
+     "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+     "support-knowledge-base-articles"
+    ]
+   }
+  },
+  "motifs": {
+   "borderRadius": {
+    "primary": "4px",
+    "secondary": "3px",
+    "pill": "9999px",
+    "primarySources": [
+     "index",
+     "applications-pharma-and-biopharma",
+     "products-mass-spectrometers"
+    ],
+    "occurrences": {
+     "4px": 109,
+     "9999px": 77,
+     "3px": 3
+    },
+    "occurrenceBasis": "tw-rounded (.25rem) / tw-rounded-full utility uses in <main> across 51 v3 pages; 3px = button.global-search-btn on every page",
+    "sourceSelectors": {
+     "4px": [
+      "a.tw-rounded (primary/secondary buttons)",
+      "div.account-dropdown-content (login popover)",
+      "div.breadcrumb (legacy)"
+     ],
+     "9999px": [
+      "button.splide arrows (carousel prev/next 32px)",
+      "button.tw-rounded-full (scroll-to-top / megamenu close)"
+     ],
+     "3px": [
+      "button.global-search-btn"
+     ]
+    },
+    "note": "images, cards, hero bands and inputs are square-cornered (0px); radius exists only on buttons, popovers and round controls"
+   },
+   "shadows": [
+    {
+     "value": "rgba(19, 19, 19, 0.15) -2px 3px 18.4px 0px",
+     "uses": "account/login popover (.account-dropdown-content) — only shadow observed at rest",
+     "sources": [
+      "index"
+     ]
+    },
+    {
+     "value": "0 8px 16px 0 hsla(0,0%,7%,.05)",
+     "uses": "card hover lift (defined in clientlib-site.min.css, not observed at rest)",
+     "sources": [
+      "stardust/current/assets/css/clientlib-site.min.69142de3.css"
+     ]
+    },
+    {
+     "value": "-24px 8px 16px 0 hsla(0,0%,7%,.05)",
+     "uses": "panel/side shadow (clientlib-site.min.css, not observed at rest)",
+     "sources": [
+      "stardust/current/assets/css/clientlib-site.min.69142de3.css"
+     ]
+    }
+   ],
+   "gradients": [
+    {
+     "value": "linear-gradient(to right, #005bdb, #005bdb, #005bdb) at background-size 100% 0 → 100% 100% on hover (tw-bg-gradient-to-r tw-from-blue-800 tw-via-blue-800 tw-to-blue-800 tw-bg-bottom tw-bg-no-repeat tw-bg-[length:100%_0px] hover:tw-bg-[length:100%_100%])",
+     "uses": "fill-up hover on every primary and outline button (116 uses)",
+     "sources": [
+      "index",
+      "applications-pharma-and-biopharma",
+      "products-mass-spectrometers"
+     ]
+    },
+    {
+     "value": "rgba(0,0,0,0.5) flat overlay (div.overlay.tw-bg-black tw-opacity-50) over hero photo",
+     "uses": "hero-small / media-image legibility scrim",
+     "sources": [
+      "index",
+      "products-mass-spectrometers"
+     ]
+    }
+   ],
+   "patterns": [
+    {
+     "name": "hero-with-image",
+     "evidence": "hero-small on 19 pages: full-bleed 1440×512 photo (object-fit cover) + 50% black overlay, white h1 text-bravo 52px/270 + p + primary button; product-detail variant uses grey-50 band + product render right"
+    },
+    {
+     "name": "hero-text",
+     "evidence": "hero-text on 37 pages: breadcrumb → h1 text-alfa 64px/270 → lead p text-lg grey-500, no image; often followed by media-image full-bleed banner (12 pages)"
+    },
+    {
+     "name": "card-grid",
+     "evidence": "image-card (13 pages), three-card (8), icon-3/4-col (7), resources-grid (6): 3–4 columns, 4:3 square-cornered image (hover scale 1.05), title 18px/530 grey-900, copy 16px grey-500, arrow-link \"Learn more\""
+    },
+    {
+     "name": "arrow-link",
+     "evidence": "\"Learn more\" ×287 on 37 pages: blue-700 16px text, 1px blue underline bar that slides right on hover (group-hover:tw-left-[100%]), 16×14 arrow SVG shifts 8px→12px"
+    },
+    {
+     "name": "fill-up-button",
+     "evidence": "primary buttons: blue-700 fill, 4px radius, 12px 20px padding, 1px blue border, blue-800 gradient fills from bottom on hover, arrow icon"
+    },
+    {
+     "name": "dual-cta",
+     "evidence": "product-detail hero: primary \"Request a quote\" + outline \"Contact support\" (tw-border-blue-700 tw-text-grey-900, same fill-up hover) — x500r, m5-microlc, citrine"
+    },
+    {
+     "name": "tabs",
+     "evidence": "home \"Why SCIEX portfolio\" tab component: 7 buttons 160px wide 16px/530, active blue-700 with 2px blue underline on a grey-100 rail"
+    },
+    {
+     "name": "testimonial-dark",
+     "evidence": "testimonial on 6 pages: grey-900 band, quote 32px/330 white, 448px avatar, name 16px/530 white, role grey-400"
+    },
+    {
+     "name": "media-card-carousel",
+     "evidence": "Splide carousels (media-card-carousel, image-card-carousel): 2–3 cards, 640×480 / 416×312 images, pagination \"1 / 3\" + 32px round blue arrows"
+    },
+    {
+     "name": "sticky-sub-nav",
+     "evidence": "page-sub-nav on 5 application pages: white bar, anchors 16px/530, sticky top 0 z-40, grey-100 bottom rule"
+    },
+    {
+     "name": "cta-band",
+     "evidence": "SCIEX Now support network band on 52 pages (grey-800) — see systemComponents"
+    },
+    {
+     "name": "footer-mega",
+     "evidence": "4-column link footer + legal row + Danaher logo + 9-logo partner strip on grey-900"
+    },
+    {
+     "name": "nav-mega",
+     "evidence": "3-zone mega-menu panel under an 8-item nav row; page dims under black 50% overlay"
+    },
+    {
+     "name": "linkedin-connect",
+     "evidence": "\"Let's connect\" h3 + two 600×140 LinkedIn banners on 5 application pages"
+    },
+    {
+     "name": "legacy-teal-hero-band",
+     "evidence": "intermediate-template (5 pages): teal (#0084a9→#00afdb) photographic band with white h1 28px, orange/teal text links"
+    }
+   ]
+  },
+  "voice": {
+   "heroHeadline": "The leader in mass spectrometry and capillary electrophoresis solutions",
+   "heroSubcopy": "There, where it counts. Time and time again. Providing the precision detection and quantitation of molecules needed for scientists to make discoveries that change the world.",
+   "heroImage": {
+    "url": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--dbb899bf-7af9-4319-8272-ee552d7e0386/ce-systems-hero-2880x1024.webp?quality=75&width=1440",
+    "alt": "",
+    "source": "img",
+    "domPath": "div.hero-small.aem-GridColumn > div > section#hero-small > div.tw-relative.tw-min-h-[512px] > picture > img",
+    "localPath": "stardust/current/assets/media/ce-systems-hero-2880x1024-9eee8a44.webp",
+    "rect": {
+     "x": 0,
+     "y": 131,
+     "width": 1440,
+     "height": 512
+    },
+    "overlay": "div.overlay.tw-absolute.tw-bg-black opacity .5",
+    "picture": "<picture> with webp sources at 320/375/416/640/768/1024/1440/1920; jpg fallback srcset",
+    "resolution": "largest visible <img> with top<800 and area≥100k px² on the home probe (1440×512 = 737k px²); og:image is a 152×152 site thumb and was not chosen"
+   },
+   "heroMedium": null,
+   "heroMediumNote": "No <video>, <canvas>, Lottie or HLS in the first viewport; motion libraries: Alpine.js (state), Splide (carousels), Plyr (inline video player CSS). Hero is a still photo with scrim.",
+   "primaryCTALabel": "Our products",
+   "ctaSamples": [
+    "Our products",
+    "Explore now",
+    "Explore the software",
+    "Explore the system",
+    "Learn more",
+    "Request a quote",
+    "Contact support",
+    "Watch now",
+    "SCIEX Now Dashboard",
+    "Create an account"
+   ],
+   "navItems": [
+    "Products",
+    "Applications",
+    "Training",
+    "Support",
+    "Service",
+    "Resource hub",
+    "About us",
+    "Events"
+   ],
+   "utilityNav": [
+    "Search",
+    "Login",
+    "Shop",
+    "Request a quote",
+    "SCIEX Now Dashboard"
+   ],
+   "footerHeadings": [
+    "Products",
+    "Applications",
+    "Connect",
+    "Company"
+   ],
+   "firstParagraph": "Pioneering solutions that inspire life-changing research and revolutionize the industry.",
+   "sectionHeadings": [
+    "Why SCIEX portfolio",
+    "Mass Spectrometers",
+    "Why SCIEX for your application",
+    "SCIEX Applications",
+    "Clinical Diagnostics",
+    "Environmental Testing",
+    "Food and Beverage Testing",
+    "Forensics Analysis"
+   ],
+   "tone": {
+    "guess": "technical-precise",
+    "evidence": "sentence-case headings (4% uppercase), benefit-led imperatives (\"Be unstoppable\", \"Unlock the proof\", \"Reclaim time for innovation\"), dense product nomenclature with ®/™ marks (ZenoTOF 8600, Analyst®, Selexion®), second person \"your lab / your team\", regulatory disclaimers (\"For research use only. Not for use in diagnostic procedures.\") — home-only sample, heuristic"
+   }
+  },
+  "voiceTable": {
+   "ctaFrequency": [
+    {
+     "label": "Learn more",
+     "total": 287,
+     "pageCount": 37,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-danaher",
+      "about-us-product-stewardship",
+      "applications",
+      "applications-biomedical-and-omics-research",
+      "applications-clinical",
+      "applications-environmental-testing"
+     ]
+    },
+    {
+     "label": "Support",
+     "total": 144,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "Training",
+     "total": 137,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "Products",
+     "total": 90,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "Applications",
+     "total": 84,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "Resource hub",
+     "total": 72,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "Request a quote",
+     "total": 71,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "Software",
+     "total": 71,
+     "pageCount": 68,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    }
+   ],
+   "ctaFrequencyExcludingChrome": [
+    {
+     "label": "Learn more",
+     "total": 287,
+     "pageCount": 37,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-danaher",
+      "about-us-product-stewardship",
+      "applications",
+      "applications-biomedical-and-omics-research"
+     ]
+    },
+    {
+     "label": "Request a quote",
+     "total": 71,
+     "pageCount": 69,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management"
+     ]
+    },
+    {
+     "label": "Contact support",
+     "total": 55,
+     "pageCount": 52,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management"
+     ]
+    },
+    {
+     "label": "View customer profile",
+     "total": 49,
+     "pageCount": 2,
+     "pages": [
+      "about-us",
+      "about-us-customer-profiles"
+     ]
+    },
+    {
+     "label": "Read more",
+     "total": 30,
+     "pageCount": 7,
+     "pages": [
+      "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "diagnostics",
+      "diagnostics-clinical-laboratory-news",
+      "products-ion-sources",
+      "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+      "products-software"
+     ]
+    },
+    {
+     "label": "View profile",
+     "total": 16,
+     "pageCount": 2,
+     "pages": [
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey"
+     ]
+    },
+    {
+     "label": "About Us",
+     "total": 15,
+     "pageCount": 15,
+     "pages": [
+      "about-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles"
+     ]
+    },
+    {
+     "label": "Download",
+     "total": 14,
+     "pageCount": 2,
+     "pages": [
+      "products-spectral-library",
+      "support-instrument-service-and-support"
+     ]
+    },
+    {
+     "label": "Request info",
+     "total": 13,
+     "pageCount": 4,
+     "pages": [
+      "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+      "diagnostics",
+      "products-integrated-solutions-biotransform-solution"
+     ]
+    },
+    {
+     "label": "Release notes",
+     "total": 13,
+     "pageCount": 1,
+     "pages": [
+      "products-spectral-library"
+     ]
+    },
+    {
+     "label": "Watch now",
+     "total": 12,
+     "pageCount": 3,
+     "pages": [
+      "applications-forensics-testing",
+      "applications-pharma-and-biopharma",
+      "extraordinary-science"
+     ]
+    },
+    {
+     "label": "View press release",
+     "total": 11,
+     "pageCount": 2,
+     "pages": [
+      "about-us-press-releases-2025",
+      "about-us-press-releases-2026"
+     ]
+    }
+   ],
+   "headingFrequency": [
+    {
+     "text": "SCIEX Now support network",
+     "total": 52,
+     "pageCount": 52,
+     "level": 5,
+     "pages": [
+      "about-us",
+      "about-us-contact-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey",
+      "about-us-our-history",
+      "about-us-press-releases",
+      "about-us-press-releases-2025",
+      "about-us-press-releases-2026"
+     ]
+    },
+    {
+     "text": "The destination for all your support needs.",
+     "total": 51,
+     "pageCount": 51,
+     "level": 5,
+     "pages": [
+      "about-us",
+      "about-us-customer-profiles",
+      "about-us-customer-profiles-jennifer-van-eyk",
+      "about-us-danaher",
+      "about-us-executive-management",
+      "about-us-internal-personnel-profiles",
+      "about-us-internal-personnel-profiles-tom-covey",
+      "about-us-our-history",
+      "about-us-press-releases",
+      "about-us-press-releases-2025",
+      "about-us-press-releases-2026",
+      "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations"
+     ]
+    },
+    {
+     "text": "Let's connect",
+     "total": 5,
+     "pageCount": 5,
+     "level": 3,
+     "pages": [
+      "applications-biomedical-and-omics-research",
+      "applications-pharma-and-biopharma",
+      "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "extraordinary-science",
+      "technology-electron-activated-dissociation"
+     ]
+    },
+    {
+     "text": "SCIEX OS software",
+     "total": 5,
+     "pageCount": 4,
+     "level": 3,
+     "pages": [
+      "diagnostics",
+      "products-in-vitro-diagnostics-medical-devices-citrine-system",
+      "products-mass-spectrometers-qtof-systems",
+      "support-software-support-software-downloads"
+     ]
+    },
+    {
+     "text": "About Danaher",
+     "total": 4,
+     "pageCount": 4,
+     "level": 3,
+     "pages": [
+      "about-us-career-opportunities",
+      "about-us-danaher",
+      "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+      "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening"
+     ]
+    },
+    {
+     "text": "Overview",
+     "total": 4,
+     "pageCount": 4,
+     "level": 2,
+     "pages": [
+      "applications-pharma-and-biopharma",
+      "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+      "products-integrated-solutions-biotransform-solution"
+     ]
+    },
+    {
+     "text": "Explore SCIEX service and support",
+     "total": 4,
+     "pageCount": 4,
+     "level": 2,
+     "pages": [
+      "products",
+      "products-hplc-products",
+      "products-mass-spectrometers",
+      "support-instrument-service-and-support"
+     ]
+    },
+    {
+     "text": "Resources",
+     "total": 4,
+     "pageCount": 3,
+     "level": 4,
+     "pages": [
+      "diagnostics",
+      "products-in-vitro-diagnostics-medical-devices-citrine-system",
+      "technology-electron-activated-dissociation"
+     ]
+    },
+    {
+     "text": "Integrated solutions",
+     "total": 3,
+     "pageCount": 3,
+     "level": 3,
+     "pages": [
+      "products-hplc-products-microlc-products-m5-microlc",
+      "products-mass-spectrometers",
+      "support-customer-documents"
+     ]
+    },
+    {
+     "text": "Welcome",
+     "total": 3,
+     "pageCount": 3,
+     "level": 1,
+     "pages": [
+      "support-login",
+      "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+      "training-intact-analysis-of-antibody-drug-conjugates-"
+     ]
+    }
+   ],
+   "toneMetrics": {
+    "headingsTotal": 681,
+    "headingsUppercasePercent": 4.0,
+    "distinctHeadings": 510,
+    "distinctCtaLabels": 656
+   },
+   "contentFreeLinks": [
+    {
+     "label": "here",
+     "page": "applications-clinical",
+     "count": 1
+    }
+   ],
+   "altText": {
+    "images": 5822,
+    "emptyAltPercent": 30.0,
+    "imagesExcludingMegamenu": 1664,
+    "emptyAltPercentExcludingMegamenu": 71.1,
+    "genericAlt": []
+   }
+  },
+  "crossPromo": {
+   "detected": true,
+   "anchorHeading": "SCIEX Now support network",
+   "cluster": [
+    {
+     "text": "SCIEX Now support network",
+     "total": 52,
+     "pageCount": 52,
+     "overlap": 52
+    },
+    {
+     "text": "The destination for all your support needs.",
+     "total": 51,
+     "pageCount": 51,
+     "overlap": 51
+    }
+   ],
+   "pages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management",
+    "about-us-internal-personnel-profiles",
+    "about-us-internal-personnel-profiles-tom-covey",
+    "about-us-our-history",
+    "about-us-press-releases",
+    "about-us-press-releases-2025",
+    "about-us-press-releases-2026",
+    "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+    "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+    "about-us-product-stewardship",
+    "about-us-product-stewardship-weee-compliance-austria",
+    "applications",
+    "applications-biomedical-and-omics-research",
+    "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+    "applications-clinical",
+    "applications-environmental-testing",
+    "applications-food-and-beverage-testing",
+    "applications-forensics-testing",
+    "applications-pharma-and-biopharma",
+    "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+    "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+    "diagnostics",
+    "extraordinary-science",
+    "index",
+    "products",
+    "products-capillary-electrophoresis",
+    "products-consumables",
+    "products-consumables-lc-ms-performance-kits",
+    "products-hplc-products",
+    "products-hplc-products-microlc-products-m5-microlc",
+    "products-in-vitro-diagnostics",
+    "products-in-vitro-diagnostics-medical-devices-citrine-system",
+    "products-integrated-solutions",
+    "products-integrated-solutions-biotransform-solution",
+    "products-ion-sources",
+    "products-mass-spectrometers",
+    "products-mass-spectrometers-qtof-systems",
+    "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+    "products-methods",
+    "products-software",
+    "products-software-analyst-software",
+    "support-instrument-service-and-support",
+    "support-training",
+    "technology",
+    "technology-electron-activated-dissociation",
+    "technology-qtof-technology",
+    "technology-zt-scan-dia"
+   ],
+   "pageCount": 52,
+   "totalPages": 73
+  },
+  "systemComponents": [
+   {
+    "name": "site-header",
+    "kind": "header",
+    "occurrences": 69,
+    "headingSequence": [
+     "Products",
+     "Applications",
+     "Training",
+     "Support",
+     "Service",
+     "Resource hub",
+     "About us",
+     "Events"
+    ],
+    "ctaLabels": [
+     "Login",
+     "Shop",
+     "Request a quote",
+     "SCIEX Now Dashboard"
+    ],
+    "domFingerprintHash": null,
+    "exampleSlug": "index",
+    "exampleSelector": ".cmp-experiencefragment--header-v3 nav#mega-menu",
+    "examplePages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ],
+    "rect": {
+     "x": 0,
+     "y": 0,
+     "width": 1440,
+     "height": 131
+    },
+    "structure": {
+     "topBar": "64px, background #141414: SCIEX wordmark inline SVG 95×32 white (link \"/\", title \"Go to Sciex homepage\"); search field 348×40 #f5f5f5 with \"All\" scope dropdown + 30×30 #5b5b5b submit; \"Login\" (user icon, 14px/330 white) with account dropdown; \"Shop\" (basket icon) → us-store.sciex.com; cell \"Request a quote\" 222×64 #f5f5f5 text #0068fa 530 → /form-pages/product-request; cell \"SCIEX Now Dashboard\" 222×64 #0068fa white → /support",
+     "navRow": "67px, background white: 8 items 16px/330 #141414 with 24px chevron SVG, 64px left gutter; hover text #0068fa; open item gets 2px #0068fa bottom border and chevron flips",
+     "mobile": "fixed bottom bar a#header-request-info (blue \"Request a quote\") below lg"
+    },
+    "sharedBy": "v3 pages natively; legacy globalpage pages and EDS pages embed the same v3 header (legacy via /content/dam/SCIEX/dev/header-footer/header.css + .headerbar; EDS via /blocks/header served from /nav.plain.html)",
+    "notes": "Legacy pages set html font-size 10px; header still renders at 16px via explicit px classes."
+   },
+   {
+    "name": "mega-menu",
+    "kind": "other",
+    "occurrences": 69,
+    "headingSequence": [
+     "Mass spectrometry",
+     "Capillary electrophoresis",
+     "HPLC products",
+     "Integrated solutions",
+     "Software",
+     "Technology",
+     "Standards and reagent kits"
+    ],
+    "ctaLabels": [
+     "View all Products",
+     "View all Mass spectrometers",
+     "Explore now"
+    ],
+    "domFingerprintHash": null,
+    "exampleSlug": "index",
+    "exampleSelector": "div.tw-w-full.tw-bg-white.tw-relative.tw-z-[100]",
+    "examplePages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ],
+    "rect": {
+     "x": 0,
+     "y": 131,
+     "w": 1440,
+     "h": 448
+    },
+    "style": {
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(0, 0, 0)",
+     "boxShadow": "none",
+     "padding": "0px",
+     "borderTop": "0px solid rgb(229, 231, 235)",
+     "borderBottom": "0px solid rgb(229, 231, 235)",
+     "position": "relative",
+     "zIndex": "100",
+     "display": "block",
+     "gridTemplateColumns": "none"
+    },
+    "structure": {
+     "panel": "full-width white panel 448px tall directly under the 131px header (z-index 100), .tw-container padding 32px 64px 40px; page content dims under div.overlay.tw-bg-black 50%; a grey band with a 32px round chevron-up close button sits under the panel",
+     "zoneLeft": "7 second-level items (a.submenu) 18px/330 #141414, 38px apart; active item (.submenu-active) has a 2px #0068fa left border; below: arrow-link \"View all Products\" 16px/450 blue with 1px underline",
+     "zoneMiddle": "2-column groups: group heading 16px/450 #141414 with chevron (QTOF systems, QTRAP systems, Triple Quad systems, Clinical diagnostics, LC-MS methods, Mass spectral libraries); children 16px/330 #707070 with chevron (ZenoTOF 8600 system, …); arrow-link \"View all Mass spectrometers\"",
+     "zoneRight": "two promo tiles 296×166 (320×180 jpg from /content/dam/SCIEX/images-v2/megamenu/) stacked 24px apart, 1080px from left",
+     "behaviour": "Alpine.js x-data (selectedSubItem) toggles panels on click; images 320×180 (63 per page in DOM, lazy)"
+    },
+    "notes": "Megamenu images excluded from assets/media by instruction; 63 <img> per page live in the header fragment."
+   },
+   {
+    "name": "breadcrumb",
+    "kind": "breadcrumb",
+    "occurrences": 63,
+    "headingSequence": [
+     "Home (icon)",
+     "Section",
+     "Page"
+    ],
+    "ctaLabels": [],
+    "domFingerprintHash": null,
+    "exampleSlug": "applications-pharma-and-biopharma",
+    "exampleSelector": "div.breadcrumb.aem-GridColumn > nav[aria-label=\"Breadcrumb\"]",
+    "examplePages": [
+     "about-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles"
+    ],
+    "rect": {
+     "x": 0,
+     "y": 131,
+     "width": 1440,
+     "height": 84
+    },
+    "style": {
+     "v3": "home icon (16px) + chevron separators, items 14px/330 #707070, current item #141414; padding 16px 0 32px; nav[aria-label=Breadcrumb]",
+     "legacy": "text \"Home > Products > …\" 14px capitalized #5f6062, current 700 (a.cmp-breadcrumb__item-link)",
+     "eds": "/blocks/breadcrumb/breadcrumb.css",
+     "sources": [
+      "applications-pharma-and-biopharma",
+      "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+      "support-knowledge-base-articles"
+     ]
+    },
+    "notes": "absent on home; legacy KB pages render a triple \"Home Home Home\" chain (three breadcrumb roots in DOM — capture quirk of the legacy template)"
+   },
+   {
+    "name": "sciex-now-support-band",
+    "kind": "cta-band",
+    "occurrences": 52,
+    "headingSequence": [
+     "SCIEX Now support network",
+     "The destination for all your support needs."
+    ],
+    "ctaLabels": [
+     "Contact support"
+    ],
+    "domFingerprintHash": null,
+    "exampleSlug": "index",
+    "exampleSelector": ".cmp-experiencefragment--footer-v3 .htmlWrapper > .clearfix > div.tw-py-32.md:tw-py-48.tw-bg-grey-800.tw-text-white",
+    "examplePages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ],
+    "rect": {
+     "x": 0,
+     "y": 4380,
+     "width": 1440,
+     "height": 158
+    },
+    "style": {
+     "background": "#2c2c2c",
+     "padding": "48px 0",
+     "heading": "24px/450 white (tw-text-[20px] md:tw-text-echo tw-font-bold)",
+     "subheading": "24px/400 #a1a1a1 (tw-text-grey-300)",
+     "cta": "primary button \"Contact support\" → /about-us/contact-us, right-aligned, 189×50"
+    },
+    "notes": "Rendered inside the footer experience fragment (htmlInjectionContainer) so it appears on every v3 page and on legacy pages that embed footer-v3; absent on EDS pages (their /blocks/footer omits it) and on external redirects."
+   },
+   {
+    "name": "site-footer",
+    "kind": "footer",
+    "occurrences": 64,
+    "headingSequence": [
+     "Products",
+     "Applications",
+     "Connect",
+     "Company"
+    ],
+    "ctaLabels": [
+     "Linkedin",
+     "X",
+     "Facebook",
+     "Instagram",
+     "English",
+     "Privacy Policy",
+     "Cookies Settings",
+     "Organizational Model and Code of Ethics D.Lgs 231/2001",
+     "Legal Info",
+     "Do Not Sell My Data"
+    ],
+    "domFingerprintHash": null,
+    "exampleSlug": "index",
+    "exampleSelector": ".cmp-experiencefragment--footer-v3 footer#footer",
+    "examplePages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ],
+    "rect": {
+     "x": 0,
+     "y": 4574,
+     "width": 1440,
+     "height": 928
+    },
+    "structure": {
+     "background": "#141414, padding-top 32/36px, text white",
+     "row1": "social icon row (16px SVG: LinkedIn, X, Facebook, Instagram; hover opacity .6) left; language selector (20px flag png + \"English\" 16px/450 + chevron) right; column headers sit on 1px #434343 top rules",
+     "columns": "Products (9 links) · Applications (6) · Connect (8) · Company (5); header 16px/530 white; links 16px/330 #8a8a8a letter-spacing .08px, hover blue",
+     "row3": "© Copyright 2026 SCIEX 14px #8a8a8a + legal links (Privacy Policy, Cookies Settings, Organizational Model and Code of Ethics D.Lgs 231/2001, Legal Info, Do Not Sell My Data) on a #434343 top rule",
+     "disclaimer": "p#disclaimer 14px #8a8a8a 10/12 wide (\"The SCIEX clinical diagnostic portfolio is For In Vitro Diagnostic Use. Rx Only…\") with Danaher logo png 64×83 right",
+     "partnerStrip": "div.lsig-banner 294px: 9 white SVG logos ≈96px wide (Beckman Coulter Life Sciences, Genedata, IDBS, Leica Microsystems, Molecular Devices, Phenomenex, Aldevron, IDT, abcam), each linking out with utm_source=sciex_website; loaded via /bin/sciex/partners"
+    },
+    "notes": "KB/legacy pages show the older footer-v3 variant (Twitter icon instead of X; 2025 copyright) served by header-footer/header.css."
+   },
+   {
+    "name": "account-login-popover",
+    "kind": "other",
+    "occurrences": 69,
+    "headingSequence": [
+     "Create an account",
+     "Already have an account? Sign in now",
+     "My profile",
+     "My favorite resources"
+    ],
+    "ctaLabels": [
+     "Create an account",
+     "Sign in now"
+    ],
+    "domFingerprintHash": null,
+    "exampleSlug": "index",
+    "exampleSelector": "#accountDropdown .dropdown-content.account-dropdown-content",
+    "examplePages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk"
+    ],
+    "rect": {
+     "x": 778.53125,
+     "y": 68,
+     "width": 240,
+     "height": 260
+    },
+    "style": {
+     "display": "block",
+     "position": "fixed",
+     "top": "48px",
+     "right": "421.469px",
+     "left": "835.531px",
+     "width": "240px",
+     "backgroundColor": "rgb(255, 255, 255)",
+     "color": "rgb(161, 161, 161)",
+     "borderRadius": "4px",
+     "boxShadow": "rgba(19, 19, 19, 0.15) -2px 3px 18.4px 0px",
+     "padding": "16px",
+     "border": "0px solid rgb(229, 231, 235)",
+     "fontSize": "14px",
+     "fontFamily": "Geogrotesque, Helvetica, Arial, sans-serif",
+     "zIndex": "200"
+    },
+    "structure": {
+     "trigger": "a.login-v2 \"Login\" + button.dropbtn.login-dropdown chevron (hover/click)",
+     "panel": "240px white, radius 4px, padding 16px, shadow rgba(19,19,19,.15) -2px 3px 18.4px, fixed top 48px z 200",
+     "items": "primary button \"Create an account\" 180×44 14px → /support/create-account; \"Already have an account?\" 14px #000 + \"Sign in now\" 16px #0068fa underlined → /bin/sciex/login; rows \"My profile\" (/support/profile) and \"My favorite resources\" (/resource-hub/myfavorite) with 18px line icons"
+    }
+   },
+   {
+    "name": "login-nudge-tooltip",
+    "kind": "other",
+    "occurrences": 63,
+    "headingSequence": [
+     "For full Support and access to your Personalized Information, please login to sciex.com"
+    ],
+    "ctaLabels": [],
+    "domFingerprintHash": null,
+    "exampleSlug": "applications-pharma-and-biopharma",
+    "exampleSelector": "div.walkme-custom-balloon (injected by cdn.walkme.com Smart Walk-Thru; not in AEM markup)",
+    "examplePages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ],
+    "rect": {
+     "x": 366,
+     "y": 20,
+     "width": 400,
+     "height": 150,
+     "note": "approx from screenshots at 1440"
+    },
+    "style": {
+     "background": "#ffffff",
+     "text": "16px/25px bold rgb(0,125,164) (#007da4 legacy teal), margin 20px 47px 0 20px",
+     "close": "× 8px top-right, title \"Stop Walk-thru\"",
+     "highlight": "orange rgb(249,157,49) highlighter frame (div.walkme-custom-highlighter) drawn around the header \"Login\" trigger",
+     "source": "WalkMe (cdn.walkme.com, thirdPartyScriptHosts on 69 pages); text colour matches the legacy teal, not the v3 blue"
+    },
+    "notes": "Third-party overlay present in 63 of 73 captured DOMs (rendered after page load, screenshots show it under the Login button). Not part of the site templates; visible on first visit only."
+   },
+   {
+    "name": "page-sub-nav",
+    "kind": "nav-secondary",
+    "occurrences": 5,
+    "headingSequence": [
+     "Overview",
+     "Applications",
+     "Perspectives",
+     "Stories"
+    ],
+    "ctaLabels": [],
+    "domFingerprintHash": null,
+    "exampleSlug": "applications-pharma-and-biopharma",
+    "exampleSelector": "div.page-sub-nav.sticky-subnav > section#subnav-primary.tw-bg-white",
+    "examplePages": [
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+     "applications-pharma-and-biopharma",
+     "diagnostics",
+     "products-integrated-solutions-biotransform-solution"
+    ],
+    "rect": {
+     "x": 0,
+     "y": 1044,
+     "width": 1440,
+     "height": 65
+    },
+    "style": {
+     "position": "sticky top 0 z-40",
+     "background": "#ffffff",
+     "items": "a.js-scroll-to 16px/530 #141414, 32px gap, active #0068fa",
+     "border": "1px #ececec bottom"
+    }
+   },
+   {
+    "name": "third-party-fixed-widgets",
+    "kind": "other",
+    "occurrences": 69,
+    "headingSequence": [],
+    "ctaLabels": [],
+    "domFingerprintHash": null,
+    "exampleSlug": "index",
+    "exampleSelector": "Qualtrics site-intercept feedback tab (left, 64px purple icon + chevron, y≈860) and chat launcher (right, 78px black round button with speech bubble, iframe#ce_proto_iframe)",
+    "examplePages": [
+     "index",
+     "applications-pharma-and-biopharma",
+     "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+    ],
+    "notes": "Visible in every screenshot; injected by siteintercept.qualtrics.com and the chat vendor; not site markup."
+   }
+  ],
+  "iconography": {
+   "v3": "inline SVG line icons, stroke currentColor, 16×14 arrow, 24px chevrons, 48px icon-card glyphs; 44–50 inline SVGs per page",
+   "legacy": "FontAwesome 4.2 (fa-star-o, fa-print, fa-chevron-up) + Glyphicons; see _brand-extraction.json#iconFont"
+  },
+  "imagery": {
+   "hero": "2880×1024 source served via Dynamic Media at ?quality=75&width=1440, <picture> webp sources 320–1920, jpg fallback; 50% black scrim",
+   "cards": "2000×1500 (4:3) and 1280×800 (16:10) DAM jpg/webp, object-fit cover, square corners, hover scale 1.05",
+   "megamenu": "320×180 jpg tiles under /content/dam/SCIEX/images-v2/megamenu/",
+   "people": "448×448 webp portraits (testimonial), 832×612 story stills",
+   "manifest": "stardust/current/assets/media/_manifest.json (42 files, 3 archetype pages)"
+  },
+  "designSystems": {
+   "v3-tailwind": {
+    "pages": 51,
+    "css": "stardust/current/assets/css/clientlib-site.min.69142de3.css",
+    "bodyClass": "stretch-text tw-overflow-hidden page basicpage"
+   },
+   "legacy-globalpage": {
+    "pages": 15,
+    "css": "stardust/current/assets/css/legacy/",
+    "bodyClass": "globalpage page basicpage",
+    "tokens": {
+     "pages": 15,
+     "body": "proxima-nova, Arial, Verdana, sans-serif 15px/20px #5f6062 (clientlib-global.min.css body) — KB article content overridden to Helvetica, Arial, sans-serif 16px/24px (computed on support-knowledge-base-articles-resettin)",
+     "h1": "Geogrotesque/Helvetica 28px/400 #0083a8 (computed rgb(0,132,169))",
+     "links": "#00afdb",
+     "buttons": ".btn.blue #00afdb 14px/300 white; .btn.orange #f99d31 uppercase",
+     "headingFamily": "'Geogrotesque' static cuts Ge2003-* (weights 100–700 + italics)",
+     "iconFonts": [
+      "FontAwesome 4.2",
+      "Glyphicons Halflings"
+     ],
+     "source": "stardust/current/assets/css/legacy/clientlib-global.min.css, clientlib-base.min.css"
+    }
+   },
+   "eds-blocks": {
+    "pages": 3,
+    "css": "stardust/current/assets/css/eds/",
+    "bodyClass": "appear",
+    "tokens": {
+     "pages": 3,
+     "body": "\"Geogrotesque Sharp VF\" 16px/330 (/blocks/hero-small/hero-small.css .contact-hero-description)",
+     "h1": "\"Geogrotesque Sharp VF\" 52px/270 line-height 64px (.contact-hero-heading-hero)",
+     "buttons": ".button padding 10px 20px radius 4px weight 500; .primary #0072ce; .secondary 1px solid #0072ce",
+     "customProps": "--primary-color #0068FA, --link-color #0068FA, --title-font-color #1e212a, --box-border-color #c9cace (recorded in customProps on 3 pages)",
+     "source": "stardust/current/assets/css/eds/"
+    }
+   },
+   "external": {
+    "pages": 4,
+    "note": "Danaher Auth0 login (3) and jobs.danaher.com (1)"
+   }
+  },
+  "modules": [
+   {
+    "id": "candidate-7fdb6fa3",
+    "name": "sciex-now-support-band",
+    "description": "Grey-800 cross-promo band above the footer: two H5 lines + primary \"Contact support\" button.",
+    "signals": [
+     "headings[] \"SCIEX Now support network\" on 52 pages (signal 1)",
+     "ctas[] \"Contact support\" on 52 pages (signal 2)"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "subheading",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "cta",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instanceCount": 52,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-contact-us",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-customer-profiles",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-customer-profiles-jennifer-van-eyk",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-executive-management",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-our-history",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-press-releases",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-press-releases-2025",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     },
+     {
+      "slug": "about-us-press-releases-2026",
+      "selector": ".cmp-experiencefragment--footer-v3 div.tw-bg-grey-800"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-77403e95",
+    "name": "hero-text",
+    "description": "Text-only page hero: breadcrumb, H1 text-alfa 64px/270, lead paragraph text-lg grey-500; often followed by media-image full-bleed banner.",
+    "signals": [
+     "AEM component class hero-text on 37 pages (HTML sidecar)",
+     "h1 present on all instances (headings[])"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "headline",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "lead",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "eyebrow",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instanceCount": 37,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-customer-profiles",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-customer-profiles-jennifer-van-eyk",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-executive-management",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-our-history",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-press-releases",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-press-releases-2025",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-press-releases-2026",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     },
+     {
+      "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+      "selector": "div.hero-text.aem-GridColumn > section"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-d8c5af2a",
+    "name": "hero-image",
+    "description": "Full-bleed photo hero (1440×512, object-cover, 50% black scrim) with white H1 text-bravo, paragraph and primary button; product-detail variant on grey-50 with product render right and dual CTA.",
+    "signals": [
+     "AEM component class hero-small/hero/hero-large on 20 pages",
+     "ctas[] \"Our products\" / \"Request a quote\" + \"Contact support\" pairs"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "image",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "headline",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "body",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "cta-primary",
+      "type": "link",
+      "required": false
+     },
+     {
+      "name": "cta-secondary",
+      "type": "link",
+      "required": false
+     },
+     {
+      "name": "eyebrow",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instanceCount": 20,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "applications-clinical",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "applications-forensics-testing",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "extraordinary-science",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "index",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "products",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "products-capillary-electrophoresis",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "products-consumables",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     },
+     {
+      "slug": "products-consumables-lc-ms-performance-kits",
+      "selector": "div.hero-small.aem-GridColumn section#hero-small"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-95834535",
+    "name": "card-grid",
+    "description": "3–4 column grid of transparent cards: 4:3 image (or 48px line icon), 18px/530 title, 16px grey-500 copy, \"Learn more\" arrow-link; optional H2 + lead above on a hairline.",
+    "signals": [
+     "ctas[] \"Learn more\" ×287 on 37 pages (signal 2)",
+     "AEM component classes image-card/three-card/icon-*-col on 26 pages",
+     "headings[] h3 card titles repeat per page (home: 8 × text-lg-bolder)"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "section-heading",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "section-lead",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "card.image",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "card.icon",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "card.title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "card.body",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "card.link",
+      "type": "link",
+      "required": false
+     }
+    ],
+    "instanceCount": 26,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "about-us-press-releases",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "about-us-product-stewardship",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications-environmental-testing",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     },
+     {
+      "slug": "index",
+      "selector": "div.image-card.aem-GridColumn .tw-grid > div"
+     }
+    ],
+    "status": "candidate",
+    "variants": [
+     "image-card (4-up, 13 pages)",
+     "three-card (8)",
+     "icon-4-col / icon-3-col (7)",
+     "icon-card (2)",
+     "four-card / statement-3-card (1 each)"
+    ]
+   },
+   {
+    "id": "candidate-6b837624",
+    "name": "rich-text-section",
+    "description": "Left-aligned prose block: optional H2 text-charlie on a hairline, paragraphs text-base grey-500, lists, inline links; 2-col variant splits heading and body.",
+    "signals": [
+     "AEM component class text-container-* on 39 pages (98 instances)",
+     "headings[] \"Overview\" h2 on 4 pages"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "body",
+      "type": "richtext",
+      "required": true
+     }
+    ],
+    "instanceCount": 39,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-customer-profiles-jennifer-van-eyk",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-product-stewardship-weee-compliance-austria",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-clinical",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-environmental-testing",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-810984c4",
+    "name": "image-text-split",
+    "description": "Two-column image + text row (image left or right, alternating), title 24–32px/270, copy grey-500, optional arrow-link or button.",
+    "signals": [
+     "AEM component class image-text-2-col / split-left / split-right on 26 pages"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "image",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "body",
+      "type": "richtext",
+      "required": false
+     },
+     {
+      "name": "link",
+      "type": "link",
+      "required": false
+     },
+     {
+      "name": "align",
+      "type": "enum(left|right)",
+      "required": false
+     }
+    ],
+    "instanceCount": 26,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-customer-profiles",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-executive-management",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-food-and-beverage-testing",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "applications-forensics-testing",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "diagnostics",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "extraordinary-science",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     },
+     {
+      "slug": "products",
+      "selector": "div.image-text-2-col.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-6e5ce570",
+    "name": "breadcrumb",
+    "description": "Home icon + chevron-separated trail, 14px grey-500, current item grey-900.",
+    "signals": [
+     "AEM component class breadcrumb on 61 pages; legacy cmp-breadcrumb on KB pages",
+     "ctas[] first items repeat section names (Applications, Products, Support)"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "trail",
+      "type": "list<link>",
+      "required": true
+     }
+    ],
+    "instanceCount": 61,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-customer-profiles",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-customer-profiles-jennifer-van-eyk",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-executive-management",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-our-history",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-press-releases",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-press-releases-2025",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-press-releases-2026",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     },
+     {
+      "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+      "selector": "nav[aria-label=\"Breadcrumb\"]"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-b6d22acb",
+    "name": "testimonial-dark",
+    "description": "Grey-900 full-width band: quote 32px/330 white, 448px portrait, name 16px/530 white, role grey-400; Splide carousel with \"1 / n\" pagination when several.",
+    "signals": [
+     "AEM component class testimonial on 6 pages",
+     "body[] repeated quote text twice per page (slide clone)"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "quote",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "portrait",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "name",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "role",
+      "type": "text",
+      "required": false
+     }
+    ],
+    "instanceCount": 6,
+    "instances": [
+     {
+      "slug": "about-us-customer-profiles-jennifer-van-eyk",
+      "selector": "div.testimonial.aem-GridColumn .c016-testimonial-dark"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "div.testimonial.aem-GridColumn .c016-testimonial-dark"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma",
+      "selector": "div.testimonial.aem-GridColumn .c016-testimonial-dark"
+     },
+     {
+      "slug": "diagnostics",
+      "selector": "div.testimonial.aem-GridColumn .c016-testimonial-dark"
+     },
+     {
+      "slug": "products-software",
+      "selector": "div.testimonial.aem-GridColumn .c016-testimonial-dark"
+     },
+     {
+      "slug": "technology-zt-scan-dia",
+      "selector": "div.testimonial.aem-GridColumn .c016-testimonial-dark"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-5c19eebe",
+    "name": "resources-grid",
+    "description": "Grid of resource tiles (technical notes, brochures, videos) with type label, title and \"Download\"/\"Learn more\" link.",
+    "signals": [
+     "AEM component class resources-grid/large/small on 8 pages",
+     "ctas[] \"Download\" ×14, \"Release notes\" ×13, \"Request info\" ×13"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "item.type",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "item.title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "item.link",
+      "type": "link",
+      "required": true
+     },
+     {
+      "name": "item.image",
+      "type": "image",
+      "required": false
+     }
+    ],
+    "instanceCount": 8,
+    "instances": [
+     {
+      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "diagnostics",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "products-hplc-products-microlc-products-m5-microlc",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "products-in-vitro-diagnostics-medical-devices-citrine-system",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "products-integrated-solutions-biotransform-solution",
+      "selector": "div.resources-grid.aem-GridColumn"
+     },
+     {
+      "slug": "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+      "selector": "div.resources-grid.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-174890c2",
+    "name": "sticky-page-sub-nav",
+    "description": "White sticky anchor bar (Overview · Applications · Perspectives · Stories) under the hero on application pages.",
+    "signals": [
+     "AEM component class page-sub-nav on 5 pages",
+     "ctas[] \"Overview\"/\"Applications\"/\"Perspectives\"/\"Stories\" with #A–#D hrefs"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "anchors",
+      "type": "list<link>",
+      "required": true
+     }
+    ],
+    "instanceCount": 5,
+    "instances": [
+     {
+      "slug": "applications-pharma-and-biopharma",
+      "selector": "div.page-sub-nav.sticky-subnav section#subnav-primary"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "selector": "div.page-sub-nav.sticky-subnav section#subnav-primary"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+      "selector": "div.page-sub-nav.sticky-subnav section#subnav-primary"
+     },
+     {
+      "slug": "diagnostics",
+      "selector": "div.page-sub-nav.sticky-subnav section#subnav-primary"
+     },
+     {
+      "slug": "products-integrated-solutions-biotransform-solution",
+      "selector": "div.page-sub-nav.sticky-subnav section#subnav-primary"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-30a19419",
+    "name": "stories-carousel",
+    "description": "Splide carousel of 2–3 story cards (640×480 or 416×312 image, title 18px/530, excerpt, \"Learn more\"/\"Watch now\"); the same story cards (\"A cast of thousands\", \"Pioneering future treatments\") recur across pages.",
+    "signals": [
+     "headings[] \"SCIEX Stories\" / \"Thought leaders\" on 3 pages",
+     "ctas[] \"Watch now\" on 3 pages",
+     "body[] \"A cast of thousands\" on 2 pages, \"Pioneering future treatments\" on 2 pages",
+     "AEM component class *-carousel on 3 pages"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "card.image",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "card.title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "card.excerpt",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "card.link",
+      "type": "link",
+      "required": false
+     }
+    ],
+    "instanceCount": 4,
+    "instances": [
+     {
+      "slug": "applications-biomedical-and-omics-research",
+      "selector": "div.media-card-carousel.aem-GridColumn .splide"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma",
+      "selector": "div.media-card-carousel.aem-GridColumn .splide"
+     },
+     {
+      "slug": "index",
+      "selector": "div.media-card-carousel.aem-GridColumn .splide"
+     },
+     {
+      "slug": "support-partner-portal",
+      "selector": "div.media-card-carousel.aem-GridColumn .splide"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-c625b21b",
+    "name": "linkedin-connect",
+    "description": "\"Let's connect\" H3 + \"Stay up-to-date with conversations on LinkedIn\" + two 600×140 LinkedIn banner images.",
+    "signals": [
+     "headings[] \"Let's connect\" h3 on 5 pages (signal 1)",
+     "media.imgs linkedin-*-banner-600x140 on the same pages"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "lead",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "banners",
+      "type": "list<image>",
+      "required": true
+     }
+    ],
+    "instanceCount": 5,
+    "instances": [
+     {
+      "slug": "applications-biomedical-and-omics-research",
+      "selector": "div.text-container-left-aligned-2-col.aem-GridColumn (2 consecutive)"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma",
+      "selector": "div.text-container-left-aligned-2-col.aem-GridColumn (2 consecutive)"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "selector": "div.text-container-left-aligned-2-col.aem-GridColumn (2 consecutive)"
+     },
+     {
+      "slug": "extraordinary-science",
+      "selector": "div.text-container-left-aligned-2-col.aem-GridColumn (2 consecutive)"
+     },
+     {
+      "slug": "technology-electron-activated-dissociation",
+      "selector": "div.text-container-left-aligned-2-col.aem-GridColumn (2 consecutive)"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-f042129d",
+    "name": "service-support-cards",
+    "description": "\"Explore SCIEX service and support\" H2 + 3 cards linking to service, training and professional services.",
+    "signals": [
+     "headings[] h2 on 4 pages (signal 1)"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "heading",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "cards",
+      "type": "list<card>",
+      "required": true
+     }
+    ],
+    "instanceCount": 4,
+    "instances": [
+     {
+      "slug": "products",
+      "selector": "div.three-card.aem-GridColumn"
+     },
+     {
+      "slug": "products-hplc-products",
+      "selector": "div.three-card.aem-GridColumn"
+     },
+     {
+      "slug": "products-mass-spectrometers",
+      "selector": "div.three-card.aem-GridColumn"
+     },
+     {
+      "slug": "support-instrument-service-and-support",
+      "selector": "div.three-card.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-9e7ae6a7",
+    "name": "press-boilerplate",
+    "description": "Press-release tail: dateline, \"About SCIEX\" and \"About Danaher\" H3 boilerplate paragraphs, contact line.",
+    "signals": [
+     "headings[] \"About Danaher\" on 4 pages, \"About SCIEX\" on press releases (signal 1)"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "dateline",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "body",
+      "type": "richtext",
+      "required": true
+     },
+     {
+      "name": "about-sciex",
+      "type": "richtext",
+      "required": false
+     },
+     {
+      "name": "about-danaher",
+      "type": "richtext",
+      "required": false
+     }
+    ],
+    "instanceCount": 4,
+    "instances": [
+     {
+      "slug": "about-us-career-opportunities",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn (press-release-article)"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn (press-release-article)"
+     },
+     {
+      "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn (press-release-article)"
+     },
+     {
+      "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+      "selector": "div.text-container-left-aligned-1-col.aem-GridColumn (press-release-article)"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-473cd7dd",
+    "name": "press-release-list",
+    "description": "Dated list of press-release links grouped by year with \"View press release\".",
+    "signals": [
+     "AEM component class text-press-release-list on 2 pages",
+     "ctas[] \"View press release\" ×11 on 2 pages"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "year",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "item.date",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "item.title",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instanceCount": 2,
+    "instances": [
+     {
+      "slug": "about-us-press-releases-2025",
+      "selector": "div.text-press-release-list.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-press-releases-2026",
+      "selector": "div.text-press-release-list.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-a75512cd",
+    "name": "profile-card-list",
+    "description": "People grid: portrait, name, title/organisation, \"View customer profile\" / \"View profile\" link.",
+    "signals": [
+     "ctas[] \"View customer profile\" ×49 on 2 pages, \"View profile\" ×16 on 2 pages (signal 2)"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "portrait",
+      "type": "image",
+      "required": true
+     },
+     {
+      "name": "name",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "role",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "link",
+      "type": "link",
+      "required": true
+     }
+    ],
+    "instanceCount": 4,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "div.image-card.aem-GridColumn (profile listing)"
+     },
+     {
+      "slug": "about-us-customer-profiles",
+      "selector": "div.image-card.aem-GridColumn (profile listing)"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles",
+      "selector": "div.image-card.aem-GridColumn (profile listing)"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "div.image-card.aem-GridColumn (profile listing)"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-f99fce63",
+    "name": "tabbed-portfolio",
+    "description": "Tab strip (7 buttons 160px, active blue with 2px underline on a hairline rail) switching an image + H3 + copy + \"Learn more\" panel.",
+    "signals": [
+     "AEM component class tab/tabs on 3 pages",
+     "ctas[] tab labels (Mass Spectrometers, Clinical Medical Devices, CE Instruments, HPLC MS, Software, Integrated Solutions, Technologies) on index"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "tab.label",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "panel.image",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "panel.title",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "panel.body",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "panel.link",
+      "type": "link",
+      "required": false
+     }
+    ],
+    "instanceCount": 3,
+    "instances": [
+     {
+      "slug": "index",
+      "selector": "div.tab.aem-GridColumn"
+     },
+     {
+      "slug": "products-software",
+      "selector": "div.tab.aem-GridColumn"
+     },
+     {
+      "slug": "technology-qtof-technology",
+      "selector": "div.tab.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-bd5a6fcd",
+    "name": "media-grid",
+    "description": "Two 640×400 promo tiles side by side (campaign images with text baked in), each a link.",
+    "signals": [
+     "AEM component class media-grid on 1 page(s)"
+    ],
+    "confidence": "low",
+    "slots": [
+     {
+      "name": "tiles",
+      "type": "list<image+link>",
+      "required": true
+     }
+    ],
+    "instanceCount": 1,
+    "instances": [
+     {
+      "slug": "index",
+      "selector": "div.media-grid.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-35b62a05",
+    "name": "media-banner",
+    "description": "Full-bleed 1440×636 image (or inline mp4/YouTube video) between hero-text and content.",
+    "signals": [
+     "AEM component class media-image on 12 pages, media-video on 3"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "image",
+      "type": "image",
+      "required": false
+     },
+     {
+      "name": "video",
+      "type": "video",
+      "required": false
+     }
+    ],
+    "instanceCount": 13,
+    "instances": [
+     {
+      "slug": "about-us-danaher",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "about-us-our-history",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "applications-environmental-testing",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "applications-food-and-beverage-testing",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "diagnostics",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "products-integrated-solutions-biotransform-solution",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "products-software",
+      "selector": "div.media-image.aem-GridColumn"
+     },
+     {
+      "slug": "products-software-analyst-software",
+      "selector": "div.media-image.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-ef889caf",
+    "name": "accordion-or-table",
+    "description": "Legacy detail pages: A–Z accordion of compounds (spectral library) or a teal-header comparison table; v3 accordion (core accordion clientlib) on 3 pages.",
+    "signals": [
+     "AEM component class accordion on 3 pages, data-table on 3 pages"
+    ],
+    "confidence": "low",
+    "slots": [
+     {
+      "name": "rows",
+      "type": "list<row>",
+      "required": true
+     }
+    ],
+    "instanceCount": 6,
+    "instances": [
+     {
+      "slug": "about-us-product-stewardship-weee-compliance-austria",
+      "selector": "div.accordion.aem-GridColumn / div.data-table.aem-GridColumn"
+     },
+     {
+      "slug": "diagnostics",
+      "selector": "div.accordion.aem-GridColumn / div.data-table.aem-GridColumn"
+     },
+     {
+      "slug": "products-in-vitro-diagnostics-medical-devices-citrine-system",
+      "selector": "div.accordion.aem-GridColumn / div.data-table.aem-GridColumn"
+     },
+     {
+      "slug": "products-methods",
+      "selector": "div.accordion.aem-GridColumn / div.data-table.aem-GridColumn"
+     },
+     {
+      "slug": "technology-electron-activated-dissociation",
+      "selector": "div.accordion.aem-GridColumn / div.data-table.aem-GridColumn"
+     },
+     {
+      "slug": "technology-qtof-technology",
+      "selector": "div.accordion.aem-GridColumn / div.data-table.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-0f9b69e6",
+    "name": "sciex-now-side-nav",
+    "description": "Legacy SCIEX Now shell: left column with \"SCIEX Now™\" title, search, orange \"Get Help\" button and grouped link list (MY LAB / RESOURCES / MARKET PLACE) with chevrons.",
+    "signals": [
+     "AEM component class sideNavigation on 2 pages (6 instances)"
+    ],
+    "confidence": "medium",
+    "slots": [
+     {
+      "name": "groups",
+      "type": "list<group>",
+      "required": true
+     }
+    ],
+    "instanceCount": 2,
+    "instances": [
+     {
+      "slug": "support",
+      "selector": "div.sideNavigation.aem-GridColumn"
+     },
+     {
+      "slug": "support-request-support",
+      "selector": "div.sideNavigation.aem-GridColumn"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-f8fd01d4",
+    "name": "kb-article",
+    "description": "Legacy KB article: teal H1 28px, Date/Categories table, star rating, Print/Rate bar in a grey shade-box, \"For research use only\" line, \"Answer\" H4 + prose, teal \"Comment\" button.",
+    "signals": [
+     "knowledge-base-article-template on 2 pages; sitemap 1,789 URLs"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "title",
+      "type": "text",
+      "required": true
+     },
+     {
+      "name": "date",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "categories",
+      "type": "list<link>",
+      "required": false
+     },
+     {
+      "name": "disclaimer",
+      "type": "text",
+      "required": false
+     },
+     {
+      "name": "answer",
+      "type": "richtext",
+      "required": true
+     }
+    ],
+    "instanceCount": 2,
+    "instances": [
+     {
+      "slug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+      "selector": "div.knowledgebasearticle"
+     },
+     {
+      "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",
+      "selector": "div.knowledgebasearticle"
+     }
+    ],
+    "status": "candidate"
+   },
+   {
+    "id": "candidate-67a2e22b",
+    "name": "partner-logo-strip",
+    "description": "Footer strip of 9 white Danaher operating-company logos (~96px), each an outbound link with utm_source=sciex_website.",
+    "signals": [
+     "div.lsig-banner in footer on 66 pages; loaded via /bin/sciex/partners"
+    ],
+    "confidence": "high",
+    "slots": [
+     {
+      "name": "logos",
+      "type": "list<image+link>",
+      "required": true
+     }
+    ],
+    "instanceCount": 66,
+    "instances": [
+     {
+      "slug": "about-us",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-customer-profiles",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-customer-profiles-jennifer-van-eyk",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-danaher",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-executive-management",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-internal-personnel-profiles-tom-covey",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-our-history",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-press-releases",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-press-releases-2025",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-press-releases-2026",
+      "selector": "footer#footer div.lsig-banner"
+     },
+     {
+      "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+      "selector": "footer#footer div.lsig-banner"
+     }
+    ],
+    "status": "candidate"
+   }
+  ],
+  "pageTypes": {
+   "source": "stardust/.work/page-types.json",
+   "typeCounts": {
+    "landing": 8,
+    "unique": 5,
+    "form": 1,
+    "listing": 21,
+    "article": 6,
+    "static": 11,
+    "program": 21
+   },
+   "families": [
+    {
+     "family": "home-landing",
+     "sampleCount": 1,
+     "sitemapEstimate": 2,
+     "dominantType": "landing",
+     "representativeSlug": "index",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-section-hub",
+     "sampleCount": 7,
+     "sitemapEstimate": 7,
+     "dominantType": "landing",
+     "representativeSlug": "applications",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-application-page",
+     "sampleCount": 10,
+     "sitemapEstimate": 148,
+     "dominantType": "program",
+     "representativeSlug": "applications-pharma-and-biopharma",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-product-category",
+     "sampleCount": 11,
+     "sitemapEstimate": 10,
+     "dominantType": "listing",
+     "representativeSlug": "products-mass-spectrometers",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-product-detail",
+     "sampleCount": 5,
+     "sitemapEstimate": 113,
+     "dominantType": "program",
+     "representativeSlug": "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-technology-detail",
+     "sampleCount": 3,
+     "sitemapEstimate": 16,
+     "dominantType": "program",
+     "representativeSlug": "technology-qtof-technology",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "press-release-article",
+     "sampleCount": 2,
+     "sitemapEstimate": 278,
+     "dominantType": "article",
+     "representativeSlug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "press-release-listing",
+     "sampleCount": 3,
+     "sitemapEstimate": 20,
+     "dominantType": "listing",
+     "representativeSlug": "about-us-press-releases-2026",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-profile-article",
+     "sampleCount": 2,
+     "sitemapEstimate": 59,
+     "dominantType": "article",
+     "representativeSlug": "about-us-customer-profiles-jennifer-van-eyk",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-profile-listing",
+     "sampleCount": 2,
+     "sitemapEstimate": 2,
+     "dominantType": "listing",
+     "representativeSlug": "about-us-customer-profiles",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "v3-static-content",
+     "sampleCount": 5,
+     "sitemapEstimate": 99,
+     "dominantType": "static",
+     "representativeSlug": "about-us-product-stewardship-weee-compliance-austria",
+     "designSystem": "v3-tailwind"
+    },
+    {
+     "family": "kb-article",
+     "sampleCount": 2,
+     "sitemapEstimate": 1789,
+     "dominantType": "article",
+     "representativeSlug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+     "designSystem": "legacy-globalpage"
+    },
+    {
+     "family": "legacy-intermediate",
+     "sampleCount": 5,
+     "sitemapEstimate": 7,
+     "dominantType": "listing",
+     "representativeSlug": "products-accessories",
+     "designSystem": "legacy-globalpage"
+    },
+    {
+     "family": "legacy-detail-page",
+     "sampleCount": 2,
+     "sitemapEstimate": 77,
+     "dominantType": "program",
+     "representativeSlug": "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software",
+     "designSystem": "legacy-globalpage"
+    },
+    {
+     "family": "sciex-now-legacy",
+     "sampleCount": 5,
+     "sitemapEstimate": 70,
+     "dominantType": "static",
+     "representativeSlug": "support",
+     "designSystem": "legacy-globalpage"
+    },
+    {
+     "family": "legacy-microsite",
+     "sampleCount": 1,
+     "sitemapEstimate": 1,
+     "dominantType": "unique",
+     "representativeSlug": "about-us-whitepapers",
+     "designSystem": "legacy-globalpage"
+    },
+    {
+     "family": "eds-contact",
+     "sampleCount": 1,
+     "sitemapEstimate": 1,
+     "dominantType": "form",
+     "representativeSlug": "about-us-contact-us",
+     "designSystem": "eds-blocks"
+    },
+    {
+     "family": "eds-resource-hub",
+     "sampleCount": 1,
+     "sitemapEstimate": 1,
+     "dominantType": "listing",
+     "representativeSlug": "support-knowledge-base-articles",
+     "designSystem": "eds-blocks"
+    },
+    {
+     "family": "eds-search-results",
+     "sampleCount": 1,
+     "sitemapEstimate": 1,
+     "dominantType": "listing",
+     "representativeSlug": "support-customer-documents",
+     "designSystem": "eds-blocks"
+    },
+    {
+     "family": "login-gated",
+     "sampleCount": 3,
+     "sitemapEstimate": 110,
+     "dominantType": "unique",
+     "representativeSlug": "support-login",
+     "designSystem": "external"
+    },
+    {
+     "family": "external-danaher-careers",
+     "sampleCount": 1,
+     "sitemapEstimate": 0,
+     "dominantType": "unique",
+     "representativeSlug": "about-us-career-opportunities",
+     "designSystem": "external"
+    }
+   ]
+  }
+ },
+ "components": [
+  {
+   "name": "Primary Button",
+   "kind": "button",
+   "refersTo": "button-primary",
+   "description": "Blue fill-up button with arrow; every primary action.",
+   "html": "<a class=\"ds-btn-primary\" href=\"#\">Request a quote <svg width=\"16\" height=\"14\" viewBox=\"0 0 16 14\" fill=\"none\"><path d=\"M0 7L15 7\" stroke=\"currentColor\"/><path d=\"M9 1L15 7L9 13\" stroke=\"currentColor\"/></svg></a>",
+   "css": ".ds-btn-primary{display:inline-flex;align-items:center;gap:8px;background-color:#0068fa;color:#fff;border:1px solid #0068fa;border-radius:4px;padding:12px 20px;font:330 16px/24px Geogrotesque,Helvetica,Arial,sans-serif;letter-spacing:.08px;text-decoration:none;background-image:linear-gradient(to right,#005bdb,#005bdb);background-repeat:no-repeat;background-position:bottom;background-size:100% 0;transition:all .3s cubic-bezier(.4,0,.2,1)}.ds-btn-primary svg{transition:margin .5s cubic-bezier(.4,0,.2,1)}.ds-btn-primary:hover{background-size:100% 100%}.ds-btn-primary:hover svg{margin-left:4px}.ds-btn-primary:active{background-color:#004ebc}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 2px #fff,0 0 0 4px #0068fa}"
+  },
+  {
+   "name": "Secondary Button",
+   "kind": "button",
+   "refersTo": "button-secondary",
+   "description": "Outline twin of the primary, paired to its right in product heroes.",
+   "html": "<a class=\"ds-btn-secondary\" href=\"#\">Contact support <svg width=\"16\" height=\"14\" viewBox=\"0 0 16 14\" fill=\"none\"><path d=\"M0 7L15 7\" stroke=\"currentColor\"/><path d=\"M9 1L15 7L9 13\" stroke=\"currentColor\"/></svg></a>",
+   "css": ".ds-btn-secondary{display:inline-flex;align-items:center;gap:8px;background-color:transparent;color:#141414;border:1px solid #0068fa;border-radius:4px;padding:12px 20px;font:330 16px/24px Geogrotesque,Helvetica,Arial,sans-serif;text-decoration:none;background-image:linear-gradient(to right,#005bdb,#005bdb);background-repeat:no-repeat;background-position:bottom;background-size:100% 0;transition:all .3s cubic-bezier(.4,0,.2,1)}.ds-btn-secondary:hover{background-size:100% 100%;color:#fff}.ds-btn-secondary:active{background-color:#004ebc;color:#fff}"
+  },
+  {
+   "name": "Arrow Link",
+   "kind": "custom",
+   "refersTo": "link-arrow",
+   "description": "\"Learn more\" link with sliding 1px underline and arrow.",
+   "html": "<a class=\"ds-link-arrow\" href=\"#\"><span class=\"ds-link-arrow__label\">Learn more<span class=\"ds-link-arrow__bar\"></span></span><svg width=\"16\" height=\"14\" viewBox=\"0 0 16 14\" fill=\"none\"><path d=\"M0 7L15 7\" stroke=\"currentColor\"/><path d=\"M9 1L15 7L9 13\" stroke=\"currentColor\"/></svg></a>",
+   "css": ".ds-link-arrow{display:inline-flex;align-items:center;color:#0068fa;font:400 16px/24px Geogrotesque,Helvetica,Arial,sans-serif;text-decoration:none;transition:color .3s}.ds-link-arrow__label{position:relative;overflow:hidden;display:inline-block}.ds-link-arrow__bar{position:absolute;left:0;bottom:0;width:100%;height:1px;background:#0068fa;transition:left .5s cubic-bezier(.4,0,.2,1)}.ds-link-arrow svg{margin-left:8px;transition:margin .5s cubic-bezier(.4,0,.2,1)}.ds-link-arrow:hover{color:#005bdb}.ds-link-arrow:hover .ds-link-arrow__bar{left:100%}.ds-link-arrow:hover svg{margin-left:12px}"
+  },
+  {
+   "name": "Card",
+   "kind": "card",
+   "refersTo": "card",
+   "description": "Transparent 4:3 image card with 18/530 title, grey copy and arrow link.",
+   "html": "<div class=\"ds-card\"><a class=\"ds-card__media\" href=\"#\"><img src=\"stardust/current/assets/media/cell-therapy-b4364ed7.jpg\" alt=\"\"></a><div class=\"ds-card__title\">Cell and gene therapy analysis</div><p class=\"ds-card__body\">Embrace a new era of medicine with intuitive and flexible analytical solutions designed to deliver meaningful results.</p><a class=\"ds-link-arrow\" href=\"#\"><span class=\"ds-link-arrow__label\">Learn more<span class=\"ds-link-arrow__bar\"></span></span></a></div>",
+   "css": ".ds-card{display:flex;flex-direction:column;align-items:flex-start;background:transparent;border-radius:0;font-family:Geogrotesque,Helvetica,Arial,sans-serif}.ds-card__media{display:block;width:100%;aspect-ratio:4/3;overflow:hidden;margin-bottom:32px}.ds-card__media img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.4,0,.2,1)}.ds-card__media:hover img{transform:scale(1.05)}.ds-card__title{font-size:18px;font-weight:530;line-height:26px;letter-spacing:.048px;color:#141414;margin-bottom:8px}.ds-card__body{font-size:16px;font-weight:330;line-height:24px;letter-spacing:.08px;color:#707070;margin:0 0 16px}"
+  },
+  {
+   "name": "Search Input",
+   "kind": "input",
+   "refersTo": "input-search",
+   "description": "Header search field with scope dropdown and dark submit.",
+   "html": "<form class=\"ds-search\"><input class=\"ds-search__input\" type=\"text\" placeholder=\"Search\"><button class=\"ds-search__scope\" type=\"button\">All <svg width=\"12\" height=\"8\" viewBox=\"0 0 12 8\" fill=\"none\"><path d=\"M1 1l5 5 5-5\" stroke=\"currentColor\"/></svg></button><button class=\"ds-search__submit\" type=\"submit\" aria-label=\"Search\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\"><circle cx=\"7\" cy=\"7\" r=\"5.5\" stroke=\"currentColor\"/><path d=\"M11 11l4 4\" stroke=\"currentColor\"/></svg></button></form>",
+   "css": ".ds-search{display:flex;align-items:center;gap:8px;background:#f5f5f5;height:40px;padding-right:10px;width:459px;font-family:Geogrotesque,Helvetica,Arial,sans-serif}.ds-search__input{flex:1;height:40px;border:0;background:#f5f5f5;padding:12px 16px;font:330 16px/24px inherit;color:#141414;outline:none}.ds-search__input::placeholder{color:#a1a1a1}.ds-search__scope{background:none;border:0;color:#a1a1a1;font:330 16px/24px inherit;padding:8px;display:inline-flex;gap:4px;align-items:center}.ds-search__submit{width:30px;height:30px;border:0;border-radius:3px;background:#5b5b5b;color:#a1a1a1;display:inline-flex;align-items:center;justify-content:center}.ds-search__input:focus-visible{box-shadow:0 0 0 2px #fff,0 0 0 4px #0068fa}"
+  },
+  {
+   "name": "Header Bar",
+   "kind": "nav",
+   "refersTo": "header-bar",
+   "description": "64px near-black utility bar with wordmark, search, Login/Shop and two CTA cells.",
+   "html": "<div class=\"ds-header\"><a class=\"ds-header__logo\" href=\"#\"><img src=\"stardust/current/assets/logo.svg\" width=\"95\" height=\"32\" alt=\"SCIEX\"></a><div class=\"ds-header__spacer\"></div><a class=\"ds-header__util\" href=\"#\">Login</a><a class=\"ds-header__util\" href=\"#\">Shop</a><a class=\"ds-header__cell ds-header__cell--quote\" href=\"#\">Request a quote</a><a class=\"ds-header__cell ds-header__cell--dash\" href=\"#\">SCIEX Now Dashboard</a></div><nav class=\"ds-nav\"><a href=\"#\">Products</a><a href=\"#\">Applications</a><a href=\"#\">Training</a><a href=\"#\">Support</a><a href=\"#\">Service</a><a href=\"#\">Resource hub</a><a href=\"#\">About us</a><a href=\"#\">Events</a></nav>",
+   "css": ".ds-header{display:flex;align-items:center;height:64px;background:#141414;color:#fff;padding-left:48px;font-family:Geogrotesque,Helvetica,Arial,sans-serif}.ds-header__spacer{flex:1}.ds-header__util{color:#fff;font:330 14px/20px inherit;text-decoration:none;margin-right:40px}.ds-header__cell{display:flex;align-items:center;height:64px;padding:20px 32px;text-decoration:none;font-size:16px;line-height:24px;white-space:nowrap}.ds-header__cell--quote{background:#f5f5f5;color:#0068fa;font-weight:530}.ds-header__cell--dash{background:#0068fa;color:#fff;font-weight:330;border:1px solid #0068fa;background-image:linear-gradient(to right,#005bdb,#005bdb);background-repeat:no-repeat;background-position:bottom;background-size:100% 0;transition:all .3s}.ds-header__cell--dash:hover{background-size:100% 100%}.ds-nav{display:flex;gap:26px;align-items:center;height:67px;background:#fff;padding-left:64px;font-family:Geogrotesque,Helvetica,Arial,sans-serif}.ds-nav a{color:#141414;font:330 16px/24px inherit;text-decoration:none;padding-bottom:2px;border-bottom:2px solid transparent;transition:color .2s}.ds-nav a:hover{color:#0068fa}.ds-nav a[aria-expanded=true]{border-bottom-color:#0068fa}"
+  },
+  {
+   "name": "Support Band",
+   "kind": "custom",
+   "refersTo": "band-support",
+   "description": "The grey-800 SCIEX Now cross-promo band above the footer (52 pages).",
+   "html": "<section class=\"ds-band\"><div class=\"ds-band__text\"><h5 class=\"ds-band__h\">SCIEX Now support network</h5><h5 class=\"ds-band__sub\">The destination for all your support needs.</h5></div><a class=\"ds-btn-primary\" href=\"#\">Contact support <svg width=\"16\" height=\"14\" viewBox=\"0 0 16 14\" fill=\"none\"><path d=\"M0 7L15 7\" stroke=\"currentColor\"/><path d=\"M9 1L15 7L9 13\" stroke=\"currentColor\"/></svg></a></section>",
+   "css": ".ds-band{display:flex;justify-content:space-between;align-items:center;background:#2c2c2c;color:#fff;padding:48px 64px;font-family:Geogrotesque,Helvetica,Arial,sans-serif}.ds-band__h{margin:0;font-size:24px;font-weight:450;line-height:31.2px;color:#fff}.ds-band__sub{margin:0;font-size:24px;font-weight:400;line-height:31.2px;color:#a1a1a1}"
+  },
+  {
+   "name": "Account Popover",
+   "kind": "custom",
+   "refersTo": "popover-account",
+   "description": "Login dropdown panel; the only shadowed surface on the site.",
+   "html": "<div class=\"ds-popover\"><a class=\"ds-popover__btn\" href=\"#\">Create an account</a><a class=\"ds-popover__signin\" href=\"#\">Already have an account?<span>Sign in now</span></a><a class=\"ds-popover__row\" href=\"#\">My profile</a><a class=\"ds-popover__row\" href=\"#\">My favorite resources</a></div>",
+   "css": ".ds-popover{width:240px;background:#fff;border-radius:4px;padding:16px;box-shadow:rgba(19,19,19,.15) -2px 3px 18.4px 0;font-family:Geogrotesque,Helvetica,Arial,sans-serif;color:#141414;font-size:14px}.ds-popover__btn{display:flex;justify-content:center;width:180px;background:#0068fa;color:#fff;border-radius:4px;padding:12px 20px;text-decoration:none;font-size:14px;margin-bottom:12px}.ds-popover__signin{display:block;color:#000;text-decoration:none;padding:10px 0}.ds-popover__signin span{display:block;color:#0068fa;font-size:16px;text-decoration:underline;text-underline-offset:3px}.ds-popover__row{display:block;color:#141414;text-decoration:none;padding:10px 0}"
+  }
+ ],
+ "narrative": {
+  "northStar": "There, where it counts",
+  "northStarProvenance": "inferred — the site's own hero sub-line used as a label for the observed stance",
+  "overview": "The live sciex.com is a precision-instrument brochure rendered with restraint: a very light Geogrotesque display face (weight 270) at 40–64px, one electric blue (#0068fa) used for every action, and near-black chrome (#141414) framing white content. Photography of instruments and labs is square-cornered and full-bleed; the only softening anywhere is a 4px radius on buttons. Surfaces are flat — no card shadows, no borders around cards — and sections are separated by 1px hairlines and generous 48–64px padding.",
+  "keyCharacteristics": [
+   "Light display type (270) with mid-weight (530) card titles and 330 body — never bold, never uppercase (4% of 681 headings).",
+   "One saturated colour; hover is the same hue one step deeper (#005bdb), active two steps (#004ebc).",
+   "Square imagery, 4:3 cards, 50% black scrim on hero photos.",
+   "Flat: shadows only on the account popover; hairlines #ececec do the separating.",
+   "Two signature micro-interactions: the fill-up button and the arrow-link whose 1px underline slides out to the right.",
+   "Persistent dark bands: 64px header bar, grey-800 support band, grey-900 footer with a 9-logo partner strip."
+  ],
+  "rules": [
+   {
+    "name": "The One Blue Rule",
+    "body": "On v3 pages the only chromatic colour is #0068fa and its two darker steps; success/warning/error tints exist in the compiled CSS but were not observed rendered.",
+    "section": "colors"
+   },
+   {
+    "name": "The Dark Frame Rule",
+    "body": "Content is white; everything that frames it (header bar, support band, footer, testimonial) is #141414/#2c2c2c with white and grey-400 text.",
+    "section": "colors"
+   },
+   {
+    "name": "The Light Display Rule",
+    "body": "Every H1/H2 renders at weight 270; emphasis is carried by size and colour, never by weight.",
+    "section": "typography"
+   },
+   {
+    "name": "The Sentence-Case Rule",
+    "body": "Headings and buttons are sentence case; the only uppercase on the site is legacy BUY NOW / CONTACT SUPPORT buttons.",
+    "section": "typography"
+   },
+   {
+    "name": "The Flat Surface Rule",
+    "body": "Cards are transparent regions on the white canvas; separation is a 1px #ececec rule or whitespace, never a shadow or border box.",
+    "section": "elevation"
+   }
+  ],
+  "dos": [
+   "Do set H1/H2 in Geogrotesque 270 at 64/40px (52px on home) with 1.2–1.3 line-height, sentence case, #141414 (white on photo heroes).",
+   "Do use #0068fa for every action, #005bdb for hover (fill-up gradient on buttons, text on links) and #004ebc for active.",
+   "Do keep buttons 4px-radius, 50px tall, 12px 20px padding, with the 16×14 arrow; pair primary + outline in product heroes.",
+   "Do build cards as transparent regions: 4:3 square image, 18px/530 title, 16px/330 #707070 copy, \"Learn more\" arrow-link.",
+   "Do separate sections with 1px #ececec rules and 48px component padding inside a 1440px/64px-gutter container.",
+   "Do place a 50% black scrim over hero photography behind white type.",
+   "Do end every page with the #2c2c2c support band, the #141414 footer and the 9-logo partner strip."
+  ],
+  "donts": [
+   "Don't round images, cards, inputs or bands — radius belongs to buttons and round controls only.",
+   "Don't add drop shadows to cards or heroes; the only shadow on the site is the account popover.",
+   "Don't use bold (≥600) or uppercase headings; the heaviest weight in use is 530 on 16–18px titles.",
+   "Don't introduce a second hue on v3 pages — the teal/orange family exists only in legacy templates and #0072ce only in the EDS contact hero.",
+   "Don't use icon fonts on v3 pages; icons are inline 16–48px stroke SVGs."
+  ]
+ }
+}

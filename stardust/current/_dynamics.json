@@ -1,0 +1,2767 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-09-18T06:58:08.758Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://sciex.com/",
+   "https://sciex.com/applications/pharma-and-biopharma",
+   "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+   "https://sciex.com/support/knowledge-base-articles",
+   "https://sciex.com/support"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://sciex.com/",
+   "status": 200,
+   "host": "sciex.com",
+   "title": "LC-MS, CE, and software solutions | SCIEX",
+   "forms": [
+    {
+     "name": "tw-flex",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search-input-mobile"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookies Settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 806,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/support/registered-software"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-US",
+     "zh-CN",
+     "ja-JP",
+     "ko-KR",
+     "x-default"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "push"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 15,
+   "inlineFetch": true,
+   "mainText": 4819,
+   "domAddedAfterLoad": 96,
+   "hosts": {
+    "sciex.com": 58,
+    "cdn.walkme.com": 27,
+    "cdn.usefathom.com": 2,
+    "static.cloud.coveo.com": 3,
+    "www.googletagmanager.com": 5,
+    "cdn.cookielaw.org": 6,
+    "geolocation.onetrust.com": 1,
+    "geoip-js.com": 2,
+    "cdn.drda.io": 1,
+    "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 6,
+    "cdn.dreamdata.cloud": 3,
+    "region1.analytics.google.com": 3,
+    "img04.en25.com": 1,
+    "www.google.com": 7,
+    "static.ads-twitter.com": 1,
+    "snap.licdn.com": 1,
+    "stats.g.doubleclick.net": 2,
+    "www.google.ch": 4,
+    "ad.doubleclick.net": 1,
+    "cdn.decibelinsight.net": 1,
+    "connect.facebook.net": 2,
+    "cdn.c360a.salesforce.com": 1,
+    "cdn.evgnet.com": 1,
+    "googleads.g.doubleclick.net": 2,
+    "collection.decibelinsight.net": 5,
+    "analytics.twitter.com": 1,
+    "t.co": 1,
+    "px.ads.linkedin.com": 2,
+    "tracking.sciex.com": 2,
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com": 3,
+    "s3.walkmeusercontent.com": 2,
+    "ec-playback.walkme.com": 1,
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com": 1,
+    "ec.walkme.com": 2
+   },
+   "thirdPartyHosts": [
+    "cdn.walkme.com",
+    "cdn.usefathom.com",
+    "static.cloud.coveo.com",
+    "www.googletagmanager.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "geoip-js.com",
+    "cdn.drda.io",
+    "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "cdn.dreamdata.cloud",
+    "region1.analytics.google.com",
+    "img04.en25.com",
+    "www.google.com",
+    "static.ads-twitter.com",
+    "snap.licdn.com",
+    "stats.g.doubleclick.net",
+    "www.google.ch",
+    "ad.doubleclick.net",
+    "cdn.decibelinsight.net",
+    "connect.facebook.net",
+    "cdn.c360a.salesforce.com",
+    "cdn.evgnet.com",
+    "googleads.g.doubleclick.net",
+    "collection.decibelinsight.net",
+    "analytics.twitter.com",
+    "t.co",
+    "px.ads.linkedin.com",
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+    "s3.walkmeusercontent.com",
+    "ec-playback.walkme.com",
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+    "ec.walkme.com"
+   ],
+   "scripts": [
+    "https://sciex.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://sciex.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_1e111ec60eee4eb8859b4147fa4ea483_https.js",
+    "https://cdn.usefathom.com/script.js",
+    "https://static.cloud.coveo.com/headless/v3/headless.esm.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WMZL3B",
+    "https://static.cloud.coveo.com/headless/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/headless.esm.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/scripts/prelib-plugin-b1a13e38-81f3-3693-b7ff-f84998764376.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_config_3c17a089273d4c61a1e6b218844911fa.js",
+    "https://static.cloud.coveo.com/bueno/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/bueno.esm.js",
+    "https://cdn.walkme.com/player/resources/wmjQuery360.js",
+    "https://cdn.walkme.com/player/lib/walkme_lib_20260827-122416-793adf4e.br.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0dec26b6-99d0-4899-bb84-862e1aef78ce&data-document-language=true",
+    "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-video.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/202609.1.0/otBannerSdk.js",
+    "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-slider.min.js",
+    "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site.min.js",
+    "https://geoip-js.com/js/apis/geoip2/v2.1/geoip2.js",
+    "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+    "https://www.googletagmanager.com/gtag/destination?id=G-KD23C87L58&cx=c&gtm=4e69g1",
+    "https://zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_1o1ioypsMWWxBmB",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6078.139916f5.walkme_lib.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/881.d8599d262e6546821b06.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.848665a0a9c3ddf336b8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7179.406e10ba.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/4303.e0f4c7e2.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/main.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/1773.6815f964.walkme_lib.js",
+    "https://cdn.walkme.com/deepui/0/main.js?v=latest",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6506.5f66ec2e.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7802.ede99616.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/2298.e46aae67.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/2102.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/9312.3900.6d0bb36238c74d5348fa.js",
+    "https://img04.en25.com/i/elqCfg.min.js",
+    "https://cdn.walkme.com/deepui/p/prebuild/user/1e111ec60eee4eb8859b4147fa4ea483/0/3c17a089273d4c61a1e6b218844911fa/data_lang-en.js?cb=wm-deepui-um-cb",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=GT-NGJ3Q29Q&cx=c&gtm=4e69g1",
+    "https://www.googletagmanager.com/gtag/js?id=G-8KBY4NDJLN&cx=c&gtm=4e69g1",
+    "https://cdn.walkme.com/player/resources/fonts/sap-font-72.js",
+    "https://cdn.walkme.com/player/resources/fonts/sap-icons.js",
+    "https://cdn.decibelinsight.net/i/14130/1197818/di.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.walkme.com/deepui/0/2.145cd52b8f3d8c923b72.js",
+    "https://cdn.c360a.salesforce.com/beacon/c360a/48ffbd31-97f0-4f0a-ba71-ca3f2fbac322/scripts/c360a.min.js?wtcp_id=1NDPU000000087F4AQ",
+    "https://cdn.evgnet.com/beacon/v55685555553mx3rf3h3n3n3i091550196/sciex_prod/scripts/evergage.min.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1005066311&cx=c&gtm=4e69g1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11360491560/?random=1789714692402&cv=11&fst=1789714692402&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20",
+    "https://cdn.walkme.com/player/resources/fonts/notosans.js",
+    "https://connect.facebook.net/signals/config/271574523524027?v=2.9.403&r=stable&domain=sciex.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2C27%2C81%2C82",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.666d391dbcf9ae35c736.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.867bd12e18a42b69dbf8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1005066311/?random=1789714692590&cv=11&fst=1789714692590&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9175018232z86920009za20gzb6920009zd6920",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt?forceUpdate=1789714700147"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/bin/sciex/currentuserdetails",
+     "query": [],
+     "status": 403,
+     "contentType": "text/html",
+     "example": "https://sciex.com/bin/sciex/currentuserdetails"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://sciex.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+    "GET geoip-js.com/geoip/v2.1/country/me",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/ins",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br",
+    "POST cdn.dreamdata.cloud/api/v1/p",
+    "POST region1.analytics.google.com/g/collect",
+    "POST www.google.com/ccm/collect",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST www.google.com/rmkt/collect/11360491560/",
+    "GET collection.decibelinsight.net/i/14130/1197818/c.json",
+    "POST collection.decibelinsight.net/i/14130/da/",
+    "POST www.google.com/rmkt/collect/1005066311/",
+    "GET cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+    "GET v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+    "POST px.ads.linkedin.com/wa/",
+    "POST ec-playback.walkme.com/session/init",
+    "POST gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+    "POST ec.walkme.com/event/postEvent"
+   ],
+   "postBodies": [
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:12.098Z\",\"integrations\":{},\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"LC-MS, CE, and software solutions | SCIEX\",\"url\":\"https://sciex.com/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"LC-MS, CE, and software solutions | SCIEX\",\"url\":\"https://sciex.com/\"},\"userAgent\":\"\",\"userAgentData\":{\"brands\":[{\"brand\":\"HeadlessC"
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714690109&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714690109&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&ecid=1",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&auid=1970181591.1789714692&dt=LC-MS%2C%20CE%2C%20and%20software%20solutions%20%7C%20SCIEX&en=page_view&dl=https%3A%2F%2Fsciex.com%2F&scrsrc=",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1970181591.1789714692&gtm=45He69g1v6920009za200zd6920009xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_1o1ioypsMWWxBmB&Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fsciex.com%2F&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-09-18T06%3A58%3A12.227Z"
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:12.247Z\",\"integrations\":{},\"anonymousId\":\"6c0d4b4b-50e0-425d-b34a-9ab9bcfe2c35\",\"type\":\"page\",\"properties\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"LC-MS, CE, and software solutions | SCIEX\",\"url\":\"https://sciex.com/\"},\"context\":{\"page\":{\"path\":\"/\",\"referrer\":\"\",\"search\":\"\",\"title\":\"LC-MS, CE, and software solutions | SCIEX\",\"url\":\"https://sciex.com/\"},\"userAge"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/11360491560/?random=1789714692402&cv=11&fst=1789714692402&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20gzb6920009zd6920009xecx",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&auid=1970181591.1789714692&dt=LC-MS%2C%20CE%2C%20and%20software%20solutions%20%7C%20SCIEX&tid=AW-11360491560&en=page_view&dl=https%3A%2F%2Fsciex.",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-8KBY4NDJLN&gtm=45je69g1v899451893z86920009za20gzb6920009zd6920009xf1&_p=1789714690109&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+     "body": "auth=eyJhcHBTb3VyY2VJZCI6IjQ4ZmZiZDMxLTk3ZjAtNGYwYS1iYTcxLWNhM2YyZmJhYzMyMiIsImRldmljZUlkIjoiOWY2ZGI2ZTE2YmFkYmQ4MiJ9"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/1005066311/?random=1789714692590&cv=11&fst=1789714692590&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9175018232z86920009za20gzb6920009zd6920009xeaxf1&gcd=13r3r3r3r",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 5584,
+   "mainEmptyAtLoad": false
+  },
+  "/applications/pharma-and-biopharma": {
+   "url": "https://sciex.com/applications/pharma-and-biopharma",
+   "status": 200,
+   "host": "sciex.com",
+   "title": "Biopharma / pharma research",
+   "forms": [
+    {
+     "name": "tw-flex",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search-input-mobile"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookies Settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 806,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/support/registered-software"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-US",
+     "zh-CN",
+     "ja-JP",
+     "ko-KR",
+     "x-default"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [
+    {
+     "cls": "js-scroll-container tw-flex tw-pr-24",
+     "attrs": [],
+     "text": "Overview Applications Perspectives Stories"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 16,
+   "inlineFetch": true,
+   "mainText": 6031,
+   "domAddedAfterLoad": 96,
+   "hosts": {
+    "sciex.com": 59,
+    "cdn.usefathom.com": 2,
+    "cdn.walkme.com": 27,
+    "www.googletagmanager.com": 11,
+    "static.cloud.coveo.com": 3,
+    "cdn.cookielaw.org": 6,
+    "geolocation.onetrust.com": 1,
+    "geoip-js.com": 2,
+    "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com": 1,
+    "cdn.drda.io": 1,
+    "siteintercept.qualtrics.com": 6,
+    "cdn.dreamdata.cloud": 3,
+    "img04.en25.com": 1,
+    "snap.licdn.com": 1,
+    "static.ads-twitter.com": 1,
+    "cdn.evgnet.com": 1,
+    "region1.analytics.google.com": 3,
+    "stats.g.doubleclick.net": 2,
+    "www.google.com": 7,
+    "ad.doubleclick.net": 1,
+    "www.google.ch": 4,
+    "cdn.decibelinsight.net": 1,
+    "cdn.c360a.salesforce.com": 1,
+    "connect.facebook.net": 2,
+    "collection.decibelinsight.net": 5,
+    "analytics.twitter.com": 1,
+    "t.co": 1,
+    "px.ads.linkedin.com": 2,
+    "tracking.sciex.com": 2,
+    "googleads.g.doubleclick.net": 2,
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com": 3,
+    "s3.walkmeusercontent.com": 2,
+    "ec-playback.walkme.com": 1,
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com": 1,
+    "ec.walkme.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.usefathom.com",
+    "cdn.walkme.com",
+    "www.googletagmanager.com",
+    "static.cloud.coveo.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "geoip-js.com",
+    "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com",
+    "cdn.drda.io",
+    "siteintercept.qualtrics.com",
+    "cdn.dreamdata.cloud",
+    "img04.en25.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com",
+    "cdn.evgnet.com",
+    "region1.analytics.google.com",
+    "stats.g.doubleclick.net",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google.ch",
+    "cdn.decibelinsight.net",
+    "cdn.c360a.salesforce.com",
+    "connect.facebook.net",
+    "collection.decibelinsight.net",
+    "analytics.twitter.com",
+    "t.co",
+    "px.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+    "s3.walkmeusercontent.com",
+    "ec-playback.walkme.com",
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+    "ec.walkme.com"
+   ],
+   "scripts": [
+    "https://sciex.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://cdn.usefathom.com/script.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_1e111ec60eee4eb8859b4147fa4ea483_https.js",
+    "https://sciex.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt",
+    "https://cdn.walkme.com/player/resources/wmjQuery360.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_config_3c17a089273d4c61a1e6b218844911fa.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WMZL3B",
+    "https://static.cloud.coveo.com/headless/v3/headless.esm.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/scripts/prelib-plugin-b1a13e38-81f3-3693-b7ff-f84998764376.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0dec26b6-99d0-4899-bb84-862e1aef78ce&data-document-language=true",
+    "https://static.cloud.coveo.com/headless/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/headless.esm.js",
+    "https://static.cloud.coveo.com/bueno/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/bueno.esm.js",
+    "https://cdn.walkme.com/player/lib/walkme_lib_20260827-122416-793adf4e.br.js",
+    "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-scroll-to.min.js",
+    "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-slider.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/202609.1.0/otBannerSdk.js",
+    "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site.min.js",
+    "https://geoip-js.com/js/apis/geoip2/v2.1/geoip2.js",
+    "https://zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_1o1ioypsMWWxBmB",
+    "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+    "https://www.googletagmanager.com/gtag/destination?id=G-KD23C87L58&cx=c&gtm=4e69g1",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6078.139916f5.walkme_lib.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/881.d8599d262e6546821b06.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.848665a0a9c3ddf336b8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7179.406e10ba.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/main.js",
+    "https://img04.en25.com/i/elqCfg.min.js",
+    "https://cdn.walkme.com/deepui/0/main.js?v=latest",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/4303.e0f4c7e2.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/1773.6815f964.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6506.5f66ec2e.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7802.ede99616.walkme_lib.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js",
+    "https://cdn.evgnet.com/beacon/v55685555553mx3rf3h3n3n3i091550196/sciex_prod/scripts/evergage.min.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/9312.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/2102.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/deepui/p/prebuild/user/1e111ec60eee4eb8859b4147fa4ea483/0/3c17a089273d4c61a1e6b218844911fa/data_lang-en.js?cb=wm-deepui-um-cb",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/2298.e46aae67.walkme_lib.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://cdn.walkme.com/player/resources/fonts/sap-icons.js",
+    "https://cdn.walkme.com/player/resources/fonts/sap-font-72.js",
+    "https://cdn.decibelinsight.net/i/14130/1197818/di.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-8KBY4NDJLN&cx=c&gtm=4e69g1",
+    "https://www.googletagmanager.com/gtag/js?id=GT-NGJ3Q29Q&cx=c&gtm=4e69g1",
+    "https://cdn.c360a.salesforce.com/beacon/c360a/48ffbd31-97f0-4f0a-ba71-ca3f2fbac322/scripts/c360a.min.js?wtcp_id=1NDPU000000087F4AQ",
+    "https://cdn.walkme.com/deepui/0/2.145cd52b8f3d8c923b72.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.867bd12e18a42b69dbf8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.666d391dbcf9ae35c736.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://cdn.walkme.com/player/resources/fonts/notosans.js",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1005066311&cx=c&gtm=4e69g1",
+    "https://connect.facebook.net/signals/config/271574523524027?v=2.9.403&r=stable&domain=sciex.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2C27%2C81%2C82",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1005066311/?random=1789714703399&cv=11&fst=1789714703399&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9175018232z86920009za20gzb6920009zd6920",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11360491560/?random=1789714703198&cv=11&fst=1789714703198&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt?forceUpdate=1789714710803"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/bin/sciex/currentuserdetails",
+     "query": [],
+     "status": 403,
+     "contentType": "text/html",
+     "example": "https://sciex.com/bin/sciex/currentuserdetails"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://sciex.com/libs/granite/csrf/token.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+    "GET geoip-js.com/geoip/v2.1/country/me",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/ins",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br",
+    "POST cdn.dreamdata.cloud/api/v1/p",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST region1.analytics.google.com/g/collect",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET collection.decibelinsight.net/i/14130/1197818/c.json",
+    "POST collection.decibelinsight.net/i/14130/da/",
+    "POST www.google.com/rmkt/collect/11360491560/",
+    "GET cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+    "POST www.google.com/rmkt/collect/1005066311/",
+    "GET v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+    "POST px.ads.linkedin.com/wa/",
+    "POST ec-playback.walkme.com/session/init",
+    "POST gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+    "POST ec.walkme.com/event/postEvent"
+   ],
+   "postBodies": [
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:22.755Z\",\"integrations\":{},\"type\":\"page\",\"properties\":{\"path\":\"/applications/pharma-and-biopharma\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Biopharma / pharma research\",\"url\":\"https://sciex.com/applications/pharma-and-biopharma\"},\"context\":{\"page\":{\"path\":\"/applications/pharma-and-biopharma\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Biopharma / pharma research\",\"url\":\"https://sci"
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_1o1ioypsMWWxBmB&Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fsciex.com%2Fapplications%2Fpharma-and-biopharma&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-09-18T06%3A58%3A22.807Z"
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714701625&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714701625&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&ecid=6",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=1627052459.1789714703&dt=Biopharma%20%2F%20pharma%20research&en=page_view&dl=https%3A%2F%2Fsciex.com%2Fapplications%2Fpharma-and-biopha",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1627052459.1789714703&gtm=45He69g1v6920009za200zd6920009xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:23.059Z\",\"integrations\":{},\"anonymousId\":\"bd743852-7003-4259-8658-78892fa74b68\",\"type\":\"page\",\"properties\":{\"path\":\"/applications/pharma-and-biopharma\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Biopharma / pharma research\",\"url\":\"https://sciex.com/applications/pharma-and-biopharma\"},\"context\":{\"page\":{\"path\":\"/applications/pharma-and-biopharma\",\"referrer\":\"\",\"search\":\"\",\"ti"
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-8KBY4NDJLN&gtm=45je69g1v899451893z86920009za20gzb6920009zd6920009xf1&_p=1789714701625&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+     "body": "auth=eyJhcHBTb3VyY2VJZCI6IjQ4ZmZiZDMxLTk3ZjAtNGYwYS1iYTcxLWNhM2YyZmJhYzMyMiIsImRldmljZUlkIjoiMDcwMmY1ZTBhOWVkNjEzYyJ9"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/11360491560/?random=1789714703198&cv=11&fst=1789714703198&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20gzb6920009zd6920009xecx",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=0&auid=1627052459.1789714703&dt=Biopharma%20%2F%20pharma%20research&tid=AW-11360491560&en=page_view&dl=https%3A%2F%2Fsciex.com%2Fapplications%2Fpha",
+     "body": ""
+    },
+    {
+     "url": "https://collection.decibelinsight.net/i/14130/da/?type=page&wid=1197818&sid=DAE226EC8E99AE88A564AA1394E53731B7&jspsf=1&pvid=1789714703217&dnt=1&dc=1&dv=1&dl=422&t_c=32,0,0,30,0&retryCode=socketNotConn",
+     "body": "lid=E9D115DF9AD9EA133035BB99D6E77D3A04&uid=&pc=1&tc=1&thash=e392ebe6-cf89c5fa&uhash=2e39415f-8ec6a6d1&lan=en-US&srw=1440&srh=900&vpw=1440&vph=900&navtype=0&ptax=&pr=&pt=Biopharma%20%2F%20pharma%20research&ref=&pu=https%3A%2F%2Fsciex.com%2Fapplications%2Fpharma-and-biopharma&qu=&fr=&experienceDataStatus=1&analysisDataStatusSession=0&replayDataStatus=1&tz=-120&v=7.1.21&cv=1782295282&cjs=1782295282&h"
+    }
+   ],
+   "textAtLoad": 6796,
+   "mainEmptyAtLoad": false
+  },
+  "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us": {
+   "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+   "status": 200,
+   "host": "sciex.com",
+   "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
+   "forms": [
+    {
+     "name": "tw-flex",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search-input-mobile"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookies Settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 806,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/bin/sciex/login"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-US",
+     "zh-CN",
+     "ja-JP",
+     "ko-KR",
+     "x-default"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "user",
+     "page",
+     "environment"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "push"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 15,
+   "inlineFetch": false,
+   "mainText": 2344,
+   "domAddedAfterLoad": 71,
+   "hosts": {
+    "sciex.com": 49,
+    "cloud.tinymce.com": 1,
+    "cdn.tiny.cloud": 1,
+    "sp.tinymce.com": 1,
+    "cdn.walkme.com": 26,
+    "www.googletagmanager.com": 6,
+    "cdn.cookielaw.org": 6,
+    "geolocation.onetrust.com": 1,
+    "static.cloud.coveo.com": 3,
+    "images.sciex.com": 1,
+    "sessions.bugsnag.com": 1,
+    "cdn.drda.io": 1,
+    "js.hcaptcha.com": 1,
+    "cdn.dreamdata.cloud": 3,
+    "562a9a3eb128.w.hcaptcha.com": 1,
+    "znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 11,
+    "img04.en25.com": 1,
+    "snap.licdn.com": 1,
+    "static.ads-twitter.com": 1,
+    "cdn.evgnet.com": 1,
+    "ad.doubleclick.net": 1,
+    "www.google.com": 7,
+    "region1.analytics.google.com": 3,
+    "cdn.c360a.salesforce.com": 1,
+    "www.google.ch": 4,
+    "cdn.decibelinsight.net": 1,
+    "connect.facebook.net": 2,
+    "stats.g.doubleclick.net": 2,
+    "collection.decibelinsight.net": 2,
+    "analytics.twitter.com": 1,
+    "t.co": 1,
+    "px.ads.linkedin.com": 2,
+    "googleads.g.doubleclick.net": 2,
+    "tracking.sciex.com": 2,
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com": 3,
+    "s3.walkmeusercontent.com": 2,
+    "ec-playback.walkme.com": 1,
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com": 1,
+    "ec.walkme.com": 1
+   },
+   "thirdPartyHosts": [
+    "cloud.tinymce.com",
+    "cdn.tiny.cloud",
+    "sp.tinymce.com",
+    "cdn.walkme.com",
+    "www.googletagmanager.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "static.cloud.coveo.com",
+    "sessions.bugsnag.com",
+    "cdn.drda.io",
+    "js.hcaptcha.com",
+    "cdn.dreamdata.cloud",
+    "562a9a3eb128.w.hcaptcha.com",
+    "znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "img04.en25.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com",
+    "cdn.evgnet.com",
+    "ad.doubleclick.net",
+    "www.google.com",
+    "region1.analytics.google.com",
+    "cdn.c360a.salesforce.com",
+    "www.google.ch",
+    "cdn.decibelinsight.net",
+    "connect.facebook.net",
+    "stats.g.doubleclick.net",
+    "collection.decibelinsight.net",
+    "analytics.twitter.com",
+    "t.co",
+    "px.ads.linkedin.com",
+    "googleads.g.doubleclick.net",
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+    "s3.walkmeusercontent.com",
+    "ec-playback.walkme.com",
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+    "ec.walkme.com"
+   ],
+   "scripts": [
+    "https://sciex.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-header.min.js",
+    "https://sciex.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js",
+    "https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=ann6qhc9v9jm1221wnlac182u6c1rn84n1zf4z3x4ptgvt8r",
+    "https://cdn.tiny.cloud/1/ann6qhc9v9jm1221wnlac182u6c1rn84n1zf4z3x4ptgvt8r/tinymce/4.9.11-104/tinymce.min.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_1e111ec60eee4eb8859b4147fa4ea483_https.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt",
+    "https://cdn.walkme.com/player/resources/wmjQuery360.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_config_3c17a089273d4c61a1e6b218844911fa.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WMZL3B",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/scripts/prelib-plugin-b1a13e38-81f3-3693-b7ff-f84998764376.js",
+    "https://cdn.walkme.com/player/lib/walkme_lib_20260827-122416-793adf4e.br.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0dec26b6-99d0-4899-bb84-862e1aef78ce&data-document-language=true",
+    "https://cdn.cookielaw.org/scripttemplates/202609.1.0/otBannerSdk.js",
+    "https://sciex.com/content/dam/SCIEX/dev/header-footer/header.js",
+    "https://static.cloud.coveo.com/headless/v3/headless.esm.js",
+    "https://static.cloud.coveo.com/headless/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/headless.esm.js",
+    "https://static.cloud.coveo.com/bueno/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/bueno.esm.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base.min.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-global.min.js",
+    "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+    "https://js.hcaptcha.com/1/api.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6078.139916f5.walkme_lib.js",
+    "https://znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_b4z8pJnZ6X9z32B",
+    "https://www.googletagmanager.com/gtag/destination?id=G-KD23C87L58&cx=c&gtm=4e69g1",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7179.406e10ba.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/main.js",
+    "https://cdn.walkme.com/deepui/0/main.js?v=latest",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/1773.6815f964.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/4303.e0f4c7e2.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6506.5f66ec2e.walkme_lib.js",
+    "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.848665a0a9c3ddf336b8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://siteintercept.qualtrics.com/dxjsmodule/881.d8599d262e6546821b06.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7802.ede99616.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/2102.3900.6d0bb36238c74d5348fa.js",
+    "https://img04.en25.com/i/elqCfg.min.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/9312.3900.6d0bb36238c74d5348fa.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://cdn.evgnet.com/beacon/v55685555553mx3rf3h3n3n3i091550196/sciex_prod/scripts/evergage.min.js",
+    "https://cdn.walkme.com/deepui/p/prebuild/user/1e111ec60eee4eb8859b4147fa4ea483/0/3c17a089273d4c61a1e6b218844911fa/data_lang-en.js?cb=wm-deepui-um-cb",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/2298.e46aae67.walkme_lib.js",
+    "https://cdn.walkme.com/player/resources/fonts/sap-icons.js",
+    "https://cdn.walkme.com/player/resources/fonts/sap-font-72.js",
+    "https://cdn.c360a.salesforce.com/beacon/c360a/48ffbd31-97f0-4f0a-ba71-ca3f2fbac322/scripts/c360a.min.js?wtcp_id=1NDPU000000087F4AQ",
+    "https://cdn.decibelinsight.net/i/14130/1197818/di.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.walkme.com/deepui/0/2.145cd52b8f3d8c923b72.js",
+    "https://www.googletagmanager.com/gtag/js?id=GT-NGJ3Q29Q&cx=c&gtm=4e69g1",
+    "https://www.googletagmanager.com/gtag/js?id=G-8KBY4NDJLN&cx=c&gtm=4e69g1",
+    "https://www.googletagmanager.com/gtag/js?id=G-KD23C87L58&cx=c&gtm=4e69g1",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://connect.facebook.net/signals/config/271574523524027?v=2.9.403&r=stable&domain=sciex.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2C27%2C81%2C82",
+    "https://cdn.walkme.com/player/resources/fonts/notosans.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11360491560/?random=1789714716049&cv=11&fst=1789714716049&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1005066311&cx=c&gtm=4e69g1",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.867bd12e18a42b69dbf8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.666d391dbcf9ae35c736.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex",
+    "https://siteintercept.qualtrics.com/dxjsmodule/PopOverModule.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://sciex.com/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/bin/sciex/currentuserdetails",
+     "query": [
+      "_"
+     ],
+     "status": 403,
+     "contentType": "text/html",
+     "example": "https://sciex.com/bin/sciex/currentuserdetails"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+    "POST sessions.bugsnag.com/",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/ins",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br",
+    "POST cdn.dreamdata.cloud/api/v1/p",
+    "GET 562a9a3eb128.w.hcaptcha.com/logo.png",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+    "POST region1.analytics.google.com/g/collect",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "GET collection.decibelinsight.net/i/14130/1197818/c.json",
+    "POST www.google.com/rmkt/collect/11360491560/",
+    "POST collection.decibelinsight.net/i/14130/da/",
+    "GET cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+    "GET siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php",
+    "GET v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+    "POST www.google.com/rmkt/collect/1005066311/",
+    "POST px.ads.linkedin.com/wa/",
+    "POST ec-playback.walkme.com/session/init",
+    "POST gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+    "POST ec.walkme.com/event/postEvent"
+   ],
+   "postBodies": [
+    {
+     "url": "https://sessions.bugsnag.com/",
+     "body": "{\"notifier\":{\"name\":\"Bugsnag JavaScript\",\"version\":\"7.16.2\",\"url\":\"https://github.com/bugsnag/bugsnag-js\"},\"device\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"orientation\":\"landscape-primary\",\"id\":\"cmu6lxjto00003l7agvbg29am\"},\"app\":{\"releaseStage\":\"production\",\"type\":\"browser\"},\""
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:35.582Z\",\"integrations\":{},\"type\":\"page\",\"properties\":{\"path\":\"/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality\",\"url\":\"https://sciex.com/support/knowledge-base-articl"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=850648711.1789714716&dt=Resetting%20Root%20Directory%20to%20Analyst%C2%AE%20Data%20Folder%20Restores%20Selexion%C2%AE%20DMS%20Functiona",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=850648711.1789714716&gtm=45He69g1v6920009za200zd6920009xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714713601&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714713601&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj&ecid=1",
+     "body": ""
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_b4z8pJnZ6X9z32B&Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fsciex.com%2Fsupport%2Fknowledge-base-articles%2Fresetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-09-18T06%3A58%3A35.845Z"
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:35.880Z\",\"integrations\":{},\"anonymousId\":\"98692826-5af4-4d41-93c5-4a8c730b0b4e\",\"type\":\"page\",\"properties\":{\"path\":\"/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality\",\""
+    },
+    {
+     "url": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+     "body": "auth=eyJhcHBTb3VyY2VJZCI6IjQ4ZmZiZDMxLTk3ZjAtNGYwYS1iYTcxLWNhM2YyZmJhYzMyMiIsImRldmljZUlkIjoiNDhkMDIwMzg2ZTc0MDcyZCJ9"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/11360491560/?random=1789714716049&cv=11&fst=1789714716049&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20gzb6920009zd6920009xecx",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=850648711.1789714716&dt=Resetting%20Root%20Directory%20to%20Analyst%C2%AE%20Data%20Folder%20Restores%20Selexion%C2%AE%20DMS%20Functionality&",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-8KBY4NDJLN&gtm=45je69g1v899451893z86920009za20gzb6920009zd6920009xf1&_p=1789714713601&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 3109,
+   "mainEmptyAtLoad": false
+  },
+  "/support/knowledge-base-articles": {
+   "url": "https://sciex.com/support/knowledge-base-articles",
+   "status": 200,
+   "host": "sciex.com",
+   "title": "Knowledge base articles",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Cookies Settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Choose your Language:",
+     "textLen": 54,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Choose your Language:",
+     "textLen": 54,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h3",
+     "heading": "",
+     "textLen": 21,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 806,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/bin/sciex/logout",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/create-account"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-US",
+     "x-default"
+    ],
+    "switcher": [
+     "https://shop.sciex.com/us/en.html",
+     "https://sciex.com/kr"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 1757,
+   "domAddedAfterLoad": 333,
+   "hosts": {
+    "sciex.com": 62,
+    "static.cloud.coveo.com": 3,
+    "cdn.walkme.com": 27,
+    "s3.walkmeusercontent.com": 2,
+    "ec-playback.walkme.com": 1,
+    "ec.walkme.com": 1,
+    "www.googletagmanager.com": 2,
+    "cdn.cookielaw.org": 6,
+    "geolocation.onetrust.com": 1,
+    "cdn.drda.io": 1,
+    "cdn.dreamdata.cloud": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloud.coveo.com",
+    "cdn.walkme.com",
+    "s3.walkmeusercontent.com",
+    "ec-playback.walkme.com",
+    "ec.walkme.com",
+    "www.googletagmanager.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "cdn.drda.io",
+    "cdn.dreamdata.cloud"
+   ],
+   "scripts": [
+    "https://sciex.com/scripts/scripts.js",
+    "https://sciex.com/scripts/aem.js",
+    "https://sciex.com/blocks/breadcrumb/breadcrumb.js",
+    "https://sciex.com/blocks/sciex-text/sciex-text.js",
+    "https://sciex.com/blocks/sciex-favorite/sciex-favorite.js",
+    "https://sciex.com/blocks/resourcehub-search/resourcehub-search.js",
+    "https://sciex.com/scripts/header-search/headerSearchController.js",
+    "https://sciex.com/scripts/header-search/headerSearchEngine.js",
+    "https://static.cloud.coveo.com/headless/v3/headless.esm.js",
+    "https://static.cloud.coveo.com/headless/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/headless.esm.js",
+    "https://static.cloud.coveo.com/bueno/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/bueno.esm.js",
+    "https://sciex.com/blocks/categories/categories.js",
+    "https://sciex.com/blocks/cta-with-text/cta-with-text.js",
+    "https://sciex.com/blocks/header/header.js",
+    "https://sciex.com/blocks/footer/footer.js",
+    "https://sciex.com/scripts/dom-builder.js",
+    "https://sciex.com/blocks/fragment/fragment.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_1e111ec60eee4eb8859b4147fa4ea483_https.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/scripts/prelib-plugin-b1a13e38-81f3-3693-b7ff-f84998764376.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_config_3c17a089273d4c61a1e6b218844911fa.js",
+    "https://cdn.walkme.com/player/resources/wmjQuery360.js",
+    "https://cdn.walkme.com/player/lib/walkme_lib_20260827-122416-793adf4e.br.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6078.139916f5.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7179.406e10ba.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/main.js",
+    "https://cdn.walkme.com/deepui/0/main.js?v=latest",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/1773.6815f964.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/4303.e0f4c7e2.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6506.5f66ec2e.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/2102.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/9312.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7802.ede99616.walkme_lib.js",
+    "https://cdn.walkme.com/deepui/p/prebuild/user/1e111ec60eee4eb8859b4147fa4ea483/0/3c17a089273d4c61a1e6b218844911fa/data_lang-en.js?cb=wm-deepui-um-cb",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/2298.e46aae67.walkme_lib.js",
+    "https://cdn.walkme.com/player/resources/fonts/sap-icons.js",
+    "https://cdn.walkme.com/player/resources/fonts/sap-font-72.js",
+    "https://cdn.walkme.com/deepui/0/2.145cd52b8f3d8c923b72.js",
+    "https://cdn.walkme.com/player/resources/fonts/notosans.js",
+    "https://sciex.com/scripts/delayed.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WMZL3B",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0dec26b6-99d0-4899-bb84-862e1aef78ce&data-document-language=true",
+    "https://www.googletagmanager.com/gtag/destination?id=G-KD23C87L58&cx=c&gtm=4e69g1",
+    "https://cdn.cookielaw.org/scripttemplates/202609.1.0/otBannerSdk.js",
+    "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt?forceUpdate=1789714732828"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/hreflang.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://sciex.com/hreflang.json"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/resource-hub",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://sciex.com/resource-hub"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/footer.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://sciex.com/footer.plain.html"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/bin/sciex/currentuserdetails",
+     "query": [],
+     "status": 403,
+     "contentType": "text/html",
+     "example": "https://sciex.com/bin/sciex/currentuserdetails"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/placeholders.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://sciex.com/placeholders.json"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/nav.plain.html",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://sciex.com/nav.plain.html"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/ins",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+    "GET cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+    "POST ec-playback.walkme.com/session/init",
+    "POST ec.walkme.com/event/postEvent",
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+    "POST cdn.dreamdata.cloud/api/v1/p"
+   ],
+   "postBodies": [
+    {
+     "url": "https://ec-playback.walkme.com/session/init",
+     "body": "{\"sId\":\"32998adc-ada1-46e2-ac79-30c365a3fc2d\",\"wm\":{\"uId\":\"1e111ec60eee4eb8859b4147fa4ea483\"}}"
+    },
+    {
+     "url": "https://ec.walkme.com/event/postEvent",
+     "body": "{\"_static\":true,\"Wm-Client-Timestamp\":1789714725578}\n{\"time\":1789714725326,\"type\":\"play\",\"data\":{\"isAi\":true,\"type\":\"copilotActionBar\"},\"sId\":\"32998adc-ada1-46e2-ac79-30c365a3fc2d\",\"wm\":{\"euId\":\"e15273c8-cfb0-4fc0-bada-1a125ee24343\",\"euIdSource\":\"Generated\",\"uId\":\"1e111ec60eee4eb8859b4147fa4ea483\",\"env\":0,\"platform\":1,\"msaId\":\"b7bdd993713b42a8a5fef384a7dde961\",\"isValidEuId\":false,\"aSgmntIds\":[\"137"
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:47.979Z\",\"integrations\":{},\"type\":\"page\",\"properties\":{\"path\":\"/resource-hub/knowledge-base-articles\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Knowledge base articles\",\"url\":\"https://sciex.com/resource-hub/knowledge-base-articles\"},\"context\":{\"page\":{\"path\":\"/resource-hub/knowledge-base-articles\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Knowledge base articles\",\"url\":\"https://sc"
+    }
+   ],
+   "textAtLoad": 0,
+   "mainEmptyAtLoad": true
+  },
+  "/support": {
+   "url": "https://sciex.com/support",
+   "status": 200,
+   "host": "sciex.com",
+   "title": "Support",
+   "forms": [
+    {
+     "name": "tw-flex",
+     "action": null,
+     "method": "get",
+     "role": "search",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:search-input-mobile"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "u-header--search",
+     "action": "https://sciex.com/search-results",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "text:term"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "nohtml",
+     "action": "https://sciex.com/search-results",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:term"
+     ],
+     "hidden": [
+      "source"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "add-instrument-form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "text:record",
+      "text:SerialNumber"
+     ],
+     "hidden": [
+      "token",
+      "token2",
+      "caseSubject",
+      "issueType",
+      "caseDescription"
+     ],
+     "tokens": [
+      "token",
+      "token2"
+     ],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Get Help",
+     "href": "https://sciex.com/support#getHelpModal",
+     "marker": "popup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Add instruments",
+     "href": "https://sciex.com/support#modaladdinstrument",
+     "marker": "data-modal-target",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Cookies Settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "Get Help",
+     "textLen": 102,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Add Instrument",
+     "textLen": 637,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 211,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 806,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 5,
+   "media": [
+    {
+     "tag": "video",
+     "src": "/content/dam/SCIEX/videos/support/sciexnow-dashboard-video.mp4",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/bin/sciex/login"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [
+     "en-US",
+     "zh-CN",
+     "ja-JP",
+     "ko-KR",
+     "x-default"
+    ],
+    "switcher": []
+   },
+   "cms": {
+    "digitalData": [
+     "user",
+     "page",
+     "environment"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "push"
+    ],
+    "Granite": [
+     "HTTP",
+     "csrf"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "grecaptcha"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "no-bleed",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "row no-gutters",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "card u-shadow-v1-4",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "listing-spaced flex-grow-1",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "listing-spaced-row flex-grow-1",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 23,
+   "inlineFetch": false,
+   "mainText": 1579,
+   "domAddedAfterLoad": 6,
+   "hosts": {
+    "sciex.com": 82,
+    "cloud.tinymce.com": 1,
+    "cdn.tiny.cloud": 1,
+    "sp.tinymce.com": 1,
+    "cdn.walkme.com": 27,
+    "www.googletagmanager.com": 5,
+    "cdn.cookielaw.org": 6,
+    "static.cloud.coveo.com": 3,
+    "geolocation.onetrust.com": 1,
+    "sessions.bugsnag.com": 1,
+    "c.la1-c1-ia5.salesforceliveagent.com": 1,
+    "images.sciex.com": 1,
+    "use.typekit.net": 1,
+    "js.hcaptcha.com": 1,
+    "cdn.drda.io": 1,
+    "42ea3bb4b16e.w.hcaptcha.com": 1,
+    "cdn.dreamdata.cloud": 3,
+    "img04.en25.com": 1,
+    "notify.bugsnag.com": 1,
+    "snap.licdn.com": 1,
+    "static.ads-twitter.com": 1,
+    "cdn.evgnet.com": 1,
+    "d.la1-c1-ia5.salesforceliveagent.com": 1,
+    "www.google.com": 7,
+    "ad.doubleclick.net": 1,
+    "www.google.ch": 4,
+    "cdn.c360a.salesforce.com": 1,
+    "connect.facebook.net": 2,
+    "cdn.decibelinsight.net": 1,
+    "region1.analytics.google.com": 3,
+    "px.ads.linkedin.com": 2,
+    "t.co": 1,
+    "analytics.twitter.com": 1,
+    "stats.g.doubleclick.net": 2,
+    "tracking.sciex.com": 2,
+    "googleads.g.doubleclick.net": 2,
+    "d.la13-core1.sfdc-yfeipo.salesforceliveagent.com": 1,
+    "collection.decibelinsight.net": 1,
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com": 3,
+    "znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 11,
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com": 1,
+    "s3.walkmeusercontent.com": 2,
+    "ec-playback.walkme.com": 1,
+    "ec.walkme.com": 1
+   },
+   "thirdPartyHosts": [
+    "cloud.tinymce.com",
+    "cdn.tiny.cloud",
+    "sp.tinymce.com",
+    "cdn.walkme.com",
+    "www.googletagmanager.com",
+    "cdn.cookielaw.org",
+    "static.cloud.coveo.com",
+    "geolocation.onetrust.com",
+    "sessions.bugsnag.com",
+    "c.la1-c1-ia5.salesforceliveagent.com",
+    "use.typekit.net",
+    "js.hcaptcha.com",
+    "cdn.drda.io",
+    "42ea3bb4b16e.w.hcaptcha.com",
+    "cdn.dreamdata.cloud",
+    "img04.en25.com",
+    "notify.bugsnag.com",
+    "snap.licdn.com",
+    "static.ads-twitter.com",
+    "cdn.evgnet.com",
+    "d.la1-c1-ia5.salesforceliveagent.com",
+    "www.google.com",
+    "ad.doubleclick.net",
+    "www.google.ch",
+    "cdn.c360a.salesforce.com",
+    "connect.facebook.net",
+    "cdn.decibelinsight.net",
+    "region1.analytics.google.com",
+    "px.ads.linkedin.com",
+    "t.co",
+    "analytics.twitter.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "d.la13-core1.sfdc-yfeipo.salesforceliveagent.com",
+    "collection.decibelinsight.net",
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+    "znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+    "s3.walkmeusercontent.com",
+    "ec-playback.walkme.com",
+    "ec.walkme.com"
+   ],
+   "scripts": [
+    "https://sciex.com/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-header.min.js",
+    "https://sciex.com/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.min.js",
+    "https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=ann6qhc9v9jm1221wnlac182u6c1rn84n1zf4z3x4ptgvt8r",
+    "https://cdn.tiny.cloud/1/ann6qhc9v9jm1221wnlac182u6c1rn84n1zf4z3x4ptgvt8r/tinymce/4.9.11-104/tinymce.min.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_1e111ec60eee4eb8859b4147fa4ea483_https.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/settings.txt",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WMZL3B",
+    "https://sciex.com/content/dam/SCIEX/dev/header-footer/header.js",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/scripts/prelib-plugin-b1a13e38-81f3-3693-b7ff-f84998764376.js",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0dec26b6-99d0-4899-bb84-862e1aef78ce&data-document-language=true",
+    "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/walkme_config_3c17a089273d4c61a1e6b218844911fa.js",
+    "https://static.cloud.coveo.com/headless/v3/headless.esm.js",
+    "https://cdn.walkme.com/player/resources/wmjQuery360.js",
+    "https://cdn.walkme.com/player/lib/walkme_lib_20260827-122416-793adf4e.br.js",
+    "https://static.cloud.coveo.com/headless/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/headless.esm.js",
+    "https://static.cloud.coveo.com/bueno/commits/ca70134a5cf1ddfb07b7f127fb49e74359de94a9/bueno.esm.js",
+    "https://cdn.cookielaw.org/scripttemplates/202609.1.0/otBannerSdk.js",
+    "https://c.la1-c1-ia5.salesforceliveagent.com/content/g/js/52.0/deployment.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-sciex-now.min.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base.min.js",
+    "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-global.min.js",
+    "https://js.hcaptcha.com/1/api.js",
+    "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6078.139916f5.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7179.406e10ba.walkme_lib.js",
+    "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/main.js",
+    "https://img04.en25.com/i/elqCfg.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://cdn.evgnet.com/beacon/v55685555553mx3rf3h3n3n3i091550196/sciex_prod/scripts/evergage.min.js",
+    "https://d.la1-c1-ia5.salesforceliveagent.com/chat/rest/System/MultiNoun.jsonp?nouns=VisitorId,Settings&VisitorId.prefix=Visitor&Settings.prefix=Visitor&Settings.buttonIds=[]&Settings.updateBreadcrumb=",
+    "https://www.googletagmanager.com/gtag/js?id=G-8KBY4NDJLN&cx=c&gtm=4e69g1",
+    "https://www.googletagmanager.com/gtag/js?id=G-KD23C87L58&cx=c&gtm=4e69g1",
+    "https://cdn.walkme.com/deepui/0/main.js?v=latest",
+    "https://www.googletagmanager.com/gtag/js?id=GT-NGJ3Q29Q&cx=c&gtm=4e69g1",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/4303.e0f4c7e2.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/1773.6815f964.walkme_lib.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/6506.5f66ec2e.walkme_lib.js",
+    "https://cdn.c360a.salesforce.com/beacon/c360a/48ffbd31-97f0-4f0a-ba71-ca3f2fbac322/scripts/c360a.min.js?wtcp_id=1NDPU000000087F4AQ",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.decibelinsight.net/i/14130/1197818/di.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/2102.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/7802.ede99616.walkme_lib.js",
+    "https://cdn.walkme.com/chatbot/3.90.0/9312.3900.6d0bb36238c74d5348fa.js",
+    "https://cdn.walkme.com/deepui/p/prebuild/user/1e111ec60eee4eb8859b4147fa4ea483/0/3c17a089273d4c61a1e6b218844911fa/data_lang-en.js?cb=wm-deepui-um-cb",
+    "https://cdn.walkme.com/player/lib/20260827-122416-793adf4e.br/2298.e46aae67.walkme_lib.js",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-1005066311&cx=c&gtm=4e69g1",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11360491560/?random=1789714739684&cv=11&fst=1789714739684&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20",
+    "https://connect.facebook.net/signals/config/271574523524027?v=2.9.403&r=stable&domain=sciex.com&hme=ecef7557496abce7ebfd30d9fec7f02b78383ffbf3f454783aea671f0dea1dfc&ex_m=117%2C234%2C168%2C27%2C81%2C82",
+    "https://cdn.walkme.com/player/resources/fonts/sap-icons.js",
+    "https://d.la13-core1.sfdc-yfeipo.salesforceliveagent.com/chat/rest/Visitor/Settings.jsonp?sid=d53bc86a-001f-4fd1-9e5d-66e2bf4e649b&Settings.prefix=Visitor&Settings.buttonIds=[]&Settings.updateBreadcru",
+    "https://cdn.walkme.com/player/resources/fonts/sap-font-72.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/1005066311/?random=1789714739860&cv=11&fst=1789714739860&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9175018232z86920009za20gzb6920009zd6920",
+    "https://cdn.walkme.com/deepui/0/2.145cd52b8f3d8c923b72.js",
+    "https://cdn.walkme.com/player/resources/fonts/notosans.js",
+    "https://znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_b4z8pJnZ6X9z32B",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.848665a0a9c3ddf336b8.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com",
+    "https://siteintercept.qualtrics.com/dxjsmodule/881.d8599d262e6546821b06.chunk.js?Q_CLIENTVERSION=2.57.0&Q_CLIENTTYPE=web&Q_BRANDID=sciex.com"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/libs/granite/csrf/token.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://sciex.com/libs/granite/csrf/token.json"
+    },
+    {
+     "method": "GET",
+     "host": "sciex.com",
+     "path": "/bin/sciex/currentuserdetails",
+     "query": [
+      "_"
+     ],
+     "status": 403,
+     "contentType": "text/html",
+     "example": "https://sciex.com/bin/sciex/currentuserdetails"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+    "POST sessions.bugsnag.com/",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/ins",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br",
+    "GET 42ea3bb4b16e.w.hcaptcha.com/logo.png",
+    "POST cdn.dreamdata.cloud/api/v1/p",
+    "POST notify.bugsnag.com/",
+    "POST www.google.com/ccm/collect",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "GET cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+    "POST region1.analytics.google.com/g/collect",
+    "POST www.google.com/rmkt/collect/11360491560/",
+    "POST www.google.com/rmkt/collect/1005066311/",
+    "GET collection.decibelinsight.net/i/14130/1197818/c.json",
+    "POST px.ads.linkedin.com/wa/",
+    "GET v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+    "GET cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+    "POST gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST ec-playback.walkme.com/session/init",
+    "GET siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php",
+    "POST ec.walkme.com/event/postEvent"
+   ],
+   "postBodies": [
+    {
+     "url": "https://sessions.bugsnag.com/",
+     "body": "{\"notifier\":{\"name\":\"Bugsnag JavaScript\",\"version\":\"7.16.2\",\"url\":\"https://github.com/bugsnag/bugsnag-js\"},\"device\":{\"locale\":\"en-US\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36\",\"orientation\":\"landscape-primary\",\"id\":\"cmu6ly0up00003l709mp91rme\"},\"app\":{\"releaseStage\":\"production\",\"type\":\"browser\"},\""
+    },
+    {
+     "url": "https://notify.bugsnag.com/",
+     "body": "{\"apiKey\":\"a6a040ec3e1d2fc92b7de5e47adf2852\",\"notifier\":{\"name\":\"Bugsnag JavaScript\",\"version\":\"7.16.2\",\"url\":\"https://github.com/bugsnag/bugsnag-js\"},\"events\":[{\"payloadVersion\":\"4\",\"exceptions\":[{\"errorClass\":\"TypeError\",\"errorMessage\":\"Cannot read properties of null (reading 'length')\",\"type\":\"browserjs\",\"stacktrace\":[{\"file\":\"https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-global.m"
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:59.268Z\",\"integrations\":{},\"type\":\"page\",\"properties\":{\"path\":\"/support\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Support\",\"url\":\"https://sciex.com/support\"},\"context\":{\"page\":{\"path\":\"/support\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Support\",\"url\":\"https://sciex.com/support\"},\"userAgent\":\"\",\"userAgentData\":{\"brands\":[{\"brand\":\"HeadlessChrome\",\"version\":\"153\"},{\"brand\":\"Not_A "
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&apvc=1&ae=g&auid=610703913.1789714739&dt=Support&en=page_view&dl=https%3A%2F%2Fsciex.com%2Fsupport&scrsrc=www.googletagmanager.com&rnd=1862384667.178971",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=610703913.1789714739&gtm=45He69g1v6920009za200zd6920009xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/api/v1/p",
+     "body": "{\"timestamp\":\"2026-09-18T06:58:59.443Z\",\"integrations\":{},\"anonymousId\":\"1422a32f-4ee3-42e5-ad87-29131fb1e0df\",\"type\":\"page\",\"properties\":{\"path\":\"/support\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Support\",\"url\":\"https://sciex.com/support\"},\"context\":{\"page\":{\"path\":\"/support\",\"referrer\":\"\",\"search\":\"\",\"title\":\"Support\",\"url\":\"https://sciex.com/support\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac O"
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-8KBY4NDJLN&gtm=45je69g1v899451893z86920009za20gzb6920009zd6920009xf1&_p=1789714736174&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://region1.analytics.google.com/g/collect?v=2&tid=G-KD23C87L58&gtm=45je69g1v891060647z86920009za20gzb6920009zd6920009xf1&_p=1789714736174&_gaz=1&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dYWJhMj",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/11360491560/?random=1789714739684&cv=11&fst=1789714739684&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe69g1v9183174451z86920009za20gzb6920009zd6920009xecx",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=610703913.1789714739&dt=Support&tid=AW-11360491560&en=page_view&dl=https%3A%2F%2Fsciex.com%2Fsupport&scrsrc=www.googletagmanager.com&rnd=186",
+     "body": ""
+    },
+    {
+     "url": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+     "body": "auth=eyJhcHBTb3VyY2VJZCI6IjQ4ZmZiZDMxLTk3ZjAtNGYwYS1iYTcxLWNhM2YyZmJhYzMyMiIsImRldmljZUlkIjoiZDEzZjUyMGE5ODM4MjZjZCJ9"
+    },
+    {
+     "url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+     "body": "H4sIAAAAAAAAEz2PwU7DMBBE/2XPNrUTp0586wGqSD0gEvWCEHLsTWuROCZ2BKjqv6MU1ONoZ2fmXSA4G0G95lshszcC0cwupCPO0U0eFGeMsUwQSG5EUFyWleRC5lXJcwJ2GrXzoCAah98PZhqBwDIPoOCcUohqs7lfNnEJYZoTEPjCLrqEjTt5Pbzg54Ix1RYUSGuNqXpJy1xWVPCO067gHc1ZlzNmCsOqLRAI+oSHSdvbT6+3Whd5RYuiMFRgX9CqlJYKZgxHLfoyQyDgYjtrHwed0ILq9RCRwOCe9F8zrGLvtE9/YnTRgLpAiF2TdEJQVFzXlIPzH2hrvwvhHrPuaV0aEBQ0d8ozjqD8MgwE4o20/Qmr43m3f3w/1k3d/qPUPibtDd6G2LK0"
+    }
+   ],
+   "textAtLoad": 1579,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-px-ads-linkedin-com",
+   "class": "A",
+   "feature": "unknown third-party host px.ads.linkedin.com",
+   "hint": "inspect",
+   "evidence": [
+    "px.ads.linkedin.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-v55685555553mx3rf3h3n3n3i09155019",
+   "class": "A",
+   "feature": "unknown third-party host v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+   "hint": "inspect",
+   "evidence": [
+    "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-granite",
+   "class": "A",
+   "feature": "CMS / app settings object Granite",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-t-co",
+   "class": "A",
+   "feature": "unknown third-party host t.co",
+   "hint": "inspect",
+   "evidence": [
+    "t.co"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-digitaldata",
+   "class": "A",
+   "feature": "CMS / app settings object digitalData",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-js-scroll-container-tw-flex-tw-pr-24",
+   "class": "CR",
+   "feature": "client-rendered slot js-scroll-container tw-flex tw-pr-24",
+   "hint": "client-rendered",
+   "evidence": [
+    "Overview Applications Perspectives Stories"
+   ],
+   "pages": [
+    "/applications/pharma-and-biopharma"
+   ]
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "hint": "client-rendered-page",
+   "evidence": [
+    "text at load 0 → settled 1757"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-libs-granite-csrf-token-json",
+   "class": "D",
+   "feature": "first-party data file GET /libs/granite/csrf/token.json",
+   "api": {
+    "method": "GET",
+    "path": "/libs/granite/csrf/token.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /libs/granite/csrf/token.json → 200"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ],
+   "reach": {
+    "pages": 66,
+    "of": 73
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-hreflang-json",
+   "class": "D",
+   "feature": "first-party data file GET /hreflang.json",
+   "api": {
+    "method": "GET",
+    "path": "/hreflang.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /hreflang.json → 200"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 73
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-placeholders-json",
+   "class": "D",
+   "feature": "first-party data file GET /placeholders.json",
+   "api": {
+    "method": "GET",
+    "path": "/placeholders.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /placeholders.json → 200"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 73
+   }
+  },
+  {
+   "id": "f-form-backend-salesforce-pardot",
+   "class": "F",
+   "feature": "form backend: Salesforce / Pardot",
+   "role": "form backend: Salesforce / Pardot",
+   "hint": "forms",
+   "evidence": [
+    "cdn.c360a.salesforce.com",
+    "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "f-form-protection-captcha-antibot",
+   "class": "F",
+   "feature": "form protection: captcha / antibot",
+   "role": "form protection: captcha / antibot",
+   "hint": "forms",
+   "evidence": [
+    "js.hcaptcha.com",
+    "562a9a3eb128.w.hcaptcha.com",
+    "42ea3bb4b16e.w.hcaptcha.com"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "f-form-u-header-search-origin-search-results-1-fields",
+   "class": "F",
+   "feature": "form \"u-header--search\" → origin /search-results (1 fields)",
+   "signature": [
+    "text:term"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:term"
+   ],
+   "pages": [
+    "/support"
+   ]
+  },
+  {
+   "id": "f-form-nohtml-origin-search-results-1-fields",
+   "class": "F",
+   "feature": "form \"nohtml\" → origin /search-results (1 fields)",
+   "signature": [
+    "text:term"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:term",
+    "source"
+   ],
+   "pages": [
+    "/support"
+   ]
+  },
+  {
+   "id": "f-form-add-instrument-form-no-action-js-wired-2-fields-token",
+   "class": "F",
+   "feature": "form \"add-instrument-form\" → no action (JS-wired) (2 fields, tokens: token,token2)",
+   "signature": [
+    "text:record",
+    "text:SerialNumber"
+   ],
+   "hint": "client-compute?",
+   "evidence": [
+    "text:record,text:SerialNumber",
+    "token,token2,caseSubject,issueType,caseDescription"
+   ],
+   "pages": [
+    "/support"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-us-zh-cn-ja-jp-ko-kr-x-default",
+   "class": "I18N",
+   "feature": "locale variants en-US,zh-CN,ja-JP,ko-KR,x-default",
+   "hint": "locale",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-us-x-default",
+   "class": "I18N",
+   "feature": "locale variants en-US,x-default",
+   "hint": "locale",
+   "evidence": [
+    "https://shop.sciex.com/us/en.html",
+    "https://sciex.com/kr"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-listing-spaced-row-flex-grow-1-6-cards",
+   "class": "L",
+   "feature": "listing candidate listing-spaced-row flex-grow-1 (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/support"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Cookies Settings"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ],
+   "reach": {
+    "pages": 24,
+    "of": 73
+   }
+  },
+  {
+   "id": "m-modal-trigger-popup-target-outside-dom-at-capture",
+   "class": "M",
+   "feature": "modal trigger popup → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "https://sciex.com/support#getHelpModal"
+   ],
+   "pages": [
+    "/support"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 73
+   }
+  },
+  {
+   "id": "m-modal-trigger-data-modal-target-target-outside-dom-at-capt",
+   "class": "M",
+   "feature": "modal trigger data-modal-target → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "https://sciex.com/support#modaladdinstrument"
+   ],
+   "pages": [
+    "/support"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 73
+   }
+  },
+  {
+   "id": "s-search-hosted-search-service",
+   "class": "S",
+   "feature": "search: hosted search service",
+   "role": "search: hosted search service",
+   "hint": "search",
+   "evidence": [
+    "static.cloud.coveo.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "s-site-search-form-js-submitted",
+   "class": "S",
+   "feature": "site search form → (JS-submitted)",
+   "hint": "search",
+   "evidence": [
+    "text:search-input-mobile"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 73
+   }
+  },
+  {
+   "id": "t-guidance-walkme-digital-adoption-overlay",
+   "class": "T",
+   "feature": "guidance: WalkMe digital adoption overlay",
+   "role": "guidance: WalkMe digital adoption overlay",
+   "hint": "tags",
+   "evidence": [
+    "cdn.walkme.com",
+    "ec-playback.walkme.com",
+    "ec.walkme.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-drda-io",
+   "class": "T",
+   "feature": "unknown third-party host cdn.drda.io",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.drda.io"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-analytics-dreamdata-b2b-attribution",
+   "class": "T",
+   "feature": "analytics: Dreamdata B2B attribution",
+   "role": "analytics: Dreamdata B2B attribution",
+   "hint": "tags",
+   "evidence": [
+    "cdn.dreamdata.cloud"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-s3-walkmeusercontent-com",
+   "class": "T",
+   "feature": "unknown third-party host s3.walkmeusercontent.com",
+   "hint": "inspect",
+   "evidence": [
+    "s3.walkmeusercontent.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-feedback-survey-voc-badge",
+   "class": "T",
+   "feature": "feedback: survey / VoC badge",
+   "role": "feedback: survey / VoC badge",
+   "hint": "tags",
+   "evidence": [
+    "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "znb4z8pjnz6x9z32b-sciex.siteintercept.qualtrics.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "region1.analytics.google.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-img04-en25-com",
+   "class": "T",
+   "feature": "unknown third-party host img04.en25.com",
+   "hint": "inspect",
+   "evidence": [
+    "img04.en25.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-ads-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host static.ads-twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.ads-twitter.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "snap.licdn.com",
+    "stats.g.doubleclick.net",
+    "ad.doubleclick.net",
+    "connect.facebook.net",
+    "googleads.g.doubleclick.net"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-ch",
+   "class": "T",
+   "feature": "unknown third-party host www.google.ch",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.ch"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "cdn.decibelinsight.net",
+    "collection.decibelinsight.net"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-evgnet-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.evgnet.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.evgnet.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-twitter-com",
+   "class": "T",
+   "feature": "unknown third-party host analytics.twitter.com",
+   "hint": "inspect",
+   "evidence": [
+    "analytics.twitter.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-usefathom-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.usefathom.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.usefathom.com"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cloud-tinymce-com",
+   "class": "T",
+   "feature": "unknown third-party host cloud.tinymce.com",
+   "hint": "inspect",
+   "evidence": [
+    "cloud.tinymce.com"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-tiny-cloud",
+   "class": "T",
+   "feature": "unknown third-party host cdn.tiny.cloud",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.tiny.cloud"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-sp-tinymce-com",
+   "class": "T",
+   "feature": "unknown third-party host sp.tinymce.com",
+   "hint": "inspect",
+   "evidence": [
+    "sp.tinymce.com"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-rum-error-monitoring",
+   "class": "T",
+   "feature": "RUM: error monitoring",
+   "role": "RUM: error monitoring",
+   "hint": "tags",
+   "evidence": [
+    "sessions.bugsnag.com",
+    "notify.bugsnag.com"
+   ],
+   "pages": [
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support"
+   ]
+  },
+  {
+   "id": "t-chat-live-chat-widget",
+   "class": "T",
+   "feature": "chat: live chat widget",
+   "role": "chat: live chat widget",
+   "hint": "tags",
+   "evidence": [
+    "c.la1-c1-ia5.salesforceliveagent.com",
+    "d.la1-c1-ia5.salesforceliveagent.com",
+    "t.co",
+    "d.la13-core1.sfdc-yfeipo.salesforceliveagent.com"
+   ],
+   "pages": [
+    "/support"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/bin/sciex/logout"
+   ],
+   "pages": [
+    "/",
+    "/applications/pharma-and-biopharma",
+    "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+    "/support/knowledge-base-articles",
+    "/support"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 73,
+  "of": 73,
+  "endpoints": {
+   "GET content-us.phenompeople.com/api/ddo/getWidgetVersions": 1,
+   "POST jobs.danaher.com/widgets": 1,
+   "GET content-us.phenompeople.com/api/DANAGLOBAL/globalSearchConfig": 1,
+   "GET content-us.phenompeople.com/api/DANAGLOBAL/getBusinessRules": 1,
+   "GET content-us.phenompeople.com/api/DANAGLOBAL/npsConfig": 1,
+   "GET content-us.phenompeople.com/api/DANAGLOBAL/getRegionLocales": 1,
+   "GET cdn.phenompeople.com/CareerConnectResources/CANVUS/canvas/icons/system-icons-1789032934566.svg": 1,
+   "GET content-us.phenompeople.com/api/DANAGLOBAL/getPiiConsentConfig": 1,
+   "POST insight.adsrvr.org/track/realtimeconversion": 1,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 72,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 16,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 72,
+   "GET cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otCenterRounded.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202608.1.0/assets/otCommonStyles.css": 1,
+   "GET content-us.phenompeople.com/api/DANAGLOBAL/jobwidgetsettings": 1,
+   "GET sciex.com/hreflang.json": 3,
+   "GET sciex.com/bin/sciex/partners": 1,
+   "GET cdn.walkme.com/users/{hash}/data_3c17a089273d4c61a1e6b218844911fa.br.json": 69,
+   "GET cdn.walkme.com/users/{hash}/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json": 69,
+   "GET cdn.walkme.com/users/{hash}/runtime_data.json": 69,
+   "GET sciex.com/footer.plain.html": 3,
+   "GET sciex.com/bin/sciex/currentuserdetails": 69,
+   "GET sciex.com/placeholders.json": 3,
+   "GET sciex.com/nav.plain.html": 3,
+   "GET cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json": 69,
+   "POST ec.walkme.com/event/postEvent": 69,
+   "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css": 71,
+   "POST region1.analytics.google.com/g/collect": 67,
+   "POST www.google.com/ccm/collect": 67,
+   "POST www.google.com/rmkt/collect/{n}/": 67,
+   "GET collection.decibelinsight.net/i/{n}/{n}/c.json": 67,
+   "GET v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod": 65,
+   "POST gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication": 67,
+   "POST collection.decibelinsight.net/i/{n}/da/": 9,
+   "POST cdn.dreamdata.cloud/api/v1/p": 72,
+   "POST px.ads.linkedin.com/wa/": 65,
+   "GET geoip-js.com/geoip/v2.1/country/me": 51,
+   "GET sciex.com/libs/granite/csrf/token.json": 66,
+   "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php": 64,
+   "GET cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCenterRounded.json": 11,
+   "POST ad.doubleclick.net/ccm/s/collect": 13,
+   "POST sessions.bugsnag.com/": 15,
+   "GET 88f73db52a00.w.hcaptcha.com/logo.png": 1,
+   "GET siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php": 15,
+   "GET cdn.plyr.io/3.7.8/plyr.svg": 5,
+   "GET c3ff19cbaede.w.hcaptcha.com/logo.png": 1,
+   "POST ec-playback.walkme.com/session/init": 6,
+   "GET 226ada51e1fb.w.hcaptcha.com/logo.png": 1,
+   "POST papi.walkme.com/deepui/p/analyzeAutomatonResult": 2,
+   "GET 9d43c70b4a60.w.hcaptcha.com/logo.png": 1,
+   "GET googleads.g.doubleclick.net/pagead/id": 3,
+   "GET www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg": 1,
+   "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT": 3,
+   "POST www.youtube.com/youtubei/v1/log_event": 3,
+   "GET 0b7cb4c06b82.w.hcaptcha.com/logo.png": 1,
+   "GET 1e8546fddf2d.w.hcaptcha.com/logo.png": 1,
+   "GET sciex.com/search-results.plain.html": 1,
+   "POST danaherproductionrfl96bkr.org.coveo.com/rest/search/v2": 1,
+   "POST www.youtube.com/youtubei/v1/player": 1,
+   "POST rr1---sn-nfpnnjvh-a0bl.googlevideo.com/videoplayback": 1,
+   "POST www.youtube.com/api/stats/qoe": 1,
+   "POST www.youtube.com/youtubei/v1/next": 1,
+   "GET 590916b43e41.w.hcaptcha.com/logo.png": 1,
+   "POST notify.bugsnag.com/": 2,
+   "POST www.youtube.com/api/stats/playback": 1,
+   "GET www.youtube.com/ptracking": 1,
+   "POST www.youtube.com/api/stats/atr": 1,
+   "GET fonts.gstatic.com/s/i/youtube_fill_experimental/volume_mute/v2/24px.svg": 1,
+   "GET fonts.gstatic.com/s/i/youtube_fill_experimental/volume_max/v2/24px.svg": 1,
+   "GET fonts.gstatic.com/s/i/youtube_fill_experimental/volume_min/v2/24px.svg": 1,
+   "GET fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg": 1,
+   "POST www.youtube.com/api/stats/watchtime": 1,
+   "GET e75446549d26.w.hcaptcha.com/logo.png": 1,
+   "GET d9abd0b694ad.w.hcaptcha.com/logo.png": 1,
+   "GET sciex.com/resource-hub": 1,
+   "GET 012d4aacd394.w.hcaptcha.com/logo.png": 1,
+   "GET b02ab05780c3.w.hcaptcha.com/logo.png": 1,
+   "GET 5b814d4147b5.w.hcaptcha.com/logo.png": 1,
+   "GET b7b438861d53.w.hcaptcha.com/logo.png": 1,
+   "GET 6a8966d6da43.w.hcaptcha.com/logo.png": 1,
+   "GET 1f810f57d4b1.w.hcaptcha.com/logo.png": 1,
+   "GET res.cdn.office.net/teams-js/validDomains/json/validDomains.json": 2,
+   "GET training.sciex.com/api/rest/v2/learner": 2,
+   "GET training.sciex.com/api/rest/v2/profiles/client-public": 2,
+   "GET training.sciex.com/api/rest/v2/features": 2,
+   "GET training.sciex.com/api/rest/learner-discovery/conversations": 2,
+   "GET training.sciex.com/api/rest/v2/profiles/sso-configuration": 2,
+   "POST gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/events/{uuid}": 1,
+   "GET data.pendo.io/data/guide.gif/{uuid}": 2,
+   "GET data.pendo.io/data/guide.json/{uuid}": 2
+  },
+  "searchFormPages": 2,
+  "formPages": 4,
+  "triggerPages": {
+   "aria-haspopup": 24,
+   "popup": 2,
+   "data-modal-target": 1
+  }
+ }
+}

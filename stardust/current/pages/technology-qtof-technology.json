@@ -1,0 +1,1823 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:51:49.685Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "technology-qtof-technology",
+  "url": "https://sciex.com/technology/qtof-technology",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:51:49.685Z",
+  "finalUrl": "https://sciex.com/technology/qtof-technology",
+  "title": "High resolution accurate mass spectrometry",
+  "description": "Boost performance and productivity in your lab with high resolution mass spec technology.",
+  "og": {
+    "title": "High resolution accurate mass spectrometry",
+    "description": "Boost performance and productivity in your lab with high resolution mass spec technology.",
+    "image": "/content/SCIEX/na/us/en/technology/qtof-technology.thumb.152.152.png",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "High resolution accurate mass spectrometry"
+    },
+    {
+      "tag": "h3",
+      "text": "Quadrupole time-of-flight (QTOF) technology"
+    },
+    {
+      "tag": "h2",
+      "text": "Why you need SCIEX high-resolution accurate mass technology"
+    },
+    {
+      "tag": "h2",
+      "text": "Make the change, for the ultimate in workflow flexibility"
+    },
+    {
+      "tag": "h2",
+      "text": "Why is SCIEX high-resolution accurate mass technology different?"
+    },
+    {
+      "tag": "h2",
+      "text": "Don’t get trapped with the wrong high-resolution mass spectrometer"
+    },
+    {
+      "tag": "h2",
+      "text": "Novel acquisition workflows and class leading speeds, only from SCIEX"
+    },
+    {
+      "tag": "h2",
+      "text": "The innovative high-resolution accurate mass portfolio from SCIEX"
+    },
+    {
+      "tag": "h2",
+      "text": "A system designed entirely with your needs in mind"
+    },
+    {
+      "tag": "h2",
+      "text": "SCIEX QTOF technology in action"
+    },
+    {
+      "tag": "h3",
+      "text": "Dr. Amadeo Fernandez-Alba"
+    },
+    {
+      "tag": "h2",
+      "text": "Learning Center"
+    },
+    {
+      "tag": "h5",
+      "text": "SCIEX Now support network"
+    },
+    {
+      "tag": "h5",
+      "text": "The destination for all your support needs."
+    }
+  ],
+  "body": [
+    "Login Create an account Already have an account? Sign in now My profile My favorite resources",
+    "Shop",
+    "Request a quote",
+    "SCIEX Now Dashboard",
+    "Products",
+    "Applications",
+    "Training",
+    "Support",
+    "Service",
+    "Resource hub",
+    "About us",
+    "Events",
+    "Technology",
+    "QTOF Technology",
+    "Boost performance and productivity in your lab with high-resolution mass spec technology. Whether you need the most comprehensive coverage and workflow flexibility to take on new projects, or a simplified and easy-to-use system for high throughput testing analyses, the SCIEX accurate mass portfolio delivers unmatched speed, robustness, and accuracy for the assays you need to run today and tomorrow.",
+    "SCIEX accurate mass QTOF technology can give you:",
+    "Highest acquisition speeds to identify more compounds in your sample",
+    "High-resolution MS/MS data for compound identification and confirmation at UHPLC timescales",
+    "Detection of low abundance species in complex samples",
+    "Quantitative accuracy with the wide intra-scan linear dynamic range",
+    "Utmost flexibility with the large variety of scan functions, including the proprietary data-independent SWATH® Acquisition, IDA acquisition, MRMHR and TOF-MS for large intact proteins",
+    "Experience many of the quantitative benefits of nominal mass LC-MS, plus the ability to truly characterize a compound, discriminate between closely related structures and discover new and unknown compounds in complex samples. Go beyond your nominal mass system for true versatility and explore below the unique abilities of a SCIEX high resolution accurate mass spectrometry system.",
+    "High speed information dependent acquisition",
+    "Enabled by SCIEX proprietary Accelerator TOF analyzer technology, achieve high-resolution MS/MS spectra to ensure optimal sample coverage.",
+    "Unbiased SWATH acquisition",
+    "Collect comprehensive high-resolution MS/MS data for every detectable analyte in your sample with variable window SWATH acquisition.",
+    "Quantitative Scheduled MRMHR",
+    "High resolution MS and MS/MS spectra delivers highly selective MRM-like levels of quantitation.",
+    "High-resolution TOF-MS",
+    "Achieve high-resolution accurate mass information without the high mass range limitation of a trapping mass analyzer. Ideal for the analysis of large nucleotides and proteins.",
+    "QTOF mass spectrometers have the highest acquisition speed without sacrificing resolution, unlike a trapping instrument architecture, where resolution is directly impacted by scan speed. No longer will you be limiting your analyses by choosing a less flexible system, now you will deliver high resolution data at extremely fast scan speeds, with a virtually unlimited acquisition mass range.",
+    "Complete coverage",
+    "Identify more compounds in your sample with fast acquisition rates while maintaining high resolution data.",
+    "Quantitative accuracy",
+    "Detect low abundance species in complex samples and ensure quantitative accuracy with wide intra-scan dynamic range.",
+    "Precise intact protein analysis",
+    "Get an unbiased view of the large molecules in your sample. Be confident your analysis is accurate and not biased by charge density in your sample.",
+    "SCIEX QTOF class-leading acquisition speeds and novel acquisition workflows, such as SWATH acquisition, enables you to future-proof your lab for all new challenging projects on the horizon. Unique source designs and compact data file architectures mean you can minimize downtime, and more efficiently save and share your data files, to maximize productivity.",
+    "Speed, speed, speed",
+    "Dig deeper into your samples with ultra-fast acquisition rates of 10 msec per spectrum. Get up to 100 MS/MS per cycle in IDA mode and 200 MS/MS per cycle for SWATH acquisition",
+    "Unbiased and complete acquisition",
+    "SWATH acquisition gives you the highest confidence that you see all detectable analytes in your sample, in an unbiased manner.",
+    "Data file portability",
+    "Store and save your data couldn’t be easier with compact file architecture. Reduce your storage, backup and archiving costs.",
+    "Maximal uptime",
+    "Maximize uptime with advanced source designs that limit contamination and allow for fast, automated calibrations without leaving residual calibration contamination.",
+    "A high-resolution mass spectrometry solution that combines powerful MS/MS sensitivity, novel fragmentation technology and a step-change in data independent acquisition.",
+    "N-optic TOF design provides optimal mass accuracy and resolution without compromising sensitivity",
+    "Zeno Trap accumulation and pulsing device for 5-20x improvement in MS/MS sensitivity",
+    "Highly tunable electron activated dissociation (EAD) cell provides a novel orthogonal fragmentation for better characterization and elucidation of molecules",
+    "Improved Q0 design for better ion capture and transmission with easy access for maintenance",
+    "Advanced source design that limits contamination and increases usability, building off the legacy of the Turbo V source",
+    "The unique SCIEX OS user interface provides simplified method set-up, data acquisition, and system diagnostics. Easy to learn and use for standardized and high throughput analyses.",
+    "Renowned Turbo V ion source for robustness",
+    "QJet ion guide for efficient ion capture and transfer to quadrupole optics",
+    "Novel N-optic TOF design for resolution without compromising sensitivity",
+    "Heated TOF path with 6 drone heaters for optimal mass accuracy and resolution",
+    "Smallest HRMS system footprint on the market",
+    "Whether you are working in Omics doing in-depth sample profiling and target discovery, routine food screening or standardized biotherapeutic characterization, there is a SCIEX QTOF system for your needs.",
+    "This high-resolution accurate mass system combines the power of Zeno trap pulsing with electron activated dissociation (EAD) fragmentation technology to unlock sensitivity gains that reveal new, rare, or even previously undetected information.",
+    "Compact and easy-to-use high-resolution QTOF for high throughput screening in food, environment and forensic analyses. Also meant for pharmaceutical drug metabolism and metabolomic studies. Options: SCIEX OS User Interface and data processing",
+    "Compact and easy-to-use high resolution QTOF for standard biotherapeutic characterization at the intact, subunit, or peptide level. Options: SCIEX OS User Interface and data processing, and BioPharmaView™ Software processing for BioPharma analyses",
+    "Validating the Routine Use of High Resolution QTOF LC-MS/MS for the Analysis of Pesticides in Baby Food. Watch Dr. Amadeo Fernandez-Alba of the EU Reference Lab (EURL-FV) present his study.",
+    "Linkedin",
+    "Facebook",
+    "Instagram",
+    "Mass spectrometers",
+    "Capillary electrophoresis",
+    "Software",
+    "Integrated solutions",
+    "Front-end HPLC MS",
+    "Ion mobility",
+    "Ion sources",
+    "Spectral libraries",
+    "Consumables",
+    "Pharma and biopharma",
+    "Clinical",
+    "Environmental",
+    "Food and beverage",
+    "Forensic testing",
+    "Life science research",
+    "Support",
+    "Training",
+    "Professional services",
+    "Careers",
+    "Contact",
+    "Resource library",
+    "Innovation advisory board",
+    "About SCIEX",
+    "Our history",
+    "SCIEX stories",
+    "Latest news",
+    "Executive management",
+    "Privacy Policy",
+    "Cookies Settings",
+    "Organizational Model and Code of Ethics D.Lgs 231/2001",
+    "Legal Info",
+    "Do Not Sell My Data",
+    "The SCIEX clinical diagnostic portfolio is For In Vitro Diagnostic Use. Rx Only. Product(s) not available in all countries. For information on availability, please contact your local sales representative or refer to www.sciex.com/diagnostics. All other products are For Research Use Only. Not for use in Diagnostic Procedures. Trademarks and/or registered trademarks mentioned herein, including associated logos, are the property of AB Sciex Pte. Ltd. or their respective owners in the United States and/or certain other countries (see www.sciex.com/trademarks). Echo® and Echo® MS + system are trademarks or registered trademarks of Labcyte, Inc. in the United States and other countries, and are being used under license. RUO-MKT-18-5796-A"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "All",
+      "href": null
+    },
+    {
+      "label": "Login",
+      "href": "#"
+    },
+    {
+      "label": "Shop",
+      "href": "https://us-store.sciex.com/USD?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Request a quote",
+      "href": "/form-pages/product-request"
+    },
+    {
+      "label": "SCIEX Now Dashboard",
+      "href": "/support"
+    },
+    {
+      "label": "Products",
+      "href": "#"
+    },
+    {
+      "label": "Applications",
+      "href": "#"
+    },
+    {
+      "label": "Training",
+      "href": "#"
+    },
+    {
+      "label": "Support",
+      "href": "#"
+    },
+    {
+      "label": "Service",
+      "href": "#"
+    },
+    {
+      "label": "Resource hub",
+      "href": "#"
+    },
+    {
+      "label": "About us",
+      "href": "#"
+    },
+    {
+      "label": "Events",
+      "href": "#"
+    },
+    {
+      "label": "Technology",
+      "href": "/technology"
+    },
+    {
+      "label": "QTOF Technology",
+      "href": "/technology/qtof-technology"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://community.sciex.com/2020/10/19/the-top-5-questions-to-ask-when-investing-in-accurate-mass-technology-for-forensic-toxicology-workflows/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/technology/swath-acquisition"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/MRM_Workflow_Yeast_TripleTOF5600.pdf"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/Routine-workflow-for-comparability-assessment-of-protein-biopharmaceuticals.pdf"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/SWATH-Evolution.pdf"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://pubmed.ncbi.nlm.nih.gov/28231881/"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://community.sciex.com/2021/12/15/how-does-automatic-calibration-work-on-the-qtof-tripletof-and-zenotof-systems/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/SWATH-Evolution.pdf"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/Variable_Window_SWATH_Acquisition_TripleTOF_RUO-MKT-02-2879-B.pdf"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/zenotof-7600-system"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/content/dam/SCIEX/pdf/brochures/X500-Series-Technical-Flyer.pdf"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/zenotof-7600-system"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500r-qtof-system"
+    },
+    {
+      "label": "Learn more",
+      "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500b-qtof-system"
+    },
+    {
+      "label": "Dr. Amadeo Fernandez-Alba",
+      "href": null
+    },
+    {
+      "label": "Dr. Yansheng Liu",
+      "href": null
+    },
+    {
+      "label": "Dr. Oliver Fiehn",
+      "href": null
+    },
+    {
+      "label": "Dr. Mark Cancilla",
+      "href": null
+    },
+    {
+      "label": "Dr. Eric Johansen",
+      "href": null
+    },
+    {
+      "label": "Watch webinar and learn more",
+      "href": "https://info.sciex.com/WOD-QTOF-Pesticide-Baby-Food?_gl=1*vqazah*_ga*MTk3MTk3NjE3OC4xNzA5MDUyNzkx*_ga_KD23C87L58*MTcxNTc2MTI3OS41Ny4xLjE3MTU3NjIyNzguMC4wLjA.&_ga=2.114244174.851032784.1715673796-1971976178.1709052791&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Intro to Mass Spectrometry- eLearning Course",
+      "href": "https://training.sciex.com/?language=en&courseId=6e74e1fa-cdd8-48ed-8f5a-ba730671b70d&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Intro to Time of Flight Mass Spectrometry- eLearning Course",
+      "href": "https://training.sciex.com/?language=en&courseId=58ae1e58-91c4-49bd-abbe-e0ecbb4e6999&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Intro to LC-MS/MS Operation Series- X series QTOF System- eLearning Course",
+      "href": "https://training.sciex.com/?language=en&courseId=77a2fc7e-142e-43da-90da-96bb6b69aace&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "Contact support",
+      "href": "https://sciex.com/about-us/contact-us"
+    },
+    {
+      "label": "Linkedin",
+      "href": "https://www.linkedin.com/company/sciex"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/SCIEXnews"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/SCIEXnews"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/instasciex"
+    },
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Mass spectrometers",
+      "href": "https://sciex.com/products/mass-spectrometers"
+    },
+    {
+      "label": "Capillary electrophoresis",
+      "href": "https://sciex.com/products/capillary-electrophoresis"
+    },
+    {
+      "label": "Software",
+      "href": "https://sciex.com/products/software"
+    },
+    {
+      "label": "Integrated solutions",
+      "href": "https://sciex.com/products/integrated-solutions"
+    },
+    {
+      "label": "Front-end HPLC MS",
+      "href": "https://sciex.com/products/hplc-products"
+    },
+    {
+      "label": "Ion mobility",
+      "href": "https://sciex.com/products/ion-mobility-spectrometry"
+    },
+    {
+      "label": "Ion sources",
+      "href": "https://sciex.com/products/ion-sources"
+    },
+    {
+      "label": "Spectral libraries",
+      "href": "https://sciex.com/products/spectral-library"
+    },
+    {
+      "label": "Consumables",
+      "href": "https://sciex.com/products/consumables"
+    },
+    {
+      "label": "Pharma and biopharma",
+      "href": "https://sciex.com/applications/pharma-and-biopharma"
+    },
+    {
+      "label": "Clinical",
+      "href": "https://sciex.com/applications/clinical"
+    },
+    {
+      "label": "Environmental",
+      "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+      "label": "Food and beverage",
+      "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+      "label": "Forensic testing",
+      "href": "https://sciex.com/applications/forensics-testing"
+    },
+    {
+      "label": "Life science research",
+      "href": "https://sciex.com/applications/life-science-research"
+    },
+    {
+      "label": "Support",
+      "href": "https://sciex.com/support"
+    },
+    {
+      "label": "Training",
+      "href": "https://sciex.com/support/training"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://sciex.com/support/professional-lab-services"
+    },
+    {
+      "label": "Careers",
+      "href": "https://jobs.danaher.com/global/en/sciex"
+    },
+    {
+      "label": "Contact",
+      "href": "https://sciex.com/about-us/contact-us"
+    },
+    {
+      "label": "Resource library",
+      "href": "https://sciex.com/resource-library?view=knowledge%20base%20articles"
+    },
+    {
+      "label": "Innovation advisory board",
+      "href": "https://community.sciex.com/innovation-advisory-board/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+      "label": "About SCIEX",
+      "href": "https://sciex.com/about-us"
+    },
+    {
+      "label": "Our history",
+      "href": "https://sciex.com/about-us/our-history"
+    },
+    {
+      "label": "SCIEX stories",
+      "href": "https://sciex.com/stories"
+    },
+    {
+      "label": "Latest news",
+      "href": "https://sciex.com/about-us/press-releases"
+    },
+    {
+      "label": "Executive management",
+      "href": "https://sciex.com/about-us/executive-management"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://sciex.com/legal-pages/privacy-policy"
+    },
+    {
+      "label": "Cookies Settings",
+      "href": "#"
+    },
+    {
+      "label": "Organizational Model and Code of Ethics D.Lgs 231/2001",
+      "href": "/legal-pages/organizational-model-and-code-of-ethics-d-lgs-231-2001"
+    },
+    {
+      "label": "Legal Info",
+      "href": "https://sciex.com/legal-pages/legal-information"
+    },
+    {
+      "label": "Do Not Sell My Data",
+      "href": "https://sciex.com/legal-pages/do-not-sell-my-data"
+    }
+  ],
+  "links": [
+    "https://sciex.com/",
+    "https://sciex.com/technology/qtof-technology#",
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/profile",
+    "https://sciex.com/resource-hub/myfavorite",
+    "https://us-store.sciex.com/USD?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/form-pages/product-request",
+    "https://sciex.com/support",
+    "https://sciex.com/products",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/8600-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/7600-plus-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/zenotof-7600-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems",
+    "https://sciex.com/products/mass-spectrometers/qtrap-systems",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+    "https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system",
+    "https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-4500-system",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-6500plus-system",
+    "https://sciex.com/products/in-vitro-diagnostics/medical-devices",
+    "https://sciex.com/products/in-vitro-diagnostics/medical-devices/citrine-system",
+    "https://sciex.com/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer",
+    "https://sciex.com/products/methods",
+    "https://sciex.com/products/spectral-library",
+    "https://sciex.com/products/mass-spectrometers",
+    "https://sciex.com/products/capillary-electrophoresis",
+    "https://sciex.com/products/integrated-solutions/intabio-zt-system",
+    "https://sciex.com/products/capillary-electrophoresis/biophase-8800",
+    "https://sciex.com/products/capillary-electrophoresis/pa-800-plus-pharmaceutical-analysis-system",
+    "https://sciex.com/products/capillary-electrophoresis/p-ace-mdq-plus",
+    "https://sciex.com/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system",
+    "https://sciex.com/products/hplc-products",
+    "https://sciex.com/products/hplc-products/exionlc-ae",
+    "https://sciex.com/products/hplc-products/exionlc-2",
+    "https://sciex.com/products/ion-mobility-spectrometry/selexion-differential-mobility-separation-device",
+    "https://sciex.com/products/hplc-products/microlc-products/micro-hplc-columns",
+    "https://sciex.com/products/integrated-solutions",
+    "https://sciex.com/products/integrated-solutions/echo-ms-plus",
+    "https://sciex.com/products/software/mass-spectrometry-software-solutions",
+    "https://sciex.com/products/software/sciex-os-software",
+    "https://sciex.com/products/software/analyst-software",
+    "https://sciex.com/products/software/analyst-tf-software",
+    "https://sciex.com/products/software/mass-spectrometry-software-solutions#workflow-module",
+    "https://sciex.com/products/software/multiquant-software",
+    "https://sciex.com/products/software/artificial-intelligence-quant",
+    "https://sciex.com/products/software/mass-spectrometry-software-solutions#application-module",
+    "https://sciex.com/products/software/biologics-explorer-software",
+    "https://sciex.com/products/software/molecule-profiler-software",
+    "https://sciex.com/support/software-support",
+    "https://sciex.com/support/software-support/software-support-policy",
+    "https://sciex.com/support/activate-software",
+    "https://sciex.com/support/software-support/sw-support-plns",
+    "https://sciex.com/support/sciex-now-feature-requests",
+    "https://sciex.com/products/software/partner-software",
+    "https://sciex.com/products/software",
+    "https://sciex.com/support/software-support/analyst-software-end-of-support",
+    "https://sciex.com/technology",
+    "https://sciex.com/products/technology",
+    "https://sciex.com/products/consumables",
+    "https://sciex.com/supplemental/eProcurement",
+    "https://sciex.com/products/consumables/dna-20kb-plasmid-linear-kit",
+    "https://sciex.com/applications",
+    "https://sciex.com/applications/pharma-and-biopharma",
+    "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk",
+    "https://sciex.com/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis",
+    "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research",
+    "https://sciex.com/applications/pharma-and-biopharma/impurity-analysis",
+    "https://sciex.com/applications/pharma-and-biopharma/mrna-research",
+    "https://sciex.com/applications/pharma-and-biopharma/oligonucleotide-analysis",
+    "https://sciex.com/applications/pharma-and-biopharma/protein-therapeutics",
+    "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research/metabolite-identification",
+    "https://sciex.com/applications/clinical",
+    "https://sciex.com/applications/clinical/clinical-research",
+    "https://sciex.com/applications/clinical/clinical-diagnostics",
+    "https://sciex.com/education/clinical-mass-spec-knowledge-center",
+    "https://sciex.com/landing-pages/citrine-system-compendium2",
+    "https://sciex.com/applications/environmental-testing",
+    "https://sciex.com/applications/environmental-testing/water-and-waste-water-analysis",
+    "https://sciex.com/applications/environmental-testing/industrial-and-agrochemical-analysis",
+    "https://sciex.com/applications/environmental-testing/the-exposome-and-exposomics",
+    "https://sciex.com/applications/environmental-testing/contaminants-of-emerging-concern",
+    "https://sciex.com/applications/environmental-testing/pfas-analysis-solutions",
+    "https://sciex.com/events/pfas-summit-part-III",
+    "https://sciex.com/applications/food-and-beverage-testing",
+    "https://sciex.com/applications/food-and-beverage-testing/food-safety-testing",
+    "https://sciex.com/applications/food-and-beverage-testing/food-authenticity-testing",
+    "https://sciex.com/applications/food-and-beverage-testing/quality-assurance-and-quality-control",
+    "https://sciex.com/Hidden/landing-pages/food-compendium-volume-4",
+    "https://sciex.com/applications/cannabis-testing",
+    "https://sciex.com/applications/cannabis-testing/pesticide-testing",
+    "https://sciex.com/applications/cannabis-testing/mycotoxin-testing",
+    "https://sciex.com/applications/forensics-testing",
+    "https://sciex.com/applications/forensics-testing/forensic-toxicology",
+    "https://sciex.com/applications/forensics-testing/cannabinoid-analysis-and-potency-testing",
+    "https://sciex.com/applications/forensics-testing/doping-control",
+    "https://sciex.com/applications/forensics-testing/tox-chat-box",
+    "https://sciex.com/applications/biomedical-and-omics-research",
+    "https://sciex.com/applications/biomedical-and-omics-research/proteomics",
+    "https://sciex.com/applications/biomedical-and-omics-research/lipidomics",
+    "https://sciex.com/applications/biomedical-and-omics-research/metabolomics",
+    "https://sciex.com/applications/biomedical-and-omics-research/extraordinary-science",
+    "https://sciex.li/n8jzym",
+    "https://sciex.com/support/support-cases",
+    "https://training.sciex.com/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/support/manage-my-instruments",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/support/my-notifications",
+    "https://sciex.com/resource-hub",
+    "https://sciex.com/education/grant-support",
+    "https://sciex.com/education/grant-support/academic-partnership",
+    "https://sciex.com/education/grant-support/academic-partners",
+    "https://sciex.com/resource-hub/regulatory-documents",
+    "https://sciex.com/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Declaration%20of%20conformance",
+    "https://sciex.com/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Safety%20data%20sheet",
+    "https://sciex.com/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Certificate%20of%20analysis",
+    "https://sciex.com/support/training",
+    "https://sciex.com/search-results?contentType=Training&facetId=trainingcoursetype&value=Self%20paced%20learning",
+    "https://sciex.com/support/training/learning-manager-overview",
+    "https://sciex.com/support/software-support/premium-access-content",
+    "https://sciex.com/support/professional-lab-services/customized-lab-training",
+    "https://sciex.com/support/training/success-programs",
+    "https://sciex.com/support/professional-lab-services",
+    "https://sciex.com/support/professional-lab-services/software-and-it",
+    "https://sciex.com/support/professional-lab-services/lab-compliance-services",
+    "https://sciex.com/support/professional-lab-services/lab-optimization-services",
+    "https://sciex.com/support/professional-lab-services/lab-relocation-services",
+    "https://sciex.com/landing-pages/smarter-service-support",
+    "https://sciex.com/support/instrument-service-and-support",
+    "https://sciex.com/support/instrument-service-and-support/lc-ms-hardware-plans",
+    "https://sciex.com/support/instrument-service-and-support/ce-service-plans",
+    "https://sciex.com/support/instrument-service-and-support/clinical-service-plan",
+    "https://sciex.com/support/instrument-service-and-support/intabio-zt-system-service-plan",
+    "https://sciex.com/support/instrument-service-and-support/lc-ms-hardware-plans/protect-plus-plan",
+    "https://sciex.com/support/instrument-service-and-support/visual-assist",
+    "https://sciex.com/support/instrument-service-and-support/statusscope-remote-monitoring",
+    "https://sciex.com/support/instrument-service-and-support/remote-instrument-optimization-and-calibration",
+    "https://sciex.com/support/instrument-service-and-support/beyond-break-fix",
+    "https://sciex.com/support/instrument-service-and-support/uptime-mastery",
+    "https://sciex.com/support/software-support/software-downloads",
+    "https://sciex.com/resource-hub/knowledge-base-articles",
+    "https://sciex.com/resource-hub/self-paced-learning",
+    "https://sciex.com/resource-hub/instructor-led-training",
+    "https://sciex.com/resource-hub/technical-notes",
+    "https://sciex.com/resource-hub/user-guides",
+    "https://sciex.com/about-us",
+    "https://sciex.com/about-us#about-sciex",
+    "https://sciex.com/about-us/our-history",
+    "https://sciex.com/about-us/executive-management",
+    "https://sciex.com/Hidden/landing-pages/sciex-sustainability",
+    "https://sciex.com/about-us/echo-ms-center-of-excellence",
+    "https://jobs.danaher.com/global/en/sciex",
+    "https://sciex.com/about-us/contact-us",
+    "https://sciex.com/form-pages/request-information",
+    "https://sciex.com/support/request-support",
+    "https://sciex.com/about-us/press-releases",
+    "https://sciex.com/about-us/press-releases/in-the-news",
+    "https://sciex.com/events",
+    "https://community.sciex.com/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://community.sciex.com/innovation-advisory-board?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://community.sciex.com/results/?_sft_category=blogs&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/about-us/customer-profiles",
+    "https://sciex.com/about-us/whitepapers",
+    "https://sciex.com/stories",
+    "https://sciex.com/stories/topics",
+    "https://sciex.com/stories/thought-leaders",
+    "https://sciex.com/events/sciex-summit",
+    "https://sciex.com/events?event=upcoming",
+    "https://sciex.com/events?region=North%20America&event=upcoming",
+    "https://sciex.com/events?region=europe&event=upcoming",
+    "https://sciex.com/events?region=india&event=upcoming",
+    "https://sciex.com/events?region=korea&event=upcoming",
+    "https://sciex.com/events?event=on-demand",
+    "https://sciex.com/events?region=North%20America&event=on-demand",
+    "https://sciex.com/events?region=europe&event=on-demand",
+    "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+    "https://sciex.com/technology/qtof-technology",
+    "https://community.sciex.com/2020/10/19/the-top-5-questions-to-ask-when-investing-in-accurate-mass-technology-for-forensic-toxicology-workflows/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/technology/swath-acquisition",
+    "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/MRM_Workflow_Yeast_TripleTOF5600.pdf",
+    "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/Routine-workflow-for-comparability-assessment-of-protein-biopharmaceuticals.pdf",
+    "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/SWATH-Evolution.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/28231881/",
+    "https://community.sciex.com/2021/12/15/how-does-automatic-calibration-work-on-the-qtof-tripletof-and-zenotof-systems/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/content/dam/SCIEX/pdf/tech-notes/all/Variable_Window_SWATH_Acquisition_TripleTOF_RUO-MKT-02-2879-B.pdf",
+    "https://sciex.com/content/dam/SCIEX/pdf/brochures/X500-Series-Technical-Flyer.pdf",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500r-qtof-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500b-qtof-system",
+    "https://info.sciex.com/WOD-QTOF-Pesticide-Baby-Food?_gl=1*vqazah*_ga*MTk3MTk3NjE3OC4xNzA5MDUyNzkx*_ga_KD23C87L58*MTcxNTc2MTI3OS41Ny4xLjE3MTU3NjIyNzguMC4wLjA.&_ga=2.114244174.851032784.1715673796-1971976178.1709052791&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/events/omics-biomarker-discovery0521",
+    "https://sciex.com/videos/Solutions-for-Metabolomics-and-Lipidomics-Research-Webinar",
+    "https://sciex.com/videos/Drug-Metabolism-Chging-landscape",
+    "https://sciex.com/videos/Single-digit-ppm-Level-Identification-of-Host-Cell-Protein-Contaminants-using-a-Simple-One-Hour-SWATH-LC-MS-Acquisition-Method",
+    "https://training.sciex.com/?language=en&courseId=6e74e1fa-cdd8-48ed-8f5a-ba730671b70d&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://training.sciex.com/?language=en&courseId=58ae1e58-91c4-49bd-abbe-e0ecbb4e6999&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://training.sciex.com/?language=en&courseId=77a2fc7e-142e-43da-90da-96bb6b69aace&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.linkedin.com/company/sciex",
+    "https://x.com/SCIEXnews",
+    "https://www.facebook.com/SCIEXnews",
+    "https://instagram.com/instasciex",
+    "https://sciex.com/products/ion-mobility-spectrometry",
+    "https://sciex.com/products/ion-sources",
+    "https://sciex.com/applications/life-science-research",
+    "https://sciex.com/resource-library?view=knowledge%20base%20articles",
+    "https://community.sciex.com/innovation-advisory-board/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://sciex.com/legal-pages/privacy-policy",
+    "https://sciex.com/legal-pages/organizational-model-and-code-of-ethics-d-lgs-231-2001",
+    "https://sciex.com/legal-pages/legal-information",
+    "https://sciex.com/legal-pages/do-not-sell-my-data",
+    "https://www.beckman.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.genedata.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer",
+    "https://www.idbs.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.leica-microsystems.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.moleculardevices.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.phenomenex.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.aldevron.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.idtdna.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355",
+    "https://www.abcam.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/built-for-business-impact-megamenu-novus-v55-320x180.jpg",
+        "alt": "novus v55 system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/evo-8600-megamenu-2026-320x180.jpg",
+        "alt": "SCIEX 8600 system",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--03.jpg",
+        "alt": "BioPhase 8800 System",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pa-800-plus-megamenu-641x360px.jpg",
+        "alt": "PA 800 plus",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--04.jpg",
+        "alt": "ExionLC AE system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "Intabio ZT system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/echo-ms-system-mega-menu-320x180.jpg",
+        "alt": "Echo MS+ system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--05.jpg",
+        "alt": "SCIEX OS software",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+        "alt": "DNA 20 kb Plasmid and Linear kit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "Intabio ZT system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/metid-mega-menu-banner-320x180.png",
+        "alt": "MetID",
+        "w": 1334,
+        "h": 750
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/4500md-compenduim-mega-menu-320x180.jpg",
+        "alt": "ZenoTOF 7600 system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/megamenu-tile-pfas-summit-phase-3.jpg",
+        "alt": "PFAS Summit Phase III",
+        "w": 2667,
+        "h": 1500
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pfas-webpage-2026-mega-menu.jpg",
+        "alt": "PFAS analysis solutions",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/food-compendium--07.jpg",
+        "alt": "Food Compendium",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-7500-plus-320x180px.jpg",
+        "alt": "SCIEX 7500+ system",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--01.jpg",
+        "alt": "ZenoTOF 7600 system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/tox-chat-box-mega-menu_banner-320x180px.jpg",
+        "alt": "Tox Chat Box",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banner-megamenu-v2-7600-plus-320x180.png",
+        "alt": "SCIEX 7600+ system",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/30492-web-banners-megamenu-7600-plus-320x180px.jpg",
+        "alt": "ZTScan DIA",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-04.jpg",
+        "alt": "Service",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-01.jpg",
+        "alt": "Service",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-03.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2026-registration-mega-menu-320x180px.jpg",
+        "alt": "SCIEX Summmit 2026",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/built-for-business-impact-megamenu-novus-v55-320x180.jpg",
+        "alt": "ZenoTOF 7600+ system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/evo-8600-megamenu-2026-320x180.jpg",
+        "alt": "SCIEX 8600 system",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/biophase-8800-nfd-megamenu-641x360.jpg",
+        "alt": "BioPhase 8800 system",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pa-800-plus-megamenu-641x360px.jpg",
+        "alt": "PA 800 plus",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--04.jpg",
+        "alt": "ExionLC AE system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "Intabio ZT system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/echo-ms-system-mega-menu-320x180.jpg",
+        "alt": "Echo MS+ system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--05.jpg",
+        "alt": "SCIEX OS software",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+        "alt": "RNA 9000 Purity and Integrity kit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+        "alt": "RNA 9000 Purity and Integrity kit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/metid-mega-menu-banner-320x180.png",
+        "alt": "ZenoTOF 7600+ system",
+        "w": 1334,
+        "h": 750
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/4500md-compenduim-mega-menu-320x180.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/megamenu-tile-pfas-summit-phase-3.jpg",
+        "alt": "",
+        "w": 2667,
+        "h": 1500
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pfas-webpage-2026-mega-menu.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/food-compendium--07.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-7500-plus-320x180px.jpg",
+        "alt": "",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--01.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/tox-chat-box-mega-menu_banner-320x180px.jpg",
+        "alt": "",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banner-megamenu-v2-7600-plus-320x180.png",
+        "alt": "ZenoTOF 7600+ system",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/30492-web-banners-megamenu-7600-plus-320x180px.jpg",
+        "alt": "",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-04.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-01.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-03.jpg",
+        "alt": "eLearning",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2025-ondemand-megamenu-320x180px.jpg",
+        "alt": "SCIEX Summit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2025-ondemand-megamenu-320x180px.jpg",
+        "alt": "SCIEX Summit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2026-registration-mega-menu-320x180px.jpg",
+        "alt": "SCIEX Summit 2026",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--42e6e724-6225-4950-8bf0-755571701197/highSpeed-ds.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--27346886-cb3e-4552-9132-165c2e6b3c0b/unbiased-data_ds.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--5a61c9ea-6689-47d7-9945-f8d8b7acab37/mrmHR-ds.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--c823619a-ac32-4956-8170-78f5943e8ca3/highRes-ds.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--f89f8d9c-56e3-41ab-a72f-5d2b00054189/complete-coverage_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--03d11e33-b77a-4f8e-936d-820319467d73/quantitative-accuracy_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--ee213d3b-140f-4d53-8c9a-23b188806815/precise-intact_350.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 350,
+        "h": 350
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--3d239328-ead8-4ffd-96d5-f59ed2c7e36c/speed-white.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 360,
+        "h": 270
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--c815b968-eb16-4122-8204-c634f257f416/unbiased_white.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 360,
+        "h": 270
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--9ef5b7d4-2299-4391-a418-48055da67492/portability_white.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 372,
+        "h": 282
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--0068a631-78c1-4944-9b42-364c4e8a12cf/uptime_white.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 360,
+        "h": 270
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--35207bf5-43fe-4d77-8687-fae8bb947a6a/technology-menu-2000x1500.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 1440,
+        "h": 1080
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--a74afabe-ef56-470a-9403-434fec22352a/x500-rail-menu-2000x1500-2.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 1440,
+        "h": 1080
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--e02ad225-ba48-4140-ae26-a4ac62180932/zeno-menu-product-2000x1500.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 1440,
+        "h": 1080
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--6e0cecb2-edbb-4f0f-b6be-f600badb0236/X500-systems-menu-2000x1500.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 1440,
+        "h": 1080
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--03e4137e-6f3a-4e1e-a438-f36aa89e66ac/x500b-menu-2000x1500.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 1440,
+        "h": 1080
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--ecfe82fe-7a07-407a-b393-d64e6a833927/baby-spoon-feeding_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--a5e6f3ea-d385-4e8d-a14d-da6845f7496a/blue-ribbon_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--5ece55af-6f8d-43fd-8f6c-0f8ee5e4f282/blue-molecules_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--e6d47de5-3890-441a-b4d0-f0d209dec534/drug_metabolism_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--3713114b-ce85-46a1-b072-1c74d6fbbba5/host-cell_550.webp?quality=75&width=1440",
+        "alt": "",
+        "w": 550,
+        "h": 550
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/us.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/jp.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/cn.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/kr.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/us.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/jp.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/cn.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/kr.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/es.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/footer/danaher-logo.png",
+        "alt": "danher-logo",
+        "w": 98,
+        "h": 128
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/us.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/jp.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/cn.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/kr.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      }
+    ],
+    "allImgCount": 100,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--scrollbar-width": "10px",
+    "--actionbar_colors_primary_tint": "#288dff",
+    "--actionbar_colors_primary_main": "#0070f2",
+    "--actionbar_colors_primary_main_7": "color-mix(in srgb, #0070f2 7%, transparent)",
+    "--actionbar_colors_primary_main_10": "color-mix(in srgb, #0070f2 10%, transparent)",
+    "--actionbar_colors_primary_main_15": "color-mix(in srgb, #0070f2 15%, transparent)",
+    "--actionbar_colors_primary_main_20": "color-mix(in srgb, #0070f2 20%, transparent)",
+    "--actionbar_colors_primary_main_30": "color-mix(in srgb, #0070f2 30%, transparent)",
+    "--actionbar_colors_primary_main_60": "color-mix(in srgb, #0070f2 60%, transparent)",
+    "--actionbar_colors_primary_shade": "#015ac2",
+    "--actionbar_colors_category_tag_color_7": "color-mix(in srgb, #5f38ff 7%, transparent)",
+    "--actionbar_colors_category_tag_color_10": "color-mix(in srgb, #5f38ff 10%, transparent)",
+    "--actionbar_colors_category_tag_color_20": "color-mix(in srgb, #5f38ff 20%, transparent)",
+    "--actionbar_colors_category_tag_color_60": "color-mix(in srgb, #5f38ff 60%, transparent)",
+    "--actionbar_colors_secondary_tint": "#69b5fc",
+    "--actionbar_colors_secondary_main": "#44a2fb",
+    "--actionbar_colors_secondary_shade": "#0584fa",
+    "--actionbar_gradients_main_stop_1": "#8351f5",
+    "--actionbar_gradients_main_stop_2": "#0070f2",
+    "--actionbar_gradients_main": "linear-gradient(90deg, #8351f5 0%, #0070f2 100%)",
+    "--actionbar_colors_base_white": "#ffffff",
+    "--actionbar_colors_sap_text_primary": "#131e29",
+    "--actionbar_colors_sap_text_secondary": "#556b82",
+    "--actionbar_colors_category_tag_color": "#5f38ff",
+    "--actionbar_colors_category_tag_background": "#e2dbff",
+    "--actionbar_colors_category_tag_background_hover": "#cdc1ff",
+    "--actionbar-Color-Action-Pallete-Disable-1": "#767676",
+    "--actionbar-color-input-dropdown-content-primary-default": "#8d97ae",
+    "--actionbar-component-border": "#959ea7",
+    "--actionbar-sapButton_Reject_TextColor": "#aa0808",
+    "--actionbar-sapButton_Reject_Background": "#ffd6e9",
+    "--actionbar-sapButton_Reject_Hover_Background": "#ffbddb",
+    "--actionbar-actionbar_colors_sap_toggle": "#788fa6",
+    "--actionbar-actionbar_colors_sap_toggle_hover": "#637d97",
+    "--actionbar-sapTile_SeparatorColor": "color-mix(in srgb, #556b82 12%, transparent)"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 14,
+    "mainTextLen": 62753,
+    "realImageCount": 98,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/data_3c17a089273d4c61a1e6b218844911fa.br.json",
+        "query": [],
+        "resourceType": "other",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 40891,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78ce.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/bin/sciex/currentuserdetails",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 403,
+        "bytes": 239,
+        "hits": 1,
+        "example": "https://sciex.com/bin/sciex/currentuserdetails",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac12/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "collection.decibelinsight.net",
+        "path": "/i/{n}/{n}/c.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://collection.decibelinsight.net/i/14130/1197818/c.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/11360491560/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.auth0Id",
+          "ep.dhr_client_id",
+          "ep.dhr_session_id",
+          "ep.logged_in_status",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geoip-js.com",
+        "path": "/geoip/v2.1/country/me",
+        "query": [
+          "referrer"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.maxmind.com-country+json",
+        "status": 200,
+        "bytes": 672,
+        "hits": 1,
+        "example": "https://geoip-js.com/geoip/v2.1/country/me",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+        "path": "/api2/event/sciex_prod",
+        "query": [
+          "event"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://sciex.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 22,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+        "path": "/web/v2/authentication",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/runtime_data.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 274,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "cdn.dreamdata.cloud",
+        "path": "/api/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16,
+        "hits": 1,
+        "example": "https://cdn.dreamdata.cloud/api/v1/p",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/player/resources/prompts-manager/2.8.4/prompts.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 61753,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ec.walkme.com",
+        "path": "/event/postEvent",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 2,
+        "hits": 2,
+        "example": "https://ec.walkme.com/event/postEvent",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.walkme.com",
+        "count": 22
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 5
+      },
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 5
+      },
+      {
+        "host": "static.cloud.coveo.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "cdn.usefathom.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.decibelinsight.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.c360a.salesforce.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.evgnet.com",
+        "count": 1
+      },
+      {
+        "host": "geoip-js.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.dreamdata.cloud",
+        "count": 1
+      },
+      {
+        "host": "img04.en25.com",
+        "count": 1
+      },
+      {
+        "host": "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 5,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 18,
+      "thirdPartyScriptHosts": 17,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/technology-qtof-technology.png",
+  "renderedHtml": "pages/technology-qtof-technology.html"
+}

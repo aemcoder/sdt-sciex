@@ -1,0 +1,1313 @@
+<!DOCTYPE html><html lang="en" dir="auto"><head>
+  
+  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  
+
+  
+  
+    
+    
+  
+
+  
+  
+    
+    
+    
+    
+    
+  
+
+  <link rel="icon" href="https://lifesciences.danaher.com/favicon.ico">
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="ulp-version" content="1.142.4">
+    
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="https://cdn.auth0.com/ulp/react-components/1.219.4/css/main_wcag_compliant.cdn.min.css">
+    <style id="custom-styles-container">
+      :root, .af-custom-form-container .af-form {
+          --primary-color: #635dff;
+        }
+:root, .af-custom-form-container .af-form {
+          --button-font-color: #ffffff;
+        }
+:root {
+          --secondary-button-border-color: #c9cace;
+          --social-button-border-color: #c9cace;
+          --radio-button-border-color: #c9cace;
+        }
+:root {
+          --secondary-button-text-color: #1e212a;
+        }
+:root {
+          --link-color: #635dff;
+        }
+:root {
+          --title-font-color: #1e212a;
+        }
+:root {
+          --font-default-color: #1e212a;
+        }
+:root {
+          --widget-background-color: #ffffff;
+        }
+:root {
+          --box-border-color: #c9cace;
+        }
+:root {
+          --font-light-color: #65676e;
+        }
+:root {
+          --input-text-color: #000000;
+        }
+:root {
+          --input-border-color: #c9cace;
+          --border-default-color: #c9cace;
+        }
+:root {
+          --input-background-color: #ffffff;
+        }
+:root {
+          --icon-default-color: #65676e;
+        }
+:root {
+          --error-color: #d03c38;
+          --error-text-color: #ffffff;
+        }
+:root {
+          --success-color: #13a688;
+        }
+:root {
+          --base-focus-color: #635dff;
+          --transparency-focus-color: rgba(99,93,255, 0.15);
+        }
+:root {
+          --base-hover-color: #000000;
+          --transparency-hover-color: rgba(0,0,0, var(--hover-transparency-value));
+        }
+:root {
+          --ulp-captcha-widget-theme: light;
+        }
+@font-face {
+          font-family: 'ULP Custom';
+          font-style: normal;
+          font-weight: var(--font-default-weight);
+          src: local('ULP Custom'), url('https://lifesciences.danaher.com/styles/fonts.css') format('woff');
+        }
+
+        body {
+          --font-family: 'ULP Custom', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, sans-serif;
+        }
+html, :root {
+          font-size: 100%;
+          --default-font-size: 1rem;
+          --small-font-size: 0.75rem;
+          --title-font-size: 1.5rem;
+          --lg-font-size: 1rem;
+          --xl-font-size: 1.25rem;
+          --spacing: 0.5rem;
+        }
+        .af-custom-form-container .af-form {
+          font-size: 1rem;
+        }
+body {
+          --title-font-size: 1.5rem;
+          --title-font-weight: var(--font-bold-weight);
+        }
+.c641f5d8d {
+          font-size: 0.875rem;
+          font-weight: var(--font-default-weight);
+        }
+.c0acd872b {
+          font-size: 0.875rem;
+          font-weight: var(--font-default-weight);
+        }
+        .ulp-passkey-benefit-heading {
+          font-size: 1.025rem;
+        }
+.c3e773acf, .c89522a93 {
+          font-size: 1rem;
+          font-weight: var(--font-default-weight);
+        }
+body {
+          --ulp-label-font-size: 1rem;
+          --ulp-label-font-weight: var(--font-default-weight);
+        }
+.c819df789, .ce65b92b3, [id^='ulp-container-'] a {
+          font-size: 0.875rem;
+          font-weight: var(--font-bold-weight) !important;
+        }
+
+:root {
+          --button-border-width: 1px;
+          --social-button-border-width: 1px;
+          --radio-border-width: 1px;
+        }
+body {
+          --button-border-radius: 3px;
+          --radio-border-radius: 3px;
+        }
+
+:root {
+          --input-border-width: 1px;
+        }
+body {
+          --input-border-radius: 3px;
+        }
+
+        .af-custom-form-container .af-form {
+          --border-radius: 3px;
+        }
+
+:root {
+          --border-radius-outer: 5px;
+        }
+:root {
+          --box-border-width: 0px;
+        }
+
+
+          body {
+            --logo-alignment: 0 auto 0 0;
+          }
+        
+
+          .ce8db071d {
+            content: url('https://lifesciences.danaher.com/icons/danaher.png');
+          }
+        
+body {
+          --logo-height: 70px;
+        }
+        .ce8db071d {
+          height: var(--logo-height);
+        }
+        
+
+          body {
+            --header-alignment: left;
+          }
+        
+
+.c7992187b {
+          --page-background-alignment: right;
+        }
+body {
+          --page-background-color: #000000;
+        }
+.c7992187b {
+          --page-background-image: url('https://danaherls.scene7.com/is/image/danaher/danaher-background');
+        }
+
+    </style>
+    <style>
+    /* By default, hide features for javascript-disabled browsing */
+    /* We use !important to override any css with higher specificity */
+    /* It is also overriden by the styles in <noscript> in the header file */
+    .no-js {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
+  </style>
+  <noscript>
+    <style>
+      /* We use !important to override the default for js enabled */
+      /* If the display should be other than block, it should be defined specifically here */
+      .js-required { display: none !important; }
+      .no-js {
+        clip: auto;
+        clip-path: none;
+        height: auto;
+        overflow: auto;
+        position: static;
+        white-space: normal;
+        width: 100%;
+      }
+      .no-js-container {
+        width: var(--prompt-width);
+      }
+    </style>
+  </noscript>
+    <script id="dreamdata-analytics" type="text/javascript" async="" data-global-dreamdata-analytics-key="dreamdata" src="https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js"></script><script src="https://cdn.auth0.com/ulp/react-components/1.219.4/js/libphonenumber-js-bundle.js" defer=""></script>
+    
+  
+  <link rel="preconnect" href="https://lifesciences.danaher.com" crossorigin="">
+  <!-- DreamData Analytics -->
+  <script>
+      !function () { var e = "dreamdata", dreamdata = window[e] = window[e] || []; if (!dreamdata.initialize) if (dreamdata.invoked) window.console && console.error && console.error("Dreamdata snippet included twice."); else { dreamdata.invoked = !0, dreamdata.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "debug", "page", "screen", "once", "off", "on", "addSourceMiddleware", "addIntegrationMiddleware", "setAnonymousId", "addDestinationMiddleware", "register"], dreamdata.factory = function (t) { return function () { if (window[e].initialized) return window[e][t].apply(window[e], arguments); var a = Array.prototype.slice.call(arguments); if (["track", "screen", "alias", "group", "page", "identify"].indexOf(t) > -1) { var r = document.querySelector("link[rel='canonical']"); a.push({ __t: "bpc", c: r && r.getAttribute("href") || void 0, p: location.pathname, u: location.href, s: location.search, t: document.title, r: document.referrer }) } return a.unshift(t), dreamdata.push(a), dreamdata } }; for (var t = 0; t < dreamdata.methods.length; t++) { var a = dreamdata.methods[t]; dreamdata[a] = dreamdata.factory(a) } dreamdata.load = function (t, a) { var r = document.createElement("script"); r.id = "dreamdata-analytics", r.type = "text/javascript", r.async = !0, r.setAttribute("data-global-dreamdata-analytics-key", e), r.src = "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js"; var i = document.getElementsByTagName("script")[0]; i.parentNode.insertBefore(r, i), dreamdata._loadOptions = a }, dreamdata._writeKey = "e412ca85-6db4-455b-9bbd-ca68ef32241a", dreamdata.SNIPPET_VERSION = "dreamdata-2.0.1", dreamdata.load("e412ca85-6db4-455b-9bbd-ca68ef32241a", { "formTracking": { "html": true }, "intentSources": { "autoGroup": true } }), dreamdata.page() } }();
+  </script>
+  <script>
+    (function () {
+      var promptName = 'login-id' || '';
+      var screenName = 'login-id' || '';
+
+      var titleMap = {
+        // Login
+        'login-id': 'Sign In',
+        'login-password': 'Sign In',
+
+        // Signup
+        'signup-id': 'Create Account',
+        'signup-password': 'Set Password',
+
+        // Email verification
+        'email-identifier-challenge': 'Verify Email',
+
+        // MFA
+        'mfa-email': 'MFA Email'
+      };
+
+      // Special handling for reset-password steps
+      if (screenName === 'reset-password-request') {
+        document.title = 'Forgot Password';
+        return;
+      }
+
+      if (screenName === 'reset-password') {
+        document.title = 'Change Password';
+        return;
+      }
+
+      // Fallback to prompt.name mapping or generic default
+      var title = titleMap[promptName] || 'Danaher Account';
+
+      document.title = title;
+    })();
+  </script><title>Sign In</title>
+
+  <style id="danaher-fonts-inline">
+    /* Roboto */
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url("https://lifesciences.danaher.com/fonts/roboto-regular.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url("https://lifesciences.danaher.com/fonts/roboto-bold.woff2") format("woff2");
+    }
+
+    /* TWK Lausanne — correct weight mapping */
+    @font-face {
+      font-family: "TWK Lausanne";
+      font-style: normal;
+      font-weight: 200;
+      font-display: swap;
+      src: url("https://lifesciences.danaher.com/fonts/TWKLausannePan-200.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "TWK Lausanne";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url("https://lifesciences.danaher.com/fonts/TWKLausannePan-400.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "TWK Lausanne";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url("https://lifesciences.danaher.com/fonts/TWKLausannePan-700.woff2") format("woff2");
+    }
+
+    /* Enforce a uniform font stack across all UL elements and custom widgets */
+    html,
+    body,
+    main._widget,
+    ._widget *,
+    .ulp *,
+    input,
+    select,
+    textarea,
+    button,
+    label {
+      font-family: "TWK Lausanne", "Roboto", "Helvetica Neue", Arial, sans-serif !important;
+    }
+  </style>
+
+  <style id="dynamic-branding">
+    /* === Dynamic Branding: Override Auth0 theme primary color per application ===
+       These overrides take precedence over the colours Auth0 injects from
+       theme.json, which is tenant-wide and cannot vary per application.        */
+
+    /* 1. CSS custom-property overrides — matches Auth0's injected variable names */
+    :root {
+      --primary-color: #0068FA;
+      --link-color: #0068FA;
+      --base-focus-color: #0068FA;
+      --transparency-focus-color: rgba(0, 104, 250, .15);
+      --brand-primary: #0068FA;
+      --brand-primary-rgb: 0, 104, 250;
+    }
+
+    /* 2. Primary button */
+    button[type="submit"][name="action"],
+    button[data-action-button-primary="true"],
+    .ulp-button-default {
+      background-color: #0068FA !important;
+      border-color: #0068FA !important;
+    }
+
+    /* 3. Links & focused components */
+    .ulp-alternate-action a,
+    ._widget a[class*="link"],
+    a[data-ulp-anchor] {
+      color: #0068FA !important;
+    }
+
+    /* 3b. Secondary / text buttons — ensure readable contrast.
+       Auth0 applies --primary-color as background on these;
+       override to white bg with brand-coloured text. */
+    button[name="action"]:not([data-action-button-primary="true"]),
+    .ulp-button-default.btn-default,
+    button[value="cancel"],
+    button[name="action"][value="back-action"],
+    button[name="action"][value="resend-action"] {
+      background-color: #ffffff !important;
+      border-color: #0068FA !important;
+      color: #0068FA !important;
+    }
+    button[name="action"]:not([data-action-button-primary="true"]) span,
+    button[value="cancel"] span,
+    button[name="action"][value="back-action"] span,
+    button[name="action"][value="resend-action"] span {
+      color: #0068FA !important;
+    }
+
+    /* 4. Logo override — CSS content: url() overrides img visual regardless of src attr.
+       Auth0 sets src via JS, but CSS content takes rendering priority. */
+    #prompt-logo-center {
+      content: url("https://danaherls.scene7.com/is/image/danaher/SCIEX") !important;
+      
+    }
+
+    #custom-prompt-logo {
+      background-image: url("https://danaherls.scene7.com/is/image/danaher/SCIEX") !important;
+      background-size: contain !important;
+      background-repeat: no-repeat !important;
+      background-position: center !important;
+      
+    }
+  </style>
+
+  <style>
+    /* Ensure background covers full page height including scrollable content */
+    html {
+      min-height: 100%;
+      background-image: url('https://danaherls.scene7.com/is/image/danaher/danaher-background') !important;
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+      background-attachment: fixed !important;
+      /* Keeps background fixed while scrolling */
+      background-color: #000000 !important;
+    }
+
+    body._widget-auto-layout {
+      background: transparent !important;
+      /* Make body transparent to show html background */
+      min-height: 100vh;
+    }
+
+    @media (max-width: 767px) {
+      body._widget-auto-layout {
+        min-height: auto;
+      }
+      main._widget {
+        min-height: auto !important;
+      }
+    }
+
+    /* Widget sizing — full height, 75% width, no border radius */
+    main._widget {
+      padding: 0 !important;
+    }
+    @media (min-width: 768px) {
+      body._widget-auto-layout main._widget ._prompt-box-outer {
+        min-height: 100vh !important;
+        padding-bottom: 80px !important;
+      }
+    }
+    section._prompt-box-outer {
+      width: 75%;
+    }
+    section._prompt-box-outer > div:last-of-type {
+      border-radius: 0px;
+    }
+
+    /* For right-aligned layout on larger screens */
+    @media (min-width: 768px) {
+      html {
+        background-position: left center !important;
+      }
+
+      main._widget {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 50%;
+        min-height: 100vh;
+        padding-bottom: 0px !important;
+      }
+    }
+  </style>
+
+  <style>
+    /* === Brand Text Overlay (left side, desktop only) === */
+    .brand-overlay {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      .brand-overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100vh;
+        padding: 0 0 8% 8%;
+        align-items: flex-start;
+        text-align: left;
+        font-family: "TWK Lausanne", "Roboto", "Helvetica Neue", Arial, sans-serif;
+        z-index: 1;
+        pointer-events: none;
+      }
+
+      .brand-overlay__title {
+        font-size: 60px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 72px;
+        margin: 0 0 16px 0;
+        text-align: left;
+      }
+
+      .brand-overlay__logo {
+        max-width: 200px;
+        height: auto;
+        margin-bottom: 24px;
+      }
+
+      .brand-overlay__subtitle {
+        font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1.5;
+        margin: 0;
+        text-align: left;
+      }
+    }
+
+    /* Smaller desktops / tablets — tighter padding */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .brand-overlay {
+        padding: 0 0 8% 10%;
+      }
+    }
+  </style>
+
+  <style>
+    /* === Hover state for primary buttons === */
+    button[type="submit"][name="action"]:hover,
+    button[data-action-button-primary="true"]:hover {
+      background-color: #005BDB !important;
+      border-color: #005BDB !important;
+    }
+
+    /* === Hover state for secondary / back / cancel buttons — keep white bg === */
+    button[name="action"]:not([data-action-button-primary="true"]):hover,
+    button[value="cancel"]:hover,
+    button[name="action"][value="back-action"]:hover,
+    button[name="action"][value="resend-action"]:hover {
+      background-color: #d4d4d4 !important;
+      border-color: #005BDB !important;
+      color: #005BDB !important;
+    }
+    button[name="action"]:not([data-action-button-primary="true"]):hover span,
+    button[value="cancel"]:hover span,
+    button[name="action"][value="back-action"]:hover span,
+    button[name="action"][value="resend-action"]:hover span {
+      color: #005BDB !important;
+    }
+  </style>
+
+  <style>
+    /* === Global Form Field Consistency === */
+
+    /* 1. Add consistent spacing between all fields */
+    .ulp-field {
+      margin-bottom: 1.25rem;
+      /* ~20px; gives more breathing room */
+    }
+
+    .ulp-field+.ulp-error-info,
+    .input-wrapper>.ulp-error-info,
+    #error-cs-email-required,
+    #error-cs-email-invalid {
+      margin-top: 6px !important;
+      margin-bottom: 0 !important;
+    }
+
+
+    /* 2. Fixes misaligned error icons for ALL fields */
+    .ulp-error-info {
+      display: none;
+      /* Hide by default. JS will change to 'flex' */
+      align-items: center !important;
+      gap: 6px !important;
+      margin-top: 6px;
+      /* Add space between input and error */
+      font-size: 0.8125rem;
+      /* Standardize font size */
+    }
+
+    /* 3. Style the default error icon to match the email icon */
+    .ulp-error-info::before {
+      content: "!";
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--error-color, #d03c38);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 14px;
+      text-align: center;
+      margin-right: 6px !important;
+      position: relative;
+      top: 0;
+      /* Aligns better with flex */
+      flex-shrink: 0;
+      /* Prevent icon from shrinking */
+    }
+
+    /* 4. Standardize Auth0's special email error rows */
+    #error-cs-email-required,
+    #error-cs-email-invalid {
+      display: none;
+      /* Hide by default. JS will change to 'flex' */
+      align-items: center;
+      gap: 6px;
+      color: var(--error-color, #d03c38);
+      /* FIX: Adjust spacing */
+      margin-top: 4px;
+      margin-bottom: 0;
+      font-size: 0.8125rem;
+      /* Standardize font size */
+    }
+
+    #error-cs-email-required::before,
+    #error-cs-email-invalid::before {
+      content: "!";
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: var(--error-color, #d03c38);
+      color: #fff;
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 14px;
+      text-align: center;
+      margin-right: 2px;
+      position: relative;
+      top: 0;
+      flex-shrink: 0;
+    }
+
+    /* 5. Ensure Email error border shows */
+    .ulp-field.ulp-error #email {
+      border-color: var(--error-color, #d03c38) !important;
+    }
+
+    /* 6. Ensure Email error border overrides focus ring */
+    .ulp-field.ulp-error #email:focus {
+      box-shadow: none !important;
+      /* Remove blue glow */
+    }
+
+    /* 7. Make labels red on error */
+    .ulp-field.ulp-error>label,
+    .ulp-field.ulp-error .floating-label {
+      color: var(--error-color, #d03c38) !important;
+    }
+  </style>
+
+  <style>
+    /* === Country Field Specific Styles === */
+    /* (Moved from form-content-start.html) */
+
+    /* Opt-out of Auth0 floating-label behavior for this one field */
+    #country-field.no-float>label {
+      position: static !important;
+      transform: none !important;
+      top: auto !important;
+      left: auto !important;
+      margin-bottom: 12px !important;
+      color: #000000 !important;
+    }
+
+    /* Make sure our box sits above anything stray */
+    #cc {
+      z-index: 1;
+      background: #fff;
+    }
+
+    /* Make country/phone boxes match default input height/width */
+    #country-field #cc {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px 12px;
+      height: 52px;
+      /* Match default field height */
+      display: flex;
+      /* Ensure vertical centering */
+      align-items: center;
+      /* Ensure vertical centering */
+      border: 1px solid var(--input-border-color, #c9cace);
+      border-radius: 3px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    #country-field #cc:focus-within {
+      border-color: #0068FA !important;
+      box-shadow: 0 0 0 3px rgba(0, 104, 250, .15) !important;
+    }
+
+    /* Country dropdown panel border uses brand color when open */
+    #country-field #cp > div {
+      border: 2px solid #0068FA !important;
+    }
+    #country-field #cp #cs {
+      border-bottom: 2px solid #0068FA !important;
+      outline: none;
+    }
+  </style>
+
+  <style>
+    /* === Phone Field Specific Styles === */
+    
+    /* CRITICAL FIX: Override Auth0's floating label behavior for Dial Code field */            
+      #intl-phone.ulp-field > label,                                                          
+      #phone-label.static-label {                                                             
+        position: static !important;                                                          
+        transform: none !important;                                                           
+        display: block !important;                                                            
+        margin-bottom: 8px !important;                                                        
+        font-size: 0.875rem !important;                                                       
+        color: #6f7780 !important;                                                            
+        pointer-events: auto !important;                                                      
+      }
+
+    #intl-phone .phone-wrap {
+      display: flex;
+      align-items: center;
+      /* vertically center flag, dial code, and input */
+      gap: 8px;
+      /* space between prefix and number */
+      background: #fff;
+      border: 1px solid var(--input-border-color, #c9cace);
+      border-radius: 3px;
+      width: 100%;
+      box-sizing: border-box;
+      height: 52px;
+      /* match default field height */
+      padding: 0 8px;
+      /* horizontal breathing room */
+    }
+
+    #intl-phone .prefix {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      /* keep nice spacing between flag and dial code */
+      position: relative;
+      padding-right: 2px;
+      /* smaller padding so bar moves closer */
+      margin-right: -10px;
+      /* reduce margin to pull bar left */
+    }
+    #intl-phone .prefix::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 1%;
+      /* slightly shorter gap at top */
+      bottom: 1%;
+      /* slightly shorter gap at bottom */
+      width: 1px;
+      background-color: var(--input-border-color, #c9cace);
+    }
+
+    #intl-phone .flag {
+      width: 16px;
+      font-size: 16px;
+      /* emoji size */
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #intl-phone .phone-code {
+      width: 66px;
+      /* roomy for +XXX codes */
+      border: 0;
+      outline: 0;
+      background: transparent;
+      text-align: left;
+      /* left-align near the flag */
+      height: 100%;
+      padding: 0;
+      /* keep vertically centered */
+      font-size: 1rem;
+    }
+
+    #intl-phone .phone-input {
+      flex: 1 1 auto;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      height: 100%;
+      padding: 0 4px;
+      /* no top padding so it centers */
+      font-size: 1rem;
+    }
+
+    /* Focus ring to match UL */
+    #intl-phone:has(.phone-wrap:focus-within) .phone-wrap {
+      box-shadow: 0 0 0 3px var(--transparency-focus-color, rgba(0, 104, 250, .15));
+      border-color: var(--base-focus-color, #0068FA);
+    }
+
+    /* Remove blue glow on error */
+    #intl-phone.ulp-error:has(.phone-wrap:focus-within) .phone-wrap {
+      box-shadow: none !important;
+    }
+
+    /* Error state (Auth0 style) */
+    #intl-phone.ulp-error .phone-wrap {
+      border-color: var(--error-color, #d03c38) !important;
+      box-shadow: none;
+    }
+
+    /* Specific error for phone field */
+    #intl-phone.ulp-error .ulp-error-info {
+      display: flex !important;
+      /* Ensure phone error shows */
+    }
+
+    /* subtle helper tooltip when dial code is empty */
+    #intl-phone .code-hint {
+      position: absolute;
+      left: 12px;
+      top: 100%;
+      margin-top: 4px;
+      font-size: 0.75rem;
+      color: var(--font-light-color, #65676e);
+      background: #fff;
+      border: 1px solid var(--input-border-color, #c9cace);
+      border-radius: 3px;
+      padding: 4px 6px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, .06);
+      z-index: 2;
+    }
+
+    #intl-phone .code-hint::before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: 14px;
+      border-width: 0 6px 6px 6px;
+      border-style: solid;
+      border-color: transparent transparent var(--input-border-color, #c9cace) transparent;
+    }
+
+    #intl-phone .code-hint::after {
+      content: "";
+      position: absolute;
+      top: -5px;
+      left: 15px;
+      border-width: 0 5px 5px 5px;
+      border-style: solid;
+      border-color: transparent transparent #fff transparent;
+    }
+
+    /* Keep dial code red on invalid input */
+    #intl-phone .phone-code.dial-invalid {
+      color: var(--error-color, #d03c38);
+    }
+
+    .ulp-field-checkbox label,
+    .ulp-field-checkbox label:hover,
+    .ulp-field-checkbox input[type="checkbox"]:checked+label,
+    .ulp-field-checkbox input[type="checkbox"]:focus+label {
+      color: inherit !important;
+    }
+
+    .ulp-field-checkbox label {
+      font-size: 14px !important;
+      line-height: 1.25 !important;
+    }
+
+    .ulp-field-checkbox label a {
+      font-size: 14px !important;
+      line-height: 1.25 !important;
+    }
+
+    .ulp-field-checkbox label a {
+        font-weight: 400 !important;
+    }
+
+    #error-cs-email-required,
+    #error-cs-email-invalid {
+      margin-top: -0.65rem !important;
+      margin-bottom: 2rem !important;
+      /* You can adjust 2rem as needed for the desired gap */
+    }
+  </style>
+
+  <style>
+    .password-toggle-cta {
+      align-items: center;
+      cursor: pointer;
+      display: inline-flex;
+      font-size: 1rem;
+      min-height: 52px;
+      padding-left: 4px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: background-color .25s ease-in-out, box-shadow .25s ease-in-out;
+    }
+
+    /* Base pseudo-element: layout only (no background-image here) */
+    .password-toggle-cta .password-icon::after {
+      content: "";
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      margin-right: 4px;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: 18px;
+    }
+
+    /* Ensure the host element can render the pseudo-element reliably */
+    .password-toggle-cta .password-icon {
+      display: inline-block;
+      position: relative;
+    }
+
+    /* State: eye open */
+    .password-toggle-cta .password-icon.password-eye::after {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='18' height='13' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M9 12c3.13 0 5.732-1.788 7.856-5.5C14.732 2.788 12.13 1 9 1S3.268 2.788 1.144 6.5C3.268 10.212 5.87 12 9 12zM9 0c3.667 0 6.667 2.167 9 6.5-2.333 4.333-5.333 6.5-9 6.5s-6.667-2.167-9-6.5C2.333 2.167 5.333 0 9 0zm0 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z' id='a'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cuse fill='%235C677D' fill-rule='nonzero' xlink:href='%23a'/%3E%3Cg mask='url(%23b)' fill='%236E7781'%3E%3Cpath d='M-1-4h20v20H-1z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    /* State: eye slash (fixed path; no .T08 typo) */
+    .password-toggle-cta .password-icon.password-eye-slash::after {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='18' height='15' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M12.148 5.969a3.5 3.5 0 0 1-4.68 4.68l.768-.768a2.5 2.5 0 0 0 3.145-3.145l.767-.767zM5.82 12.297c.993.47 2.052.703 3.18.703 3.13 0 5.732-1.788 7.856-5.5-.837-1.463-1.749-2.628-2.738-3.501l.708-.708C15.994 4.337 17.052 5.74 18 7.5c-2.333 4.333-5.333 6.5-9 6.5a8.294 8.294 0 0 1-3.926-.957l.746-.746zM15.89.813L2.313 14.39a.5.5 0 0 1-.667-.744L3.393 11.9C2.138 10.837 1.007 9.37 0 7.5 2.333 3.167 5.333 1 9 1c1.51 0 2.907.367 4.19 1.102L15.147.146a.5.5 0 0 1 .744.667zm-3.436 2.026A7.315 7.315 0 0 0 9 2C5.87 2 3.268 3.788 1.144 7.5c.9 1.572 1.884 2.798 2.959 3.69l1.893-1.893a3.5 3.5 0 0 1 4.801-4.801l1.657-1.657zm-2.396 2.395a2.5 2.5 0 0 0-3.324 3.324l3.324-3.324z' id='a'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236E7781'%3E%3Cuse xlink:href='%23a'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    .password-toggle-cta:hover {
+      box-shadow: var(--button-hover-shadow, inset 0 0 0 150px rgba(0, 0, 0, .1));
+    }
+  </style>
+  
+  <style>
+    /* === Mobile tagline (below widget, visible < 768px) === */
+    .mobile-tagline {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 20px 16px 20px;
+      background: #ffffff;
+    }
+    .mobile-tagline__text {
+      flex: 1;
+    }
+    .mobile-tagline__title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #000000;
+      margin: 0 0 4px 0;
+    }
+    .mobile-tagline__subtitle {
+      font-size: 0.8125rem;
+      font-weight: 400;
+      color: #555555;
+      margin: 0;
+      line-height: 1.4;
+    }
+    .mobile-tagline__logo {
+      width: 100px;
+      height: auto;
+      margin-left: 16px;
+      flex-shrink: 0;
+      filter: grayscale(1);
+    }
+    @media (min-width: 768px) {
+      .mobile-tagline { display: none; }
+    }
+  </style>
+
+  <style>
+    /* === OpCo footer (grid layout provided by Deepak) === */
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: #767676;
+      z-index: 10;
+    }
+    .footer-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .logo-grid {
+      display: grid;
+      align-items: center;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+    .logo-item {
+      display: flex;
+      justify-content: center;
+    }
+    .logo-item img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    @media (min-width: 640px) {
+      .logo-grid {
+        grid-template-columns: repeat(6, 1fr);
+      }
+    }
+    @media (min-width: 1024px) {
+      .logo-grid {
+        grid-template-columns: repeat(10, 1fr);
+      }
+    }
+    /* On mobile, footer is static (not fixed) to avoid covering content */
+    @media (max-width: 767px) {
+      .footer {
+        position: static;
+      }
+    }
+    /* Ensure widget content doesn't hide behind the fixed footer */
+    @media (min-width: 768px) {
+      #widget {
+        margin-bottom: 100px !important;
+      }
+    }
+  </style>
+
+</head>
+
+<body class="_widget-auto-layout">
+  <!-- Brand text overlay — visible on desktop left side only -->
+  <div class="brand-overlay" aria-hidden="true">
+    <img src="https://lifesciences.danaher.com/icons/danaher.png" alt="Danaher" class="brand-overlay__logo">
+    <p class="brand-overlay__title">One Login.<br>More Access.</p>
+    <p class="brand-overlay__subtitle">Use one account to access select Danaher life sciences companies today, with more joining later this year for a seamless experience.</p>
+  </div>
+
+  <link rel="preload" as="image" href="https://lifesciences.danaher.com/icons/danaher.png"><main class="_widget login-id"><section class="c88701731 _prompt-box-outer c099b394c"><div class="cbfc842ac c01590626"><div class="cd7a00e20"><header class="c0326f8fa cc7bc57ee" id="screen-header" tabindex="-1"><div title="Danaher Lifesciences" id="custom-prompt-logo" style="width:auto !important;height:60px !important;position:static !important;margin:auto !important;padding:0 !important;background-color:transparent !important;background-position:center !important;background-size:contain !important;background-repeat:no-repeat !important"></div><img class="ce8db071d ce2e0ecfa" id="prompt-logo-center" src="https://lifesciences.danaher.com/icons/danaher.png" alt="Danaher Lifesciences"><h1 class="c367b0e82 cefcd6eb6">Welcome</h1><div class="c641f5d8d cab001b01"><p class="cfab07cac c75589d21">Use your Danaher login to sign into SCIEX.</p></div></header><div class="c0acd872b c1a667bdc"><div class="cf2abdb86 cd43cf1d7"><div class="c29eda688"><form class="c0d577f2f _form-login-id" data-form-primary="true" data-disable-html-validations="true" method="POST" novalidate="" dd-html="true"><div id="ulp-error-announcer" class="screen-reader-only" aria-live="assertive" aria-atomic="true"></div><button type="submit" class="c05fac45f" style="opacity:0 !important;position:absolute !important;pointer-events:none !important" value="default" aria-hidden="true" tabindex="-1" name="action">Continue</button><input type="hidden" name="state" value="hKFo2SBOdGVHbnFScktWSFRhemdhNGdyT3ZxMTRJX0tOQ0p6Z6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhwZnkwMFNzVkl6SVFObTNTM0lhN3dVMGVLZHk0Vk9Co2NpZNkgZXVUeUFGZ3NTSFI4dnFXMzVSaU1wQ1psclBuSzFIU1A"><div id="ulp-container-form-content-start"></div><div class="cf2abdb86 cd43cf1d7"><div class="c29eda688"><div class="input-wrapper _input-wrapper"><div class="c5cdc91ba c00b2e702 cf3133ef0 cd7f33370 ulp-field c384c12f1 focus" data-action-text="" data-alternate-action-text=""><label id="username-label" class="c520ffa1a c590a2b37 ceab0c0e7" for="username">Work email address <span class="required" aria-hidden="true">*</span></label><input class="input caa71d818 c7db392d1" inputmode="email" id="username" type="email" aria-labelledby="username-label" aria-required="true" required="" autocomplete="email" autocapitalize="none" spellcheck="false" name="username" value=""></div><div id="error-cs-username-required" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpRequiredFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="username" aria-live="polite" aria-atomic="true">Please enter an email address</div><div id="error-cs-email-invalid" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpEmailValidationFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="username" aria-live="polite" aria-atomic="true">Email is not valid.</div><div id="error-cs-pattern-mismatch" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpPatternCheckFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="username" aria-live="polite" aria-atomic="true"></div></div></div></div><input class="hide" hidden="" type="password" autocomplete="off" tabindex="-1" aria-hidden="true"><input type="hidden" id="js-available" name="js-available" value="true"><input type="hidden" id="webauthn-available" name="webauthn-available" value="true"><input type="hidden" id="is-brave" name="is-brave" value="false"><input type="hidden" id="webauthn-platform-available" name="webauthn-platform-available" value="false"><div id="ulp-container-form-content-end"></div><div class="ce03cec30"><button type="submit" value="default" class="c3e773acf cc4752a31 cbf1ac32b c0686068e _button-login-id" data-action-button-primary="true" name="action">Continue</button></div></form></div></div><div id="ulp-container-form-footer-start"></div><div class="ulp-alternate-action _alternate-action __s16nu9"><p class="cfab07cac c75589d21 cab26dcdc"> Need an account? <a class="ce65b92b3 c3cf67de2" href="/u/signup/identifier?state=hKFo2SBOdGVHbnFScktWSFRhemdhNGdyT3ZxMTRJX0tOQ0p6Z6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhwZnkwMFNzVkl6SVFObTNTM0lhN3dVMGVLZHk0Vk9Co2NpZNkgZXVUeUFGZ3NTSFI4dnFXMzVSaU1wQ1psclBuSzFIU1A">Sign up</a></p></div><div id="ulp-container-form-footer-end"></div></div></div></div></section></main>
+<script id="client-scripts">
+window.ulpFlags = {"custom_prompts_passkeys":true,"ulp_field_validation_double_submit_fix":true,"enable_ulp_wcag_compliance":true,"enable_ulp_rtl_support":false,"disable_ulp_form_submission_fix":false,"disable_back_button_block_submit_fix":false,"enable_ulp_separate_login_display":true,"enable_ulp_separate_signup_identifiers":true};!function(){var e,t,P,N,q,R,D,I,n,O,j,M,U,H,B,r,a,i,o,u,c,l,s,f={exports:function(e,t){return"object"==typeof e.ulpFlags&&null!==e.ulpFlags?e.ulpFlags:{}}}.exports(window,document),d=((e={}).exports=function(n,l){var r={},a={};function u(e,t){if(e.classList)return e.classList.add(t);var n=e.className.split(" ");-1===n.indexOf(t)&&(n.push(t),e.className=n.join(" "))}function i(e,t,n,r){return e.addEventListener(t,n,r)}function o(e){return"string"==typeof e}function c(e,t){return o(e)?l.querySelector(e):e.querySelector(t)}function s(e,t){var n=o(e)?l.querySelectorAll(e):e.querySelectorAll(t);return Array.prototype.slice.call(n)}function f(e,t){if(e.classList)return e.classList.remove(t);var n=e.className.split(" "),r=n.indexOf(t);-1!==r&&(n.splice(r,1),e.className=n.join(" "))}function d(e,t){return e.getAttribute(t)}function p(e,t,n){return e.setAttribute(t,n)}function v(e){return e.remove()}var e=["text","number","email","password","tel","url"],t="select,textarea,"+e.map(function(e){return'input[type="'+e+'"]'}).join(",");return{addClass:u,toggleClass:function(e,t,n){if(!0===n||!1===n)return r=e,a=t,!0!==n?f(r,a):u(r,a);var r,a;if(e.classList)return e.classList.toggle(t);var i=e.className.split(" "),o=i.indexOf(t);-1!==o?i.splice(o,1):i.push(t),e.className=i.join(" ")},hasClass:function(e,t){return e.classList?e.classList.contains(t):-1!==e.className.split(" ").indexOf(t)},addClickListener:function(e,t){return i(e,"click",t)},addEventListener:i,getAttribute:d,hasAttribute:function(e,t){return e.hasAttribute(t)},getElementById:function(e){return l.getElementById(e)},getParent:function(e){return e.parentNode},isString:o,loadScript:function(e,t){var n=l.createElement("script");for(var r in t)r.startsWith("data-")?n.dataset[r.replace("data-","")]=t[r]:n[r]=t[r];n.src=e,l.body.appendChild(n)},removeScript:function(e){l.querySelectorAll('script[src="'+e+'"]').forEach(function(e){e.remove()})},poll:function(e){var i=e.interval||2e3,t=e.url||n.location.href,o=e.condition||function(){return!0},u=e.onSuccess||function(){},c=e.onError||function(){};return setTimeout(function r(){if(l.hidden)return setTimeout(r,i);var a=new XMLHttpRequest;return a.open("GET",t),a.setRequestHeader("Accept","application/json"),a.onload=function(){if(200===a.status){var e="application/json"===a.getResponseHeader("Content-Type").split(";")[0]?JSON.parse(a.responseText):a.responseText;return o(e)?u():setTimeout(r,i)}if(429!==a.status)return c({status:a.status,responseText:a.responseText});var t=1e3*Number.parseInt(a.getResponseHeader("X-RateLimit-Reset")),n=t-(new Date).getTime();return setTimeout(r,i<n?n:i)},a.send()},i)},querySelector:c,querySelectorAll:s,removeClass:f,removeElement:v,setAttribute:p,removeAttribute:function(e,t){return e.removeAttribute(t)},swapAttributes:function(e,t,n){var r=d(e,t),a=d(e,n);p(e,n,r),p(e,t,a)},setGlobalFlag:function(e,t){r[e]=!!t},getGlobalFlag:function(e){return!!r[e]},setSubmittedForm:function(e,t){a[e]=t},getSubmittedForm:function(e){return a[e]},preventFormSubmit:function(e){e.stopPropagation(),e.preventDefault()},getUlpFields:function(e){var t=[];return s(e,'input[name^="ulp-"], textarea[name^="ulp-"], select[name^="ulp-"]').forEach(function(e){t.push({name:d(e,"name"),value:e.value})}),t},appendUlpFieldsToForm:function(n,e){e&&e.length&&(s(n,'input[type="hidden"][name^="ulp-"], textarea[name^="ulp-"], select[name^="ulp-"]').forEach(function(e){v(e)}),e.forEach(function(e){var t=l.createElement("input");p(t,"type","hidden"),p(t,"name",e.name),p(t,"value",e.value),n.appendChild(t)}))},matchMedia:function(e){return"function"==typeof n.matchMedia&&n.matchMedia(e).matches},dispatchEvent:function(e,t,n){var r;"function"!=typeof Event?(r=l.createEvent("Event")).initCustomEvent(t,n,!1):r=new Event(t,{bubbles:n}),e.dispatchEvent(r)},timeoutPromise:function(e,a){return new Promise(function(t,n){var r=setTimeout(function(){n(new Error("timeoutPromise: promise timed out"))},e);a.then(function(e){clearTimeout(r),t(e)},function(e){clearTimeout(r),n(e)})})},createMutationObserver:function(e){return"undefined"==typeof MutationObserver?null:new MutationObserver(e)},consoleWarn:function(){(console.warn||console.log).apply(console,arguments)},getConfigJson:function(e){try{var t=c(e);if(!t)return null;var n=t.value;return n?JSON.parse(n):null}catch(e){return null}},getCSSVariable:function(e){return getComputedStyle(l.documentElement).getPropertyValue(e)},removeAndTrimString:function(e,t){var n=new RegExp(t,"g"),r=e.replace(n,"");return r=r.replace(/\s+/g,"  ").trim()},htmlEncode:function(e){var t=l.createTextNode(e),n=l.createElement("span");return n.appendChild(t),n.innerHTML||""},cleanServerErrorMessage:function(e,t){0<e.length&&0<t.length&&t.forEach(function(e){v(e)})},arrayFrom:function(e){return Array.prototype.slice.call(e)},arrayIncludes:function(e,t){return-1!==e.indexOf(t)},stringStartsWith:function(e,t){return 0===e.indexOf(t)},stringEndsWith:function(e,t){return-1!==e.indexOf(t,e.length-t.length)},setTimeout:setTimeout,globalWindow:n,SUPPORTED_INPUT_TYPES:e,ELEMENT_TYPE_SELECTOR:t,RUN_INIT:!0}},e.exports)(window,document),p=function(){var e={};function g(e){if(!("string"==typeof e||e instanceof String)){var t=typeof e;throw null===e?t="null":"object"===t&&(t=e.constructor.name),new TypeError("Expected a string but received a "+t)}}function b(e,t){var n,r;g(e),r="object"==typeof t?(n=t.min||0,t.max):(n=t,arguments[2]);var a=encodeURI(e).split(/%..|./).length-1;return n<=a&&(void 0===r||a<=r)}function y(e,t){for(var n in void 0===e&&(e={}),t)void 0===e[n]&&(e[n]=t[n]);return e}var _={require_tld:!0,allow_underscores:!1,allow_trailing_dot:!1,allow_numeric_tld:!1,allow_wildcard:!1,ignore_max_length:!1},t="(?:[0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])",n="("+t+"[.]){3}"+t,r=new RegExp("^"+n+"$"),a="(?:[0-9a-fA-F]{1,4})",i=new RegExp("^((?:"+a+":){7}(?:"+a+"|:)|(?:"+a+":){6}(?:"+n+"|:"+a+"|:)|(?:"+a+":){5}(?::"+n+"|(:"+a+"){1,2}|:)|(?:"+a+":){4}(?:(:"+a+"){0,1}:"+n+"|(:"+a+"){1,3}|:)|(?:"+a+":){3}(?:(:"+a+"){0,2}:"+n+"|(:"+a+"){1,4}|:)|(?:"+a+":){2}(?:(:"+a+"){0,3}:"+n+"|(:"+a+"){1,5}|:)|(?:"+a+":){1}(?:(:"+a+"){0,4}:"+n+"|(:"+a+"){1,6}|:)|(?::((?::"+a+"){0,5}:"+n+"|(?::"+a+"){1,7}|:)))(%[0-9a-zA-Z-.:]{1,})?$");function w(e,t){return void 0===t&&(t=""),g(e),(t=String(t))?"4"===t?r.test(e):"6"===t&&i.test(e):w(e,4)||w(e,6)}var x={allow_display_name:!1,allow_underscores:!1,require_display_name:!1,allow_utf8_local_part:!0,require_tld:!0,blacklisted_chars:"",ignore_max_length:!1,host_blacklist:[],host_whitelist:[]},C=/^([^\x00-\x1F\x7F-\x9F\cX]+)</i,E=/^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~]+$/i,A=/^[a-z\d]+$/,S=/^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f]))*$/i,T=/^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\u00A1-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+$/i,k=/^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*$/i,L=254;function u(e,t,n,r,a){if(g(e),e=e.trim(),(t=y(t,x)).require_display_name||t.allow_display_name){var i=e.match(C);if(i){var o=i[1];if(e=e.replace(o,"").replace(/(^<|>$)/g,""),a(o," ")&&(o=o.slice(0,-1)),!function(e){var t=e.replace(/^"(.+)"$/,"$1");if(!t.trim())return!1;if(/[\.";<>]/.test(t)){if(t===e)return!1;if(t.split('"').length!==t.split('\\"').length)return!1}return!0}(o))return!1}else if(t.require_display_name)return!1}if(!t.ignore_max_length&&e.length>L)return!1;var u=e.split("@"),c=u.pop(),l=c.toLowerCase();if(n(t.host_blacklist,l))return!1;if(0<t.host_whitelist.length&&!n(t.host_whitelist,l))return!1;var s=u.join("@");if(t.domain_specific_validation&&("gmail.com"===l||"googlemail.com"===l)){var f=(s=s.toLowerCase()).split("+")[0];if(!b(f.replace(/\./g,""),{min:6,max:30}))return!1;for(var d=f.split("."),p=0;p<d.length;p++)if(!A.test(d[p]))return!1}if(!(!1!==t.ignore_max_length||b(s,{max:64})&&b(c,{max:254})))return!1;if(!function(e,t){g(e),(t=y(t,_)).allow_trailing_dot&&"."===e[e.length-1]&&(e=e.substring(0,e.length-1)),!0===t.allow_wildcard&&0===e.indexOf("*.")&&(e=e.substring(2));var n=e.split("."),r=n[n.length-1];if(t.require_tld){if(n.length<2)return!1;if(!t.allow_numeric_tld&&!/^([a-z\u00A1-\u00A8\u00AA-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]{2,}|xn[a-z0-9-]{2,})$/i.test(r))return!1;if(/\s/.test(r))return!1}return!(!t.allow_numeric_tld&&/^\d+$/.test(r))&&n.every(function(e){return!(63<e.length&&!t.ignore_max_length||!/^[a-z_\u00a1-\uffff0-9-]+$/i.test(e)||/[\uff01-\uff5e]/.test(e)||/^-|-$/.test(e)||!t.allow_underscores&&/_/.test(e))})}(c,{require_tld:t.require_tld,ignore_max_length:t.ignore_max_length,allow_underscores:t.allow_underscores})){if(!t.allow_ip_domain)return!1;if(!w(c)){if(!r(c,"[")||!a(c,"]"))return!1;var v=c.slice(1,-1);if(0===v.length||!w(v))return!1}}if('"'===s[0])return s=s.slice(1,s.length-1),t.allow_utf8_local_part?k.test(s):S.test(s);for(var h=t.allow_utf8_local_part?T:E,m=(d=s.split("."),0);m<d.length;m++)if(!h.test(d[m]))return!1;return!t.blacklisted_chars||-1===s.search(new RegExp("["+t.blacklisted_chars+"]+","g"))}return e.exports=function(r,a,n,i,o){return{ulpRequiredFunction:function(e,t){return!t||!!e.value},ulpPasswordPolicyFunction:function(e,t){if(r&&r.ulpFlags&&r.ulpFlags.disable_ulp_form_submission_fix)return!0;if(!e||"password"!==e.name)return!0;if(!a.querySelector(".c870c2d44.cb1d7741c"))return!0;if(!e.value)return!0;var n=e.classList&&e.classList.contains("c1c301949");return!t&&!n||!n},ulpEmailValidationFunction:function(e,t){return!t||!e.value||!!u(e.value,void 0,n,i,o)},ulpPatternCheckFunction:function(e,t){return!t||!e.value||function(e){if("password"===e.name)return!0;var t=e.getAttribute("pattern");return!t||null!==e.value.match(t)}(e)}}},e.exports}()(window,document,d.arrayIncludes,d.stringStartsWith,d.stringEndsWith),v={exports:function(e,t){for(var i="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_",s=new Uint8Array(256),o=0;o<i.length;o++)s[i.charCodeAt(o)]=o;function u(e){var t,n=new Uint8Array(e),r=n.length,a="";for(t=0;t<r;t+=3)a+=i[n[t]>>2],a+=i[(3&n[t])<<4|n[t+1]>>4],a+=i[(15&n[t+1])<<2|n[t+2]>>6],a+=i[63&n[t+2]];return r%3==2?a=a.substring(0,a.length-1):r%3==1&&(a=a.substring(0,a.length-2)),a}function n(){return navigator&&navigator.credentials&&"undefined"!=typeof PublicKeyCredential}return{base64URLEncode:u,base64URLDecode:function(e){var t,n,r,a,i,o=.75*e.length,u=e.length,c=0,l=new Uint8Array(o);for(t=0;t<u;t+=4)n=s[e.charCodeAt(t)],r=s[e.charCodeAt(t+1)],a=s[e.charCodeAt(t+2)],i=s[e.charCodeAt(t+3)],l[c++]=n<<2|r>>4,l[c++]=(15&r)<<4|a>>2,l[c++]=(3&a)<<6|63&i;return l.buffer},publicKeyCredentialToJSON:function e(t){if(t instanceof Array){var n=[];for(o=0;o<t.length;o+=1)n.push(e(t[o]));return n}if(t instanceof ArrayBuffer)return u(t);if(t instanceof Object){var r={};for(var a in t)r[a]=e(t[a]);return r}return t},str2ab:function(e){for(var t=new ArrayBuffer(e.length),n=new Uint8Array(t),r=0,a=e.length;r<a;r++)n[r]=e.charCodeAt(r);return t},isWebAuthnAvailable:n,isWebauthnPlatformAuthenticatorAvailableAsync:function(e){return n()?e(1e3,PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable()):Promise.resolve(!1)}}}}.exports(window,document);({exports:function(e,r,a,t){var n=e(".c1cdc819d"),i=e("#alert-trigger"),o=e(".c7b7a9c50"),u=e(".c2072df08"),c=!1;i&&u&&n&&t(n,function(e){var t=e.target===i,n=u.contains(e.target);return t&&!c?(r(o,"show"),void(c=!0)):t&&c||c&&!n?(a(o,"show"),void(c=!1)):void 0})}}).exports(d.querySelector,d.addClass,d.removeClass,d.addClickListener),(P="recaptcha_v2",N="recaptcha_enterprise",q="hcaptcha",R="friendly_captcha",D="arkose",I="auth0_v2",(t={}).exports=function(i,u,c,l,s,f,d,p,n,a){if(!n.enable_ulp_rtl_support){var v=500,h=3,m=0,g=c("div[data-captcha-sitekey]"),b=c(".ulp-captcha-client-error"),r=b?b.innerHTML:"",y=c("div[data-captcha-sitekey] input");if(g){var e=C(),t=E();e&&t&&function(){var e="captchaCallback_"+Math.floor(1000001*Math.random()),t=C(),n={async:!0,defer:!0},r=function(e,t,n,r){switch(C()){case P:return"https://www.recaptcha.net/recaptcha/api.js?render=explicit&hl="+e+"&onload="+t;case N:return"https://www.recaptcha.net/recaptcha/enterprise.js?render=explicit&hl="+e+"&onload="+t;case q:return"https://js.hcaptcha.com/1/api.js?render=explicit&hl="+e+"&onload="+t;case R:return"https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.min.js";case D:return"https://"+n+".arkoselabs.com/v2/"+r+"/api.js";case I:return"https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload="+t}}(x(),e,g?g.getAttribute("data-captcha-client-subdomain"):null,E());if(t===D||t===I){n["data-callback"]=e;var o=!(n.onerror=function(){if(m<h)return u(r),i(r,n),void m++;u(r),S("BYPASS_CAPTCHA")}),a=function(e){o=!0;try{if(!e||"function"!=typeof e.run||"function"!=typeof e.setConfig)return void L("INVALID_CREDENTIALS");r=e,a=A(),i=function(e){var t=y?y.value:"";t&&""!==t||(e.preventDefault(),e.stopPropagation(),setTimeout(function(){r.run()},v))},a&&(a.addEventListener("submit",i,!0),r.setConfig({onCompleted:function(e){if(!e||!e.token)return a&&a.removeEventListener("submit",i,!0),void L("INVALID_CREDENTIALS");S(e.token),a&&(a.removeEventListener("submit",i,!0),a.requestSubmit?a.requestSubmit():a.submit())},onError:function(n){return fetch("https://status.arkoselabs.com/api/v2/status.json").then(function(e){return e.json()}).then(function(e){var t=e.status.indicator;return"none"===t}).catch(function(e){return!1}).then(function(e){if(e&&m<h)return r.reset(),new Promise(function(e){setTimeout(function(){e(r.run())},v),m++});var t=n&&n.cfc4c5953?n.cfc4c5953:"RUNTIME_ERROR";b.innerHTML=b.innerHTML.replace("#{errorCode}",p(t)),l(g,"cfc4c5953"),s(b,"hide"),S("BYPASS_CAPTCHA"),a.removeEventListener("submit",i,!0)})}}))}catch(e){L("INIT_ERROR")}var r,a,i};t===I&&(a=function(){F()}),window[e]=a,t===D&&(n.onload=function(){setTimeout(function(){o||L("INVALID_CREDENTIALS")},250)})}else window[e]=function(){delete window[e],F()},t===R&&(l(w(),"frc-captcha"),d(w(),"data-sitekey",E()),n.onload=window[e]);i(r,n)}()}}function _(){switch(C()){case P:return window.grecaptcha;case N:return window.grecaptcha.enterprise;case q:return window.hcaptcha;case R:return window.friendlyChallenge;case D:return window.arkose;case I:return window.turnstile}}function w(){return c(function(){switch(C()){case P:case N:return"#ulp-recaptcha";case q:return"#ulp-hcaptcha";case R:return"#ulp-friendly-captcha";case D:return"#ulp-arkose";case I:return"#ulp-auth0-v2-captcha"}}())}function x(){return g?g.getAttribute("data-captcha-lang"):null}function C(){return g?g.getAttribute("data-captcha-provider"):null}function E(){return g?g.getAttribute("data-captcha-sitekey"):null}function A(){return c('form[data-form-primary="true"]')}function S(e){return y.value=e}function o(){return c("#error-element-captcha-required")}function T(){var e=o();e&&l(e,"hide");var t=c("#captcha-required-status");t&&(t.textContent=""),a&&a("invalidCaptcha",!1)}function k(t){if(n.enable_ulp_wcag_compliance){var e=A();e&&y&&t&&e.addEventListener("submit",function(e){y.value?T():(e.preventDefault(),l(g,"cfc4c5953"),function(){var e=o();e&&s(e,"hide");var t=c("#captcha-required-status");if(t){var n=t.getAttribute("data-captcha-required-error");if(n){var r=-1!==t.textContent.indexOf("​");t.textContent=n+(r?"":"​")}}a&&a("invalidCaptcha",!0)}(),t.focus())},!0)}}function L(e){if(b&&g){b.innerHTML=r.replace("#{errorCode}",p(e||"INIT_ERROR")),l(g,"cfc4c5953"),s(b,"hide");var t=c("#error-element-captcha");t&&l(t,"hide")}}function F(){var e=_(),t=f("--ulp-captcha-widget-theme");t=t?t.trim():"light";var n=c("#captcha-status"),r=n?n.getAttribute("data-captcha-expired-error"):"";if(C()===R)"dark"===t&&l(c(".frc-captcha"),"dark"),(o=e.autoWidget).opts.language=x(),o.opts.doneCallback=function(e){S(e)};else{var a=w();d(a,"tabindex","-1");var i={sitekey:E(),theme:t,"expired-callback":function(){S(""),l(g,"cfc4c5953"),e.reset(o),n&&(n.textContent=r),a.focus()},callback:function(e){S(e),s(g,"cfc4c5953"),n&&(n.textContent=""),T()}};C()===I&&(i.language=x(),i.retry="never",i.size="flexible",i["response-field"]=!1,i["error-callback"]=function(e){return console.error("ERROR: Auth Challenge Error Code",e),S(""),m<h?(m++,_().reset(o)):(b.innerHTML=b.innerHTML.replace("#{errorCode}",p(e)),l(g,"cfc4c5953"),s(b,"hide")),!0});var o=e.render(a,i);n&&(n.textContent=""),C()===P&&k(a)}}},t.exports)(d.loadScript,d.removeScript,d.querySelector,d.addClass,d.removeClass,d.getCSSVariable,d.setAttribute,d.htmlEncode,f,d.setGlobalFlag),(O="recaptcha_v2",j="recaptcha_enterprise",M="hcaptcha",U="friendly_captcha",H="arkose",B="auth0_v2",(n={}).exports=function(i,u,c,l,s,f,d,p,n,a){if(n.enable_ulp_rtl_support){var v=500,h=3,m=0,g=c("div[data-captcha-sitekey]"),b=c(".ulp-captcha-client-error"),r=b?b.innerHTML:"",y=c("div[data-captcha-sitekey] input");if(g){var e=C(),t=E();e&&t&&function(){var e="captchaCallback_"+Math.floor(1000001*Math.random()),t=C(),n={async:!0,defer:!0},r=function(e,t,n,r){switch(C()){case O:return"https://www.recaptcha.net/recaptcha/api.js?render=explicit&hl="+e+"&onload="+t;case j:return"https://www.recaptcha.net/recaptcha/enterprise.js?render=explicit&hl="+e+"&onload="+t;case M:return"https://js.hcaptcha.com/1/api.js?render=explicit&hl="+e+"&onload="+t;case U:return"https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.min.js";case H:return"https://"+n+".arkoselabs.com/v2/"+r+"/api.js";case B:return"https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload="+t}}(x(),e,g?g.getAttribute("data-captcha-client-subdomain"):null,E());if(t===H||t===B){n["data-callback"]=e;var o=!(n.onerror=function(){if(m<h)return u(r),i(r,n),void m++;u(r),S("BYPASS_CAPTCHA")}),a=function(e){o=!0;try{if(!e||"function"!=typeof e.run||"function"!=typeof e.setConfig)return void L("INVALID_CREDENTIALS");r=e,a=A(),i=function(e){var t=y?y.value:"";t&&""!==t||(e.preventDefault(),e.stopPropagation(),setTimeout(function(){r.run()},v))},a&&(a.addEventListener("submit",i,!0),r.setConfig({language:x(),onCompleted:function(e){if(!e||!e.token)return a&&a.removeEventListener("submit",i,!0),void L("INVALID_CREDENTIALS");S(e.token),a&&(a.removeEventListener("submit",i,!0),a.requestSubmit?a.requestSubmit():a.submit())},onError:function(n){return fetch("https://status.arkoselabs.com/api/v2/status.json").then(function(e){return e.json()}).then(function(e){var t=e.status.indicator;return"none"===t}).catch(function(e){return!1}).then(function(e){if(e&&m<h)return r.reset(),new Promise(function(e){setTimeout(function(){e(r.run())},v),m++});var t=n&&n.cfc4c5953?n.cfc4c5953:"RUNTIME_ERROR";b.innerHTML=b.innerHTML.replace("#{errorCode}",p(t)),l(g,"cfc4c5953"),s(b,"hide"),S("BYPASS_CAPTCHA"),a.removeEventListener("submit",i,!0)})}}))}catch(e){L("INIT_ERROR")}var r,a,i};t===B&&(a=function(){F()}),window[e]=a,t===H&&(n.onload=function(){setTimeout(function(){o||L("INVALID_CREDENTIALS")},250)})}else window[e]=function(){delete window[e],F()},t===U&&(l(w(),"frc-captcha"),d(w(),"data-sitekey",E()),d(w(),"data-lang",x()),n.onload=window[e]);i(r,n)}()}}function _(){switch(C()){case O:return window.grecaptcha;case j:return window.grecaptcha.enterprise;case M:return window.hcaptcha;case U:return window.friendlyChallenge;case H:return window.arkose;case B:return window.turnstile}}function w(){return c(function(){switch(C()){case O:case j:return"#ulp-recaptcha";case M:return"#ulp-hcaptcha";case U:return"#ulp-friendly-captcha";case H:return"#ulp-arkose";case B:return"#ulp-auth0-v2-captcha"}}())}function x(){return g?g.getAttribute("data-captcha-lang"):null}function C(){return g?g.getAttribute("data-captcha-provider"):null}function E(){return g?g.getAttribute("data-captcha-sitekey"):null}function A(){return c('form[data-form-primary="true"]')}function S(e){return y.value=e}function o(){return c("#error-element-captcha-required")}function T(){var e=o();e&&l(e,"hide");var t=c("#captcha-required-status");t&&(t.textContent=""),a&&a("invalidCaptcha",!1)}function k(t){if(n.enable_ulp_wcag_compliance){var e=A();e&&y&&t&&e.addEventListener("submit",function(e){y.value?T():(e.preventDefault(),l(g,"cfc4c5953"),function(){var e=o();e&&s(e,"hide");var t=c("#captcha-required-status");if(t){var n=t.getAttribute("data-captcha-required-error");if(n){var r=-1!==t.textContent.indexOf("​");t.textContent=n+(r?"":"​")}}a&&a("invalidCaptcha",!0)}(),t.focus())},!0)}}function L(e){if(b&&g){b.innerHTML=r.replace("#{errorCode}",p(e||"INIT_ERROR")),l(g,"cfc4c5953"),s(b,"hide");var t=c("#error-element-captcha");t&&l(t,"hide")}}function F(){var e=_(),t=f("--ulp-captcha-widget-theme");t=t?t.trim():"light";var n=c("#captcha-status"),r=n?n.getAttribute("data-captcha-expired-error"):"";if(C()===U)"dark"===t&&l(c(".frc-captcha"),"dark"),(o=e.autoWidget).opts.language=x(),o.opts.doneCallback=function(e){S(e)};else{var a=w();d(a,"tabindex","-1");var i={sitekey:E(),theme:t,"expired-callback":function(){S(""),l(g,"cfc4c5953"),e.reset(o),n&&(n.textContent=r),a.focus()},callback:function(e){S(e),s(g,"cfc4c5953"),n&&(n.textContent=""),T()}};C()===B&&(i.language=x(),i.retry="never",i.size="flexible",i["response-field"]=!1,i["error-callback"]=function(e){return console.error("ERROR: Auth Challenge Error Code",e),S(""),m<h?(m++,_().reset(o)):(b.innerHTML=b.innerHTML.replace("#{errorCode}",p(e)),l(g,"cfc4c5953"),s(b,"hide")),!0});var o=e.render(a,i);n&&(n.textContent=""),C()===O&&k(a)}}},n.exports)(d.loadScript,d.removeScript,d.querySelector,d.addClass,d.removeClass,d.getCSSVariable,d.setAttribute,d.htmlEncode,f,d.setGlobalFlag),((r={}).exports=function(r,e,a,i,o,u,c,l,n,s,t){if(!t.enable_ulp_wcag_compliance){if(r("body._simple-labels"))return e(".c520ffa1a.no-js").forEach(function(e){o(e,"no-js")}),void e(".c520ffa1a.js-required").forEach(function(e){i(e,"hide")});e(".c5cdc91ba:not(.c7b582acb):not(disabled)").forEach(function(e){i(e,"c384c12f1");var t,n=r(e,".input");n.value&&i(e,"c202c8165"),a(e,"change",f),a(n,"blur",f),a(n,"animationstart",d),t=n,c(function(){t.value&&l(t,"change",!0)},100)})}function f(e){var t=e.target,n=u(t);t.value||s(t,"data-autofilled")?i(n,"c202c8165"):o(n,"c202c8165")}function d(e){var t=e.target;"onAutoFillStart"===e.animationName&&(n(t,"data-autofilled",!0),l(e.target,"change",!0),a(t,"keyup",p,{once:!0}))}function p(e){var t=e.target;n(t,"data-autofilled","")}},r.exports)(d.querySelector,d.querySelectorAll,d.addEventListener,d.addClass,d.removeClass,d.getParent,d.setTimeout,d.dispatchEvent,d.setAttribute,d.getAttribute,f),{exports:function(e,t,r,a,i,o,u,c,n,l){function s(e){var t=r("submitted"),n=i("submittedForm");a("submitted",!0),o("submittedForm",e.currentTarget),t&&n&&n===e.currentTarget?u(e):"apple"===c(e.target,"data-provider")&&setTimeout(function(){a("submitted",!1)},2e3)}l=l||{};var f=e("form");f&&(f.forEach(function(e){t(e,"submit",s)}),t(n,"pageshow",function(){l.disable_back_button_block_submit_fix||a("submitted",!1)}))}}.exports(d.querySelectorAll,d.addEventListener,d.getGlobalFlag,d.setGlobalFlag,d.getSubmittedForm,d.setSubmittedForm,d.preventFormSubmit,d.getAttribute,d.globalWindow,f),{exports:function(t,e,n){var r=t("form._form-detect-browser-capabilities"),a=t("main.login-id"),i=t("main.signup-with-passkeys"),o=t("div#passkey-detect-browser-capabilities");if(r||a||i||o){var u=e.isWebAuthnAvailable();t("#webauthn-available").value=u?"true":"false",t("#js-available").value="true",navigator.brave?navigator.brave.isBrave().then(function(e){t("#is-brave").value=e,c()}):c()}function c(){u?e.isWebauthnPlatformAuthenticatorAvailableAsync(n).then(function(e){t("#webauthn-platform-available").value=e?"true":"false",r&&r.submit()}).catch(function(e){t("#webauthn-platform-available").value="false",r&&r.submit()}):(t("#webauthn-platform-available").value="false",r&&r.submit())}}}.exports(d.querySelector,v,d.timeoutPromise),function(){var e={};function s(e,a,n,t,r,i,o,u,c){var l="user-initiated-passkey-challenge",s=a("#allow-passkeys");if(s&&s.value){var f=r("#passkey-config-json");if(f){var d=a(".passkey-begin-button"),p=n.isWebauthnPlatformAuthenticatorAvailableAsync(t),v=a("#username"),h=(navigator.userAgent||"").toLowerCase(),m=!!window.safari||!!h.match(/safari/)&&!h.match(/chrome/)&&!h.match(/chromium/),g=-1!==(v&&v.getAttribute("autocomplete")||"").indexOf("webauthn"),b=f,y=new AbortController;b.publicKey.challenge=n.base64URLDecode(b.publicKey.challenge);var _=a('form[data-form-primary="true"]');d&&e(d,function(e){d.disabled=!0,y.abort(l),navigator.credentials.get(b).then(function(e){var r=E(e);p.then(function(e){if(r.isUserVerifyingPlatformAuthenticatorAvailable=e,C(JSON.stringify(r)),c.custom_prompts_passkeys){var t=_?o(_):[];if(t.length){var n=a("form._form-passkey-challenge");u(n,t)}}w()})}).catch(function(e){x(e)})}),(!m||g)&&window.PublicKeyCredential&&window.PublicKeyCredential.isConditionalMediationAvailable&&window.PublicKeyCredential.isConditionalMediationAvailable().then(function(e){if(e){var t=Object.assign({},b,{mediation:"conditional",signal:y.signal});navigator.credentials.get(t).then(function(e){v.blur();var r=E(e);p.then(function(e){if(r.isUserVerifyingPlatformAuthenticatorAvailable=e,C(JSON.stringify(r)),c.custom_prompts_passkeys){var t=_?o(_):[];if(t.length){var n=a("form._form-passkey-challenge");u(n,t)}}w()})}).catch(function(e){e!==l&&"AbortError"!==e.name&&i("autofill UI error",e)})}}).catch(function(){})}}function w(){a("form._form-passkey-challenge").submit()}function x(e){var t;a("#action").value="showError::"+(t=e,JSON.stringify({name:t.name,message:t.message,stack:t.stack})),a("form._form-passkey-challenge").submit()}function C(e){a("#passkey").value=e}function E(e){var t={id:e.id,rawId:n.base64URLEncode(e.rawId),type:e.type,response:{clientDataJSON:n.base64URLEncode(e.response.clientDataJSON),authenticatorData:n.base64URLEncode(e.response.authenticatorData),signature:n.base64URLEncode(e.response.signature),userHandle:e.response.userHandle?n.base64URLEncode(e.response.userHandle):null}};return e.authenticatorAttachment&&(t.authenticatorAttachment=e.authenticatorAttachment),t}}return e.exports=function(e,t,n,r,a,i,o,u,c,l){return e(window,"load",function(e){s(t,n,r,a,i,o,u,c,l)}),{configurePasskeys:s}},e.exports}()(d.addEventListener,d.addClickListener,d.querySelector,v,d.timeoutPromise,d.getConfigJson,d.consoleWarn,d.getUlpFields,d.appendUlpFieldsToForm,f),{exports:function(t,e,n){var r=e(".passkey-hidden-ui"),a=navigator.userAgent.toLowerCase(),i=!!window.safari||a.match(/safari/)&&!a.match(/chrome/)&&!a.match(/chromium/);!r||r.length<=0||(i?r.forEach(function(e){t(e,"passkey-hidden-ui")}):window.PublicKeyCredential&&window.PublicKeyCredential.isConditionalMediationAvailable&&window.PublicKeyCredential.isConditionalMediationAvailable().then(function(e){e?r.forEach(function(e){n(e)}):r.forEach(function(e){t(e,"passkey-hidden-ui")})}).catch(function(e){r.forEach(function(e){t(e,"passkey-hidden-ui")})}))}}.exports(d.removeClass,d.querySelectorAll,d.removeElement),{exports:function(n,e,r,a,i,o,u,c,l,t,s,f){if(f.enable_ulp_wcag_compliance){var d=e("[id^='ulp-container-']");if(d&&d.length){var p=t(w);if(p)for(var v=0;v<d.length;v++)p.observe(d[v],{childList:!0,subtree:!0})}w()}function h(e){var t=e.target,n=o(t);t.value||c(t,"data-autofilled")?a(n,"c202c8165"):i(n,"c202c8165")}function m(e){var t=e.target,n=o(t);a(n,"focus"),_(t,n)}function g(e){var t=e.target,n=o(t);i(n,"focus"),h(e),_(t,n)}function b(e){var t=e.target;l(t,"data-autofilled","")}function y(e){var t=e.target;"onAutoFillStart"===e.animationName&&(l(t,"data-autofilled",!0),dispatchEvent(e.target,"change",!0),r(t,"keyup",b,{once:!0}))}function _(e,t){e.value?a(t,"c202c8165"):i(t,"c202c8165")}function w(){e(".ulp-field").forEach(function(e){if(!u(e,"c384c12f1")){var t=n(e,s);t&&(a(e,"c384c12f1"),_(t,e),setTimeout(function(){_(t,e)},50),t===document.activeElement&&a(e,"focus"),r(t,"change",h),r(t,"focus",m),r(t,"blur",g),r(t,"animationstart",y))}})}}}.exports(d.querySelector,d.querySelectorAll,d.addEventListener,d.addClass,d.removeClass,d.getParent,d.hasClass,d.getAttribute,d.setAttribute,d.createMutationObserver,d.ELEMENT_TYPE_SELECTOR,f),{exports:function(n,e,r,a,i,o,u,t,c,l){if(!l.enable_ulp_wcag_compliance){var s=e("[id^='ulp-container-']");if(s&&s.length){var f=t(g);if(f)for(var d=0;d<s.length;d++)f.observe(s[d],{childList:!0,subtree:!0});g()}}function p(e){var t=e.target,n=o(t);t.value?a(n,"c202c8165"):i(n,"c202c8165")}function v(e){var t=e.target,n=o(t);a(n,"focus"),m(t,n)}function h(e){var t=e.target,n=o(t);i(n,"focus"),m(t,n)}function m(e,t){e.value?a(t,"c202c8165"):i(t,"c202c8165")}function g(){e("[id^='ulp-container-'] .ulp-field").forEach(function(e){if(!u(e,"c384c12f1")){var t=n(e,c);t&&(a(e,"c384c12f1"),m(t,e),setTimeout(function(){m(t,e)},50),t===document.activeElement&&a(e,"focus"),r(t,"change",p),r(t,"focus",v),r(t,"blur",h))}})}}}.exports(d.querySelector,d.querySelectorAll,d.addEventListener,d.addClass,d.removeClass,d.getParent,d.hasClass,d.createMutationObserver,d.ELEMENT_TYPE_SELECTOR,f),((a={}).exports=function(i,o,r,a,l,u,c,s,f,d,p,v,t,h,m,e,n,g,b,y,_,w){if(y.enable_ulp_wcag_compliance){var x=!1,C=e+',input[type="checkbox"]',E=50,A=2e3,S=[];return U(),[C,F,P,N,q,I,j,O,M,L,U]}function T(e){u(e,"disabled",!0),y.disable_back_button_block_submit_fix?y.ulp_field_validation_double_submit_fix&&setTimeout(function(){c(e,"disabled")},A):S.push(e)}function k(e){o(e,'button[data-action-button-primary="true"]').forEach(function(e){T(e)})}function L(){y.disable_back_button_block_submit_fix||r(v,"pageshow",function(){S.forEach(function(e){c(e,"disabled")}),S=[]})}function F(e){var t=l(e,"data-ulp-validation-function"),n=a(e);return{functionName:t,element:i(n,C),parent:n}}function P(e){var a=[],i=[];return o(e,"[data-ulp-validation-function]").forEach(function(e){var t=F(e),n=[];if(t.element){if("input"===t.element.tagName.toLowerCase()){var r=l(t.element,"type");"checkbox"!==r&&-1===m.indexOf(r)&&n.push("Unsupported input type: "+r)}}else n.push("Could not find element");v[t.functionName]||n.push("Could not find function with name: "+t.functionName),n.length?i=i.concat(n):a.push(e)}),i.length&&t(i.join("\r\n")),a}function N(e,t,n){var r=F(e),a=(0,v[r.functionName])(r.element,t,n);a?s(e,"ulp-validator-error")&&(d(e,"ulp-validator-error"),c(e,"data-is-error")):s(e,"ulp-validator-error")||(f(e,"ulp-validator-error"),u(e,"data-is-error",!0));var i=o(r.parent,".ulp-validator-error");return p(r.parent,"ulp-error",!!i.length),a}function q(t){var n=F(t),e=(l(t,"data-ulp-validation-event-listeners")||"").replace(/\s/g,"").split(",").filter(function(e){return!!e});e.length&&e.forEach(function(e){r(n.element,e,function(){N(t,x,e)})})}function R(e){e.forEach(function(e){var t=e.id,n=l(e,"data-ulp-validation-target"),r=i('[id="'+n+'"]');if(r){var a=l(r,"aria-describedby");a&&-1!==a.indexOf(t)||u(r,"aria-describedby",a?a+" "+t:t),u(r,"aria-invalid","true")}})}function D(e,t){var n=i("#ulp-error-announcer");if(n){n.textContent="";var r=[];if(e.forEach(function(e){var t=e.textContent;t&&t.trim()&&r.push(t.trim())}),t){var a=function(){var e=i(".c870c2d44.cb1d7741c");if(!e)return[];var a=[],t=i(e,".c3f128781");t&&t.textContent&&t.textContent.trim()&&a.push(t.textContent.trim());var n=o(e,"li.c7178a30f");return n&&n.length&&n.forEach(function(e){var t="";if(s(e,"ced850f0d")){var n=i(e,".c0ccf896f");n&&(t=n.textContent)}else if(s(e,"cfc4c5953")){var r=i(e,".c3defe628");r&&(t=r.textContent)}t&&t.trim()&&a.push(t.trim())}),a}();a.length&&(r=r.concat(a))}r.length&&v.setTimeout(function(){n.textContent=r.map(function(e){return e.replace(/\.+$/,"")}).join(". ")},E)}}function I(e,t,n){var r=_&&_("submitted");if(!(y.ulp_field_validation_double_submit_fix&&t.defaultPrevented&&r)){x=!0;var a=n.filter(function(e){return!N(e,x,"submit")});if(y.disable_ulp_form_submission_fix){if(!a.length&&!t.defaultPrevented)return t.submitter&&"default"==l(t.submitter,"value")&&T(t.submitter),y.ulp_field_validation_double_submit_fix&&k(e),void e.submit();if(h(t),R(a),D(a,!1),y.ulp_field_validation_double_submit_fix&&w("submitted",!1),a.length){var i=F(a[0]);i.element.focus({preventScroll:!0}),i.parent.scrollIntoView({behavior:"smooth"})}}else{var o=_&&_("invalidPasswordPolicy"),u=_&&_("invalidCaptcha");if(!a.length&&!o&&!u)return t.submitter&&"default"==l(t.submitter,"value")&&T(t.submitter),y.ulp_field_validation_double_submit_fix&&k(e),void e.submit();if(h(t),R(a),D(a,!!o),y.ulp_field_validation_double_submit_fix&&w&&w("submitted",!1),a.length){var c=F(a[0]);c.element.focus({preventScroll:!0}),c.parent.scrollIntoView({behavior:"smooth"})}}}}function O(){var t=i('form[data-form-primary="true"]'),n=P(t);0!==n.length&&(n.forEach(function(e){q(e)}),r(t,"submit",function(e){I(t,e,n)}))}function j(){var n=i('form[data-form-primary="true"]'),e=o('form[data-form-secondary="true"]');n&&e.length&&e.forEach(function(t){r(t,"submit",function(){var e=g(n);e.length&&b(t,e)})})}function M(){if(n)for(var e in n)n.hasOwnProperty(e)&&(v[e]=n[e])}function U(){var e=i("form[data-disable-html-validations]");e&&(M(),u(e,"novalidate",""),O(),L(),y.custom_prompts_passkeys&&j())}},a.exports)(d.querySelector,d.querySelectorAll,d.addEventListener,d.getParent,d.getAttribute,d.setAttribute,d.removeAttribute,d.hasClass,d.addClass,d.removeClass,d.toggleClass,d.globalWindow,d.consoleWarn,d.preventFormSubmit,d.SUPPORTED_INPUT_TYPES,d.ELEMENT_TYPE_SELECTOR,p,d.getUlpFields,d.appendUlpFieldsToForm,f,d.getGlobalFlag,d.setGlobalFlag),{exports:function(r,o,a,i,u,c,l,t,s,f,e,n){if(!n.enable_ulp_wcag_compliance){var d=!1,p=e+',input[type="checkbox"]';return _(),[p,v,h,m,g,b,y,_]}function v(e){var t=u(e,"data-ulp-validation-function"),n=i(e);return{functionName:t,element:r(n,p),parent:n}}function h(e){var a=[],i=[];return o(e,"[data-ulp-validation-function]").forEach(function(e){var t=v(e),n=[];if(t.element){if("input"===t.element.tagName.toLowerCase()){var r=u(t.element,"type");"checkbox"!==r&&-1===f.indexOf(r)&&n.push("Unsupported input type: "+r)}}else n.push("Could not find element");l[t.functionName]||n.push("Could not find function with name: "+t.functionName),n.length?i=i.concat(n):a.push(e)}),i.length&&t(i.join("\r\n")),a}function m(e,t,n){var r=v(e),a=(0,l[r.functionName])(r.element,t,n);c(e,"ulp-validator-error",!a);var i=o(r.parent,".ulp-validator-error");return c(r.parent,"ulp-error",!!i.length),a}function g(t){var n=v(t),e=(u(t,"data-ulp-validation-event-listeners")||"").replace(/\s/g,"").split(",").filter(function(e){return!!e});e.length&&e.forEach(function(e){a(n.element,e,function(){m(t,d,e)})})}function b(e,t,n){d=!0;var r=n.filter(function(e){return!m(e,d,"submit")});if(r.length){s(t);var a=v(r[0]);a.element.focus({preventScroll:!0}),a.parent.scrollIntoView({behavior:"smooth"})}else e.submit()}function y(){var t=r('form[data-form-primary="true"]'),n=h(t);0!==n.length&&(n.forEach(function(e){g(e)}),a(t,"submit",function(e){b(t,e,n)}))}function _(){var e=o("[id^='ulp-container-']");e&&e.length&&y()}}}.exports(d.querySelector,d.querySelectorAll,d.addEventListener,d.getParent,d.getAttribute,d.toggleClass,d.globalWindow,d.consoleWarn,d.preventFormSubmit,d.SUPPORTED_INPUT_TYPES,d.ELEMENT_TYPE_SELECTOR,f),{exports:function(e,t,n){function r(n){t(n,"click",function(e){e.preventDefault();var t=document.createElement("input");t.name="action",t.type="hidden",t.value=n.value,n.form.appendChild(t),n.form.submit(),n.form.removeChild(t)})}function a(){e('form button[type="submit"][formnovalidate], form input[type="submit"][formnovalidate]').forEach(function(e){r(e)})}return n&&a(),[a,r]}}.exports(d.querySelectorAll,d.addEventListener,d.RUN_INIT),((i={}).exports=function(o,e,u,c,l,s,t,f,n){if(n.enable_ulp_wcag_compliance){var r=e('[class*="aria-error-check"]');if(r&&r.length){var a=t(function(e){e&&e.length&&e.map(function(e){if(e.target&&u(e.target,"aria-error-check")){var t=o('[id="'+c(e.target,"data-ulp-validation-target")+'"');if(t){var n=c(t,"aria-describedby");c(e.target,"data-is-error")?(r=t,a=n,i=e.target.id,a&&-1!==a.search(i)||l(r,"aria-describedby",a?a+" "+i:i),l(r,"aria-invalid",!0)):function(e,t,n){if(t){var r=f(t,n);r.length?l(e,"aria-describedby",r):(s(e,"aria-invalid"),s(e,"aria-describedby"))}else s(e,"aria-invalid"),s(e,"aria-describedby")}(t,n,e.target.id)}}var r,a,i})});a&&r.map(function(e){a.observe(e,{attributes:!0,attributeFilter:["class","data-is-error"]})})}}},i.exports)(d.querySelector,d.querySelectorAll,d.hasClass,d.getAttribute,d.setAttribute,d.removeAttribute,d.createMutationObserver,d.removeAndTrimString,f),(u="https://accounts.google.com/gsi/client",(o={}).exports=function(t,n,c,e){var r=e("#one-tap-config-json");if(r&&r.clientId){var a=0;!function e(){t(u,{async:!0,defer:!0,onload:function(){!function(){var e=window.google;if(e&&e.accounts&&e.accounts.id){var t={client_id:r.clientId,callback:i,auto_select:!!r.autoSelect,nonce:r.nonce,cancel_on_tap_outside:!!r.cancelOnTapOutside,itp_support:!!r.itpSupport};r.context&&(t.context=r.context),e.accounts.id.initialize(t),e.accounts.id.prompt()}}()},onerror:function(){n(u),a<2&&(a++,e())}})}()}function i(e){if(e&&e.credential){var t,n=document.createElement("form");n.method="POST",n.action=(t=c('form[data-form-primary="true"]'))&&t.getAttribute("action")?t.getAttribute("action"):window.location.pathname,n.style.display="none";var r=document.createElement("input");r.type="hidden",r.name="action",r.value="google-one-tap",n.appendChild(r);var a=document.createElement("input");a.type="hidden",a.name="one_tap_credential",a.value=e.credential,n.appendChild(a);var i=c('form[data-form-primary="true"]'),o=i?c(i,'input[name="state"]'):null;if(o){var u=document.createElement("input");u.type="hidden",u.name="state",u.value=o.value,n.appendChild(u),document.body.appendChild(n),n.submit()}}}},o.exports)(d.loadScript,d.removeScript,d.querySelector,d.getConfigJson),function(){var e={},p=['input[type="text"]','input[type="email"]','input[type="tel"]','input[type="number"]','input[type="url"]','input[type="password"]',"input:not([type])"].join(", "),v=['input:not([type="hidden"]):not([aria-hidden="true"]):not([disabled])','select:not([aria-hidden="true"]):not([disabled])','textarea:not([aria-hidden="true"]):not([disabled])','button:not([aria-hidden="true"]):not([disabled])'].join(", ");function h(e){var t=window.getComputedStyle(e);return"none"!==t.display&&"hidden"!==t.visibility}return e.exports=function(t,e,n,r){if(e.enable_ulp_wcag_compliance&&!t("#prompt-alert")){var a=r("(pointer: coarse), (pointer: fine), (pointer: none)"),i=r("(hover: hover), (hover: none)");if(a&&i&&(r("(pointer: coarse)")||!r("(hover: hover)")))return;var o=t(".c88701731");if(o){for(var u=n(o.querySelectorAll(v)),c=null,l=0;l<u.length;l++)if(h(u[l])){c=u[l];break}if(c){for(var s=n(o.querySelectorAll(p)),f=null,d=0;d<s.length;d++)if(h(s[d])){f=s[d];break}setTimeout(function(){if(f&&f===c)f.focus();else{var e=t("#screen-header");e&&e.focus()}},250)}}}},e.exports}()(d.querySelector,f,d.arrayFrom,d.matchMedia),{exports:function(c,l,s,f,e,d,p,t){if(t.enable_ulp_separate_login_display||t.enable_ulp_separate_signup_identifiers){var v=c('[data-identifier-group="panels"]'),h=c('[data-identifier-group="selector"]');if(v){var n=h?l(h,".ulp-identifier-selector-item"):[],m=c(v,'input[name="identifier_type"]'),r=p(v,"data-active-type");r&&i(r);for(var a=0;a<n.length;a++)e(n[a],"click",function(e){var t=p(e.currentTarget,"data-identifier-type");t&&i(t)})}}function i(e){for(var t=l(v,".ulp-identifier-panel"),n=0;n<t.length;n++)f(t[n],"_active");var r=c(v,"._identifier-panel-"+e);if(r&&s(r,"_active"),d(v,"data-active-type",e),m&&(m.value=e),h){d(h,"data-active-type",e);for(var a=l(h,".ulp-identifier-selector-item"),i=0;i<a.length;i++){var o=a[i];p(o,"data-identifier-type")===e?(s(o,"_active"),d(o,"aria-current","true")):(f(o,"_active"),d(o,"aria-current","false"))}}if(r){var u=c(r,'input:not([type="hidden"])');u&&u.focus()}}}}.exports(d.querySelector,d.querySelectorAll,d.addClass,d.removeClass,d.addEventListener,d.setAttribute,d.getAttribute,f),((c={}).exports=function(e,t,n,r,a,i,o,u){if(u.enable_ulp_separate_login_display||u.enable_ulp_separate_signup_identifiers){var c=e("[data-composite-phone-input]");if(c){n(c,"js-enhanced");var l=e(c,"[data-composite-phone-trigger]"),s=e(c,"[data-composite-phone-dropdown]"),f=e(c,'select[name="identifier_phone_country_code"]'),d=e(c,'input[name="identifier_phone"]');if(l&&s&&f){var p,v=e(s,"[data-composite-phone-search]"),h=e(s,"[data-composite-phone-list]"),m=e(s,"[data-composite-phone-no-results]"),g=t(s,"[data-country-code]"),b=e(l,"[data-composite-phone-trigger-label]"),y=e(c,"[data-composite-phone-live-region]"),_=e(l,"[data-composite-phone-trigger-sr-label]");for(h&&!h.id&&i(h,"id","composite-phone-list"),p=0;p<g.length;p++){g[p].id||i(g[p],"id","composite-phone-option-"+g[p].getAttribute("data-country-code"));var w=g[p].getAttribute("data-country-name");if(w){var x=(g[p].textContent||"").replace(/\s+/g," ").trim();i(g[p],"aria-label",x?w+" "+x:w)}}if(v&&(i(v,"role","combobox"),i(v,"aria-autocomplete","list"),i(v,"aria-expanded","false"),h&&h.id&&i(v,"aria-controls",h.id)),y&&d){y.id||i(y,"id","composite-phone-country-status");var C=(d.getAttribute("aria-describedby")||"").split(/\s+/),E=[];for(p=0;p<C.length;p++)C[p]&&E.push(C[p]);-1===E.indexOf(y.id)&&(E.push(y.id),i(d,"aria-describedby",E.join(" ")))}var A=null;a(l,"click",function(){!1===s.hidden?k(!1):(s.hidden=!1,n(c,"_composite-phone-open"),i(l,"aria-expanded","true"),v&&i(v,"aria-expanded","true"),S(null),v&&(v.value=""),F(""),v&&v.focus())}),v&&(a(v,"input",function(e){F(e.target.value),S(null)}),a(v,"keydown",function(e){"ArrowDown"===e.cb62383a7||40===e.keyCode?(e.preventDefault(),T(1)):"ArrowUp"===e.cb62383a7||38===e.keyCode?(e.preventDefault(),T(-1)):"Enter"!==e.cb62383a7&&13!==e.keyCode||A&&(e.preventDefault(),L(A.getAttribute("data-country-code")))})),a(h,"click",function(e){for(var t=e.target;t&&t!==h&&(!t.getAttribute||!t.getAttribute("data-country-code"));)t=t.parentNode;t&&t!==h&&t.getAttribute&&L(t.getAttribute("data-country-code"))}),a(h,"keydown",function(e){var t=e.target;t&&t.getAttribute&&t.getAttribute("data-country-code")&&("Enter"!==e.cb62383a7&&13!==e.keyCode&&" "!==e.cb62383a7&&32!==e.keyCode||(e.preventDefault(),L(t.getAttribute("data-country-code"))))}),a(s,"keydown",function(e){if("Escape"===e.cb62383a7||27===e.keyCode)return e.preventDefault(),void k(!0);"Tab"!==e.cb62383a7&&9!==e.keyCode||(e.preventDefault(),e.shiftKey?k(!0):(k(!1),d&&d.focus()))})}}}function S(e){A&&r(A,"_composite-phone-option--active"),(A=e||null)?(n(A,"_composite-phone-option--active"),v&&i(v,"aria-activedescendant",A.id),"function"==typeof A.scrollIntoView&&A.scrollIntoView({block:"nearest"})):v&&i(v,"aria-activedescendant","")}function T(e){var t=function(){for(var e=[],t=0;t<g.length;t++)g[t].hidden||e.push(g[t]);return e}();if(0!==t.length){for(var n=-1,r=0;r<t.length;r++)if(t[r]===A){n=r;break}(n+=e)<0?n=t.length-1:n>=t.length&&(n=0),S(t[n])}else S(null)}function k(e){s.hidden=!0,r(c,"_composite-phone-open"),i(l,"aria-expanded","false"),v&&i(v,"aria-expanded","false"),S(null),e&&l.focus()}function L(e){f.value=e,o(f,"change",!0);var t=function(e){for(var t=0;t<g.length;t++)if(g[t].getAttribute("data-country-code")===e)return g[t];return null}(e);if(b&&t&&(b.innerHTML=t.innerHTML),t){var n=t.getAttribute("data-country-name")||e;if(y&&(y.textContent=n),_){var r=_.getAttribute("data-sr-label-template")||"Selected country: #{country}, change country";_.textContent=r.replace(/#\{country\}/g,n)}}k(!0),d&&d.focus()}function F(e){for(var t=e.trim().toLowerCase(),n=0,r=0;r<g.length;r++){var a=g[r],i=(a.getAttribute("data-country-search")||"")+" "+(a.textContent||"").toLowerCase(),o=""===t||-1<i.indexOf(t);a.hidden=!o,o&&n++}m&&(m.hidden=0<n)}},c.exports)(d.querySelector,d.querySelectorAll,d.addClass,d.removeClass,d.addEventListener,d.setAttribute,d.dispatchEvent,f),((l={}).exports=function(L,F,P,N,q,R,e,D,I){function t(){var i=L("[data-composite-phone-input]");if(i){var e=L(i,'select[name="identifier_phone_country_code"]')||L(i,'input[name="identifier_phone_country_code"]'),u=L(i,'input[name="identifier_phone"]');if(e&&u){var a=u.form,o=L(i,"._composite-phone-field"),c="error-element-identifier_phone",l=window.libphonenumberJsBundle;if(l){var s="error-cs-identifier_phone-invalid-format",f="error-cs-identifier_phone-required",d=i.ownerDocument.getElementById(s),n=d?d.textContent:"",p=!n,v=i.ownerDocument.getElementById(f),h=!(v&&v.textContent),t=u.getAttribute("placeholder")||"",m=0,g=0;r(),u.value&&x(!1,!1),N(u,"input",function(e){E(),A(),T(),x(!(!e||!e.inputType||"deleteContentBackward"!==e.inputType&&"deleteContentForward"!==e.inputType&&"deleteByCut"!==e.inputType&&"deleteByDrag"!==e.inputType),!(!e||!e.inputType))}),N(e,"change",function(){E(),A(),T(),r(),x(!1,!1)}),a&&(N(a,"submit",function(e){var t=L(a,'input[name="identifier_type"]');if(!(t&&"phone"!==t.value||e.defaultPrevented)){var n=b(),r=w(u.value);if(r)return p||function(e,t){if(!t||!e)return!1;try{return l.isValidPhoneNumber(e,t)}catch(e){return!0}}(r,n)?void(u.value=r):(e.preventDefault(),e.stopPropagation(),void function(e){var t=C();if(t){t.textContent=e,F(t,"ulp-validator-error"),q(t,"data-is-error","true"),q(u,"aria-invalid","true");var n=(u.getAttribute("aria-describedby")||"").split(/\s+/).filter(Boolean);-1===n.indexOf(s)&&n.push(s),q(u,"aria-describedby",n.join(" ")),F(u,"_input-error--client"),o&&F(o,"error--client")}}(k(n)));h||(e.preventDefault(),e.stopPropagation(),function(){if(v){F(v,"ulp-validator-error"),q(v,"data-is-error","true"),q(u,"aria-invalid","true");var e=(u.getAttribute("aria-describedby")||"").split(/\s+/).filter(Boolean);-1===e.indexOf(f)&&e.push(f),q(u,"aria-describedby",e.join(" ")),F(u,"_input-error--client"),o&&F(o,"error--client")}}())}},!0),I&&D&&N(I,"pageshow",function(){D("submitted",!1)}))}}}function b(){return(e.value||"").trim().toUpperCase()}function y(e){if(!e)return"";try{var t=l.getCountryCallingCode(e);return t?"+"+t:""}catch(e){return""}}function _(t,n){if(!t)return"";if(!n)return t;try{var e=new l.AsYouType(n).input(t);if(e)return e;var r=y(n);return r?r+" "+t:t}catch(e){var a=y(n);return a?a+" "+t:t}}function r(){var e=function(e){if(!e||!l.examples)return"";try{var t=l.getExampleNumber(e,l.examples);return t?t.formatNational():""}catch(e){return""}}(b());e?q(u,"placeholder",e):t?q(u,"placeholder",t):R(u,"placeholder")}function w(e){return(e||"").replace(/[^0-9]/g,"")}function x(e,t){var n=b(),r=u.value,a=w(r);!e&&!t&&r.length<g&&(e=!0);var i=u.selectionStart===r.length,o=_(a,n);if(e&&(a.length===m&&r.length<o.length&&(o=_(a=a.slice(0,-1),n)),o=o.replace(/[^0-9]+$/,"")),m=a.length,g=o.length,o!==r&&(u.value=o,i&&u.setSelectionRange))try{u.setSelectionRange(o.length,o.length)}catch(e){}}function C(){return i.ownerDocument.getElementById(s)}function E(){var e=C();e&&(P(e,"ulp-validator-error"),R(e,"data-is-error"),S(s))}function A(){v&&(P(v,"ulp-validator-error"),R(v,"data-is-error"),S(f))}function S(t){var e=(u.getAttribute("aria-describedby")||"").split(/\s+/).filter(function(e){return e&&e!==t});e.length?q(u,"aria-describedby",e.join(" ")):R(u,"aria-describedby");var n=d&&d.classList.contains("ulp-validator-error"),r=v&&v.classList.contains("ulp-validator-error");n||r||(P(u,"_input-error--client"),o&&P(o,"error--client"));var a=!!i.ownerDocument.getElementById(c);n||r||a||R(u,"aria-invalid")}function T(){var e=i.ownerDocument.getElementById(c);if(e){F(e,"hide"),o&&(P(o,"cfc4c5953"),P(o,"c0fc441c4"));var t=(u.getAttribute("aria-describedby")||"").split(/\s+/).filter(function(e){return e&&e!==c});t.length?q(u,"aria-describedby",t.join(" ")):R(u,"aria-describedby"),o&&o.classList.contains("error--client")||R(u,"aria-invalid")}}function k(e){var t=function(e){if(!e)return"";var t=L(i,'[data-country-code="'+e+'"]');return t?t.getAttribute("data-country-name"):e}(e);return n.replace(/#\{country\}/g,t)}}(e.enable_ulp_separate_login_display||e.enable_ulp_separate_signup_identifiers)&&("loading"===document.readyState?document.addEventListener("DOMContentLoaded",t):t())},l.exports)(d.querySelector,d.addClass,d.removeClass,d.addEventListener,d.setAttribute,d.removeAttribute,f,d.setGlobalFlag,d.globalWindow),((s={}).exports=function(v,h,e,m,t){function n(){var u=v("[data-composite-phone-input]");if(u){var t=v(u,'input[name="identifier_phone"]'),c=v(u,'select[name="identifier_phone_country_code"]')||v(u,'input[name="identifier_phone_country_code"]');if(t&&c){var r=window.libphonenumberJsBundle;r&&"function"==typeof r.AsYouType&&e(t,"paste",function(e){var t=e.clipboardData;if(t&&"function"==typeof t.getData){var n=t.getData("text");if("string"==typeof n&&n){var r=n.replace(/^\s+|\s+$/g,"");if(r){var a=function(){for(var e=h(c,"option"),t=[],n=0;n<e.length;n++){var r=(e[n].value||"").trim().toUpperCase();r&&t.push(r)}if(!t.length){var a=s();a&&t.push(a)}return t}();if("+"===r.charAt(0)){var i=function(e,t){var n=l(e,null);if(!n)return null;var r=n.nationalNumber||"",a=n.country||"";if(!a&&"function"==typeof n.getPossibleCountries){var i=n.getPossibleCountries()||[];1<i.length&&(a=d(i,t))}return a&&f(a,t)&&r?{country:a,national:r}:null}(r,a);if(!i)return;return e.preventDefault(),function(e){if("SELECT"===c.tagName&&c.value!==e){c.value=e,m(c,"change",!0);var t=v(u,"[data-composite-phone-trigger-label]"),n=v(u,'[data-country-code="'+e+'"]');t&&n&&(t.innerHTML=n.innerHTML);var r=n&&n.getAttribute("data-country-name")||e,a=v(u,"[data-composite-phone-live-region]");a&&(a.textContent="",setTimeout(function(){a.textContent=r},0));var i=v(u,"[data-composite-phone-trigger-sr-label]");if(i){var o=i.getAttribute("data-sr-label-template")||"Selected country: #{country}, change country";i.textContent=o.replace(/#\{country\}/g,r)}}}(i.country),void p(i.national)}var o=function(e){var t=s();if(!t)return null;var n=l(e,t);if(!n)return null;var r=n.nationalNumber||"";return r?{national:r}:null}(r);o&&(e.preventDefault(),p(o.national))}}}})}}function l(e,t){try{var n=t?new r.AsYouType(t):new r.AsYouType;return n.input(e),n.getNumber()||null}catch(e){return null}}function s(){return(c.value||"").trim().toUpperCase()}function f(e,t){if(!e)return!1;for(var n=e.toUpperCase(),r=0;r<t.length;r++)if(t[r]===n)return!0;return!1}function d(e,t){for(var n=s(),r={},a=0;a<e.length;a++)r[e[a]]=!0;if(n&&r[n]&&f(n,t))return n;var i,o=(i=v(c,"option[selected]"))?(i.value||"").trim().toUpperCase():"";if(o&&r[o]&&f(o,t))return o;for(var u=0;u<t.length;u++)if(r[t[u]])return t[u];return t.length?t[0]:""}function p(e){t.value=e||"",m(t,"input",!0)}}(t.enable_ulp_separate_login_display||t.enable_ulp_separate_signup_identifiers)&&("loading"===document.readyState?document.addEventListener("DOMContentLoaded",n):n())},s.exports)(d.querySelector,d.querySelectorAll,d.addEventListener,d.dispatchEvent,f)}();
+</script>
+
+  <!-- Mobile tagline — visible below widget on screens < 768px -->
+  <div class="mobile-tagline" aria-hidden="true">
+    <div class="mobile-tagline__text">
+      <p class="mobile-tagline__title">One Login.<br>More Access.</p>
+      <p class="mobile-tagline__subtitle">Use one account to access select Danaher life sciences companies today, with more joining later this year for a seamless experience.</p>
+    </div>
+    <img src="https://lifesciences.danaher.com/icons/danaher.png" alt="Danaher" class="mobile-tagline__logo">
+  </div>
+
+  <!-- OpCo footer — 10 operating company logos (New white logos) -->
+  <footer class="footer" aria-label="Danaher Life Sciences companies">
+    <div class="footer-container">
+      <div class="logo-grid">
+        <div class="logo-item">
+          <a href="https://www.abcam.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/abcam-logo.webp" alt="Abcam" loading="lazy" width="150" height="33">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.aldevron.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/aldevron-logo.webp" alt="Aldevron" loading="lazy" width="150" height="49">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.mybeckman.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/beckman-coulter-life-sciences-logo.webp" alt="Beckman Coulter Life Sciences" loading="lazy" width="150" height="88">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.genedata.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/genedata-logo.webp" alt="Genedata" loading="lazy" width="150" height="52">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.idbs.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/idbs-logo.webp" alt="IDBS" loading="lazy" width="150" height="52">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.idtdna.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/idt-logo.webp" alt="IDT" loading="lazy" width="150" height="52">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.leica-microsystems.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/leica-microsystems-logo.webp" alt="Leica Microsystems" loading="lazy" width="150" height="70">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.moleculardevices.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/moledev-logo.webp" alt="Molecular Devices" loading="lazy" width="150" height="33">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.phenomenex.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/PHENOMENEX.svg" alt="Phenomenex" loading="lazy" width="150" height="52">
+          </a>
+        </div>
+        <div class="logo-item">
+          <a href="https://www.sciex.com/" target="_blank" rel="noopener noreferrer">
+            <img src="https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/sciex-logo.webp" alt="SCIEX" loading="lazy" width="150" height="52">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- === GLOBAL EMAIL VALIDATION LOGIC (RUNS ON ALL PAGES) === -->
+  <!-- This script now runs on *all* pages to handle email errors on load -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // === EMAIL: make it behave like other required fields (red border + red info icon) ===
+      (function emailRequiredAndInvalidUI() {
+        const email = document.getElementById('email');
+        if (!email) return;
+
+        // Ensure “required” so your generic submit gate also sees it
+        email.setAttribute('required', '');
+        email.setAttribute('data-field-name', 'Email address');
+
+        // UL renders these two error rows for email
+        const errReq = document.getElementById('error-cs-email-required');
+        const errInv = document.getElementById('error-cs-email-invalid');
+        const container = email.closest('.ulp-field');
+
+        // The CSS rule 'display: none' now handles hiding errors on load.
+        // This JS function will explicitly set to 'flex' on error.
+
+        // Centralized UI toggle (lets UL’s CSS paint the red icon + border)
+        function setEmailState({ required = false, invalid = false }) {
+          if (!container) return;
+
+          // Hide both UL-provided rows first
+          [errReq, errInv].forEach(el => {
+            if (!el) return;
+            el.style.display = 'none'; // JS sets to none
+            el.classList.remove('ulp-validator-error');
+          });
+
+          // Decide which UL row should be visible (required vs invalid)
+          const onEl = required ? errReq : (invalid ? errInv : null);
+          if (onEl) {
+            // Show chosen UL row
+            onEl.style.display = 'flex'; // JS sets to flex, overriding CSS
+            onEl.classList.add('ulp-validator-error');    // UL expects this class for error rows
+            // Paint red border on the input container
+            container.classList.add('ulp-error');
+          } else {
+            // Clear any error visuals
+            container.classList.remove('ulp-error');
+          }
+        }
+        // expose for other validators (submit gate)
+        window.__emailSetState = setEmailState;
+
+        // Lightweight client check (lets UL do stricter checks later)
+        function looksLikeEmail(v) {
+          return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+        }
+
+        // Blur: if touched and empty → required; if non-empty but malformed → invalid
+        let touched = false;
+        email.addEventListener('focus', () => { touched = true; }, { once: true });
+        email.addEventListener('blur', () => {
+          if (!touched) return;
+          const v = (email.value || '').trim();
+          if (!v) setEmailState({ required: true });
+          else if (!looksLikeEmail(v)) setEmailState({ invalid: true });
+          else setEmailState({});
+        });
+
+        // While typing, clear any email errors as soon as there’s content
+        ['input', 'change'].forEach(ev => {
+          email.addEventListener(ev, () => {
+            const v = (email.value || '').trim();
+            if (v) setEmailState({}); // hide error; UL will still validate on submit
+          });
+        });
+
+        // NOTE: The submit listener for email is now handled in the main
+        // validation gate, which is specific to the signup-id prompt.
+        // This stops it from conflicting with the login-id prompt.
+
+      })();
+    });
+  </script>
+
+  <!-- === SIGNUP-ID SPECIFIC LOGIC === -->
+  <!-- This script ONLY runs on the signup page -->
+  
+
+  
+
+  
+
+  
+  <!-- v3: Replace clientName (application.name) with OpCo display name in screen descriptions
+       Auth0 renders: "Use your Danaher login to sign into <clientName>."
+       Only applies to login-id and login-password screens. -->
+  <script>
+    addEventListener('DOMContentLoaded', function () {
+      var appName = 'SCIEX Absorb';
+      var opcoName = 'SCIEX';
+      if (!appName || !opcoName || appName === opcoName) return;
+
+      function replaceAppName() {
+        var header = document.querySelector('main._widget header');
+        if (!header) return false;
+        var paragraphs = header.querySelectorAll('p');
+        var replaced = false;
+        paragraphs.forEach(function (el) {
+          if (el.textContent.indexOf(appName) !== -1) {
+            if(appName.includes('Phenomenex')){
+                el.innerText = 'Sign in to Phenomenex— your login gives you access to the Danaher family.';
+                replaced = true;
+            }
+            else{
+                el.innerHTML = el.innerHTML.replace(appName, opcoName);
+                replaced = true;
+            }
+          }
+        });
+        return replaced;
+      }
+
+      if (replaceAppName()) return;
+
+      var observer = new MutationObserver(function () {
+        if (replaceAppName()) {
+          observer.disconnect();
+        }
+      });
+      var widget = document.querySelector('main') || document.body;
+      observer.observe(widget, { childList: true, subtree: true });
+
+      setTimeout(function () { observer.disconnect(); }, 5000);
+    });
+  </script>
+  
+<script>
+(async function () {
+  try {
+    const consentEl = document.getElementById("marketing-consent-text");
+
+    if (!consentEl) return;
+
+    const lang = (consentEl.dataset.lang || "en").toLowerCase();
+    const opco = consentEl.dataset.opco || 'Danaher';
+
+    // fallback links from data attributes
+    const defaultPrivacyLink = consentEl.dataset.privacy || "#";
+    const defaultContactLink = consentEl.dataset.contact || "#";
+
+    // Fetch translations JSON
+    const response = await fetch(
+      "https://lifesciences.danaher.com/content/dam/danaher/utility/auth0/translations.json"
+    );
+
+    const translations = await response.json();
+
+    // Get translation text 
+    const translation =
+      translations?.[lang]?.marketing ||
+      translations?.en?.marketing ||
+      "";
+
+    // Get opco-specific privacy link
+    const privacyLink =
+      translations?.privacyLinks?.[opco] || defaultPrivacyLink;
+
+    // Replace placeholders
+    const finalText = translation
+      .replace("{opco}", opco)
+      .replace("{privacy}", privacyLink)
+      .replace("{contact}", defaultContactLink);
+
+    // Inject HTML
+    consentEl.innerHTML = finalText;
+    const emailMarketingConsent = document.querySelector('label[for="marketing-consent"]');
+    const smsMarketingConsent = document.querySelector('label[for="ulp-sms-communication"]');
+    const phoneMarketingConsent = document.querySelector('label[for="ulp-phone-call-communication"]');
+    if (emailMarketingConsent) {
+      emailMarketingConsent.innerText = translations?.[lang]?.email || translations?.en?.email || "Email";
+    }
+    if (smsMarketingConsent) {
+      smsMarketingConsent.innerText = translations?.[lang]?.sms || translations?.en?.sms || "SMS";
+    }
+    if (phoneMarketingConsent) {
+      phoneMarketingConsent.innerText = translations?.[lang]?.phone || translations?.en?.phone || "Phone Call";
+    }
+
+  } catch (error) {
+    console.error("Failed to load marketing consent translations", error);
+  }
+})();
+</script>
+
+
+
+
+</body></html>

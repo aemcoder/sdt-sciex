@@ -1,0 +1,2044 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:52:22.454Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "about-us-customer-profiles",
+  "url": "https://sciex.com/about-us/customer-profiles",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:52:22.454Z",
+  "finalUrl": "https://sciex.com/about-us/customer-profiles",
+  "title": "Customer Profile",
+  "description": null,
+  "og": {
+    "title": "Customer Profile",
+    "description": null,
+    "image": "/content/SCIEX/na/us/en/about-us/customer-profiles.thumb.152.152.png",
+    "type": "website"
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Customer profiles"
+    },
+    {
+      "tag": "h2",
+      "text": "Life Science Research"
+    },
+    {
+      "tag": "h2",
+      "text": "Pharma and Biopharma"
+    },
+    {
+      "tag": "h2",
+      "text": "Food and Beverage"
+    },
+    {
+      "tag": "h2",
+      "text": "Clinical Diagnostics"
+    },
+    {
+      "tag": "h2",
+      "text": "Forensics"
+    },
+    {
+      "tag": "h2",
+      "text": "Environmental testing"
+    },
+    {
+      "tag": "h5",
+      "text": "SCIEX Now support network"
+    },
+    {
+      "tag": "h5",
+      "text": "The destination for all your support needs."
+    }
+  ],
+  "body": [
+    "Login Create an account Already have an account? Sign in now My profile My favorite resources",
+    "Shop",
+    "Request a quote",
+    "SCIEX Now Dashboard",
+    "Products",
+    "Applications",
+    "Training",
+    "Support",
+    "Service",
+    "Resource hub",
+    "About us",
+    "Events",
+    "About Us",
+    "Customer Profile",
+    "Jennifer Van Eyk, Ph.D.",
+    "David Boocock Ph.D.",
+    "Dr. Ben Schulz",
+    "Dr. Catherine Guette",
+    "Prof. Oliver Fiehn",
+    "Prof. Gérard Hopfgartner, Ph.D.",
+    "Prof. Guanghou Shui",
+    "Dr. Martin Giera",
+    "Prof. Phillip J Robinson",
+    "Tony Whetton",
+    "Prof. David Communi",
+    "Richard G. Kibbey, M.D., Ph.D",
+    "Hiroshi Tsugawa",
+    "Dr. Curtis McMurtrey",
+    "Dr. Thomas Lam",
+    "Peng Yu, Ph.D.",
+    "Siddhesh S. Kamat, PhD",
+    "Dr. Thomas Kofoed",
+    "Romuald Sable and Pegah Maghdooni Bagheri",
+    "Bruno Genet",
+    "Timothy Sangster",
+    "Ragu Ramanathan",
+    "Anita Krishnan",
+    "Nico van de Merbel",
+    "Shane Needham",
+    "Fabrizia Fusetti and Susan Zondlo",
+    "Sanjay Gurulem, Ph.D.",
+    "Dr. Lin-Zhi Chen",
+    "Dr. Jason Tonillo",
+    "Subhash Chand",
+    "Pratima Srivastava, PhD",
+    "Ashwani Gaur",
+    "Dr. Chandreshwar Shukla",
+    "Dr. BM Rao",
+    "Robert Martin, Ph.D.",
+    "Dr. Swetha Kaul, Ph.D.",
+    "Vaishali Patel, PhD",
+    "Elizabeth L. Palavecino",
+    "Dr. James C. Ritchie",
+    "Dr. Steven Wong",
+    "Prof. Francesco Botrè",
+    "Alberto Salmone",
+    "Damia Barcelo",
+    "Dr. Christopher Higgins",
+    "Linkedin",
+    "Facebook",
+    "Instagram",
+    "Mass spectrometers",
+    "Capillary electrophoresis",
+    "Software",
+    "Integrated solutions",
+    "Front-end HPLC MS",
+    "Ion mobility",
+    "Ion sources",
+    "Spectral libraries",
+    "Consumables",
+    "Pharma and biopharma",
+    "Clinical",
+    "Environmental",
+    "Food and beverage",
+    "Forensic testing",
+    "Life science research",
+    "Support",
+    "Training",
+    "Professional services",
+    "Careers",
+    "Contact",
+    "Resource library",
+    "Innovation advisory board",
+    "About SCIEX",
+    "Our history",
+    "SCIEX stories",
+    "Latest news",
+    "Executive management",
+    "Privacy Policy",
+    "Cookies Settings",
+    "Organizational Model and Code of Ethics D.Lgs 231/2001",
+    "Legal Info",
+    "Do Not Sell My Data",
+    "The SCIEX clinical diagnostic portfolio is For In Vitro Diagnostic Use. Rx Only. Product(s) not available in all countries. For information on availability, please contact your local sales representative or refer to www.sciex.com/diagnostics. All other products are For Research Use Only. Not for use in Diagnostic Procedures. Trademarks and/or registered trademarks mentioned herein, including associated logos, are the property of AB Sciex Pte. Ltd. or their respective owners in the United States and/or certain other countries (see www.sciex.com/trademarks). Echo® and Echo® MS + system are trademarks or registered trademarks of Labcyte, Inc. in the United States and other countries, and are being used under license. GEN-MKT-18-6392-A"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "All",
+      "href": null
+    },
+    {
+      "label": "Login",
+      "href": "#"
+    },
+    {
+      "label": "Shop",
+      "href": "https://us-store.sciex.com/USD?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630"
+    },
+    {
+      "label": "Request a quote",
+      "href": "/form-pages/product-request"
+    },
+    {
+      "label": "SCIEX Now Dashboard",
+      "href": "/support"
+    },
+    {
+      "label": "Products",
+      "href": "#"
+    },
+    {
+      "label": "Applications",
+      "href": "#"
+    },
+    {
+      "label": "Training",
+      "href": "#"
+    },
+    {
+      "label": "Support",
+      "href": "#"
+    },
+    {
+      "label": "Service",
+      "href": "#"
+    },
+    {
+      "label": "Resource hub",
+      "href": "#"
+    },
+    {
+      "label": "About us",
+      "href": "#"
+    },
+    {
+      "label": "Events",
+      "href": "#"
+    },
+    {
+      "label": "About Us",
+      "href": "/about-us"
+    },
+    {
+      "label": "Customer Profile",
+      "href": "/about-us/customer-profiles"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/jennifer-van-eyk"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/david-boocock"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/dr-ben-schulz"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/dr-catherine-guette"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/prof-oliver-fiehn"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/prof-gerard-hopfgartner-phd"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/guanghou-shui"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/dr-martin-giera"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/prof-phillip-j-robinson-bsc-hons-phd"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/tony-whetton"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/prof-david-communi"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/richard-g-kibbey"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/hiroshi-tsugawa"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/curtis-mcmurtrey"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/thomas-lam"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/peng-yu-phd"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/siddhesh-s-kamat"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/thomas-kofoed"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/sable-and-bagheri"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/bruno-genet"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/timothy-sangster"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/ragu-ramanathan"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/anita-krishnan"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/nico-van-de-merbel"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/shane-needham"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/fabrizia-and-susan"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/sanjay-gurule"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/dr-lin-zhi-chen"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/dr-jason-tonillo"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/subhash-chand"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/pratima-srivastava.html"
+    },
+    {
+      "label": "View customer profiles",
+      "href": "https://sciex.com/about-us/customer-profiles/ashwani-gaur.html"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/chandreshwar-shukla.html"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/bm-rao"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/robert-martin"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/swetha-kaul"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/vaishali-patel.html"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/elizabeth-l-palavecino"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/james-ritchie"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/steven-wong"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/prof-francesco-botre"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/alberto-salomone"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/damia-barcelo"
+    },
+    {
+      "label": "View customer profile",
+      "href": "https://sciex.com/about-us/customer-profiles/dr-christopher-higgins"
+    },
+    {
+      "label": "Contact support",
+      "href": "https://sciex.com/about-us/contact-us"
+    },
+    {
+      "label": "Linkedin",
+      "href": "https://www.linkedin.com/company/sciex"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/SCIEXnews"
+    },
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/SCIEXnews"
+    },
+    {
+      "label": "Instagram",
+      "href": "https://instagram.com/instasciex"
+    },
+    {
+      "label": "English",
+      "href": null
+    },
+    {
+      "label": "Mass spectrometers",
+      "href": "https://sciex.com/products/mass-spectrometers"
+    },
+    {
+      "label": "Capillary electrophoresis",
+      "href": "https://sciex.com/products/capillary-electrophoresis"
+    },
+    {
+      "label": "Software",
+      "href": "https://sciex.com/products/software"
+    },
+    {
+      "label": "Integrated solutions",
+      "href": "https://sciex.com/products/integrated-solutions"
+    },
+    {
+      "label": "Front-end HPLC MS",
+      "href": "https://sciex.com/products/hplc-products"
+    },
+    {
+      "label": "Ion mobility",
+      "href": "https://sciex.com/products/ion-mobility-spectrometry"
+    },
+    {
+      "label": "Ion sources",
+      "href": "https://sciex.com/products/ion-sources"
+    },
+    {
+      "label": "Spectral libraries",
+      "href": "https://sciex.com/products/spectral-library"
+    },
+    {
+      "label": "Consumables",
+      "href": "https://sciex.com/products/consumables"
+    },
+    {
+      "label": "Pharma and biopharma",
+      "href": "https://sciex.com/applications/pharma-and-biopharma"
+    },
+    {
+      "label": "Clinical",
+      "href": "https://sciex.com/applications/clinical"
+    },
+    {
+      "label": "Environmental",
+      "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+      "label": "Food and beverage",
+      "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+      "label": "Forensic testing",
+      "href": "https://sciex.com/applications/forensics-testing"
+    },
+    {
+      "label": "Life science research",
+      "href": "https://sciex.com/applications/life-science-research"
+    },
+    {
+      "label": "Support",
+      "href": "https://sciex.com/support"
+    },
+    {
+      "label": "Training",
+      "href": "https://sciex.com/support/training"
+    },
+    {
+      "label": "Professional services",
+      "href": "https://sciex.com/support/professional-lab-services"
+    },
+    {
+      "label": "Careers",
+      "href": "https://jobs.danaher.com/global/en/sciex"
+    },
+    {
+      "label": "Contact",
+      "href": "https://sciex.com/about-us/contact-us"
+    },
+    {
+      "label": "Resource library",
+      "href": "https://sciex.com/resource-library?view=knowledge%20base%20articles"
+    },
+    {
+      "label": "Innovation advisory board",
+      "href": "https://community.sciex.com/innovation-advisory-board/?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630"
+    },
+    {
+      "label": "About SCIEX",
+      "href": "https://sciex.com/about-us"
+    },
+    {
+      "label": "Our history",
+      "href": "https://sciex.com/about-us/our-history"
+    },
+    {
+      "label": "SCIEX stories",
+      "href": "https://sciex.com/stories"
+    },
+    {
+      "label": "Latest news",
+      "href": "https://sciex.com/about-us/press-releases"
+    },
+    {
+      "label": "Executive management",
+      "href": "https://sciex.com/about-us/executive-management"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "https://sciex.com/legal-pages/privacy-policy"
+    },
+    {
+      "label": "Cookies Settings",
+      "href": "#"
+    },
+    {
+      "label": "Organizational Model and Code of Ethics D.Lgs 231/2001",
+      "href": "/legal-pages/organizational-model-and-code-of-ethics-d-lgs-231-2001"
+    },
+    {
+      "label": "Legal Info",
+      "href": "https://sciex.com/legal-pages/legal-information"
+    },
+    {
+      "label": "Do Not Sell My Data",
+      "href": "https://sciex.com/legal-pages/do-not-sell-my-data"
+    }
+  ],
+  "links": [
+    "https://sciex.com/",
+    "https://sciex.com/about-us/customer-profiles#",
+    "https://sciex.com/support/create-account",
+    "https://sciex.com/bin/sciex/login",
+    "https://sciex.com/support/profile",
+    "https://sciex.com/resource-hub/myfavorite",
+    "https://us-store.sciex.com/USD?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://sciex.com/form-pages/product-request",
+    "https://sciex.com/support",
+    "https://sciex.com/products",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/8600-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/7600-plus-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/zenotof-7600-system",
+    "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems",
+    "https://sciex.com/products/mass-spectrometers/qtrap-systems",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+    "https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system",
+    "https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-4500-system",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems",
+    "https://sciex.com/products/mass-spectrometers/triple-quad-systems/triple-quad-6500plus-system",
+    "https://sciex.com/products/in-vitro-diagnostics/medical-devices",
+    "https://sciex.com/products/in-vitro-diagnostics/medical-devices/citrine-system",
+    "https://sciex.com/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer",
+    "https://sciex.com/products/methods",
+    "https://sciex.com/products/spectral-library",
+    "https://sciex.com/products/mass-spectrometers",
+    "https://sciex.com/products/capillary-electrophoresis",
+    "https://sciex.com/products/integrated-solutions/intabio-zt-system",
+    "https://sciex.com/products/capillary-electrophoresis/biophase-8800",
+    "https://sciex.com/products/capillary-electrophoresis/pa-800-plus-pharmaceutical-analysis-system",
+    "https://sciex.com/products/capillary-electrophoresis/p-ace-mdq-plus",
+    "https://sciex.com/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system",
+    "https://sciex.com/products/hplc-products",
+    "https://sciex.com/products/hplc-products/exionlc-ae",
+    "https://sciex.com/products/hplc-products/exionlc-2",
+    "https://sciex.com/products/ion-mobility-spectrometry/selexion-differential-mobility-separation-device",
+    "https://sciex.com/products/hplc-products/microlc-products/micro-hplc-columns",
+    "https://sciex.com/products/integrated-solutions",
+    "https://sciex.com/products/integrated-solutions/echo-ms-plus",
+    "https://sciex.com/products/software/mass-spectrometry-software-solutions",
+    "https://sciex.com/products/software/sciex-os-software",
+    "https://sciex.com/products/software/analyst-software",
+    "https://sciex.com/products/software/analyst-tf-software",
+    "https://sciex.com/products/software/mass-spectrometry-software-solutions#workflow-module",
+    "https://sciex.com/products/software/multiquant-software",
+    "https://sciex.com/products/software/artificial-intelligence-quant",
+    "https://sciex.com/products/software/mass-spectrometry-software-solutions#application-module",
+    "https://sciex.com/products/software/biologics-explorer-software",
+    "https://sciex.com/products/software/molecule-profiler-software",
+    "https://sciex.com/support/software-support",
+    "https://sciex.com/support/software-support/software-support-policy",
+    "https://sciex.com/support/activate-software",
+    "https://sciex.com/support/software-support/sw-support-plns",
+    "https://sciex.com/support/sciex-now-feature-requests",
+    "https://sciex.com/products/software/partner-software",
+    "https://sciex.com/products/software",
+    "https://sciex.com/support/software-support/analyst-software-end-of-support",
+    "https://sciex.com/technology",
+    "https://sciex.com/products/technology",
+    "https://sciex.com/products/consumables",
+    "https://sciex.com/supplemental/eProcurement",
+    "https://sciex.com/products/consumables/dna-20kb-plasmid-linear-kit",
+    "https://sciex.com/applications",
+    "https://sciex.com/applications/pharma-and-biopharma",
+    "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk",
+    "https://sciex.com/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis",
+    "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research",
+    "https://sciex.com/applications/pharma-and-biopharma/impurity-analysis",
+    "https://sciex.com/applications/pharma-and-biopharma/mrna-research",
+    "https://sciex.com/applications/pharma-and-biopharma/oligonucleotide-analysis",
+    "https://sciex.com/applications/pharma-and-biopharma/protein-therapeutics",
+    "https://sciex.com/applications/pharma-and-biopharma/drug-discovery-research/metabolite-identification",
+    "https://sciex.com/applications/clinical",
+    "https://sciex.com/applications/clinical/clinical-research",
+    "https://sciex.com/applications/clinical/clinical-diagnostics",
+    "https://sciex.com/education/clinical-mass-spec-knowledge-center",
+    "https://sciex.com/landing-pages/citrine-system-compendium2",
+    "https://sciex.com/applications/environmental-testing",
+    "https://sciex.com/applications/environmental-testing/water-and-waste-water-analysis",
+    "https://sciex.com/applications/environmental-testing/industrial-and-agrochemical-analysis",
+    "https://sciex.com/applications/environmental-testing/the-exposome-and-exposomics",
+    "https://sciex.com/applications/environmental-testing/contaminants-of-emerging-concern",
+    "https://sciex.com/applications/environmental-testing/pfas-analysis-solutions",
+    "https://sciex.com/events/pfas-summit-part-III",
+    "https://sciex.com/applications/food-and-beverage-testing",
+    "https://sciex.com/applications/food-and-beverage-testing/food-safety-testing",
+    "https://sciex.com/applications/food-and-beverage-testing/food-authenticity-testing",
+    "https://sciex.com/applications/food-and-beverage-testing/quality-assurance-and-quality-control",
+    "https://sciex.com/Hidden/landing-pages/food-compendium-volume-4",
+    "https://sciex.com/applications/cannabis-testing",
+    "https://sciex.com/applications/cannabis-testing/pesticide-testing",
+    "https://sciex.com/applications/cannabis-testing/mycotoxin-testing",
+    "https://sciex.com/applications/forensics-testing",
+    "https://sciex.com/applications/forensics-testing/forensic-toxicology",
+    "https://sciex.com/applications/forensics-testing/cannabinoid-analysis-and-potency-testing",
+    "https://sciex.com/applications/forensics-testing/doping-control",
+    "https://sciex.com/applications/forensics-testing/tox-chat-box",
+    "https://sciex.com/applications/biomedical-and-omics-research",
+    "https://sciex.com/applications/biomedical-and-omics-research/proteomics",
+    "https://sciex.com/applications/biomedical-and-omics-research/lipidomics",
+    "https://sciex.com/applications/biomedical-and-omics-research/metabolomics",
+    "https://sciex.com/applications/biomedical-and-omics-research/extraordinary-science",
+    "https://sciex.li/n8jzym",
+    "https://sciex.com/support/support-cases",
+    "https://training.sciex.com/?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://sciex.com/support/manage-my-instruments",
+    "https://sciex.com/support/registered-software",
+    "https://sciex.com/support/my-notifications",
+    "https://sciex.com/resource-hub",
+    "https://sciex.com/education/grant-support",
+    "https://sciex.com/education/grant-support/academic-partnership",
+    "https://sciex.com/education/grant-support/academic-partners",
+    "https://sciex.com/resource-hub/regulatory-documents",
+    "https://sciex.com/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Declaration%20of%20conformance",
+    "https://sciex.com/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Safety%20data%20sheet",
+    "https://sciex.com/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Certificate%20of%20analysis",
+    "https://sciex.com/support/training",
+    "https://sciex.com/search-results?contentType=Training&facetId=trainingcoursetype&value=Self%20paced%20learning",
+    "https://sciex.com/support/training/learning-manager-overview",
+    "https://sciex.com/support/software-support/premium-access-content",
+    "https://sciex.com/support/professional-lab-services/customized-lab-training",
+    "https://sciex.com/support/training/success-programs",
+    "https://sciex.com/support/professional-lab-services",
+    "https://sciex.com/support/professional-lab-services/software-and-it",
+    "https://sciex.com/support/professional-lab-services/lab-compliance-services",
+    "https://sciex.com/support/professional-lab-services/lab-optimization-services",
+    "https://sciex.com/support/professional-lab-services/lab-relocation-services",
+    "https://sciex.com/landing-pages/smarter-service-support",
+    "https://sciex.com/support/instrument-service-and-support",
+    "https://sciex.com/support/instrument-service-and-support/lc-ms-hardware-plans",
+    "https://sciex.com/support/instrument-service-and-support/ce-service-plans",
+    "https://sciex.com/support/instrument-service-and-support/clinical-service-plan",
+    "https://sciex.com/support/instrument-service-and-support/intabio-zt-system-service-plan",
+    "https://sciex.com/support/instrument-service-and-support/lc-ms-hardware-plans/protect-plus-plan",
+    "https://sciex.com/support/instrument-service-and-support/visual-assist",
+    "https://sciex.com/support/instrument-service-and-support/statusscope-remote-monitoring",
+    "https://sciex.com/support/instrument-service-and-support/remote-instrument-optimization-and-calibration",
+    "https://sciex.com/support/instrument-service-and-support/beyond-break-fix",
+    "https://sciex.com/support/instrument-service-and-support/uptime-mastery",
+    "https://sciex.com/support/software-support/software-downloads",
+    "https://sciex.com/resource-hub/knowledge-base-articles",
+    "https://sciex.com/resource-hub/self-paced-learning",
+    "https://sciex.com/resource-hub/instructor-led-training",
+    "https://sciex.com/resource-hub/technical-notes",
+    "https://sciex.com/resource-hub/user-guides",
+    "https://sciex.com/about-us",
+    "https://sciex.com/about-us#about-sciex",
+    "https://sciex.com/about-us/our-history",
+    "https://sciex.com/about-us/executive-management",
+    "https://sciex.com/Hidden/landing-pages/sciex-sustainability",
+    "https://sciex.com/about-us/echo-ms-center-of-excellence",
+    "https://jobs.danaher.com/global/en/sciex",
+    "https://sciex.com/about-us/contact-us",
+    "https://sciex.com/form-pages/request-information",
+    "https://sciex.com/support/request-support",
+    "https://sciex.com/about-us/press-releases",
+    "https://sciex.com/about-us/press-releases/in-the-news",
+    "https://sciex.com/events",
+    "https://community.sciex.com/?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://community.sciex.com/innovation-advisory-board?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://community.sciex.com/results/?_sft_category=blogs&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://sciex.com/about-us/customer-profiles",
+    "https://sciex.com/about-us/whitepapers",
+    "https://sciex.com/stories",
+    "https://sciex.com/stories/topics",
+    "https://sciex.com/stories/thought-leaders",
+    "https://sciex.com/events/sciex-summit",
+    "https://sciex.com/events?event=upcoming",
+    "https://sciex.com/events?region=North%20America&event=upcoming",
+    "https://sciex.com/events?region=europe&event=upcoming",
+    "https://sciex.com/events?region=india&event=upcoming",
+    "https://sciex.com/events?region=korea&event=upcoming",
+    "https://sciex.com/events?event=on-demand",
+    "https://sciex.com/events?region=North%20America&event=on-demand",
+    "https://sciex.com/events?region=europe&event=on-demand",
+    "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+    "https://sciex.com/about-us/customer-profiles/jennifer-van-eyk",
+    "https://sciex.com/about-us/customer-profiles/david-boocock",
+    "https://sciex.com/about-us/customer-profiles/dr-ben-schulz",
+    "https://sciex.com/about-us/customer-profiles/dr-catherine-guette",
+    "https://sciex.com/about-us/customer-profiles/prof-oliver-fiehn",
+    "https://sciex.com/about-us/customer-profiles/prof-gerard-hopfgartner-phd",
+    "https://sciex.com/about-us/customer-profiles/guanghou-shui",
+    "https://sciex.com/about-us/customer-profiles/dr-martin-giera",
+    "https://sciex.com/about-us/customer-profiles/prof-phillip-j-robinson-bsc-hons-phd",
+    "https://sciex.com/about-us/customer-profiles/tony-whetton",
+    "https://sciex.com/about-us/customer-profiles/prof-david-communi",
+    "https://sciex.com/about-us/customer-profiles/richard-g-kibbey",
+    "https://sciex.com/about-us/customer-profiles/hiroshi-tsugawa",
+    "https://sciex.com/about-us/customer-profiles/curtis-mcmurtrey",
+    "https://sciex.com/about-us/customer-profiles/thomas-lam",
+    "https://sciex.com/about-us/customer-profiles/peng-yu-phd",
+    "https://sciex.com/about-us/customer-profiles/siddhesh-s-kamat",
+    "https://sciex.com/about-us/customer-profiles/thomas-kofoed",
+    "https://sciex.com/about-us/customer-profiles/sable-and-bagheri",
+    "https://sciex.com/about-us/customer-profiles/bruno-genet",
+    "https://sciex.com/about-us/customer-profiles/timothy-sangster",
+    "https://sciex.com/about-us/customer-profiles/ragu-ramanathan",
+    "https://sciex.com/about-us/customer-profiles/anita-krishnan",
+    "https://sciex.com/about-us/customer-profiles/nico-van-de-merbel",
+    "https://sciex.com/about-us/customer-profiles/shane-needham",
+    "https://sciex.com/about-us/customer-profiles/fabrizia-and-susan",
+    "https://sciex.com/about-us/customer-profiles/sanjay-gurule",
+    "https://sciex.com/about-us/customer-profiles/dr-lin-zhi-chen",
+    "https://sciex.com/about-us/customer-profiles/dr-jason-tonillo",
+    "https://sciex.com/about-us/customer-profiles/subhash-chand",
+    "https://sciex.com/about-us/customer-profiles/pratima-srivastava.html",
+    "https://sciex.com/about-us/customer-profiles/ashwani-gaur.html",
+    "https://sciex.com/about-us/customer-profiles/chandreshwar-shukla.html",
+    "https://sciex.com/about-us/customer-profiles/bm-rao",
+    "https://sciex.com/about-us/customer-profiles/robert-martin",
+    "https://sciex.com/about-us/customer-profiles/swetha-kaul",
+    "https://sciex.com/about-us/customer-profiles/vaishali-patel.html",
+    "https://sciex.com/about-us/customer-profiles/elizabeth-l-palavecino",
+    "https://sciex.com/about-us/customer-profiles/james-ritchie",
+    "https://sciex.com/about-us/customer-profiles/steven-wong",
+    "https://sciex.com/about-us/customer-profiles/prof-francesco-botre",
+    "https://sciex.com/about-us/customer-profiles/alberto-salomone",
+    "https://sciex.com/about-us/customer-profiles/damia-barcelo",
+    "https://sciex.com/about-us/customer-profiles/dr-christopher-higgins",
+    "https://www.linkedin.com/company/sciex",
+    "https://x.com/SCIEXnews",
+    "https://www.facebook.com/SCIEXnews",
+    "https://instagram.com/instasciex",
+    "https://sciex.com/products/ion-mobility-spectrometry",
+    "https://sciex.com/products/ion-sources",
+    "https://sciex.com/applications/life-science-research",
+    "https://sciex.com/resource-library?view=knowledge%20base%20articles",
+    "https://community.sciex.com/innovation-advisory-board/?ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://sciex.com/legal-pages/privacy-policy",
+    "https://sciex.com/legal-pages/organizational-model-and-code-of-ethics-d-lgs-231-2001",
+    "https://sciex.com/legal-pages/legal-information",
+    "https://sciex.com/legal-pages/do-not-sell-my-data",
+    "https://www.beckman.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.genedata.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer",
+    "https://www.idbs.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.leica-microsystems.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.moleculardevices.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.phenomenex.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.aldevron.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.idtdna.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630",
+    "https://www.abcam.com/?utm_source=sciex_website&utm_medium=referral&utm_content=footer&ajs_aid=a6f7a1a6-be0e-4ec4-8362-d1b3c8027630"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/built-for-business-impact-megamenu-novus-v55-320x180.jpg",
+        "alt": "novus v55 system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/evo-8600-megamenu-2026-320x180.jpg",
+        "alt": "SCIEX 8600 system",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--03.jpg",
+        "alt": "BioPhase 8800 System",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pa-800-plus-megamenu-641x360px.jpg",
+        "alt": "PA 800 plus",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--04.jpg",
+        "alt": "ExionLC AE system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "Intabio ZT system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/echo-ms-system-mega-menu-320x180.jpg",
+        "alt": "Echo MS+ system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--05.jpg",
+        "alt": "SCIEX OS software",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+        "alt": "DNA 20 kb Plasmid and Linear kit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "Intabio ZT system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/metid-mega-menu-banner-320x180.png",
+        "alt": "MetID",
+        "w": 1334,
+        "h": 750
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/4500md-compenduim-mega-menu-320x180.jpg",
+        "alt": "ZenoTOF 7600 system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/megamenu-tile-pfas-summit-phase-3.jpg",
+        "alt": "PFAS Summit Phase III",
+        "w": 2667,
+        "h": 1500
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pfas-webpage-2026-mega-menu.jpg",
+        "alt": "PFAS analysis solutions",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/food-compendium--07.jpg",
+        "alt": "Food Compendium",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-7500-plus-320x180px.jpg",
+        "alt": "SCIEX 7500+ system",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--01.jpg",
+        "alt": "ZenoTOF 7600 system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/tox-chat-box-mega-menu_banner-320x180px.jpg",
+        "alt": "Tox Chat Box",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banner-megamenu-v2-7600-plus-320x180.png",
+        "alt": "SCIEX 7600+ system",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/30492-web-banners-megamenu-7600-plus-320x180px.jpg",
+        "alt": "ZTScan DIA",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-04.jpg",
+        "alt": "Service",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-01.jpg",
+        "alt": "Service",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-03.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Downtime",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2026-registration-mega-menu-320x180px.jpg",
+        "alt": "SCIEX Summmit 2026",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/built-for-business-impact-megamenu-novus-v55-320x180.jpg",
+        "alt": "ZenoTOF 7600+ system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/evo-8600-megamenu-2026-320x180.jpg",
+        "alt": "SCIEX 8600 system",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/biophase-8800-nfd-megamenu-641x360.jpg",
+        "alt": "BioPhase 8800 system",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pa-800-plus-megamenu-641x360px.jpg",
+        "alt": "PA 800 plus",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--04.jpg",
+        "alt": "ExionLC AE system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "Intabio ZT system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/echo-ms-system-mega-menu-320x180.jpg",
+        "alt": "Echo MS+ system",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--05.jpg",
+        "alt": "SCIEX OS software",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+        "alt": "RNA 9000 Purity and Integrity kit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+        "alt": "RNA 9000 Purity and Integrity kit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/metid-mega-menu-banner-320x180.png",
+        "alt": "ZenoTOF 7600+ system",
+        "w": 1334,
+        "h": 750
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/4500md-compenduim-mega-menu-320x180.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/megamenu-tile-pfas-summit-phase-3.jpg",
+        "alt": "",
+        "w": 2667,
+        "h": 1500
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/pfas-webpage-2026-mega-menu.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/food-compendium--07.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-7500-plus-320x180px.jpg",
+        "alt": "",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--01.jpg",
+        "alt": "",
+        "w": 320,
+        "h": 180
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/tox-chat-box-mega-menu_banner-320x180px.jpg",
+        "alt": "",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/web-banner-megamenu-v2-7600-plus-320x180.png",
+        "alt": "ZenoTOF 7600+ system",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/30492-web-banners-megamenu-7600-plus-320x180px.jpg",
+        "alt": "",
+        "w": 641,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-04.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-01.jpg",
+        "alt": "",
+        "w": 640,
+        "h": 360
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-03.jpg",
+        "alt": "eLearning",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+        "alt": "EOL Analyst",
+        "w": 667,
+        "h": 375
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2025-ondemand-megamenu-320x180px.jpg",
+        "alt": "SCIEX Summit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2025-ondemand-megamenu-320x180px.jpg",
+        "alt": "SCIEX Summit",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+        "alt": "Support",
+        "w": 640,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2026-registration-mega-menu-320x180px.jpg",
+        "alt": "SCIEX Summit 2026",
+        "w": 641,
+        "h": 361
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--0795dbdc-7b5a-49fa-88da-947be92905f8/jennifer_van_eyk_phd_sciex_382x288.webp?quality=75&width=1440",
+        "alt": "Jennifer Van Eyk, PHD headshot",
+        "w": 384,
+        "h": 288
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--407ea8bf-2e22-4119-83e6-0e376979836e/david_boocock_phd_sciex_382x288.webp?quality=75&width=1440",
+        "alt": "David Boocock Phd headshot",
+        "w": 384,
+        "h": 288
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--09b9d12e-f30a-4145-9328-539deac10ad3/dr_ben_schulz_sciex_382x288.webp?quality=75&width=1440",
+        "alt": "Doctor Ben Schulz PHD",
+        "w": 384,
+        "h": 288
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--c0c21be6-de86-43ff-92cc-6e9400db3d9d/dr_catherine_guette_sciex_382x288.webp?quality=75&width=1440",
+        "alt": "Doctor Catherine Guette headshot",
+        "w": 384,
+        "h": 288
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--531827a5-cd8e-46cd-865d-7662ecbb5596/prof_oliver_fiehn_sciex_382x288.webp?quality=75&width=1440",
+        "alt": "Professor Oliver Fiehn headshot",
+        "w": 384,
+        "h": 288
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--408ffb41-125d-43c6-9ab1-0df51f3f5102/prof_gerard_hopfgartner_phd_sciex_382x288.webp?quality=75&width=1440",
+        "alt": "Professor Gérard Hopfgartner, PHD",
+        "w": 384,
+        "h": 288
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--06d698a3-53fa-46a7-a2de-7e9e345abac6/guanghou-shui-grey_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Professor Guanghou Shui",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--7e408ec5-d4fe-4172-9a2c-18f98e03cbfa/Martin_Giera_GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Martin Giera headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--b47f1fc2-b27d-421f-8a38-51220720d31c/phil_robinson_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Professor Phillip J Robinson headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--f66cd55e-b25a-450d-991f-204664e19ff2/Tony-Whetton_250x200_gray_sciex.webp?quality=75&width=1440",
+        "alt": "Tony Whetton headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--adb40e01-5b20-4501-99f3-785f4f82ce0b/david-communi_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Professor David Communi",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--27ae173b-2e71-4dea-801a-6c6475ca99e3/Richard-G-Kibbey_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Richard G Kibbey, MD PHD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--582389fa-a1f4-44d6-af75-bc7c1b5b1526/hiroshi-tsugawa_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Hiroshi Tsugawa headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--9ab9b19b-69d7-4789-a46f-d7b3f9e3766e/curtis-mcmurtrey_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Curtis McMurtrey",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--e1fa50f6-c22f-48ec-b1c3-e6bfad8934d0/thomas-lam_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Thomas Lam headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--126416f4-9496-4e58-a737-9b5951ddaab7/peng-Yu-250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Peng Yu, PhD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--9fbadf8d-72ef-4ece-87e1-91f9e9db2044/siddhesh-kamat_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Siddhesh S. Kamat PHD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--fee0bb2b-77cb-4ca6-9b1d-7852141a9841/Thomas_Kofoed_GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Thomas Kofoed headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--818f6851-0574-4f8f-9753-58eb59d7e9f0/romuald-pegah_GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Romuald Sable and Pegah Maghdooni Bagheri headshots",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--8b90add4-ee17-4a3b-bbb6-336148bacf7a/bruno-genet-GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Bruno Genet headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--ad3a6b83-7849-407e-bfd2-1a76b75a3e29/Timothy-Sangster_GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Timothy Sangster headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--445fa8aa-1d06-4c5a-ae1e-f2f908bbc48f/ragu_ramanathan_GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Ragu Ramanathan headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--f0e7354e-6a47-4efc-a691-cf59fa7db1b2/anita-krishnan_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Anita Krishnan headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--dcd20d4a-df8b-475a-a180-54ae2b4d488a/nico_van_de_merbel_250_sciex.webp?quality=75&width=1440",
+        "alt": "Nico van de Merbel headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--80ff1671-c3f4-44eb-ba15-1e6c172e22d6/shane-needham_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Shane Needham headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--5a241ce8-a387-4eba-9d45-8ebb0bebdbb1/fabrizia-fusetti-susan-zondlo_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Fabrizia Fusetti and Susan Zondlo headshots",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--e3d272f0-50ad-4950-af46-7b942c7bc4ef/sanjay-gurulem_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Sanjay Gurulem, PHD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--2b9bf02e-64c9-4ed5-af5f-066b8bdbb407/lin_zhi_chen_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Lin-Zhi Chen",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--4edd1df3-8f3f-4462-b2d3-d0222cf5228d/jason_tonillo_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Jason Tonillo headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--5c9bc0c1-446a-4521-a661-c470a563c569/subhash_chand_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Subhash Chand headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--38bed20b-7a3b-4faf-aac1-4c0e644a6e53/pratima_srivastava_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Pratima Srivastava, PhD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--9dccd06b-7fd0-466b-8e05-5abcd59da256/ashwani_gaur_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Ashwani Gaur headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--4c85063b-14c3-4939-b618-791aa5f704f5/chandreshwar_shukla_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Chandreshwar Shukla ",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--835b4472-02b3-465f-828f-7c4b6f3076d8/bm_rao_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor BM Rao headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--6a0fc1e8-b40f-4aed-b12e-8bf2fe4cfe05/robert-martin_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Robert Martin, PHD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--e2ca5ec8-86cf-4d14-a8e0-cbe9c863e50e/swetha-kaul_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Swetha Kaul, PhD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--e35bcedd-e9e4-4cf6-b9e1-f466c603ef06/vaishali-patel-250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Vaishali Patel, PhD",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--fe7f15e0-e2e0-4044-ae27-fa0065cd1312/elizabeth-l-palavecino_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Elizabeth L. Palavecino headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--4f9aedc0-4c15-46f1-9766-1832941565fe/james-c-ritchie-GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor James C. Ritchie headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--453547ae-c7fa-4073-87f5-81527451b65f/steven-wong_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Steven Wong headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--b0b5dc59-bada-43b2-b80c-476eba7f66cd/francesco-botre%CC%80_GS_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Professor Francesco Botrè headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--3fb68f53-ac68-486c-811a-9b50f0dfdbdf/alberto-salmone_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Alberto Salmone headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--46386f2d-0822-4063-8939-b9ea1defc821/Damia-Barcelo_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Damia Barcelo headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--d0a139f9-c7f5-4a29-9f23-5b8a6e2d90b3/Chris-Higgins_250x200_sciex.webp?quality=75&width=1440",
+        "alt": "Doctor Christopher Higgins headshot",
+        "w": 250,
+        "h": 200
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/us.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/jp.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/cn.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/kr.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/us.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/jp.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/cn.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/kr.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/es.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images-v3/footer/danaher-logo.png",
+        "alt": "danher-logo",
+        "w": 98,
+        "h": 128
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/us.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/jp.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/cn.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      },
+      {
+        "src": "https://sciex.com/content/dam/SCIEX/images/products/integrated-solutions/intabiozt/languageselectorflags/kr.png",
+        "alt": "",
+        "w": 40,
+        "h": 40
+      }
+    ],
+    "allImgCount": 123,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--scrollbar-width": "10px",
+    "--actionbar_colors_primary_tint": "#288dff",
+    "--actionbar_colors_primary_main": "#0070f2",
+    "--actionbar_colors_primary_main_7": "color-mix(in srgb, #0070f2 7%, transparent)",
+    "--actionbar_colors_primary_main_10": "color-mix(in srgb, #0070f2 10%, transparent)",
+    "--actionbar_colors_primary_main_15": "color-mix(in srgb, #0070f2 15%, transparent)",
+    "--actionbar_colors_primary_main_20": "color-mix(in srgb, #0070f2 20%, transparent)",
+    "--actionbar_colors_primary_main_30": "color-mix(in srgb, #0070f2 30%, transparent)",
+    "--actionbar_colors_primary_main_60": "color-mix(in srgb, #0070f2 60%, transparent)",
+    "--actionbar_colors_primary_shade": "#015ac2",
+    "--actionbar_colors_category_tag_color_7": "color-mix(in srgb, #5f38ff 7%, transparent)",
+    "--actionbar_colors_category_tag_color_10": "color-mix(in srgb, #5f38ff 10%, transparent)",
+    "--actionbar_colors_category_tag_color_20": "color-mix(in srgb, #5f38ff 20%, transparent)",
+    "--actionbar_colors_category_tag_color_60": "color-mix(in srgb, #5f38ff 60%, transparent)",
+    "--actionbar_colors_secondary_tint": "#69b5fc",
+    "--actionbar_colors_secondary_main": "#44a2fb",
+    "--actionbar_colors_secondary_shade": "#0584fa",
+    "--actionbar_gradients_main_stop_1": "#8351f5",
+    "--actionbar_gradients_main_stop_2": "#0070f2",
+    "--actionbar_gradients_main": "linear-gradient(90deg, #8351f5 0%, #0070f2 100%)",
+    "--actionbar_colors_base_white": "#ffffff",
+    "--actionbar_colors_sap_text_primary": "#131e29",
+    "--actionbar_colors_sap_text_secondary": "#556b82",
+    "--actionbar_colors_category_tag_color": "#5f38ff",
+    "--actionbar_colors_category_tag_background": "#e2dbff",
+    "--actionbar_colors_category_tag_background_hover": "#cdc1ff",
+    "--actionbar-Color-Action-Pallete-Disable-1": "#767676",
+    "--actionbar-color-input-dropdown-content-primary-default": "#8d97ae",
+    "--actionbar-component-border": "#959ea7",
+    "--actionbar-sapButton_Reject_TextColor": "#aa0808",
+    "--actionbar-sapButton_Reject_Background": "#ffd6e9",
+    "--actionbar-sapButton_Reject_Hover_Background": "#ffbddb",
+    "--actionbar-actionbar_colors_sap_toggle": "#788fa6",
+    "--actionbar-actionbar_colors_sap_toggle_hover": "#637d97",
+    "--actionbar-sapTile_SeparatorColor": "color-mix(in srgb, #556b82 12%, transparent)"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 9,
+    "mainTextLen": 60019,
+    "realImageCount": 121,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/data_3c17a089273d4c61a1e6b218844911fa.br.json",
+        "query": [],
+        "resourceType": "other",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 40891,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/data_3c17a089273d4c61a1e6b218844911fa.br.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78ce.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/bin/sciex/currentuserdetails",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "status": 403,
+        "bytes": 239,
+        "hits": 1,
+        "example": "https://sciex.com/bin/sciex/currentuserdetails",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac12/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geoip-js.com",
+        "path": "/geoip/v2.1/country/me",
+        "query": [
+          "referrer"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/vnd.maxmind.com-country+json",
+        "status": 200,
+        "bytes": 672,
+        "hits": 1,
+        "example": "https://geoip-js.com/geoip/v2.1/country/me",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com",
+        "path": "/api2/event/sciex_prod",
+        "query": [
+          "event"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://v55685555553mx3rf3h3n3n3i091550196.us-1.evergage.com/api2/event/sciex_prod",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "sciex.com",
+        "path": "/libs/granite/csrf/token.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 2,
+        "hits": 1,
+        "example": "https://sciex.com/libs/granite/csrf/token.json",
+        "sameSite": true
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 22,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/external-data/insights-configuration/insights_configuration_1a360b5a66cd4f128e0a4d809aab2314.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+        "path": "/web/v2/authentication",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "collection.decibelinsight.net",
+        "path": "/i/{n}/{n}/c.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://collection.decibelinsight.net/i/14130/1197818/c.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_p",
+          "_s",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ec_mode",
+          "ecid",
+          "en",
+          "ep.auth0Id",
+          "ep.dhr_client_id",
+          "ep.dhr_session_id",
+          "ep.logged_in_status",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ir",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/11360491560/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/users/{hash}/runtime_data.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 274,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/users/1e111ec60eee4eb8859b4147fa4ea483/runtime_data.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "cdn.dreamdata.cloud",
+        "path": "/api/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16,
+        "hits": 1,
+        "example": "https://cdn.dreamdata.cloud/api/v1/p",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "px.ads.linkedin.com",
+        "path": "/wa/",
+        "query": [
+          "fmt",
+          "medium"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://px.ads.linkedin.com/wa/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.walkme.com",
+        "path": "/player/resources/prompts-manager/2.8.4/prompts.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 61753,
+        "hits": 1,
+        "example": "https://cdn.walkme.com/player/resources/prompts-manager/2.8.4/prompts.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ec.walkme.com",
+        "path": "/event/postEvent",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "status": 200,
+        "bytes": 2,
+        "hits": 2,
+        "example": "https://ec.walkme.com/event/postEvent",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "cdn.walkme.com",
+        "count": 22
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 5
+      },
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 5
+      },
+      {
+        "host": "static.cloud.coveo.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "cdn.usefathom.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.evgnet.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.decibelinsight.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.c360a.salesforce.com",
+        "count": 1
+      },
+      {
+        "host": "geoip-js.com",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.dreamdata.cloud",
+        "count": 1
+      },
+      {
+        "host": "img04.en25.com",
+        "count": 1
+      },
+      {
+        "host": "zn1o1ioypsmwwxbmb-sciex.siteintercept.qualtrics.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "aem-sites"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 2,
+      "thirdPartyEndpoints": 18,
+      "thirdPartyScriptHosts": 17,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/about-us-customer-profiles.png",
+  "renderedHtml": "pages/about-us-customer-profiles.html"
+}

@@ -1,0 +1,638 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-18T06:52:47.245Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "training-intact-analysis-of-antibody-drug-conjugates-",
+  "url": "https://sciex.com/training/Intact-Analysis-of-Antibody-Drug-Conjugates-",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-18T06:52:47.245Z",
+  "finalUrl": "https://login.lifesciences.danaher.com/u/login/identifier?state=hKFo2SBOdGVHbnFScktWSFRhemdhNGdyT3ZxMTRJX0tOQ0p6Z6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhwZnkwMFNzVkl6SVFObTNTM0lhN3dVMGVLZHk0Vk9Co2NpZNkgZXVUeUFGZ3NTSFI4dnFXMzVSaU1wQ1psclBuSzFIU1A",
+  "title": "Sign In",
+  "description": null,
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Welcome"
+    }
+  ],
+  "body": [
+    "Use your Danaher login to sign into SCIEX.",
+    "Need an account? Sign up"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Continue",
+      "href": null
+    },
+    {
+      "label": "Sign up",
+      "href": "/u/signup/identifier?state=hKFo2SBOdGVHbnFScktWSFRhemdhNGdyT3ZxMTRJX0tOQ0p6Z6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhwZnkwMFNzVkl6SVFObTNTM0lhN3dVMGVLZHk0Vk9Co2NpZNkgZXVUeUFGZ3NTSFI4dnFXMzVSaU1wQ1psclBuSzFIU1A"
+    }
+  ],
+  "links": [
+    "https://login.lifesciences.danaher.com/u/signup/identifier?state=hKFo2SBOdGVHbnFScktWSFRhemdhNGdyT3ZxMTRJX0tOQ0p6Z6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGhwZnkwMFNzVkl6SVFObTNTM0lhN3dVMGVLZHk0Vk9Co2NpZNkgZXVUeUFGZ3NTSFI4dnFXMzVSaU1wQ1psclBuSzFIU1A",
+    "https://www.abcam.com/",
+    "https://www.aldevron.com/",
+    "https://www.mybeckman.com/",
+    "https://www.genedata.com/",
+    "https://www.idbs.com/",
+    "https://www.idtdna.com/",
+    "https://www.leica-microsystems.com/",
+    "https://www.moleculardevices.com/",
+    "https://www.phenomenex.com/",
+    "https://www.sciex.com/"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://lifesciences.danaher.com/icons/danaher.png",
+        "alt": "Danaher",
+        "w": 130,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/icons/danaher.png",
+        "alt": "Danaher Lifesciences",
+        "w": 130,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/icons/danaher.png",
+        "alt": "Danaher",
+        "w": 130,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/abcam-logo.webp",
+        "alt": "Abcam",
+        "w": 150,
+        "h": 33
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/aldevron-logo.webp",
+        "alt": "Aldevron",
+        "w": 150,
+        "h": 49
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/beckman-coulter-life-sciences-logo.webp",
+        "alt": "Beckman Coulter Life Sciences",
+        "w": 150,
+        "h": 88
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/genedata-logo.webp",
+        "alt": "Genedata",
+        "w": 150,
+        "h": 52
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/idbs-logo.webp",
+        "alt": "IDBS",
+        "w": 150,
+        "h": 46
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/idt-logo.webp",
+        "alt": "IDT",
+        "w": 150,
+        "h": 44
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/leica-microsystems-logo.webp",
+        "alt": "Leica Microsystems",
+        "w": 150,
+        "h": 70
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/moledev-logo.webp",
+        "alt": "Molecular Devices",
+        "w": 150,
+        "h": 33
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/PHENOMENEX.svg",
+        "alt": "Phenomenex",
+        "w": 300,
+        "h": 68
+      },
+      {
+        "src": "https://lifesciences.danaher.com/content/dam/danaher/brand-logos/opco-white/sciex-logo.webp",
+        "alt": "SCIEX",
+        "w": 150,
+        "h": 51
+      }
+    ],
+    "allImgCount": 13,
+    "cssBackgrounds": [
+      "https://danaherls.scene7.com/is/image/danaher/danaher-background"
+    ],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--primary-color": "#0068FA",
+    "--button-font-color": "#ffffff",
+    "--secondary-button-border-color": "#c9cace",
+    "--social-button-border-color": "#c9cace",
+    "--radio-button-border-color": "#c9cace",
+    "--secondary-button-text-color": "#1e212a",
+    "--link-color": "#0068FA",
+    "--title-font-color": "#1e212a",
+    "--font-default-color": "#1e212a",
+    "--widget-background-color": "#ffffff",
+    "--box-border-color": "#c9cace",
+    "--font-light-color": "#65676e",
+    "--input-text-color": "#000000",
+    "--input-border-color": "#c9cace",
+    "--border-default-color": "#c9cace",
+    "--input-background-color": "#ffffff",
+    "--icon-default-color": "#65676e",
+    "--error-color": "#d03c38",
+    "--error-text-color": "#ffffff",
+    "--success-color": "#13a688",
+    "--base-focus-color": "#0068FA",
+    "--transparency-focus-color": "rgba(0, 104, 250, .15)",
+    "--base-hover-color": "#000000",
+    "--transparency-hover-color": "rgba(0,0,0, 0.1)",
+    "--ulp-captcha-widget-theme": "light",
+    "--default-font-size": "1rem",
+    "--small-font-size": "0.75rem",
+    "--title-font-size": "1.5rem",
+    "--lg-font-size": "1rem",
+    "--xl-font-size": "1.25rem",
+    "--spacing": "0.5rem",
+    "--button-border-width": "1px",
+    "--social-button-border-width": "1px",
+    "--radio-border-width": "1px",
+    "--input-border-width": "1px",
+    "--border-radius-outer": "5px",
+    "--box-border-width": "0px",
+    "--brand-primary": "#0068FA",
+    "--brand-primary-rgb": "0, 104, 250"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 1,
+    "mainTextLen": 158,
+    "realImageCount": 13,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage",
+    "duplicateOf": "support-login"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "res.cdn.office.net",
+        "path": "/teams-js/validDomains/json/validDomains.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://res.cdn.office.net/teams-js/validDomains/json/validDomains.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/learner",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "status": 200,
+        "bytes": 638,
+        "hits": 1,
+        "example": "https://training.sciex.com/api/rest/v2/learner",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/profiles/client-public",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "status": 200,
+        "bytes": 11171,
+        "hits": 1,
+        "example": "https://training.sciex.com/api/rest/v2/profiles/client-public",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/0dec26b6-99d0-4899-bb84-862e1aef78ce.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/en.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/0dec26b6-99d0-4899-bb84-862e1aef78ce/01a0a3ce-749c-7214-90cc-f238e48fac12/en.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.1.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/features",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "status": 200,
+        "bytes": 2989,
+        "hits": 1,
+        "example": "https://training.sciex.com/api/rest/v2/features",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "did",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gdid",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/rmkt/collect/11360491560/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "region1.analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_gaz",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.full_url",
+          "frm",
+          "gcd",
+          "gcs",
+          "gdid",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "up.client_id",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 4,
+        "example": "https://region1.analytics.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/v2/profiles/sso-configuration",
+        "query": [
+          "relayState"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/hal+json",
+        "status": 200,
+        "bytes": 693,
+        "hits": 1,
+        "example": "https://training.sciex.com/api/rest/v2/profiles/sso-configuration",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "training.sciex.com",
+        "path": "/api/rest/learner-discovery/conversations",
+        "query": [
+          "limit",
+          "offset"
+        ],
+        "resourceType": "xhr",
+        "contentType": null,
+        "status": 401,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://training.sciex.com/api/rest/learner-discovery/conversations",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "collection.decibelinsight.net",
+        "path": "/i/{n}/{n}/c.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://collection.decibelinsight.net/i/14130/1197818/c.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "cdn.dreamdata.cloud",
+        "path": "/api/v1/p",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 16,
+        "hits": 2,
+        "example": "https://cdn.dreamdata.cloud/api/v1/p",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "data.pendo.io",
+        "path": "/data/guide.gif/{uuid}",
+        "query": [
+          "ct",
+          "jzb",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 42,
+        "hits": 1,
+        "example": "https://data.pendo.io/data/guide.gif/e30c76de-ebde-46d2-485e-e3175186f503",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "data.pendo.io",
+        "path": "/data/guide.json/{uuid}",
+        "query": [
+          "ct",
+          "id",
+          "jzb",
+          "v"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 514,
+        "hits": 1,
+        "example": "https://data.pendo.io/data/guide.json/e30c76de-ebde-46d2-485e-e3175186f503",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com",
+        "path": "/web/v2/authentication",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://gq4tgzrrgm4t0yldgbrd1mlgmq.c360a.salesforce.com/web/v2/authentication",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "count": 6
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "cdn.dreamdata.cloud",
+        "count": 2
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 2
+      },
+      {
+        "host": "training.sciex.com",
+        "count": 1
+      },
+      {
+        "host": "snap.licdn.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.evgnet.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.decibelinsight.net",
+        "count": 1
+      },
+      {
+        "host": "static.ads-twitter.com",
+        "count": 1
+      },
+      {
+        "host": "img04.en25.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.pendo.io",
+        "count": 1
+      },
+      {
+        "host": "cdn.c360a.salesforce.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.auth0.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [
+      {
+        "action": "https://login.lifesciences.danaher.com/u/login/identifier",
+        "hasAction": false,
+        "method": "post",
+        "sameOrigin": true,
+        "fieldCount": 2,
+        "fieldNames": [
+          "username"
+        ],
+        "search": false
+      }
+    ],
+    "ariaLiveRegions": 4,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 18,
+      "thirdPartyScriptHosts": 14,
+      "inlineDataBlobs": 0,
+      "forms": 1,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/training-intact-analysis-of-antibody-drug-conjugates-.png",
+  "renderedHtml": "pages/training-intact-analysis-of-antibody-drug-conjugates-.html"
+}

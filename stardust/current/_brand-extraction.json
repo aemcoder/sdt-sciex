@@ -1,0 +1,3140 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:extract",
+  "writtenAt": "2026-09-18T07:20:15Z",
+  "readArtifacts": [
+   "stardust/current/pages/*.json (73)",
+   "stardust/current/pages/*.html (73)",
+   "stardust/current/assets/screenshots/*.png",
+   "stardust/current/_crawl-log.json",
+   "stardust/.work/page-types.json",
+   "stardust/.work/probe-index.json",
+   "stardust/.work/probe-applications-pharma-and-biopharma.json",
+   "stardust/.work/probe-support-knowledge-base-articles-resetting-root-director-to-a.json",
+   "stardust/.work/probe2-home.json",
+   "stardust/.work/probe3-home.json",
+   "stardust/.work/probe-fonts-css.json",
+   "stardust/.work/tw-class-counts.json",
+   "stardust/current/assets/css/clientlib-site.min.69142de3.css",
+   "stardust/current/assets/css/legacy/clientlib-global.min.css",
+   "stardust/current/assets/css/eds/styles__styles.css",
+   "https://sciex.com/",
+   "https://sciex.com/applications/pharma-and-biopharma",
+   "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us"
+  ],
+  "synthesizedInputs": [],
+  "stardustVersion": "0.10.0",
+  "liveProbes": 5,
+  "notes": [
+   "Three front-ends co-exist on sciex.com: v3 Tailwind (51/73 sample pages; clientlib-site.min.css; body.stretch-text), legacy \"globalpage\" (15/73; clientlib-base/global; proxima-nova + teal/orange), and Edge Delivery blocks (3/73; /styles/styles.css + /blocks/*). This file describes the v3 system as the brand surface (it owns home, all hubs, products, applications, technology, about) and records the other two under type.subsystems / palette dropped / page-types.json designSystem.",
+   "Home h1 is text-bravo 52px/270 (white on photo); cross-page h1 is text-alfa 64px/270 (37 hero-text pages). Type ramp reported from the cross-page value; divergence kept in type.headingFamily.sizeLevels.",
+   "Palette occurrences use utility-class counts inside <main> across the 51 v3 pages (header/footer/megamenu stripped) because computed styles were probed on 3 pages only; computedArea1440 / computedElements give the 3-page computed evidence. Header+footer alone contribute ~28k tw-text-blue-700 uses across the crawl (megamenu), which would swamp any content signal.",
+   "Palette capped at 8; dropped colours listed in paletteDropped (grey-50 #f5f5f5, grey-300 #a1a1a1, overlay black, grey-700 dividers, blue-900 active, the legacy teal/orange family and the EDS #0072ce).",
+   "Border-radius: home mode and cross-page mode agree (4px on buttons only; imagery square). No divergence.",
+   "No shadows at rest anywhere on v3 pages except the account popover; the flat look is a real property of the site, not a capture gap.",
+   "media.cssBackgrounds is empty on all 73 records, so no background-motif system components exist; heroes use <picture><img> with object-fit cover.",
+   "The login-nudge tooltip seen in 63 screenshots is a WalkMe balloon (third party), styled in legacy teal #007da4 with an orange highlighter; the native login affordance is the account popover (.account-dropdown-content).",
+   "Megamenu images (63 <img> per page under /megamenu/) are excluded from assets/media by instruction; 42 content images from the 3 archetype pages were saved (assets/media/_manifest.json).",
+   "Typekit (proxima-nova) files were re-fetched with descriptive names (proxima-nova-<weight>[-italic].<woff2|woff|otf>) because the kit serves them as /l /d /a; the intercepted copies were identical bytes.",
+   "Records carry no embedDominance field; embed-dominance detection skipped. YouTube iframes on 3 pages and 4 self-hosted mp4 <video> elements are below the fold.",
+   "products-consumables-lc-ms-performance-kits redirected to /products/consumables and duplicates that record; support-login and the 2 training pages captured the Danaher Auth0 login (external chrome, not sciex.com brand); about-us-career-opportunities captured jobs.danaher.com."
+  ]
+ },
+ "site": {
+  "name": "SCIEX",
+  "tagline": "As a leader in life science industries, SCIEX provides the precision detection and quantitation of molecules needed for scientists to make discoveries that change the world.",
+  "taglineSource": "meta[name=description] / og:description on https://sciex.com/",
+  "originUrl": "https://sciex.com",
+  "title": "LC-MS, CE, and software solutions | SCIEX",
+  "parent": "Danaher (Life Sciences) — footer logo, One Login, partner strip",
+  "platform": "Adobe Experience Manager Sites (frameworkHints aem-sites; /etc.clientlibs; /content/dam) behind Fastly, with a partial Edge Delivery Services surface (/blocks, /styles, /nav.plain.html, /footer.plain.html) on 3 sample pages",
+  "locales": [
+   "en-US (x-default)",
+   "zh-CN sciex.com.cn",
+   "ja-JP sciex.jp",
+   "ko-KR sciex.com/kr"
+  ]
+ },
+ "origins": [
+  {
+   "origin": "https://sciex.com",
+   "role": "primary",
+   "pagesCaptured": 73,
+   "contributedSignals": [],
+   "designSystems": {
+    "v3-tailwind": 51,
+    "external": 4,
+    "eds-blocks": 3,
+    "legacy-globalpage": 15
+   }
+  }
+ ],
+ "logo": {
+  "source": "inline-svg",
+  "sourceSelector": "nav#mega-menu > div > div > a[title=\"Go to Sciex homepage\"] > svg.tw-hidden.lg:tw-block",
+  "localPath": "stardust/current/assets/logo.svg",
+  "format": "svg",
+  "intrinsicWidth": 95,
+  "intrinsicHeight": 32,
+  "viewBox": "0 0 95 32",
+  "fill": "white (paths fill=\"white\"; renders on the #141414 header bar)",
+  "synthesized": false,
+  "synthesizedBasis": null,
+  "variantsCaptured": [
+   "desktop wordmark 95×32 white (logo.svg)"
+  ],
+  "variantsNotCaptured": [
+   "mobile wordmark 88×28 (svg.tw-block.lg:tw-hidden, same header, viewBox 0 0 88 28)",
+   "dark-on-light variant (not present in captured markup; Auth0 login page shows a black wordmark as a raster)",
+   "Danaher parent logo (footer png 98×128, saved in assets/media/danaher-logo-10cc1ca5.png)"
+  ],
+  "favicon": {
+   "source": "link[rel=icon][sizes=16x16]",
+   "url": "https://sciex.com/content/SCIEX/na/us/en.thumb.16.16.png",
+   "file": "stardust/current/assets/favicon.png",
+   "appleTouchIcons": [
+    "https://sciex.com/content/SCIEX/na/us/en.thumb.76.76.png",
+    "https://sciex.com/content/SCIEX/na/us/en.thumb.152.152.png (also og:image)"
+   ]
+  },
+  "pages": [
+   "about-us",
+   "about-us-contact-us",
+   "about-us-customer-profiles"
+  ]
+ },
+ "palette": [
+  {
+   "role": "background",
+   "value": "#ffffff",
+   "occurrences": 80,
+   "occurrenceBasis": "utility-class uses in <main> across 51 v3 pages (tw-bg-white)",
+   "pageCount": 51,
+   "computedArea1440": 4444571,
+   "computedElements": 273,
+   "sourceSelectors": [
+    "body (page canvas, no background set: computed rgba(0,0,0,0) over white)",
+    "div.tw-bg-white",
+    "section#subnav-primary.tw-bg-white",
+    "a.tw-text-white (footer/header text)"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+   ],
+   "usedAs": [
+    "background",
+    "text",
+    "fill",
+    "border"
+   ],
+   "note": "page canvas; also the text colour on dark bands and buttons"
+  },
+  {
+   "role": "text-primary",
+   "value": "#141414",
+   "occurrences": 1301,
+   "occurrenceBasis": "utility-class uses in <main> across 51 v3 pages (tw-text-grey-900, tw-bg-grey-900)",
+   "pageCount": 51,
+   "computedArea1440": 8951730,
+   "computedElements": 138,
+   "sourceSelectors": [
+    "h1.text-alfa",
+    "h2.text-charlie.tw-text-grey-900",
+    "h3.text-lg-bolder.tw-text-grey-900",
+    "nav#mega-menu a (top-level items)",
+    "nav#mega-menu > div (64px top bar, tw-bg-grey-900)",
+    "footer#footer.tw-bg-grey-900",
+    "div.c016-testimonial-dark.tw-bg-grey-900"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers"
+   ],
+   "usedAs": [
+    "text",
+    "background",
+    "stroke"
+   ],
+   "note": "grey-900: heading/nav text AND the near-black header bar, footer and testimonial band"
+  },
+  {
+   "role": "text-secondary",
+   "value": "#707070",
+   "occurrences": 1102,
+   "occurrenceBasis": "utility-class uses in <main> across 51 v3 pages (tw-text-grey-500)",
+   "pageCount": 51,
+   "computedArea1440": 5627,
+   "computedElements": 36,
+   "sourceSelectors": [
+    "p (body copy)",
+    "div.text-base.tw-text-grey-500 (card copy)",
+    "p.text-lg.tw-text-grey-500 (lead)",
+    "span (breadcrumb items)"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers"
+   ],
+   "usedAs": [
+    "text",
+    "stroke"
+   ],
+   "note": "grey-500: all paragraph and card body copy"
+  },
+  {
+   "role": "primary",
+   "value": "#0068fa",
+   "occurrences": 1883,
+   "occurrenceBasis": "utility-class uses in <main> across 51 v3 pages (tw-bg-blue-700, tw-text-blue-700, tw-border-blue-700)",
+   "pageCount": 51,
+   "computedArea1440": 76160,
+   "computedElements": 88,
+   "sourceSelectors": [
+    "a.tw-bg-blue-700 (primary button)",
+    "a#sciex-now-dash.header-link (header CTA cell)",
+    "span.tw-whitespace-normal (arrow-link label)",
+    "span.tw-absolute.tw-h-1.tw-bg-blue-700 (link underline bar)",
+    "button.text-base-bolder[aria-selected] (active tab)",
+    "nav#mega-menu .submenu-active (2px left border)",
+    "a.create-account-btn"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers"
+   ],
+   "usedAs": [
+    "background",
+    "text",
+    "border",
+    "stroke"
+   ],
+   "note": "blue-700: the only saturated brand colour on v3 pages"
+  },
+  {
+   "role": "primary-dark",
+   "value": "#005bdb",
+   "occurrences": 1439,
+   "occurrenceBasis": "utility-class uses in <main> across 51 v3 pages (tw-bg-blue-800, tw-text-blue-800, tw-from-blue-800, tw-via-blue-800, tw-to-blue-800)",
+   "pageCount": 51,
+   "computedArea1440": 0,
+   "computedElements": 0,
+   "sourceSelectors": [
+    "a.tw-bg-blue-700 hover (background-image linear-gradient(to right,#005bdb,#005bdb,#005bdb) fills bottom-up)",
+    "a.tw-text-blue-700:hover (hover:tw-text-blue-800)",
+    "span.tw-bg-blue-700:hover"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers"
+   ],
+   "usedAs": [
+    "background",
+    "text"
+   ],
+   "note": "blue-800: hover state of every primary button and arrow link; active state is blue-900 #004ebc"
+  },
+  {
+   "role": "surface-dark",
+   "value": "#2c2c2c",
+   "occurrences": 5,
+   "occurrenceBasis": "computed elements on 3 probed pages",
+   "pageCount": 2,
+   "computedArea1440": 456792,
+   "computedElements": 5,
+   "sourceSelectors": [
+    "div.tw-py-32.tw-bg-grey-800.tw-text-white (SCIEX Now support network band)",
+    "div.tw-flex.tw-grow.tw-gap-16 (border)"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "about-us"
+   ],
+   "usedAs": [
+    "background",
+    "border"
+   ],
+   "note": "grey-800: the cross-promo band above the footer on 52 pages (htmlInjectionContainer, not a tw- utility count)"
+  },
+  {
+   "role": "border",
+   "value": "#ececec",
+   "occurrences": 350,
+   "occurrenceBasis": "utility-class uses in <main> across 51 v3 pages (tw-border-grey-100, tw-bg-grey-100)",
+   "pageCount": 19,
+   "computedArea1440": 4673,
+   "computedElements": 14,
+   "sourceSelectors": [
+    "div.tw-flex.tw-flex-col.tw-border-t (section top rules)",
+    "div.tw-h-auto.tw-border-b-2 (tab rail)",
+    "div.tw-bg-white.tw-border-b.tw-border-grey-100 (sticky sub-nav)",
+    "li (icon-4-col card top rule 1px)"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers"
+   ],
+   "usedAs": [
+    "border",
+    "background"
+   ],
+   "note": "grey-100: hairline rules between sections/cards; occasional light section background"
+  },
+  {
+   "role": "text-muted",
+   "value": "#8a8a8a",
+   "occurrences": 114,
+   "occurrenceBasis": "computed elements on 3 probed pages (footer links dominate)",
+   "pageCount": 4,
+   "computedArea1440": 4259,
+   "computedElements": 114,
+   "sourceSelectors": [
+    "a.tw-text-grey-400.tw-font-light.tw-tracking-wide (footer links)",
+    "span.tw-text-grey-400.tw-text-mobSm (copyright)",
+    "p#disclaimer",
+    "span.tw-text-grey-400 (testimonial role line)"
+   ],
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+   ],
+   "usedAs": [
+    "text",
+    "stroke"
+   ],
+   "note": "grey-400: footer link colour and captions on dark bands; tw-text-grey-400 utility count is inflated by the footer (27 links x 69 pages) so occurrences here use computed elements"
+  }
+ ],
+ "paletteDropped": [
+  {
+   "value": "#f5f5f5",
+   "role": "surface",
+   "where": "grey-50: search field + Request-a-quote header cell + tw-bg-grey-50 (126 uses, 13 pages)"
+  },
+  {
+   "value": "#a1a1a1",
+   "role": "text-tertiary",
+   "where": "grey-300: SCIEX Now band sub-line, search placeholder, \"All\" scope button"
+  },
+  {
+   "value": "#000000",
+   "role": "overlay",
+   "where": "div.overlay.tw-bg-black at 50% opacity over hero photos (tw-bg-black 58 uses)"
+  },
+  {
+   "value": "#434343",
+   "role": "divider-dark",
+   "where": "grey-700: footer column top rules"
+  },
+  {
+   "value": "#5b5b5b",
+   "role": "control",
+   "where": "grey-600: header search submit button"
+  },
+  {
+   "value": "#004ebc",
+   "role": "primary-active",
+   "where": "blue-900: :active state of buttons (tw-bg-blue-900 116 uses via active: variant)"
+  },
+  {
+   "value": "#0084a9 / #007da4 / #00afdb",
+   "role": "legacy-teal",
+   "where": "legacy globalpage pages only (15/73): h1 #0083a8, links #00afdb, :root --blue-color #007da4, --blue-light-color #00afdb; also the WalkMe login-nudge text"
+  },
+  {
+   "value": "#f59831 / #f99d31",
+   "role": "legacy-orange",
+   "where": "legacy globalpage pages only: .btn.orange BUY NOW, --orange-color; intermediate-template links"
+  },
+  {
+   "value": "#5f6062 / #585857",
+   "role": "legacy-text",
+   "where": "legacy body text (--greytext-color / --bodytext-color)"
+  },
+  {
+   "value": "#0072ce",
+   "role": "eds-primary",
+   "where": "Edge Delivery pages (3/73): /blocks/hero-small .primary buttons; :root --primary-color is #0068FA on those pages"
+  }
+ ],
+ "type": {
+  "headingFamily": {
+   "name": "Geogrotesque (Sharp VF, variable)",
+   "stack": "Geogrotesque, Helvetica, Arial, sans-serif",
+   "weights": [
+    270,
+    450,
+    530
+   ],
+   "sizes": [
+    "64px",
+    "40px",
+    "18px",
+    "24px"
+   ],
+   "sizeLevels": {
+    "h1": "64px / 270 (text-alfa; home h1 is text-bravo 52px)",
+    "h2": "40px / 270 (text-charlie; secondary h2 text-delta 32px)",
+    "h3": "18px / 530 (text-lg-bolder card titles; text-echo 24px/270 on section h3)",
+    "h5": "24px / 450 (SCIEX Now band, tw-text-[20px] md:tw-text-echo)"
+   },
+   "lineHeights": [
+    1.2,
+    1.3,
+    1.444,
+    1.3
+   ],
+   "letterSpacing": [
+    "normal",
+    "normal",
+    "0.048px",
+    "normal"
+   ],
+   "sourceSelectors": [
+    "h1.text-alfa",
+    "h1.text-bravo",
+    "h2.text-charlie",
+    "h2.text-delta",
+    "h3.text-lg-bolder",
+    "h3.text-echo",
+    "h5.tw-text-[20px].md:tw-text-echo"
+   ],
+   "fluid": "text-alfa 34px→calc(7.53px+4.41vw)→64px @1280; text-bravo 31→52; text-charlie 27→40; text-delta 23→32; text-echo 20→24 (clientlib-site.min.css)",
+   "perLevelScoring": {
+    "h1": [
+     {
+      "fontSize": "64px",
+      "fontWeight": 270,
+      "lineHeight": "76.8px",
+      "letterSpacing": "normal",
+      "count": 1,
+      "score": 43.2,
+      "selector": "h1.text-alfa.tw-break-words.richtext-minimal",
+      "pages": [
+       "applications-pharma-and-biopharma"
+      ],
+      "sample": "Biopharma / pharma research"
+     },
+     {
+      "fontSize": "52px",
+      "fontWeight": 270,
+      "lineHeight": "62.4px",
+      "letterSpacing": "normal",
+      "count": 1,
+      "score": 35.1,
+      "selector": "h1.text-bravo.tw-mt-16",
+      "pages": [
+       "index"
+      ],
+      "sample": "The leader in mass spectrometry and capillary electrophoresis solutions"
+     }
+    ],
+    "h2": [
+     {
+      "fontSize": "40px",
+      "fontWeight": 270,
+      "lineHeight": "52px",
+      "letterSpacing": "normal",
+      "count": 5,
+      "score": 60.4,
+      "selector": "h2.text-charlie.tw-text-grey-900.tw-break-words",
+      "pages": [
+       "applications-pharma-and-biopharma",
+       "index"
+      ],
+      "sample": "Overview"
+     },
+     {
+      "fontSize": "32px",
+      "fontWeight": 270,
+      "lineHeight": "41.6px",
+      "letterSpacing": "normal",
+      "count": 1,
+      "score": 21.6,
+      "selector": "h2.text-delta.tw-text-grey-900",
+      "pages": [
+       "index"
+      ],
+      "sample": "SCIEX Stories"
+     }
+    ],
+    "h3": [
+     {
+      "fontSize": "18px",
+      "fontWeight": 530,
+      "lineHeight": "26px",
+      "letterSpacing": "0.048px",
+      "count": 8,
+      "score": 67.5,
+      "selector": "h3.text-lg-bolder.tw-text-grey-900.tw-mb-6",
+      "pages": [
+       "index"
+      ],
+      "sample": "Mass Spectrometers"
+     },
+     {
+      "fontSize": "24px",
+      "fontWeight": 270,
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "count": 1,
+      "score": 16.2,
+      "selector": "h3.text-echo.tw-text-grey-900.tw-break-words",
+      "pages": [
+       "applications-pharma-and-biopharma"
+      ],
+      "sample": "Let's connect"
+     }
+    ],
+    "h5": [
+     {
+      "fontSize": "24px",
+      "fontWeight": 450,
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "count": 2,
+      "score": 38.2,
+      "selector": "h5.tw-text-white.tw-font-bold.tw-text-[20px]",
+      "pages": [
+       "applications-pharma-and-biopharma",
+       "index"
+      ],
+      "sample": "SCIEX Now support network"
+     },
+     {
+      "fontSize": "24px",
+      "fontWeight": 400,
+      "lineHeight": "31.2px",
+      "letterSpacing": "normal",
+      "count": 2,
+      "score": 33.9,
+      "selector": "h5.tw-text-grey-300.tw-text-[20px]",
+      "pages": [
+       "applications-pharma-and-biopharma",
+       "index"
+      ],
+      "sample": "The destination for all your support needs."
+     }
+    ]
+   },
+   "variation": "body.stretch-text sets font-variation-settings:\"wdth\" 550 on the variable font"
+  },
+  "bodyFamily": {
+   "name": "Geogrotesque (Sharp VF, variable)",
+   "stack": "Geogrotesque, Helvetica, Arial, sans-serif",
+   "weights": [
+    330,
+    400,
+    450,
+    530
+   ],
+   "sizes": [
+    "16px",
+    "18px",
+    "14px"
+   ],
+   "lineHeights": [
+    1.5,
+    1.444,
+    1.43
+   ],
+   "letterSpacing": [
+    "0.08px",
+    "0.048px",
+    "0.07px"
+   ],
+   "sourceSelectors": [
+    "body (15px/23px <600px; 16px/24px ≥1280 via text-base fluid calc)",
+    "p",
+    "p.text-lg (lead 18px/26px)",
+    "a.tw-text-grey-400.tw-font-light (footer 16px/330)",
+    "span.tw-text-mobSm (14px/20px)"
+   ],
+   "weightMap": {
+    "tw-font-light": 330,
+    "tw-font-normal": 330,
+    "tw-font-medium": 370,
+    "tw-font-bold": 450,
+    "tw-font-bolder": 530,
+    "b/strong": 530,
+    "a (default)": 530
+   }
+  },
+  "monoFamily": null,
+  "scaleRatio": null,
+  "scaleAudit": {
+   "kind": "ad-hoc",
+   "sizes": [
+    64,
+    52,
+    40,
+    32,
+    24,
+    18,
+    16,
+    14
+   ],
+   "ratios": [
+    1.231,
+    1.3,
+    1.25,
+    1.333,
+    1.333,
+    1.125,
+    1.143
+   ],
+   "matchedScale": null,
+   "note": "ratios wander between major-second (1.125), major-third (1.25) and perfect-fourth (1.33); the ramp is named text-alfa..echo/lg/base/sm rather than derived from one ratio"
+  },
+  "loadStrategy": "swap",
+  "files": [
+   {
+    "url": "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site/resources/fonts/Geogrotesque_Sharp_VF.woff2",
+    "family": "Geogrotesque",
+    "weight": "variable 200-700 (wght axis; site declares 270/330/450/530 faces)",
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Geogrotesque_Sharp_VF.woff2",
+    "sourceCssRule": "@font-face { font-display: swap; font-family: Geogrotesque; font-style: normal; font-weight: 300; src: url(\"clientlib-site/resources/fonts/Geogrotesque_Sharp_VF.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/Geogrotesque-Lt.woff\") format(\"woff\"); unicode-range: U+20-7E, U+A0-FF, U+100-24F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2300-23FF, U+FB",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)",
+    "bytes": 204316
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Rg.woff2",
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Rg.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Rg.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Rg.woff\") format(\"woff\"); font-style: normal; font-weight: normal; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 29940
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/fontawesome-webfont.woff?v=4.2.0",
+    "family": "FontAwesome",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/fontawesome-webfont.woff",
+    "sourceCssRule": "@font-face { font-family: FontAwesome; src: url(\"clientlib-base/resources/fonts/fontawesome-webfont.woff?v=4.2.0\") format(\"woff\"), url(\"clientlib-base/resources/fonts/fontawesome-webfont.ttf?v=4.2.0\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+    "licensingFlag": "open",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 65452
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Md.woff2",
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Md.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Md.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Md.woff\") format(\"woff\"); font-style: normal; font-weight: 500; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 28516
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site/resources/fonts/Geogrotesque-Lt.woff",
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Geogrotesque-Lt.woff",
+    "sourceCssRule": "@font-face { font-display: swap; font-family: Geogrotesque; font-style: normal; font-weight: 300; src: url(\"clientlib-site/resources/fonts/Geogrotesque_Sharp_VF.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/Geogrotesque-Lt.woff\") format(\"woff\"); unicode-range: U+20-7E, U+A0-FF, U+100-24F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2300-23FF, U+FB",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)",
+    "bytes": 36316
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site/resources/fonts/Geogrotesque_Sharp_VF.woff",
+    "family": "Geogrotesque",
+    "weight": "variable 200-700 (wght axis; site declares 270/330/450/530 faces)",
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Geogrotesque_Sharp_VF.woff",
+    "sourceCssRule": "@font-face { font-display: swap; font-family: Geogrotesque; font-style: normal; font-weight: 300; src: url(\"clientlib-site/resources/fonts/Geogrotesque_Sharp_VF.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/Geogrotesque-Lt.woff\") format(\"woff\"); unicode-range: U+20-7E, U+A0-FF, U+100-24F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2300-23FF, U+FB",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)",
+    "bytes": 259072
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site/resources/fonts/Geogrotesque-UltLt.woff2",
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Geogrotesque-UltLt.woff2",
+    "sourceCssRule": "@font-face { font-display: swap; font-family: Geogrotesque; font-style: normal; font-weight: 200; src: url(\"clientlib-site/resources/fonts/Geogrotesque-UltLt.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/Geogrotesque-UltLt.woff\") format(\"woff\"); unicode-range: U+20-7E, U+A0-FF, U+100-24F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2300-23FF, U+FB",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)",
+    "bytes": 25684
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site/resources/fonts/Geogrotesque-UltLt.woff",
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Geogrotesque-UltLt.woff",
+    "sourceCssRule": "@font-face { font-display: swap; font-family: Geogrotesque; font-style: normal; font-weight: 200; src: url(\"clientlib-site/resources/fonts/Geogrotesque-UltLt.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/Geogrotesque-UltLt.woff\") format(\"woff\"); unicode-range: U+20-7E, U+A0-FF, U+100-24F, U+1E00-1EFF, U+2000-206F, U+20A0-20CF, U+2100-214F, U+2150-218F, U+2190-21FF, U+2300-23FF, U+FB",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "v3-tailwind (clientlib-site) + eds (/styles/fonts.css)",
+    "bytes": 36052
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/glyphicons-halflings-regular.woff",
+    "family": "Glyphicons Halflings",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/glyphicons-halflings-regular.woff",
+    "sourceCssRule": "@font-face { font-family: \"Glyphicons Halflings\"; src: url(\"clientlib-base/resources/fonts/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"clientlib-base/resources/fonts/glyphicons-halflings-regular.ttf\") format(\"truetype\"); }",
+    "licensingFlag": "open",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 23424
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/glyphicons-halflings-regular.ttf",
+    "family": "Glyphicons Halflings",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/glyphicons-halflings-regular.ttf",
+    "sourceCssRule": "@font-face { font-family: \"Glyphicons Halflings\"; src: url(\"clientlib-base/resources/fonts/glyphicons-halflings-regular.woff\") format(\"woff\"), url(\"clientlib-base/resources/fonts/glyphicons-halflings-regular.ttf\") format(\"truetype\"); }",
+    "licensingFlag": "open",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 45404
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/fontawesome-webfont.ttf?v=4.2.0",
+    "family": "FontAwesome",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/fontawesome-webfont.ttf",
+    "sourceCssRule": "@font-face { font-family: FontAwesome; src: url(\"clientlib-base/resources/fonts/fontawesome-webfont.woff?v=4.2.0\") format(\"woff\"), url(\"clientlib-base/resources/fonts/fontawesome-webfont.ttf?v=4.2.0\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+    "licensingFlag": "open",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 112160
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Th.woff2",
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Th.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Th.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Th.woff\") format(\"woff\"); font-style: normal; font-weight: 100; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 26572
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Th.woff",
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Th.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Th.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Th.woff\") format(\"woff\"); font-style: normal; font-weight: 100; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 34305
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-ThIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-ThIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-ThIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-ThIt.woff\") format(\"woff\"); font-style: italic; font-weight: 100; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 29032
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-ThIt.woff",
+    "family": "Geogrotesque",
+    "weight": 100,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-ThIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-ThIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-ThIt.woff\") format(\"woff\"); font-style: italic; font-weight: 100; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 37225
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLt.woff2",
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLt.woff\") format(\"woff\"); font-style: normal; font-weight: 200; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 29184
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLt.woff",
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLt.woff\") format(\"woff\"); font-style: normal; font-weight: 200; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 37529
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLtIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLtIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLtIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLtIt.woff\") format(\"woff\"); font-style: italic; font-weight: 200; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 31424
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLtIt.woff",
+    "family": "Geogrotesque",
+    "weight": 200,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-UltLtIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLtIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-UltLtIt.woff\") format(\"woff\"); font-style: italic; font-weight: 200; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 40057
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Lt.woff2",
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Lt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Lt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Lt.woff\") format(\"woff\"); font-style: normal; font-weight: 300; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 29460
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Lt.woff",
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Lt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Lt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Lt.woff\") format(\"woff\"); font-style: normal; font-weight: 300; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 37753
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-LtIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-LtIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-LtIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-LtIt.woff\") format(\"woff\"); font-style: italic; font-weight: 300; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 32112
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-LtIt.woff",
+    "family": "Geogrotesque",
+    "weight": 300,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-LtIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-LtIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-LtIt.woff\") format(\"woff\"); font-style: italic; font-weight: 300; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 40605
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Rg.woff",
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Rg.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Rg.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Rg.woff\") format(\"woff\"); font-style: normal; font-weight: normal; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 38297
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-RgIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-RgIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-RgIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-RgIt.woff\") format(\"woff\"); font-style: italic; font-weight: normal; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 32112
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-RgIt.woff",
+    "family": "Geogrotesque",
+    "weight": 400,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-RgIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-RgIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-RgIt.woff\") format(\"woff\"); font-style: italic; font-weight: normal; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 40705
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Md.woff",
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Md.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Md.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Md.woff\") format(\"woff\"); font-style: normal; font-weight: 500; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 36581
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-MdIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-MdIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-MdIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-MdIt.woff\") format(\"woff\"); font-style: italic; font-weight: 500; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 28984
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-MdIt.woff",
+    "family": "Geogrotesque",
+    "weight": 500,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-MdIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-MdIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-MdIt.woff\") format(\"woff\"); font-style: italic; font-weight: 500; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 36481
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBd.woff2",
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBd.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBd.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBd.woff\") format(\"woff\"); font-style: normal; font-weight: 600; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 30400
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBd.woff",
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBd.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBd.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBd.woff\") format(\"woff\"); font-style: normal; font-weight: 600; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 38573
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBdIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBdIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBdIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBdIt.woff\") format(\"woff\"); font-style: italic; font-weight: 600; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 33468
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBdIt.woff",
+    "family": "Geogrotesque",
+    "weight": 600,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-SmBdIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBdIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-SmBdIt.woff\") format(\"woff\"); font-style: italic; font-weight: 600; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 42105
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Bd.woff2",
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Bd.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Bd.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Bd.woff\") format(\"woff\"); font-style: normal; font-weight: bold; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 28952
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Bd.woff",
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-Bd.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Bd.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-Bd.woff\") format(\"woff\"); font-style: normal; font-weight: bold; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 36937
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-BdIt.woff2",
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-BdIt.woff2",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-BdIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-BdIt.woff\") format(\"woff\"); font-style: italic; font-weight: bold; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 32428
+   },
+   {
+    "url": "https://sciex.com/etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-BdIt.woff",
+    "family": "Geogrotesque",
+    "weight": 700,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/Ge2003-BdIt.woff",
+    "sourceCssRule": "@font-face { font-family: Geogrotesque; src: url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-BdIt.woff2\") format(\"woff2\"), url(\"../../../etc.clientlibs/SCIEX/clientlibs/clientlib-base/resources/fonts/Ge2003-BdIt.woff\") format(\"woff\"); font-style: italic; font-weight: bold; }",
+    "licensingFlag": "private",
+    "hosting": "self-hosted on sciex.com",
+    "usedBy": "legacy-globalpage (clientlib-base/global)",
+    "bytes": 40697
+   },
+   {
+    "url": "https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400.woff2",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 32688
+   },
+   {
+    "url": "https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700.woff2",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 33660
+   },
+   {
+    "url": "https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700.woff",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 35228
+   },
+   {
+    "url": "https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700.otf",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/71f83c/00000000000000003b9b093b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 54352
+   },
+   {
+    "url": "https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700-italic.woff2",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 35128
+   },
+   {
+    "url": "https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700-italic.woff",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 36716
+   },
+   {
+    "url": "https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3",
+    "family": "proxima-nova",
+    "weight": 700,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-700-italic.otf",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/86b539/00000000000000003b9b093a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 56056
+   },
+   {
+    "url": "https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400.woff",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 34220
+   },
+   {
+    "url": "https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3",
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400.otf",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/4838bd/00000000000000003b9b0934/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 52828
+   },
+   {
+    "url": "https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400-italic.woff2",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 34380
+   },
+   {
+    "url": "https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400-italic.woff",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 36016
+   },
+   {
+    "url": "https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3",
+    "family": "proxima-nova",
+    "weight": 400,
+    "style": "italic",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-400-italic.otf",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/6aec08/00000000000000003b9b0935/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 54836
+   },
+   {
+    "url": "https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+    "family": "proxima-nova",
+    "weight": 300,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-300.woff2",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 32384
+   },
+   {
+    "url": "https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+    "family": "proxima-nova",
+    "weight": 300,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-300.woff",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 34196
+   },
+   {
+    "url": "https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3",
+    "family": "proxima-nova",
+    "weight": 300,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-300.otf",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/437c3d/00000000000000003b9b0932/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 52724
+   },
+   {
+    "url": "https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+    "family": "proxima-nova",
+    "weight": 500,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-500.woff2",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 33188
+   },
+   {
+    "url": "https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+    "family": "proxima-nova",
+    "weight": 500,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-500.woff",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 34656
+   },
+   {
+    "url": "https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3",
+    "family": "proxima-nova",
+    "weight": 500,
+    "style": "normal",
+    "unicodeRange": null,
+    "localPath": "stardust/current/assets/fonts/proxima-nova-500.otf",
+    "sourceCssRule": "@font-face { font-family: proxima-nova; src: url(\"https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff2\"), url(\"https://use.typekit.net/af/3331e6/00000000000000003b9b0936/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3\") format(\"woff\"), url(\"https://u",
+    "licensingFlag": "private",
+    "hosting": "Adobe Fonts (use.typekit.net kit, referenced from clientlib-base.min.css)",
+    "usedBy": "legacy-globalpage body font (15/73 pages)",
+    "bytes": 53460
+   }
+  ],
+  "subsystems": {
+   "legacy-globalpage": {
+    "pages": 15,
+    "body": "proxima-nova, Arial, Verdana, sans-serif 15px/20px #5f6062 (clientlib-global.min.css body) — KB article content overridden to Helvetica, Arial, sans-serif 16px/24px (computed on support-knowledge-base-articles-resettin)",
+    "h1": "Geogrotesque/Helvetica 28px/400 #0083a8 (computed rgb(0,132,169))",
+    "links": "#00afdb",
+    "buttons": ".btn.blue #00afdb 14px/300 white; .btn.orange #f99d31 uppercase",
+    "headingFamily": "'Geogrotesque' static cuts Ge2003-* (weights 100–700 + italics)",
+    "iconFonts": [
+     "FontAwesome 4.2",
+     "Glyphicons Halflings"
+    ],
+    "source": "stardust/current/assets/css/legacy/clientlib-global.min.css, clientlib-base.min.css"
+   },
+   "eds-blocks": {
+    "pages": 3,
+    "body": "\"Geogrotesque Sharp VF\" 16px/330 (/blocks/hero-small/hero-small.css .contact-hero-description)",
+    "h1": "\"Geogrotesque Sharp VF\" 52px/270 line-height 64px (.contact-hero-heading-hero)",
+    "buttons": ".button padding 10px 20px radius 4px weight 500; .primary #0072ce; .secondary 1px solid #0072ce",
+    "customProps": "--primary-color #0068FA, --link-color #0068FA, --title-font-color #1e212a, --box-border-color #c9cace (recorded in customProps on 3 pages)",
+    "source": "stardust/current/assets/css/eds/"
+   }
+  }
+ },
+ "spacing": {
+  "baseUnit": 4,
+  "scale": [
+   4,
+   8,
+   12,
+   16,
+   20,
+   24,
+   32,
+   48,
+   64,
+   80,
+   96
+  ],
+  "sectionPadding": "48px 0 (tw-py-32 md:tw-py-48 per component; 64px+ between major bands)",
+  "containerMaxWidth": "1440px (.tw-container, 64px side padding at ≥1280 → 1312px content; 24px on mobile)",
+  "gridGap": "32px (md:tw-gap-x-32; card grids 48px row / 32px column)",
+  "observedPaddings": [
+   [
+    "4px",
+    93
+   ],
+   [
+    "64px",
+    74
+   ],
+   [
+    "32px",
+    52
+   ],
+   [
+    "48px",
+    39
+   ],
+   [
+    "20px",
+    32
+   ],
+   [
+    "24px",
+    20
+   ],
+   [
+    "16px",
+    18
+   ],
+   [
+    "8px",
+    15
+   ],
+   [
+    "15px",
+    11
+   ],
+   [
+    "12px",
+    9
+   ],
+   [
+    "80px",
+    5
+   ],
+   [
+    "10px",
+    4
+   ],
+   [
+    "96px",
+    4
+   ],
+   [
+    "5px",
+    4
+   ]
+  ],
+  "note": "Tailwind spacing scale is px-named (tw-py-12 = 12px, tw-mt-24 = 24px); footer top padding 96px (tw-pt-64 md:tw-pt-96)"
+ },
+ "motifs": {
+  "borderRadius": {
+   "primary": "4px",
+   "secondary": "3px",
+   "pill": "9999px",
+   "primarySources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers"
+   ],
+   "occurrences": {
+    "4px": 109,
+    "9999px": 77,
+    "3px": 3
+   },
+   "occurrenceBasis": "tw-rounded (.25rem) / tw-rounded-full utility uses in <main> across 51 v3 pages; 3px = button.global-search-btn on every page",
+   "sourceSelectors": {
+    "4px": [
+     "a.tw-rounded (primary/secondary buttons)",
+     "div.account-dropdown-content (login popover)",
+     "div.breadcrumb (legacy)"
+    ],
+    "9999px": [
+     "button.splide arrows (carousel prev/next 32px)",
+     "button.tw-rounded-full (scroll-to-top / megamenu close)"
+    ],
+    "3px": [
+     "button.global-search-btn"
+    ]
+   },
+   "note": "images, cards, hero bands and inputs are square-cornered (0px); radius exists only on buttons, popovers and round controls"
+  },
+  "shadows": [
+   {
+    "value": "rgba(19, 19, 19, 0.15) -2px 3px 18.4px 0px",
+    "uses": "account/login popover (.account-dropdown-content) — only shadow observed at rest",
+    "sources": [
+     "index"
+    ]
+   },
+   {
+    "value": "0 8px 16px 0 hsla(0,0%,7%,.05)",
+    "uses": "card hover lift (defined in clientlib-site.min.css, not observed at rest)",
+    "sources": [
+     "stardust/current/assets/css/clientlib-site.min.69142de3.css"
+    ]
+   },
+   {
+    "value": "-24px 8px 16px 0 hsla(0,0%,7%,.05)",
+    "uses": "panel/side shadow (clientlib-site.min.css, not observed at rest)",
+    "sources": [
+     "stardust/current/assets/css/clientlib-site.min.69142de3.css"
+    ]
+   }
+  ],
+  "gradients": [
+   {
+    "value": "linear-gradient(to right, #005bdb, #005bdb, #005bdb) at background-size 100% 0 → 100% 100% on hover (tw-bg-gradient-to-r tw-from-blue-800 tw-via-blue-800 tw-to-blue-800 tw-bg-bottom tw-bg-no-repeat tw-bg-[length:100%_0px] hover:tw-bg-[length:100%_100%])",
+    "uses": "fill-up hover on every primary and outline button (116 uses)",
+    "sources": [
+     "index",
+     "applications-pharma-and-biopharma",
+     "products-mass-spectrometers"
+    ]
+   },
+   {
+    "value": "rgba(0,0,0,0.5) flat overlay (div.overlay.tw-bg-black tw-opacity-50) over hero photo",
+    "uses": "hero-small / media-image legibility scrim",
+    "sources": [
+     "index",
+     "products-mass-spectrometers"
+    ]
+   }
+  ],
+  "patterns": [
+   {
+    "name": "hero-with-image",
+    "evidence": "hero-small on 19 pages: full-bleed 1440×512 photo (object-fit cover) + 50% black overlay, white h1 text-bravo 52px/270 + p + primary button; product-detail variant uses grey-50 band + product render right"
+   },
+   {
+    "name": "hero-text",
+    "evidence": "hero-text on 37 pages: breadcrumb → h1 text-alfa 64px/270 → lead p text-lg grey-500, no image; often followed by media-image full-bleed banner (12 pages)"
+   },
+   {
+    "name": "card-grid",
+    "evidence": "image-card (13 pages), three-card (8), icon-3/4-col (7), resources-grid (6): 3–4 columns, 4:3 square-cornered image (hover scale 1.05), title 18px/530 grey-900, copy 16px grey-500, arrow-link \"Learn more\""
+   },
+   {
+    "name": "arrow-link",
+    "evidence": "\"Learn more\" ×287 on 37 pages: blue-700 16px text, 1px blue underline bar that slides right on hover (group-hover:tw-left-[100%]), 16×14 arrow SVG shifts 8px→12px"
+   },
+   {
+    "name": "fill-up-button",
+    "evidence": "primary buttons: blue-700 fill, 4px radius, 12px 20px padding, 1px blue border, blue-800 gradient fills from bottom on hover, arrow icon"
+   },
+   {
+    "name": "dual-cta",
+    "evidence": "product-detail hero: primary \"Request a quote\" + outline \"Contact support\" (tw-border-blue-700 tw-text-grey-900, same fill-up hover) — x500r, m5-microlc, citrine"
+   },
+   {
+    "name": "tabs",
+    "evidence": "home \"Why SCIEX portfolio\" tab component: 7 buttons 160px wide 16px/530, active blue-700 with 2px blue underline on a grey-100 rail"
+   },
+   {
+    "name": "testimonial-dark",
+    "evidence": "testimonial on 6 pages: grey-900 band, quote 32px/330 white, 448px avatar, name 16px/530 white, role grey-400"
+   },
+   {
+    "name": "media-card-carousel",
+    "evidence": "Splide carousels (media-card-carousel, image-card-carousel): 2–3 cards, 640×480 / 416×312 images, pagination \"1 / 3\" + 32px round blue arrows"
+   },
+   {
+    "name": "sticky-sub-nav",
+    "evidence": "page-sub-nav on 5 application pages: white bar, anchors 16px/530, sticky top 0 z-40, grey-100 bottom rule"
+   },
+   {
+    "name": "cta-band",
+    "evidence": "SCIEX Now support network band on 52 pages (grey-800) — see systemComponents"
+   },
+   {
+    "name": "footer-mega",
+    "evidence": "4-column link footer + legal row + Danaher logo + 9-logo partner strip on grey-900"
+   },
+   {
+    "name": "nav-mega",
+    "evidence": "3-zone mega-menu panel under an 8-item nav row; page dims under black 50% overlay"
+   },
+   {
+    "name": "linkedin-connect",
+    "evidence": "\"Let's connect\" h3 + two 600×140 LinkedIn banners on 5 application pages"
+   },
+   {
+    "name": "legacy-teal-hero-band",
+    "evidence": "intermediate-template (5 pages): teal (#0084a9→#00afdb) photographic band with white h1 28px, orange/teal text links"
+   }
+  ]
+ },
+ "componentStyle": {
+  "buttons": {
+   "primary": {
+    "background": "#0068fa",
+    "color": "#ffffff",
+    "borderRadius": "4px",
+    "padding": "12px 20px",
+    "fontSize": "16px",
+    "fontWeight": 400,
+    "lineHeight": "24px",
+    "border": "1px solid #0068fa",
+    "shadow": null,
+    "icon": "16×14 arrow SVG (stroke currentColor) 8px left margin → 12px on hover",
+    "hoverDelta": "background-image linear-gradient(#005bdb) grows from background-size 100% 0 to 100% 100% (bottom-up fill), transition all .3s cubic-bezier(.4,0,.2,1); active: blue-900 #004ebc",
+    "focus": "focus-visible ring 2px #0068fa offset 2px",
+    "sourceSelector": "#hero-small a.tw-bg-blue-700.tw-rounded (label \"Our products\"); footer band a \"Contact support\"",
+    "sources": [
+     "index",
+     "applications-pharma-and-biopharma"
+    ],
+    "rest": {
+     "backgroundColor": "rgb(0, 104, 250)",
+     "color": "rgb(255, 255, 255)",
+     "backgroundImage": "linear-gradient(to right, rgb(0, 91, 219), rgb(0, 91, 219), rgb(0, 91, 219))",
+     "backgroundSize": "100% 0px",
+     "borderColor": "rgb(0, 104, 250)",
+     "textDecoration": "none",
+     "transform": "none",
+     "boxShadow": "none",
+     "opacity": "1",
+     "left": "auto",
+     "marginLeft": "0px",
+     "width": "166.172px"
+    },
+    "hover": {
+     "backgroundColor": "rgb(0, 104, 250)",
+     "color": "rgb(255, 255, 255)",
+     "backgroundImage": "linear-gradient(to right, rgb(0, 91, 219), rgb(0, 91, 219), rgb(0, 91, 219))",
+     "backgroundSize": "100% 100%",
+     "borderColor": "rgb(0, 104, 250)",
+     "textDecoration": "none",
+     "transform": "none",
+     "boxShadow": "none",
+     "opacity": "1",
+     "left": "auto",
+     "marginLeft": "0px",
+     "width": "166.172px"
+    }
+   },
+   "secondary": {
+    "background": "transparent",
+    "color": "#141414",
+    "borderRadius": "4px",
+    "padding": "12px 20px",
+    "fontSize": "16px",
+    "fontWeight": 400,
+    "border": "1px solid #0068fa",
+    "hoverDelta": "same blue-800 fill-up; text turns white; active blue-900",
+    "sourceSelector": "a.tw-rounded.tw-border.tw-border-blue-700.tw-text-grey-900 (\"Contact support\" in product-detail hero)",
+    "sources": [
+     "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+     "products-hplc-products-microlc-products-m5-microlc"
+    ]
+   },
+   "ghost": {
+    "background": "transparent",
+    "color": "#0068fa",
+    "fontSize": "16px",
+    "fontWeight": "400 (card \"Learn more\") / 530 (hero \"Request a quote\" header link, \"Watch now\")",
+    "underline": "1px bar (span.tw-h-1.tw-bg-blue-700) under the label; slides to left:100% on hover (.5s)",
+    "hoverDelta": "text #005bdb; arrow margin 8px → 12px",
+    "sourceSelector": "a.tw-inline-flex.tw-text-blue-700.hover:tw-text-blue-800 > div > span + span.tw-absolute + svg",
+    "sources": [
+     "index",
+     "applications-pharma-and-biopharma"
+    ],
+    "rest": {
+     "color": "rgb(0, 104, 250)",
+     "fontWeight": "400",
+     "fontSize": "16px",
+     "textDecoration": "none",
+     "bar": {
+      "left": "0px",
+      "height": "1px",
+      "backgroundColor": "rgb(0, 104, 250)",
+      "width": "85.9219px",
+      "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+     },
+     "arrowMarginLeft": "8px"
+    },
+    "hover": {
+     "color": "rgb(0, 91, 219)",
+     "fontWeight": "400",
+     "fontSize": "16px",
+     "textDecoration": "none",
+     "bar": {
+      "left": "85.9219px",
+      "height": "1px",
+      "backgroundColor": "rgb(0, 104, 250)",
+      "width": "85.9219px",
+      "transition": "0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+     },
+     "arrowMarginLeft": "12px"
+    }
+   },
+   "headerCells": {
+    "requestAQuote": {
+     "background": "#f5f5f5",
+     "color": "#0068fa",
+     "fontWeight": 530,
+     "height": "64px",
+     "padding": "20px 32px",
+     "sourceSelector": "li#request-a-quote > a"
+    },
+    "sciexNowDashboard": {
+     "background": "#0068fa",
+     "color": "#ffffff",
+     "fontWeight": 330,
+     "height": "64px",
+     "padding": "20px 32px",
+     "border": "1px solid #0068fa",
+     "hover": "blue-800 fill-up",
+     "sourceSelector": "a#sciex-now-dash.header-link"
+    }
+   },
+   "legacy": {
+    "blue": ".btn.blue #00afdb, white 14px/300, padding 7px 15px, min-width 160px, radius 0 (KB \"Comment\")",
+    "orange": ".btn.orange #f99d31 uppercase (detail-page BUY NOW), teal CONTACT SUPPORT with headset icon",
+    "sources": [
+     "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+     "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software"
+    ]
+   }
+  },
+  "dualCTAPattern": "primary-then-outline (Request a quote → Contact support) on product-detail heroes; primary-then-arrow-link (button → \"Learn more\") elsewhere",
+  "cards": {
+   "background": "transparent",
+   "borderRadius": "0px",
+   "padding": "0px",
+   "shadow": null,
+   "border": "none (image-card) / 1px solid #ececec top rule (icon-4-col, resources)",
+   "image": "4:3 (tw-aspect-4/3) object-cover, hover scale 1.05 (.5s), 416×312 at 3-up, 304×228 at 4-up",
+   "title": "18px/530 #141414 (text-lg-bolder), 20–32px below image",
+   "body": "16px/330 #707070 (text-base tw-text-grey-500)",
+   "cta": "arrow-link \"Learn more\" 12–16px below body",
+   "grid": "tw-grid md:tw-grid-cols-2 lg:tw-grid-cols-4 md:tw-gap-x-32 md:tw-gap-y-48",
+   "sourceSelector": "div.image-card section > .tw-container > .tw-grid > div",
+   "sources": [
+    "applications-pharma-and-biopharma",
+    "products-mass-spectrometers",
+    "applications"
+   ]
+  },
+  "inputs": {
+   "borderRadius": "0px",
+   "padding": "12px 16px",
+   "height": "40px",
+   "background": "#f5f5f5",
+   "color": "#a1a1a1 placeholder / #141414 value",
+   "border": "none",
+   "fontSize": "16px",
+   "submit": "30×30 button #5b5b5b radius 3px with magnifier SVG",
+   "scope": "\"All\" dropdown button 16px/330 #a1a1a1 inside the field",
+   "focusRing": "focus-visible:tw-ring-2 tw-ring-blue-700 tw-ring-offset-2",
+   "sourceSelector": "input#standalone-search-box (header search)",
+   "sources": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+   ]
+  },
+  "popover": {
+   "background": "#ffffff",
+   "width": "240px",
+   "borderRadius": "4px",
+   "padding": "16px",
+   "shadow": "rgba(19,19,19,0.15) -2px 3px 18.4px 0px",
+   "zIndex": 200,
+   "sourceSelector": ".account-dropdown-content",
+   "sources": [
+    "index"
+   ]
+  },
+  "breadcrumb": {
+   "v3": "home icon (16px) + chevron separators, items 14px/330 #707070, current item #141414; padding 16px 0 32px; nav[aria-label=Breadcrumb]",
+   "legacy": "text \"Home > Products > …\" 14px capitalized #5f6062, current 700 (a.cmp-breadcrumb__item-link)",
+   "eds": "/blocks/breadcrumb/breadcrumb.css",
+   "sources": [
+    "applications-pharma-and-biopharma",
+    "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+    "support-knowledge-base-articles"
+   ]
+  }
+ },
+ "systemComponents": [
+  {
+   "name": "site-header",
+   "kind": "header",
+   "occurrences": 69,
+   "headingSequence": [
+    "Products",
+    "Applications",
+    "Training",
+    "Support",
+    "Service",
+    "Resource hub",
+    "About us",
+    "Events"
+   ],
+   "ctaLabels": [
+    "Login",
+    "Shop",
+    "Request a quote",
+    "SCIEX Now Dashboard"
+   ],
+   "domFingerprintHash": null,
+   "exampleSlug": "index",
+   "exampleSelector": ".cmp-experiencefragment--header-v3 nav#mega-menu",
+   "examplePages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management"
+   ],
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 131
+   },
+   "structure": {
+    "topBar": "64px, background #141414: SCIEX wordmark inline SVG 95×32 white (link \"/\", title \"Go to Sciex homepage\"); search field 348×40 #f5f5f5 with \"All\" scope dropdown + 30×30 #5b5b5b submit; \"Login\" (user icon, 14px/330 white) with account dropdown; \"Shop\" (basket icon) → us-store.sciex.com; cell \"Request a quote\" 222×64 #f5f5f5 text #0068fa 530 → /form-pages/product-request; cell \"SCIEX Now Dashboard\" 222×64 #0068fa white → /support",
+    "navRow": "67px, background white: 8 items 16px/330 #141414 with 24px chevron SVG, 64px left gutter; hover text #0068fa; open item gets 2px #0068fa bottom border and chevron flips",
+    "mobile": "fixed bottom bar a#header-request-info (blue \"Request a quote\") below lg"
+   },
+   "sharedBy": "v3 pages natively; legacy globalpage pages and EDS pages embed the same v3 header (legacy via /content/dam/SCIEX/dev/header-footer/header.css + .headerbar; EDS via /blocks/header served from /nav.plain.html)",
+   "notes": "Legacy pages set html font-size 10px; header still renders at 16px via explicit px classes."
+  },
+  {
+   "name": "mega-menu",
+   "kind": "other",
+   "occurrences": 69,
+   "headingSequence": [
+    "Mass spectrometry",
+    "Capillary electrophoresis",
+    "HPLC products",
+    "Integrated solutions",
+    "Software",
+    "Technology",
+    "Standards and reagent kits"
+   ],
+   "ctaLabels": [
+    "View all Products",
+    "View all Mass spectrometers",
+    "Explore now"
+   ],
+   "domFingerprintHash": null,
+   "exampleSlug": "index",
+   "exampleSelector": "div.tw-w-full.tw-bg-white.tw-relative.tw-z-[100]",
+   "examplePages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management"
+   ],
+   "rect": {
+    "x": 0,
+    "y": 131,
+    "w": 1440,
+    "h": 448
+   },
+   "style": {
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(0, 0, 0)",
+    "boxShadow": "none",
+    "padding": "0px",
+    "borderTop": "0px solid rgb(229, 231, 235)",
+    "borderBottom": "0px solid rgb(229, 231, 235)",
+    "position": "relative",
+    "zIndex": "100",
+    "display": "block",
+    "gridTemplateColumns": "none"
+   },
+   "structure": {
+    "panel": "full-width white panel 448px tall directly under the 131px header (z-index 100), .tw-container padding 32px 64px 40px; page content dims under div.overlay.tw-bg-black 50%; a grey band with a 32px round chevron-up close button sits under the panel",
+    "zoneLeft": "7 second-level items (a.submenu) 18px/330 #141414, 38px apart; active item (.submenu-active) has a 2px #0068fa left border; below: arrow-link \"View all Products\" 16px/450 blue with 1px underline",
+    "zoneMiddle": "2-column groups: group heading 16px/450 #141414 with chevron (QTOF systems, QTRAP systems, Triple Quad systems, Clinical diagnostics, LC-MS methods, Mass spectral libraries); children 16px/330 #707070 with chevron (ZenoTOF 8600 system, …); arrow-link \"View all Mass spectrometers\"",
+    "zoneRight": "two promo tiles 296×166 (320×180 jpg from /content/dam/SCIEX/images-v2/megamenu/) stacked 24px apart, 1080px from left",
+    "behaviour": "Alpine.js x-data (selectedSubItem) toggles panels on click; images 320×180 (63 per page in DOM, lazy)"
+   },
+   "links": [
+    {
+     "text": "Mass spectrometry",
+     "href": "#",
+     "x": 64,
+     "y": 163,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "Capillary electrophoresis",
+     "href": "#",
+     "x": 64,
+     "y": 201,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "HPLC products",
+     "href": "#",
+     "x": 64,
+     "y": 239,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "Integrated solutions",
+     "href": "#",
+     "x": 64,
+     "y": 277,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "Software",
+     "href": "#",
+     "x": 64,
+     "y": 315,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "Technology",
+     "href": "#",
+     "x": 64,
+     "y": 353,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "Standards and reagent kits",
+     "href": "#",
+     "x": 64,
+     "y": 391,
+     "style": {
+      "color": "rgb(20, 20, 20)",
+      "fontSize": "18px",
+      "fontWeight": "330",
+      "lineHeight": "26px"
+     }
+    },
+    {
+     "text": "View all Products",
+     "href": "/products",
+     "x": 64,
+     "y": 449,
+     "style": {
+      "color": "rgb(0, 104, 250)",
+      "fontSize": "16px",
+      "fontWeight": "450",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "QTOF systems",
+     "href": "/products/mass-spectrometers/qtof-systems",
+     "x": 424,
+     "y": 163,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "ZenoTOF 8600 system",
+     "href": "/products/mass-spectrometers/qtof-systems/8600-system",
+     "x": 424,
+     "y": 189,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "ZenoTOF 7600+ system",
+     "href": "/products/mass-spectrometers/qtof-systems/7600-plus-system",
+     "x": 424,
+     "y": 211,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "ZenoTOF 7600 system",
+     "href": "/products/mass-spectrometers/qtof-systems/zenotof-7600-system",
+     "x": 424,
+     "y": 233,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "X500 family",
+     "href": "/products/mass-spectrometers/qtof-systems/x-series-qtof-systems",
+     "x": 424,
+     "y": 255,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "QTRAP systems",
+     "href": "/products/mass-spectrometers/qtrap-systems",
+     "x": 716,
+     "y": 163,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "7500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+     "x": 716,
+     "y": 189,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "QTRAP 6500+ system",
+     "href": "/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system",
+     "x": 716,
+     "y": 211,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "novus V55 system–QTRAP",
+     "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+     "x": 716,
+     "y": 233,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "5500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system",
+     "x": 716,
+     "y": 255,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "QTRAP 4500 system",
+     "href": "/products/mass-spectrometers/qtrap-systems/qtrap-4500-system",
+     "x": 716,
+     "y": 277,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "Triple Quad systems",
+     "href": "/products/mass-spectrometers/triple-quad-systems",
+     "x": 424,
+     "y": 321,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "7500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+     "x": 424,
+     "y": 347,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "Triple Quad 6500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-6500plus-system",
+     "x": 424,
+     "y": 369,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "novus V55 system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+     "x": 424,
+     "y": 391,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "5500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system",
+     "x": 424,
+     "y": 413,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "Clinical diagnostics",
+     "href": "/products/in-vitro-diagnostics/medical-devices",
+     "x": 716,
+     "y": 321,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "Citrine system",
+     "href": "/products/in-vitro-diagnostics/medical-devices/citrine-system",
+     "x": 716,
+     "y": 347,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "4500MD system",
+     "href": "/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer",
+     "x": 716,
+     "y": 369,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "LC-MS methods",
+     "href": "/products/methods",
+     "x": 424,
+     "y": 457,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "Mass spectral libraries",
+     "href": "/products/spectral-library",
+     "x": 716,
+     "y": 457,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "View all Mass spectrometers",
+     "href": "/products/mass-spectrometers",
+     "x": 424,
+     "y": 513,
+     "style": {
+      "color": "rgb(0, 104, 250)",
+      "fontSize": "16px",
+      "fontWeight": "450",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "",
+     "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+     "x": 1080,
+     "y": 163,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    },
+    {
+     "text": "",
+     "href": "/products/mass-spectrometers/qtof-systems/8600-system",
+     "x": 1080,
+     "y": 354,
+     "style": {
+      "color": "rgb(0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "330",
+      "lineHeight": "24px"
+     }
+    }
+   ],
+   "cards": [
+    {
+     "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/built-for-business-impact-megamenu-novus-v55-320x180.jpg",
+     "alt": "ZenoTOF 7600+ system",
+     "w": 296,
+     "h": 166.5,
+     "x": 1080,
+     "y": 163,
+     "caption": "",
+     "radius": "0px"
+    },
+    {
+     "src": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/evo-8600-megamenu-2026-320x180.jpg",
+     "alt": "SCIEX 8600 system",
+     "w": 296,
+     "h": 166.5,
+     "x": 1080,
+     "y": 353.5,
+     "caption": "",
+     "radius": "0px"
+    }
+   ],
+   "notes": "Megamenu images excluded from assets/media by instruction; 63 <img> per page live in the header fragment."
+  },
+  {
+   "name": "breadcrumb",
+   "kind": "breadcrumb",
+   "occurrences": 63,
+   "headingSequence": [
+    "Home (icon)",
+    "Section",
+    "Page"
+   ],
+   "ctaLabels": [],
+   "domFingerprintHash": null,
+   "exampleSlug": "applications-pharma-and-biopharma",
+   "exampleSelector": "div.breadcrumb.aem-GridColumn > nav[aria-label=\"Breadcrumb\"]",
+   "examplePages": [
+    "about-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management",
+    "about-us-internal-personnel-profiles"
+   ],
+   "rect": {
+    "x": 0,
+    "y": 131,
+    "width": 1440,
+    "height": 84
+   },
+   "style": {
+    "v3": "home icon (16px) + chevron separators, items 14px/330 #707070, current item #141414; padding 16px 0 32px; nav[aria-label=Breadcrumb]",
+    "legacy": "text \"Home > Products > …\" 14px capitalized #5f6062, current 700 (a.cmp-breadcrumb__item-link)",
+    "eds": "/blocks/breadcrumb/breadcrumb.css",
+    "sources": [
+     "applications-pharma-and-biopharma",
+     "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+     "support-knowledge-base-articles"
+    ]
+   },
+   "notes": "absent on home; legacy KB pages render a triple \"Home Home Home\" chain (three breadcrumb roots in DOM — capture quirk of the legacy template)"
+  },
+  {
+   "name": "sciex-now-support-band",
+   "kind": "cta-band",
+   "occurrences": 52,
+   "headingSequence": [
+    "SCIEX Now support network",
+    "The destination for all your support needs."
+   ],
+   "ctaLabels": [
+    "Contact support"
+   ],
+   "domFingerprintHash": null,
+   "exampleSlug": "index",
+   "exampleSelector": ".cmp-experiencefragment--footer-v3 .htmlWrapper > .clearfix > div.tw-py-32.md:tw-py-48.tw-bg-grey-800.tw-text-white",
+   "examplePages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management"
+   ],
+   "rect": {
+    "x": 0,
+    "y": 4380,
+    "width": 1440,
+    "height": 158
+   },
+   "style": {
+    "background": "#2c2c2c",
+    "padding": "48px 0",
+    "heading": "24px/450 white (tw-text-[20px] md:tw-text-echo tw-font-bold)",
+    "subheading": "24px/400 #a1a1a1 (tw-text-grey-300)",
+    "cta": "primary button \"Contact support\" → /about-us/contact-us, right-aligned, 189×50"
+   },
+   "exampleBlock": "<div class=\"tw-py-32 md:tw-py-48 tw-bg-grey-800 tw-text-white\">\n    <div class=\"tw-container\">\n      <div class=\"tw-flex tw-flex-col md:tw-flex-row tw-justify-between\">\n        <div class=\"tw-max-w-[620px] tw-mb-20 md:tw-mb-0\">\n          <h5 class=\"tw-text-white tw-font-bold tw-text-[20px] md:tw-text-echo\">SCIEX Now support network</h5>\n          <h5 class=\"tw-text-grey-300 tw-text-[20px] md:tw-text-echo\">The destination for all your support needs.</h5>\n        </div>\n        <div class=\"tw-flex tw-flex-col tw-justify-center\">\n          <a href=\"https://sciex.com/about-us/contact-us\" class=\"tw-text-mobBase md:tw-text-base tw-inline-block focus-visible:tw-outline-none tw-whitespace-nowrap focus-visible:tw-ring-offset-2 focus-visible:tw-ring-2 focus-visible:tw-ring-blue-700 tw-rounded tw-border tw-py-12 tw-px-16 md:tw-px-20 active:tw-bg-blue-900 tw-border-blue-700 tw-text-white tw-bg-gradient-to-r tw-bg-blue-700 tw-from-blue-800 tw-via-blue-800 tw-to-blue-800 tw-bg-bottom tw-bg-no-repeat tw-bg-[length:100%_0px] hover:tw-bg-[length:100%_100%] tw-transition-all\" data-di-id=\"di-id-7a0a08d9-ca6ffc40\">\n            <div class=\"tw-flex tw-items-center tw-justify-between\">\n              <span>Contact support</span>\n              <svg width=\"16\" height=\"14\" viewBox=\"0 0 16 14\" fill=\"none\" class=\"tw-block tw-ml-16\" data-di-res-id=\"939996f9-2877ef0a\" data-di-rand=\"1789714930012\">\n                <path d=\"M0 7L15 7\" stroke=\"currentColor\"></path>\n                <path d=\"M9 1L15 7L9 13\" stroke=\"currentColor\"></path>\n              </svg>\n            </div>\n          </a>\n        </div>\n      </div>\n    </div>\n  </div>",
+   "notes": "Rendered inside the footer experience fragment (htmlInjectionContainer) so it appears on every v3 page and on legacy pages that embed footer-v3; absent on EDS pages (their /blocks/footer omits it) and on external redirects."
+  },
+  {
+   "name": "site-footer",
+   "kind": "footer",
+   "occurrences": 64,
+   "headingSequence": [
+    "Products",
+    "Applications",
+    "Connect",
+    "Company"
+   ],
+   "ctaLabels": [
+    "Linkedin",
+    "X",
+    "Facebook",
+    "Instagram",
+    "English",
+    "Privacy Policy",
+    "Cookies Settings",
+    "Organizational Model and Code of Ethics D.Lgs 231/2001",
+    "Legal Info",
+    "Do Not Sell My Data"
+   ],
+   "domFingerprintHash": null,
+   "exampleSlug": "index",
+   "exampleSelector": ".cmp-experiencefragment--footer-v3 footer#footer",
+   "examplePages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management"
+   ],
+   "rect": {
+    "x": 0,
+    "y": 4574,
+    "width": 1440,
+    "height": 928
+   },
+   "structure": {
+    "background": "#141414, padding-top 32/36px, text white",
+    "row1": "social icon row (16px SVG: LinkedIn, X, Facebook, Instagram; hover opacity .6) left; language selector (20px flag png + \"English\" 16px/450 + chevron) right; column headers sit on 1px #434343 top rules",
+    "columns": "Products (9 links) · Applications (6) · Connect (8) · Company (5); header 16px/530 white; links 16px/330 #8a8a8a letter-spacing .08px, hover blue",
+    "row3": "© Copyright 2026 SCIEX 14px #8a8a8a + legal links (Privacy Policy, Cookies Settings, Organizational Model and Code of Ethics D.Lgs 231/2001, Legal Info, Do Not Sell My Data) on a #434343 top rule",
+    "disclaimer": "p#disclaimer 14px #8a8a8a 10/12 wide (\"The SCIEX clinical diagnostic portfolio is For In Vitro Diagnostic Use. Rx Only…\") with Danaher logo png 64×83 right",
+    "partnerStrip": "div.lsig-banner 294px: 9 white SVG logos ≈96px wide (Beckman Coulter Life Sciences, Genedata, IDBS, Leica Microsystems, Molecular Devices, Phenomenex, Aldevron, IDT, abcam), each linking out with utm_source=sciex_website; loaded via /bin/sciex/partners"
+   },
+   "notes": "KB/legacy pages show the older footer-v3 variant (Twitter icon instead of X; 2025 copyright) served by header-footer/header.css."
+  },
+  {
+   "name": "account-login-popover",
+   "kind": "other",
+   "occurrences": 69,
+   "headingSequence": [
+    "Create an account",
+    "Already have an account? Sign in now",
+    "My profile",
+    "My favorite resources"
+   ],
+   "ctaLabels": [
+    "Create an account",
+    "Sign in now"
+   ],
+   "domFingerprintHash": null,
+   "exampleSlug": "index",
+   "exampleSelector": "#accountDropdown .dropdown-content.account-dropdown-content",
+   "examplePages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk"
+   ],
+   "rect": {
+    "x": 778.53125,
+    "y": 68,
+    "width": 240,
+    "height": 260
+   },
+   "style": {
+    "display": "block",
+    "position": "fixed",
+    "top": "48px",
+    "right": "421.469px",
+    "left": "835.531px",
+    "width": "240px",
+    "backgroundColor": "rgb(255, 255, 255)",
+    "color": "rgb(161, 161, 161)",
+    "borderRadius": "4px",
+    "boxShadow": "rgba(19, 19, 19, 0.15) -2px 3px 18.4px 0px",
+    "padding": "16px",
+    "border": "0px solid rgb(229, 231, 235)",
+    "fontSize": "14px",
+    "fontFamily": "Geogrotesque, Helvetica, Arial, sans-serif",
+    "zIndex": "200"
+   },
+   "structure": {
+    "trigger": "a.login-v2 \"Login\" + button.dropbtn.login-dropdown chevron (hover/click)",
+    "panel": "240px white, radius 4px, padding 16px, shadow rgba(19,19,19,.15) -2px 3px 18.4px, fixed top 48px z 200",
+    "items": "primary button \"Create an account\" 180×44 14px → /support/create-account; \"Already have an account?\" 14px #000 + \"Sign in now\" 16px #0068fa underlined → /bin/sciex/login; rows \"My profile\" (/support/profile) and \"My favorite resources\" (/resource-hub/myfavorite) with 18px line icons"
+   },
+   "exampleBlock": "<div class=\"dropdown-content account-dropdown-content\" style=\"display: block;\">\n                                        <div>\n                                            <a href=\"/support/create-account\" data-di-id=\"di-id-2f11e03d-371ef189\">\n                                                <button class=\" create-account-btn\">\n                                                    Create an account\n                                                </button>\n                                            </a>\n                                        </div>\n                                        <a id=\"signInNowLink\" href=\"/bin/sciex/login\" data-di-id=\"#signInNowLink\">\n                                            Already have an account?\n                                            <span class=\"sign-in-now-link\">\n                                                Sign in now\n                                            </span>\n                                        </a>\n                                        <a class=\"myprofile-div\" href=\"/support/profile\" data-di-id=\"di-id-4477d5c3-992320a2\">\n                                            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\" data-di-res-id=\"cf616653-3b5b8fdd\" data-di-rand=\"1789714929991\">\n                                                <circle cx=\"9\" cy=\"9\" r=\"8.4727\" stroke=\"black\" stroke-width=\"1.125\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n                                                <circle cx=\"9\" cy=\"7.8702\" r=\"3.3891\" stroke=\"black\" stroke-width=\"1.125\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n                                                <path d=\"M3.945 15.8C4.216 13.248 6.376 11.26 9 11.26C11.624 11.26 13.784 13.248 14.055 15.8\" stroke=\"black\" stroke-width=\"1.125\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n                                            </svg>\n                                            My profile\n                                        </a>\n                                        <a class=\"myprofile-div\" href=\"/resource-hub/myfavorite\" data-di-id=\"di-id-8ea7ada0-227895cb\">\n                                            <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 30 30\" fill=\"none\" stroke=\"black\" stroke-width=\"1.5\" data-di-res-id=\"cf616653-998294ea\" data-di-rand=\"1789714929991\">\n          <path d=\"M22.75 4.5V24.7344L15.3652 16.8584L15 16.4688L14.6348 16.8584L7.25 24.73"
+  },
+  {
+   "name": "login-nudge-tooltip",
+   "kind": "other",
+   "occurrences": 63,
+   "headingSequence": [
+    "For full Support and access to your Personalized Information, please login to sciex.com"
+   ],
+   "ctaLabels": [],
+   "domFingerprintHash": null,
+   "exampleSlug": "applications-pharma-and-biopharma",
+   "exampleSelector": "div.walkme-custom-balloon (injected by cdn.walkme.com Smart Walk-Thru; not in AEM markup)",
+   "examplePages": [
+    "about-us",
+    "about-us-contact-us",
+    "about-us-customer-profiles",
+    "about-us-customer-profiles-jennifer-van-eyk",
+    "about-us-danaher",
+    "about-us-executive-management"
+   ],
+   "rect": {
+    "x": 366,
+    "y": 20,
+    "width": 400,
+    "height": 150,
+    "note": "approx from screenshots at 1440"
+   },
+   "style": {
+    "background": "#ffffff",
+    "text": "16px/25px bold rgb(0,125,164) (#007da4 legacy teal), margin 20px 47px 0 20px",
+    "close": "× 8px top-right, title \"Stop Walk-thru\"",
+    "highlight": "orange rgb(249,157,49) highlighter frame (div.walkme-custom-highlighter) drawn around the header \"Login\" trigger",
+    "source": "WalkMe (cdn.walkme.com, thirdPartyScriptHosts on 69 pages); text colour matches the legacy teal, not the v3 blue"
+   },
+   "notes": "Third-party overlay present in 63 of 73 captured DOMs (rendered after page load, screenshots show it under the Login button). Not part of the site templates; visible on first visit only."
+  },
+  {
+   "name": "page-sub-nav",
+   "kind": "nav-secondary",
+   "occurrences": 5,
+   "headingSequence": [
+    "Overview",
+    "Applications",
+    "Perspectives",
+    "Stories"
+   ],
+   "ctaLabels": [],
+   "domFingerprintHash": null,
+   "exampleSlug": "applications-pharma-and-biopharma",
+   "exampleSelector": "div.page-sub-nav.sticky-subnav > section#subnav-primary.tw-bg-white",
+   "examplePages": [
+    "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+    "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+    "applications-pharma-and-biopharma",
+    "diagnostics",
+    "products-integrated-solutions-biotransform-solution"
+   ],
+   "rect": {
+    "x": 0,
+    "y": 1044,
+    "width": 1440,
+    "height": 65
+   },
+   "style": {
+    "position": "sticky top 0 z-40",
+    "background": "#ffffff",
+    "items": "a.js-scroll-to 16px/530 #141414, 32px gap, active #0068fa",
+    "border": "1px #ececec bottom"
+   }
+  },
+  {
+   "name": "third-party-fixed-widgets",
+   "kind": "other",
+   "occurrences": 69,
+   "headingSequence": [],
+   "ctaLabels": [],
+   "domFingerprintHash": null,
+   "exampleSlug": "index",
+   "exampleSelector": "Qualtrics site-intercept feedback tab (left, 64px purple icon + chevron, y≈860) and chat launcher (right, 78px black round button with speech bubble, iframe#ce_proto_iframe)",
+   "examplePages": [
+    "index",
+    "applications-pharma-and-biopharma",
+    "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+   ],
+   "notes": "Visible in every screenshot; injected by siteintercept.qualtrics.com and the chat vendor; not site markup."
+  }
+ ],
+ "iconFont": {
+  "family": "FontAwesome",
+  "version": "4.2.0",
+  "localPath": "stardust/current/assets/fonts/fontawesome-webfont.woff",
+  "sourceCss": "@font-face { font-family: FontAwesome; src: url(\"clientlib-base/resources/fonts/fontawesome-webfont.woff?v=4.2.0\") format(\"woff\"), url(\"clientlib-base/resources/fonts/fontawesome-webfont.ttf?v=4.2.0\") format(\"truetype\"); font-weight: normal; font-style: normal; }",
+  "glyphCount": 3,
+  "glyphs": [
+   {
+    "class": "fa-star-o",
+    "codepoint": "\\F006",
+    "name": "star-o"
+   },
+   {
+    "class": "fa-print",
+    "codepoint": "\\F02F",
+    "name": "print"
+   },
+   {
+    "class": "fa-chevron-up",
+    "codepoint": "\\F077",
+    "name": "chevron-up"
+   }
+  ],
+  "scope": "legacy-globalpage pages only (KB article rating stars, Print, back-to-top). v3 pages use inline SVG (44–50 per page, 0 icon-font elements); Glyphicons Halflings is loaded by clientlib-base but no glyph use was observed.",
+  "sources": [
+   "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+  ]
+ },
+ "voice": {
+  "heroHeadline": "The leader in mass spectrometry and capillary electrophoresis solutions",
+  "heroSubcopy": "There, where it counts. Time and time again. Providing the precision detection and quantitation of molecules needed for scientists to make discoveries that change the world.",
+  "heroImage": {
+   "url": "https://sciex.com/adobe/dynamicmedia/deliver/dm-aid--dbb899bf-7af9-4319-8272-ee552d7e0386/ce-systems-hero-2880x1024.webp?quality=75&width=1440",
+   "alt": "",
+   "source": "img",
+   "domPath": "div.hero-small.aem-GridColumn > div > section#hero-small > div.tw-relative.tw-min-h-[512px] > picture > img",
+   "localPath": "stardust/current/assets/media/ce-systems-hero-2880x1024-9eee8a44.webp",
+   "rect": {
+    "x": 0,
+    "y": 131,
+    "width": 1440,
+    "height": 512
+   },
+   "overlay": "div.overlay.tw-absolute.tw-bg-black opacity .5",
+   "picture": "<picture> with webp sources at 320/375/416/640/768/1024/1440/1920; jpg fallback srcset",
+   "resolution": "largest visible <img> with top<800 and area≥100k px² on the home probe (1440×512 = 737k px²); og:image is a 152×152 site thumb and was not chosen"
+  },
+  "heroMedium": null,
+  "heroMediumNote": "No <video>, <canvas>, Lottie or HLS in the first viewport; motion libraries: Alpine.js (state), Splide (carousels), Plyr (inline video player CSS). Hero is a still photo with scrim.",
+  "primaryCTALabel": "Our products",
+  "ctaSamples": [
+   "Our products",
+   "Explore now",
+   "Explore the software",
+   "Explore the system",
+   "Learn more",
+   "Request a quote",
+   "Contact support",
+   "Watch now",
+   "SCIEX Now Dashboard",
+   "Create an account"
+  ],
+  "navItems": [
+   "Products",
+   "Applications",
+   "Training",
+   "Support",
+   "Service",
+   "Resource hub",
+   "About us",
+   "Events"
+  ],
+  "utilityNav": [
+   "Search",
+   "Login",
+   "Shop",
+   "Request a quote",
+   "SCIEX Now Dashboard"
+  ],
+  "footerHeadings": [
+   "Products",
+   "Applications",
+   "Connect",
+   "Company"
+  ],
+  "firstParagraph": "Pioneering solutions that inspire life-changing research and revolutionize the industry.",
+  "sectionHeadings": [
+   "Why SCIEX portfolio",
+   "Mass Spectrometers",
+   "Why SCIEX for your application",
+   "SCIEX Applications",
+   "Clinical Diagnostics",
+   "Environmental Testing",
+   "Food and Beverage Testing",
+   "Forensics Analysis"
+  ],
+  "tone": {
+   "guess": "technical-precise",
+   "evidence": "sentence-case headings (4% uppercase), benefit-led imperatives (\"Be unstoppable\", \"Unlock the proof\", \"Reclaim time for innovation\"), dense product nomenclature with ®/™ marks (ZenoTOF 8600, Analyst®, Selexion®), second person \"your lab / your team\", regulatory disclaimers (\"For research use only. Not for use in diagnostic procedures.\") — home-only sample, heuristic"
+  }
+ },
+ "voiceTable": {
+  "ctaFrequency": [
+   {
+    "label": "Learn more",
+    "total": 287,
+    "pageCount": 37,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-danaher",
+     "about-us-product-stewardship",
+     "applications",
+     "applications-biomedical-and-omics-research",
+     "applications-clinical",
+     "applications-environmental-testing"
+    ]
+   },
+   {
+    "label": "Support",
+    "total": 144,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "Training",
+    "total": 137,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "Products",
+    "total": 90,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "Applications",
+    "total": 84,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "Resource hub",
+    "total": 72,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "Request a quote",
+    "total": 71,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "Software",
+    "total": 71,
+    "pageCount": 68,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   }
+  ],
+  "ctaFrequencyExcludingChrome": [
+   {
+    "label": "Learn more",
+    "total": 287,
+    "pageCount": 37,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-danaher",
+     "about-us-product-stewardship",
+     "applications",
+     "applications-biomedical-and-omics-research"
+    ]
+   },
+   {
+    "label": "Request a quote",
+    "total": 71,
+    "pageCount": 69,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ]
+   },
+   {
+    "label": "Contact support",
+    "total": 55,
+    "pageCount": 52,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management"
+    ]
+   },
+   {
+    "label": "View customer profile",
+    "total": 49,
+    "pageCount": 2,
+    "pages": [
+     "about-us",
+     "about-us-customer-profiles"
+    ]
+   },
+   {
+    "label": "Read more",
+    "total": 30,
+    "pageCount": 7,
+    "pages": [
+     "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+     "diagnostics",
+     "diagnostics-clinical-laboratory-news",
+     "products-ion-sources",
+     "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+     "products-software"
+    ]
+   },
+   {
+    "label": "View profile",
+    "total": 16,
+    "pageCount": 2,
+    "pages": [
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey"
+    ]
+   },
+   {
+    "label": "About Us",
+    "total": 15,
+    "pageCount": 15,
+    "pages": [
+     "about-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles"
+    ]
+   },
+   {
+    "label": "Download",
+    "total": 14,
+    "pageCount": 2,
+    "pages": [
+     "products-spectral-library",
+     "support-instrument-service-and-support"
+    ]
+   },
+   {
+    "label": "Request info",
+    "total": 13,
+    "pageCount": 4,
+    "pages": [
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+     "diagnostics",
+     "products-integrated-solutions-biotransform-solution"
+    ]
+   },
+   {
+    "label": "Release notes",
+    "total": 13,
+    "pageCount": 1,
+    "pages": [
+     "products-spectral-library"
+    ]
+   },
+   {
+    "label": "Watch now",
+    "total": 12,
+    "pageCount": 3,
+    "pages": [
+     "applications-forensics-testing",
+     "applications-pharma-and-biopharma",
+     "extraordinary-science"
+    ]
+   },
+   {
+    "label": "View press release",
+    "total": 11,
+    "pageCount": 2,
+    "pages": [
+     "about-us-press-releases-2025",
+     "about-us-press-releases-2026"
+    ]
+   }
+  ],
+  "headingFrequency": [
+   {
+    "text": "SCIEX Now support network",
+    "total": 52,
+    "pageCount": 52,
+    "level": 5,
+    "pages": [
+     "about-us",
+     "about-us-contact-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey",
+     "about-us-our-history",
+     "about-us-press-releases",
+     "about-us-press-releases-2025",
+     "about-us-press-releases-2026"
+    ]
+   },
+   {
+    "text": "The destination for all your support needs.",
+    "total": 51,
+    "pageCount": 51,
+    "level": 5,
+    "pages": [
+     "about-us",
+     "about-us-customer-profiles",
+     "about-us-customer-profiles-jennifer-van-eyk",
+     "about-us-danaher",
+     "about-us-executive-management",
+     "about-us-internal-personnel-profiles",
+     "about-us-internal-personnel-profiles-tom-covey",
+     "about-us-our-history",
+     "about-us-press-releases",
+     "about-us-press-releases-2025",
+     "about-us-press-releases-2026",
+     "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations"
+    ]
+   },
+   {
+    "text": "Let's connect",
+    "total": 5,
+    "pageCount": 5,
+    "level": 3,
+    "pages": [
+     "applications-biomedical-and-omics-research",
+     "applications-pharma-and-biopharma",
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+     "extraordinary-science",
+     "technology-electron-activated-dissociation"
+    ]
+   },
+   {
+    "text": "SCIEX OS software",
+    "total": 5,
+    "pageCount": 4,
+    "level": 3,
+    "pages": [
+     "diagnostics",
+     "products-in-vitro-diagnostics-medical-devices-citrine-system",
+     "products-mass-spectrometers-qtof-systems",
+     "support-software-support-software-downloads"
+    ]
+   },
+   {
+    "text": "About Danaher",
+    "total": 4,
+    "pageCount": 4,
+    "level": 3,
+    "pages": [
+     "about-us-career-opportunities",
+     "about-us-danaher",
+     "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+     "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening"
+    ]
+   },
+   {
+    "text": "Overview",
+    "total": 4,
+    "pageCount": 4,
+    "level": 2,
+    "pages": [
+     "applications-pharma-and-biopharma",
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+     "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+     "products-integrated-solutions-biotransform-solution"
+    ]
+   },
+   {
+    "text": "Explore SCIEX service and support",
+    "total": 4,
+    "pageCount": 4,
+    "level": 2,
+    "pages": [
+     "products",
+     "products-hplc-products",
+     "products-mass-spectrometers",
+     "support-instrument-service-and-support"
+    ]
+   },
+   {
+    "text": "Resources",
+    "total": 4,
+    "pageCount": 3,
+    "level": 4,
+    "pages": [
+     "diagnostics",
+     "products-in-vitro-diagnostics-medical-devices-citrine-system",
+     "technology-electron-activated-dissociation"
+    ]
+   },
+   {
+    "text": "Integrated solutions",
+    "total": 3,
+    "pageCount": 3,
+    "level": 3,
+    "pages": [
+     "products-hplc-products-microlc-products-m5-microlc",
+     "products-mass-spectrometers",
+     "support-customer-documents"
+    ]
+   },
+   {
+    "text": "Welcome",
+    "total": 3,
+    "pageCount": 3,
+    "level": 1,
+    "pages": [
+     "support-login",
+     "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+     "training-intact-analysis-of-antibody-drug-conjugates-"
+    ]
+   }
+  ],
+  "toneMetrics": {
+   "headingsTotal": 681,
+   "headingsUppercasePercent": 4.0,
+   "distinctHeadings": 510,
+   "distinctCtaLabels": 656
+  },
+  "contentFreeLinks": [
+   {
+    "label": "here",
+    "page": "applications-clinical",
+    "count": 1
+   }
+  ],
+  "altText": {
+   "images": 5822,
+   "emptyAltPercent": 30.0,
+   "imagesExcludingMegamenu": 1664,
+   "emptyAltPercentExcludingMegamenu": 71.1,
+   "genericAlt": []
+  }
+ },
+ "crossPromo": {
+  "detected": true,
+  "anchorHeading": "SCIEX Now support network",
+  "cluster": [
+   {
+    "text": "SCIEX Now support network",
+    "total": 52,
+    "pageCount": 52,
+    "overlap": 52
+   },
+   {
+    "text": "The destination for all your support needs.",
+    "total": 51,
+    "pageCount": 51,
+    "overlap": 51
+   }
+  ],
+  "pages": [
+   "about-us",
+   "about-us-contact-us",
+   "about-us-customer-profiles",
+   "about-us-customer-profiles-jennifer-van-eyk",
+   "about-us-danaher",
+   "about-us-executive-management",
+   "about-us-internal-personnel-profiles",
+   "about-us-internal-personnel-profiles-tom-covey",
+   "about-us-our-history",
+   "about-us-press-releases",
+   "about-us-press-releases-2025",
+   "about-us-press-releases-2026",
+   "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+   "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+   "about-us-product-stewardship",
+   "about-us-product-stewardship-weee-compliance-austria",
+   "applications",
+   "applications-biomedical-and-omics-research",
+   "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+   "applications-clinical",
+   "applications-environmental-testing",
+   "applications-food-and-beverage-testing",
+   "applications-forensics-testing",
+   "applications-pharma-and-biopharma",
+   "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+   "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+   "diagnostics",
+   "extraordinary-science",
+   "index",
+   "products",
+   "products-capillary-electrophoresis",
+   "products-consumables",
+   "products-consumables-lc-ms-performance-kits",
+   "products-hplc-products",
+   "products-hplc-products-microlc-products-m5-microlc",
+   "products-in-vitro-diagnostics",
+   "products-in-vitro-diagnostics-medical-devices-citrine-system",
+   "products-integrated-solutions",
+   "products-integrated-solutions-biotransform-solution",
+   "products-ion-sources",
+   "products-mass-spectrometers",
+   "products-mass-spectrometers-qtof-systems",
+   "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+   "products-methods",
+   "products-software",
+   "products-software-analyst-software",
+   "support-instrument-service-and-support",
+   "support-training",
+   "technology",
+   "technology-electron-activated-dissociation",
+   "technology-qtof-technology",
+   "technology-zt-scan-dia"
+  ],
+  "pageCount": 52,
+  "totalPages": 73
+ },
+ "customProps": {
+  "pagesWithProps": 73,
+  "distinctNames": 150,
+  "groups": {
+   "--actionbar_* / --actionbar-* (WalkMe ActionBar SAP theme, third-party)": 34,
+   "--scrollbar-width (WalkMe)": 1,
+   "legacy clientlib-global :root (--blue-color, --orange-color, --pharma-color … on 15 legacy pages)": 20,
+   "--swiper-theme-color (Swiper default #007aff, legacy pages)": 1,
+   "EDS :root (--primary-color #0068FA, --link-color, --title-font-color, --box-border-color … on 3 EDS pages)": 10
+  },
+  "note": "The 51 v3 Tailwind pages define no first-party :root design tokens — colours, radii and type live in compiled tw-* utilities (clientlib-site.min.css). All custom properties observed on those pages come from WalkMe."
+ },
+ "register": "brand",
+ "registerNote": "Marketing landing surface (hero, product/application storytelling, Request a quote) dominates the crawl; a product/portal surface (SCIEX Now dashboard, login-gated training ×110 URLs, KB ×1,789) sits behind Support. Treated as brand with a support-portal sub-surface.",
+ "thirdPartyScriptHosts": [
+  "cdn.walkme.com (WalkMe nudges/ActionBar)",
+  "static.cloud.coveo.com (search)",
+  "cdn.cookielaw.org (OneTrust)",
+  "siteintercept.qualtrics.com (feedback tab)",
+  "cdn.dreamdata.cloud",
+  "connect.facebook.net",
+  "snap.licdn.com",
+  "cdn.decibelinsight.net",
+  "cdn.c360a.salesforce.com",
+  "img04.en25.com (Eloqua)",
+  "www.googletagmanager.com",
+  "cdn.usefathom.com",
+  "geoip-js.com",
+  "js.hcaptcha.com / cdn.tiny.cloud (legacy support forms)"
+ ]
+}
