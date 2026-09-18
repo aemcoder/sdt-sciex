@@ -1,0 +1,263 @@
+/* tabs — live .tab "Why SCIEX portfolio" (stardust/prototypes/css/home.css § tabs) */
+.tabs {
+  padding: 32px 0;
+}
+
+.tabs-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-head {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.tabs-head :is(h1, h2, h3) {
+  color: var(--grey-900);
+  padding-top: 16px;
+}
+
+.tabs-head p {
+  padding-top: 16px;
+  color: var(--grey-500);
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.tabs-bar {
+  display: none;
+}
+
+.tabs-mob-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border-top: 1px solid var(--grey-100);
+  color: var(--grey-900);
+  text-align: center;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.tabs-mob-btn.is-active {
+  border-top-color: var(--blue-700);
+  border-bottom: 1px solid var(--blue-700);
+  color: var(--blue-700);
+}
+
+.tabs-mob-btn > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs-mob-btn p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-align: left;
+  color: inherit;
+  font-weight: 530;
+}
+
+.tabs-mob-btn-icon {
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs-mob-btn.is-active .tabs-mob-btn-icon {
+  transform: rotate(180deg);
+}
+
+.tabs-mob-btn svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: none;
+}
+
+.tabs-panel-grid {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: all 0.3s ease-in-out;
+}
+
+.tabs-panel-grid.is-active {
+  grid-template-rows: 1fr;
+}
+
+.tabs-panel {
+  overflow: hidden;
+  display: none;
+}
+
+.tabs-panel-grid.is-active .tabs-panel {
+  display: block;
+}
+
+.tabs-panel-inner {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 0;
+}
+
+.tabs-panel-media p {
+  line-height: 0;
+}
+
+.tabs-panel-media picture {
+  display: inline;
+}
+
+.tabs-panel-media img {
+  margin-bottom: 20px;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  object-fit: cover;
+}
+
+.tabs-panel-title {
+  margin-bottom: 6px;
+}
+
+.tabs-panel-title :is(h2, h3, h4) {
+  color: var(--grey-900);
+  font-size: 17px;
+  font-weight: 530;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.tabs-panel-text p {
+  color: var(--grey-500);
+}
+
+.tabs-panel-link {
+  margin-top: 12px;
+}
+
+.tabs-panel-link p {
+  color: var(--blue-700);
+}
+
+@media (width >= 768px) {
+  .tabs {
+    padding: 48px 0;
+  }
+
+  .tabs-head {
+    padding-bottom: 48px;
+  }
+
+  .tabs-head :is(h1, h2, h3),
+  .tabs-head p {
+    padding-top: 20px;
+  }
+
+  .tabs-head p {
+    width: 58.3333%;
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .tabs-bar {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .tabs-bar > div {
+    height: auto;
+    border-bottom: 2px solid var(--grey-100);
+    margin-right: 4px;
+  }
+
+  .tabs-bar > div.is-active {
+    border-bottom-color: var(--blue-700);
+  }
+
+  .tabs-tab {
+    display: inline-block;
+    text-align: left;
+    width: 160px;
+    color: var(--grey-900);
+    cursor: pointer;
+  }
+
+  .tabs-bar > div.is-active .tabs-tab {
+    color: var(--blue-700);
+  }
+
+  .tabs-tab p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 12px;
+    color: inherit;
+    font-weight: 530;
+  }
+
+  .tabs-mob-btn {
+    display: none;
+  }
+
+  .tabs-panel-grid {
+    transition: none;
+  }
+
+  .tabs-panel-inner {
+    margin-bottom: 0;
+    flex-direction: row-reverse;
+  }
+
+  /* live: the <picture> is the flex item (flex-basis = its intrinsic rendition width, which
+     tracks the viewport) and the img is 65 % OF THE PICTURE; text is a 35 % item. Both shrink
+     in proportion to their bases — reproduce the model, not the resolved px (#116). */
+  .tabs-panel-media {
+    flex: 1 1 100vw;
+    min-width: 0;
+  }
+
+  .tabs-panel-media picture {
+    display: block;
+  }
+
+  .tabs-panel-media img {
+    margin-bottom: 0;
+    width: 65%;
+  }
+
+  .tabs-panel-text {
+    flex: 1 1 35%;
+    width: 35%;
+    margin-right: 32px;
+  }
+
+  .tabs-panel-title {
+    margin-bottom: 8px;
+  }
+
+  .tabs-panel-title :is(h2, h3, h4) {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .tabs-panel-link {
+    margin-top: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tabs-panel-grid,
+  .tabs-mob-btn-icon {
+    transition: none;
+  }
+}

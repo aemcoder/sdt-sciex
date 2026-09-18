@@ -1,73 +1,97 @@
 /*
- * Copyright 2020 Adobe. All rights reserved.
- * This file is licensed to you under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License. You may obtain a copy
- * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ * ⚠️ FONT LICENSING REQUIRED BEFORE GOING LIVE
+ * Geogrotesque Sharp VF + Geogrotesque UltraLight (Emtype Foundry) are self-hosted from
+ * the owner's own live clientlib (policy: self-hosted-reuse, licence confirmation pending).
+ * Do not publish to aem.live for production until the webfont/embedding licence covers the
+ * new host — see fonts/LICENSING.md for the remove-and-fall-back path.
  *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * SCIEX foundation — stardust:deploy, 2026-09-18. Tokens, reset, container model, type ramp
+ * and button system lifted from stardust/prototypes/css/canon.css (itself lifted from
+ * sciex.com computed styles). The boilerplate's STRUCTURAL layer (body gate, header
+ * reservation, section scaffold) is preserved.
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  /* type */
+  --heading-font-family: geogrotesque, geogrotesque-fallback, helvetica, arial, sans-serif;
+  --body-font-family: geogrotesque, geogrotesque-fallback, helvetica, arial, sans-serif;
+  --heading-xxl: 52px; /* text-bravo   @≥1280 */
+  --heading-xl: 40px; /* text-charlie @≥1280 */
+  --heading-lg: 32px; /* text-delta   @≥1280 */
+  --heading-md: 24px; /* text-echo    @≥1280 */
+  --body: 16px; /* text-base    @≥1280 (15px < 768) */
+  --body-sm: 14px; /* tw-text-sm   (13px < 768) */
+  --line-height-heading: 1.2;
+  --line-height-body: 1.5;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  /* colours */
+  --color-bg: #fff;
+  --color-fg: #141414;
+  --color-accent: #0068fa;
+  --background-color: #fff;
+  --text-color: #000;
+  --grey-900: #141414;
+  --grey-800: #2c2c2c;
+  --grey-700: #434343;
+  --grey-600: #5b5b5b;
+  --grey-500: #707070;
+  --grey-400: #8a8a8a;
+  --grey-300: #a1a1a1;
+  --grey-100: #ececec;
+  --grey-50: #f5f5f5;
+  --blue-700: #0068fa;
+  --blue-800: #005bdb;
+  --border-default: #e5e7eb;
+  --tw-gray-100: #f3f4f6;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  /* layout */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 96px;
+  --section-padding: 32px; /* md:tw-py-48 (48px ≥ 768) */
+  --max-width: 1440px;
+  --radius: 4px;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 64px;
+  /* chrome reservation (#81): SCIEX header = 60px mobile, 131px desktop (64 top bar + 67 nav row) */
+  --nav-height: 60px;
 }
 
-/* fallback fonts */
+@media (width >= 768px) {
+  :root { --section-padding: 48px; }
+}
+
+@media (width >= 1024px) {
+  :root { --nav-height: 131px; }
+}
+
+/* metric-matched fallback (first paint, before fonts.css lands) — size-adjust from the
+   measured rendered-width ratio Geogrotesque/Arial (5162/5200) at wdth 550, ascent 1000 /
+   descent 300 per 1000 upm from the VF woff2 */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
+  font-family: geogrotesque-fallback;
   src: local('Arial');
+  size-adjust: 99.26%;
+  ascent-override: 100.75%;
+  descent-override: 30.22%;
+  line-gap-override: 0%;
 }
 
-@font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+/* --- reset (Tailwind preflight subset, as shipped live) ------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0 solid var(--border-default);
 }
 
-@media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
-
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+html {
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: var(--body-font-family);
+  line-height: 1.5;
 }
 
 body {
@@ -76,16 +100,37 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  font-variation-settings: "wdth" 550;
+  overflow-x: hidden;
 }
 
 body.appear {
   display: block;
 }
 
+@media (width >= 768px) {
+  body {
+    font-size: calc(14.1176px + 0.1471vw);
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1280px) {
+  body { font-size: 16px; }
+}
+
+/* chrome reservation — the header block loads late; reserve its exact height and paint
+   its ground so the first section never shifts (#81). Desktop = 64px dark bar + white row. */
 header {
   height: var(--nav-height);
+  background: var(--grey-900);
+}
+
+@media (width >= 1024px) {
+  header { background: linear-gradient(var(--grey-900) 64px, #fff 64px); }
 }
 
 header .header,
@@ -104,46 +149,74 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+  margin: 0;
   font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
   scroll-margin: 40px;
 }
-
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
 
 p,
 dl,
 ol,
 ul,
 pre,
-blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+blockquote,
+figure {
+  margin: 0;
 }
 
-code,
-pre {
-  font-size: var(--body-font-size-s);
+menu,
+ol,
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
-main > div {
-  margin: 40px 16px;
+a:any-link {
+  overflow-wrap: break-word;
+}
+
+b,
+strong {
+  font-weight: 530;
+}
+
+em {
+  font-style: normal;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup { top: -0.5em; }
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+audio,
+canvas,
+embed,
+iframe,
+object,
+svg,
+video {
+  display: block;
+  vertical-align: middle;
 }
 
 input,
@@ -151,44 +224,290 @@ textarea,
 select,
 button {
   font: inherit;
+  font-variation-settings: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-/* links */
-a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
+button,
+[type="button"],
+[type="submit"] {
+  appearance: auto;
+  background-color: transparent;
+  background-image: none;
+  text-transform: none;
+  cursor: pointer;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+input::placeholder {
+  color: #9ca3af;
+  opacity: 1;
 }
 
-/* buttons */
+[hidden] {
+  display: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* --- container model (live .tw-container) — the site's one layout primitive; every block
+   and every default-content wrapper sits in it (#13) ---------------------------------- */
+.container,
+main .section > .default-content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media (width >= 640px) {
+  .container,
+  main .section > .default-content-wrapper { max-width: 640px; }
+}
+
+@media (width >= 768px) {
+  .container,
+  main .section > .default-content-wrapper { max-width: 768px; }
+}
+
+@media (width >= 1024px) {
+  .container,
+  main .section > .default-content-wrapper {
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (width >= 1280px) {
+  .container,
+  main .section > .default-content-wrapper {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (width >= 1440px) {
+  .container,
+  main .section > .default-content-wrapper { max-width: 1440px; }
+}
+
+@media (width >= 1536px) {
+  .container,
+  main .section > .default-content-wrapper { max-width: 1536px; }
+}
+
+/* --- type ramp (live text-* classes; fluid between 768 and 1280) ---------------------- */
+main h1 {
+  font-size: 31px;
+  font-weight: 270;
+  line-height: 38px;
+  color: var(--grey-900);
+}
+
+main h2 {
+  font-size: 27px;
+  font-weight: 270;
+  line-height: 34px;
+  color: var(--grey-900);
+}
+
+main h3 {
+  font-size: 17px;
+  font-weight: 530;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+  color: var(--grey-900);
+}
+
+main h4 {
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+  color: var(--grey-900);
+}
+
+main h5,
+main h6 {
+  font-size: 15px;
+  font-weight: 530;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+  color: var(--grey-900);
+}
+
+main p,
+main li {
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+}
+
+@media (width >= 768px) {
+  main h1 {
+    font-size: calc(12.4706px + 3.0882vw);
+    line-height: 1.2;
+  }
+
+  main h2 {
+    font-size: calc(15.5294px + 1.9118vw);
+    line-height: 1.3;
+  }
+
+  main h3,
+  main h4 {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  main h5,
+  main h6,
+  main p,
+  main li {
+    font-size: calc(14.1176px + 0.1471vw);
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1280px) {
+  main h1 { font-size: 52px; }
+  main h2 { font-size: 40px; }
+
+  main h5,
+  main h6,
+  main p,
+  main li { font-size: 16px; }
+}
+
+main .default-content-wrapper h2 + p { margin-top: 16px; }
+
+@media (width >= 768px) {
+  main .default-content-wrapper h2 + p { margin-top: 20px; }
+}
+
+/* --- buttons (D6): <strong><a> = .button.primary = live .btn-primary; <em><a> =
+   .button.secondary = live .link-arrow text link (blue, 1px underline, trailing arrow) --- */
 p.button-wrapper {
-  margin: 12px 0;
+  margin: 0;
 }
 
 a.button:any-link,
 button.button {
   box-sizing: border-box;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 100%;
   margin: 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
   font: inherit;
-  font-weight: 500;
-  line-height: 1.25;
   text-decoration: none;
   cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+}
+
+a.button.primary,
+button.button.primary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid var(--blue-700);
+  border-radius: 4px;
+  padding: 12px 16px;
+  color: #fff;
+  background-color: var(--blue-700);
+  background-image: linear-gradient(to right, var(--blue-800), var(--blue-800), var(--blue-800));
+  background-size: 100% 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  text-align: left;
+  transition: all 0.15s;
+}
+
+a.button.primary::after,
+button.button.primary::after {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 14px;
+  margin-left: 16px;
+  background: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 14'%3E%3Cpath d='M0 7L15 7' stroke='%23000'/%3E%3Cpath d='M9 1L15 7L9 13' stroke='%23000'/%3E%3C/svg%3E") center / 16px 14px no-repeat;
+}
+
+@media (width >= 768px) {
+  a.button.primary,
+  button.button.primary {
+    display: inline-flex;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+a.button.secondary,
+button.button.secondary {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  color: var(--blue-700);
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: inherit;
+  background: linear-gradient(currentcolor, currentcolor) no-repeat 0 100% / calc(100% - 24px) 1px;
+  transition: color 0.3s;
+}
+
+a.button.secondary::after,
+button.button.secondary::after {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 14px;
+  margin-left: 8px;
+  background: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 14'%3E%3Cpath d='M0 7L15 7' stroke='%23000'/%3E%3Cpath d='M9 1L15 7L9 13' stroke='%23000'/%3E%3C/svg%3E") center / 16px 14px no-repeat;
+  transition: all 0.5s;
+}
+
+@media (width >= 768px) {
+  a.button.secondary,
+  button.button.secondary {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* accent (<em><strong><a>) — same paint as primary; SCIEX has one CTA style */
+a.button.accent,
+button.button.accent {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--blue-700);
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: var(--blue-700);
 }
 
 a.button[aria-disabled="true"],
@@ -197,91 +516,15 @@ button.button:disabled {
   pointer-events: none;
 }
 
-a.button.primary,
-button.button.primary {
-  border-color: var(--text-color);
-  background-color: var(--text-color);
-  color: var(--background-color);
-}
-
-a.button.primary:hover,
-a.button.primary:focus-visible,
-button.button.primary:hover,
-button.button.primary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--dark-color);
-  color: var(--light-color);
-}
-
-a.button.primary[aria-disabled="true"],
-a.button.primary[aria-disabled="true"]:hover,
-a.button.primary[aria-disabled="true"]:focus-visible,
-button.button.primary:disabled,
-button.button.primary:disabled:hover,
-button.button.primary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary,
-button.button.secondary {
-  border-color: var(--text-color);
-  background-color: transparent;
-  color: var(--text-color);
-}
-
-a.button.secondary:hover,
-a.button.secondary:focus-visible,
-button.button.secondary:hover,
-button.button.secondary:focus-visible {
-  border-color: var(--dark-color);
-  background-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-a.button.secondary[aria-disabled="true"],
-a.button.secondary[aria-disabled="true"]:hover,
-a.button.secondary[aria-disabled="true"]:focus-visible,
-button.button.secondary:disabled,
-button.button.secondary:disabled:hover,
-button.button.secondary:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
-/* high-impact call-to-action */
-a.button.accent,
-button.button.accent {
-  border-color: var(--link-color);
-  background-color: var(--link-color);
-  color: var(--background-color);
-}
-
-a.button.accent:hover,
-a.button.accent:focus-visible,
-button.button.accent:hover,
-button.button.accent:focus-visible {
-  border-color: var(--link-hover-color);
-  background-color: var(--link-hover-color);
-}
-
-a.button.accent[aria-disabled="true"],
-a.button.accent[aria-disabled="true"]:hover,
-a.button.accent[aria-disabled="true"]:focus-visible,
-button.button.accent:disabled,
-button.button.accent:disabled:hover,
-button.button.accent:disabled:focus-visible {
-  background-color: var(--light-color);
-  border-color: var(--light-color);
-  color: var(--dark-color);
-}
-
 main img {
   max-width: 100%;
   width: auto;
   height: auto;
+}
+
+/* pipeline <p><picture> baseline descender (#111) */
+main p:has(> picture:only-child) {
+  line-height: 0;
 }
 
 .icon {
@@ -295,31 +538,92 @@ main img {
   width: 100%;
 }
 
-/* sections */
+/* --- section scaffold: blocks own their padding and recreate the container (#13);
+   section wrappers are never capped (full-bleed escape at template level) -------------- */
 main > .section {
-  margin: 40px 0;
+  margin: 0;
+  padding: 0;
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
-}
-
-main > .section:first-of-type {
-  margin-top: 0;
-}
-
-@media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
-}
-
-/* section metadata */
-main .section.light,
-main .section.highlight {
-  background-color: var(--light-color);
+  max-width: none;
   margin: 0;
-  padding: 40px 0;
+  padding: 0;
+}
+
+main > .section > .default-content-wrapper {
+  display: flow-root;
+}
+
+main .section:empty {
+  display: none;
+}
+
+/* --- section style vocabulary (D1 — default-content sections only; a SMALL closed set) --- */
+main .section.grey {
+  background-color: var(--grey-50);
+  padding: var(--section-padding) 0;
+}
+
+main .section.dark {
+  background-color: var(--grey-900);
+  color: #fff;
+  padding: var(--section-padding) 0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark h4,
+main .section.dark h5,
+main .section.dark h6 {
+  color: #fff;
+}
+
+main .section.grey[data-section-status='loaded'],
+main .section.dark[data-section-status='loaded'] {
+  display: block !important;
+}
+
+/* stylelint-disable no-descending-specificity */
+
+/* --- Experience Workspace edit mode (da.live canvas) — repaint CTAs from their authored
+   marks; scoped on .prosemirror-editor, zero cost on published pages (EW3/EW6/EW10) --- */
+.prosemirror-editor p > :is(strong, em) > a:any-link,
+.prosemirror-editor p > a:any-link:has(> :is(strong, em):only-child) {
+  box-sizing: border-box;
+  margin: 0;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.prosemirror-editor p > a:any-link > :is(strong, em) {
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+.prosemirror-editor p > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> strong:only-child) {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--blue-700);
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: var(--blue-700);
+  font-weight: 400;
+}
+
+.prosemirror-editor p > em > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em:only-child) {
+  display: inline-flex;
+  align-items: center;
+  color: var(--blue-700);
+  background: linear-gradient(currentcolor, currentcolor) no-repeat 0 100% / 100% 1px;
+}
+
+a .prosemirror-editor a:any-link {
+  color: inherit;
+  text-decoration: none;
 }

@@ -1,0 +1,551 @@
+{
+ "source": "http://localhost:8796/home-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The leader in mass spectrometry and capillary electrophoresis solutions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "There, where it counts. Time and time again. Providing the precision detection and quantitation of molecules needed for scientists to make discoveries that change the world."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Our products",
+     "href": "https://sciex.com/products"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "promo-tiles",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media-grid__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "product-cards",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "ZenoTOF 8600 system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Unlock the proof that powers extraordinary discoveries"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Confidence when it counts"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore now",
+     "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/8600-system"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "SCIEX OS software"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Now suports Windows 11 to help labs meet internal and external IT security policies and reduces cybersecurity vulnerabilities for the lab ecosystem."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Explore the software",
+     "href": "https://sciex.com/products/software/sciex-os-software"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Intabio ZT system"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Be unstoppable with comprehensive charge variant analysis on a single system."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Explore the system",
+     "href": "https://sciex.com/products/integrated-solutions/intabio-zt-system"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "why-sciex-portfolio",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why SCIEX portfolio"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Pioneering solutions that inspire life-changing research and revolutionize the industry."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Mass Spectrometers"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Clinical Medical Devices"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "CE Instruments"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "HPLC MS"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Software"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Integrated Solutions"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Technologies"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Mass Spectrometers"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Mass Spectrometers"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "SCIEX mass spectrometers are designed to help you break new ground by pushing the limits of speed and sensitivity in quantitative and qualitative analyses."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Clinical Medical Devices"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Clinical Medical Devices"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Best-in-class in vitro diagnostic mass spec solutions that are extremely easy to adopt and powerful enough to handle the everyday demands of the clinical lab."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/in-vitro-diagnostics/medical-devices"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "CE Instruments"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "CE Instruments"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Optimize your workflow efficiency with capillary electrophoresis systems that deliver exceeding sensitivity, resolution, and performance."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/capillary-electrophoresis"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "HPLC MS"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "HPLC MS"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "The largest, most advanced range of front-end technologies to enhance the power of your mass spec, from analytical flow LC-MS to ultra-low flow CESI-MS."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/hplc-products"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Software"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "Software"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Intelligent, fast, secure, and intuitive software that delivers better results and meets the analytical needs of world’s most demanding labs."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/software"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Integrated Solutions"
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "Integrated Solutions"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Integrated end-to-end mass spec workflows that give you everything you need to get the most out of your sample from start to finish."
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/integrated-solutions"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Technologies"
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "Technology"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "SCIEX continues to revolutionize the industry with groundbreaking LC-MS/MS and capillary electrophoresis technology that influences life-changing research."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Learn more",
+     "href": "https://sciex.com/technology"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 16,
+   "repeats": [
+    {
+     "unitSelector": "DIV.container",
+     "count": 9,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.tabs__mob-btn",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "why-sciex-applications",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why SCIEX for your application"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "SCIEX Applications"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "SCIEX mass spec and capillary electrophoresis solutions are designed by scientists with your applications in mind. From routine testing to the most complex analytical experiments, we constantly innovate to enable you to transform your workflows."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Clinical Diagnostics"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Improve the quality of results, achieve faster turnaround times, and reduce costs. Routine diagnostic testing that delivers excellent accuracy and robust performance with our in vitro diagnostic medical device mass spectrometers"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://sciex.com/diagnostics"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Environmental Testing"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Overcome complex matrices and measure more compounds in every sample. Our solutions deliver the lowest possible detection limits at trace levels with the ultimate accuracy."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Food and Beverage Testing"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Meet maximum residue limits (MRLs) with high-quality data that you can genuinely count upon. With SCIEX your lab can quickly and easily react to diverse market needs."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Forensics Analysis"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Accurately detect even the smallest compounds to deliver evidence that stands. Get fast, highly accurate data across a multitude of compounds and biomarkers."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Life Science Research"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Capture the best data, integrate results cross-omics, and gain relevant insights to make your next discovery. Get more reliable information on the key genes, proteins, lipids, and metabolites for your research."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/life-science-research"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Pharma and BioPharma Research"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Transform the capacity and capability of your biologics pipeline with innovative end-to-end mass spec and capillary electrophoresis solutions that help you to make better development decisions, faster."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.icon-card",
+     "count": 7,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "stories",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX Stories"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "A cast of thousands"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A contract research organization in Colorado Springs works hard to get quality data for clients. Scientists at Aliri Bioanalysis help make drug products that result in better outcomes for patients."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://sciex.com/stories/articles/a-cast-of-thousands"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Pioneering future treatments"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "A focus on the patient is easy to see at Sutro Biopharma. Tyler Heibeck directs a team developing innovating cancer therapeutics that deliver better treatment options."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://sciex.com/stories/articles/pioneering-future-treatments"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.stories__slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

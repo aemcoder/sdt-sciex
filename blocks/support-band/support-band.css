@@ -1,0 +1,73 @@
+/* support-band — live footer XF "SCIEX Now support network" (canon.css § SUPPORT BAND);
+   the live .footer-spacer (64/96px) is the section's top padding */
+main .section.support-band-container {
+  padding-top: 64px;
+}
+
+.support-band {
+  padding: 32px 0;
+  background: var(--grey-800);
+  color: #fff;
+}
+
+.support-band-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support-band-copy {
+  max-width: 620px;
+  margin-bottom: 20px;
+}
+
+.support-band-title :is(h1, h2, h3, h4, h5, h6),
+.support-band-sub :is(p, h1, h2, h3, h4, h5, h6) {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: normal;
+  font-weight: 400;
+  color: var(--grey-300);
+}
+
+.support-band-title :is(h1, h2, h3, h4, h5, h6) {
+  color: #fff;
+  font-weight: 450;
+}
+
+.support-band-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (width >= 768px) {
+  main .section.support-band-container {
+    padding-top: 96px;
+  }
+
+  .support-band {
+    padding: 48px 0;
+  }
+
+  .support-band-row {
+    flex-direction: row;
+  }
+
+  .support-band-copy {
+    margin-bottom: 0;
+  }
+
+  .support-band-title :is(h1, h2, h3, h4, h5, h6),
+  .support-band-sub :is(p, h1, h2, h3, h4, h5, h6) {
+    font-size: calc(14.588px + 0.7353vw);
+    line-height: 1.3;
+  }
+}
+
+@media (width >= 1280px) {
+  .support-band-title :is(h1, h2, h3, h4, h5, h6),
+  .support-band-sub :is(p, h1, h2, h3, h4, h5, h6) {
+    font-size: 24px;
+  }
+}

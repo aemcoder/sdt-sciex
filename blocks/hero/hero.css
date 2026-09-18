@@ -1,37 +1,128 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
+/* hero — live .hero-small (stardust/prototypes/css/home.css § Hero) */
+main .section.hero-container {
+  padding-bottom: 32px;
 }
 
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero-inner {
+  position: relative;
+  min-height: 420px;
 }
 
-.hero picture {
+.hero-media {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+  z-index: 0;
 }
 
-.hero img {
-  object-fit: cover;
+.hero-media p,
+.hero-media picture,
+.hero-media img {
   width: 100%;
   height: 100%;
+  margin: 0;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero-media img {
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.hero-box {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  min-height: 420px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  z-index: 10;
+}
+
+.hero-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  color: #fff;
+}
+
+.hero-copy {
+  width: 100%;
+}
+
+.hero-title {
+  margin-top: 16px;
+}
+
+.hero-title :is(h1, h2) {
+  color: #fff;
+}
+
+.hero-lede {
+  margin-top: 16px;
+}
+
+.hero-lede p {
+  color: #fff;
+}
+
+.hero-ctas p {
+  margin-top: 16px;
+}
+
+@media (width >= 768px) {
+  main .section.hero-container {
+    padding-bottom: 48px;
   }
+
+  .hero-inner,
+  .hero-box {
+    min-height: 512px;
+  }
+
+  .hero-box {
+    padding-top: 80px;
+    padding-bottom: 64px;
+  }
+
+  .hero-row {
+    flex-direction: row;
+  }
+
+  .hero-title,
+  .hero-lede,
+  .hero-ctas p {
+    margin-top: 20px;
+  }
+
+  .hero-ctas {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-ctas > * + * {
+    margin-left: 16px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-title { max-width: 75%; }
+  .hero-lede { max-width: 50%; }
+}
+
+@media (width >= 1280px) {
+  .hero-title { max-width: 66.667%; }
+  .hero-lede { max-width: 41.667%; }
 }
