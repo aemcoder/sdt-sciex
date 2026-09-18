@@ -1304,6 +1304,11 @@ main .section.loose-top > div > .block { padding-top: 64px; }
 main .section.loose-bottom:where(.lead, .page-image),
 main .section.loose-bottom > div > .block { padding-bottom: 64px; }
 
+/* `spacer` — the live 1 px `.spacer` module (an inert <div style="height:1px">) sits right before this
+   section on /products, /products/mass-spectrometers, capillary-electrophoresis, hplc-products */
+main .section.spacer:where(.lead, .page-image),
+main .section.spacer > div > .block { margin-top: 1px; }
+
 /* `quote-solo` — a one-slide `carousel quotes` (software testimonial): live renders no Splide UI */
 main .section.quote-solo .carousel-controls {
   display: none;
@@ -1487,7 +1492,9 @@ body.legacy main .section.grant-hero .default-content-wrapper p {
 
 body.legacy main .section.grant-hero .default-content-wrapper img {
   display: block;
+  width: 100%;
   max-width: 100%;
+  aspect-ratio: 1140 / 300; /* the pipeline's <picture> has no intrinsic size: reserve the box (published CLS 0.143 without it) */
 }
 
 body.legacy main .section.grant-intro > div,
@@ -2494,4 +2501,11 @@ main .section.page-image.flush-bottom { padding-bottom: 0; }
 /* stylelint-disable-next-line no-duplicate-selectors -- appended correction (cascade order) */
 body.page-content main {
   padding-bottom: 10px;
+}
+
+/* G2 addendum (published reconcile round) — live-now measurement: the .btn-secondary arrow keeps the same 16 px
+   gap as the primary on every application landing (the prototype's copy lacked it); restores the foundation value */
+main .section.lead a.button.accent:any-link::after,
+.columns.lead a.button.accent:any-link::after {
+  margin-left: 16px;
 }

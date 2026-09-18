@@ -360,6 +360,7 @@ main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper 
 }
 
 .columns.split.big-lede > div > div:not(:has(picture, img)) p:not(:has(a)) {
+  margin-top: -16px; /* live: h3 + p.text-delta share one .split__heading block — no gap between them */
   font-size: 23px;
   font-weight: 270;
   letter-spacing: 0;
@@ -453,6 +454,10 @@ main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper 
   .columns.split.big-lede > div > div:not(:has(picture, img)) p:not(:has(a)) {
     font-size: calc(15.0588px + 1.3235vw);
     line-height: 1.3;
+  }
+
+  .columns.split.big-lede > div > div:not(:has(picture, img)) p:not(:has(a)) {
+    margin-top: -20px;
   }
 
   /* live .split__btns .btn-primary spans the column until 1024 */
@@ -924,5 +929,49 @@ body.page-content .columns.split h2 {
   body.page-content .columns.split {
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+/* published-origin reconcile (G3 round 1): the pipeline hoists a picture-only cell to a BARE <picture>
+   (no <p>), so the 4:3 media box above — keyed on `p` — never matched on the delivered page and the
+   bespoke-solutions media column collapsed to 0 (published 686 / 721 vs live 710 / 980). Box the direct
+   child, whether <p> or <picture>; a <picture> that IS the box paints as a block. */
+body.page-content .columns.split > div > div:has(picture, img) > :is(p, picture) {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin: 0;
+}
+
+body.page-content .columns.split > div > div:has(picture, img) > p > picture {
+  display: contents;
+}
+
+/* G2 addendum (published reconcile round) — `columns split cover`: the live Splide media frame column carries
+   an empty sibling frame above the picture (its pager margin: 12 → 16 @768) and the frame's own pager margin
+   below it — the media cell keeps that rhythm (the split-right measured 12 px short on the published origin) */
+.columns.split.cover > div > div:has(picture, img) {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media (width >= 768px) {
+  .columns.split.cover > div > div:has(picture, img) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+/* same round: the live `.lrich` wrapper keeps 20 / 24 px under its last paragraph before the slinky
+   button (published text column 558 vs live 582 at 1440) — the CTA paragraph carries it */
+body.page-content .columns.split > div > div:not(:has(picture, img)) p:has(> a.button, > strong > a, > em > a) {
+  margin-top: 20px;
+}
+
+@media (width >= 768px) {
+  body.page-content .columns.split > div > div:not(:has(picture, img)) p:has(> a.button, > strong > a, > em > a) {
+    margin-top: 24px;
   }
 }

@@ -36,7 +36,9 @@ function cellNodes(cell) {
   return [];
 }
 
-const norm = (s) => (s || '').replace(/\s+/g, ' ').trim().toLowerCase();
+// the pipeline re-joins comma-bearing metadata values without the space ("Pharma,ADME-Tox"):
+// compare labels on their alphanumerics only
+const norm = (s) => (s || '').toLowerCase().replace(/[^a-z0-9]+/g, '');
 
 export default async function decorate(block) {
   const rows = [...block.children];

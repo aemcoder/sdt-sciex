@@ -865,7 +865,7 @@
    "url": "https://sciex.com/products/capillary-electrophoresis",
    "title": "Capillary Electrophoresis",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -874,15 +874,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-capillary-electrophoresis.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products/capillary-electrophoresis.html",
    "family": "v3-product-category",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/capillary-electrophoresis",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-consumables-lc-ms-performance-kits",
@@ -913,7 +922,7 @@
    "url": "https://sciex.com/products/consumables",
    "title": "Consumables",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -922,15 +931,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-consumables.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products/consumables.html",
    "family": "v3-product-category",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/consumables",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-hplc-products-microlc-products-m5-microlc",
@@ -961,7 +979,7 @@
    "url": "https://sciex.com/products/hplc-products",
    "title": "Front-end HPLC (high-performance liquid chromatography) products | SCIEX",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -970,15 +988,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-hplc-products.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products/hplc-products.html",
    "family": "v3-product-category",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/hplc-products",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-in-vitro-diagnostics-medical-devices-citrine-system",
@@ -1057,7 +1084,7 @@
    "url": "https://sciex.com/products/integrated-solutions",
    "title": "Integrated Solutions",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1066,15 +1093,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-integrated-solutions.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products/integrated-solutions.html",
    "family": "v3-product-category",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/integrated-solutions",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-ion-sources",
@@ -1153,7 +1189,7 @@
    "url": "https://sciex.com/products/mass-spectrometers",
    "title": "Liquid Chromatography Mass Spectrometers (LC-MS)",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1162,15 +1198,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-mass-spectrometers.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products/mass-spectrometers.html",
    "family": "v3-product-category",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/mass-spectrometers",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software",
@@ -1249,7 +1294,7 @@
    "url": "https://sciex.com/products/software",
    "title": "Software",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1258,15 +1303,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products-software.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products/software.html",
    "family": "v3-product-category",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/software",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "products-spectral-library-hrms-all",
@@ -1321,7 +1375,7 @@
    "url": "https://sciex.com/products",
    "title": "Mass spectrometry, CE, and software products | SCIEX",
    "type": "landing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1330,15 +1384,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/products.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/products.html",
    "family": "v3-section-hub",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "support-customer-documents",
@@ -1772,7 +1835,7 @@
    "url": "https://sciex.com/technology",
    "title": "CE and LC Mass Spec Technology",
    "type": "landing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1781,15 +1844,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:43:17.621229Z",
+     "via": "stardust:deploy",
+     "commit": "G1 code committed/pushed by the coordinator; content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g1.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/technology.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/technology.html",
    "family": "v3-section-hub",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/technology",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
