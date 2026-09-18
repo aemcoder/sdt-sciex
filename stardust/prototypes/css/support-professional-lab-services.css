@@ -146,8 +146,7 @@
   .expertise__head span { margin-left: 16px; font-size: 18px; line-height: 26px; }
   .expertise__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .expertise__item { padding: 32px 0; }
-  .expertise__cell:nth-child(odd) .expertise__item { margin-right: 16px; }
-  .expertise__cell:nth-child(even) .expertise__item { margin-left: 16px; }
+  .expertise__item { margin-right: 16px; } /* live md:odd:tw-mr-16 md:even:tw-ml-16 sits on the row div, always :first-child of its XF wrapper → every row gets mr-16 (lift: liRow2 x 720 w 640 mr 16) */
   .expertise__media { margin-right: 32px; }
   .expertise__body h5 { margin-bottom: 8px; font-size: 18px; line-height: 26px; }
   .expertise__lead { margin-bottom: 16px; font-size: 16px; line-height: 24px; }

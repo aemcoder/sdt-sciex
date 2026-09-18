@@ -1,0 +1,978 @@
+{
+ "group": "g3",
+ "pages": [
+  {
+   "archetype": "about-us",
+   "pageType": "landing",
+   "liveUrl": "https://sciex.com/about-us",
+   "protoPath": "stardust/prototypes/about-us-proposed.html",
+   "protoServedAt": "http://localhost:8826/about-us-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T11:38:49.269000Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-about-support.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "chromeSplice": "stardust/replica/capture/splice-chrome-g3.py (footer code GEN-MKT-18-5192-A)"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g3-about-us-1440.json",
+     "stardust/replica/capture/tokens-g3-about-us-360.json"
+    ],
+    "lift": "stardust/replica/capture/lift-g3.mjs + stardust/.work/g3/sel-about-us.json",
+    "media": "stardust/prototypes/assets/media/g3/ (hero 1440x512 w1440+w375, 6 headshots w1440+w375 webp)"
+   },
+   "newComponents": [
+    {
+     "css": ".hero-image (v3-about-support.css)",
+     "model": "live hero-small with no copy: full-bleed picture, min-height 420/512, container flex items-end pt40 pb40 / md pt80 pb64, wrapper pb 16/24"
+    },
+    {
+     "css": ".profile-list / .profile",
+     "model": "live image-text-2-col: optional heading row (border-t, h2 pt 24/32, pb 32/48) + cards w-full → lg calc(50%-16px); card = 100/120/192px 4:3 image + name(p bolder) + richtext + link-arrow, border-t, py 24/32, gap-x 20/32"
+    },
+    {
+     "css": ".link-grid / .link-tile",
+     "model": "live icon-3-col: heading (pb 32/48) + grid 1/2/3 cols gap 24 → lg 32x48; tile border-t grey-100 pt 24/32 sm:pr-16, h3 bolder, text mt 6/8 grows, cta mt-auto + link-arrow mt 12/16"
+    },
+    {
+     "css": ".btn-row",
+     "model": "live atomic-buttons: inline-flex wrap gap 16, pb 16/20 (zeroed as last child), children w-full → md auto; button = canon .btn-primary"
+    },
+    {
+     "css": ".hero-text--pad, .breadcrumb--pb0, .sec--pt0",
+     "model": "modifiers on pharma modules: hero-text with pb 32/48 (no lede), breadcrumb after hero with pb 0, text-container with pt 0"
+    }
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.38,
+       "differingPx": 21620,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "fixes": "footer disclaimer code was MKT-18-5192-A (grep dropped the GEN- prefix) → GEN-MKT-18-5192-A per sidecar"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.37,
+       "pixelPctMasked": 0.07,
+       "differingPx": 20875,
+       "heightDelta": 0,
+       "note": "masked 802:98,1702:98,2602:98,3502:98 (WalkMe tab + chat launcher at chunk seams); +3865:54 (same widgets on last chunk) → 0.00%"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.37,
+      "pixelPctMasked": 0.07,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header 13/13 texts 14/14 icons, footer 46/46 texts 16/16 icons",
+      "pass": true
+     },
+     "masks": "802:98,1702:98,2602:98,3502:98,3865:54 (live fixed WalkMe copilot tab + chat launcher repeated at every stitched seam and on the last chunk)",
+     "justified": [],
+     "residuals": [
+      {
+       "region": "footer",
+       "pct": 0.25,
+       "cause": "capture-state: fixed WalkMe tab (bottom-left) + chat launcher (bottom-right) painted over the footer's last 54 rows in the live capture; footer text/icon parity quiet",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher (fixed, third-party) at every 900px seam and on the last chunk",
+       "where": "y 802–900, 1702–1800, 2602–2700, 3502–3600, 3865–3919"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "chromeParity": "byte-identical capture (0 differing px)",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   },
+   "motion": {
+    "evidence": [
+     "stardust/replica/motion/about-us.json"
+    ],
+    "observed": [
+     "profile image hover: transform scale → 1.05 over .5s cubic-bezier(.4,0,.2,1) (fired; implemented .profile__media img:hover)",
+     "link-arrow / button / richtext-link hovers: no computed change sampled within the probe window (link-arrow hover behaviour is the shared pharma CSS, observed there); header static (18 timeline samples, no morph)"
+    ],
+    "dead": [
+     "breadcrumb link hover:tw-text-grey-900 (pharma finding, not re-probed)"
+    ],
+    "implemented": "CSS only — no page JS beyond canon motion.js"
+   },
+   "pluginNotes": [
+    "gate.sh default GATE_REAP_MIN=15 killed 5 stale pixel-compare/page.mjs processes (20–80 min old) on the first run — on a shared machine with concurrent agents run with GATE_REAP_MIN=0 (done for all later rounds)"
+   ]
+  },
+  {
+   "archetype": "support-training",
+   "pageType": "landing",
+   "liveUrl": "https://sciex.com/support/training",
+   "protoPath": "stardust/prototypes/support-training-proposed.html",
+   "protoServedAt": "http://localhost:8826/support-training-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T11:54:21Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-about-support.css",
+     "stardust/prototypes/css/support-training.css (vendor Plyr 3.7.8 + brand override)"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "chromeSplice": "stardust/replica/capture/splice-chrome-g3.py"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g3-support-training-1440.json",
+     "stardust/replica/capture/tokens-g3-support-training-360.json"
+    ],
+    "lift": "stardust/replica/capture/lift-g3.mjs + stardust/.work/g3/sel-support-training.json",
+    "media": "assets/media/g3/: 11 icon renditions w1440+w375 webp, banner 1713442876017 w1440+w375, welcome-to-sciex-now-learning-hub-frame0.jpg (ffmpeg first frame) + -clip5s.mp4 (first 5 s of the 335 MB live mp4), plyr.svg sprite (inlined hidden)"
+   },
+   "newComponents": [
+    {
+     "css": ".media-video / .media-video__frame + vendor .plyr (css/support-training.css)",
+     "model": "live media-video = Plyr html5 player DOM mirrored verbatim (plyr--paused plyr--stopped, controls bar, overlaid play); video 16:9 in the container; poster = first frame; --plyr-color-main blue-700"
+    },
+    {
+     "css": ".profile-list__head--plain",
+     "model": "image-text-2-col heading row without top rule / h2 padding (h2 text-delta)"
+    },
+    {
+     "css": ".textblock__col--border-t",
+     "model": "empty text-container column with tw-border-t and inner pt 24/32 (closing rule)"
+    },
+    {
+     "css": ".page-image a",
+     "model": "media-image wrapped in a full-width link"
+    },
+    {
+     "css": ".t-echo / .t-lg body",
+     "model": "text-container variant: h3 text-echo + richtext text-lg (pharma classes reused)"
+    }
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.32,
+       "pixelPctMasked": 0.0,
+       "differingPx": 23804,
+       "heightDelta": 0,
+       "contentRed": 0
+      },
+      {
+       "label": "motion",
+       "pixelPct": 0.32,
+       "differingPx": 23804,
+       "heightDelta": 0,
+       "note": "after Plyr play-state JS — byte-identical"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "11 justified (STRETCHED IMAGE: 180x100 icons cover-cropped into the live 4:3 192x144 box — mirrors live tw-object-cover)",
+      "pixelPct": 0.32,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header 13/13 texts 14/14 icons, footer 46/46 texts 16/16 icons",
+      "pass": true
+     },
+     "masks": "802:98,1702:98,2602:98,3502:98,4402:98,5100:54 (WalkMe copilot tab + chat launcher, fixed third-party, at every 900px stitched seam and on the last chunk)",
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE ×11 (icons 180x100 → 192x144)",
+       "why": "live renders the same renditions with tw-object-cover in a fixed 4:3 box"
+      }
+     ],
+     "residuals": [
+      {
+       "region": "footer",
+       "pct": 0.25,
+       "cause": "capture-state: WalkMe tab + chat launcher over the footer's last 54 rows in the live capture",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher at seams and last chunk",
+       "where": "y 802–900 … 4402–4500, 5100–5154"
+      },
+      {
+       "what": "live video renders its first frame (H.264 decoded in the capture browser); prototype poster = same frame via ffmpeg",
+       "where": "media-video y 790–1528"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.04,
+       "differingPx": 891,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "justified (same STRETCHED IMAGE class at 100x75)",
+      "pixelPct": 0.04,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "chromeParity": "header/footer crops 0.00%",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE (icons → 100x75)",
+       "why": "mirrors live"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 500–1500",
+       "pct": 0.4,
+       "cause": "video poster vs live decoded first frame — sub-pixel scaling differences inside the 312x175 player",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "evidence": [
+     "stardust/replica/motion/support-training.json"
+    ],
+    "observed": [
+     "click overlaid play → .plyr +plyr--playing, then +plyr--hide-controls (idle); play buttons +plyr__control--pressed; overlaid button opacity/visibility .3s; controls transform/opacity .4s (vendor Plyr CSS)",
+     "image-text card image hover: scale 1.05 .5s (implemented, shared .profile__media img:hover)"
+    ],
+    "dead": [],
+    "implemented": "inline script in support-training-proposed.html: play/pause toggling the same Plyr state classes, hide-controls 2 s idle (Plyr default); vendor CSS carries the transitions"
+   },
+   "pluginNotes": [
+    "live loads Plyr CSS from clientlib-video.min.js at runtime (no <link>) — vendor plyr.css 3.7.8 self-hosted in css/support-training.css",
+    "hero-text here is a plain h1 with tw-pb (hero-text--pad)"
+   ]
+  },
+  {
+   "archetype": "support-instrument-service-and-support",
+   "pageType": "landing",
+   "liveUrl": "https://sciex.com/support/instrument-service-and-support",
+   "protoPath": "stardust/prototypes/support-instrument-service-and-support-proposed.html",
+   "protoServedAt": "http://localhost:8826/support-instrument-service-and-support-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T11:54:21Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-about-support.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "chromeSplice": "stardust/replica/capture/splice-chrome-g3.py"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g3-support-instrument-service-and-support-1440.json",
+     "stardust/replica/capture/tokens-g3-support-instrument-service-and-support-360.json"
+    ],
+    "lift": "stardust/replica/capture/lift-g3.mjs + stardust/.work/g3/sel-support-instrument-service-and-support.json",
+    "media": "assets/media/g3/: 13 renditions w1440+w375 webp; hero mass-spec-ce-service-plan jpg w1440+w375 (live img has jpg srcset only)"
+   },
+   "newComponents": [
+    {
+     "css": ".hero-text__col--8 / .hero-text__img",
+     "model": "hero-text with side image: h1 col md 66.67% + pr 32, picture flex item whose img is 33.33% wide at md (mt 32 below md), 4:3"
+    },
+    {
+     "css": ".textarea / .textarea__p-pad",
+     "model": "live .atomic-textarea: plain <p>s, first with pb 16/20; 66.67% measure at xl"
+    },
+    {
+     "css": ".app-cards__grid.card-grid--3",
+     "model": "three-card = pharma image-card grid 3-up from md (4th card wraps); four-card = pharma grid as is (2 → 4 cols)"
+    },
+    {
+     "css": ".profile (no link variant)",
+     "model": "image-text-2-col card with bare picture (no <a>) and no link-arrow; richtext text without <p>"
+    }
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "pre-gate",
+       "note": "build-side anchor: textblock 263 vs live 311 → .textarea lacked the 66.67% measure (pharma rule only targeted .textblock__body); fixed before the first live round"
+      },
+      {
+       "label": "iter1",
+       "pixelPct": 0.36,
+       "pixelPctMasked": 0.0,
+       "differingPx": 24464,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.36,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.01,
+      "chromeParity": "quiet (exit 0) header 13/13 texts 14/14 icons, footer 46/46 texts 16/16 icons",
+      "pass": true
+     },
+     "masks": "802:98,1702:98,2602:98,3502:98,4402:98,4694:54 (WalkMe copilot tab + chat launcher, fixed third-party, at every 900px stitched seam and on the last chunk)",
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher at seams and last chunk",
+       "where": "y 802–900 … 4402–4500, 4694–4748"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "chromeParity": "byte-identical capture",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "evidence": [
+     "stardust/replica/motion/support-instrument-service-and-support.json"
+    ],
+    "observed": [
+     "three-card image hover: transform scale 1.05 .5s (implemented via canon .card__media img + pharma :hover rule)"
+    ],
+    "dead": [
+     "hero image hover: no change",
+     "four-card link hover: no computed change sampled"
+    ],
+    "implemented": "CSS only"
+   },
+   "pluginNotes": []
+  },
+  {
+   "archetype": "about-us-press-releases",
+   "pageType": "landing",
+   "liveUrl": "https://sciex.com/about-us/press-releases",
+   "protoPath": "stardust/prototypes/about-us-press-releases-proposed.html",
+   "protoServedAt": "http://localhost:8826/about-us-press-releases-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T11:54:55Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-about-support.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "chromeSplice": "stardust/replica/capture/splice-chrome-g3.py (footer code MKT-12222020)"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g3-about-us-press-releases-1440.json",
+     "stardust/replica/capture/tokens-g3-about-us-press-releases-360.json"
+    ],
+    "lift": "lift-g3.mjs + stardust/.work/g3/sel-about-us-press-releases.json",
+    "media": "none (inline 40x40 document svg icon per tile, copied from the DOM)"
+   },
+   "newComponents": [
+    {
+     "css": ".link-grid__grid--4 / .link-tile__icon",
+     "model": "live icon-4-col = link-grid 4-up at lg with a 40px inline svg icon slot (mb 16/20) above the h3; no heading row"
+    }
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "pre-gate",
+       "note": "build anchor 1988 vs live 2068: the tile icon slot is a 40px svg (outline filter had hidden it) — injected the 8 svgs verbatim, 2068 = live"
+      },
+      {
+       "label": "iter1",
+       "pixelPct": 0.29,
+       "pixelPctMasked": 0.14,
+       "differingPx": 8524,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.29,
+      "pixelPctMasked": 0.14,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header 13/13, footer 46/46 texts",
+      "pass": true
+     },
+     "masks": "802:98,1702:98,1934:54 (WalkMe tab + chat launcher at seams / last chunk)",
+     "justified": [],
+     "residuals": [
+      {
+       "region": "footer",
+       "pct": 0.25,
+       "cause": "capture-state: WalkMe tab + chat launcher over the footer's last 54 rows",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher",
+       "where": "y 802–900, 1702–1800, 1934–2068"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "chromeParity": "byte-identical capture",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "evidence": [
+     "(shared) stardust/replica/motion/about-us.json — same link-arrow tiles"
+    ],
+    "observed": [],
+    "dead": [],
+    "implemented": "none needed (link-arrow hover from shared pharma CSS)"
+   },
+   "pluginNotes": []
+  },
+  {
+   "archetype": "stories",
+   "pageType": "landing (experience-fragment body)",
+   "liveUrl": "https://sciex.com/stories",
+   "protoPath": "stardust/prototypes/stories-proposed.html",
+   "protoServedAt": "http://localhost:8826/stories-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype + per-section CSS portation",
+   "gatedAt": "2026-09-18T12:33:26Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/stories.css (generated: clientlib-site subset for the 352 class tokens in this root — Tailwind utilities, Splide, Plyr, media-card/tabs component rules; nested @media preserved)"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js",
+     "inline: tabs + rail state machines"
+    ],
+    "builder": "stardust/.work/g3/build-stories.py (DOM mirror of the captured root: scripts dropped, tracking attrs stripped, DM renditions → assets/media/g3 w1440/w375, <source> removed from the 62 videos, first-frame posters on the 8 visible players)",
+    "chromeSplice": "splice-chrome-g3.py (code GEN-MKT-18-14436-A)"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g3-stories-1440.json",
+     "stardust/replica/capture/tokens-g3-stories-360.json"
+    ],
+    "media": "assets/media/g3/: 38 DM renditions ×2 widths, 5 video first frames (Aliri, Sutro heroes at t=0; ChrisHiggins, AnthonyWhetton, FlorenceRaynaud rail cards at t=0.1)"
+   },
+   "newComponents": [
+    {
+     "css": "hero-large (video hero, 95svh-133px min-height)",
+     "model": "mirrored via clientlib utilities; video → poster of frame 0"
+    },
+    {
+     "css": "media-card-carousel (Splide perPage 2 / 1-up <md, gap 4)",
+     "model": "live inline Splide styles kept for 1440; mobile width override + inline JS recomputes layout/pagination"
+    },
+    {
+     "css": "tabs.panelcontainer (Alpine tabs, 13 topics, 108 hidden media cards)",
+     "model": "DOM mirrored incl. hidden panels; inline JS reproduces the observed class swaps"
+    },
+    {
+     "css": "image-text-2-col / atomic text-container / atomic-buttons",
+     "model": "same live utilities as the G3 authored pages"
+    }
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 3.34,
+       "pixelPctMasked": 2.91,
+       "heightDelta": 0,
+       "contentRed": 60,
+       "fixes": "content: 60 MISSING/EXTRA CTA pairs — the video cards' <a> textContent key lost the whitespace text nodes inside <video> when <source> was stripped → whitespace kept; pixels: hero posters were frame t=0.1 (title overlay) while the live capture shows frame 0 → re-extracted at t=0"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 3.34,
+       "pixelPctMasked": 2.91,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "content 469/469 nodes clean; build captured before the poster swap (byte-identical px)"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.85,
+       "pixelPctMasked": 0.54,
+       "heightDelta": 0
+      },
+      {
+       "label": "motion",
+       "pixelPct": 0.86,
+       "pixelPctMasked": 0.54,
+       "heightDelta": 0,
+       "note": "after tabs/rail JS"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified (STRETCHED IMAGE CraigButt 1440x810 → 718x539: live cover-crop in the 4:3 card)",
+      "pixelPct": 0.86,
+      "pixelPctMasked": 0.54,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header 13/13, footer 46/46",
+      "pass": true
+     },
+     "masks": "802:98,1702:98,2602:98,3502:98,4402:98,5302:98,5842:54 (WalkMe copilot tab + chat launcher, fixed third-party, at every 900px stitched seam and on the last chunk)",
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE (rail card picture)",
+       "why": "mirrors live tw-object-cover"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "y 3000–3500",
+       "pct": 4.6,
+       "cause": "capture-state: live decodes the rail mp4s in-browser (frame at #t=0.1) while the prototype paints a JPEG poster of the same frame — codec/scaling noise, no layout delta",
+       "flaggedFor": "delivery"
+      },
+      {
+       "band": "y 4000–4500",
+       "pct": 1.7,
+       "cause": "same (topic panel 0 video cards)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "footer",
+       "pct": 0.25,
+       "cause": "capture-state: WalkMe tab + chat launcher on the last chunk",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "19 live mp4s not harvested (media-as-url at delivery); hidden players carry no source",
+       "where": "hero-large ×2, rail ×3, topic panels"
+      },
+      {
+       "what": "WalkMe copilot tab + chat launcher",
+       "where": "seams + last chunk"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.27,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "note": "2 🟡 (pagination total '4' vs captured '2') — Splide recomputes pages per breakpoint; fixed by the rail JS (perPage 1 <md)"
+      },
+      {
+       "label": "motion",
+       "pixelPct": 0.27,
+       "heightDelta": 0,
+       "contentRed": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified (same STRETCHED IMAGE class)",
+      "pixelPct": 0.27,
+      "heightDelta": 0,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.0,
+      "chromeParity": "crops 0.00%",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "heroes/rail",
+       "pct": 0.27,
+       "cause": "video poster vs decoded frame noise",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "evidence": [
+     "stardust/replica/motion/stories.json"
+    ],
+    "observed": [
+     "tab click → bar item tw-border-blue-700/tw-border-grey-100, button tw-text-blue-700/tw-text-grey-900, mobile label spans tw-block/tw-hidden, panel wrappers tw-grid-rows-[1fr]/[0fr] + tw-block/tw-hidden (13 panels)",
+     "rail next → list translateX .6s ease-in-out; slides is-prev / is-active is-visible / is-next; arrows disabled at ends",
+     "thought-leader image hover: scale 1.05 .5s (clientlib subset)"
+    ],
+    "dead": [
+     "rail card hover (play-on-hover video): no computed change sampled; videos carry no source in the prototype"
+    ],
+    "implemented": "inline script (tabs + rail) in stories-proposed.html; build-only re-capture byte-close (0.86 % vs 0.85 %)"
+   },
+   "pluginNotes": [
+    "Experience-fragment body: authoring 112 media cards / 60 Plyr players by hand is not viable — the prototype mirrors the captured root DOM and ports the live clientlib SUBSET as css/stories.css (per-section portation, honestly labelled); deploy should treat this page as an XF/fragment, not blocks",
+    "live clientlib nests @media (min-width:600px) inside @media (min-width:768px) — a subset extractor must emit nested blocks",
+    "content-diff pairs CTAs by whitespace-collapsed textContent: whitespace text nodes inside <video> are part of the key"
+   ]
+  },
+  {
+   "archetype": "support-professional-lab-services",
+   "pageType": "page-content (legacy sciex-v2 template)",
+   "liveUrl": "https://sciex.com/support/professional-lab-services",
+   "protoPath": "stardust/prototypes/support-professional-lab-services-proposed.html",
+   "protoServedAt": "http://localhost:8826/support-professional-lab-services-proposed.html",
+   "contentRoot": "main.container-v2",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:33:26Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/kb-article.css (legacy new-footer XF overrides + Ge2003-Rg @400, via body.page--kb)",
+     "stardust/prototypes/css/support-professional-lab-services.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "chromeSplice": "splice-chrome-g3.py --legacy-footer (header from home, footer block from kb-article-proposed.html, code MKT-28766-A)"
+   },
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g3-support-professional-lab-services-1440.json",
+     "stardust/replica/capture/tokens-g3-support-professional-lab-services-360.json"
+    ],
+    "media": "assets/media/g3/: hero webp w1440+w375, 4 svg icons, bespoke-solutions.jpeg, 5 expertise jpgs"
+   },
+   "newComponents": [
+    {
+     "css": ".lcrumb",
+     "model": "legacy v2 breadcrumb: 8px wrapper + 4px section margins, 15px gutters, py 16/24, 7.5px link gaps (10px rem), 6x10 chevrons"
+    },
+    {
+     "css": ".lhero",
+     "model": "hero teaser: h2 52/64 (52/38 mobile) w330 md 7/12 + lede col 4/12 max 420"
+    },
+    {
+     "css": ".limage",
+     "model": "full-bleed cmp-image"
+    },
+    {
+     "css": ".tcd / .tcd--media / .lrich",
+     "model": "two-columns-detailed: 50/50 from md, lead col pr 24/64/100, h4 32/40, h3 40/52, rich 18/26 (16/24 in media variant), image variant order-swapped"
+    },
+    {
+     "css": ".btn-slinky",
+     "model": "legacy request-cta: 50px blue pill, duplicated slinky label (absolute copy at top 20px), 16x14 arrow"
+    },
+    {
+     "css": ".mcr",
+     "model": "multi-column-rich Swiper: 4 slides 20% wide, gap 30 + mr 32, locked white-on-white controls at md; 1-up 15/12 gaps with blue pagination at mobile"
+    },
+    {
+     "css": ".expertise",
+     "model": "2x2-list: border-t #e1e1e1, pt 100/64, 2-col grid, rows border-t py 32/24 mr 16, 2/6 image + 4/6 body, h5 450, p 16/24 (15/22 mobile), bold blue link"
+    }
+   ],
+   "breakpoints": {
+    "1440": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 1.09,
+       "heightDelta": -24,
+       "contentRed": 2,
+       "fixes": "pre-gate: breadcrumb block 20px short (8px wrapper padding). content: slinky CTA text lacked the space between the duplicated labels; 7 live inline <style> blocks inside the root mirrored (6× .tw a, 1× .swiper-slide)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 1.09,
+       "pixelPctMasked": 0.84,
+       "heightDelta": -24,
+       "contentRed": 0,
+       "fixes": "chrome-parity: 11 header colour deltas — live wraps the header in .tw and its inline `.tw a{color:#428bca}` recolours the v3 header links blue → mirrored page-scoped"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 1.07,
+       "pixelPctMasked": 0.82,
+       "heightDelta": -24,
+       "note": "header crop 0.72 → 0.00 %, parity quiet; remaining band 3000–4000 = expertise even-column rows offset 16px"
+      },
+      {
+       "label": "iter3b (build-only, cached live)",
+       "pixelPct": 0.38,
+       "pixelPctMasked": 0.06,
+       "heightDelta": -24,
+       "fixes": "md:odd:mr-16 / md:even:ml-16 sit on a row div that is always :first-child → every row gets mr-16"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 1,
+      "visualFlags": "none",
+      "pixelPct": 0.38,
+      "pixelPctMasked": 0.06,
+      "heightDelta": -24,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header 13/13, footer 46/46",
+      "pass": false,
+      "passNote": "all bars met except |Δh| ≤ 8 — see residual"
+     },
+     "masks": "802:98,1702:98,2602:98,3502:98,4402:98,5170:78 (WalkMe copilot tab + chat launcher, fixed third-party, at every 900px stitched seam and on the last chunk)",
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟠 FONT FORK ×41 (Geogrotesque vs Geogrotesque 54–56 %)",
+       "why": "both sides load the same faces (document.fonts: VF 330/450/530 + static Ge2003-Rg @normal), identical computed family/weight/wdth 550/smoothing; 1:1 crops of the h2 are glyph-identical (stardust/.work/g3/pls-h2-crop.png) — detector noise on this template",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "band": "document tail",
+       "pct": 0,
+       "cause": "Δh −24: live body (overflow:auto scroller) reports scrollHeight 5248 vs offsetHeight 5224 with no element extending past the body (probe-tail/probe-body) — a 24px anonymous line box from inline third-party tracking <img>s appended to <body> (facebook tr / t.co adsct); not page content, not mirrored",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "footer",
+       "pct": 0.25,
+       "cause": "capture-state: WalkMe tab + chat launcher over the last rows",
+       "flaggedFor": "delivery"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab + chat launcher (several instances on this page)",
+       "where": "seams + last chunk"
+      },
+      {
+       "what": "tracking-pixel line box below the footer",
+       "where": "y 5224–5248"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.31,
+       "heightDelta": -23,
+       "contentRed": 0
+      },
+      {
+       "label": "iter2/iter2b",
+       "pixelPct": 0.31,
+       "heightDelta": -23,
+       "note": "header 0.00 %, footer 0.52 % (Danaher + first partner logos offset within the legacy footer at 360; ≤ 2 % bar)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 1,
+      "visualFlags": "none",
+      "pixelPct": 0.31,
+      "heightDelta": -23,
+      "headerCropPct": 0.0,
+      "footerCropPct": 0.52,
+      "chromeParity": "crops",
+      "pass": false,
+      "passNote": "all bars met except |Δh| ≤ 8 — same 23px live tail"
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟠 FONT FORK ×40",
+       "why": "as 1440",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "band": "document tail",
+       "pct": 0,
+       "cause": "Δh −23: same live-only tail",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "footer",
+       "pct": 0.52,
+       "cause": "legacy footer XF at 360: Danaher logo + Beckman/Genedata logos sit a few px off vs the kb-article legacy footer layer (this page's footer XF content differs slightly); thick texture, within the 2 % bar",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": []
+    }
+   },
+   "motion": {
+    "evidence": [
+     "stardust/replica/motion/support-professional-lab-services.json"
+    ],
+    "observed": [
+     "btn-slinky hover: background → blue-800 (implemented .btn-slinky:hover)",
+     "6 opacity .25s transitions (live inline .tw a transition) — no visible state change sampled"
+    ],
+    "dead": [
+     "expertise image group-hover scale 1.05: no change sampled (implemented via the live class anyway)",
+     "expertise link hover: none sampled"
+    ],
+    "implemented": "CSS only"
+   },
+   "pluginNotes": [
+    "page-content template = legacy chrome (cmp-experiencefragment--new-header1/new-footer): the header is the v3 mega-menu recoloured blue by the page's own inline `.tw a` style; the footer is the kb-article legacy footer layer — reuse via body.page--kb + css/kb-article.css",
+    "live body is its own scroll container (overflow:hidden auto) on this template — stitch-shot measures documentElement.scrollHeight which includes the 24px tracking-pixel line box; consider a body-height fallback in stitch-shot",
+    "legacy weights: tw-font-light 330, tw-font-bold 450, normal 400 → static Ge2003-Rg"
+   ]
+  }
+ ]
+}

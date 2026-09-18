@@ -9277,5 +9277,55 @@
 <!-- canon:footer:end -->
 
 <script src="js/motion.js"></script>
+<script>
+(function () {
+  // Observed on live (stardust/replica/motion/stories.json) — same class swaps, same durations.
+  // --- Topics tabs (Alpine x-data {openedTab, open}): tab click → bar item border tw-border-blue-700 / tw-border-grey-100,
+  //     button text tw-text-blue-700 / tw-text-grey-900, mobile label spans tw-block / tw-hidden, panel wrappers
+  //     tw-grid-rows-[1fr] + tw-block / tw-grid-rows-[0fr] + tw-hidden.
+  var tabs = document.querySelector('.cmp-tabs'); if (tabs) {
+    var bar = tabs.querySelector('.md\\:tw-flex.tw-flex-row'); var items = bar ? Array.prototype.slice.call(bar.children) : [];
+    var mobBtn = tabs.querySelector('.tw-relative > button'); var labels = mobBtn ? Array.prototype.slice.call(mobBtn.querySelectorAll('span')) : [];
+    var tabList = document.getElementById('tabContent'); var listItems = tabList ? Array.prototype.slice.call(tabList.querySelectorAll('button')) : [];
+    var panels = Array.prototype.slice.call(tabs.querySelectorAll('.tab-content'));
+    function open(i) {
+      items.forEach(function (d, j) { d.classList.toggle('tw-border-blue-700', j === i); d.classList.toggle('tw-border-grey-100', j !== i);
+        var b = d.querySelector('button'); if (b) { b.classList.toggle('tw-text-blue-700', j === i); b.classList.toggle('tw-text-grey-900', j !== i); } });
+      labels.forEach(function (s, j) { s.classList.toggle('tw-block', j === i); s.classList.toggle('tw-hidden', j !== i); });
+      panels.forEach(function (p, j) { p.classList.toggle('tw-block', j === i); p.classList.toggle('tw-hidden', j !== i);
+        var w = p.parentElement; if (w && w.classList.contains('tw-grid')) { w.classList.toggle('tw-grid-rows-[1fr]', j === i); w.classList.toggle('tw-grid-rows-[0fr]', j !== i); } });
+      if (tabList) tabList.classList.add('tw-hidden');
+    }
+    items.forEach(function (d, i) { var b = d.querySelector('button'); if (b) b.addEventListener('click', function (e) { e.preventDefault(); open(i); }); });
+    listItems.forEach(function (b, i) { b.addEventListener('click', function (e) { e.preventDefault(); open(i); }); });
+    if (mobBtn && tabList) mobBtn.addEventListener('click', function (e) { e.preventDefault(); tabList.classList.toggle('tw-hidden'); });
+  }
+  // --- Latest stories rail (Splide perPage 2, gap 4px; 1-up below md): arrows → list translateX .6s ease-in-out,
+  //     slide class swaps is-prev / is-active is-visible / is-next; pagination "N /" + total; prev disabled at 0, next at last.
+  var root = document.getElementById('latest-stories'); if (!root) return;
+  var list = document.getElementById('latest-stories-list'); var slides = Array.prototype.slice.call(list.children);
+  var prev = root.querySelector('.splide__arrow--prev'), next = root.querySelector('.splide__arrow--next'), pag = root.querySelector('ul.splide__pagination');
+  var GAP = 4, index = 0;
+  function perPage() { return window.innerWidth < 768 ? 1 : 2; }
+  function pages() { return Math.ceil(slides.length / perPage()); }
+  function layout() {
+    var pp = perPage(), W = list.clientWidth, w = (W - GAP * (pp - 1)) / pp;
+    slides.forEach(function (s) { s.style.width = pp === 1 ? '100%' : 'calc(' + (100 / pp) + '% - ' + (GAP * (pp - 1) / pp) + 'px)'; s.style.marginRight = GAP + 'px'; s.style.height = 'auto'; });
+    index = Math.min(index, pages() - 1); go(index, false);
+  }
+  function go(i, animate) {
+    var pp = perPage(); index = Math.max(0, Math.min(i, pages() - 1));
+    var w = slides[0].getBoundingClientRect().width + GAP;
+    list.style.transition = animate ? 'transform .6s ease-in-out' : 'none'; list.style.transform = 'translateX(' + (-index * pp * w) + 'px)';
+    var first = index * pp;
+    slides.forEach(function (s, j) { s.classList.toggle('is-active', j === first); s.classList.toggle('is-visible', j >= first && j < first + pp); s.classList.toggle('is-prev', j === first - 1); s.classList.toggle('is-next', j === first + pp); });
+    if (prev) prev.disabled = index === 0; if (next) next.disabled = index >= pages() - 1;
+    if (pag) { pag.innerHTML = ''; var cur = document.createElement('li'); cur.setAttribute('role', 'presentation'); cur.innerHTML = '<button class="splide__pagination text-base tw-text-blue-700 is-active" type="button" role="tab" aria-label="Go to page ' + (index + 1) + '">' + (index + 1) + ' /</button>';
+      var tot = document.createElement('li'); tot.setAttribute('role', 'presentation'); tot.innerHTML = '<button class="splide__pagination text-base tw-text-blue-700" type="button" role="tab" aria-label="Go to page ' + pages() + '">' + pages() + '</button>'; pag.appendChild(cur); pag.appendChild(tot); }
+  }
+  if (prev) prev.addEventListener('click', function () { go(index - 1, true); }); if (next) next.addEventListener('click', function () { go(index + 1, true); });
+  window.addEventListener('resize', layout); layout();
+})();
+</script>
 </body>
 </html>
