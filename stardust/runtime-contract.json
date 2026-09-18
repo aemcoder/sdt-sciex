@@ -1,0 +1,14 @@
+{
+  "_provenance": { "writtenBy": "stardust:deploy", "writtenAt": "2026-09-18T07:45:00Z", "readArtifacts": ["scripts/aem.js", "scripts/scripts.js", "styles/styles.css", "blocks/header/header.js", "blocks/footer/footer.js", "package.json"] },
+  "runtime": "vanilla-eds",
+  "boilerplate": "@adobe/aem-boilerplate 1.3.0 (template commit 18435d2)",
+  "blockWrapperClass": "block",
+  "blockWrapperPattern": "div.<name>-wrapper around the block; section gains .<name>-container; default content gains .default-content-wrapper",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only (strong=primary, em=secondary, strong+em=accent; bare <a> alone in <p> is NOT buttonized; link text equal to its URL is skipped)",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "chrome": "blocks/header + blocks/footer load /nav and /footer via fragment.js (nav/footer metadata override respected)",
+  "navHeightToken": "--nav-height (64px demo value in styles/styles.css; retune to the SCIEX header)",
+  "emptySectionCollapse": true,
+  "notes": ["AGENTS.md: helix-query.yaml / paths.json retired — index config lives at tools.aem.live", "scripts/aem.js is vendored: never edit"]
+}

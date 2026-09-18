@@ -1,0 +1,2536 @@
+[
+ {
+  "top": "Products",
+  "sub": "Mass Spec",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "QTOF systems",
+      "href": "/products/mass-spectrometers/qtof-systems",
+      "head": true
+     },
+     {
+      "label": "ZenoTOF 8600 system",
+      "href": "/products/mass-spectrometers/qtof-systems/8600-system",
+      "head": false
+     },
+     {
+      "label": "ZenoTOF 7600+ system",
+      "href": "/products/mass-spectrometers/qtof-systems/7600-plus-system",
+      "head": false
+     },
+     {
+      "label": "ZenoTOF 7600 system",
+      "href": "/products/mass-spectrometers/qtof-systems/zenotof-7600-system",
+      "head": false
+     },
+     {
+      "label": "X500 family",
+      "href": "/products/mass-spectrometers/qtof-systems/x-series-qtof-systems",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   },
+   {
+    "links": [
+     {
+      "label": "QTRAP systems",
+      "href": "/products/mass-spectrometers/qtrap-systems",
+      "head": true
+     },
+     {
+      "label": "7500+ system",
+      "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+      "head": false
+     },
+     {
+      "label": "QTRAP 6500+ system",
+      "href": "/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system",
+      "head": false
+     },
+     {
+      "label": "novus V55 system–QTRAP",
+      "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+      "head": false
+     },
+     {
+      "label": "5500+ system",
+      "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system",
+      "head": false
+     },
+     {
+      "label": "QTRAP 4500 system",
+      "href": "/products/mass-spectrometers/qtrap-systems/qtrap-4500-system",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   },
+   {
+    "links": [
+     {
+      "label": "Triple Quad systems",
+      "href": "/products/mass-spectrometers/triple-quad-systems",
+      "head": true
+     },
+     {
+      "label": "7500+ system",
+      "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+      "head": false
+     },
+     {
+      "label": "Triple Quad 6500+ system",
+      "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-6500plus-system",
+      "head": false
+     },
+     {
+      "label": "novus V55 system",
+      "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+      "head": false
+     },
+     {
+      "label": "5500+ system",
+      "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Clinical diagnostics",
+      "href": "/products/in-vitro-diagnostics/medical-devices",
+      "head": true
+     },
+     {
+      "label": "Citrine system",
+      "href": "/products/in-vitro-diagnostics/medical-devices/citrine-system",
+      "head": false
+     },
+     {
+      "label": "4500MD system",
+      "href": "/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "LC-MS methods",
+      "href": "/products/methods",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Mass spectral libraries",
+      "href": "/products/spectral-library",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/built-for-business-impact-megamenu-novus-v55-320x180.jpg",
+    "alt": "ZenoTOF 7600+ system",
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/products/mass-spectrometers/qtof-systems/8600-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/evo-8600-megamenu-2026-320x180.jpg",
+    "alt": "SCIEX 8600 system",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Products",
+  "sub": "Capillary electrophoresis",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Capillary electrophoresis",
+      "href": "/products/capillary-electrophoresis",
+      "head": true
+     },
+     {
+      "label": "Intabio ZT system",
+      "href": "/products/integrated-solutions/intabio-zt-system",
+      "head": false
+     },
+     {
+      "label": "BioPhase 8800 system",
+      "href": "/products/capillary-electrophoresis/biophase-8800",
+      "head": false
+     },
+     {
+      "label": "PA 800 Plus system",
+      "href": "/products/capillary-electrophoresis/pa-800-plus-pharmaceutical-analysis-system",
+      "head": false
+     },
+     {
+      "label": "P/ACE MDQ Plus system",
+      "href": "/products/capillary-electrophoresis/p-ace-mdq-plus",
+      "head": false
+     },
+     {
+      "label": "CESI 8000 Plus system",
+      "href": "/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/capillary-electrophoresis/biophase-8800",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/biophase-8800-nfd-megamenu-641x360.jpg",
+    "alt": "BioPhase 8800 system",
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/products/capillary-electrophoresis/pa-800-plus-pharmaceutical-analysis-system",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/pa-800-plus-megamenu-641x360px.jpg",
+    "alt": "PA 800 plus",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Products",
+  "sub": "Liquid chromatography / HPLC products",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "HPLC products",
+      "href": "/products/hplc-products",
+      "head": true
+     },
+     {
+      "label": "ExionLC AE system",
+      "href": "/products/hplc-products/exionlc-ae",
+      "head": false
+     },
+     {
+      "label": "Intabio ZT system",
+      "href": "/products/integrated-solutions/intabio-zt-system",
+      "head": false
+     },
+     {
+      "label": "CESI 8000 Plus system",
+      "href": "/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system",
+      "head": false
+     },
+     {
+      "label": "ExionLC 2.0 system",
+      "href": "/products/hplc-products/exionlc-2",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   },
+   {
+    "links": [
+     {
+      "label": "HPLC products",
+      "href": "/products/hplc-products",
+      "head": true
+     },
+     {
+      "label": "SelexION device",
+      "href": "/products/ion-mobility-spectrometry/selexion-differential-mobility-separation-device",
+      "head": false
+     },
+     {
+      "label": "Micro HPLC columns",
+      "href": "/products/hplc-products/microlc-products/micro-hplc-columns",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/hplc-products/exionlc-ae",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--04.jpg",
+    "alt": "ExionLC AE system",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Products",
+  "sub": "Integrated solutions",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Integrated solutions",
+      "href": "/products/integrated-solutions",
+      "head": true
+     },
+     {
+      "label": "Echo® MS+ system",
+      "href": "/products/integrated-solutions/echo-ms-plus",
+      "head": false
+     },
+     {
+      "label": "Intabio ZT system",
+      "href": "/products/integrated-solutions/intabio-zt-system",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/integrated-solutions/intabio-zt-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+    "alt": "Intabio ZT system",
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/products/integrated-solutions/echo-ms-plus",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/echo-ms-system-mega-menu-320x180.jpg",
+    "alt": "Echo MS+ system",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Products",
+  "sub": "Software",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Instrument control software",
+      "href": "/products/software/mass-spectrometry-software-solutions",
+      "head": true
+     },
+     {
+      "label": "SCIEX OS software",
+      "href": "/products/software/sciex-os-software",
+      "head": false
+     },
+     {
+      "label": "Analyst software",
+      "href": "/products/software/analyst-software",
+      "head": false
+     },
+     {
+      "label": "Analyst TF software",
+      "href": "/products/software/analyst-tf-software",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   },
+   {
+    "links": [
+     {
+      "label": "Workflow module software",
+      "href": "/products/software/mass-spectrometry-software-solutions#workflow-module",
+      "head": true
+     },
+     {
+      "label": "MultiQuant software",
+      "href": "/products/software/multiquant-software",
+      "head": false
+     },
+     {
+      "label": "AI Quantitation software",
+      "href": "/products/software/artificial-intelligence-quant",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Application module software",
+      "href": "/products/software/mass-spectrometry-software-solutions#application-module",
+      "head": true
+     },
+     {
+      "label": "Biologics Explorer software",
+      "href": "/products/software/biologics-explorer-software",
+      "head": false
+     },
+     {
+      "label": "Molecule Profiler software",
+      "href": "/products/software/molecule-profiler-software",
+      "head": false
+     },
+     {
+      "label": "Analyst TF software",
+      "href": "/products/software/analyst-tf-software",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Software support",
+      "href": "/support/software-support",
+      "head": true
+     },
+     {
+      "label": "Software support policy",
+      "href": "/support/software-support/software-support-policy",
+      "head": false
+     },
+     {
+      "label": "Software activation",
+      "href": "/support/activate-software",
+      "head": false
+     },
+     {
+      "label": "Software support plans",
+      "href": "/support/software-support/sw-support-plns",
+      "head": false
+     },
+     {
+      "label": "Software feature request portal",
+      "href": "/support/sciex-now-feature-requests",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Software partners",
+      "href": "/products/software/partner-software",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/software/sciex-os-software",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--05.jpg",
+    "alt": "SCIEX OS software",
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/support/software-support/analyst-software-end-of-support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+    "alt": "EOL Analyst",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Products",
+  "sub": "Technology (was Accessories - https://sciex.kapost.com/posts/global-megamenu-update-add-technology)",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Technology Explore the innovations and scientific breakthroughs behind pioneering LC-MS and capillary electrophoresis technology.",
+      "href": "/technology",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/2 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/consumables/dna-20kb-plasmid-linear-kit",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+    "alt": "RNA 9000 Purity and Integrity kit",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Products",
+  "sub": "Standards and reagents",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Mass spectrometry",
+    "href": "#"
+   },
+   {
+    "label": "Capillary electrophoresis",
+    "href": "#"
+   },
+   {
+    "label": "HPLC products",
+    "href": "#"
+   },
+   {
+    "label": "Integrated solutions",
+    "href": "#"
+   },
+   {
+    "label": "Software",
+    "href": "#"
+   },
+   {
+    "label": "Technology",
+    "href": "#"
+   },
+   {
+    "label": "Standards and reagent kits",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Products",
+   "href": "/products"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Standards and reagent kits Custom-designed consumables and standards for streamlined, efficient sample analysis",
+      "href": "/products/consumables",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/2 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "eCommerce and eProcurement solutions Request your catalog today, and our team will be in touch to assist you further",
+      "href": "/supplemental/eProcurement",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/2 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/consumables/dna-20kb-plasmid-linear-kit",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-32471-dsdna-320x180px.jpg",
+    "alt": "RNA 9000 Purity and Integrity kit",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Pharma and Biopharma",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Biopharma / pharma research Unleash full analytical potential in pharma and biopharma development with cutting-edge solutions from discovery to delivery",
+      "href": "/applications/pharma-and-biopharma",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   },
+   {
+    "links": [
+     {
+      "label": "Bioanalysis and DMPK Enhance drug metabolism and pharmacokinetics research with robust LC-MS solutions and intuitive software",
+      "href": "/applications/pharma-and-biopharma/bioanalysis-and-dmpk",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Cell and gene therapy analysis Advanced analytical solutions for gene-editing tools and vaccines, improving cell and gene therapy development",
+      "href": "/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Drug discovery research Accelerate drug discovery with integrated LC-MS solutions, providing high-quality data for confident decision-making",
+      "href": "/applications/pharma-and-biopharma/drug-discovery-research",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Impurity analysis Compliant-ready impurity analysis solutions with sensitive LC-MS systems and comprehensive software support",
+      "href": "/applications/pharma-and-biopharma/impurity-analysis",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "mRNA-LNP research Innovative solutions for mRNA-LNP therapeutics and vaccines, enabling efficient and in-depth genetic medicine development",
+      "href": "/applications/pharma-and-biopharma/mrna-research",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Oligonucleotide analysis Break new ground in oligonucleotide analysis with precision solutions for advanced nucleic acid research",
+      "href": "/applications/pharma-and-biopharma/oligonucleotide-analysis",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Protein therapeutics Tailored analytical strategies for complex protein therapeutics, enhancing understanding and helping to ensure quality and safety",
+      "href": "/applications/pharma-and-biopharma/protein-therapeutics",
+      "head": true
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/integrated-solutions/intabio-zt-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--02.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/applications/pharma-and-biopharma/drug-discovery-research/metabolite-identification",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/metid-mega-menu-banner-320x180.png",
+    "alt": "ZenoTOF 7600+ system",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Clinical",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Clinical Empower clinical laboratories with affordable, robust technologies for accurate diagnostics and efficient patient care",
+      "href": "/applications/clinical",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Clinical research Enhance clinical research with sensitive MS techniques for biomarker discovery and personalized treatment development",
+      "href": "/applications/clinical/clinical-research",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Clinical diagnostics Advanced MS-based diagnostics for comprehensive disease understanding and personalized medicine, supporting modern clinical laboratories",
+      "href": "/applications/clinical/clinical-diagnostics",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Clinical mass spec knowledge center Enable clinical mass spectrometry users with customized resources they need to succeed",
+      "href": "/education/clinical-mass-spec-knowledge-center",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/landing-pages/citrine-system-compendium2",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/4500md-compenduim-mega-menu-320x180.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Environmental",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Environmental testing Advanced LC-MS/MS solutions for accurate, efficient environmental contaminant detection and analysis",
+      "href": "/applications/environmental-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Water and wastewater analysis Mass spectrometry-driven water analysis for sensitive detection of pollutants in drinking and wastewater",
+      "href": "/applications/environmental-testing/water-and-waste-water-analysis",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Industrial and agrochemical analysis Robust LC-MS/MS technology for in-depth analysis in agrochemical and crop science research",
+      "href": "/applications/environmental-testing/industrial-and-agrochemical-analysis",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Exposome High-resolution accurate mass spectrometry for comprehensive study of environmental impact on human health",
+      "href": "/applications/environmental-testing/the-exposome-and-exposomics",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Emerging pollutants LC-MS/MS-driven analysis of diverse environmental contaminants for in-depth ecological and health impact studies",
+      "href": "/applications/environmental-testing/contaminants-of-emerging-concern",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "PFAS analysis Trace-level detection and quantification of PFAS chemicals in and beyond water testing",
+      "href": "/applications/environmental-testing/pfas-analysis-solutions",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/events/pfas-summit-part-III",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/megamenu-tile-pfas-summit-phase-3.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/applications/environmental-testing/pfas-analysis-solutions",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/pfas-webpage-2026-mega-menu.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Food and beverage",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Food and beverage testing End-to-end mass spectrometry solutions for versatile, reliable food safety and quality analysis",
+      "href": "/applications/food-and-beverage-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Food safety testing Our quantitation workflows empower residue testing laboratories worldwide to meet and exceed the rigorous standards established by food safety regulatory authorities, every day.",
+      "href": "/applications/food-and-beverage-testing/food-safety-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Food authenticity testing Testing solutions to protect food integrity and safety against adulteration and contamination",
+      "href": "/applications/food-and-beverage-testing/food-authenticity-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48"
+   },
+   {
+    "links": [
+     {
+      "label": "Quality assurance and quality control Robust LC-MS/MS solutions for ensuring food safety and regulatory compliance in QA/QC processes",
+      "href": "/applications/food-and-beverage-testing/quality-assurance-and-quality-control",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/Hidden/landing-pages/food-compendium-volume-4",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/food-compendium--07.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-megamenu-7500-plus-320x180px.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Cannabis and hemp testing",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Cannabis and hemp testing LC-MS/MS for comprehensive cannabis analysis to help ensure safety and compliance in a growing market",
+      "href": "/applications/cannabis-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Pesticide Testing Innovative technology to enhance pesticide analysis and meet regulatory requirements",
+      "href": "/applications/cannabis-testing/pesticide-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Mycotoxin Testing LC-MS/MS tried and tested cannabis solutions for accurate trace-level analysis in complex matrices",
+      "href": "/applications/cannabis-testing/mycotoxin-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   }
+  ],
+  "promos": [],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Forensic testing",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Forensic testing Comprehensive forensic solutions for accurate substance analysis in evolving crime and legal landscapes",
+      "href": "/applications/forensics-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Forensic toxicology Tailored LC-MS/MS solutions for complex drug testing and toxicological analysis in forensic laboratories",
+      "href": "/applications/forensics-testing/forensic-toxicology",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Cannabinoid analysis and potency testing Precision LC-MS/MS methods for accurate cannabinoid potency testing and forensic analysis.",
+      "href": "/applications/forensics-testing/cannabinoid-analysis-and-potency-testing",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Doping control Advanced mass spectrometry solutions for rigorous, sensitive doping substance detection in sports",
+      "href": "/applications/forensics-testing/doping-control",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/mass-spectrometers/qtof-systems/zenotof-7600-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banners-mega-menu-320x180--01.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/applications/forensics-testing/tox-chat-box",
+    "img": "https://sciex.com/content/dam/SCIEX/images-v2/megamenu/tox-chat-box-mega-menu_banner-320x180px.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Applications",
+  "sub": "Life science research // 4/30/24: Change to Biomedical and omics research",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Biopharma / pharma research",
+    "href": "#"
+   },
+   {
+    "label": "Clinical",
+    "href": "#"
+   },
+   {
+    "label": "Environmental testing",
+    "href": "#"
+   },
+   {
+    "label": "Food and beverage testing",
+    "href": "#"
+   },
+   {
+    "label": "Cannabis and hemp testing",
+    "href": "#"
+   },
+   {
+    "label": "Forensic testing",
+    "href": "#"
+   },
+   {
+    "label": "Biomedical and omics research",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Applications",
+   "href": "/applications"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Biomedical and omics research Cutting-edge omics technologies driving revolutionary discoveries in human health and life sciences",
+      "href": "/applications/biomedical-and-omics-research",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Proteomics Advanced LC-MS/MS techniques for comprehensive protein analysis and impactful biological insights",
+      "href": "/applications/biomedical-and-omics-research/proteomics",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0 lg:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Lipidomics Specialized mass spectrometry solutions for detailed lipidome analysis in critical biological processes",
+      "href": "/applications/biomedical-and-omics-research/lipidomics",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24 xl:tw-mt-0"
+   },
+   {
+    "links": [
+     {
+      "label": "Metabolomics Integrated LC-MS solutions for exploring metabolomics and its role in disease and precision medicine",
+      "href": "/applications/biomedical-and-omics-research/metabolomics",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Extraordinary science Discover groundbreaking science performed by biomedical and omics researchers using the ZenoTOF 7600 system",
+      "href": "/applications/biomedical-and-omics-research/extraordinary-science",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   },
+   {
+    "links": [
+     {
+      "label": "Genomics Innovative analytical solutions for advancing gene therapy and next-generation vaccine development",
+      "href": "/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis",
+      "head": true
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 tw-mt-24"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/products/mass-spectrometers/qtof-systems/7600-plus-system",
+    "img": "/content/dam/SCIEX/images-v2/megamenu/web-banner-megamenu-v2-7600-plus-320x180.png",
+    "alt": "ZenoTOF 7600+ system",
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "https://sciex.li/n8jzym",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/30492-web-banners-megamenu-7600-plus-320x180px.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Support",
+  "sub": "SCIEX now",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "SCIEX Now",
+    "href": "#"
+   },
+   {
+    "label": "Grant writing",
+    "href": "#"
+   },
+   {
+    "label": "Regulatory documents",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "SCIEX Now dashboard",
+   "href": "/support"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "SCIEX Now",
+      "href": "/support",
+      "head": true
+     },
+     {
+      "label": "Support cases",
+      "href": "/support/support-cases",
+      "head": false
+     },
+     {
+      "label": "SCIEX Now Learning Hub",
+      "href": "https://training.sciex.com",
+      "head": false
+     },
+     {
+      "label": "Manage my instruments",
+      "href": "/support/manage-my-instruments",
+      "head": false
+     },
+     {
+      "label": "Manage my software",
+      "href": "/support/registered-software",
+      "head": false
+     },
+     {
+      "label": "My notifications",
+      "href": "/support/my-notifications",
+      "head": false
+     },
+     {
+      "label": "New feature request",
+      "href": "/support/sciex-now-feature-requests",
+      "head": false
+     },
+     {
+      "label": "Resource hub",
+      "href": "/resource-hub",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/2 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/support/software-support/analyst-software-end-of-support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+    "alt": "EOL Analyst",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Support",
+  "sub": "Grant writing support / Grant writing",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "SCIEX Now",
+    "href": "#"
+   },
+   {
+    "label": "Grant writing",
+    "href": "#"
+   },
+   {
+    "label": "Regulatory documents",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "SCIEX Now dashboard",
+   "href": "/support"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Grant writing",
+      "href": "/education/grant-support",
+      "head": true
+     },
+     {
+      "label": "Grant writing support",
+      "href": "/education/grant-support",
+      "head": false
+     },
+     {
+      "label": "Academic partnership program",
+      "href": "/education/grant-support/academic-partnership",
+      "head": false
+     },
+     {
+      "label": "Academic partners",
+      "href": "/education/grant-support/academic-partners",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+    "alt": "Support",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Support",
+  "sub": "Regulatory documents",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "SCIEX Now",
+    "href": "#"
+   },
+   {
+    "label": "Grant writing",
+    "href": "#"
+   },
+   {
+    "label": "Regulatory documents",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "SCIEX Now dashboard",
+   "href": "/support"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Regulatory documents",
+      "href": "/resource-hub/regulatory-documents",
+      "head": true
+     },
+     {
+      "label": "Declaration of conformance",
+      "href": "/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Declaration%20of%20conformance",
+      "head": false
+     },
+     {
+      "label": "Safety data sheets",
+      "href": "/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Safety%20data%20sheet",
+      "head": false
+     },
+     {
+      "label": "Certificate of analysis",
+      "href": "/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Certificate%20of%20analysis",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+    "alt": "Support",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Training",
+  "sub": null,
+  "colsCls": [
+   "tw-w-full tw-pr-40 tw-flex tw-flex-wrap"
+  ],
+  "left": [],
+  "viewAll": null,
+  "groups": [],
+  "promos": [],
+  "innerCls": "tw-hidden tw-container lg:tw-flex tw-columns-12"
+ },
+ {
+  "top": "Services",
+  "sub": "Professional services",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Instrument service plans",
+    "href": "#"
+   },
+   {
+    "label": "Professional services",
+    "href": "#"
+   },
+   {
+    "label": "Software service plans",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Services",
+   "href": "/support/professional-lab-services"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Professional services",
+      "href": "/support/professional-lab-services",
+      "head": true
+     },
+     {
+      "label": "Software and IT services",
+      "href": "/support/professional-lab-services/software-and-it",
+      "head": false
+     },
+     {
+      "label": "Compliance services",
+      "href": "/support/professional-lab-services/lab-compliance-services",
+      "head": false
+     },
+     {
+      "label": "Lab optimization",
+      "href": "/support/professional-lab-services/lab-optimization-services",
+      "head": false
+     },
+     {
+      "label": "Relocation services",
+      "href": "/support/professional-lab-services/lab-relocation-services",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/landing-pages/smarter-service-support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-04.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Services",
+  "sub": "Instrument Service Plans",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Instrument service plans",
+    "href": "#"
+   },
+   {
+    "label": "Professional services",
+    "href": "#"
+   },
+   {
+    "label": "Software service plans",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Services",
+   "href": "/support/professional-lab-services"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Instrument service plans",
+      "href": "/support/instrument-service-and-support",
+      "head": true
+     },
+     {
+      "label": "LC-MS service plans",
+      "href": "/support/instrument-service-and-support/lc-ms-hardware-plans",
+      "head": false
+     },
+     {
+      "label": "CE service plans",
+      "href": "/support/instrument-service-and-support/ce-service-plans",
+      "head": false
+     },
+     {
+      "label": "Clinical service plans",
+      "href": "/support/instrument-service-and-support/clinical-service-plan",
+      "head": false
+     },
+     {
+      "label": "Intabio ZT system service plans",
+      "href": "/support/instrument-service-and-support/intabio-zt-system-service-plan",
+      "head": false
+     },
+     {
+      "label": "Protect Plus plan",
+      "href": "/support/instrument-service-and-support/lc-ms-hardware-plans/protect-plus-plan",
+      "head": false
+     },
+     {
+      "label": "Visual Assist",
+      "href": "/support/instrument-service-and-support/visual-assist",
+      "head": false
+     },
+     {
+      "label": "StatusScope remote monitoring",
+      "href": "/support/instrument-service-and-support/statusscope-remote-monitoring",
+      "head": false
+     },
+     {
+      "label": "Remote Instrument Optimization and Calibration",
+      "href": "/support/instrument-service-and-support/remote-instrument-optimization-and-calibration",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/support/instrument-service-and-support/beyond-break-fix",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-01.jpg",
+    "alt": null,
+    "caption": "",
+    "cls": "tw-group"
+   },
+   {
+    "href": "/support/instrument-service-and-support/uptime-mastery",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-03.jpg",
+    "alt": "eLearning",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Services",
+  "sub": "Software service plans",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Instrument service plans",
+    "href": "#"
+   },
+   {
+    "label": "Professional services",
+    "href": "#"
+   },
+   {
+    "label": "Software service plans",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Services",
+   "href": "/support/professional-lab-services"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Software service plans",
+      "href": "/support/software-support",
+      "head": true
+     },
+     {
+      "label": "Software support plans",
+      "href": "/support/software-support/sw-support-plns",
+      "head": false
+     },
+     {
+      "label": "Software downloads",
+      "href": "/support/software-support/software-downloads",
+      "head": false
+     },
+     {
+      "label": "Software accelerator program",
+      "href": "/products/software",
+      "head": false
+     },
+     {
+      "label": "Premium access content",
+      "href": "/support/software-support/premium-access-content",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "https://sciex.com/support/software-support/analyst-software-end-of-support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/analyst-transition-megamenu-banner-320x180.png",
+    "alt": "EOL Analyst",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Stories",
+  "sub": "Stories",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40 tw-border-r",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "About SCIEX",
+    "href": "#"
+   },
+   {
+    "label": "Contact us",
+    "href": "#"
+   },
+   {
+    "label": "News & events",
+    "href": "#"
+   },
+   {
+    "label": "Community",
+    "href": "#"
+   },
+   {
+    "label": "SCIEX Stories",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Stories",
+   "href": "/stories"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "SCIEX Stories",
+      "href": "/stories",
+      "head": true
+     },
+     {
+      "label": "Topics",
+      "href": "/stories/topics",
+      "head": false
+     },
+     {
+      "label": "Thought leaders",
+      "href": "/stories/thought-leaders",
+      "head": false
+     }
+    ],
+    "cls": "lg:tw-w-full xl:tw-w-1/2 tw-pr-48"
+   }
+  ],
+  "promos": [
+   {
+    "href": "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2025-ondemand-megamenu-320x180px.jpg",
+    "alt": "SCIEX Summit",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Community",
+  "sub": "Blogs",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-6/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "About SCIEX",
+    "href": "#"
+   },
+   {
+    "label": "Contact us",
+    "href": "#"
+   },
+   {
+    "label": "News & events",
+    "href": "#"
+   },
+   {
+    "label": "Community",
+    "href": "#"
+   },
+   {
+    "label": "SCIEX Stories",
+    "href": "#"
+   }
+  ],
+  "viewAll": {
+   "label": "View all Community",
+   "href": "https://community.sciex.com/"
+  },
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Community home",
+      "href": "https://community.sciex.com",
+      "head": true
+     },
+     {
+      "label": "Innovation Advisory Panel",
+      "href": "https://community.sciex.com/innovation-advisory-board",
+      "head": false
+     },
+     {
+      "label": "Blogs",
+      "href": "https://community.sciex.com/results/?_sft_category=blogs",
+      "head": false
+     },
+     {
+      "label": "Customer profiles",
+      "href": "/about-us/customer-profiles",
+      "head": false
+     },
+     {
+      "label": "Our favorite papers",
+      "href": "/about-us/whitepapers",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "https://sciex.com/events/ondemand-webinars/sciex-summit-on-demand-2025",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2025-ondemand-megamenu-320x180px.jpg",
+    "alt": "SCIEX Summit",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Resource hub",
+  "sub": null,
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Resource hub",
+    "href": "#"
+   }
+  ],
+  "viewAll": null,
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Resource hub",
+      "href": "/resource-hub",
+      "head": true
+     },
+     {
+      "label": "Knowledge base articles",
+      "href": "/resource-hub/knowledge-base-articles",
+      "head": false
+     },
+     {
+      "label": "Self-paced learning",
+      "href": "/resource-hub/self-paced-learning",
+      "head": false
+     },
+     {
+      "label": "Instructor led training",
+      "href": "/resource-hub/instructor-led-training",
+      "head": false
+     },
+     {
+      "label": "Technical notes",
+      "href": "/resource-hub/technical-notes",
+      "head": false
+     },
+     {
+      "label": "Regulatory documents",
+      "href": "/resource-hub/regulatory-documents",
+      "head": false
+     },
+     {
+      "label": "User guides",
+      "href": "/resource-hub/user-guides",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+    "alt": "Support",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "About us",
+  "sub": "About SCIEX",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40"
+  ],
+  "left": [
+   {
+    "label": "About SCIEX",
+    "href": "#"
+   },
+   {
+    "label": "Contact us",
+    "href": "#"
+   },
+   {
+    "label": "News & events",
+    "href": "#"
+   },
+   {
+    "label": "Community",
+    "href": "#"
+   },
+   {
+    "label": "SCIEX Stories",
+    "href": "#"
+   }
+  ],
+  "viewAll": null,
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "About us",
+      "href": "/about-us",
+      "head": true
+     },
+     {
+      "label": "About SCIEX",
+      "href": "/about-us#about-sciex",
+      "head": false
+     },
+     {
+      "label": "Our history",
+      "href": "/about-us/our-history",
+      "head": false
+     },
+     {
+      "label": "Meet our executives",
+      "href": "/about-us/executive-management",
+      "head": false
+     },
+     {
+      "label": "Sustainability",
+      "href": "/Hidden/landing-pages/sciex-sustainability",
+      "head": false
+     },
+     {
+      "label": "Echo® MS Center of Excellence",
+      "href": "/about-us/echo-ms-center-of-excellence",
+      "head": false
+     },
+     {
+      "label": "Careers opportunities",
+      "href": "https://jobs.danaher.com/global/en/sciex",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "About us",
+  "sub": "SCIEX news",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40"
+  ],
+  "left": [
+   {
+    "label": "About SCIEX",
+    "href": "#"
+   },
+   {
+    "label": "Contact us",
+    "href": "#"
+   },
+   {
+    "label": "News & events",
+    "href": "#"
+   },
+   {
+    "label": "Community",
+    "href": "#"
+   },
+   {
+    "label": "SCIEX Stories",
+    "href": "#"
+   }
+  ],
+  "viewAll": null,
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "News & events",
+      "href": "/about-us/press-releases",
+      "head": true
+     },
+     {
+      "label": "Press releases",
+      "href": "/about-us/press-releases",
+      "head": false
+     },
+     {
+      "label": "In the news",
+      "href": "/about-us/press-releases/in-the-news",
+      "head": false
+     },
+     {
+      "label": "Events",
+      "href": "/events",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "About us",
+  "sub": "Contact us",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "About SCIEX",
+    "href": "#"
+   },
+   {
+    "label": "Contact us",
+    "href": "#"
+   },
+   {
+    "label": "News & events",
+    "href": "#"
+   },
+   {
+    "label": "Community",
+    "href": "#"
+   },
+   {
+    "label": "SCIEX Stories",
+    "href": "#"
+   }
+  ],
+  "viewAll": null,
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Contact us",
+      "href": "/about-us/contact-us",
+      "head": true
+     },
+     {
+      "label": "Request information",
+      "href": "/form-pages/request-information",
+      "head": false
+     },
+     {
+      "label": "Request a quote",
+      "href": "/form-pages/product-request",
+      "head": false
+     },
+     {
+      "label": "Request support",
+      "href": "/support/request-support",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/support",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/38947-kf-all-service-mega-menu_320x180px-02.jpg",
+    "alt": "Support",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Events",
+  "sub": "Upcoming events",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40",
+   "tw-w-3/12 tw-pl-32"
+  ],
+  "left": [
+   {
+    "label": "Upcoming events",
+    "href": "#"
+   },
+   {
+    "label": "On-demand",
+    "href": "#"
+   }
+  ],
+  "viewAll": null,
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "Upcoming events",
+      "href": "/events?event=upcoming",
+      "head": true
+     },
+     {
+      "label": "North America",
+      "href": "/events?region=North%20America&event=upcoming",
+      "head": false
+     },
+     {
+      "label": "Europe",
+      "href": "/events?region=europe&event=upcoming",
+      "head": false
+     },
+     {
+      "label": "India",
+      "href": "/events?region=india&event=upcoming",
+      "head": false
+     },
+     {
+      "label": "Korea",
+      "href": "/events?region=korea&event=upcoming",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [
+   {
+    "href": "/events/sciex-summit",
+    "img": "/content/dam/SCIEX/images-v3/megamenu/sciex-summit-2026-registration-mega-menu-320x180px.jpg",
+    "alt": "SCIEX Summit 2026",
+    "caption": "",
+    "cls": "tw-group"
+   }
+  ],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ },
+ {
+  "top": "Events",
+  "sub": "On-demand",
+  "colsCls": [
+   "tw-w-3/12 tw-border-r tw-relative tw-pr-24",
+   "tw-w-9/12 tw-px-32 tw-pr-40"
+  ],
+  "left": [
+   {
+    "label": "Upcoming events",
+    "href": "#"
+   },
+   {
+    "label": "On-demand",
+    "href": "#"
+   }
+  ],
+  "viewAll": null,
+  "groups": [
+   {
+    "links": [
+     {
+      "label": "On-demand",
+      "href": "/events?event=on-demand",
+      "head": true
+     },
+     {
+      "label": "North America",
+      "href": "/events?region=North%20America&event=on-demand",
+      "head": false
+     },
+     {
+      "label": "Europe",
+      "href": "/events?region=europe&event=on-demand",
+      "head": false
+     }
+    ],
+    "cls": "tw-w-1/2 xl:tw-w-1/3 tw-pr-48 xl:tw-mt-0"
+   }
+  ],
+  "promos": [],
+  "innerCls": "tw-hidden lg:tw-flex tw-container tw-pt-32 tw-pb-40 tw-columns-12"
+ }
+]

@@ -1,0 +1,117 @@
+/* ==========================================================================
+   SCIEX knowledge-base article archetype — page modules only. Imports
+   canon.css first. This page family runs on the LEGACY front end
+   (body.globalpage: Bootstrap 3 grid + clientlib-global) under the shared v3
+   header/footer experience fragments. Values lifted from live computed
+   styles: stardust/replica/capture/tokens-kb-{360,1440,1920}.json.
+   Recreation, not redesign.
+   ========================================================================== */
+
+/* --- Icon font (FontAwesome 4.2, SIL OFL — harvested from the live clientlib) */
+@font-face { font-family: FontAwesome; src: url(../assets/fonts/fontawesome-webfont.woff) format("woff"); font-weight: normal; font-style: normal; }
+
+/* Legacy pages ALSO declare the static Geogrotesque family (clientlib-global: Ge2003-*.woff2), so weight-400 chrome
+   text on this template resolves to the static Regular face, not canon's 450 VF face (chrome-parity iter2: copyright
+   139px live vs 149px build at identical computed style). Same-owner harvested face, reused per the fonts policy. */
+@font-face { font-family: Geogrotesque; font-style: normal; font-weight: 400; src: url(../assets/fonts/Ge2003-Rg.woff2) format("woff2"); }
+
+/* --- Legacy accent tokens (live: --greytext-color / #0084a9 / #00afdb / #f99c34) */
+:root {
+  --kb-text:        #5f6062;
+  --kb-title:       #0084a9;
+  --kb-link:        #00afdb;
+  --kb-link-hover:  #004a65;
+  --kb-star:        #f99c34;
+  --kb-rule:        #dbe0e0;
+  --kb-rule-border: #dbdbdb;
+  --kb-shade:       #f4f4f4;
+  --kb-crumb:       #9fa1a4;
+}
+
+/* --- Content root (live .sciex-section; inherits the legacy #master cascade:
+       Helvetica stack, grey ink; the v3 body "wdth" axis does not reach it) */
+.sciex-section { font-family: Helvetica, Arial, sans-serif; font-variation-settings: normal; color: var(--kb-text); text-align: left; }
+.sciex-section a { color: var(--kb-link); text-decoration: none; transition: all .25s ease; }
+.sciex-section p { margin: 0 0 20px; }
+@media (max-width: 767px) { .sciex-section p { font-size: 15px; line-height: 22px; } }
+.sciex-section b, .sciex-section strong { font-weight: 700; }
+.sciex-section sup { top: -.5em; }
+
+.home-section { padding-bottom: 40px; }
+.no-bleed { margin: 0 auto; max-width: 1170px; padding: 0 15px; }
+.kb-lead-spacer { display: flex; padding-bottom: 40px; }   /* live: empty .pad-bottom40.flex > .w-100 */
+.kb-lead-spacer > div { width: 100%; }
+
+/* --- Breadcrumb (live .cmp-breadcrumb, legacy variant; hidden ≤ 992px) ---- */
+.kb-breadcrumb { padding: 8px 15px; }
+.kb-breadcrumb__inner { margin: 20px 0; }
+.kb-breadcrumb__main { max-width: 1140px; margin: 0 auto; font-size: 14px; color: var(--kb-crumb); } /* line-height inherits body (24 desktop / 23 mobile) */
+.kb-breadcrumb__list { margin: 0; padding: 0; list-style: none; }
+.kb-breadcrumb__item { display: inline; }
+.kb-breadcrumb__item::after { display: inline-block; font: normal normal normal 14px/1 FontAwesome; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\f105"; }
+.kb-breadcrumb__item:last-child::after { content: ""; }
+.kb-breadcrumb__item:last-child { font-weight: 700; }
+.sciex-section .kb-breadcrumb__link, .kb-breadcrumb__text { margin: 0 10px 0 5px; color: var(--kb-text); text-transform: capitalize; } /* class rule must beat the .sciex-section a link colour, as live */
+.kb-breadcrumb__item:first-child .kb-breadcrumb__link { margin-left: 0; }
+@media (max-width: 992px) { .kb-breadcrumb__inner { display: none; } } /* live hides .cmp-breadcrumb itself (wrapper keeps its 8px padding → 16px) */
+
+/* --- Article (live .knowledgebasearticle) --------------------------------- */
+.kb-article__title { margin: 0 0 15px; font-size: 28px; font-weight: 400; line-height: normal; color: var(--kb-title); }
+.kb-article__rule { height: 1px; background: var(--kb-rule); border: 0; border-top: 1px solid var(--kb-rule-border); margin: 0 0 20px; clear: both; box-sizing: content-box; overflow: hidden; }
+
+/* Bootstrap 3 row/col model as computed live (xs 8/4 → sm 10/2) */
+.kb-meta { margin: 0 -15px; }
+.kb-meta::before, .kb-meta::after { content: " "; display: table; }
+.kb-meta::after { clear: both; }
+.kb-meta__details, .kb-meta__rating { float: left; position: relative; min-height: 1px; padding: 0 15px; }
+.kb-meta__details { width: 66.66666667%; }
+.kb-meta__rating  { width: 33.33333333%; }
+@media (min-width: 768px) { .kb-meta__details { width: 83.33333333%; } .kb-meta__rating { width: 16.66666667%; } }
+
+.kb-details { width: 100%; font-size: 16px; margin: 0 0 20px; border-collapse: collapse; border-spacing: 0; }
+.kb-details td { padding: 5px 0; vertical-align: top; }
+.kb-details__label { width: 140px; }
+
+/* Rating stars: FontAwesome glyph mechanism, as live */
+.fa { display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+.fa-star-o::before { content: "\f006"; }
+.fa-print::before  { content: "\f02f"; }
+.kb-stars--avg { color: var(--kb-star); text-align: right; }
+.kb-stars--rate i { cursor: pointer; }
+
+/* Utilities band (live div.shade-box) */
+.kb-tools { background: var(--kb-shade); padding: 15px; margin: 30px 0; min-height: 60px; }
+.kb-tools__share { float: left; }
+.kb-tools__utilities { float: left; margin: 8px 0; }
+.kb-tools__pin[hidden] { display: none; }
+
+/* Body richtext (AEM-classic byte patterns mirrored in markup) */
+.sciex-section .kb-body__note { font-size: 14pt; } /* live inline style="font-size:14.0pt" — must beat the ≤767 .sciex-section p rule */
+
+/* Comment CTA (live .btn.blue — legacy button spec) */
+.btn-legacy, .sciex-section a.btn-legacy { display: inline-block; background: var(--kb-link); font-size: 14px; line-height: 20px; color: #fff; font-weight: 300; border: 0; border-radius: 0; cursor: pointer; padding: 7px 15px; min-width: 160px; margin-bottom: 5px; text-align: center; white-space: nowrap; vertical-align: middle; transition: .25s ease; }
+.kb-comment-template[hidden] { display: none; }
+
+/* --- Interaction parity (stardust/replica/motion/kb-article.json — hover diffs only; no animations, no header morph) */
+.kb-breadcrumb__link:hover { color: #f59831; }                  /* observed: rgb(95,96,98) → rgb(245,152,49), .25s */
+.kb-details a:hover, .kb-tools__utilities a:hover { color: #034a59; }  /* observed: rgb(0,175,219) → rgb(3,74,89), .25s */
+.btn-legacy:hover, .btn-legacy:focus, .sciex-section a.btn-legacy:hover, .sciex-section a.btn-legacy:focus { background: var(--kb-link-hover); color: #fff; }  /* observed: → rgb(0,74,101), .25s */
+.fa-star::before { content: "\f005"; }                          /* observed class mutation fa-star-o ↔ fa-star on .rating-stars i */
+
+/* --- Chrome compensation for this template (candidates for canon back-port):
+       the legacy template has no support band and its footer XF carries a
+       10px white strip (live .sciex-footer padding-top) instead of 64/96px. */
+.page--kb .footer-spacer { padding-top: 10px; }
+/* Header: the standalone-search "All" button on this template computes weight 400 / padding 0 (chrome-parity iter1) */
+.page--kb .hdr-dropbtn { font-weight: 400; padding: 0; }
+/* Footer XF "new-footer" on legacy pages: html{font-size:62.5%} shrinks Tailwind rem utilities to a 10px rem,
+   the tw-py-28 partner class is absent from the legacy build, and columns use space-x-5 (12.5px) with no gap */
+.page--kb .ftr-col--desktop { padding: 32px 0; }
+.page--kb .ftr-links { column-gap: 0; }
+@media (min-width: 640px) { .page--kb .ftr-links > * ~ * { margin-left: 12.5px; } } /* live sm:tw-space-x-5 (360 parity: no offset at mobile) */
+.page--kb .ftr-partners li { padding: 0; }
+.page--kb .ftr-partners ul { align-items: flex-start; } /* live tw-items-start on this XF (1440 footer crop: thick texture = per-logo vertical offset) */
+.page--kb .ftr-lang__label { margin-left: 7.5px; }
+.page--kb .ftr-disclaimer { font-weight: 330; }
+.page--kb .ftr-col--mobile { padding: 12.5px 0; }      /* live tw-py-5 at the legacy 10px rem (360 lift: 49px rows) */
+.page--kb .ftr-lang--mobile { display: none; }         /* the legacy footer XF renders no language toggle at mobile (360 lift: footer container = social + links only) */

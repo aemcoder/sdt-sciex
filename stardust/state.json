@@ -1,7 +1,7 @@
 {
   "_provenance": {
     "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T07:33:47.860Z",
+    "writtenAt": "2026-09-18T09:00:19.516Z",
     "stardustVersion": "0.22.1",
     "againstInput": "https://sciex.com --prep --dynamics",
     "notes": "--prep on a stratified 73-page roster of the 2,826-URL sitemap (hands-off cap policy: 100 overall / 20 per template); plan covers the full inventory"
@@ -652,7 +652,7 @@
       "url": "https://sciex.com/applications/pharma-and-biopharma",
       "title": "Biopharma / pharma research",
       "type": "program",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -661,15 +661,26 @@
         {
           "status": "directed",
           "at": "2026-09-18T07:33:47.860Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T09:00:19.516Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T09:00:19.516Z",
+          "approvedBy": "hands-off",
+          "gate": "stardust/replica/progress.json"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/applications-pharma-and-biopharma-proposed.html",
       "migratedPath": null,
       "family": "v3-application-page",
-      "aemTemplate": "page-template"
+      "aemTemplate": "page-template",
+      "archetype": true
     },
     {
       "slug": "applications",
@@ -772,7 +783,7 @@
       "url": "https://sciex.com/",
       "title": "LC-MS, CE, and software solutions | SCIEX",
       "type": "landing",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -781,15 +792,26 @@
         {
           "status": "directed",
           "at": "2026-09-18T07:33:47.860Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T09:00:19.516Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T09:00:19.516Z",
+          "approvedBy": "hands-off",
+          "gate": "stardust/replica/progress.json"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/home-proposed.html",
       "migratedPath": null,
       "family": "home-landing",
-      "aemTemplate": "page-template"
+      "aemTemplate": "page-template",
+      "archetype": true
     },
     {
       "slug": "products-accessories",
@@ -1372,7 +1394,7 @@
       "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
       "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
       "type": "article",
-      "status": "directed",
+      "status": "approved",
       "history": [
         {
           "status": "extracted",
@@ -1381,15 +1403,26 @@
         {
           "status": "directed",
           "at": "2026-09-18T07:33:47.860Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-18T09:00:19.516Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-18T09:00:19.516Z",
+          "approvedBy": "hands-off",
+          "gate": "stardust/replica/progress.json"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.json",
-      "prototypePath": null,
+      "prototypePath": "stardust/prototypes/kb-article-proposed.html",
       "migratedPath": null,
       "family": "kb-article",
-      "aemTemplate": "knowledge-base-article-template"
+      "aemTemplate": "knowledge-base-article-template",
+      "archetype": true
     },
     {
       "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",

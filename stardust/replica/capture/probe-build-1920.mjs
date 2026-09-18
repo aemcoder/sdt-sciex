@@ -1,0 +1,6 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1920, height: 900 } });
+await p.goto('http://localhost:8792/applications-pharma-and-biopharma-proposed.html', { waitUntil: 'networkidle' });
+const r = await p.evaluate(() => { const q = s => { const e = document.querySelector(s); if (!e) return null; const b = e.getBoundingClientRect(); return [Math.round(b.x), Math.round(b.y + scrollY), Math.round(b.width * 10) / 10, Math.round(b.height * 10) / 10]; };
+  return { docH: document.documentElement.scrollHeight, h1: q('.hero-text h1'), lede: q('.hero-text__lede'), img: q('.page-image img'), subnavOuter: q('.subnav__outer'), secARich: q('#A .textblock__body'), secBP: q('.app-cards__head p'), card1: q('.app-cards__grid .card'), cardImg: q('.app-cards__grid .card img'), quote: q('#C-slide01 .testimonial__quote'), meta: q('#C-slide01 .testimonial__meta'), dslide: q('#D-slide01'), dImg: q('#D-slide01 img'), secDTrack: q('#D-track'), conCol1: q('.textblock__col--half'), bannerImg1: q('.banner img'), bannerSpacerP: q('.banner__spacer p'), footer: q('footer'), secB: q('#B'), secC: q('#C'), secD: q('#D') }; });
+console.log(JSON.stringify(r)); await b.close();

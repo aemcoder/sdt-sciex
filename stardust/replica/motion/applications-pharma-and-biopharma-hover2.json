@@ -1,0 +1,645 @@
+{
+  "url": "https://sciex.com/applications/pharma-and-biopharma",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": "#B .tw-grid > div:nth-child(1) img",
+      "changed": [
+        "self.transform"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "matrix(1.0438, 0, 0, 1.0438, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#C .splide__arrow--next",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(0, 104, 250)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "nav[aria-label=Breadcrumb] li:nth-child(3) a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(112, 112, 112)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(112, 112, 112)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), fill 0.3s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "#C ul.splide__pagination li:nth-child(3) button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1074,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1074,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1430,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1430,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1430,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1430,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2882,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2882,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2882,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2882,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3545,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3545,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3545,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3545,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 4327,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 4327,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 4238,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 4238,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3410,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3410,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3410,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 3410,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2860,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2860,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2860,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2860,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1375,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1375,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1375,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1375,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 970,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 970,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1089,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1089,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tw-grid.tw-grid-cols-1.md:tw-grid-cols-2 > div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 1392,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1402,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1402,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1402,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1402,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.tw-grid.tw-grid-cols-1.md:tw-grid-cols-2 > div.tw-flex-1.tw-flex.tw-flex-col > div.tw-self-start.tw-relative.tw-w-full > a.tw-group > img.tw-transition-transform.tw-duration-500.tw-absolute",
+        "y": 1444,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2885,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2885,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2885,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2885,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2862,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2862,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2862,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2862,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1362,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1362,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1362,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1362,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 884,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 884,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1113,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1113,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1535,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1535,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1535,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 1535,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2888,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2888,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "width",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2888,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder > span.tw-absolute.tw-left-0.tw-bottom-0",
+        "y": 2888,
+        "dur": "0.5s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "sticky-subnav"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.container-v2.aem-GridColumn.aem-GridColumn--default--12 > div.cmp-container > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.page-sub-nav.aem-GridColumn.aem-GridColumn--default--12",
+        "y": 2
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1074
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1430
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 2882
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 3545
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 4238
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 3410
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 2860
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1375
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1089
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1402
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 2885
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 2862
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1362
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1113
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 1535
+      },
+      {
+        "added": [
+          "active"
+        ],
+        "el": "div.tw-flex.tw-flex-col.md:tw-flex-row > div.sticky-subnav-inner-container.tw-flex-1.md:tw-overflow-hidden > div.subnav-primary.anchors.mobile-scroll > div.js-scroll-container.tw-flex.tw-pr-24 > a.js-scroll-to.tw-whitespace-nowrap.text-base-bolder",
+        "y": 2888
+      }
+    ]
+  }
+}

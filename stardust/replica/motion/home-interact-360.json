@@ -1,0 +1,2856 @@
+[
+ {
+  "click": "#splide01 .splide__arrow--next",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#splide01-list",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "style": [
+      "transform: translateX(0px);",
+      "transform: translateX(-324px);"
+     ],
+     "rect": [
+      [
+       24,
+       5626,
+       312,
+       435
+      ],
+      [
+       -300,
+       5626,
+       312,
+       435
+      ]
+     ],
+     "transform": [
+      "matrix(1, 0, 0, 1, 0, 0)",
+      "matrix(1, 0, 0, 1, -324, 0)"
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "cls": [
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible",
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-prev"
+     ],
+     "rect": [
+      [
+       24,
+       5626,
+       312,
+       435
+      ],
+      [
+       -300,
+       5626,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 1,
+    "text": "Pioneering future treatments A focus on ",
+    "ch": {
+     "cls": [
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-next",
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible"
+     ],
+     "rect": [
+      [
+       348,
+       5626,
+       312,
+       435
+      ],
+      [
+       24,
+       5626,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       235,
+       5578,
+       24,
+       24
+      ],
+      [
+       234,
+       5578,
+       24,
+       24
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "bb": [
+      "rgb(0, 104, 250)",
+      "rgb(0, 91, 219)"
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 0,
+    "text": "2 /",
+    "ch": {
+     "cls": [
+      "splide__pagination text-base tw-text-blue-700 is-active",
+      "splide__pagination text-base tw-text-blue-700"
+     ],
+     "rect": [
+      [
+       271,
+       5579,
+       21,
+       23
+      ],
+      [
+       270,
+       5579,
+       21,
+       23
+      ]
+     ],
+     "text": [
+      "1 /",
+      "2 /"
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 1,
+    "text": "2",
+    "ch": {
+     "cls": [
+      "splide__pagination text-base tw-text-blue-700",
+      "splide__pagination text-base tw-text-blue-700 is-active"
+     ]
+    }
+   },
+   {
+    "s": "#footer .tw-fixed.tw-bottom-10",
+    "k": 0,
+    "text": "Choose your Language: English Japanese C",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.tw-w-full.tw-bg-white",
+    "k": 0,
+    "text": "Products Applications Training Support S",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 0,
+    "text": "Enter search term Search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 1,
+    "text": "Back Upcoming events On-demand",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 2,
+    "text": "Back Upcoming events North America Europ",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 3,
+    "text": "Back On-demand North America Europe",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 1,
+    "text": "Close search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 3,
+    "text": "Close menu",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-fixed, #mega-menu .lg\\:tw-hidden.tw-fixed",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       5140,
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#splide01-list",
+    "cls": "splide__list ",
+    "style": "transform: translateX(-324px); transition: transform 600ms ease-in-out;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     -18,
+     5626,
+     312,
+     435
+    ],
+    "transform": "matrix(1, 0, 0, 1, -41.8668, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "transform 0.6s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     -18,
+     5626,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-next",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     306,
+     5626,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Pioneering future treatments A focus on "
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-mr-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     234,
+     5578,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 104, 250)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-ml-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     312,
+     5578,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 91, 219)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "cls": "splide__pagination text-base tw-text-blue-700",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     270,
+     5579,
+     21,
+     23
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "2 /"
+   }
+  ]
+ },
+ {
+  "click": "#splide01 .splide__arrow--prev",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#splide01-list",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "style": [
+      "transform: translateX(-324px);",
+      "transform: translateX(0px);"
+     ],
+     "rect": [
+      [
+       -300,
+       5626,
+       312,
+       435
+      ],
+      [
+       24,
+       5626,
+       312,
+       435
+      ]
+     ],
+     "transform": [
+      "matrix(1, 0, 0, 1, -324, 0)",
+      "matrix(1, 0, 0, 1, 0, 0)"
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "cls": [
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-prev",
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible"
+     ],
+     "rect": [
+      [
+       -300,
+       5626,
+       312,
+       435
+      ],
+      [
+       24,
+       5626,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 1,
+    "text": "Pioneering future treatments A focus on ",
+    "ch": {
+     "cls": [
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible",
+      "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-next"
+     ],
+     "rect": [
+      [
+       24,
+       5626,
+       312,
+       435
+      ],
+      [
+       348,
+       5626,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       234,
+       5578,
+       24,
+       24
+      ],
+      [
+       235,
+       5578,
+       24,
+       24
+      ]
+     ],
+     "bb": [
+      "rgb(0, 104, 250)",
+      "rgb(0, 91, 219)"
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 0,
+    "text": "1 /",
+    "ch": {
+     "cls": [
+      "splide__pagination text-base tw-text-blue-700",
+      "splide__pagination text-base tw-text-blue-700 is-active"
+     ],
+     "rect": [
+      [
+       270,
+       5579,
+       21,
+       23
+      ],
+      [
+       271,
+       5579,
+       21,
+       23
+      ]
+     ],
+     "text": [
+      "2 /",
+      "1 /"
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 1,
+    "text": "2",
+    "ch": {
+     "cls": [
+      "splide__pagination text-base tw-text-blue-700 is-active",
+      "splide__pagination text-base tw-text-blue-700"
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#splide01-list",
+    "cls": "splide__list ",
+    "style": "transform: translateX(0px); transition: transform 600ms ease-in-out;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     -258,
+     5626,
+     312,
+     435
+    ],
+    "transform": "matrix(1, 0, 0, 1, -282.138, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "transform 0.6s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-prev",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     -258,
+     5626,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     66,
+     5626,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Pioneering future treatments A focus on "
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-mr-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     235,
+     5578,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 91, 219)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "cls": "splide__pagination text-base tw-text-blue-700 is-active",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     271,
+     5579,
+     21,
+     23
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "1 /"
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "cls": "splide__pagination text-base tw-text-blue-700",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     291,
+     5579,
+     9,
+     23
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "2"
+   }
+  ]
+ },
+ {
+  "click": "#footer nav.tw-grid button",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 0,
+    "text": "Mass spectrometers Capillary electrophor",
+    "ch": {
+     "style": [
+      "",
+      "max-height: 250px"
+     ],
+     "rect": [
+      [
+       24,
+       6483,
+       312,
+       0
+      ],
+      [
+       24,
+       6483,
+       312,
+       243
+      ]
+     ],
+     "maxH": [
+      "0px",
+      "250px"
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 1,
+    "text": "Pharma and biopharma Clinical Environmen",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6547,
+       312,
+       0
+      ],
+      [
+       24,
+       6790,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 2,
+    "text": "Support Training Professional services C",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6611,
+       312,
+       0
+      ],
+      [
+       24,
+       6854,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 3,
+    "text": "About SCIEX Our history SCIEX stories La",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6675,
+       312,
+       0
+      ],
+      [
+       24,
+       6918,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "cls": [
+      "tw-transition-all tw-duration-200",
+      "tw-transition-all tw-duration-200 tw-rotate-180"
+     ],
+     "transform": [
+      "none",
+      "matrix(-1, 0, 0, -1, 0, 0)"
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6532,
+       14,
+       8
+      ],
+      [
+       322,
+       6775,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 2,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6596,
+       14,
+       8
+      ],
+      [
+       322,
+       6839,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 3,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6660,
+       14,
+       8
+      ],
+      [
+       322,
+       6903,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer .tw-fixed.tw-bottom-10",
+    "k": 0,
+    "text": "Choose your Language: English Japanese C",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.tw-w-full.tw-bg-white",
+    "k": 0,
+    "text": "Products Applications Training Support S",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 0,
+    "text": "Enter search term Search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 1,
+    "text": "Back Upcoming events On-demand",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 2,
+    "text": "Back Upcoming events North America Europ",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 3,
+    "text": "Back On-demand North America Europe",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 1,
+    "text": "Close search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 3,
+    "text": "Close menu",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-fixed, #mega-menu .lg\\:tw-hidden.tw-fixed",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       0,
+       5140,
+       0,
+       0
+      ],
+      [
+       0,
+       6022,
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "cls": " tw-flex tw-flex-col stretch-text tw-tracking-wide  tw-relative tw-overflow-hidden tw-transition-all tw-max-h-0 tw-duration-700",
+    "style": "max-height: 250px",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     6483,
+     312,
+     40
+    ],
+    "transform": "none",
+    "maxH": "39.9475px",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.7s",
+    "ariaExp": null,
+    "text": "Mass spectrometers Capillary electrophor"
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "cls": " tw-flex tw-flex-col stretch-text tw-tracking-wide  tw-relative tw-overflow-hidden tw-transition-all tw-max-h-0 tw-duration-700",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     6587,
+     312,
+     0
+    ],
+    "transform": "none",
+    "maxH": "0px",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.7s",
+    "ariaExp": null,
+    "text": "Pharma and biopharma Clinical Environmen"
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "cls": " tw-flex tw-flex-col stretch-text tw-tracking-wide  tw-relative tw-overflow-hidden tw-transition-all tw-max-h-0 tw-duration-700",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     6651,
+     312,
+     0
+    ],
+    "transform": "none",
+    "maxH": "0px",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.7s",
+    "ariaExp": null,
+    "text": "Support Training Professional services C"
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "cls": " tw-flex tw-flex-col stretch-text tw-tracking-wide  tw-relative tw-overflow-hidden tw-transition-all tw-max-h-0 tw-duration-700",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     6715,
+     312,
+     0
+    ],
+    "transform": "none",
+    "maxH": "0px",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.7s",
+    "ariaExp": null,
+    "text": "About SCIEX Our history SCIEX stories La"
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "cls": "tw-transition-all tw-duration-200 tw-rotate-180",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     322,
+     6467,
+     15,
+     10
+    ],
+    "transform": "matrix(-0.991909, 0.126949, -0.126949, -0.991909, 0, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "cls": "tw-transition-all tw-duration-200",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     322,
+     6571,
+     14,
+     8
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": ""
+   }
+  ]
+ },
+ {
+  "click": "#footer .tw-flex.md\\:tw-hidden.tw-mt-32 button",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#footer .tw-fixed.tw-bottom-10",
+    "k": 0,
+    "text": "Choose your Language: English Japanese C",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "flex"
+     ],
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       360,
+       900
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.tw-w-full.tw-bg-white",
+    "k": 0,
+    "text": "Products Applications Training Support S",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 0,
+    "text": "Enter search term Search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 1,
+    "text": "Back Upcoming events On-demand",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 2,
+    "text": "Back Upcoming events North America Europ",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 3,
+    "text": "Back On-demand North America Europe",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 1,
+    "text": "Close search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 3,
+    "text": "Close menu",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-fixed, #mega-menu .lg\\:tw-hidden.tw-fixed",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6022,
+       0,
+       0
+      ],
+      [
+       0,
+       6533,
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#footer .tw-fixed.tw-bottom-10",
+    "cls": "tw-fixed tw-bottom-10 tw-inset-0 tw-w-screen tw-h-full tw-flex tw-items-end tw-transition tw-ease-out tw-duration-500 tw-opacity-100",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "0.601274",
+    "rect": [
+     0,
+     6533,
+     360,
+     900
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter 0.5s",
+    "ariaExp": null,
+    "text": "Choose your Language: English Japanese C"
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.tw-w-full.tw-bg-white",
+    "cls": "tw-flex tw-w-full tw-bg-white tw-text-gray-900 tw-z-[100] tw-relative",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     6533,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Products Applications Training Support S"
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "cls": "tw-flex lg:tw-hidden tw-text-base tw-text-sm tw-z-[100] tw-relative",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     6533,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Enter search term Search"
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "cls": "tw-flex tw-flex-col tw-w-full lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-64px)]",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     6533,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Back Upcoming events On-demand"
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "cls": "tw-flex tw-flex-col tw-w-full lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-64px)]",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     6533,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Back Upcoming events North America Europ"
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "cls": "tw-flex tw-flex-col tw-w-full lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-64px)]",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     6533,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Back On-demand North America Europe"
+   }
+  ]
+ },
+ {
+  "click": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li:nth-child(3) button",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#splide01-list",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "rect": [
+      [
+       24,
+       5626,
+       312,
+       435
+      ],
+      [
+       24,
+       6407,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "rect": [
+      [
+       24,
+       5626,
+       312,
+       435
+      ],
+      [
+       24,
+       6407,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 1,
+    "text": "Pioneering future treatments A focus on ",
+    "ch": {
+     "rect": [
+      [
+       348,
+       5626,
+       312,
+       435
+      ],
+      [
+       348,
+       6407,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       235,
+       5578,
+       24,
+       24
+      ],
+      [
+       235,
+       6359,
+       24,
+       24
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       312,
+       5578,
+       24,
+       24
+      ],
+      [
+       312,
+       6359,
+       24,
+       24
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 0,
+    "text": "1 /",
+    "ch": {
+     "rect": [
+      [
+       271,
+       5579,
+       21,
+       23
+      ],
+      [
+       271,
+       6360,
+       21,
+       23
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 1,
+    "text": "2",
+    "ch": {
+     "rect": [
+      [
+       291,
+       5579,
+       9,
+       23
+      ],
+      [
+       291,
+       6360,
+       9,
+       23
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 0,
+    "text": "Mass spectrometers Capillary electrophor",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6483,
+       312,
+       243
+      ],
+      [
+       24,
+       7264,
+       312,
+       243
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 1,
+    "text": "Pharma and biopharma Clinical Environmen",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6790,
+       312,
+       0
+      ],
+      [
+       24,
+       7571,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 2,
+    "text": "Support Training Professional services C",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6854,
+       312,
+       0
+      ],
+      [
+       24,
+       7635,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 3,
+    "text": "About SCIEX Our history SCIEX stories La",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6918,
+       312,
+       0
+      ],
+      [
+       24,
+       7699,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6468,
+       14,
+       8
+      ],
+      [
+       322,
+       7249,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6775,
+       14,
+       8
+      ],
+      [
+       322,
+       7556,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 2,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6839,
+       14,
+       8
+      ],
+      [
+       322,
+       7620,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 3,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       6903,
+       14,
+       8
+      ],
+      [
+       322,
+       7684,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer .tw-fixed.tw-bottom-10",
+    "k": 0,
+    "text": "Choose your Language: English Japanese C",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6533,
+       360,
+       900
+      ],
+      [
+       0,
+       0,
+       360,
+       900
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.tw-w-full.tw-bg-white",
+    "k": 0,
+    "text": "Products Applications Training Support S",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "flex"
+     ],
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       60,
+       360,
+       781
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 0,
+    "text": "Enter search term Search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 1,
+    "text": "Back Upcoming events On-demand",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 2,
+    "text": "Back Upcoming events North America Europ",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 3,
+    "text": "Back On-demand North America Europe",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 1,
+    "text": "Close search",
+    "ch": {
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 2,
+    "text": "Open menu",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "list-item",
+      "none"
+     ],
+     "rect": [
+      [
+       312,
+       19,
+       24,
+       31
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 3,
+    "text": "Close menu",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "list-item"
+     ],
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       312,
+       19,
+       24,
+       31
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-fixed, #mega-menu .lg\\:tw-hidden.tw-fixed",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       6533,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       360,
+       900
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#splide01-list",
+    "cls": "splide__list ",
+    "style": "transform: translateX(0px);",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     6407,
+     312,
+     435
+    ],
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     6407,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-next",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     348,
+     6407,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Pioneering future treatments A focus on "
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-mr-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     235,
+     6359,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 104, 250)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-ml-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     312,
+     6359,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 104, 250)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "cls": "splide__pagination text-base tw-text-blue-700 is-active",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     271,
+     6360,
+     21,
+     23
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "1 /"
+   }
+  ]
+ },
+ {
+  "click": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li:nth-child(1) button",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#splide01-list",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6407,
+       312,
+       435
+      ],
+      [
+       24,
+       5672,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 0,
+    "text": "A cast of thousands A contract research ",
+    "ch": {
+     "rect": [
+      [
+       24,
+       6407,
+       312,
+       435
+      ],
+      [
+       24,
+       5672,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "k": 1,
+    "text": "Pioneering future treatments A focus on ",
+    "ch": {
+     "rect": [
+      [
+       348,
+       6407,
+       312,
+       435
+      ],
+      [
+       348,
+       5672,
+       312,
+       435
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       235,
+       6359,
+       24,
+       24
+      ],
+      [
+       235,
+       5624,
+       24,
+       24
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       312,
+       6359,
+       24,
+       24
+      ],
+      [
+       312,
+       5624,
+       24,
+       24
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 0,
+    "text": "1 /",
+    "ch": {
+     "rect": [
+      [
+       271,
+       6360,
+       21,
+       23
+      ],
+      [
+       271,
+       5625,
+       21,
+       23
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "k": 1,
+    "text": "2",
+    "ch": {
+     "rect": [
+      [
+       291,
+       6360,
+       9,
+       23
+      ],
+      [
+       291,
+       5625,
+       9,
+       23
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 0,
+    "text": "Mass spectrometers Capillary electrophor",
+    "ch": {
+     "rect": [
+      [
+       24,
+       7264,
+       312,
+       243
+      ],
+      [
+       24,
+       6529,
+       312,
+       243
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 1,
+    "text": "Pharma and biopharma Clinical Environmen",
+    "ch": {
+     "rect": [
+      [
+       24,
+       7571,
+       312,
+       0
+      ],
+      [
+       24,
+       6836,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 2,
+    "text": "Support Training Professional services C",
+    "ch": {
+     "rect": [
+      [
+       24,
+       7635,
+       312,
+       0
+      ],
+      [
+       24,
+       6900,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden ul",
+    "k": 3,
+    "text": "About SCIEX Our history SCIEX stories La",
+    "ch": {
+     "rect": [
+      [
+       24,
+       7699,
+       312,
+       0
+      ],
+      [
+       24,
+       6964,
+       312,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       7249,
+       14,
+       8
+      ],
+      [
+       322,
+       6514,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       7556,
+       14,
+       8
+      ],
+      [
+       322,
+       6821,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 2,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       7620,
+       14,
+       8
+      ],
+      [
+       322,
+       6885,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#footer nav.tw-grid > div.md\\:tw-hidden button svg",
+    "k": 3,
+    "text": "",
+    "ch": {
+     "rect": [
+      [
+       322,
+       7684,
+       14,
+       8
+      ],
+      [
+       322,
+       6949,
+       14,
+       8
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.tw-w-full.tw-bg-white",
+    "k": 0,
+    "text": "Products Applications Training Support S",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "flex",
+      "none"
+     ],
+     "rect": [
+      [
+       0,
+       60,
+       360,
+       781
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > div.tw-flex.lg\\:tw-hidden",
+    "k": 0,
+    "text": "Enter search term Search",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "flex"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       60,
+       360,
+       46
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 0,
+    "text": "Search",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "list-item",
+      "none"
+     ],
+     "rect": [
+      [
+       264,
+       19,
+       24,
+       31
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 1,
+    "text": "Close search",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "list-item"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       264,
+       19,
+       24,
+       31
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 2,
+    "text": "Open menu",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "list-item"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       312,
+       19,
+       24,
+       31
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .lg\\:tw-hidden.tw-ml-auto li",
+    "k": 3,
+    "text": "Close menu",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "list-item",
+      "none"
+     ],
+     "rect": [
+      [
+       312,
+       19,
+       24,
+       31
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#splide01-list",
+    "cls": "splide__list ",
+    "style": "transform: translateX(0px);",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     5672,
+     312,
+     435
+    ],
+    "transform": "matrix(1, 0, 0, 1, 0, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-active is-visible",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     24,
+     5672,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "A cast of thousands A contract research "
+   },
+   {
+    "s": "#splide01 .splide__slide",
+    "cls": "splide__slide tw-flex tw-flex-col tw-h-full media-card-item is-next",
+    "style": "margin-right: 12px; width: calc(100% + 0px); height: auto;",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     348,
+     5672,
+     312,
+     435
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Pioneering future treatments A focus on "
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-mr-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     235,
+     5624,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 104, 250)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__arrow",
+    "cls": "tw-flex tw-items-center tw-ml-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     312,
+     5624,
+     24,
+     24
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 104, 250)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#splide01 .splide__pagination button",
+    "cls": "splide__pagination text-base tw-text-blue-700 is-active",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     271,
+     5625,
+     21,
+     23
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "1 /"
+   }
+  ]
+ }
+]

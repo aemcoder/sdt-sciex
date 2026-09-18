@@ -1,0 +1,789 @@
+{
+ "url": "https://sciex.com/applications/pharma-and-biopharma",
+ "width": 1440,
+ "states": [
+  {
+   "label": "top",
+   "scrollY": 0,
+   "subnav": {
+    "rect": [
+     0,
+     1044,
+     1440,
+     65
+    ],
+    "pos": "static",
+    "top": "auto",
+    "z": "auto",
+    "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12",
+    "innerRect": [
+     0,
+     1044,
+     1440,
+     65
+    ],
+    "innerCls": "tw-bg-white tw-mt-0 tw-mb-32 md:tw-mb-48",
+    "innerStyle": null
+   },
+   "header": {
+    "rect": [
+     0,
+     0,
+     1440,
+     131
+    ],
+    "pos": "static",
+    "cls": "headerbar",
+    "pageCls": "relative tw-font-light tw-font-sans-i stretch-text tw-overflow-x-hidden",
+    "pageRect": [
+     0,
+     0,
+     1440,
+     131
+    ],
+    "pagePos": "static",
+    "bodyCls": "stretch-text tw-overflow-hidden page basicpage",
+    "htmlCls": ""
+   },
+   "anchors": [
+    {
+     "t": "Overview",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Applications",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Perspectives",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Stories",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    }
+   ],
+   "fixedEls": [
+    {
+     "tag": "DIV",
+     "id": "walkme-player",
+     "cls": "walkme-player walkme-copilot walkme-copilot-left-side walkme-css-reset-v2 walkme",
+     "pos": "fixed",
+     "rect": [
+      64,
+      852,
+      78,
+      48
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      699,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      749,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      769,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      854,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      899,
+      1440,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "label": "y600",
+   "scrollY": 600,
+   "subnav": {
+    "rect": [
+     0,
+     444,
+     1440,
+     65
+    ],
+    "pos": "sticky",
+    "top": "0px",
+    "z": "40",
+    "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+    "innerRect": [
+     0,
+     444,
+     1440,
+     65
+    ],
+    "innerCls": "tw-bg-white tw-mt-0 tw-mb-32 md:tw-mb-48",
+    "innerStyle": null
+   },
+   "header": {
+    "rect": [
+     0,
+     -600,
+     1440,
+     131
+    ],
+    "pos": "static",
+    "cls": "headerbar",
+    "pageCls": "relative tw-font-light tw-font-sans-i stretch-text tw-overflow-x-hidden",
+    "pageRect": [
+     0,
+     -600,
+     1440,
+     131
+    ],
+    "pagePos": "static",
+    "bodyCls": "stretch-text tw-overflow-hidden page basicpage",
+    "htmlCls": ""
+   },
+   "anchors": [
+    {
+     "t": "Overview",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Applications",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Perspectives",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Stories",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    }
+   ],
+   "fixedEls": [
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+     "pos": "sticky",
+     "rect": [
+      0,
+      444,
+      1440,
+      65
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "walkme-player",
+     "cls": "walkme-player walkme-copilot walkme-copilot-left-side walkme-css-reset-v2 walkme",
+     "pos": "fixed",
+     "rect": [
+      64,
+      852,
+      78,
+      48
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      699,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      749,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      769,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      854,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      899,
+      1440,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "label": "y1500",
+   "scrollY": 1500,
+   "subnav": {
+    "rect": [
+     0,
+     0,
+     1440,
+     65
+    ],
+    "pos": "sticky",
+    "top": "0px",
+    "z": "40",
+    "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+    "innerRect": [
+     0,
+     0,
+     1440,
+     65
+    ],
+    "innerCls": "tw-bg-white tw-mt-0 tw-mb-32 md:tw-mb-48",
+    "innerStyle": null
+   },
+   "header": {
+    "rect": [
+     0,
+     -1500,
+     1440,
+     131
+    ],
+    "pos": "static",
+    "cls": "headerbar",
+    "pageCls": "relative tw-font-light tw-font-sans-i stretch-text tw-overflow-x-hidden",
+    "pageRect": [
+     0,
+     -1500,
+     1440,
+     131
+    ],
+    "pagePos": "static",
+    "bodyCls": "stretch-text tw-overflow-hidden page basicpage",
+    "htmlCls": ""
+   },
+   "anchors": [
+    {
+     "t": "Overview",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Applications",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:    active",
+     "spanW": 88.75,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Perspectives",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Stories",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    }
+   ],
+   "fixedEls": [
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+     "pos": "sticky",
+     "rect": [
+      0,
+      0,
+      1440,
+      65
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "walkme-player",
+     "cls": "walkme-player walkme-copilot walkme-copilot-left-side walkme-css-reset-v2 walkme",
+     "pos": "fixed",
+     "rect": [
+      64,
+      852,
+      78,
+      48
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      699,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      749,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      769,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      854,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      899,
+      1440,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "label": "y3000",
+   "scrollY": 3000,
+   "subnav": {
+    "rect": [
+     0,
+     0,
+     1440,
+     65
+    ],
+    "pos": "sticky",
+    "top": "0px",
+    "z": "40",
+    "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+    "innerRect": [
+     0,
+     0,
+     1440,
+     65
+    ],
+    "innerCls": "tw-bg-white tw-mt-0 tw-mb-32 md:tw-mb-48",
+    "innerStyle": null
+   },
+   "header": {
+    "rect": [
+     0,
+     -3000,
+     1440,
+     131
+    ],
+    "pos": "static",
+    "cls": "headerbar",
+    "pageCls": "relative tw-font-light tw-font-sans-i stretch-text tw-overflow-x-hidden",
+    "pageRect": [
+     0,
+     -3000,
+     1440,
+     131
+    ],
+    "pagePos": "static",
+    "bodyCls": "stretch-text tw-overflow-hidden page basicpage",
+    "htmlCls": ""
+   },
+   "anchors": [
+    {
+     "t": "Overview",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Applications",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Perspectives",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:    active",
+     "spanW": 93.25,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Stories",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    }
+   ],
+   "fixedEls": [
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+     "pos": "sticky",
+     "rect": [
+      0,
+      0,
+      1440,
+      65
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "walkme-player",
+     "cls": "walkme-player walkme-copilot walkme-copilot-left-side walkme-css-reset-v2 walkme",
+     "pos": "fixed",
+     "rect": [
+      64,
+      852,
+      78,
+      48
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      699,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      749,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      769,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      854,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      899,
+      1440,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "label": "backtop",
+   "scrollY": 0,
+   "subnav": {
+    "rect": [
+     0,
+     1044,
+     1440,
+     65
+    ],
+    "pos": "sticky",
+    "top": "0px",
+    "z": "40",
+    "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+    "innerRect": [
+     0,
+     1044,
+     1440,
+     65
+    ],
+    "innerCls": "tw-bg-white tw-mt-0 tw-mb-32 md:tw-mb-48",
+    "innerStyle": null
+   },
+   "header": {
+    "rect": [
+     0,
+     0,
+     1440,
+     131
+    ],
+    "pos": "static",
+    "cls": "headerbar",
+    "pageCls": "relative tw-font-light tw-font-sans-i stretch-text tw-overflow-x-hidden",
+    "pageRect": [
+     0,
+     0,
+     1440,
+     131
+    ],
+    "pagePos": "static",
+    "bodyCls": "stretch-text tw-overflow-hidden page basicpage",
+    "htmlCls": ""
+   },
+   "anchors": [
+    {
+     "t": "Overview",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Applications",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Perspectives",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    },
+    {
+     "t": "Stories",
+     "cls": "js-scroll-to  text-base-bolder    md:  md: hover:",
+     "spanW": 0,
+     "color": "rgb(20, 20, 20)"
+    }
+   ],
+   "fixedEls": [
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "page-sub-nav aem-GridColumn aem-GridColumn--default--12 sticky-subnav",
+     "pos": "sticky",
+     "rect": [
+      0,
+      1044,
+      1440,
+      65
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "walkme-player",
+     "cls": "walkme-player walkme-copilot walkme-copilot-left-side walkme-css-reset-v2 walkme",
+     "pos": "fixed",
+     "rect": [
+      64,
+      852,
+      78,
+      48
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      699,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      749,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      769,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      854,
+      1440,
+      1
+     ]
+    },
+    {
+     "tag": "DIV",
+     "id": "",
+     "cls": "walkme-copilot-iframe-mouse-borders walkme-to-remove",
+     "pos": "fixed",
+     "rect": [
+      0,
+      899,
+      1440,
+      1
+     ]
+    }
+   ]
+  }
+ ],
+ "dControls": "<div class=\"tw-flex tw-justify-end tw-items-center md:tw-min-w-max\"> </div>",
+ "dSection": {
+  "cls": "tw-overflow-hidden splide c010-card-carousel tw-pt-32 md:tw-pt-48 tw-pb-32 md:tw-pb-48 splide--slide splide--ltr splide--draggable is-active is-initialized",
+  "listStyle": "transform: translateX(0px);",
+  "slideStyle": "margin-right: 32px; width: calc(33.3333% - 21.3333px); height: auto;",
+  "trackStyle": "padding-left: 80px; padding-right: 80px;"
+ },
+ "cControls": "<div class=\"tw-mt-24 xl:tw-mt-40 tw-flex tw-flex-row-reverse md:tw-flex-row\" data-arrows=\"\"> <div class=\"tw-flex tw-items-center splide__arrows splide__arrows--ltr\"> <button class=\"tw-flex tw-items-center tw-mr-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus-visible:tw-outline-2 focus-visible:tw-outline-offset-2 focus-visible:tw-outline-blue-700 tw-rounded-full tw-border tw-h-24 tw-w-24 md:tw-h-32 md:tw-w-32 disabled:tw-bg-transparent disabled:tw-text-blue-700 disabled:tw-border-0 tw-border-blue-700 tw-bg-blue-700 active:tw-bg-blue-900 hover:tw-border-blue-800 hover:tw-bg-blue-800 tw-text-white tw-bg-gradient-to-r tw-from-blue-800 tw-via-blue-800 tw-to-blue-800 tw-bg-bottom tw-bg-no-repeat tw-bg-[length:100%_0px] enabled:hover:tw-bg-[length:100%_100%] splide__arrow splide__arrow--prev\" aria-label=\"Previous slide\" disabled=\"\" aria-controls=\"C-track\"> <svg width=\"16\" height=\"16\" viewb=\"\" ox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" data-di-res-id=\"fefa11e7-30c1d42e\" data-di-rand=\"1789719114962\"> <path d=\"M10 14.0037L4 8.00366L10 2.00366\" stroke=\"currentColor\"></path> </svg> </button> <ul class=\"splide__pagination splide__pagination--ltr\" role=\"tablist\" aria-label=\"Select a slide to show\"> <li role=\"presentation\"><button class=\"splide__pagination text-base tw-text-blue-700 is-active\" type=\"button\" role=\"tab\" aria-controls=\"C-slide01\" aria-label=\"Go to slide 1\" aria-selected=\"false\" aria-hidden=\"true\" tabindex=\"-1\" data-di-id=\"di-id-4770141-32d20c90\">1&nbsp;/&nbsp;</button></li><li role=\"presentation\"><button class=\"splide__pagination text-base tw-text-blue-700\" type=\"button\" role=\"tab\" aria-controls=\"C-slide02\" aria-label=\"Go to slide 2\" tabindex=\"-1\" aria-hidden=\"true\" aria-selected=\"false\"></button></li><li role=\"presentation\"><button class=\"splide__pagination text-base tw-text-blue-700\" type=\"button\" role=\"tab\" aria-controls=\"C-slide03\" aria-label=\"Go to slide 3\" tabindex=\"-1\" aria-hidden=\"true\" aria-selected=\"false\" data-di-id=\"di-id-a34d24c4-8b5d5399\">3</button></li></ul> <button type=\"button\" class=\"tw-flex tw-items-center tw-ml-12 tw-justify-center tw-cursor-pointer text-base disabled:tw-cursor-not-allowed focus-visible:tw-outline focus-visible:tw-outline-2 focus-visible:tw-outline-offset-2 focus-visible:tw-outline-blue-700 tw-rounded-full tw-border tw-h-24 tw-w-24 md:tw-h-32 md:tw-w-32 disabled:tw-bg-transparent disabled:tw-text-blue-700 disabled:tw-border-0 tw-border-blue-700 tw-bg-blue-700 active:tw-bg-blue-900 hover:tw-border-blue-800 hover:tw-bg-blue-800 tw-text-white tw-bg-gradient-to-r tw-from-blue-800 tw-via-blue-800 tw-to-blue-800 tw-bg-bottom tw-bg-no-repeat tw-bg-[length:100%_0px] enabled:hover:tw-bg-[length:100%_100%] splide__arrow splide__arrow--next\" aria-label=\"Next slide\" aria-controls=\"C-track\"> <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" data-di-res-id=\"fefa11e7-b6a977da\" data-di-rand=\"1789719114962\"> <path d=\"M5 14.0037L11 8.00366L5 2.00366\" stroke=\"currentColor\"></path> </svg> </button> </div> </div>",
+ "sheets": [
+  "https://sciex.com/etc.clientlibs/sciex-v3/clientlibs/clientlib-site.min.css"
+ ],
+ "stickyRule": [
+  "clientlib-site.min.css :: .sticky-subnav, .sticky-subnav-document { position: sticky; top: 0px; }",
+  "clientlib-site.min.css :: .sticky-subnav { z-index: 40; }"
+ ]
+}

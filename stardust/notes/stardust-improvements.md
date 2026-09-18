@@ -109,3 +109,79 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
 - **Suggest:** either add `current/pages/*.html` to the default ignore list with a
   documented opt-in, or have crawl.mjs strip repeated chrome (header/footer/megamenu,
   fingerprinted across pages) from the sidecar into a single `_chrome.html`.
+
+## N-14 — motion-observe misses Alpine/inline-style state (reads as "dead")
+- **Observed (home agent):** motion-observe.mjs records class mutations and track
+  transforms only; Alpine.js `x-show`/inline-style toggles (dropdowns, footer
+  accordion, language modal, mobile panels) read as dead until probed with a
+  before/after computed-style snapshot. The agent wrote a `probe-interact.mjs`
+  pattern (stardust/replica/capture/) worth upstreaming. `headerTimeline` is all
+  null when live has no `<header>` element.
+- **Suggest:** add a style-snapshot diff (display/opacity/max-height/transform on
+  the clicked element's subtree) to motion-observe; fall back to `[role=banner]` /
+  the first fixed/sticky top element when `<header>` is absent.
+
+## N-15 — Fixed third-party widgets contaminate every stitched-chunk seam
+- **Observed:** WalkMe copilot tab (bottom-left) and a chat launcher (bottom-right)
+  repeat at the bottom of every 900px stitched chunk on the live capture; the
+  entire 0.40 % home residual at 1440 is these widgets. The prototype correctly
+  excludes them.
+- **Suggest:** stitch-shot `--hide <selector,…>` (inject `display:none` for known
+  widget roots before each chunk) and a documented `--mask` recipe in
+  source-fidelity-gate.md § Hardening for "fixed third-party widgets".
+
+## N-16 — Small instrument issues (home run)
+- chrome-parity `--json` writes `regions` as a list while the doc implies a dict.
+- anchor.mjs section discovery expects `main > section` on the build side.
+- The suggested gate port 8791 was grabbed by another stardust project between the
+  lsof check and the server launch; gate.sh's marker check is the right backstop —
+  make the default port project-hashed (e.g. 8700 + hash(slug) % 200).
+
+## N-17 — Instrument notes from the KB-article run
+- chrome-parity / anchor default regions `header`/`footer` miss sites whose header is a
+  `<nav>` without `<header>`; `--no-defaults --region header=<sel>|<sel>` was needed —
+  add the hint to the usage text (see also N-14).
+- pixel-compare `--mask` is row-band only; fixed corner widgets (WalkMe copilot tab,
+  Qualtrics launcher) force masking legitimate content in the same rows. A rect mask
+  (`x:y:w:h[@yB]`) would make the widget-masked number honest.
+- The motion behaviour-match run caught a static link-colour specificity defect the pixel
+  probes rated as noise — a computed-colour parity probe for link families inside the
+  content root would catch it earlier.
+- `lift.mjs` (the CSS-lift probe) is copy-and-edit per page; a generic
+  `--selectors <json>` flag would remove that step.
+- Ports: 8794 was held by a 13-day-old foreign `http.server`; two of three archetype agents
+  had to move ports (see N-16).
+
+## N-18 — Template-conditional chrome should be first-class in the canon model
+- **Observed:** the legacy template has no support band, a different footer XF, a 10px
+  rem base and a static font cut. The cumulative-prototype model assumes ONE canon
+  chrome; the KB agent compensated everything under a page class (`.page--kb`).
+- **Suggest:** recreation-procedure.md § Cumulative archetype prototypes should allow
+  `canon.css` + `canon-<variant>.css` chrome variants keyed by template family, and the
+  deploy chrome step should map them to per-page `nav:`/`footer:` metadata overrides.
+
+## N-19 — Instrument notes from the pharma-landing run
+- anchor.mjs lists only the footer under an AEM content root that is a single hashed
+  `#container-…` wrapper — section discovery needs a fallback to "direct children with
+  a heading".
+- motion-observe: a hover on a 0×0 anchor wrapping an absolutely positioned image reads
+  "no change"; hovers run AFTER clicks so end-state arrows read "no hover" — run hovers
+  in a separate pass; `widgetSamples.trackTransform` is null for Splide; pagination TEXT
+  changes ("2 / 3") are not recorded.
+- The footer disclaimer carries a per-page marketing code (GEN-MKT-18-7897-A on home,
+  MKT-27286-A on pharma): the canon footer needs a per-page slot, and deploy's `/footer`
+  fragment needs a page-metadata override for it.
+- `html{scroll-behavior:smooth}`, `.breadcrumb`, `.link-arrow:hover`, `.t-alfa/.t-echo`
+  belong in canon.css (interior-page chrome the home page never exercises) — the
+  cumulative model should let the SECOND archetype promote shared rules into canon under
+  the coordinator's review instead of forbidding canon edits outright.
+- zsh expands a leading `=====` echo separator as `=cmd`; agents should avoid `=`-led
+  separators in chained commands (hit by two agents).
+
+## N-20 — Pixel probes rate small colour defects as noise; eyeball found a real one
+- **Observed:** the KB "Comment" button rendered its label in the button's own colour
+  (specificity fight); content-diff matched the node, chrome-parity was out of scope,
+  pixel-compare read 0.01 %. A 1-minute side-by-side eyeball found it.
+- **Suggest:** make the coordinator-level side-by-side eyeball (live.png | build.png at
+  reduced scale) a required gate output per breakpoint, and add a computed
+  foreground/background contrast probe over CTAs inside the content root.

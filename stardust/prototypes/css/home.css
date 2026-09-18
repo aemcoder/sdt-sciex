@@ -1,0 +1,165 @@
+/* ==========================================================================
+   SCIEX home archetype — page modules only. Imports canon.css first.
+   Values lifted from live computed styles (tokens-360/1440/1920.json).
+   ========================================================================== */
+
+/* --- Hero (live .hero-small) --------------------------------------------- */
+.hero-wrap { padding-bottom: 32px; }
+.hero { position: relative; background-size: cover; background-position: center; background-repeat: no-repeat; }
+.hero__inner { position: relative; min-height: 420px; }
+.hero__img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+.hero__overlay { position: absolute; inset: 0; background: #000; opacity: .4; z-index: 0; }
+.hero__container { position: relative; display: flex; align-items: flex-end; width: 100%; min-height: 420px; padding-top: 40px; padding-bottom: 40px; z-index: 10; }
+.hero__row { display: flex; flex-direction: column; justify-content: space-between; align-items: flex-end; width: 100%; color: #fff; }
+.hero__copy { width: 100%; }
+.hero__title { margin-top: 16px; }
+.hero__lede { margin-top: 16px; }
+.hero__ctas > div { margin-top: 16px; }
+@media (min-width: 768px) {
+  .hero-wrap { padding-bottom: 48px; }
+  .hero__inner, .hero__container { min-height: 512px; }
+  .hero__container { padding-top: 80px; padding-bottom: 64px; }
+  .hero__row { flex-direction: row; }
+  .hero__title, .hero__lede, .hero__ctas > div { margin-top: 20px; }
+  .hero__ctas { display: flex; align-items: center; }
+  .hero__ctas > * + * { margin-left: 16px; }
+}
+@media (min-width: 1024px) { .hero__title { max-width: 75%; } .hero__lede { max-width: 50%; } }
+@media (min-width: 1280px) { .hero__title { max-width: 66.667%; } .hero__lede { max-width: 41.667%; } }
+
+/* --- Two-tile promo grid (live .media-grid) ------------------------------ */
+.media-grid { padding: 32px 0; }
+.media-grid__row { display: flex; flex-direction: column; }
+.media-grid__item { display: flex; flex-direction: column; width: 100%; }
+.media-grid__item + .media-grid__item { padding-top: 24px; }
+.media-grid__box { position: relative; width: 100%; overflow: hidden; aspect-ratio: 8 / 5; }
+.media-grid__box img { width: 100%; height: 100%; object-fit: cover; transition: all .5s; }
+@media (min-width: 768px) {
+  .media-grid { padding: 48px 0; }
+  .media-grid__row { flex-direction: row; flex-wrap: wrap; }
+  .media-grid__item { width: 50%; }
+  .media-grid__item + .media-grid__item { padding-top: 0; }
+  .media-grid__item:nth-child(odd) { padding-right: 16px; }
+  .media-grid__item:nth-child(even) { padding-left: 16px; }
+}
+
+/* --- Three product cards (live .three-card) ------------------------------ */
+.three-card { padding: 32px 0; }
+.three-card__grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); }
+.three-card .card { display: flex; flex-direction: column; flex: 1 1 0%; margin-bottom: 32px; }
+.three-card .card:last-child { margin-bottom: 0; } /* live: last card mb-0 at mobile */
+@media (min-width: 768px) {
+  .three-card { padding: 48px 0; }
+  .three-card__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 32px; row-gap: 48px; }
+  .three-card .card { margin-bottom: 0; }
+}
+
+/* --- "Why SCIEX portfolio" tabs (live .tab) ------------------------------ */
+.tabs { padding: 32px 0; }
+.tabs__head { display: flex; flex-direction: column; padding-bottom: 32px; }
+.tabs__title { color: var(--grey-900); padding-top: 16px; }
+.tabs__lede { padding-top: 16px; color: var(--grey-500); }
+.tabs__bar { display: none; }
+.tabs__mob-btn { display: inline-block; width: 100%; padding: 10px 0; border-top: 1px solid var(--grey-100); color: var(--grey-900); text-align: center; text-overflow: ellipsis; }
+.tabs__mob-btn.is-active { border-top-color: var(--blue-700); border-bottom: 1px solid var(--blue-700); color: var(--blue-700); }
+.tabs__mob-btn > div { display: flex; justify-content: space-between; align-items: center; }
+.tabs__mob-btn span { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; text-align: left; }
+.tabs__mob-btn__icon { transition: all .3s ease-in-out; }
+.tabs__mob-btn.is-active .tabs__mob-btn__icon { transform: rotate(180deg); }
+.tabs__mob-btn svg { display: block; width: 16px; height: 16px; fill: none; }
+.tabs__panel-grid { display: grid; grid-template-rows: 0fr; transition: all .3s ease-in-out; }
+.tabs__panel-grid.is-active { grid-template-rows: 1fr; }
+.tabs__panel { overflow: hidden; display: none; }
+.tabs__panel-grid.is-active .tabs__panel { display: block; }
+.tabs__panel-inner { display: flex; flex-direction: column; margin: 32px 0; }
+.tabs__panel-inner picture { display: inline; }
+.tabs__panel-inner img { margin-bottom: 20px; aspect-ratio: 8 / 5; }
+.tabs__panel-text h3 { color: var(--grey-900); margin-bottom: 6px; }
+.tabs__panel-text p { color: var(--grey-500); }
+.tabs__panel-link { margin-top: 12px; }
+@media (min-width: 768px) {
+  .tabs { padding: 48px 0; }
+  .tabs__head { padding-bottom: 48px; }
+  .tabs__title, .tabs__lede { padding-top: 20px; }
+  .tabs__lede { width: 58.333333%; }
+  .tabs__bar { display: flex; flex-direction: row; flex-wrap: wrap; align-items: stretch; width: 100%; }
+  .tabs__bar > div { height: auto; border-bottom: 2px solid var(--grey-100); margin-right: 4px; }
+  .tabs__bar > div.is-active { border-bottom-color: var(--blue-700); }
+  .tabs__bar button { display: inline-block; text-align: left; width: 160px; color: var(--grey-900); }
+  .tabs__bar > div.is-active button { color: var(--blue-700); }
+  .tabs__bar button > span { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; margin: 12px; }
+  .tabs__mob-btn { display: none; }
+  .tabs__panel-grid { transition: none; }
+  .tabs__panel-inner { margin-bottom: 0; flex-direction: row-reverse; }
+  .tabs__panel-inner img { margin-bottom: 0; width: 65%; }
+  .tabs__panel-text { width: 35%; margin-right: 32px; }
+  .tabs__panel-text h3 { margin-bottom: 8px; }
+  .tabs__panel-text p { flex-grow: 1; }
+  .tabs__panel-link { margin-top: 16px; }
+}
+
+/* --- "Why SCIEX for your application" icon grid (live .icon-4-col) ------- */
+.icon-grid { padding-top: 16px; padding-bottom: 32px; }
+.icon-grid__head { padding-bottom: 32px; width: 100%; }
+.icon-grid__title { color: var(--grey-900); }
+.icon-grid__grid { display: grid; grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 24px; }
+.icon-card { display: flex; flex-direction: column; border-top: 1px solid var(--grey-100); padding-top: 24px; }
+.icon-card__icon { margin-bottom: 16px; }
+.icon-card__icon svg { display: block; width: 40px; height: 40px; fill: none; }
+.icon-card h3 { color: var(--grey-900); }
+.icon-card__text { color: var(--grey-500); margin-top: 6px; overflow-wrap: break-word; }
+.icon-card__link { margin-top: auto; }
+.icon-card .link-arrow { margin-top: 12px; }
+@media (min-width: 640px) {
+  .icon-grid__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .icon-card { padding-right: 16px; }
+}
+@media (min-width: 768px) {
+  .icon-grid { padding-top: 24px; padding-bottom: 48px; }
+  .icon-grid__head { padding-bottom: 48px; }
+  .icon-card__icon { margin-bottom: 20px; }
+  .icon-card__text { margin-top: 8px; flex-grow: 1; }
+  .icon-card .link-arrow { margin-top: 16px; }
+}
+@media (min-width: 1024px) {
+  .icon-grid__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 32px; row-gap: 48px; }
+  .icon-card { padding-top: 32px; }
+}
+
+/* --- "SCIEX Stories" Splide-style card rail (live .media-card-carousel) -- */
+.stories { position: relative; overflow: hidden; padding: 32px 0; }
+.stories__track { position: relative; z-index: 0; margin-left: -24px; margin-right: -24px; padding-left: 24px; padding-right: 24px; }
+.stories__head { display: flex; flex-direction: column; padding-top: 24px; padding-bottom: 24px; }
+.stories__title-wrap { width: 100%; display: grid; gap: 16px; padding-bottom: 20px; }
+.stories__title { color: var(--grey-900); }
+.stories__controls { display: flex; justify-content: flex-end; align-items: center; }
+.stories__controls-inner { display: flex; flex-direction: row-reverse; }
+.stories__arrows { display: flex; align-items: center; }
+.stories__arrow { display: flex; align-items: center; justify-content: center; width: 24px; height: 24px; border-radius: 9999px; border: 1px solid var(--blue-700); background-color: var(--blue-700); color: #fff; font-size: 15px; line-height: 23px; font-weight: 330; background-image: linear-gradient(to right, var(--blue-800), var(--blue-800), var(--blue-800)); background-size: 100% 0; background-position: bottom; background-repeat: no-repeat; cursor: pointer; }
+.stories__arrow--prev { margin-right: 12px; }
+.stories__arrow--next { margin-left: 12px; }
+.stories__arrow:disabled { background-color: transparent; color: var(--blue-700); border: 0; cursor: not-allowed; }
+.stories__arrow svg { display: block; width: 16px; height: 16px; fill: none; }
+.stories__pagination { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; color: #fff; }
+.stories__pagination li { display: inline-block; line-height: 1; margin: 0; }
+.stories__pagination button { display: flex; color: var(--blue-700); font-weight: 330; }
+.stories__list { display: flex; height: 100%; transform: translateX(0); transition: transform .4s cubic-bezier(.25,1,.5,1); }
+.stories__slide { position: relative; flex-shrink: 0; display: flex; flex-direction: column; height: auto; width: 100%; margin-right: 12px; } /* live: Splide inline height:auto overrides tw-h-full → row stretch */
+.stories__slide img { vertical-align: bottom; }
+.stories__slide .card__media a { display: block; }
+.stories .link-arrow { font-weight: 530; }
+@media (min-width: 768px) {
+  .stories { padding: 48px 0; }
+  .stories__track { margin-left: -40px; margin-right: -40px; padding-left: 40px; padding-right: 40px; }
+  .stories__head { padding-top: 32px; }
+  .stories__title-wrap { width: 58.333333%; gap: 20px; }
+  .stories__controls { min-width: max-content; }
+  .stories__controls-inner { flex-direction: row; }
+  .stories__arrow { width: 32px; height: 32px; font-size: 16px; line-height: 24px; }
+  .stories__slide { width: calc(50% - 16px); margin-right: 32px; }
+}
+@media (min-width: 1024px) {
+  .stories__track { margin-left: -80px; margin-right: -80px; padding-left: 80px; padding-right: 80px; }
+  .stories__head { flex-direction: row; justify-content: space-between; align-items: flex-end; padding-bottom: 48px; }
+  .stories__title-wrap { padding-bottom: 0; }
+}

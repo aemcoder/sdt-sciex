@@ -37,3 +37,36 @@ See `skills/stardust/reference/journal-format.md` for entry format.
 **Next:** finish Phases 2–4 for the three archetypes, then `deploy` them and run the published-origin gate.
 
 ---
+## 2026-09-18T09:15:00Z — Phases 2–4: promotion, dynamics triage, home archetype gated; deploy of home + chrome started
+
+**Prompt:** (same run) continue the replica autonomously.
+
+**Decisions:**
+- Verbatim promotion of `current/PRODUCT.md`, `DESIGN.md`, `DESIGN.json` to the root; `direction.md` in preserve mode; empty inconsistency register (pure replica; no audit requested).
+- Fonts: Geogrotesque (Emtype) is self-hosted by SCIEX → reused verbatim in prototypes and in the EDS repo, licence confirmation recorded as a pending owner decision. proxima-nova (Typekit; legacy pages) is never rehosted.
+- Third-party overlays (OneTrust, WalkMe login balloon/copilot tab, chat launcher) are not page content: excluded from prototypes, masked out of the fidelity number, scaffolded disabled in delivery.
+- Home archetype approved hands-off after passing every gate: 1440 → 0.40 % pixel (0.00 % with the fixed-widget seams masked), Δh 0, 0 🔴, header 0.00 % / footer 0.25 % / support band 1.94 %; 360 → 0.00 %, Δh 0. Motion: all observed behaviours implemented; hovers and header scroll morph observed dead and left out.
+- Deploy of home + foundation + chrome dispatched to one agent while the pharma and KB recreations gate against the now-stable canon.
+
+**Artifacts touched:**
+- `PRODUCT.md`, `DESIGN.md`, `DESIGN.json` (root) — created (verbatim copies)
+- `stardust/direction.md`, `stardust/replica/inconsistency-register.md` — created
+- `stardust/state.json` — 73 pages typed (`type`, `family`, `aemTemplate`) and moved to `directed`
+- `stardust/dynamic-features.md`, `stardust/dynamic-features-plan.md`, `stardust/current/_dynamics.json` — created by the dynamics agent (53 rows)
+- `stardust/prototypes/home-proposed.html`, `css/canon.css`, `css/home.css`, `js/motion.js`, `js/home.js`, `interaction-spec.md`, `assets/` — created by the home agent
+- `stardust/replica/progress.json`, `replica/gates/home-1440|360/`, `replica/motion/home*.json`, `replica/capture/` — created
+- `stardust/runtime-contract.json`, `stardust/scripts/deploy/` — created
+- `stardust/replica/migration-plan.md` — family table and dynamics summary updated
+
+**Findings worth flagging:**
+- sciex.com is three front ends on one host: AEM v3 (Tailwind/Alpine/Splide), SCIEX Now legacy (Bootstrap), and three pages already on Edge Delivery with public block code at `sciex.com/blocks/*`.
+- Every first-party API path is host-bound on the target (404): search, personalization, placeholders, hreflang.
+- The home promo "carousel" is a static 2-up grid at capture time (no Splide DOM fired); the hero is a Dynamic Media picture, not a video.
+
+**Open questions:**
+- Geogrotesque licence for the new host (owner).
+- Coveo search reuse on the new origin; `/kr` locale scope; tag ids to enable (owner batch in `dynamic-features-plan.md`).
+
+**Next:** gate the pharma and KB prototypes, deploy them on the shared foundation, run the published-origin gate on all three, finalise plan + report.
+
+---

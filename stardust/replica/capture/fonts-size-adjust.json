@@ -1,0 +1,47 @@
+{
+ "300": {
+  "geoWeight": 270,
+  "sizeAdjustPct": 95.92,
+  "perString": [
+   0.9629,
+   0.9583,
+   0.9563
+  ]
+ },
+ "400": {
+  "geoWeight": 330,
+  "sizeAdjustPct": 95.59,
+  "perString": [
+   0.9587,
+   0.9549,
+   0.954
+  ]
+ },
+ "500": {
+  "geoWeight": 450,
+  "sizeAdjustPct": 95.39,
+  "perString": [
+   0.9555,
+   0.9528,
+   0.9534
+  ]
+ },
+ "600": {
+  "geoWeight": 530,
+  "sizeAdjustPct": 95.09,
+  "perString": [
+   0.9517,
+   0.9497,
+   0.9514
+  ]
+ },
+ "700": {
+  "geoWeight": 700,
+  "sizeAdjustPct": 95.24,
+  "perString": [
+   0.9517,
+   0.9512,
+   0.9544
+  ]
+ }
+}

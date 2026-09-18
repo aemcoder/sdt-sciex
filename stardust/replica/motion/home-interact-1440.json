@@ -1,0 +1,1907 @@
+[
+ {
+  "click": ".desktop-links > ul > li:first-child > a",
+  "clicked": true,
+  "diff": [
+   {
+    "s": ".desktop-links > ul > li",
+    "k": 0,
+    "text": "Products",
+    "ch": {
+     "cls": [
+      "tw-py-20 tw-border-b-2 tw-border-white",
+      "tw-py-20 tw-border-b-2 tw-border-white menu-active"
+     ],
+     "bb": [
+      "rgb(255, 255, 255)",
+      "rgb(0, 104, 250)"
+     ],
+     "transition": [
+      "all 0s",
+      "all 0.2s"
+     ]
+    }
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "transform": [
+      "none",
+      "matrix(-1, 0, 0, -1, 0, 0)"
+     ],
+     "transition": [
+      "all 0s",
+      "all 0.3s"
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1440,
+       900
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > button",
+    "k": 0,
+    "text": "Close navigation",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       704,
+       603,
+       32,
+       32
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 0,
+    "text": "Mass spectrometry",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       163,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 1,
+    "text": "Capillary electrophoresis",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       201,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 2,
+    "text": "HPLC products",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       239,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 3,
+    "text": "Integrated solutions",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       277,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 4,
+    "text": "Software",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       315,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 5,
+    "text": "Technology",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       353,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 6,
+    "text": "Standards and reagent kits",
+    "ch": {
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       64,
+       391,
+       303,
+       26
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 0,
+    "text": "Mass Spectrometers",
+    "ch": {
+     "rect": [
+      [
+       64,
+       1987,
+       160,
+       81
+      ],
+      [
+       64,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 1,
+    "text": "Clinical Medical Devices",
+    "ch": {
+     "rect": [
+      [
+       228,
+       1987,
+       160,
+       81
+      ],
+      [
+       228,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 2,
+    "text": "CE Instruments",
+    "ch": {
+     "rect": [
+      [
+       392,
+       1987,
+       160,
+       81
+      ],
+      [
+       392,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 3,
+    "text": "HPLC MS",
+    "ch": {
+     "rect": [
+      [
+       556,
+       1987,
+       160,
+       81
+      ],
+      [
+       556,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 4,
+    "text": "Software",
+    "ch": {
+     "rect": [
+      [
+       720,
+       1987,
+       160,
+       81
+      ],
+      [
+       720,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 5,
+    "text": "Integrated Solutions",
+    "ch": {
+     "rect": [
+      [
+       884,
+       1987,
+       160,
+       81
+      ],
+      [
+       884,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 6,
+    "text": "Technologies",
+    "ch": {
+     "rect": [
+      [
+       1048,
+       1987,
+       160,
+       81
+      ],
+      [
+       1048,
+       2491,
+       160,
+       81
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": ".desktop-links > ul > li",
+    "cls": "tw-py-20 tw-border-b-2 tw-border-white menu-active",
+    "style": "",
+    "display": "list-item",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     64,
+     64,
+     84,
+     66
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(10, 110, 250)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": "Products"
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "cls": "tw-ml-6",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     133,
+     89,
+     16,
+     15
+    ],
+    "transform": "matrix(-0.813208, 0.581973, -0.581973, -0.813208, 0, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.3s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "cls": "tw-hidden lg:tw-block tw-fixed tw-inset-0 tw-bg-black tw-opacity-60 tw-z-50",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "0.6",
+    "rect": [
+     0,
+     0,
+     1440,
+     900
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu > button",
+    "cls": "tw-hidden lg:tw-block tw-flex tw-w-32 tw-h-32 tw-rounded-full tw-mx-auto tw-bg-gray-900/30 hover:tw-bg-gray-900/40 tw-transition tw-relative",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     704,
+     603,
+     32,
+     32
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter 0.15s",
+    "ariaExp": null,
+    "text": "Close navigation"
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "cls": "tw-relative submenu tw-font-light tw-text-lg tw-text-grey-900 tw-flex tw-items-center tw-justify-between tw-w-full tw-group hover:tw-text-bl",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     64,
+     163,
+     303,
+     26
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": "Mass spectrometry"
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "cls": "tw-relative submenu tw-font-light tw-text-lg tw-text-grey-900 tw-flex tw-items-center tw-justify-between tw-w-full tw-group hover:tw-text-bl",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     64,
+     201,
+     303,
+     26
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": "Capillary electrophoresis"
+   }
+  ]
+ },
+ {
+  "click": ".desktop-links > ul > li:first-child > a",
+  "clicked": true,
+  "diff": [
+   {
+    "s": ".desktop-links > ul > li",
+    "k": 0,
+    "text": "Products",
+    "ch": {
+     "cls": [
+      "tw-py-20 tw-border-b-2 tw-border-white menu-active",
+      "tw-py-20 tw-border-b-2 tw-border-white"
+     ],
+     "bb": [
+      "rgb(0, 104, 250)",
+      "rgb(255, 255, 255)"
+     ],
+     "transition": [
+      "all 0.2s",
+      "all 0s"
+     ]
+    }
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "k": 0,
+    "text": "",
+    "ch": {
+     "transform": [
+      "matrix(-1, 0, 0, -1, 0, 0)",
+      "none"
+     ],
+     "transition": [
+      "all 0.3s",
+      "all 0s"
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "block",
+      "none"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       1440,
+       900
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > button",
+    "k": 0,
+    "text": "Close navigation",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "block",
+      "none"
+     ],
+     "rect": [
+      [
+       704,
+       603,
+       32,
+       32
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 0,
+    "text": "Mass spectrometry",
+    "ch": {
+     "rect": [
+      [
+       64,
+       163,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 1,
+    "text": "Capillary electrophoresis",
+    "ch": {
+     "rect": [
+      [
+       64,
+       201,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 2,
+    "text": "HPLC products",
+    "ch": {
+     "rect": [
+      [
+       64,
+       239,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 3,
+    "text": "Integrated solutions",
+    "ch": {
+     "rect": [
+      [
+       64,
+       277,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 4,
+    "text": "Software",
+    "ch": {
+     "rect": [
+      [
+       64,
+       315,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 5,
+    "text": "Technology",
+    "ch": {
+     "rect": [
+      [
+       64,
+       353,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "k": 6,
+    "text": "Standards and reagent kits",
+    "ch": {
+     "rect": [
+      [
+       64,
+       391,
+       303,
+       26
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 0,
+    "text": "Mass Spectrometers",
+    "ch": {
+     "rect": [
+      [
+       64,
+       2491,
+       160,
+       81
+      ],
+      [
+       64,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 1,
+    "text": "Clinical Medical Devices",
+    "ch": {
+     "rect": [
+      [
+       228,
+       2491,
+       160,
+       81
+      ],
+      [
+       228,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 2,
+    "text": "CE Instruments",
+    "ch": {
+     "rect": [
+      [
+       392,
+       2491,
+       160,
+       81
+      ],
+      [
+       392,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 3,
+    "text": "HPLC MS",
+    "ch": {
+     "rect": [
+      [
+       556,
+       2491,
+       160,
+       81
+      ],
+      [
+       556,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 4,
+    "text": "Software",
+    "ch": {
+     "rect": [
+      [
+       720,
+       2491,
+       160,
+       81
+      ],
+      [
+       720,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 5,
+    "text": "Integrated Solutions",
+    "ch": {
+     "rect": [
+      [
+       884,
+       2491,
+       160,
+       81
+      ],
+      [
+       884,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 6,
+    "text": "Technologies",
+    "ch": {
+     "rect": [
+      [
+       1048,
+       2491,
+       160,
+       81
+      ],
+      [
+       1048,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": ".desktop-links > ul > li",
+    "cls": "tw-py-20 tw-border-b-2 tw-border-white",
+    "style": "",
+    "display": "list-item",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     64,
+     64,
+     84,
+     66
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(255, 255, 255)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Products"
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "cls": "tw-ml-6",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     134,
+     92,
+     14,
+     8
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "cls": "tw-hidden lg:tw-block tw-fixed tw-inset-0 tw-bg-black tw-opacity-60 tw-z-50",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "0.6",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu > button",
+    "cls": "tw-hidden lg:tw-block tw-flex tw-w-32 tw-h-32 tw-rounded-full tw-mx-auto tw-bg-gray-900/30 hover:tw-bg-gray-900/40 tw-transition tw-relative",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter 0.15s",
+    "ariaExp": null,
+    "text": "Close navigation"
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "cls": "tw-relative submenu tw-font-light tw-text-lg tw-text-grey-900 tw-flex tw-items-center tw-justify-between tw-w-full tw-group hover:tw-text-bl",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": "Mass spectrometry"
+   },
+   {
+    "s": ".tw-w-3\\/12.tw-border-r > ul > li > a",
+    "cls": "tw-relative submenu tw-font-light tw-text-lg tw-text-grey-900 tw-flex tw-items-center tw-justify-between tw-w-full tw-group hover:tw-text-bl",
+    "style": "",
+    "display": "flex",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": "Capillary electrophoresis"
+   }
+  ]
+ },
+ {
+  "click": ".desktop-links > ul > li:nth-child(2) > a",
+  "clicked": true,
+  "diff": [
+   {
+    "s": ".desktop-links > ul > li",
+    "k": 1,
+    "text": "Applications",
+    "ch": {
+     "cls": [
+      "tw-py-20 tw-border-b-2 tw-border-white tw-ml-24",
+      "tw-py-20 tw-border-b-2 tw-border-white tw-ml-24 menu-active"
+     ],
+     "bb": [
+      "rgb(255, 255, 255)",
+      "rgb(0, 104, 250)"
+     ],
+     "transition": [
+      "all 0s",
+      "all 0.2s"
+     ]
+    }
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "transform": [
+      "none",
+      "matrix(-1, 0, 0, -1, 0, 0)"
+     ],
+     "transition": [
+      "all 0s",
+      "all 0.3s"
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       1440,
+       900
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > button",
+    "k": 0,
+    "text": "Close navigation",
+    "ch": {
+     "style": [
+      "display: none;",
+      ""
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       704,
+       781,
+       32,
+       32
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 0,
+    "text": "Mass Spectrometers",
+    "ch": {
+     "rect": [
+      [
+       64,
+       1987,
+       160,
+       81
+      ],
+      [
+       64,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 1,
+    "text": "Clinical Medical Devices",
+    "ch": {
+     "rect": [
+      [
+       228,
+       1987,
+       160,
+       81
+      ],
+      [
+       228,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 2,
+    "text": "CE Instruments",
+    "ch": {
+     "rect": [
+      [
+       392,
+       1987,
+       160,
+       81
+      ],
+      [
+       392,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 3,
+    "text": "HPLC MS",
+    "ch": {
+     "rect": [
+      [
+       556,
+       1987,
+       160,
+       81
+      ],
+      [
+       556,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 4,
+    "text": "Software",
+    "ch": {
+     "rect": [
+      [
+       720,
+       1987,
+       160,
+       81
+      ],
+      [
+       720,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 5,
+    "text": "Integrated Solutions",
+    "ch": {
+     "rect": [
+      [
+       884,
+       1987,
+       160,
+       81
+      ],
+      [
+       884,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 6,
+    "text": "Technologies",
+    "ch": {
+     "rect": [
+      [
+       1048,
+       1987,
+       160,
+       81
+      ],
+      [
+       1048,
+       2669,
+       160,
+       81
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": ".desktop-links > ul > li",
+    "cls": "tw-py-20 tw-border-b-2 tw-border-white tw-ml-24 menu-active",
+    "style": "",
+    "display": "list-item",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     172,
+     64,
+     106,
+     66
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(10, 110, 250)",
+    "transition": "all 0.2s",
+    "ariaExp": null,
+    "text": "Applications"
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "cls": "tw-ml-6",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     263,
+     89,
+     16,
+     15
+    ],
+    "transform": "matrix(-0.81368, 0.581313, -0.581313, -0.81368, 0, 0)",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0.3s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "cls": "tw-hidden lg:tw-block tw-fixed tw-inset-0 tw-bg-black tw-opacity-60 tw-z-50",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "0.6",
+    "rect": [
+     0,
+     0,
+     1440,
+     900
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu > button",
+    "cls": "tw-hidden lg:tw-block tw-flex tw-w-32 tw-h-32 tw-rounded-full tw-mx-auto tw-bg-gray-900/30 hover:tw-bg-gray-900/40 tw-transition tw-relative",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     704,
+     781,
+     32,
+     32
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-box-shadow, -webkit-transform, -webkit-filter, -webkit-backdrop-filter 0.15s",
+    "ariaExp": null,
+    "text": "Close navigation"
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "cls": "tw-h-auto tw-border-b-2 tw-mr-4 tw-hidden md:tw-block tw-border-blue-700",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     64,
+     2669,
+     160,
+     81
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(0, 104, 250)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Mass Spectrometers"
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "cls": "tw-h-auto tw-border-b-2 tw-mr-4 tw-hidden md:tw-block tw-border-grey-100",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     228,
+     2669,
+     160,
+     81
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(236, 236, 236)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Clinical Medical Devices"
+   }
+  ]
+ },
+ {
+  "click": "#accountDropdown .dropbtn",
+  "clicked": true,
+  "diff": [
+   {
+    "s": "#accountDropdown .dropdown-content",
+    "k": 0,
+    "text": "Create an account Already have an accoun",
+    "ch": {
+     "style": [
+      "display: none;",
+      "display: block;"
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       779,
+       68,
+       240,
+       260
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": "#accountDropdown .dropdown-content",
+    "cls": "dropdown-content account-dropdown-content",
+    "style": "display: block;",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     779,
+     68,
+     240,
+     260
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Create an account Already have an accoun"
+   }
+  ]
+ },
+ {
+  "click": ".standalone-search-container .dropbtn",
+  "clicked": true,
+  "diff": [
+   {
+    "s": ".standalone-search-container .dropdown-content",
+    "k": 0,
+    "text": "AllApplicationseCommerceKnowledge base a",
+    "ch": {
+     "style": [
+      "display: none;",
+      "display: block;"
+     ],
+     "display": [
+      "none",
+      "block"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       0,
+       0
+      ],
+      [
+       630,
+       72,
+       191,
+       440
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": ".standalone-search-container .dropdown-content",
+    "cls": "dropdown-content",
+    "style": "display: block;",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     630,
+     72,
+     191,
+     440
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "AllApplicationseCommerceKnowledge base a"
+   }
+  ]
+ },
+ {
+  "click": ".tab button[aria-controls=\"tabContent2\"]",
+  "clicked": true,
+  "diff": [
+   {
+    "s": ".desktop-links > ul > li",
+    "k": 1,
+    "text": "Applications",
+    "ch": {
+     "cls": [
+      "tw-py-20 tw-border-b-2 tw-border-white tw-ml-24 menu-active",
+      "tw-py-20 tw-border-b-2 tw-border-white tw-ml-24"
+     ],
+     "bb": [
+      "rgb(0, 104, 250)",
+      "rgb(255, 255, 255)"
+     ],
+     "transition": [
+      "all 0.2s",
+      "all 0s"
+     ]
+    }
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "transform": [
+      "matrix(-1, 0, 0, -1, 0, 0)",
+      "none"
+     ],
+     "transition": [
+      "all 0.3s",
+      "all 0s"
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu .tw-fixed.tw-inset-0.tw-bg-black",
+    "k": 1,
+    "text": "",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "block",
+      "none"
+     ],
+     "rect": [
+      [
+       0,
+       0,
+       1440,
+       900
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": "#mega-menu > button",
+    "k": 0,
+    "text": "Close navigation",
+    "ch": {
+     "style": [
+      "",
+      "display: none;"
+     ],
+     "display": [
+      "block",
+      "none"
+     ],
+     "rect": [
+      [
+       704,
+       781,
+       32,
+       32
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".standalone-search-container .dropdown-content",
+    "k": 0,
+    "text": "AllApplicationseCommerceKnowledge base a",
+    "ch": {
+     "style": [
+      "display: block;",
+      "display: none;"
+     ],
+     "display": [
+      "block",
+      "none"
+     ],
+     "rect": [
+      [
+       630,
+       72,
+       191,
+       440
+      ],
+      [
+       0,
+       0,
+       0,
+       0
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 0,
+    "text": "Mass Spectrometers",
+    "ch": {
+     "rect": [
+      [
+       64,
+       2669,
+       160,
+       81
+      ],
+      [
+       64,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 1,
+    "text": "Clinical Medical Devices",
+    "ch": {
+     "rect": [
+      [
+       228,
+       2669,
+       160,
+       81
+      ],
+      [
+       228,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 2,
+    "text": "CE Instruments",
+    "ch": {
+     "rect": [
+      [
+       392,
+       2669,
+       160,
+       81
+      ],
+      [
+       392,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 3,
+    "text": "HPLC MS",
+    "ch": {
+     "rect": [
+      [
+       556,
+       2669,
+       160,
+       81
+      ],
+      [
+       556,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 4,
+    "text": "Software",
+    "ch": {
+     "rect": [
+      [
+       720,
+       2669,
+       160,
+       81
+      ],
+      [
+       720,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 5,
+    "text": "Integrated Solutions",
+    "ch": {
+     "rect": [
+      [
+       884,
+       2669,
+       160,
+       81
+      ],
+      [
+       884,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   },
+   {
+    "s": ".tab .tw-container.md\\:tw-flex > div",
+    "k": 6,
+    "text": "Technologies",
+    "ch": {
+     "rect": [
+      [
+       1048,
+       2669,
+       160,
+       81
+      ],
+      [
+       1048,
+       1987,
+       160,
+       81
+      ]
+     ]
+    }
+   }
+  ],
+  "midSample": [
+   {
+    "s": ".desktop-links > ul > li",
+    "cls": "tw-py-20 tw-border-b-2 tw-border-white tw-ml-24",
+    "style": "",
+    "display": "list-item",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     172,
+     64,
+     106,
+     66
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(255, 255, 255)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Applications"
+   },
+   {
+    "s": ".desktop-links > ul > li > a > span",
+    "cls": "tw-ml-6",
+    "style": "",
+    "display": "block",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     264,
+     92,
+     14,
+     8
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": ""
+   },
+   {
+    "s": "#mega-menu > div.tw-w-full.tw-bg-white.tw-relative.tw-z-\\[100\\] > div",
+    "cls": "tw-pt-24 tw-flex tw-flex-col tw-w-full tw-justify-between lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-119px)]",
+    "style": "",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     1346,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Products Applications Training Support S"
+   },
+   {
+    "s": "#mega-menu > div.tw-w-full.tw-bg-white.tw-relative.tw-z-\\[100\\] > div",
+    "cls": "tw-flex tw-flex-col tw-w-full lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-64px)]",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     1346,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Back Mass spectrometry Capillary electro"
+   },
+   {
+    "s": "#mega-menu > div.tw-w-full.tw-bg-white.tw-relative.tw-z-\\[100\\] > div",
+    "cls": "tw-flex tw-flex-col tw-w-full lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-64px)]",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     1346,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Back QTOF systems ZenoTOF 8600 system Ze"
+   },
+   {
+    "s": "#mega-menu > div.tw-w-full.tw-bg-white.tw-relative.tw-z-\\[100\\] > div",
+    "cls": "tw-flex tw-flex-col tw-w-full lg:tw-hidden tw-overflow-y-scroll tw-h-[calc(100vh-64px)]",
+    "style": "display: none;",
+    "display": "none",
+    "vis": "visible",
+    "op": "1",
+    "rect": [
+     0,
+     1346,
+     0,
+     0
+    ],
+    "transform": "none",
+    "maxH": "none",
+    "bb": "rgb(229, 231, 235)",
+    "transition": "all 0s",
+    "ariaExp": null,
+    "text": "Back Capillary electrophoresis Intabio Z"
+   }
+  ]
+ }
+]

@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "stardust/prototypes/applications-pharma-and-biopharma-proposed.html"
+        ],
+        "createdAt": "2026-09-18T08:41:35.788Z",
+        "reason": "stardust replica (preserve mode): the prototype mirrors live sciex.com computed padding verbatim; replica/reference/recreation-procedure.md treats any delta not in stardust/replica/inconsistency-register.md as a fidelity defect — coordinator decision"
+      }
+    ]
+  }
+}

@@ -1,0 +1,395 @@
+{
+ "url": "https://sciex.com/applications/pharma-and-biopharma",
+ "width": 1440,
+ "states": [
+  {
+   "label": "initial",
+   "pag": [
+    {
+     "html": "1&nbsp;/&nbsp;",
+     "cls": "is-active",
+     "sel": "false",
+     "w": 22
+    },
+    {
+     "html": "",
+     "cls": "",
+     "sel": "false",
+     "w": 0
+    },
+    {
+     "html": "3",
+     "cls": "",
+     "sel": "false",
+     "w": 9
+    }
+   ],
+   "slides": [
+    {
+     "cls": "is-active is-visible",
+     "style": "width: calc(100%); transform: translateX(0%);",
+     "op": "1",
+     "tr": "all",
+     "ah": null
+    },
+    {
+     "cls": "is-next",
+     "style": "width: calc(100%); transform: translateX(-100%);",
+     "op": "0",
+     "tr": "all",
+     "ah": "true"
+    },
+    {
+     "cls": "",
+     "style": "width: calc(100%); transform: translateX(-200%);",
+     "op": "0",
+     "tr": "all",
+     "ah": "true"
+    }
+   ],
+   "prevDisabled": true,
+   "nextDisabled": false,
+   "nextBg": "rgb(0, 104, 250)",
+   "nextBgSize": "100% 0px",
+   "nextTr": "all",
+   "dCls": "splide c010-card-carousel  md:  md: splide--slide splide--ltr splide--draggable is-active is-initialized",
+   "dpag": [],
+   "dList": "transform: translateX(0px); | all",
+   "dSlides": [
+    "is-active is-visible",
+    "is-visible is-next",
+    "is-visible"
+   ],
+   "dPrev": null,
+   "dNext": null
+  },
+  {
+   "label": "next@150ms",
+   "pag": [
+    {
+     "html": "2&nbsp;/&nbsp;",
+     "cls": "",
+     "sel": "false",
+     "w": 23
+    },
+    {
+     "html": "",
+     "cls": "is-active",
+     "sel": "false",
+     "w": 0
+    },
+    {
+     "html": "3",
+     "cls": "",
+     "sel": "false",
+     "w": 9
+    }
+   ],
+   "slides": [
+    {
+     "cls": "is-prev",
+     "style": "width: calc(100%); transform: translateX(0%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0.195189",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    },
+    {
+     "cls": "is-active is-visible",
+     "style": "width: calc(100%); transform: translateX(-100%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0.804811",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": null
+    },
+    {
+     "cls": "is-next",
+     "style": "width: calc(100%); transform: translateX(-200%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    }
+   ],
+   "prevDisabled": false,
+   "nextDisabled": false,
+   "nextBg": "rgb(0, 91, 219)",
+   "nextBgSize": "100% 100%",
+   "nextTr": "all",
+   "dCls": "splide c010-card-carousel  md:  md: splide--slide splide--ltr splide--draggable is-active is-initialized",
+   "dpag": [],
+   "dList": "transform: translateX(0px); | all",
+   "dSlides": [
+    "is-active is-visible",
+    "is-visible is-next",
+    "is-visible"
+   ],
+   "dPrev": null,
+   "dNext": null
+  },
+  {
+   "label": "next settled",
+   "pag": [
+    {
+     "html": "2&nbsp;/&nbsp;",
+     "cls": "",
+     "sel": "false",
+     "w": 23
+    },
+    {
+     "html": "",
+     "cls": "is-active",
+     "sel": "false",
+     "w": 0
+    },
+    {
+     "html": "3",
+     "cls": "",
+     "sel": "false",
+     "w": 9
+    }
+   ],
+   "slides": [
+    {
+     "cls": "is-prev",
+     "style": "width: calc(100%); transform: translateX(0%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    },
+    {
+     "cls": "is-active is-visible",
+     "style": "width: calc(100%); transform: translateX(-100%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "1",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": null
+    },
+    {
+     "cls": "is-next",
+     "style": "width: calc(100%); transform: translateX(-200%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    }
+   ],
+   "prevDisabled": false,
+   "nextDisabled": false,
+   "nextBg": "rgb(0, 91, 219)",
+   "nextBgSize": "100% 100%",
+   "nextTr": "all",
+   "dCls": "splide c010-card-carousel  md:  md: splide--slide splide--ltr splide--draggable is-active is-initialized",
+   "dpag": [],
+   "dList": "transform: translateX(0px); | all",
+   "dSlides": [
+    "is-active is-visible",
+    "is-visible is-next",
+    "is-visible"
+   ],
+   "dPrev": null,
+   "dNext": null
+  },
+  {
+   "label": "next2 settled",
+   "pag": [
+    {
+     "html": "3&nbsp;/&nbsp;",
+     "cls": "",
+     "sel": "false",
+     "w": 23
+    },
+    {
+     "html": "",
+     "cls": "",
+     "sel": "false",
+     "w": 0
+    },
+    {
+     "html": "3",
+     "cls": "is-active",
+     "sel": "false",
+     "w": 9
+    }
+   ],
+   "slides": [
+    {
+     "cls": "",
+     "style": "width: calc(100%); transform: translateX(0%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    },
+    {
+     "cls": "is-prev",
+     "style": "width: calc(100%); transform: translateX(-100%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    },
+    {
+     "cls": "is-active is-visible",
+     "style": "width: calc(100%); transform: translateX(-200%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "1",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": null
+    }
+   ],
+   "prevDisabled": false,
+   "nextDisabled": true,
+   "nextBg": "rgba(0, 0, 0, 0)",
+   "nextBgSize": "100% 0px",
+   "nextTr": "all",
+   "dCls": "splide c010-card-carousel  md:  md: splide--slide splide--ltr splide--draggable is-active is-initialized",
+   "dpag": [],
+   "dList": "transform: translateX(0px); | all",
+   "dSlides": [
+    "is-active is-visible",
+    "is-visible is-next",
+    "is-visible"
+   ],
+   "dPrev": null,
+   "dNext": null
+  },
+  {
+   "label": "prev settled",
+   "pag": [
+    {
+     "html": "2&nbsp;/&nbsp;",
+     "cls": "",
+     "sel": "false",
+     "w": 23
+    },
+    {
+     "html": "",
+     "cls": "is-active",
+     "sel": "false",
+     "w": 0
+    },
+    {
+     "html": "3",
+     "cls": "",
+     "sel": "false",
+     "w": 9
+    }
+   ],
+   "slides": [
+    {
+     "cls": "is-prev",
+     "style": "width: calc(100%); transform: translateX(0%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    },
+    {
+     "cls": "is-active is-visible",
+     "style": "width: calc(100%); transform: translateX(-100%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "1",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": null
+    },
+    {
+     "cls": "is-next",
+     "style": "width: calc(100%); transform: translateX(-200%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    }
+   ],
+   "prevDisabled": false,
+   "nextDisabled": false,
+   "nextBg": "rgb(0, 104, 250)",
+   "nextBgSize": "100% 0px",
+   "nextTr": "all",
+   "dCls": "splide c010-card-carousel  md:  md: splide--slide splide--ltr splide--draggable is-active is-initialized",
+   "dpag": [],
+   "dList": "transform: translateX(0px); | all",
+   "dSlides": [
+    "is-active is-visible",
+    "is-visible is-next",
+    "is-visible"
+   ],
+   "dPrev": null,
+   "dNext": null
+  },
+  {
+   "label": "pag3 settled",
+   "pag": [
+    {
+     "html": "2&nbsp;/&nbsp;",
+     "cls": "",
+     "sel": "false",
+     "w": 23
+    },
+    {
+     "html": "",
+     "cls": "is-active",
+     "sel": "false",
+     "w": 0
+    },
+    {
+     "html": "3",
+     "cls": "",
+     "sel": "false",
+     "w": 9
+    }
+   ],
+   "slides": [
+    {
+     "cls": "is-prev",
+     "style": "width: calc(100%); transform: translateX(0%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    },
+    {
+     "cls": "is-active is-visible",
+     "style": "width: calc(100%); transform: translateX(-100%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "1",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": null
+    },
+    {
+     "cls": "is-next",
+     "style": "width: calc(100%); transform: translateX(-200%); transition: opacity 400ms cubic-bezier(0.25, 1, 0.5, 1);",
+     "op": "0",
+     "tr": "opacity 0.4s cubic-bezier(0.25, 1, 0.5, 1)",
+     "ah": "true"
+    }
+   ],
+   "prevDisabled": false,
+   "nextDisabled": false,
+   "nextBg": "rgb(0, 104, 250)",
+   "nextBgSize": "100% 0px",
+   "nextTr": "all",
+   "dCls": "splide c010-card-carousel  md:  md: splide--slide splide--ltr splide--draggable is-active is-initialized",
+   "dpag": [],
+   "dList": "transform: translateX(0px); | all",
+   "dSlides": [
+    "is-active is-visible",
+    "is-visible is-next",
+    "is-visible"
+   ],
+   "dPrev": null,
+   "dNext": null
+  }
+ ],
+ "anchorClickScroll": {
+  "ys": [
+   941,
+   1327,
+   1431,
+   1449,
+   1449,
+   1449,
+   1449,
+   1449,
+   1449,
+   1449
+  ],
+  "secBTop": 1500.796875,
+  "navH": 65,
+  "htmlScrollBehavior": "smooth",
+  "active": [
+   false,
+   true,
+   false,
+   false
+  ]
+ }
+}
