@@ -1,2050 +1,2096 @@
 {
-  "_provenance": {
-    "writtenBy": "stardust:replica",
-    "writtenAt": "2026-09-18T11:13:41.889Z",
-    "stardustVersion": "0.22.1",
-    "againstInput": "https://sciex.com --prep --dynamics",
-    "notes": "--prep on a stratified 73-page roster of the 2,826-URL sitemap (hands-off cap policy: 100 overall / 20 per template); plan covers the full inventory"
-  },
-  "site": {
-    "originUrl": "https://sciex.com",
-    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live",
-    "extractedAt": "2026-09-18T06:55:17.031Z",
-    "pageCap": 100,
-    "totalDiscovered": 2826,
-    "crawled": 82
-  },
-  "direction": {
-    "resolvedAt": "2026-09-18T07:33:47.860Z",
-    "phrase": "same-design replica (preserve mode)",
-    "directionFile": "stardust/direction.md",
-    "iaFidelity": "verbatim",
-    "mode": "preserve"
-  },
-  "handsOff": true,
-  "pages": [
-    {
-      "slug": "about-us-career-opportunities",
-      "url": "https://sciex.com/about-us/Career-Opportunities",
-      "title": "SCIEX Careers",
-      "type": "unique",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:36.249Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-career-opportunities.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "external-danaher-careers",
-      "aemTemplate": null
-    },
-    {
-      "slug": "about-us-contact-us",
-      "url": "https://sciex.com/about-us/contact-us",
-      "title": "Contact Us",
-      "type": "form",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:31.765Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-contact-us.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "eds-contact",
-      "aemTemplate": null
-    },
-    {
-      "slug": "about-us-customer-profiles-jennifer-van-eyk",
-      "url": "https://sciex.com/about-us/customer-profiles/jennifer-van-eyk",
-      "title": "Jennifer Van Eyk, Ph.D.",
-      "type": "article",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:23.947Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-customer-profiles-jennifer-van-eyk.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-profile-article",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-customer-profiles",
-      "url": "https://sciex.com/about-us/customer-profiles",
-      "title": "Customer Profile",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:22.454Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-customer-profiles.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-profile-listing",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-danaher",
-      "url": "https://sciex.com/about-us/danaher",
-      "title": "Danaher",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:43.052Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-danaher.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-static-content",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-executive-management",
-      "url": "https://sciex.com/about-us/executive-management",
-      "title": "Executive Management",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:30.555Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-executive-management.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-static-content",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-internal-personnel-profiles-tom-covey",
-      "url": "https://sciex.com/about-us/internal-personnel-profiles/tom-covey",
-      "title": "Tom Covey",
-      "type": "article",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:26.605Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-internal-personnel-profiles-tom-covey.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-profile-article",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-internal-personnel-profiles",
-      "url": "https://sciex.com/about-us/internal-personnel-profiles",
-      "title": "Home to the Extraordinary",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:25.804Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-internal-personnel-profiles.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-profile-listing",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-our-history",
-      "url": "https://sciex.com/about-us/our-history",
-      "title": "Our History",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:29.024Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-our-history.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-static-content",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-press-releases-2025",
-      "url": "https://sciex.com/about-us/press-releases/2025",
-      "title": "2025 Press Releases",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:44.911Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-press-releases-2025.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "press-release-listing",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
-      "url": "https://sciex.com/about-us/press-releases/2026/sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
-      "title": "SCIEX software solutions advance workflow efficiency with six industry collaborations",
-      "type": "article",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:20.436Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "press-release-article",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
-      "url": "https://sciex.com/about-us/press-releases/2026/the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
-      "title": "The Echo® MS+ system integration with the ZenoTOF 8600 system delivers enhanced sensitivity for high-throughput screening",
-      "type": "article",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:19.786Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "press-release-article",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-press-releases-2026",
-      "url": "https://sciex.com/about-us/press-releases/2026",
-      "title": "2026 Press Releases",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:17.753Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-press-releases-2026.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "press-release-listing",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-press-releases",
-      "url": "https://sciex.com/about-us/press-releases",
-      "title": "Press Releases",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:15.970Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-press-releases.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "press-release-listing",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-product-stewardship-weee-compliance-austria",
-      "url": "https://sciex.com/about-us/product-stewardship/weee-compliance/austria",
-      "title": "WEEE Compliance",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:38.057Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-product-stewardship-weee-compliance-austria.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-static-content",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-product-stewardship",
-      "url": "https://sciex.com/about-us/product-stewardship",
-      "title": "Product Stewardship",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:36.920Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-product-stewardship.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-static-content",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "about-us-whitepapers",
-      "url": "https://sciex.com/about-us/whitepapers",
-      "title": "Our favorite papers",
-      "type": "unique",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:40.692Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us-whitepapers.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-microsite",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "about-us",
-      "url": "https://sciex.com/about-us",
-      "title": "About Us",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:53.081Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/about-us.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
-      "url": "https://sciex.com/applications/biomedical-and-omics-research/extraordinary-science/extraordinary-science-purcell",
-      "title": "Extraordinary science - Tony Purcell",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:48.229Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-biomedical-and-omics-research",
-      "url": "https://sciex.com/applications/biomedical-and-omics-research",
-      "title": "Biomedical and omics research",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:48.228Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-biomedical-and-omics-research.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-clinical",
-      "url": "https://sciex.com/applications/clinical",
-      "title": "Clinical",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:42.040Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-clinical.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-environmental-testing",
-      "url": "https://sciex.com/applications/environmental-testing",
-      "title": "Environmental testing solutions",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:41.153Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-environmental-testing.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-food-and-beverage-testing",
-      "url": "https://sciex.com/applications/food-and-beverage-testing",
-      "title": "Food and Beverage Testing",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:41.303Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-food-and-beverage-testing.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-forensics-testing",
-      "url": "https://sciex.com/applications/forensics-testing",
-      "title": "Forensic Analysis & Testing Solutions",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:42.392Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-forensics-testing.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
-      "url": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk/biomarker-quantification",
-      "title": "Biomarker quantitation",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:35.311Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
-      "url": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk",
-      "title": "Bioanalysis and DMPK",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:34.827Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma-bioanalysis-and-dmpk.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "applications-pharma-and-biopharma",
-      "url": "https://sciex.com/applications/pharma-and-biopharma",
-      "title": "Biopharma / pharma research",
-      "type": "program",
-      "status": "migrated",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:34.828Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        },
-        {
-          "status": "prototyped",
-          "at": "2026-09-18T09:00:19.516Z"
-        },
-        {
-          "status": "approved",
-          "at": "2026-09-18T09:00:19.516Z",
-          "approvedBy": "hands-off",
-          "gate": "stardust/replica/progress.json"
-        },
-        {
-          "status": "migrated",
-          "at": "2026-09-18T10:52:18.234Z",
-          "via": "stardust:deploy",
-          "commit": "9cd9ad9"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma.json",
-      "prototypePath": "stardust/prototypes/applications-pharma-and-biopharma-proposed.html",
-      "migratedPath": "content/applications/pharma-and-biopharma.html",
-      "family": "v3-application-page",
-      "aemTemplate": "page-template",
-      "archetype": true,
-      "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/pharma-and-biopharma"
-    },
-    {
-      "slug": "applications",
-      "url": "https://sciex.com/applications",
-      "title": "Mass Spectrometry, CE, and HPLC Applications Overview",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:51.574Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "diagnostics-clinical-laboratory-news",
-      "url": "https://sciex.com/diagnostics/clinical-laboratory-news",
-      "title": "Clinical Laboratory News",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:47.489Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/diagnostics-clinical-laboratory-news.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-intermediate",
-      "aemTemplate": "intermediate-template"
-    },
-    {
-      "slug": "diagnostics",
-      "url": "https://sciex.com/diagnostics",
-      "title": "Clinical diagnostics",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:47.554Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/diagnostics.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "extraordinary-science",
-      "url": "https://sciex.com/extraordinary-science",
-      "title": "Extraordinary science",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:54.234Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/extraordinary-science.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-application-page",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "index",
-      "url": "https://sciex.com/",
-      "title": "LC-MS, CE, and software solutions | SCIEX",
-      "type": "landing",
-      "status": "migrated",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:46.182Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        },
-        {
-          "status": "prototyped",
-          "at": "2026-09-18T09:00:19.516Z"
-        },
-        {
-          "status": "approved",
-          "at": "2026-09-18T09:00:19.516Z",
-          "approvedBy": "hands-off",
-          "gate": "stardust/replica/progress.json"
-        },
-        {
-          "status": "migrated",
-          "at": "2026-09-18T09:58:00Z",
-          "via": "stardust:deploy",
-          "commit": "f0f8090"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/index.json",
-      "prototypePath": "stardust/prototypes/home-proposed.html",
-      "migratedPath": "content/index.html",
-      "family": "home-landing",
-      "aemTemplate": "page-template",
-      "archetype": true,
-      "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/"
-    },
-    {
-      "slug": "products-accessories",
-      "url": "https://sciex.com/products/accessories",
-      "title": "Mass spectrometry accessories",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:35.593Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-accessories.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-intermediate",
-      "aemTemplate": "intermediate-template"
-    },
-    {
-      "slug": "products-capillary-electrophoresis",
-      "url": "https://sciex.com/products/capillary-electrophoresis",
-      "title": "Capillary Electrophoresis",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:27.935Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-capillary-electrophoresis.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-consumables-lc-ms-performance-kits",
-      "url": "https://sciex.com/products/consumables/lc-ms-performance-kits",
-      "title": "Consumables",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:06.873Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-consumables-lc-ms-performance-kits.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-consumables",
-      "url": "https://sciex.com/products/consumables",
-      "title": "Consumables",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:06.313Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-consumables.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-hplc-products-microlc-products-m5-microlc",
-      "url": "https://sciex.com/products/hplc-products/microlc-products/m5-microlc",
-      "title": "M5 MicroLC: See More with Microflow LC-MS",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:13.628Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-hplc-products-microlc-products-m5-microlc.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-hplc-products",
-      "url": "https://sciex.com/products/hplc-products",
-      "title": "Front-end HPLC (high-performance liquid chromatography) products | SCIEX",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:12.477Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-hplc-products.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-in-vitro-diagnostics-medical-devices-citrine-system",
-      "url": "https://sciex.com/products/in-vitro-diagnostics/medical-devices/citrine-system",
-      "title": "Citrine IVD Mass Spectrometer",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:27.601Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-in-vitro-diagnostics-medical-devices-citrine-system.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-in-vitro-diagnostics",
-      "url": "https://sciex.com/products/in-vitro-diagnostics",
-      "title": "In Vitro Diagnostics",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:26.047Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-in-vitro-diagnostics.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-integrated-solutions-biotransform-solution",
-      "url": "https://sciex.com/products/integrated-solutions/biotransform-solution",
-      "title": "Metabolite identification",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:13.305Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-integrated-solutions-biotransform-solution.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-integrated-solutions",
-      "url": "https://sciex.com/products/integrated-solutions",
-      "title": "Integrated Solutions",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:11.589Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-integrated-solutions.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-ion-sources",
-      "url": "https://sciex.com/products/ion-sources",
-      "title": "Ion Sources",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:28.437Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-ion-sources.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
-      "url": "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500r-qtof-system",
-      "title": "X500R QTOF System",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:00.704Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-mass-spectrometers-qtof-systems",
-      "url": "https://sciex.com/products/mass-spectrometers/qtof-systems",
-      "title": "QTOF Systems",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:59.911Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-mass-spectrometers-qtof-systems.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-mass-spectrometers",
-      "url": "https://sciex.com/products/mass-spectrometers",
-      "title": "Liquid Chromatography Mass Spectrometers (LC-MS)",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:58.675Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-mass-spectrometers.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software",
-      "url": "https://sciex.com/products/methods/imethod-application-for-pesticide-screening-version-24-for-cliquid-software",
-      "title": "iMethod Application for Pesticide Screening Version 2.4 for Cliquid Software",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:22.359Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-detail-page",
-      "aemTemplate": "detail-page"
-    },
-    {
-      "slug": "products-methods",
-      "url": "https://sciex.com/products/methods",
-      "title": "Methods",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:19.412Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-methods.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-software-analyst-software",
-      "url": "https://sciex.com/products/software/analyst-software",
-      "title": "Analyst Software",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:05.255Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-software-analyst-software.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-software",
-      "url": "https://sciex.com/products/software",
-      "title": "Software",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:06.131Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-software.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-product-category",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "products-spectral-library-hrms-all",
-      "url": "https://sciex.com/products/spectral-library/hrms-all",
-      "title": "HRMS all libraries",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:21.674Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-spectral-library-hrms-all.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-detail-page",
-      "aemTemplate": "detail-page"
-    },
-    {
-      "slug": "products-spectral-library",
-      "url": "https://sciex.com/products/spectral-library",
-      "title": "Spectral Library",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:21.001Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products-spectral-library.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-intermediate",
-      "aemTemplate": "intermediate-template"
-    },
-    {
-      "slug": "products",
-      "url": "https://sciex.com/products",
-      "title": "Mass spectrometry, CE, and software products | SCIEX",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:45.795Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/products.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "support-customer-documents",
-      "url": "https://sciex.com/support/customer-documents",
-      "title": "Search results",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:11.833Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-customer-documents.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "eds-search-results",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "support-instrument-service-and-support-statusscope-remote-monitoring",
-      "url": "https://sciex.com/support/instrument-service-and-support/statusscope-remote-monitoring",
-      "title": "StatusScope Remote Monitoring",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:06.298Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-instrument-service-and-support-statusscope-remote-monitoring.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "sciex-now-legacy",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "support-instrument-service-and-support",
-      "url": "https://sciex.com/support/instrument-service-and-support",
-      "title": "Instrument Service and Support",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:00.612Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-instrument-service-and-support.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
-      "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
-      "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
-      "type": "article",
-      "status": "migrated",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:41.628Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        },
-        {
-          "status": "prototyped",
-          "at": "2026-09-18T09:00:19.516Z"
-        },
-        {
-          "status": "approved",
-          "at": "2026-09-18T09:00:19.516Z",
-          "approvedBy": "hands-off",
-          "gate": "stardust/replica/progress.json"
-        },
-        {
-          "status": "migrated",
-          "at": "2026-09-18T10:54:53Z",
-          "via": "stardust:deploy",
-          "commit": "9cd9ad9",
-          "note": "delivered at the hyphenated slug (admin webPath normalises _en_us → -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.json",
-      "prototypePath": "stardust/prototypes/kb-article-proposed.html",
-      "migratedPath": "content/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.html",
-      "family": "kb-article",
-      "aemTemplate": "knowledge-base-article-template",
-      "archetype": true,
-      "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
-    },
-    {
-      "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",
-      "url": "https://sciex.com/support/knowledge-base-articles/where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to_en_us",
-      "title": "Location of the Current Instrument Data File for SCIEX Triple Quad™ or QTRAP® LC-MS/MS 7500 Systems",
-      "type": "article",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:53:41.963Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "kb-article",
-      "aemTemplate": "knowledge-base-article-template"
-    },
-    {
-      "slug": "support-knowledge-base-articles",
-      "url": "https://sciex.com/support/knowledge-base-articles",
-      "title": "Knowledge base articles",
-      "type": "listing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:53.724Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-knowledge-base-articles.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "eds-resource-hub",
-      "aemTemplate": null
-    },
-    {
-      "slug": "support-login",
-      "url": "https://sciex.com/support/login",
-      "title": "Sign In",
-      "type": "unique",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:06.657Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-login.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "login-gated",
-      "aemTemplate": null
-    },
-    {
-      "slug": "support-partner-portal",
-      "url": "https://sciex.com/support/partner-portal",
-      "title": "Partner Portal",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:13.774Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-partner-portal.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-intermediate",
-      "aemTemplate": "intermediate-template"
-    },
-    {
-      "slug": "support-product-security",
-      "url": "https://sciex.com/support/product-security",
-      "title": "Product Security",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:14.425Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-product-security.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "sciex-now-legacy",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "support-request-support",
-      "url": "https://sciex.com/support/request-support",
-      "title": "Request Support",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:10.019Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-request-support.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "sciex-now-legacy",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "support-software-support-software-downloads",
-      "url": "https://sciex.com/support/software-support/software-downloads",
-      "title": "Software Downloads",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:00.384Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-software-support-software-downloads.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "sciex-now-legacy",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "support-software-support",
-      "url": "https://sciex.com/support/software-support",
-      "title": "Software Support",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:58.258Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-software-support.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "legacy-intermediate",
-      "aemTemplate": "intermediate-template"
-    },
-    {
-      "slug": "support-training",
-      "url": "https://sciex.com/support/training",
-      "title": "Training",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:04.591Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-training.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "support",
-      "url": "https://sciex.com/support",
-      "title": "Support",
-      "type": "static",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:58.672Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "sciex-now-legacy",
-      "aemTemplate": "generic-page-template"
-    },
-    {
-      "slug": "technology-electron-activated-dissociation",
-      "url": "https://sciex.com/technology/electron-activated-dissociation",
-      "title": "Electron activated dissociation",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:55.670Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/technology-electron-activated-dissociation.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-technology-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "technology-qtof-technology",
-      "url": "https://sciex.com/technology/qtof-technology",
-      "title": "High resolution accurate mass spectrometry",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:49.685Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/technology-qtof-technology.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-technology-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "technology-zt-scan-dia",
-      "url": "https://sciex.com/technology/zt-scan-dia",
-      "title": "Continuing the DIA (r)evolution for quantitative proteomics",
-      "type": "program",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:51:49.683Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/technology-zt-scan-dia.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-technology-detail",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "technology",
-      "url": "https://sciex.com/technology",
-      "title": "CE and LC Mass Spec Technology",
-      "type": "landing",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:50:45.139Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/technology.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "v3-section-hub",
-      "aemTemplate": "page-template"
-    },
-    {
-      "slug": "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
-      "url": "https://sciex.com/training/CE-SDS-analysis-of-Etanercept-using-BioPhase-8800-system",
-      "title": "Sign In",
-      "type": "unique",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:45.788Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/training-ce-sds-analysis-of-etanercept-using-biophase-8800-system.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "login-gated",
-      "aemTemplate": null
-    },
-    {
-      "slug": "training-intact-analysis-of-antibody-drug-conjugates-",
-      "url": "https://sciex.com/training/Intact-Analysis-of-Antibody-Drug-Conjugates-",
-      "title": "Sign In",
-      "type": "unique",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T06:52:47.245Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T07:33:47.860Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/training-intact-analysis-of-antibody-drug-conjugates-.json",
-      "prototypePath": null,
-      "migratedPath": null,
-      "family": "login-gated",
-      "aemTemplate": null
-    },
-    {
-      "slug": "applications-cannabis-testing",
-      "url": "https://sciex.com/applications/cannabis-testing",
-      "title": "Cannabis Testing & Analysis with the Power of LC-MS/MS",
-      "type": null,
-      "family": "v3",
-      "aemTemplate": "page-template",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:12:51.747Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/applications-cannabis-testing.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "education-clinical-mass-spec-knowledge-center",
-      "url": "https://sciex.com/education/clinical-mass-spec-knowledge-center",
-      "title": "Clinical Mass Spec Knowledge Center",
-      "type": null,
-      "family": "v3",
-      "aemTemplate": "page-template",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:13:04.006Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/education-clinical-mass-spec-knowledge-center.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "education-grant-support",
-      "url": "https://sciex.com/education/grant-support",
-      "title": "Grant Support Programs",
-      "type": null,
-      "family": "generic-page-template",
-      "aemTemplate": "generic-page-template",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:12:57.402Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/education-grant-support.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "events-f4f6",
-      "url": "https://sciex.com/events?event=on-demand",
-      "title": "Events",
-      "type": null,
-      "family": "eds-already",
-      "aemTemplate": null,
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:13:11.101Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/events-f4f6.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "events",
-      "url": "https://sciex.com/events?event=upcoming",
-      "title": "Events",
-      "type": null,
-      "family": "eds-already",
-      "aemTemplate": null,
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:13:09.620Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/events.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "resource-hub-regulatory-documents",
-      "url": "https://sciex.com/resource-hub/regulatory-documents",
-      "title": "Regulatory documents",
-      "type": null,
-      "family": "eds-already",
-      "aemTemplate": null,
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:12:57.541Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/resource-hub-regulatory-documents.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "resource-hub",
-      "url": "https://sciex.com/resource-hub",
-      "title": "Resource hub",
-      "type": null,
-      "family": "eds-already",
-      "aemTemplate": null,
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:12:57.762Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/resource-hub.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "stories",
-      "url": "https://sciex.com/stories",
-      "title": "SCIEX Stories",
-      "type": null,
-      "family": "v3",
-      "aemTemplate": "page-template",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:13:05.823Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/stories.json",
-      "prototypePath": null,
-      "migratedPath": null
-    },
-    {
-      "slug": "support-professional-lab-services",
-      "url": "https://sciex.com/support/professional-lab-services",
-      "title": "Professional laboratory services",
-      "type": null,
-      "family": "page-content",
-      "aemTemplate": "page-content",
-      "status": "directed",
-      "history": [
-        {
-          "status": "extracted",
-          "at": "2026-09-18T11:13:08.240Z"
-        },
-        {
-          "status": "directed",
-          "at": "2026-09-18T11:13:41.889Z"
-        }
-      ],
-      "stale": false,
-      "staleReason": null,
-      "currentStatePath": "stardust/current/pages/support-professional-lab-services.json",
-      "prototypePath": null,
-      "migratedPath": null
+ "_provenance": {
+  "writtenBy": "stardust:replica",
+  "writtenAt": "2026-09-18T11:13:41.889Z",
+  "stardustVersion": "0.22.1",
+  "againstInput": "https://sciex.com --prep --dynamics",
+  "notes": "--prep on a stratified 73-page roster of the 2,826-URL sitemap (hands-off cap policy: 100 overall / 20 per template); plan covers the full inventory"
+ },
+ "site": {
+  "originUrl": "https://sciex.com",
+  "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live",
+  "extractedAt": "2026-09-18T06:55:17.031Z",
+  "pageCap": 100,
+  "totalDiscovered": 2826,
+  "crawled": 82
+ },
+ "direction": {
+  "resolvedAt": "2026-09-18T07:33:47.860Z",
+  "phrase": "same-design replica (preserve mode)",
+  "directionFile": "stardust/direction.md",
+  "iaFidelity": "verbatim",
+  "mode": "preserve"
+ },
+ "handsOff": true,
+ "pages": [
+  {
+   "slug": "about-us-career-opportunities",
+   "url": "https://sciex.com/about-us/Career-Opportunities",
+   "title": "SCIEX Careers",
+   "type": "unique",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:36.249Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
     }
-  ]
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-career-opportunities.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "external-danaher-careers",
+   "aemTemplate": null
+  },
+  {
+   "slug": "about-us-contact-us",
+   "url": "https://sciex.com/about-us/contact-us",
+   "title": "Contact Us",
+   "type": "form",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:31.765Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T12:39:33Z",
+     "via": "stardust:deploy",
+     "commit": "a1e6db0 (code); content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g5.json"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-contact-us.json",
+   "prototypePath": null,
+   "migratedPath": "content/about-us/contact-us.html",
+   "family": "eds-contact",
+   "aemTemplate": null,
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/about-us/contact-us",
+   "fidelityTier": "port"
+  },
+  {
+   "slug": "about-us-customer-profiles-jennifer-van-eyk",
+   "url": "https://sciex.com/about-us/customer-profiles/jennifer-van-eyk",
+   "title": "Jennifer Van Eyk, Ph.D.",
+   "type": "article",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:23.947Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-customer-profiles-jennifer-van-eyk.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-profile-article",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-customer-profiles",
+   "url": "https://sciex.com/about-us/customer-profiles",
+   "title": "Customer Profile",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:22.454Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-customer-profiles.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-profile-listing",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-danaher",
+   "url": "https://sciex.com/about-us/danaher",
+   "title": "Danaher",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:43.052Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-danaher.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-static-content",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-executive-management",
+   "url": "https://sciex.com/about-us/executive-management",
+   "title": "Executive Management",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:30.555Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-executive-management.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-static-content",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-internal-personnel-profiles-tom-covey",
+   "url": "https://sciex.com/about-us/internal-personnel-profiles/tom-covey",
+   "title": "Tom Covey",
+   "type": "article",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:26.605Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-internal-personnel-profiles-tom-covey.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-profile-article",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-internal-personnel-profiles",
+   "url": "https://sciex.com/about-us/internal-personnel-profiles",
+   "title": "Home to the Extraordinary",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:25.804Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-internal-personnel-profiles.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-profile-listing",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-our-history",
+   "url": "https://sciex.com/about-us/our-history",
+   "title": "Our History",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:29.024Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-our-history.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-static-content",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-press-releases-2025",
+   "url": "https://sciex.com/about-us/press-releases/2025",
+   "title": "2025 Press Releases",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:44.911Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-press-releases-2025.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "press-release-listing",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+   "url": "https://sciex.com/about-us/press-releases/2026/sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations",
+   "title": "SCIEX software solutions advance workflow efficiency with six industry collaborations",
+   "type": "article",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:20.436Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-press-releases-2026-sciex-software-solutions-advance-workflow-efficiency-with-six-industry-collaborations.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "press-release-article",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+   "url": "https://sciex.com/about-us/press-releases/2026/the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
+   "title": "The Echo® MS+ system integration with the ZenoTOF 8600 system delivers enhanced sensitivity for high-throughput screening",
+   "type": "article",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:19.786Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "press-release-article",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-press-releases-2026",
+   "url": "https://sciex.com/about-us/press-releases/2026",
+   "title": "2026 Press Releases",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:17.753Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-press-releases-2026.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "press-release-listing",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-press-releases",
+   "url": "https://sciex.com/about-us/press-releases",
+   "title": "Press Releases",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:15.970Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-press-releases.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "press-release-listing",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-product-stewardship-weee-compliance-austria",
+   "url": "https://sciex.com/about-us/product-stewardship/weee-compliance/austria",
+   "title": "WEEE Compliance",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:38.057Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-product-stewardship-weee-compliance-austria.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-static-content",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-product-stewardship",
+   "url": "https://sciex.com/about-us/product-stewardship",
+   "title": "Product Stewardship",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:36.920Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-product-stewardship.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-static-content",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "about-us-whitepapers",
+   "url": "https://sciex.com/about-us/whitepapers",
+   "title": "Our favorite papers",
+   "type": "unique",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:40.692Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us-whitepapers.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-microsite",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "about-us",
+   "url": "https://sciex.com/about-us",
+   "title": "About Us",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:53.081Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/about-us.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
+   "url": "https://sciex.com/applications/biomedical-and-omics-research/extraordinary-science/extraordinary-science-purcell",
+   "title": "Extraordinary science - Tony Purcell",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:48.229Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-biomedical-and-omics-research",
+   "url": "https://sciex.com/applications/biomedical-and-omics-research",
+   "title": "Biomedical and omics research",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:48.228Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-biomedical-and-omics-research.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-clinical",
+   "url": "https://sciex.com/applications/clinical",
+   "title": "Clinical",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:42.040Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-clinical.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-environmental-testing",
+   "url": "https://sciex.com/applications/environmental-testing",
+   "title": "Environmental testing solutions",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:41.153Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-environmental-testing.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-food-and-beverage-testing",
+   "url": "https://sciex.com/applications/food-and-beverage-testing",
+   "title": "Food and Beverage Testing",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:41.303Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-food-and-beverage-testing.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-forensics-testing",
+   "url": "https://sciex.com/applications/forensics-testing",
+   "title": "Forensic Analysis & Testing Solutions",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:42.392Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-forensics-testing.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification",
+   "url": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk/biomarker-quantification",
+   "title": "Biomarker quantitation",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:35.311Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma-bioanalysis-and-dmpk-biomarker-quantification.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-pharma-and-biopharma-bioanalysis-and-dmpk",
+   "url": "https://sciex.com/applications/pharma-and-biopharma/bioanalysis-and-dmpk",
+   "title": "Bioanalysis and DMPK",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:34.827Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma-bioanalysis-and-dmpk.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "applications-pharma-and-biopharma",
+   "url": "https://sciex.com/applications/pharma-and-biopharma",
+   "title": "Biopharma / pharma research",
+   "type": "program",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:34.828Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T09:00:19.516Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T09:00:19.516Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T10:52:18.234Z",
+     "via": "stardust:deploy",
+     "commit": "9cd9ad9"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma.json",
+   "prototypePath": "stardust/prototypes/applications-pharma-and-biopharma-proposed.html",
+   "migratedPath": "content/applications/pharma-and-biopharma.html",
+   "family": "v3-application-page",
+   "aemTemplate": "page-template",
+   "archetype": true,
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/pharma-and-biopharma"
+  },
+  {
+   "slug": "applications",
+   "url": "https://sciex.com/applications",
+   "title": "Mass Spectrometry, CE, and HPLC Applications Overview",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:51.574Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "diagnostics-clinical-laboratory-news",
+   "url": "https://sciex.com/diagnostics/clinical-laboratory-news",
+   "title": "Clinical Laboratory News",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:47.489Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/diagnostics-clinical-laboratory-news.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-intermediate",
+   "aemTemplate": "intermediate-template"
+  },
+  {
+   "slug": "diagnostics",
+   "url": "https://sciex.com/diagnostics",
+   "title": "Clinical diagnostics",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:47.554Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/diagnostics.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "extraordinary-science",
+   "url": "https://sciex.com/extraordinary-science",
+   "title": "Extraordinary science",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:54.234Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/extraordinary-science.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-application-page",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "index",
+   "url": "https://sciex.com/",
+   "title": "LC-MS, CE, and software solutions | SCIEX",
+   "type": "landing",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:46.182Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T09:00:19.516Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T09:00:19.516Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T09:58:00Z",
+     "via": "stardust:deploy",
+     "commit": "f0f8090"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/index.json",
+   "prototypePath": "stardust/prototypes/home-proposed.html",
+   "migratedPath": "content/index.html",
+   "family": "home-landing",
+   "aemTemplate": "page-template",
+   "archetype": true,
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/"
+  },
+  {
+   "slug": "products-accessories",
+   "url": "https://sciex.com/products/accessories",
+   "title": "Mass spectrometry accessories",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:35.593Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-accessories.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-intermediate",
+   "aemTemplate": "intermediate-template"
+  },
+  {
+   "slug": "products-capillary-electrophoresis",
+   "url": "https://sciex.com/products/capillary-electrophoresis",
+   "title": "Capillary Electrophoresis",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:27.935Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-capillary-electrophoresis.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-consumables-lc-ms-performance-kits",
+   "url": "https://sciex.com/products/consumables/lc-ms-performance-kits",
+   "title": "Consumables",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:06.873Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-consumables-lc-ms-performance-kits.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-consumables",
+   "url": "https://sciex.com/products/consumables",
+   "title": "Consumables",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:06.313Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-consumables.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-hplc-products-microlc-products-m5-microlc",
+   "url": "https://sciex.com/products/hplc-products/microlc-products/m5-microlc",
+   "title": "M5 MicroLC: See More with Microflow LC-MS",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:13.628Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-hplc-products-microlc-products-m5-microlc.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-hplc-products",
+   "url": "https://sciex.com/products/hplc-products",
+   "title": "Front-end HPLC (high-performance liquid chromatography) products | SCIEX",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:12.477Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-hplc-products.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-in-vitro-diagnostics-medical-devices-citrine-system",
+   "url": "https://sciex.com/products/in-vitro-diagnostics/medical-devices/citrine-system",
+   "title": "Citrine IVD Mass Spectrometer",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:27.601Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-in-vitro-diagnostics-medical-devices-citrine-system.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-in-vitro-diagnostics",
+   "url": "https://sciex.com/products/in-vitro-diagnostics",
+   "title": "In Vitro Diagnostics",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:26.047Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-in-vitro-diagnostics.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-integrated-solutions-biotransform-solution",
+   "url": "https://sciex.com/products/integrated-solutions/biotransform-solution",
+   "title": "Metabolite identification",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:13.305Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-integrated-solutions-biotransform-solution.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-integrated-solutions",
+   "url": "https://sciex.com/products/integrated-solutions",
+   "title": "Integrated Solutions",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:11.589Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-integrated-solutions.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-ion-sources",
+   "url": "https://sciex.com/products/ion-sources",
+   "title": "Ion Sources",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:28.437Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-ion-sources.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system",
+   "url": "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500r-qtof-system",
+   "title": "X500R QTOF System",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:00.704Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-mass-spectrometers-qtof-systems-x-series-qtof-systems-x500r-qtof-system.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-mass-spectrometers-qtof-systems",
+   "url": "https://sciex.com/products/mass-spectrometers/qtof-systems",
+   "title": "QTOF Systems",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:59.911Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-mass-spectrometers-qtof-systems.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-mass-spectrometers",
+   "url": "https://sciex.com/products/mass-spectrometers",
+   "title": "Liquid Chromatography Mass Spectrometers (LC-MS)",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:58.675Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-mass-spectrometers.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software",
+   "url": "https://sciex.com/products/methods/imethod-application-for-pesticide-screening-version-24-for-cliquid-software",
+   "title": "iMethod Application for Pesticide Screening Version 2.4 for Cliquid Software",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:22.359Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-methods-imethod-application-for-pesticide-screening-version-24-for-cliquid-software.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-detail-page",
+   "aemTemplate": "detail-page"
+  },
+  {
+   "slug": "products-methods",
+   "url": "https://sciex.com/products/methods",
+   "title": "Methods",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:19.412Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-methods.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-software-analyst-software",
+   "url": "https://sciex.com/products/software/analyst-software",
+   "title": "Analyst Software",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:05.255Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-software-analyst-software.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-software",
+   "url": "https://sciex.com/products/software",
+   "title": "Software",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:06.131Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-software.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-product-category",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "products-spectral-library-hrms-all",
+   "url": "https://sciex.com/products/spectral-library/hrms-all",
+   "title": "HRMS all libraries",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:21.674Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-spectral-library-hrms-all.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-detail-page",
+   "aemTemplate": "detail-page"
+  },
+  {
+   "slug": "products-spectral-library",
+   "url": "https://sciex.com/products/spectral-library",
+   "title": "Spectral Library",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:21.001Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products-spectral-library.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-intermediate",
+   "aemTemplate": "intermediate-template"
+  },
+  {
+   "slug": "products",
+   "url": "https://sciex.com/products",
+   "title": "Mass spectrometry, CE, and software products | SCIEX",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:45.795Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/products.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "support-customer-documents",
+   "url": "https://sciex.com/support/customer-documents",
+   "title": "Search results",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:11.833Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-customer-documents.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "eds-search-results",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "support-instrument-service-and-support-statusscope-remote-monitoring",
+   "url": "https://sciex.com/support/instrument-service-and-support/statusscope-remote-monitoring",
+   "title": "StatusScope Remote Monitoring",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:06.298Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-instrument-service-and-support-statusscope-remote-monitoring.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "sciex-now-legacy",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "support-instrument-service-and-support",
+   "url": "https://sciex.com/support/instrument-service-and-support",
+   "title": "Instrument Service and Support",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:00.612Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-instrument-service-and-support.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+   "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+   "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
+   "type": "article",
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:41.628Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "prototyped",
+     "at": "2026-09-18T09:00:19.516Z"
+    },
+    {
+     "status": "approved",
+     "at": "2026-09-18T09:00:19.516Z",
+     "approvedBy": "hands-off",
+     "gate": "stardust/replica/progress.json"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T10:54:53Z",
+     "via": "stardust:deploy",
+     "commit": "9cd9ad9",
+     "note": "delivered at the hyphenated slug (admin webPath normalises _en_us → -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.json",
+   "prototypePath": "stardust/prototypes/kb-article-proposed.html",
+   "migratedPath": "content/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.html",
+   "family": "kb-article",
+   "aemTemplate": "knowledge-base-article-template",
+   "archetype": true,
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
+  },
+  {
+   "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",
+   "url": "https://sciex.com/support/knowledge-base-articles/where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to_en_us",
+   "title": "Location of the Current Instrument Data File for SCIEX Triple Quad™ or QTRAP® LC-MS/MS 7500 Systems",
+   "type": "article",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:53:41.963Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "kb-article",
+   "aemTemplate": "knowledge-base-article-template"
+  },
+  {
+   "slug": "support-knowledge-base-articles",
+   "url": "https://sciex.com/support/knowledge-base-articles",
+   "title": "Knowledge base articles",
+   "type": "listing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:53.724Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-knowledge-base-articles.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "eds-resource-hub",
+   "aemTemplate": null
+  },
+  {
+   "slug": "support-login",
+   "url": "https://sciex.com/support/login",
+   "title": "Sign In",
+   "type": "unique",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:06.657Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-login.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "login-gated",
+   "aemTemplate": null
+  },
+  {
+   "slug": "support-partner-portal",
+   "url": "https://sciex.com/support/partner-portal",
+   "title": "Partner Portal",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:13.774Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-partner-portal.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-intermediate",
+   "aemTemplate": "intermediate-template"
+  },
+  {
+   "slug": "support-product-security",
+   "url": "https://sciex.com/support/product-security",
+   "title": "Product Security",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:14.425Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-product-security.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "sciex-now-legacy",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "support-request-support",
+   "url": "https://sciex.com/support/request-support",
+   "title": "Request Support",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:10.019Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-request-support.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "sciex-now-legacy",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "support-software-support-software-downloads",
+   "url": "https://sciex.com/support/software-support/software-downloads",
+   "title": "Software Downloads",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:00.384Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-software-support-software-downloads.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "sciex-now-legacy",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "support-software-support",
+   "url": "https://sciex.com/support/software-support",
+   "title": "Software Support",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:58.258Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-software-support.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "legacy-intermediate",
+   "aemTemplate": "intermediate-template"
+  },
+  {
+   "slug": "support-training",
+   "url": "https://sciex.com/support/training",
+   "title": "Training",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:04.591Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-training.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "support",
+   "url": "https://sciex.com/support",
+   "title": "Support",
+   "type": "static",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:58.672Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "sciex-now-legacy",
+   "aemTemplate": "generic-page-template"
+  },
+  {
+   "slug": "technology-electron-activated-dissociation",
+   "url": "https://sciex.com/technology/electron-activated-dissociation",
+   "title": "Electron activated dissociation",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:55.670Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/technology-electron-activated-dissociation.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-technology-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "technology-qtof-technology",
+   "url": "https://sciex.com/technology/qtof-technology",
+   "title": "High resolution accurate mass spectrometry",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:49.685Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/technology-qtof-technology.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-technology-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "technology-zt-scan-dia",
+   "url": "https://sciex.com/technology/zt-scan-dia",
+   "title": "Continuing the DIA (r)evolution for quantitative proteomics",
+   "type": "program",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:51:49.683Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/technology-zt-scan-dia.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-technology-detail",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "technology",
+   "url": "https://sciex.com/technology",
+   "title": "CE and LC Mass Spec Technology",
+   "type": "landing",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:50:45.139Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/technology.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "v3-section-hub",
+   "aemTemplate": "page-template"
+  },
+  {
+   "slug": "training-ce-sds-analysis-of-etanercept-using-biophase-8800-system",
+   "url": "https://sciex.com/training/CE-SDS-analysis-of-Etanercept-using-BioPhase-8800-system",
+   "title": "Sign In",
+   "type": "unique",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:45.788Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/training-ce-sds-analysis-of-etanercept-using-biophase-8800-system.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "login-gated",
+   "aemTemplate": null
+  },
+  {
+   "slug": "training-intact-analysis-of-antibody-drug-conjugates-",
+   "url": "https://sciex.com/training/Intact-Analysis-of-Antibody-Drug-Conjugates-",
+   "title": "Sign In",
+   "type": "unique",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T06:52:47.245Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T07:33:47.860Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/training-intact-analysis-of-antibody-drug-conjugates-.json",
+   "prototypePath": null,
+   "migratedPath": null,
+   "family": "login-gated",
+   "aemTemplate": null
+  },
+  {
+   "slug": "applications-cannabis-testing",
+   "url": "https://sciex.com/applications/cannabis-testing",
+   "title": "Cannabis Testing & Analysis with the Power of LC-MS/MS",
+   "type": null,
+   "family": "v3",
+   "aemTemplate": "page-template",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:12:51.747Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/applications-cannabis-testing.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "education-clinical-mass-spec-knowledge-center",
+   "url": "https://sciex.com/education/clinical-mass-spec-knowledge-center",
+   "title": "Clinical Mass Spec Knowledge Center",
+   "type": null,
+   "family": "v3",
+   "aemTemplate": "page-template",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:13:04.006Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/education-clinical-mass-spec-knowledge-center.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "education-grant-support",
+   "url": "https://sciex.com/education/grant-support",
+   "title": "Grant Support Programs",
+   "type": null,
+   "family": "generic-page-template",
+   "aemTemplate": "generic-page-template",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:12:57.402Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/education-grant-support.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "events-f4f6",
+   "url": "https://sciex.com/events?event=on-demand",
+   "title": "Events",
+   "type": null,
+   "family": "eds-already",
+   "aemTemplate": null,
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:13:11.101Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T12:39:33Z",
+     "via": "stardust:deploy",
+     "commit": "a1e6db0 (code); content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g5.json"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/events-f4f6.json",
+   "prototypePath": null,
+   "migratedPath": "content/events.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/events",
+   "fidelityTier": "port",
+   "note": "same delivered page as `events` (/events?event=on-demand is a client-side tab preselect)"
+  },
+  {
+   "slug": "events",
+   "url": "https://sciex.com/events?event=upcoming",
+   "title": "Events",
+   "type": null,
+   "family": "eds-already",
+   "aemTemplate": null,
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:13:09.620Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T12:39:33Z",
+     "via": "stardust:deploy",
+     "commit": "a1e6db0 (code); content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g5.json"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/events.json",
+   "prototypePath": null,
+   "migratedPath": "content/events.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/events",
+   "fidelityTier": "port"
+  },
+  {
+   "slug": "resource-hub-regulatory-documents",
+   "url": "https://sciex.com/resource-hub/regulatory-documents",
+   "title": "Regulatory documents",
+   "type": null,
+   "family": "eds-already",
+   "aemTemplate": null,
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:12:57.541Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T12:39:33Z",
+     "via": "stardust:deploy",
+     "commit": "a1e6db0 (code); content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g5.json"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/resource-hub-regulatory-documents.json",
+   "prototypePath": null,
+   "migratedPath": "content/resource-hub/regulatory-documents.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/resource-hub/regulatory-documents",
+   "fidelityTier": "port"
+  },
+  {
+   "slug": "resource-hub",
+   "url": "https://sciex.com/resource-hub",
+   "title": "Resource hub",
+   "type": null,
+   "family": "eds-already",
+   "aemTemplate": null,
+   "status": "migrated",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:12:57.762Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T12:39:33Z",
+     "via": "stardust:deploy",
+     "commit": "a1e6db0 (code); content delivered via DA Source API",
+     "gate": "stardust/replica/progress-g5.json"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/resource-hub.json",
+   "prototypePath": null,
+   "migratedPath": "content/resource-hub.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/resource-hub",
+   "fidelityTier": "port"
+  },
+  {
+   "slug": "stories",
+   "url": "https://sciex.com/stories",
+   "title": "SCIEX Stories",
+   "type": null,
+   "family": "v3",
+   "aemTemplate": "page-template",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:13:05.823Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/stories.json",
+   "prototypePath": null,
+   "migratedPath": null
+  },
+  {
+   "slug": "support-professional-lab-services",
+   "url": "https://sciex.com/support/professional-lab-services",
+   "title": "Professional laboratory services",
+   "type": null,
+   "family": "page-content",
+   "aemTemplate": "page-content",
+   "status": "directed",
+   "history": [
+    {
+     "status": "extracted",
+     "at": "2026-09-18T11:13:08.240Z"
+    },
+    {
+     "status": "directed",
+     "at": "2026-09-18T11:13:41.889Z"
+    }
+   ],
+   "stale": false,
+   "staleReason": null,
+   "currentStatePath": "stardust/current/pages/support-professional-lab-services.json",
+   "prototypePath": null,
+   "migratedPath": null
+  }
+ ]
 }

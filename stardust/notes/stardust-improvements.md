@@ -250,3 +250,48 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
   to zero the 🟡 — the classifier should skip `style`/`script` text nodes.
 - The component inventory (`v3-components.json`) missed `tabs` + nested `accordion`
   on products-software — nested AEM components are not `aem-GridColumn` direct children.
+
+## N-27 — Footer per-page slot is a free-text span, not a code
+- **Observed (G2):** the live footer XF's trailing span carries page-specific text with
+  prefixes ("Related to GEN-MKT-18-6312-B", "RUO-…", "IVD-…"), not a bare marketing code.
+  The `Disclaimer Code` metadata substitution must treat the value as the verbatim
+  trailing text.
+- **Suggest:** name the slot "disclaimer suffix" in the deploy chrome pattern and capture
+  it per page at extract (`footer p:last-of-type span:last-child`).
+
+## N-28 — A site-wide fixed "back to top" button was masked as a third-party widget by every group
+- **Observed (G4):** live sciex.com ships `#back-to-top` (legacy clientlib: fixed teal/grey round
+  button, fades in on scroll) on every page; home/pharma/KB gates masked its seam rows together
+  with the WalkMe tab and chat launcher, so it never entered the canon. The user's own
+  screenshot shows it.
+- **Suggest:** the seam-mask policy must distinguish first-party fixed UI (recreate, canon) from
+  third-party widgets (mask): list every fixed-position element's owner (same-origin script vs
+  vendor) during the chrome lift and require a disposition per element.
+
+## N-29 — Canon Tailwind preflight fights legacy templates; chrome type/rem varies per template
+- **Observed (G4):** canon.css preflight (img/video/iframe display:block, ul list-style none,
+  iframe border 0, input borders) caused 6 iterations on the legacy pages; the XF chrome
+  inherits each template's root type (shell 14px, legacy 10px rem, v3 16px).
+- **Suggest:** split canon.css into tokens+chrome vs. preflight (`canon-preflight.css`, v3 only),
+  and expose `--chrome-rem` / `--chrome-type` variables the template class sets.
+
+## N-30 — gate.sh's stale-instrument reaper kills OTHER agents' instruments on a shared machine
+- **Observed (G3):** `GATE_REAP_MIN=15` reaped five instruments belonging to concurrent groups
+  on the first run; the coordinator also saw an unexplained `exit 144` on a probe. The
+  reaper matches by process name, not by project/gate dir.
+- **Suggest:** scope the reaper to processes whose argv contains the gate dir (or a per-run
+  token), and default `GATE_REAP_MIN=0` when more than one gate.sh is running.
+
+## N-31 — stitch-shot measures documentElement.scrollHeight; a body scroll container with a tracking-pixel tail fails the Δh bar
+- **Observed (G3, page-content template):** live `body{overflow:auto}` scrollHeight exceeds its
+  offsetHeight by 24 px (a line box of appended third-party `<img>` pixels); the faithful
+  recreation reads Δh −24 and fails |Δh| ≤ 8 with nothing visible different.
+- **Suggest:** stitch-shot/pixel-compare report both documentElement and body heights and let
+  the gate accept a documented "tail" when the last N rows of the live capture are blank.
+
+## N-32 — Video-heavy pages: posters vs decoded frames are a permanent residual class
+- **Observed (G3 stories/training, G2 forensics):** live decodes mp4 frames in-browser while the
+  replica shows posters of the same frames (mp4s of 134–335 MB not harvested); 1.7–4.6 % band
+  residuals. Also Plyr's CSS is injected by a clientlib JS, so the lift must pull vendor CSS.
+- **Suggest:** a `--video-poster` policy in the gate (compare only outside video boxes, or mask
+  `<video>` rects on both sides) and a harvest rule "first frame + 5 s clip" documented.

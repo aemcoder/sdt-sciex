@@ -916,6 +916,9 @@ main .section.lead .default-content-wrapper p {
   font-weight: 530;
   font-style: normal;
   font-display: swap;
+  size-adjust: 94.5%; /* the source's static Medium face is narrower than the VF at wght 530
+                         (measured 228 vs 241 px for "Regulatory documents" @24px); without it a
+                         24px icon-card title wraps to two lines at 360 */
 }
 
 body.sx-port {
@@ -975,7 +978,10 @@ body.sx-port main {
   padding: 0 24px;
 }
 
-:where(body.sx-port) main > .section:first-of-type {
+:where(body.sx-port) main > .section:first-of-type,
+:where(body.sx-port) main > .section:empty + .section {
+  /* the pipeline leaves the metadata section as an empty first .section — the first VISIBLE
+     section must sit flush under the header like the source (published gate: +40px) */
   margin-top: 0;
 }
 
@@ -1011,7 +1017,7 @@ body.sx-port main {
   font-size: inherit;
   font-weight: inherit;
   line-height: 1.25;
-  letter-spacing: normal;
+  letter-spacing: inherit; /* the source sets none; our base heading/paragraph letter-spacing must not leak */
   color: inherit;
 }
 
@@ -1019,7 +1025,7 @@ body.sx-port main {
 :where(body.sx-port) main li {
   font-size: inherit;
   font-weight: inherit;
-  letter-spacing: normal;
+  letter-spacing: inherit; /* `normal` here broke the inherited 0.08px in nested block paragraphs (+1 line) */
   line-height: inherit;
 }
 
@@ -1108,9 +1114,17 @@ body.sx-port main {
 
 /* source images (pipeline <picture>) */
 :where(body.sx-port) main img {
+  display: inline; /* our base img{display:block} is not in the source cascade (workflow icons +7px) */
+  vertical-align: baseline;
   max-width: 100%;
   width: auto;
   height: auto;
+}
+
+/* same for inline SVG (event-type icons: our base svg{display:block} shortens each card by 7px) */
+:where(body.sx-port) main svg {
+  display: inline;
+  vertical-align: baseline;
 }
 
 /* the events block moves a filter modal to <body> and locks scroll on it (events.css) */
@@ -1118,6 +1132,16 @@ body.sx-port.event-modal-open {
   position: fixed;
   width: 100%;
   overflow: hidden;
+}
+
+/* source GLOBAL rule (styles.css, search-results page) that the ported contact-information block
+   inherits on sciex.com: its .search-wrapper wraps the input under the icon at 360 only because
+   this rule adds flex-wrap; the block CSS (later, same specificity) overrides the rest */
+:where(body.sx-port) .search-wrapper {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 /* source utility classes the ported content carries in its cells (icon-card `text-echo`,
@@ -1145,3 +1169,191 @@ body.sx-port.event-modal-open {
   color: var(--Grey-700, #6b7280);
 }
 /* stylelint-enable custom-property-pattern */
+
+/* ==========================================================================================
+   G1 — products / technology (v3 page-template) section style vocabulary — APPENDED by the
+   stardust:deploy G1 agent. Closed set (see stardust/eds-conversion-log-g1.md § Section styles):
+   `lead` additions (heading level = live type scale; `compact` · `ruled` · `ticks`), `page-image`,
+   rhythm `flush-top` · `flush-bottom` · `tight-top` · `tight-bottom` · `loose-top` · `loose-bottom`,
+   `quote-solo`. Descendant selectors only (EW10); no positional pseudo-classes on prose.
+   ========================================================================================== */
+
+/* hero-text on the page-template (live .hero-text tw-pb-32 md:tw-pb-48): the breadcrumb section's
+   default content (h1 [+ lede]) pads its bottom when it carries no page image — the pharma landing
+   variant (h1 + lede + full-bleed picture) keeps its own rhythm. */
+main .section.breadcrumb-container .default-content-wrapper:not(:has(picture, img)) {
+  padding-bottom: 32px;
+}
+
+/* `lead` — heading LEVEL is the live type scale: h2 = text-charlie (main h2), h3 = text-delta,
+   h4 = text-echo. Live authors picked these sizes per instance; the tag carries them in DA. */
+main .section.lead .default-content-wrapper h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+main .section.lead .default-content-wrapper h4 {
+  font-size: 20px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 26px;
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+/* CTAs in a lead section (live .atomic-buttons: wrap row, gap 16, full-width buttons < 1024) —
+   the wrapper flows as a wrapping row; every child spans it except CTA paragraphs. */
+/* stylelint-disable-next-line no-duplicate-selectors -- appended override of § lead (cascade order) */
+main .section.lead .default-content-wrapper {
+  flex-flow: row wrap;
+  column-gap: 16px;
+}
+
+main .section.lead .default-content-wrapper > * {
+  width: 100%;
+}
+
+main .section.lead .default-content-wrapper p:has(> a.button, > strong > a, > em > a) {
+  width: 100%;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* `lead compact` — body at live text-base (software text containers) */
+main .section.lead.compact .default-content-wrapper p {
+  font-size: 15px;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+}
+
+/* `lead ruled` — live .atomic-container-border-t: rule above the column + 24/32 px */
+main .section.lead.ruled .default-content-wrapper::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 8px;
+  background: var(--border-default);
+}
+
+/* `lead ticks` — live .atomic-tick-list: 24 px check badge + label at body type */
+main .section.lead.ticks .default-content-wrapper ul {
+  color: var(--grey-900);
+}
+
+main .section.lead.ticks .default-content-wrapper li {
+  display: flex;
+  padding-bottom: 0;
+}
+
+main .section.lead.ticks .default-content-wrapper li::before {
+  content: "";
+  flex: none;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24'%3E%3Ccircle cx='11.9985' cy='12.0004' r='12' fill='%23141414'/%3E%3Cpath d='M6.74854 11.6254L10.6212 15.3756L17.249 7.50024' stroke='white'/%3E%3C/svg%3E") center / 24px 24px no-repeat;
+}
+
+/* `page-image` — live .media-image in its own section: full-bleed picture, 32/48 rhythm */
+main .section.page-image {
+  padding: 32px 0;
+}
+
+main .section.page-image .default-content-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+main .section.page-image .default-content-wrapper p {
+  margin: 0;
+  line-height: 0;
+}
+
+main .section.page-image .default-content-wrapper picture {
+  display: block;
+}
+
+main .section.page-image .default-content-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* rhythm — live tw-pt-N md:tw-pt-M per component section. Blocks own their padding (#13), so the
+   style overrides the block's root padding; default-content sections carry it on the section. */
+main .section.flush-top:where(.lead, .page-image),
+main .section.flush-top > div > .block { padding-top: 0; }
+
+main .section.flush-bottom:where(.lead, .page-image),
+main .section.flush-bottom > div > .block { padding-bottom: 0; }
+
+main .section.tight-top:where(.lead, .page-image),
+main .section.tight-top > div > .block { padding-top: 16px; }
+
+main .section.tight-bottom:where(.lead, .page-image),
+main .section.tight-bottom > div > .block { padding-bottom: 16px; }
+
+main .section.loose-top:where(.lead, .page-image),
+main .section.loose-top > div > .block { padding-top: 64px; }
+
+main .section.loose-bottom:where(.lead, .page-image),
+main .section.loose-bottom > div > .block { padding-bottom: 64px; }
+
+/* `quote-solo` — a one-slide `carousel quotes` (software testimonial): live renders no Splide UI */
+main .section.quote-solo .carousel-controls {
+  display: none;
+}
+
+@media (width >= 600px) {
+  main .section.lead .default-content-wrapper h4 { font-size: calc(14.588px + 0.7353vw); }
+}
+
+@media (width >= 768px) {
+  main .section.breadcrumb-container .default-content-wrapper:not(:has(picture, img)) {
+    padding-bottom: 48px;
+  }
+
+  main .section.lead .default-content-wrapper h3 {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  main .section.lead .default-content-wrapper h4 { line-height: 1.3; }
+
+  main .section.lead.compact .default-content-wrapper p {
+    font-size: calc(14.1176px + 0.1471vw);
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+
+  main .section.lead.ruled .default-content-wrapper::before { margin-bottom: 12px; }
+
+  main .section.page-image { padding: 48px 0; }
+
+  main .section.tight-top:where(.lead, .page-image),
+  main .section.tight-top > div > .block { padding-top: 24px; }
+
+  main .section.tight-bottom:where(.lead, .page-image),
+  main .section.tight-bottom > div > .block { padding-bottom: 24px; }
+
+  main .section.loose-top:where(.lead, .page-image),
+  main .section.loose-top > div > .block { padding-top: 96px; }
+
+  main .section.loose-bottom:where(.lead, .page-image),
+  main .section.loose-bottom > div > .block { padding-bottom: 96px; }
+}
+
+@media (width >= 1024px) {
+  main .section.lead .default-content-wrapper p:has(> a.button, > strong > a, > em > a) { width: auto; }
+}
+
+@media (width >= 1280px) {
+  main .section.lead .default-content-wrapper h3 { font-size: 32px; }
+  main .section.lead .default-content-wrapper h4 { font-size: 24px; }
+  main .section.lead.compact .default-content-wrapper p { font-size: 16px; }
+}

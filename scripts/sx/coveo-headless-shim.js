@@ -129,7 +129,8 @@ export function buildSearchEngine({ configuration = {} } = {}) {
           if (a.state !== b.state) return a.state === 'selected' ? -1 : 1;
           return a.value.localeCompare(b.value, undefined, { numeric: true });
         })
-        .slice(0, fc.numberOfValues);
+        // live shows every value Coveo returned (8 regions, 12 months), not the 5 requested
+        .slice(0, Math.max(fc.numberOfValues, 20));
       fc.state.values = values;
       fc.state.hasActiveValues = selected.size > 0;
     });

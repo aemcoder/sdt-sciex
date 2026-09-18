@@ -1,0 +1,498 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:deploy sx-port:deliver + sx-port:published-gate (agent g5)",
+  "writtenAt": "2026-09-18T12:39:33Z",
+  "regime": "published-origin: live sciex.com (their EDS chrome) vs https://main--sdt-sciex--aemcoder.aem.live (our v3 chrome) — header/footer differ BY DESIGN (our chrome is the site's canonical chrome); the gate is the BODY band, anchored on the first content section of each side (anchor.mjs)"
+ },
+ "group": "g5",
+ "media": {
+  "uploaded": 18,
+  "da": "https://content.da.live/aemcoder/sdt-sciex/media/sx/",
+  "codes": "18 x 201",
+  "note": "content.da.live is auth-only for anonymous GETs (401) — same as the existing media/applications/*; the pipeline ingests them (pages render 19/9/1 imgs, 0 broken)"
+ },
+ "linkLocalization": {
+  "run": "localize-links.mjs --source-host sciex.com over content/ -> CHECK PASS (0 localizable)",
+  "sideEffect": "nav, footer, footer-legacy, index, applications/pharma-and-biopharma gained root-relative links to the new pages — redelivered with deploy-batch --force (5 x live)"
+ },
+ "lint": {
+  "davidsModelLint": "0 red x4",
+  "sanitise": "clean x4"
+ },
+ "chromeParity": {
+  "run": "events @1440, --no-defaults header=#mega-menu|header footer=footer",
+  "header": "13 pairs / 18 findings — their EDS header (Coveo box, static faces) vs our v3 header: family alias names, 'All' facet <button>->'<span>', Login/Shop dx — justified (canonical chrome)",
+  "footer": "39 pairs / 72 findings, region dy +41 dh +120 (964 vs 844), 4 MISSING / 15 EXTRA (partner-logo order, About Danaher) — justified (shared chrome, gated on home)",
+  "evidence": "stardust/replica/gates/events-published-1440/chrome-parity{,-footer}.json"
+ },
+ "contentDiff": {
+  "profile": "eds @1280 live vs published",
+  "events": "0 structural red, 18 yellow MISSING BODY = facet values (live listed all Coveo facet values, shim showed 5) — shim widened to 20, pending commit",
+  "resource-hub": "0/0",
+  "regulatory-documents": "0/0",
+  "contact-us": "0/0"
+ },
+ "reconcile": {
+  "round": 1,
+  "status": "applied locally, verified on the harness (bodies: 1440 1873/2440/1459/2224 vs live 1873/2440/1459/2225; 360 2326/4936/2202/4124 vs live 2326/4936/2202/4126) — NEEDS COMMIT, then re-run the published gate",
+  "changes": [
+   "styles/styles.css (sx-port section): main > .section:empty + .section { margin-top: 0 } (first visible section flush under header, was +40 px)",
+   "styles/styles.css: :where(body.sx-port) main img { display:inline; vertical-align:baseline } and main svg likewise (source cascade has no img/svg{display:block}; workflow icons +31 px, event cards +7 px)",
+   "styles/styles.css: heading/paragraph letter-spacing: inherit (was normal — broke the inherited 0.08px in nested block paragraphs)",
+   "styles/styles.css: @font-face \"Geogrotesque MD\" size-adjust: 94.5 % (static Medium is narrower than the VF at 530; icon-card title wrapped)",
+   "styles/styles.css: ported source global .search-wrapper { display:flex; gap:40px; flex-wrap:wrap; margin:0 auto } (contact-information relies on it)",
+   "scripts/sx/coveo-headless-shim.js: facet values cap 5 -> 20 (live shows every returned value)"
+  ]
+ },
+ "pages": [
+  {
+   "slug": "events",
+   "aliases": [
+    "events-f4f6"
+   ],
+   "path": "/events",
+   "live": "https://sciex.com/events?event=upcoming",
+   "title": "Events",
+   "plain": {
+    "http": 200,
+    "h1": 0,
+    "note": "h1 built client-side by blocks/events (same on the source)",
+    "aboutError": 0,
+    "imgs": 0
+   },
+   "ai": 6,
+   "aiNote": "client-rendered Coveo listing (shim over snapshot) — 143/149 words rendered, not served; logged, not fixed",
+   "r1440": {
+    "raw": 4.98,
+    "masked": 4.81,
+    "mask": "802:98,1702:98,2602:98",
+    "heightDelta": -161,
+    "headerDelta": "+41 px (their EDS header 130 vs our v3 131 + 40 px first-section margin — margin fixed, pending commit)",
+    "footerDelta": "+120 px (our footer 964 vs their EDS footer 844)",
+    "body": {
+     "liveBox": [
+      130,
+      1873
+     ],
+     "pubBox": [
+      171,
+      1873
+     ],
+     "bandPct": 0.94,
+     "passes": true
+    },
+    "headerCropPct": 3.48,
+    "footerCropPct": 4.67
+   },
+   "r360": {
+    "raw": 6.4,
+    "masked": 6.63,
+    "mask": "780:120 every 900 px",
+    "heightDelta": -27,
+    "body": {
+     "liveBox": [
+      66,
+      2326
+     ],
+     "pubBox": [
+      100,
+      2256
+     ],
+     "bandPct": 6.62,
+     "passes": false,
+     "cause": "event cards 161 vs 168 px: our base svg{display:block} — fixed (inline), harness 2326 = live",
+     "afterFixLocal": 2326
+    },
+    "headerCropPct": 9.14
+   },
+   "deliver": {
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "ledger": "live",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/events"
+   },
+   "guard": {
+    "passed": true,
+    "body": "sx-port appear",
+    "blocks": [
+     [
+      "sx-breadcrumb",
+      "loaded",
+      2
+     ],
+     [
+      "events",
+      "loaded",
+      44
+     ]
+    ],
+    "pageerrors": 0,
+    "brokenImages": 0,
+    "zeroWidthImgs": 0,
+    "dataRequests": [
+     "200 https://main--sdt-sciex--aemcoder.aem.live/data/events/upcoming.json",
+     "200 https://main--sdt-sciex--aemcoder.aem.live/data/events/on-demand.json",
+     "200 https://main--sdt-sciex--aemcoder.aem.live/data/events/_provenance.json"
+    ],
+    "rows": {
+     "eventCards": 10,
+     "monthHeadings": [
+      "October 2026",
+      "November 2026"
+     ],
+     "facetItems": 17,
+     "breadcrumbLabel": "Events"
+    },
+    "drive": {
+     "onDemand": {
+      "cards": 10,
+      "title": "On-demand",
+      "months": [
+       "May 2026",
+       "June 2026"
+      ]
+     },
+     "region": {
+      "label": "Europe",
+      "cards": 10
+     },
+     "afterMore": 20
+    }
+   },
+   "evidence": [
+    "stardust/replica/gates/events-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/events-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/events-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
+   ]
+  },
+  {
+   "slug": "resource-hub",
+   "path": "/resource-hub",
+   "live": "https://sciex.com/resource-hub",
+   "title": "Resource hub",
+   "plain": {
+    "http": 200,
+    "h1": 1,
+    "aboutError": 0,
+    "imgs": 13
+   },
+   "ai": 100,
+   "r1440": {
+    "raw": 4.54,
+    "masked": 3.7,
+    "mask": "802:98,1702:98,2602:98",
+    "heightDelta": -147,
+    "body": {
+     "liveBox": [
+      130,
+      2440
+     ],
+     "pubBox": [
+      171,
+      2426
+     ],
+     "bandPct": 2.15,
+     "passes": false,
+     "cause": "workflow icons 60 vs 91 px: our base img{display:block} — fixed (inline), harness 2440 = live",
+     "afterFixLocal": 2440
+    },
+    "headerCropPct": 3.31,
+    "footerCropPct": 4.67
+   },
+   "r360": {
+    "raw": 5.41,
+    "masked": 5.42,
+    "heightDelta": -33,
+    "body": {
+     "liveBox": [
+      66,
+      4936
+     ],
+     "pubBox": [
+      100,
+      4872
+     ],
+     "bandPct": 3.9,
+     "passes": false,
+     "cause": "img inline (workflow cards −7 each) + first category description 4 vs 5 lines (my letter-spacing: normal on nested p) — both fixed, harness 4936 = live",
+     "afterFixLocal": 4936
+    }
+   },
+   "deliver": {
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "ledger": "live",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/resource-hub"
+   },
+   "guard": {
+    "passed": true,
+    "body": "sx-port appear",
+    "blocks": [
+     [
+      "sx-breadcrumb",
+      "loaded",
+      2
+     ],
+     [
+      "sciex-text",
+      "loaded",
+      0
+     ],
+     [
+      "sciex-favorite",
+      "loaded",
+      4
+     ],
+     [
+      "categories",
+      "loaded",
+      19
+     ],
+     [
+      "featured-key-workflows",
+      "loaded",
+      7
+     ],
+     [
+      "cta-with-text",
+      "loaded",
+      3
+     ]
+    ],
+    "pageerrors": 0,
+    "brokenImages": 0,
+    "zeroWidthImgs": 0,
+    "dataRequests": [],
+    "rows": {
+     "categoryCards": 6,
+     "workflowCards": 6,
+     "favoritesLoggedOut": 1,
+     "searchBox": 1,
+     "breadcrumbLabel": "Resource hub"
+    },
+    "drive": null
+   },
+   "evidence": [
+    "stardust/replica/gates/resource-hub-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/resource-hub-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/resource-hub-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
+   ]
+  },
+  {
+   "slug": "resource-hub-regulatory-documents",
+   "path": "/resource-hub/regulatory-documents",
+   "live": "https://sciex.com/resource-hub/regulatory-documents",
+   "title": "Regulatory documents",
+   "plain": {
+    "http": 200,
+    "h1": 1,
+    "aboutError": 0,
+    "imgs": 5
+   },
+   "ai": 98,
+   "r1440": {
+    "raw": 5.55,
+    "masked": 5.32,
+    "heightDelta": -161,
+    "body": {
+     "liveBox": [
+      130,
+      1459
+     ],
+     "pubBox": [
+      171,
+      1459
+     ],
+     "bandPct": 1.56,
+     "passes": true
+    },
+    "headerCropPct": 3.31,
+    "footerCropPct": 4.67
+   },
+   "r360": {
+    "raw": 7.27,
+    "masked": 7.63,
+    "heightDelta": -97,
+    "body": {
+     "liveBox": [
+      66,
+      2202
+     ],
+     "pubBox": [
+      100,
+      2202
+     ],
+     "bandPct": 2.64,
+     "passes": false,
+     "cause": "heights identical; residual = live fixed widgets (chat bubble, WalkMe) inside the band + 1 px glyph shifts across stitch chunks (texture thick 50 %)"
+    }
+   },
+   "deliver": {
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "ledger": "live",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/resource-hub/regulatory-documents"
+   },
+   "guard": {
+    "passed": true,
+    "body": "sx-port appear",
+    "blocks": [
+     [
+      "sciex-text",
+      "loaded",
+      0
+     ],
+     [
+      "sciex-favorite",
+      "loaded",
+      4
+     ],
+     [
+      "categories",
+      "loaded",
+      13
+     ],
+     [
+      "cta-with-text",
+      "loaded",
+      3
+     ]
+    ],
+    "pageerrors": 0,
+    "brokenImages": 0,
+    "zeroWidthImgs": 0,
+    "dataRequests": [],
+    "rows": {
+     "categoryCards": 4,
+     "favoritesLoggedOut": 1,
+     "searchBox": 1
+    },
+    "drive": null
+   },
+   "evidence": [
+    "stardust/replica/gates/resource-hub-regulatory-documents-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/resource-hub-regulatory-documents-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/resource-hub-regulatory-documents-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
+   ]
+  },
+  {
+   "slug": "about-us-contact-us",
+   "path": "/about-us/contact-us",
+   "live": "https://sciex.com/about-us/contact-us",
+   "title": "Contact Us",
+   "plain": {
+    "http": 200,
+    "h1": 0,
+    "note": "h1 built client-side by blocks/hero-small (same on the source)",
+    "aboutError": 0,
+    "imgs": 1
+   },
+   "ai": 81,
+   "aiNote": "partners country finder renders 46/95 words client-side from the snapshot; logged, not fixed",
+   "r1440": {
+    "raw": 12.58,
+    "masked": 13.23,
+    "heightDelta": -160,
+    "note": "full-bleed hero photo shifted 41 px inflates the unaligned full-page number",
+    "body": {
+     "liveBox": [
+      130,
+      2225
+     ],
+     "pubBox": [
+      171,
+      2224
+     ],
+     "bandPct": 1.92,
+     "passes": true
+    },
+    "headerCropPct": 3.48,
+    "footerCropPct": 4.68
+   },
+   "r360": {
+    "raw": 12.02,
+    "masked": 12.83,
+    "heightDelta": -99,
+    "body": {
+     "liveBox": [
+      66,
+      4126
+     ],
+     "pubBox": [
+      100,
+      4128
+     ],
+     "bandPct": 5.22,
+     "passes": false,
+     "cause": "live global .search-wrapper{flex-wrap} (their styles.css) wraps the country input under its icon (76 vs 49 px) and the static \"Geogrotesque MD\" face is narrower than our VF alias (3rd icon-card title wrapped) — both fixed (global rule ported, size-adjust 94.5 %), harness 4124 vs live 4126"
+    }
+   },
+   "deliver": {
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "ledger": "live",
+    "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/about-us/contact-us"
+   },
+   "guard": {
+    "passed": true,
+    "body": "sx-port appear",
+    "blocks": [
+     [
+      "hero-small",
+      "loaded",
+      6
+     ],
+     [
+      "sciex-headquaters",
+      "loaded",
+      1
+     ],
+     [
+      "icon-card",
+      "loaded",
+      13
+     ],
+     [
+      "contact-information",
+      "loaded",
+      6
+     ],
+     [
+      "cta-with-text",
+      "loaded",
+      4
+     ]
+    ],
+    "pageerrors": 0,
+    "brokenImages": 0,
+    "zeroWidthImgs": 0,
+    "dataRequests": [
+     "200 https://main--sdt-sciex--aemcoder.aem.live/data/partners/partners.json",
+     "200 https://main--sdt-sciex--aemcoder.aem.live/data/partners/_provenance.json"
+    ],
+    "rows": {
+     "contactCards": 2,
+     "regionOptions": 5,
+     "iconCards": 3,
+     "hqItems": 3
+    },
+    "drive": {
+     "emeai": {
+      "cards": 120,
+      "countries": 104
+     },
+     "germ": "SCIEX Germany"
+    }
+   },
+   "evidence": [
+    "stardust/replica/gates/about-us-contact-us-published-1440/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/about-us-contact-us-published-360/ (live, build, diff-v1, diff-masked, body-band-diff, chrome-header-diff .png; anchor-live/anchor-published.json; pixel-masked.json)",
+    "stardust/replica/gates/about-us-contact-us-published-1440/ (chrome-footer-diff.png, content-diff.txt)"
+   ]
+  }
+ ]
+}

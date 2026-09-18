@@ -1,9 +1,27 @@
 {
+  "/applications/pharma-and-biopharma": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T12:12:35.563Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer-legacy": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T12:12:35.564Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
   "/footer": {
     "status": "live",
     "attempts": 1,
-    "ts": "2026-09-18T09:30:50.832Z",
-    "put": 201,
+    "ts": "2026-09-18T12:12:41.368Z",
+    "put": 200,
     "preview": 200,
     "live": 200,
     "verify": "ok"
@@ -11,8 +29,8 @@
   "/index": {
     "status": "live",
     "attempts": 1,
-    "ts": "2026-09-18T09:30:50.835Z",
-    "put": 201,
+    "ts": "2026-09-18T12:12:41.608Z",
+    "put": 200,
     "preview": 200,
     "live": 200,
     "verify": "ok"
@@ -20,36 +38,8 @@
   "/nav": {
     "status": "live",
     "attempts": 1,
-    "ts": "2026-09-18T09:30:50.835Z",
-    "put": 201,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/applications/pharma-and-biopharma": {
-    "status": "live",
-    "attempts": 2,
-    "ts": "2026-09-18T11:00:26.384Z",
+    "ts": "2026-09-18T12:12:47.338Z",
     "put": 200,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok",
-    "note": "redelivered (Disclaimer Code metadata) via curl PUT→preview→live"
-  },
-  "/footer-legacy": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T10:45:42.916Z",
-    "put": 201,
-    "preview": 200,
-    "live": 200,
-    "verify": "ok"
-  },
-  "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us": {
-    "status": "live",
-    "attempts": 1,
-    "ts": "2026-09-18T10:46:53.806Z",
-    "put": 201,
     "preview": 200,
     "live": 200,
     "verify": "ok"
