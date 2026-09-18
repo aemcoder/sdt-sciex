@@ -37,6 +37,13 @@
   .textblock--center .ab--buttons { justify-content: center; }
 }
 
+/* live .text-sm: 13/18 weight 330 letter-spacing .065px → 14/20 .07px @768 (canon .t-sm carries size/lh only — back-port candidate) */
+.container-v2 .t-sm { font-weight: 330; letter-spacing: .065px; }   /* scoped to the content root — the canon footer also uses .t-sm and is gated as-is */
+@media (min-width: 768px) { .container-v2 .t-sm { letter-spacing: .07px; } }
+/* live .atomic-richtext-content ul { list-style-type: disc; margin-left: 16px } (preflight zeroes padding) */
+.richtext ul { list-style-type: disc; margin-left: 16px; padding-left: 0; }
+.richtext ol { list-style-type: decimal; margin-left: 16px; padding-left: 0; padding-top: 6px; }
+
 /* live .text-echo-bolder (20/26 → 19 lh1.3 → fluid → 24 @1280) */
 .t-echo-bolder { font-size: 20px; font-weight: 530; line-height: 26px; }
 @media (min-width: 768px) { .t-echo-bolder { font-size: 19px; line-height: 1.3; } }

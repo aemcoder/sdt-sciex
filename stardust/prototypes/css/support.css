@@ -93,7 +93,7 @@
 .sn-band__col { position: relative; width: 100%; flex: 0 0 50%; max-width: 50%; min-height: 1px; padding: 0 6px; float: left; }   /* BS4 .col-* base width:100% (mobile: full-width rows) */
 .sn-shell .sn-band__lede { margin: 5px 0 0; font: 400 20px/24px proxima-nova, Arial, Verdana, sans-serif; color: #fff; }   /* live inline: 'proxima-nova',Arial,Verdana — Typekit kit never rehosted; Arial is the live stack's own fallback */
 .sn-band__search { margin-bottom: 10px; }
-.sn-band__input { display: inline-block; width: 100%; padding: 5px; font: 400 14px/22.4px Arial, Verdana, sans-serif; color: var(--lg-text); background: #fff; border: 2px inset rgb(118,118,118); }
+.sn-band__input { display: inline-block; width: 100%; padding: 5px; font: 400 14px/22.4px Arial, Verdana, sans-serif; color: var(--lg-text); background-color: revert; border: revert; appearance: auto; }   /* live: UA-default border + appearance:auto → Chromium paints the native textfield (an author border would drop it) */
 .sn-band__input::placeholder { color: rgb(126,128,131); opacity: 1; }
 .sn-band__submit { position: absolute; top: 0; right: 0; width: 36px; height: 34px; padding: 1px 6px; font: 400 14px/22.4px Helvetica, Arial, sans-serif; color: #fff; background: var(--lg-link) url(../assets/media/g4/search-white.png) 50% 50% no-repeat; border: 0; border-radius: 0; cursor: pointer; white-space: pre; }
 

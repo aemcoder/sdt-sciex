@@ -154,3 +154,10 @@
   .expertise__p { font-size: 16px; line-height: 24px; }
   .expertise__link { font-size: 16px; line-height: 24px; }
 }
+
+/* --- Live legacy-template chrome quirk (chrome-parity iter2: 11 header colour deltas) ---------------
+   The legacy page wraps header+body in `.tw` and its components inject `<style>.tw a{color:#428bca}</style>`,
+   so every header link without a more specific colour rule renders #428bca (visible in the live capture:
+   blue nav labels, blue Login/Shop/Request a quote). Mirrored here for the gate; inconsistency-register
+   candidate (live bug: v3 header recoloured on the page-content template). */
+.page--pls .hdr-utility__link > a, .page--pls .hdr-rfq > a, .page--pls .hdr-nav__row > ul > li > a { color: #428bca; }

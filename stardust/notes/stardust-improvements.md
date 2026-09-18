@@ -228,3 +228,25 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
 - **Suggest:** the CSS-lift probe should flag `display: inline` elements carrying
   vertical margin/padding as "inert vertical box" and record the containing line-box
   height instead.
+
+## N-25 — Tailwind sites need a "live DOM → clean markup" builder, not a CSS-rule lift
+- **Observed (G1, 8 pages):** component classes carry no rules in a Tailwind stylesheet;
+  the values live in utility classes on the DOM. The group agent wrote a builder
+  (`stardust/.work/g1/build-g1.py`) that reads the settled DOM sidecar, maps utility
+  classes + computed styles to clean component markup, and reads per-instance variant
+  flags (overlay present/absent, ruled borders, injected page CSS) from the live DOM.
+  6 of 8 pages converged in ONE gate iteration.
+- **Suggest:** recreation-procedure.md § CSS lifting should name this path for
+  utility-class sites, and replica could ship a generic builder skeleton (sidecar in,
+  section list + per-instance flags out).
+
+## N-26 — Instrument notes from G1
+- `pixel-compare --mask` without `--timeout` can hang (gate.sh's reaper caught a 14-min
+  stale process); always pass `--timeout`, or default it.
+- A `--mask-seams <chunkHeight>` convenience flag would replace the per-page seam-row
+  analysis for fixed third-party widgets (every 1440 page needed it; never at 360).
+- content-diff inventories `<style>` text injected inside `main` as body copy (AEM
+  `htmlInjectionContainer`); the prototype had to mirror the `<style>` element verbatim
+  to zero the 🟡 — the classifier should skip `style`/`script` text nodes.
+- The component inventory (`v3-components.json`) missed `tabs` + nested `accordion`
+  on products-software — nested AEM components are not `aem-GridColumn` direct children.

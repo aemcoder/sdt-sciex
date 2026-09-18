@@ -1,0 +1,1677 @@
+{
+ "group": "g2",
+ "generatedAt": "2026-09-18T12:22:40Z",
+ "pages": [
+  {
+   "archetype": "applications-forensics-testing",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications/forensics-testing",
+   "protoPath": "stardust/prototypes/applications-forensics-testing-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-forensics-testing-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-forensics-testing-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-forensics-testing-360.json",
+     "stardust/replica/capture/tokens-g2-applications-forensics-testing-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "hero-text (pb variant)",
+    "hero-small",
+    "text-1-col ×4 (pt0/pb0 variants)",
+    "split-right ×2 (Plyr video + picture media)",
+    "ghost",
+    "media-card (7, 4-up)",
+    "split-left ×4 (product image + resource list)"
+   ],
+   "newComponents": [
+    ".hero-small",
+    ".split / .split--right / .split--left (+ .split__content .split__media .split__img)",
+    ".ab atomic blocks (.ab--heading .ab--rich .ab--buttons .ab--resources .ab--media .ab--image)",
+    ".media-frame (Splide fade carousel, 1 slide) + PORTED:plyr block",
+    ".resources (tech-notes box)",
+    ".media-cards (+ .card)",
+    ".ghost",
+    ".hero-text--pb",
+    ".sec--pt0",
+    ".btn-secondary"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications-forensics-testing.json",
+     "animations": 0,
+     "transitions": 12,
+     "classMutations": 0,
+     "transitionProps": [
+      "background-size 0.15s",
+      "color 0.3s",
+      "color 0.5s",
+      "left 0.5s",
+      "margin-left 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".media-card-item",
+       "changed": []
+      },
+      {
+       "sel": ".split-component-content .atomic-buttons a",
+       "changed": []
+      },
+      {
+       "sel": ".atomic-resource-list a",
+       "changed": []
+      },
+      {
+       "sel": ".media-card-text a",
+       "changed": []
+      },
+      {
+       "sel": ".plyr__controls .plyr__control",
+       "changed": []
+      },
+      {
+       "sel": "nav[id^=breadcrumb] a",
+       "changed": []
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "card / thumb image transform scale(1.05) .5s (pharma .card__media img:hover; fired on clinical, biomedical, applications, cannabis)",
+     "primary/secondary CTA bottom-up gradient fill: background-size 100% 0 → 100% 100% .15s (transition fired on the traversal; added .btn-primary:hover/.btn-secondary:hover in v3-applications.css)"
+    ],
+    "dead": [
+     "6 hover probes (media-card item, CTA, resource link, card link, plyr control, breadcrumb link) measured no computed change; breadcrumb hover:tw-text-grey-900 dead as on pharma; Plyr play not poked (no media asset)"
+    ]
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 7.86,
+       "differingPx": 894737,
+       "heightDelta": 60,
+       "fixes": "first gate (pre-fix build): build-side lift named #7 +20 (empty .atomic-media inherited the .ab padding) and #11–14 −20 (split image column keeps its pb-16/20 on the last child) — both fixed before iter2; footer disclaimer code regex widened to the full XF span text (RUO-MKT-…)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.61,
+       "differingPx": 70542,
+       "heightDelta": 0,
+       "fixes": "plyr: tree-shake had dropped .plyr__sr-only (labels visible) — kept; overlaid play button painted #00b2ff vs live transparent (computed rgba(0,0,0,0)) — scoped override; Splide ul/li mirrored (content 🟡 EDITABLE COUNT 39 vs 40 cleared)"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.36,
+       "differingPx": 41655,
+       "heightDelta": 0,
+       "fixes": "final — only widget seam rows remain"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.36,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "98 text nodes — 14 headings, 0 eyebrows, 23 CTAs, 61 body; 13 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: forensic-hair-nails-analysis-w1440.webp natural 1440x806 → rendered 656x492",
+       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 800:100, 1701:99, 2600:100, 3501:99, 4401:99, 5301:99, 6201:99, 7892:75",
+       "pct": 0.36,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "plyr control bar x 720–1376 y 1891–1968",
+       "pct": 0.0,
+       "cause": "capture-state: live Plyr current-time reads '-01:13' in the settled gate capture but '01:13' in the extract DOM and at content-diff time (invertTime state depends on metadata load timing); prototype mirrors the DOM text — a few glyphs",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      },
+      {
+       "what": "video asset /content/dam/SCIEX/videos/forensics/pierre-tox-box-intro.mp4 (134 MB) NOT harvested — poster + Plyr DOM/CSS ported, <source> omitted; play is inert until delivery uploads the media",
+       "where": "split-right #1 (Tox Chat Box)"
+      },
+      {
+       "what": "live Plyr overlaid play button computes background rgba(0,0,0,0) (white 18px glyph on the poster) — mirrored with a scoped override",
+       "where": "video poster centre"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.31,
+       "differingPx": 14347,
+       "heightDelta": 0,
+       "fixes": "ran after the footer-code fix (pre-fix build-side lift showed −18 px = one disclaimer wrap line)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.01,
+       "differingPx": 395,
+       "heightDelta": 0,
+       "fixes": "after the plyr fixes — 395 px"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.01,
+      "pixelPctMasked": 0.01,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "98 text nodes — 14 headings, 0 eyebrows, 23 CTAs, 61 body; 13 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: forensics-hub-main-2880x1024-w375.webp natural 375x133 → rendered 360x420",
+       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: forensic-hair-nails-analysis-w375.webp natural 375x210 → rendered 312x234",
+       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      },
+      {
+       "what": "video asset /content/dam/SCIEX/videos/forensics/pierre-tox-box-intro.mp4 (134 MB) NOT harvested — poster + Plyr DOM/CSS ported, <source> omitted; play is inert until delivery uploads the media",
+       "where": "split-right #1 (Tox Chat Box)"
+      },
+      {
+       "what": "live Plyr overlaid play button computes background rgba(0,0,0,0) (white 18px glyph on the poster) — mirrored with a scoped override",
+       "where": "video poster centre"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "applications-clinical",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications/clinical",
+   "protoPath": "stardust/prototypes/applications-clinical-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-clinical-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-clinical-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-clinical-360.json",
+     "stardust/replica/capture/tokens-g2-applications-clinical-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "hero-small (h1 inside, fixed 512px via the `hero` clientlib)",
+    "hero (empty stylesheet loader)",
+    "breadcrumb AFTER the hero",
+    "text-1-col",
+    "media-card (2, 2-up, tight top, no head)",
+    "text-container-center-aligned-1-col (text-sm)"
+   ],
+   "newComponents": [
+    ".hero-small--h512 + .hero-small__title (clientlib-hero.min.css .hero-small{height:512px} — 60 px gap under the 420 px mobile frame, as live)",
+    ".hero-shell",
+    ".media-cards--tight / .media-cards__grid--2 / .media-cards__item--mb0",
+    ".textblock--center (centres from md only)"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications-clinical.json",
+     "animations": 0,
+     "transitions": 12,
+     "classMutations": 0,
+     "transitionProps": [
+      "color 0.3s",
+      "color 0.5s",
+      "left 0.5s",
+      "margin-left 0.5s",
+      "transform 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".media-card-item a.tw-group",
+       "changed": [
+        "img.tw-transition-transform.tw-duration-500.transform"
+       ]
+      },
+      {
+       "sel": ".media-card-text a",
+       "changed": [
+        "self.color"
+       ]
+      },
+      {
+       "sel": "h1",
+       "changed": []
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "card / thumb image transform scale(1.05) .5s (pharma .card__media img:hover; fired on clinical, biomedical, applications, cannabis)"
+    ],
+    "dead": [
+     "h1 hover: no change"
+    ]
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.35,
+       "differingPx": 16574,
+       "heightDelta": 0,
+       "fixes": "first gate; build-side lift matched every component (docH +18 came from the footer code text \"Related to GEN-MKT-18-6312-B\" → verbatim span text)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.35,
+       "differingPx": 16574,
+       "heightDelta": 0,
+       "fixes": "byte-identical re-run after the 360 fix"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.85,
+       "differingPx": 40601,
+       "heightDelta": -18,
+       "fixes": "after .t-sm weight/letter-spacing lift (13/18 .065 → 14/20 .07, weight 330)"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.29,
+       "differingPx": 13874,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.29,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "19 text nodes — 2 headings, 0 eyebrows, 10 CTAs, 7 body; 3 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 801:99, 1700:100, 3232:75",
+       "pct": 0.29,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 3,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.23,
+       "differingPx": 4260,
+       "heightDelta": 0,
+       "fixes": "centred disclaimer was centred at 360 — live centres from md only (lift: text-align start)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.1,
+       "differingPx": 1897,
+       "heightDelta": 0,
+       "fixes": "after the centre fix"
+      },
+      {
+       "label": "iter3",
+       "pixelPct": 0.4,
+       "differingPx": 7455,
+       "heightDelta": 0,
+       "fixes": "after .t-sm metrics"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.0,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "19 text nodes — 2 headings, 0 eyebrows, 10 CTAs, 7 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: sciex-clinical-banner-main-w375.webp natural 375x133 → rendered 360x420",
+       "why": "object-fit: cover crop exactly as live (tw-object-cover / aspect-4/3)"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "applications-environmental-testing",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications/environmental-testing",
+   "protoPath": "stardust/prototypes/applications-environmental-testing-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-environmental-testing-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-environmental-testing-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-environmental-testing-360.json",
+     "stardust/replica/capture/tokens-g2-applications-environmental-testing-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "hero-text + lede",
+    "media-image (pharma .page-image)",
+    "text-1-col ×3 (heading h2+p charlie, tick list, ruled column with secondary button)",
+    "image-card (pharma .app-cards, 4)",
+    "events-row (3)"
+   ],
+   "newComponents": [
+    ".events (+ __head __row __item __thumb __meta __icon--lg/--sm __body __kicker __title __cta)",
+    ".ticks (atomic tick list)",
+    ".textblock__col--bt (ruled column)",
+    ".btn-secondary (grey-900 text, blue border, gradient fill on hover)"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications-environmental-testing.json",
+     "animations": 0,
+     "transitions": 0,
+     "classMutations": 0,
+     "transitionProps": [],
+     "hoverProbes": [
+      {
+       "sel": ".events-row a.tw-group",
+       "changed": []
+      },
+      {
+       "sel": ".image-card .tw-grid a.tw-group",
+       "changed": []
+      },
+      {
+       "sel": ".atomic-buttons a",
+       "changed": []
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "image-card thumb scale (shared rule; fired on the applications page for the same class)"
+    ],
+    "dead": [
+     "events-row thumb group-hover:tw-scale-[1.05] — hover probe on the row anchor measured NO change (3 probes, 0 transitions) → recorded dead, not implemented",
+     "secondary CTA hover: no change measured here (fill implemented from the forensics/biomedical evidence)"
+    ]
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.38,
+       "differingPx": 27688,
+       "heightDelta": 0,
+       "fixes": "first gate after build-side lift convergence"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.37,
+       "differingPx": 27196,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.37,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "34 text nodes — 5 headings, 0 eyebrows, 7 CTAs, 22 body; 8 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 802:98, 1701:99, 2601:99, 3501:99, 4967:75",
+       "pct": 0.37,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.01,
+       "differingPx": 444,
+       "heightDelta": 0,
+       "fixes": "build-side lift: tick-list wrapped more (t-base letter-spacing .075 vs live normal on the inherited ul) — fixed before the gate"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "34 text nodes — 5 headings, 0 eyebrows, 7 CTAs, 22 body; 8 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "applications-food-and-beverage-testing",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications/food-and-beverage-testing",
+   "protoPath": "stardust/prototypes/applications-food-and-beverage-testing-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-food-and-beverage-testing-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-food-and-beverage-testing-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-food-and-beverage-testing-360.json",
+     "stardust/replica/capture/tokens-g2-applications-food-and-beverage-testing-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "hero-text + lede",
+    "media-image",
+    "text-1-col (heading, tick list, richtext)",
+    "image-text-2-col (3)"
+   ],
+   "newComponents": [
+    ".imgtext (+ __wrap __head __item __thumb __text __title __body)"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications-food-and-beverage-testing.json",
+     "animations": 0,
+     "transitions": 14,
+     "classMutations": 0,
+     "transitionProps": [
+      "color 0.3s",
+      "color 0.5s",
+      "left 0.5s",
+      "margin-left 0.5s",
+      "transform 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".image-text-2-col-content a",
+       "changed": [
+        "img.tw-aspect-4/3.tw-transition-all.transform"
+       ]
+      },
+      {
+       "sel": ".image-text-2-col-content img",
+       "changed": [
+        "self.transform"
+       ]
+      },
+      {
+       "sel": ".image-text-2-col-content .tw-grow a",
+       "changed": [
+        "self.color"
+       ]
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "image-text thumb img transform scale(1.05) .5s on hover (fired: hover probe changed img.transform) — .imgtext__thumb img:hover"
+    ],
+    "dead": []
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.52,
+       "differingPx": 26995,
+       "heightDelta": 0,
+       "fixes": "first gate"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.67,
+       "differingPx": 34591,
+       "heightDelta": 0,
+       "fixes": "after the tick-list letter-spacing fix (shared CSS; iter1 captured the pre-fix build) and .t-sm metrics"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.4,
+       "differingPx": 20603,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.4,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.35,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "21 text nodes — 3 headings, 0 eyebrows, 5 CTAs, 13 body; 4 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 801:99, 1701:99, 2625:47, 3497:75",
+       "pct": 0.4,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.35,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.26,
+       "differingPx": 4833,
+       "heightDelta": 0,
+       "fixes": "pre-fix tick list (2.4% band 500–1000: glyph shift from .075px letter-spacing)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.4,
+       "differingPx": 7396,
+       "heightDelta": 0,
+       "fixes": "after fix"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "21 text nodes — 3 headings, 0 eyebrows, 5 CTAs, 13 body; 4 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "applications-biomedical-and-omics-research",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications/biomedical-and-omics-research",
+   "protoPath": "stardust/prototypes/applications-biomedical-and-omics-research-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-biomedical-and-omics-research-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-biomedical-and-omics-research-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-biomedical-and-omics-research-360.json",
+     "stardust/replica/capture/tokens-g2-applications-biomedical-and-omics-research-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "text-2-col ×3 (h2 bravo + textarea; h3 + textarea; connect heading + primary/secondary buttons with an empty second column)",
+    "hero-small (with .overlay black 40%)",
+    "spacer (1 px)",
+    "image-text-2-col (4)",
+    "statement-3-card",
+    "media-card (4)",
+    "social-media-wall ×2 (empty)"
+   ],
+   "newComponents": [
+    ".statement (+ __grid __item --word __word __rot __s1/__s2/__s3 — rotate-180 + writing-mode vertical-rl at md)",
+    ".hero-small__overlay",
+    ".spacer",
+    ".social-wall",
+    ".textblock--2col (pharma .textblock__col--half)"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications-biomedical-and-omics-research.json",
+     "animations": 0,
+     "transitions": 7,
+     "classMutations": 0,
+     "transitionProps": [
+      "background-size 0.15s",
+      "transform 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".statement-3-card a.tw-group",
+       "changed": [
+        "img.tw-transition-transform.tw-duration-500.transform"
+       ]
+      },
+      {
+       "sel": ".statement-3-card img",
+       "changed": [
+        "self.transform"
+       ]
+      },
+      {
+       "sel": ".atomic-buttons a",
+       "changed": []
+      },
+      {
+       "sel": ".media-card-item img",
+       "changed": [
+        "self.transform"
+       ]
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "card / thumb image transform scale(1.05) .5s (pharma .card__media img:hover; fired on clinical, biomedical, applications, cannabis)",
+     "CTA background-size fill .15s (fired here too)"
+    ],
+    "dead": [
+     "secondary CTA hover probe: no computed change (fill rule kept from the fired transition)"
+    ]
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.41,
+       "differingPx": 28817,
+       "heightDelta": 0,
+       "fixes": "first gate after build-side lift convergence (harvester: URLs with spaces now percent-encoded)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "1 justified",
+      "pixelPct": 0.41,
+      "pixelPctMasked": 0.01,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "46 text nodes — 5 headings, 0 eyebrows, 14 CTAs, 27 body; 11 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: jenny-van-eyk_final-export_with-ruo_v1.2.00_00_15_28.still044.jpg natural 1920x1080 → rendered 416x312",
+       "why": "object-fit: cover crop exactly as live (16:9 still cropped to 4/3 card media)"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 800:100, 1701:99, 2601:99, 3501:99, 4838:75",
+       "pct": 0.4,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.01%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      },
+      {
+       "what": "two .social-media-wall components are EMPTY in the settled DOM and in every live capture (third-party wall embed never rendered headless; see dynamic-features T-rows) — replicated empty (0 px)",
+       "where": "between Product highlights and Let's connect"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.02,
+       "differingPx": 548,
+       "heightDelta": 0,
+       "fixes": "first gate"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.02,
+      "pixelPctMasked": 0.02,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "46 text nodes — 5 headings, 0 eyebrows, 14 CTAs, 27 body; 11 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: life-science-research-hero-2880x1024-w375.webp natural 375x133 → rendered 360x420",
+       "why": "object-fit: cover crop exactly as live"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: jenny-van-eyk_final-export_with-ruo_v1.2.00_00_15_28.still044.jpg natural 1920x1080 → rendered 312x234",
+       "why": "object-fit: cover crop exactly as live"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      },
+      {
+       "what": "two .social-media-wall components are EMPTY in the settled DOM and in every live capture (third-party wall embed never rendered headless; see dynamic-features T-rows) — replicated empty (0 px)",
+       "where": "between Product highlights and Let's connect"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "applications-cannabis-testing",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications/cannabis-testing",
+   "protoPath": "stardust/prototypes/applications-cannabis-testing-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-cannabis-testing-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-cannabis-testing-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-cannabis-testing-360.json",
+     "stardust/replica/capture/tokens-g2-applications-cannabis-testing-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "hero-text",
+    "hero-small (empty content)",
+    "text-1-col (h3 echo, richtext with h2, tick list, richtext, arrow-link in the buttons slot)",
+    "media-card (2, 2-up, ruled head h2 charlie)"
+   ],
+   "newComponents": [
+    ".media-cards__head--rule (border-top + h2 pt 24/32)",
+    ".ab__btn--link (arrow link inside the buttons slot)"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications-cannabis-testing.json",
+     "animations": 0,
+     "transitions": 22,
+     "classMutations": 0,
+     "transitionProps": [
+      "color 0.3s",
+      "color 0.5s",
+      "left 0.5s",
+      "margin-left 0.5s",
+      "transform 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".media-card-item img",
+       "changed": [
+        "self.transform"
+       ]
+      },
+      {
+       "sel": ".atomic-buttons a",
+       "changed": [
+        "self.color"
+       ]
+      },
+      {
+       "sel": ".media-card-text a",
+       "changed": []
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "card / thumb image transform scale(1.05) .5s (pharma .card__media img:hover; fired on clinical, biomedical, applications, cannabis)"
+    ],
+    "dead": [
+     "media-card text link hover probe: no change (arrow-link transitions fired elsewhere on the page)"
+    ]
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.37,
+       "differingPx": 21110,
+       "heightDelta": 0,
+       "fixes": "build-side lift: media-card head −33 (live head carries tw-border-t + h2 pt-24/32) — fixed before the gate"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "2 justified",
+      "pixelPct": 0.37,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "21 text nodes — 4 headings, 0 eyebrows, 5 CTAs, 12 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: icon-cannabis-pesticide-testing-02-enlarge-w1440.webp natural 744x744 → rendered 640x480",
+       "why": "live crops the square 744×744 icon renditions into the 4/3 card media with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: icon-cannabis-mycotoxin-testing-02-enlarge-w1440.webp natural 744x744 → rendered 640x480",
+       "why": "live crops the square 744×744 icon renditions into the 4/3 card media with object-fit: cover — mirrored"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 801:99, 1701:99, 2601:99, 3887:75",
+       "pct": 0.37,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.01,
+       "differingPx": 214,
+       "heightDelta": 0,
+       "fixes": "same pre-gate fix (−25)"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "3 justified",
+      "pixelPct": 0.01,
+      "pixelPctMasked": 0.01,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "21 text nodes — 4 headings, 0 eyebrows, 5 CTAs, 12 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: 33538-pesticide-testing-for-cannabis-and-hemp-w375.webp natural 375x137 → rendered 360x420",
+       "why": "live crops the square icon renditions / hero into the frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: icon-cannabis-pesticide-testing-02-enlarge-w375.webp natural 375x375 → rendered 312x234",
+       "why": "live crops the square icon renditions / hero into the frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: icon-cannabis-mycotoxin-testing-02-enlarge-w375.webp natural 375x375 → rendered 312x234",
+       "why": "live crops the square icon renditions / hero into the frame with object-fit: cover — mirrored"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "applications",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/applications",
+   "protoPath": "stardust/prototypes/applications-proposed.html",
+   "protoServedAt": "http://localhost:8825/applications-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-applications-1440.json",
+     "stardust/replica/capture/tokens-g2-applications-360.json",
+     "stardust/replica/capture/tokens-g2-applications-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "hero-text",
+    "text-1-col (h3 echo + richtext with <b> leads)",
+    "image-card (6, ruled head h2 delta + p lg 7/12)"
+   ],
+   "newComponents": [],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/applications.json",
+     "animations": 0,
+     "transitions": 5,
+     "classMutations": 0,
+     "transitionProps": [
+      "transform 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".image-card .tw-grid img",
+       "changed": [
+        "self.transform"
+       ]
+      },
+      {
+       "sel": ".image-card .tw-grid a.tw-group",
+       "changed": [
+        "img.tw-transition-transform.tw-duration-500.transform"
+       ]
+      },
+      {
+       "sel": ".image-card .tw-grid .tw-self-start a",
+       "changed": [
+        "img.tw-transition-transform.tw-duration-500.transform"
+       ]
+      }
+     ]
+    },
+    "implemented": [
+     "image-card thumb scale(1.05) .5s (fired on 3 probes) — shared pharma .card__media img:hover"
+    ],
+    "dead": []
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.28,
+       "differingPx": 14621,
+       "heightDelta": 0,
+       "fixes": "first gate — matched"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.28,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.31,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "29 text nodes — 3 headings, 0 eyebrows, 7 CTAs, 19 body; 6 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 801:99, 1701:99, 2625:38, 3488:75",
+       "pct": 0.28,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.31,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0,
+       "fixes": "first gate — 0 differing px"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.0,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "29 text nodes — 3 headings, 0 eyebrows, 7 CTAs, 19 body; 6 img",
+      "pass": true
+     },
+     "justified": [],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "archetype": "education-clinical-mass-spec-knowledge-center",
+   "pageType": "landing",
+   "group": "g2",
+   "liveUrl": "https://sciex.com/education/clinical-mass-spec-knowledge-center",
+   "protoPath": "stardust/prototypes/education-clinical-mass-spec-knowledge-center-proposed.html",
+   "protoServedAt": "http://localhost:8825/education-clinical-mass-spec-knowledge-center-proposed.html",
+   "contentRoot": ".container-v2.aem-GridColumn",
+   "regime": "prototype",
+   "gatedAt": "2026-09-18T12:22:40Z",
+   "sharedLayers": {
+    "css": [
+     "stardust/prototypes/css/canon.css",
+     "stardust/prototypes/css/applications-pharma-and-biopharma.css",
+     "stardust/prototypes/css/v3-applications.css"
+    ],
+    "js": [
+     "stardust/prototypes/js/motion.js"
+    ],
+    "builder": "stardust/replica/capture/build-g2.py (live settled DOM → clean markup; chrome copied verbatim from home-proposed.html between canon:* markers; footer disclaimer code = the page XF span text)"
+   },
+   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2); 0 font forks at both breakpoints",
+   "capture": {
+    "tokens": [
+     "stardust/replica/capture/tokens-g2-education-clinical-mass-spec-knowledge-center-1440.json",
+     "stardust/replica/capture/tokens-g2-education-clinical-mass-spec-knowledge-center-360.json",
+     "stardust/replica/capture/tokens-g2-education-clinical-mass-spec-knowledge-center-1920.json"
+    ],
+    "lifter": "stardust/replica/capture/lift-g2.mjs (every element under the content root, computed styles + rects)",
+    "media": "stardust/prototypes/assets/media/g2/ (harvest-g2.py; Dynamic Media 375/1440/1920 webp renditions + plain DAM assets; _manifest.json)"
+   },
+   "components": [
+    "breadcrumb",
+    "hero-text + lede",
+    "text-1-col (richtext with a disc <ul>)",
+    "text-1-col (ruled column, pb 24/32 variant)",
+    "image-text-2-col (3, pt 24/32 variant, 180×100 png thumbs)"
+   ],
+   "newComponents": [
+    ".richtext ul/ol (disc, margin-left 16)",
+    ".sec--pb24-32 / .sec--pt24-32"
+   ],
+   "wideCheck1920": "box map identical to live for every top-level component at 1920 (docH equal) — cmp-g2.py over tokens-g2-*-1920.json vs a build-side lift",
+   "motion": {
+    "observed": {
+     "evidence": "stardust/replica/motion/education-clinical-mass-spec-knowledge-center.json",
+     "animations": 0,
+     "transitions": 12,
+     "classMutations": 0,
+     "transitionProps": [
+      "color 0.3s",
+      "color 0.5s",
+      "left 0.5s",
+      "margin-left 0.5s",
+      "transform 0.5s"
+     ],
+     "hoverProbes": [
+      {
+       "sel": ".image-text-2-col-content img",
+       "changed": [
+        "self.transform"
+       ]
+      },
+      {
+       "sel": ".image-text-2-col-content .tw-grow a",
+       "changed": [
+        "self.color"
+       ]
+      },
+      {
+       "sel": ".atomic-richtext-content a",
+       "changed": []
+      }
+     ]
+    },
+    "implemented": [
+     "Learn more / arrow links: color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s (canon .link-arrow + pharma :hover rules, fired on every page probed)",
+     "image-text thumb scale (fired)"
+    ],
+    "dead": [
+     "richtext inline link hover: probe returned no sample"
+    ]
+   },
+   "breakpoints": {
+    "1440": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.37,
+       "differingPx": 17206,
+       "heightDelta": 0,
+       "fixes": "first gate: 0.18% masked = richtext <ul> without the live disc markers / 16px indent"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.59,
+       "differingPx": 27399,
+       "heightDelta": 0,
+       "fixes": "after .richtext ul lift"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.3,
+       "differingPx": 13694,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "3 justified",
+      "pixelPct": 0.3,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.25,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "25 text nodes — 3 headings, 0 eyebrows, 4 CTAs, 18 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: mass-spec-operator_180x100-w1440.webp natural 180x100 → rendered 192x144",
+       "why": "live scales the 180×100 png up into the 192×144 4/3 frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: method-developer_180x100-w1440.webp natural 180x100 → rendered 192x144",
+       "why": "live scales the 180×100 png up into the 192×144 4/3 frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: laboratory-manager_180x100-w1440.webp natural 180x100 → rendered 192x144",
+       "why": "live scales the 180×100 png up into the 192×144 4/3 frame with object-fit: cover — mirrored"
+      }
+     ],
+     "residuals": [
+      {
+       "band": "stitched-chunk seam rows 801:99, 1701:99, 3125:75",
+       "pct": 0.3,
+       "cause": "capture-state: WalkMe copilot tab + chat launcher (fixed third-party widgets) repeat at every chunk seam; not site markup; masked → 0.00%",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.25,
+       "cause": "same widget rows inside the footer crop (thick texture = widget blocks); chrome-parity quiet",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "WalkMe copilot tab (bottom-left) + chat launcher (bottom-right), fixed third-party widgets, repeat at every stitched-chunk seam in the live capture",
+       "where": "every viewport bottom; masked rows on the verdict line"
+      },
+      {
+       "what": "OneTrust banner dismissed via --dismiss",
+       "where": "viewport"
+      },
+      {
+       "what": "WalkMe 'please login' balloon present in the extract screenshot only — never rendered in gate captures",
+       "where": "under header"
+      }
+     ]
+    },
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.21,
+       "differingPx": 3836,
+       "heightDelta": 0,
+       "fixes": "same list cause (1.8% band 500–1000)"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.4,
+       "differingPx": 7491,
+       "heightDelta": 0,
+       "fixes": "after fix"
+      },
+      {
+       "label": "final",
+       "pixelPct": 0.0,
+       "differingPx": 0,
+       "heightDelta": 0
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 0,
+      "orange": 0,
+      "visualFlags": "3 justified",
+      "pixelPct": 0.0,
+      "pixelPctMasked": 0.0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "contentInventory": "25 text nodes — 3 headings, 0 eyebrows, 4 CTAs, 18 body; 3 img",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: mass-spec-operator_180x100-w375.webp natural 180x100 → rendered 100x75",
+       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: method-developer_180x100-w375.webp natural 180x100 → rendered 100x75",
+       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
+      },
+      {
+       "probe": "visual",
+       "flag": "STRETCHED IMAGE: laboratory-manager_180x100-w375.webp natural 180x100 → rendered 100x75",
+       "why": "live crops the 180×100 png into the 100×75 frame with object-fit: cover — mirrored"
+      }
+     ],
+     "residuals": [],
+     "captureState": [
+      {
+       "what": "no third-party fixed widgets rendered in the 360 live capture",
+       "where": "-"
+      }
+     ]
+    }
+   }
+  }
+ ]
+}

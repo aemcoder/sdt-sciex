@@ -1,0 +1,58 @@
+/* ==========================================================================
+   SCIEX "generic-page-template" archetype (/education/grant-support): the
+   page body is one HTML-injection "app-page" — hero image, intro copy + CTA,
+   2-col icon tile grid on a teal canvas, centred Marketo iframe, RUO code.
+   Page modules only; imports canon.css + legacy-shared.css. Values lifted
+   from stardust/replica/capture/tokens-g4-education-grant-support-{360,1440}.json
+   ========================================================================== */
+
+.lg-grant__crumbspacer { height: 0; margin-top: 40px; }           /* live: empty #new-breadcrumbs div, its margin collapses out to a 40px gap */
+.lg-grant__main { max-width: 1140px; margin: 0 auto; }
+.lg-feature { position: relative; margin-bottom: 30px; }
+.lg-feature img { display: block; max-width: 100%; }
+.lg-grant__row { margin: 0 -15px; }                                /* live .row.event-content (BS3 row; pad-bottom60 is inert) */
+.lg-grant__row::before, .lg-grant__row::after { content: " "; display: table; }
+.lg-grant__row::after { clear: both; }
+.lg-grant h2 { margin: 0 0 10px; font-size: 24px; line-height: normal; font-weight: 400; color: var(--lg-blue-2); }
+.lg-grant h2 strong { font-weight: 700; }
+.lg-grant p, .lg-grant li { font-size: 16px; line-height: 24px; color: var(--lg-text-2); }
+.lg-grant p { margin: 0 0 20px; }
+.lg-grant ul { margin: 0 0 10px; padding-left: 40px; list-style: disc outside; }
+
+/* icon tile grid (live .hor-list-box.hor-list-box-multi.flex-container.blue-bg > .flex-item.flex-basis-2) */
+.lg-tiles { display: flex; flex-wrap: wrap; justify-content: space-between; background: var(--lg-teal-bg); }
+.lg-tile { display: flex; justify-content: space-between; flex: 0 0 49.5%; margin-bottom: .6vw; background: rgba(255,255,255,.5); }   /* 8.64px @1440, 11.52px @1920 (lift) → 0.6vw */
+.lg-tile--last { margin-bottom: 0; }                                /* live .no-margin */
+.lg-tile__wrap { position: relative; flex: 1 1 100%; padding: 10px; }
+.lg-tile__bg { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: #fff; opacity: 0; }
+.lg-tile__flex { position: relative; display: flex; }
+.lg-tile__img { display: flex; flex: 0 0 185px; margin-right: 10px; }
+.lg-tile__img img { display: inline; max-width: 100%; height: auto; align-self: flex-start; vertical-align: middle; }   /* never stretched to the tile height (visual-diff 360: 125×149 vs live 125×125) */
+.lg-tile__img img.darkforensics-bg { background: rgb(160,40,66); }
+.lg-tile__img img.darkenvt-bg { background: rgb(2,105,55); }
+.lg-tile__intro { position: relative; flex: 1 1 auto; }
+.lg-tile__intro > div { position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+.lg-tile__intro h4 { margin: 10px 0; font: 500 18px/26px Helvetica, Arial, sans-serif; color: var(--lg-text); }
+.lg-grant .lg-tile__intro p { margin: 0 0 10px; font-size: 14px; line-height: 20px; }
+
+/* grant form (live #grantsform.m-bott30[text-align:center] > .form-container-landing > iframe 50%) */
+.lg-grant__form iframe { display: inline; vertical-align: baseline; width: 50%; height: 900px; box-sizing: border-box; border: 2px inset currentColor; }   /* inline as live: the line box adds the 7px strut descender under the frame */  /* UA iframe border, kept (canon preflight would zero it) */
+.lg-grant .lg-grant__ruo { margin: 0 0 20px; font-size: 11px; line-height: 18px; color: var(--lg-text-2); }
+
+@media (max-width: 767px) {
+  .lg-grant h2 { font-size: 20px; }
+  .lg-grant p, .lg-grant li { font-size: 16px; line-height: 24px; }
+  .lg-tile { flex-basis: 100%; margin-bottom: 3vw; }   /* 10.8px @360 */
+  .lg-tile--last { margin-bottom: 0; }
+  .lg-tile__img { display: block; flex-basis: 125px; margin-bottom: 10.8px; }   /* live .flex-img is display:block at mobile */   /* live .flex-img mobile margin — sets the short tiles' height (125 + 10.8) */
+  .lg-grant__crumbspacer { margin-top: 20px; }
+  .lg-tile__intro > div { position: relative; }
+  .lg-tile__intro h4 { margin: 0 0 10px; font-size: 16px; line-height: 22px; }
+  .lg-grant .lg-tile__intro p { font-size: 13px; line-height: 18px; }
+  .lg-grant .lg-grant__ruo { padding: 0 15px; }
+}
+
+/* --- Interaction parity (stardust/replica/motion/education-grant-support.json — hover diffs only; no animations, no class mutations; CTA click = in-page anchor) */
+.lg-tile { transition: all .3s ease; }
+.lg-tile:hover { background: #fff; box-shadow: 0 3px 5px rgba(0,0,0,.1); }   /* observed: rgba(255,255,255,.5) → #fff + shadow, .3s */
+.lg-root .btn-legacy:hover { background: rgb(206,129,40); color: #fff; }     /* observed: rgb(249,157,49) → rgb(206,129,40), .25s */

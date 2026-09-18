@@ -35,7 +35,7 @@
 .lg-card__bg { position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: #fff; opacity: 0; }
 .lg-card__content { position: relative; padding-bottom: 60px; border-top: 1px solid transparent; }
 .lg-card__square { padding: 23.5%; }
-.lg-card__square img { max-width: 100%; height: auto; vertical-align: middle; }
+.lg-card__square img { display: inline; max-width: 100%; height: auto; vertical-align: middle; }   /* inline (not preflight block) so the card's text-align centres it */
 .lg-card__content h4 { margin: 10px 0; font: 500 18px/26px Helvetica, Arial, sans-serif; color: var(--lg-text); }
 .lg-root .lg-card__content p { margin: 0 0 20px; font-size: 14px; line-height: 20px; color: var(--lg-text-2); }
 .lg-card__more { position: absolute; left: 0; right: 0; bottom: 10px; padding-top: 10px; border-top: 1px solid var(--lg-rule); text-align: left; }
@@ -54,3 +54,10 @@
   .lg-root .lg-card__content p { margin-bottom: 25px; font-size: 13px; line-height: 18px; }
   .lg-card__more { position: relative; bottom: auto; padding-top: 20px; }
 }
+
+/* --- Interaction parity (stardust/replica/motion/support-software-support.json — hover diffs only; no animations, no class mutations) */
+.lg-card { transition: all .3s ease; }
+.lg-card:hover { background: #fff; box-shadow: 0 3px 5px rgba(0,0,0,.1); }                 /* observed: rgba(255,255,255,.5) → #fff + shadow, .3s */
+.lg-card:hover .lg-card__square img { opacity: .9; }                                       /* observed img opacity 1 → .9 */
+.lg-root .lg-card__more a, .lg-root .lg-card__more a:hover { color: #00afdb; }
+.lg-root .lg-card:hover .lg-card__more a, .lg-root .lg-card__more a:hover, .lg-root .lg-card__more a:hover .glyphicon { color: #f59831 !important; } /* observed: link + chevron → rgb(245,152,49) (live !important rule) */
