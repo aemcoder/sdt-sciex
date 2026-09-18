@@ -299,7 +299,7 @@
   {
    "slug": "about-us-press-releases-2026-the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
    "url": "https://sciex.com/about-us/press-releases/2026/the-echor-ms-system-integration-with-the-zenotof-8600-system-delivers-enhanced-sensitivity-for-high-throughput-screening",
-   "title": "The Echo® MS+ system integration with the ZenoTOF 8600 system delivers enhanced sensitivity for high-throughput screening",
+   "title": "The Echo\u00ae MS+ system integration with the ZenoTOF 8600 system delivers enhanced sensitivity for high-throughput screening",
    "type": "article",
    "status": "directed",
    "history": [
@@ -349,7 +349,7 @@
    "url": "https://sciex.com/about-us/press-releases",
    "title": "Press Releases",
    "type": "listing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -358,15 +358,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:45:41Z",
+     "via": "stardust:deploy",
+     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "gate": "stardust/replica/progress-g3.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/about-us-press-releases.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/about-us/press-releases.html",
    "family": "press-release-listing",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/about-us/press-releases",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "about-us-product-stewardship-weee-compliance-austria",
@@ -445,7 +454,7 @@
    "url": "https://sciex.com/about-us",
    "title": "About Us",
    "type": "landing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -454,15 +463,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:45:41Z",
+     "via": "stardust:deploy",
+     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "gate": "stardust/replica/progress-g3.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/about-us.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/about-us.html",
    "family": "v3-section-hub",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/about-us",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "applications-biomedical-and-omics-research-extraordinary-science-extraordinary-science-purcell",
@@ -1456,7 +1474,7 @@
    "url": "https://sciex.com/support/instrument-service-and-support",
    "title": "Instrument Service and Support",
    "type": "landing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1465,20 +1483,29 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:45:41Z",
+     "via": "stardust:deploy",
+     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "gate": "stardust/replica/progress-g3.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/support-instrument-service-and-support.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/support/instrument-service-and-support.html",
    "family": "v3-section-hub",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/instrument-service-and-support",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
    "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
-   "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
+   "title": "Resetting Root Directory to Analyst\u00ae Data Folder Restores Selexion\u00ae DMS Functionality",
    "type": "article",
    "status": "migrated",
    "history": [
@@ -1505,7 +1532,7 @@
      "at": "2026-09-18T10:54:53Z",
      "via": "stardust:deploy",
      "commit": "9cd9ad9",
-     "note": "delivered at the hyphenated slug (admin webPath normalises _en_us → -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
+     "note": "delivered at the hyphenated slug (admin webPath normalises _en_us \u2192 -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
     }
    ],
    "stale": false,
@@ -1521,7 +1548,7 @@
   {
    "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",
    "url": "https://sciex.com/support/knowledge-base-articles/where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to_en_us",
-   "title": "Location of the Current Instrument Data File for SCIEX Triple Quad™ or QTRAP® LC-MS/MS 7500 Systems",
+   "title": "Location of the Current Instrument Data File for SCIEX Triple Quad\u2122 or QTRAP\u00ae LC-MS/MS 7500 Systems",
    "type": "article",
    "status": "directed",
    "history": [
@@ -1715,7 +1742,7 @@
    "url": "https://sciex.com/support/training",
    "title": "Training",
    "type": "landing",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -1724,15 +1751,24 @@
     {
      "status": "directed",
      "at": "2026-09-18T07:33:47.860Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:45:41Z",
+     "via": "stardust:deploy",
+     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "gate": "stardust/replica/progress-g3.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/support-training.json",
    "prototypePath": null,
-   "migratedPath": null,
+   "migratedPath": "content/support/training.html",
    "family": "v3-section-hub",
-   "aemTemplate": "page-template"
+   "aemTemplate": "page-template",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/training",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "support",
@@ -2123,7 +2159,7 @@
    "type": null,
    "family": "v3",
    "aemTemplate": "page-template",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -2132,13 +2168,22 @@
     {
      "status": "directed",
      "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:45:41Z",
+     "via": "stardust:deploy",
+     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "gate": "stardust/replica/progress-g3.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/stories.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/stories.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/stories",
+   "fidelityTier": "archetype"
   },
   {
    "slug": "support-professional-lab-services",
@@ -2147,7 +2192,7 @@
    "type": null,
    "family": "page-content",
    "aemTemplate": "page-content",
-   "status": "directed",
+   "status": "migrated",
    "history": [
     {
      "status": "extracted",
@@ -2156,13 +2201,22 @@
     {
      "status": "directed",
      "at": "2026-09-18T11:13:41.889Z"
+    },
+    {
+     "status": "migrated",
+     "at": "2026-09-18T14:45:41Z",
+     "via": "stardust:deploy",
+     "commit": "content delivered via DA Source API (coordinator); code on main \u2014 G3 reconcile round 1 (blocks/columns/columns.css, blocks/cards/cards.css) pending commit",
+     "gate": "stardust/replica/progress-g3.json"
     }
    ],
    "stale": false,
    "staleReason": null,
    "currentStatePath": "stardust/current/pages/support-professional-lab-services.json",
    "prototypePath": null,
-   "migratedPath": null
+   "migratedPath": "content/support/professional-lab-services.html",
+   "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/professional-lab-services",
+   "fidelityTier": "archetype"
   }
  ]
 }

@@ -1816,3 +1816,17 @@
 .cards.media .media-thumb.no-poster {
   background: var(--grey-900);
 }
+
+/* published-origin reconcile (G3 round 1): live image-text items whose name paragraph is EMPTY
+   (/support/training "success programs": <p class="profile__name"></p>) still keep its 6 / 8 px margin;
+   the pipeline drops an empty <h3>, so the gap is modelled on the headless item's text wrapper
+   (published 492 vs live 500 at 1440, −12 at 360). */
+.cards.image-text .imgtext-body > div > .imgtext-text:first-child {
+  margin-top: 6px;
+}
+
+@media (width >= 768px) {
+  .cards.image-text .imgtext-body > div > .imgtext-text:first-child {
+    margin-top: 8px;
+  }
+}
