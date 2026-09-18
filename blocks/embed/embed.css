@@ -13,6 +13,7 @@
 .embed .embed-source p { margin: 0; }
 
 .embed.legacy .embed-frame {
+  min-height: 907px; /* reserve the frame's 900px + inline strut before the lazy mount (CLS 0.14 measured without it) */
   line-height: 24px;
   text-align: center;
 }

@@ -171,7 +171,7 @@
     "section rhythm utilities → .u-pt-*/.u-pb-*"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/mass-spectrometers",
     "plainHtml": "/products/mass-spectrometers             200 h1=1 about:error=0 img=26 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -199,22 +199,22 @@
      "Findings: 27 (23 structural 🔴)"
     ],
     "gate1440": {
-     "pixelPct": 2.17,
-     "pixelPctMasked": 1.75,
-     "heightDelta": -1,
+     "pixelPct": 0.42,
+     "pixelPctMasked": 0.03,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.26,
-     "verdict": "doc live 9489 published 9488 Δ-1 | differing pixels: 296058 / 13662720 = 2.17%  (threshold 10%) → PASS | masked: differing pixels: 215117 / 12267360 = 1.75%   |",
+     "verdict": "doc live 9489 published 9489 Δ0 | differing pixels: 57934 / 13664160 = 0.42%  (threshold 10%) → PASS | masked: differing pixels: 4200 / 12267360 = 0.03%   | hea",
      "evidence": "stardust/replica/gates/products-mass-spectrometers-published-1440/",
      "pass": true
     },
     "gate360": {
-     "pixelPct": 10.69,
+     "pixelPct": 11.48,
      "pixelPctMasked": null,
-     "heightDelta": -8,
+     "heightDelta": -23,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.18,
-     "verdict": "doc live 17658 published 17650 Δ-8 | differing pixels: 679260 / 6354000 = 10.69%  (threshold 10%) → FAIL | masked:  | header: 0.00% footer: 0.18%",
+     "verdict": "doc live 17658 published 17635 Δ-23 | differing pixels: 728557 / 6348600 = 11.48%  (threshold 10%) → FAIL | masked:  | header: 0.00% footer: 0.18%",
      "evidence": "stardust/replica/gates/products-mass-spectrometers-published-360/",
      "pass": false
     }
@@ -371,7 +371,7 @@
     "text-container 2-col with h2.text-charlie"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products",
     "plainHtml": "/products                                200 h1=1 about:error=0 img=23 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -401,22 +401,22 @@
      "Findings: 20 (16 structural 🔴)"
     ],
     "gate1440": {
-     "pixelPct": 2.19,
-     "pixelPctMasked": 1.85,
-     "heightDelta": -1,
+     "pixelPct": 0.45,
+     "pixelPctMasked": 0.05,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.26,
-     "verdict": "doc live 6176 published 6175 Δ-1 | differing pixels: 194446 / 8892000 = 2.19%  (threshold 10%) → PASS | masked: differing pixels: 148858 / 8066880 = 1.85%   | h",
+     "verdict": "doc live 6176 published 6176 Δ0 | differing pixels: 39755 / 8893440 = 0.45%  (threshold 10%) → PASS | masked: differing pixels: 4261 / 8066880 = 0.05%   | heade",
      "evidence": "stardust/replica/gates/products-published-1440/",
      "pass": true
     },
     "gate360": {
-     "pixelPct": 2.99,
+     "pixelPct": 0.16,
      "pixelPctMasked": null,
-     "heightDelta": -1,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.0,
-     "verdict": "doc live 11481 published 11480 Δ-1 | differing pixels: 123732 / 4132800 = 2.99%  (threshold 10%) → PASS | masked:  | header: 0.00% footer: 0.00%",
+     "verdict": "doc live 11481 published 11481 Δ0 | differing pixels: 6623 / 4133160 = 0.16%  (threshold 10%) → PASS | masked:  | header: 0.00% footer: 0.00%",
      "evidence": "stardust/replica/gates/products-published-360/",
      "pass": true
     }
@@ -559,7 +559,7 @@
     "text-container-left-aligned-1-col with h3.text-delta + textarea (pharma .textblock--1col)"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/capillary-electrophoresis",
     "plainHtml": "/products/capillary-electrophoresis      200 h1=1 about:error=0 img=14 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -587,22 +587,22 @@
      "Findings: 17 (13 structural 🔴)"
     ],
     "gate1440": {
-     "pixelPct": 1.68,
-     "pixelPctMasked": 1.33,
-     "heightDelta": -1,
+     "pixelPct": 0.44,
+     "pixelPctMasked": 0.07,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.26,
-     "verdict": "doc live 5098 published 5097 Δ-1 | differing pixels: 123135 / 7339680 = 1.68%  (threshold 10%) → PASS | masked: differing pixels: 86920 / 6514560 = 1.33%   | he",
+     "verdict": "doc live 5098 published 5098 Δ0 | differing pixels: 32199 / 7341120 = 0.44%  (threshold 10%) → PASS | masked: differing pixels: 4810 / 6514560 = 0.07%   | heade",
      "evidence": "stardust/replica/gates/products-capillary-electrophoresis-published-1440/",
      "pass": true
     },
     "gate360": {
-     "pixelPct": 2.34,
+     "pixelPct": 0.16,
      "pixelPctMasked": null,
-     "heightDelta": -1,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.0,
-     "verdict": "doc live 8830 published 8829 Δ-1 | differing pixels: 74509 / 3178440 = 2.34%  (threshold 10%) → PASS | masked:  | header: 0.00% footer: 0.00%",
+     "verdict": "doc live 8830 published 8830 Δ0 | differing pixels: 5029 / 3178800 = 0.16%  (threshold 10%) → PASS | masked:  | header: 0.00% footer: 0.00%",
      "evidence": "stardust/replica/gates/products-capillary-electrophoresis-published-360/",
      "pass": true
     }
@@ -744,7 +744,7 @@
     "spacer placed BEFORE the text container (order mirrored from the live grid)"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/hplc-products",
     "plainHtml": "/products/hplc-products                  200 h1=1 about:error=0 img=12 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -771,22 +771,22 @@
      "Findings: 15 (11 structural 🔴)"
     ],
     "gate1440": {
-     "pixelPct": 1.95,
-     "pixelPctMasked": 1.58,
-     "heightDelta": -1,
+     "pixelPct": 0.45,
+     "pixelPctMasked": 0.05,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.26,
-     "verdict": "doc live 5002 published 5001 Δ-1 | differing pixels: 140144 / 7201440 = 1.95%  (threshold 10%) → PASS | masked: differing pixels: 100594 / 6376320 = 1.58%   | h",
+     "verdict": "doc live 5002 published 5002 Δ0 | differing pixels: 32464 / 7202880 = 0.45%  (threshold 10%) → PASS | masked: differing pixels: 3307 / 6376320 = 0.05%   | heade",
      "evidence": "stardust/replica/gates/products-hplc-products-published-1440/",
      "pass": true
     },
     "gate360": {
-     "pixelPct": 3.01,
+     "pixelPct": 0.16,
      "pixelPctMasked": null,
-     "heightDelta": -1,
+     "heightDelta": 0,
      "headerCropDiffPct": 0.0,
      "footerCropDiffPct": 0.0,
-     "verdict": "doc live 8821 published 8820 Δ-1 | differing pixels: 95518 / 3175200 = 3.01%  (threshold 10%) → PASS | masked:  | header: 0.00% footer: 0.00%",
+     "verdict": "doc live 8821 published 8821 Δ0 | differing pixels: 4927 / 3175560 = 0.16%  (threshold 10%) → PASS | masked:  | header: 0.00% footer: 0.00%",
      "evidence": "stardust/replica/gates/products-hplc-products-published-360/",
      "pass": true
     }
@@ -933,7 +933,7 @@
     "icon-3-col → .icon-cards.icon-cards--icon-3-col + .icon-cards__grid--sm2 --lg3"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/consumables",
     "plainHtml": "/products/consumables                    200 h1=1 about:error=0 img=1 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -1106,7 +1106,7 @@
     "image-card 2-up without head → .app-cards__grid--md2 (stays 2 columns at lg)"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/integrated-solutions",
     "plainHtml": "/products/integrated-solutions           200 h1=1 about:error=0 img=2 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -1291,7 +1291,7 @@
     "text-container with .t-echo headings (pharma .t-echo)"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/technology",
     "plainHtml": "/technology                              200 h1=1 about:error=0 img=11 body=0 data-tab=0 data-acc=0",
     "guard": {
@@ -1531,7 +1531,7 @@
     "html-injection → verbatim <style> mirror (.html-injection)"
    ],
    "published": {
-    "at": "2026-09-18T14:43:17.621229Z",
+    "at": "2026-09-18T14:49:26.528580Z",
     "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/products/software",
     "plainHtml": "/products/software                       200 h1=1 about:error=0 img=54 body=0 data-tab=25 data-acc=18",
     "guard": {
@@ -1580,7 +1580,7 @@
      "evidence": "stardust/replica/gates/products-software-published-360/",
      "pass": true
     },
-    "drive": "DRIVE: FAIL — 16 ok, 2 fail"
+    "drive": "DRIVE: PASS — 18 ok, 0 fail"
    }
   }
  ],
@@ -1590,8 +1590,8 @@
   "maskPolicy": "WalkMe copilot tab + chat launcher (third-party fixed widgets) at every 900 px stitched seam and in the last chunk on live 1440 captures → pixel-compare --mask <seam>:99 …,<docH-79>:79; never rendered at 360",
   "chrome": "canon header/footer/support band spliced verbatim from home-proposed.html; per-page footer disclaimer code (RUO-MKT-…) mirrored; header crop 0.00 %, support band 0.00 %, footer crop 0.25–0.37 % (widgets) at 1440; all 0.00 % at 360; chrome-parity quiet on mass-spec (13 header / 46 footer pairs)",
   "published": {
-   "at": "2026-09-18T14:43:17.621229Z",
-   "reconcile": "round 1 PENDING: tree fixes (columns.css big-lede gap, styles.css spacer style, section-tabs/accordion label norm) + redelivery of the 4 spacer pages; numbers below predate the fixes",
+   "at": "2026-09-18T14:49:26.528580Z",
+   "reconcile": "round 1 done: spacer style + big-lede gap + label matching live; 4 pages redelivered; MS 360 Δh −23 = documented pipeline trailing-nbsp residual",
    "pages": [
     {
      "slug": "products-mass-spectrometers",

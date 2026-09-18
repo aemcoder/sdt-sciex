@@ -62,6 +62,85 @@
     "media": "stardust/prototypes/assets/media/g4/ — 29 files harvested through the page session (hero jpg, 7 support-ig hexagon states, sciex-now-logo.svg, sciex-logo.svg, search-white.png, hidden-dashboard icons/products/tiles); never hotlinked"
    },
    "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 3.08,
+       "heightDelta": 37,
+       "contentRed": 0,
+       "fixes": "footer 37px short: mobile cols tw-py-5 = 17.5px at the 14px rem + 14/22.4 type (chrome-parity 43 deltas); .sciex-footer wrapper (position static→relative flag); band cols missing BS4 width:100% base; bullets"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 1.51,
+       "heightDelta": -1,
+       "contentRed": 0,
+       "fixes": "native textfield (border:revert), still-webm audio track (volume icon), 2fps duration"
+      },
+      {
+       "label": "final",
+       "pixelPct": 1.43,
+       "pixelPctMasked": 1.23,
+       "heightDelta": -1,
+       "note": "mask 1662:33,2562:33,4178:38"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 14,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 1.43,
+      "pixelPctMasked": 1.23,
+      "heightDelta": -1,
+      "headerCropPct": 0,
+      "footerCropPct": 0.98,
+      "chromeParity": "quiet (exit 0) header/footer at iter2",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 MISSING BODY ×14",
+       "why": "same inline script/style bodies as 1440",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "band": "rows 1517–1655",
+       "pct": 0.6,
+       "cause": "proxima-nova lede wraps 'Anytime / You Need It' on live vs 'Everything You Need, / Anytime…' in Arial (permanent font fork) + native textfield AA",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "rows 1765–1905",
+       "pct": 0.2,
+       "cause": "video controls timeline buffered-range paint (mp4 vs still webm)",
+       "flaggedFor": "delivery"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.98,
+       "cause": "Geogrotesque glyph antialiasing across the mobile footer (thin texture, every text row) + seam launcher; parity quiet",
+       "flaggedFor": "user"
+      },
+      {
+       "band": "rows 1662–1694, 2562–2594, 4178–4216",
+       "pct": 0.2,
+       "cause": "Qualtrics launcher / #back-to-top at chunk seams (masked)",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "SCIEX Now bar + sidebar display:none ≤767 (live inline @media) — body full width",
+       "where": "main"
+      }
+     ]
+    },
     "1440": {
      "iterations": 3,
      "runs": [
@@ -74,7 +153,7 @@
       },
       {
        "label": "iter2",
-       "pixelPct": 1.0,
+       "pixelPct": 1,
        "heightDelta": 0,
        "contentRed": 0,
        "fixes": ".sidebar-search-cont{height:106px} (clientlib) → sidebar −13px; hero clip (indicator hangs below slide); footer stacking (live .sciex-footer z 50)"
@@ -170,85 +249,6 @@
       }
      ],
      "wideCheck1920": "box map identical (doc 3209 both; root 129.4/2294; 0 flagged of 100+ paired text nodes)"
-    },
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 3.08,
-       "heightDelta": 37,
-       "contentRed": 0,
-       "fixes": "footer 37px short: mobile cols tw-py-5 = 17.5px at the 14px rem + 14/22.4 type (chrome-parity 43 deltas); .sciex-footer wrapper (position static→relative flag); band cols missing BS4 width:100% base; bullets"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 1.51,
-       "heightDelta": -1,
-       "contentRed": 0,
-       "fixes": "native textfield (border:revert), still-webm audio track (volume icon), 2fps duration"
-      },
-      {
-       "label": "final",
-       "pixelPct": 1.43,
-       "pixelPctMasked": 1.23,
-       "heightDelta": -1,
-       "note": "mask 1662:33,2562:33,4178:38"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 14,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 1.43,
-      "pixelPctMasked": 1.23,
-      "heightDelta": -1,
-      "headerCropPct": 0.0,
-      "footerCropPct": 0.98,
-      "chromeParity": "quiet (exit 0) header/footer at iter2",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "content",
-       "flag": "🟡 MISSING BODY ×14",
-       "why": "same inline script/style bodies as 1440",
-       "permanent": true
-      }
-     ],
-     "residuals": [
-      {
-       "band": "rows 1517–1655",
-       "pct": 0.6,
-       "cause": "proxima-nova lede wraps 'Anytime / You Need It' on live vs 'Everything You Need, / Anytime…' in Arial (permanent font fork) + native textfield AA",
-       "flaggedFor": "user"
-      },
-      {
-       "band": "rows 1765–1905",
-       "pct": 0.2,
-       "cause": "video controls timeline buffered-range paint (mp4 vs still webm)",
-       "flaggedFor": "delivery"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.98,
-       "cause": "Geogrotesque glyph antialiasing across the mobile footer (thin texture, every text row) + seam launcher; parity quiet",
-       "flaggedFor": "user"
-      },
-      {
-       "band": "rows 1662–1694, 2562–2594, 4178–4216",
-       "pct": 0.2,
-       "cause": "Qualtrics launcher / #back-to-top at chunk seams (masked)",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "SCIEX Now bar + sidebar display:none ≤767 (live inline @media) — body full width",
-       "where": "main"
-      }
-     ]
     }
    },
    "motion": {
@@ -305,7 +305,67 @@
    "pluginNotes": [
     "content-inventory counts inline <script>/<style> text under the content root as body copy — 14 permanent 🟡 on this page family; consider skipping script/style text nodes",
     "canon Tailwind preflight (img/video/iframe display:block, vertical-align middle, ul list-style none, iframe border 0, author border on inputs) silently forks legacy templates: 6 of this group's fixes were preflight reverts — a .page--legacy preflight-off layer would remove that class of iteration"
-   ]
+   ],
+   "published": {
+    "360": {
+     "pixelPct": 3.69,
+     "pixelPctMasked": 3.49,
+     "mask": "1662:33,2562:33,4178:38",
+     "heightDelta": -39,
+     "headerCropPct": 0,
+     "footerCropPct": 6.36,
+     "footerCropVerdict": "FAIL (bar 2%) — the footer is 40px shorter: the sciex-now 17.5px mobile-column padding lost to the legacy variant's :has() specificity; fixed in blocks/footer/footer.css (pending commit, harness verifies 17.5px)",
+     "computedStyleGuard": {
+      "pass": true,
+      "cls": 0
+     },
+     "anchors": "every main module identical (hero…contact Δ0); only the footer Δh −40",
+     "evidence": [
+      "stardust/replica/gates/support-published-360/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+      "stardust/.work/deploy/g4/gates/support-360/"
+     ]
+    },
+    "1440": {
+     "pixelPct": 3.19,
+     "pixelPctMasked": 3.11,
+     "mask": "801:98,1662:138,3103:138",
+     "heightDelta": 2,
+     "headerCropPct": 0.34,
+     "footerCropPct": 1.46,
+     "chromeParity": "header REGION BOX Δh +2 (published reserves --nav-height 131, live 129 with the shell's 14px nav type) + the known live <button> \"All\" facet vs EDS <span> (37→14px); footer 71 pairs all Δy +2 from the same header delta; family name geogrotesque→geogrotesque-legacy = the scoped static-400 alias, not a face change",
+     "contentDiffSummary": "proto(fixture)→published: 34 🔴 all inside the decided-out logged-in dashboard / Get Help modal (My Instruments, Add Instrument, notifications \"0\", Learning Manager…) + 16 🟡 (dashboard body, \" min\"); every visible module matches",
+     "aiReadability": {
+      "strict": 100,
+      "code": 100
+     },
+     "computedStyleGuard": {
+      "blocks": 5,
+      "loaded": 5,
+      "template": "body.sciex-now",
+      "footer": "legacy variant + disclaimer tail \"under license. MKT\"",
+      "imgs": "visible 5, zero-width 0, about:error 0",
+      "pageerrors": 0,
+      "stuckBar": "fixed at scrollY>82",
+      "cls": 0.0042,
+      "failedCheck": "footer14 (.ftr-col-mobile 12.5px, hidden at 1440)"
+     },
+     "anchors": "13/13 module anchors within ±2px of the prototype (all +2 = header)",
+     "drive": "16/16 on the published page (stuck bar, mini toggle, image-map hover swap on the real <picture>, forms, video, mobile)",
+     "evidence": [
+      "stardust/replica/gates/support-published-1440/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+      "stardust/.work/deploy/g4/gates/support-1440/"
+     ]
+    },
+    "ts": "2026-09-18T14:48:44.105Z",
+    "origin": "https://main--sdt-sciex--aemcoder.aem.live/support",
+    "codeCommit": "9bd3edd (+ b7794f1 runtime compound-style split)",
+    "plain": "200, 1 h1, 0 about:error, 10 img",
+    "reconcile": [
+     "blocks/footer/footer.css: restate .ftr-col-mobile 17.5px / .ftr-lang-label 10.5px / .ftr-links 17.5px at the legacy variant's specificity",
+     "styles/styles.css: body.sciex-now { --nav-height: 129px } ≥1024 (harness header 129 = live)",
+     "blocks/support-hero/support-hero.css: aspect-ratio 847/350 on the slide image (CLS reserve)"
+    ]
+   }
   },
   {
    "archetype": "intermediate-template",
@@ -341,6 +401,65 @@
     "media": "service-support_180.png, download-data_180.png (harvested)"
    },
    "breakpoints": {
+    "360": {
+     "iterations": 1,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 0.19,
+       "heightDelta": 0,
+       "contentRed": 0
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.19,
+       "pixelPctMasked": 0,
+       "heightDelta": 0,
+       "note": "24 px after mask 1665:33,2750:33 — icon-inline fix verified no-op at mobile"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 2,
+      "orange": 0,
+      "visualFlags": "none",
+      "pixelPct": 0.19,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.34,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 ×2",
+       "why": "same inline style/script",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "band": "rows 1665–1698, 2750–2783",
+       "pct": 0.19,
+       "cause": "Qualtrics launcher / #back-to-top at chunk seams (masked)",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.34,
+       "cause": "same seam widget rows inside the footer band",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "breadcrumb hidden ≤992 (wrapper keeps 16px)",
+       "where": "below title band"
+      }
+     ]
+    },
     "1440": {
      "iterations": 2,
      "runs": [
@@ -354,7 +473,7 @@
       {
        "label": "iter2",
        "pixelPct": 0.27,
-       "pixelPctMasked": 0.0,
+       "pixelPctMasked": 0,
        "heightDelta": 0,
        "note": "6 px after mask 801:98,2197:130"
       }
@@ -365,9 +484,9 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.27,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
-      "headerCropPct": 0.0,
+      "headerCropPct": 0,
       "footerCropPct": 0.31,
       "chromeParity": "quiet (exit 0) header/footer",
       "contentDiff": "18 vs 16 text nodes, 11/11 editable, 3/3 img — 0 🔴",
@@ -402,65 +521,6 @@
       }
      ],
      "wideCheck1920": "box map identical (doc 2269 both, 0 flagged)"
-    },
-    "360": {
-     "iterations": 1,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.19,
-       "heightDelta": 0,
-       "contentRed": 0
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.19,
-       "pixelPctMasked": 0.0,
-       "heightDelta": 0,
-       "note": "24 px after mask 1665:33,2750:33 — icon-inline fix verified no-op at mobile"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 2,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.19,
-      "pixelPctMasked": 0.0,
-      "heightDelta": 0,
-      "headerCropPct": 0.0,
-      "footerCropPct": 0.34,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "content",
-       "flag": "🟡 ×2",
-       "why": "same inline style/script",
-       "permanent": true
-      }
-     ],
-     "residuals": [
-      {
-       "band": "rows 1665–1698, 2750–2783",
-       "pct": 0.19,
-       "cause": "Qualtrics launcher / #back-to-top at chunk seams (masked)",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.34,
-       "cause": "same seam widget rows inside the footer band",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "breadcrumb hidden ≤992 (wrapper keeps 16px)",
-       "where": "below title band"
-      }
-     ]
     }
    },
    "motion": {
@@ -504,7 +564,55 @@
    ],
    "pluginNotes": [
     "inline whitespace between/inside inline <li>s is load-bearing for breadcrumb geometry — copy the live list markup rather than re-authoring it"
-   ]
+   ],
+   "published": {
+    "360": {
+     "pixelPct": 3.48,
+     "pixelPctMasked": 3.3,
+     "mask": "1665:33,2750:33",
+     "heightDelta": 1,
+     "headerCropPct": 0,
+     "footerCropPct": 0.34,
+     "computedStyleGuard": {
+      "pass": true,
+      "cls": 0.0007
+     },
+     "evidence": [
+      "stardust/replica/gates/support-software-support-published-360/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+      "stardust/.work/deploy/g4/gates/support-software-support-360/"
+     ]
+    },
+    "1440": {
+     "pixelPct": 1.19,
+     "pixelPctMasked": 1,
+     "mask": "801:98,2197:130",
+     "heightDelta": -1,
+     "headerCropPct": 0,
+     "footerCropPct": 0.32,
+     "contentDiffSummary": "proto→published (root main|.lg-root): 16/16 text nodes, roles identical, 3/3 img — Findings: none",
+     "aiReadability": {
+      "strict": 100,
+      "code": 100
+     },
+     "computedStyleGuard": {
+      "pass": true,
+      "cls": 0.0003,
+      "disclaimerTail": "under license. GEN-MKT-18-5103-C",
+      "crumbLast": "plain (breadcrumb.js legacy no self-link)"
+     },
+     "anchors": "14/14 module anchors within ±1px (page-title band, crumb, richtext, legacy-band, cards)",
+     "drive": "6/6 on the published page",
+     "evidence": [
+      "stardust/replica/gates/support-software-support-published-1440/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+      "stardust/.work/deploy/g4/gates/support-software-support-1440/"
+     ]
+    },
+    "ts": "2026-09-18T14:48:44.105Z",
+    "origin": "https://main--sdt-sciex--aemcoder.aem.live/support/software-support",
+    "codeCommit": "9bd3edd (+ b7794f1)",
+    "plain": "200, 1 h1, 0 about:error, 3 img",
+    "reconcile": []
+   }
   },
   {
    "archetype": "generic-page-template",
@@ -540,6 +648,66 @@
     "media": "Grant-Program_LP_1140x300.jpg + 8 × icons/185/*-blue-bg_185.png (harvested)"
    },
    "breakpoints": {
+    "360": {
+     "iterations": 2,
+     "runs": [
+      {
+       "label": "iter1",
+       "pixelPct": 1.5,
+       "heightDelta": 0,
+       "contentRed": 0,
+       "fixes": "tile icons stretched 125×149 (visual-diff STRETCHED IMAGE): preflight img block inside my flex image cell — live .flex-img is display:block at mobile, img inline 125×125; pre-gate: crumbspacer 20px mobile margin, .flex-img mobile margin-bottom 10.8px (sets the 3 short tiles' height), 3vw gaps"
+      },
+      {
+       "label": "iter2",
+       "pixelPct": 0.2,
+       "pixelPctMasked": 0,
+       "heightDelta": 0,
+       "note": "0 px after mask 1666:33,2566:33,3465:33,4802:33; visual-diff re-run: none"
+      }
+     ],
+     "result": {
+      "structuralRed": 0,
+      "yellow": 2,
+      "orange": 0,
+      "visualFlags": "none (STRETCHED IMAGE ×2 cleared at iter2)",
+      "pixelPct": 0.2,
+      "pixelPctMasked": 0,
+      "heightDelta": 0,
+      "headerCropPct": 0,
+      "footerCropPct": 0.34,
+      "chromeParity": "quiet (exit 0) header/footer",
+      "pass": true
+     },
+     "justified": [
+      {
+       "probe": "content",
+       "flag": "🟡 ×2",
+       "why": "same inline style/script",
+       "permanent": true
+      }
+     ],
+     "residuals": [
+      {
+       "band": "rows 1666–1699, 2566–2599, 3465–3498, 4802–4835",
+       "pct": 0.2,
+       "cause": "Qualtrics launcher / #back-to-top at chunk seams (masked)",
+       "flaggedFor": "user"
+      },
+      {
+       "region": "footer crop",
+       "pct": 0.34,
+       "cause": "same seam rows inside the footer band",
+       "flaggedFor": "user"
+      }
+     ],
+     "captureState": [
+      {
+       "what": "live .row bleeds 15px past the viewport on both sides at 360 (BS3 negative margins on a full-width .main-content) — mirrored",
+       "where": "content row"
+      }
+     ]
+    },
     "1440": {
      "iterations": 1,
      "runs": [
@@ -553,7 +721,7 @@
       {
        "label": "final",
        "pixelPct": 0.39,
-       "pixelPctMasked": 0.0,
+       "pixelPctMasked": 0,
        "heightDelta": 0,
        "note": "6 px after mask 801:98,1666:128,2566:128,3588:135"
       }
@@ -564,9 +732,9 @@
       "orange": 0,
       "visualFlags": "none",
       "pixelPct": 0.39,
-      "pixelPctMasked": 0.0,
+      "pixelPctMasked": 0,
       "heightDelta": 0,
-      "headerCropPct": 0.0,
+      "headerCropPct": 0,
       "footerCropPct": 0.31,
       "chromeParity": "quiet (exit 0) header/footer",
       "contentDiff": "35/35 text nodes, 30/30 editable, 9/9 img — 0 🔴",
@@ -605,66 +773,6 @@
       }
      ],
      "wideCheck1920": "box map identical except the live ® <sup> variant (build 3669 vs live 3709; 0 geometry flags on the 129 matched nodes)"
-    },
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 1.5,
-       "heightDelta": 0,
-       "contentRed": 0,
-       "fixes": "tile icons stretched 125×149 (visual-diff STRETCHED IMAGE): preflight img block inside my flex image cell — live .flex-img is display:block at mobile, img inline 125×125; pre-gate: crumbspacer 20px mobile margin, .flex-img mobile margin-bottom 10.8px (sets the 3 short tiles' height), 3vw gaps"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.2,
-       "pixelPctMasked": 0.0,
-       "heightDelta": 0,
-       "note": "0 px after mask 1666:33,2566:33,3465:33,4802:33; visual-diff re-run: none"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 2,
-      "orange": 0,
-      "visualFlags": "none (STRETCHED IMAGE ×2 cleared at iter2)",
-      "pixelPct": 0.2,
-      "pixelPctMasked": 0.0,
-      "heightDelta": 0,
-      "headerCropPct": 0.0,
-      "footerCropPct": 0.34,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "content",
-       "flag": "🟡 ×2",
-       "why": "same inline style/script",
-       "permanent": true
-      }
-     ],
-     "residuals": [
-      {
-       "band": "rows 1666–1699, 2566–2599, 3465–3498, 4802–4835",
-       "pct": 0.2,
-       "cause": "Qualtrics launcher / #back-to-top at chunk seams (masked)",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.34,
-       "cause": "same seam rows inside the footer band",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "live .row bleeds 15px past the viewport on both sides at 360 (BS3 negative margins on a full-width .main-content) — mirrored",
-       "where": "content row"
-      }
-     ]
     }
    },
    "motion": {
@@ -701,7 +809,74 @@
    ],
    "pluginNotes": [
     "live-embed same-src iframe (Marketo) cancelled to 0 px on both breakpoints — confirms the § Asset-harvest live-embed policy for third-party forms"
-   ]
+   ],
+   "published": {
+    "360": {
+     "pixelPct": 19.43,
+     "pixelPctMasked": 18.93,
+     "mask": "1666:33,2566:33,3465:33,4802:33",
+     "heightDelta": -122,
+     "verdict": "FAIL before reconcile — live's app-page row is main + 30px (390px @−15 at 360, hero/RUO the full 360); the EDS wrappers were the 360/330 column so the intro, list and 8 tiles wrapped +122px. Fixed in styles.css (grant-* / ruo-note wrappers: width min(100% + 30px, 1170px), centred by calc; grant-hero 1140 unpadded) — local harness re-measure: 14/14 anchors within ±2px at 360, 15/15 at 1440 (pending commit → re-stitch)",
+     "headerCropPct": 0,
+     "footerCropPct": 0.34,
+     "computedStyleGuard": {
+      "pass": true,
+      "cls": 0.0828
+     },
+     "evidence": [
+      "stardust/replica/gates/education-grant-support-published-360/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+      "stardust/.work/deploy/g4/gates/education-grant-support-360/"
+     ]
+    },
+    "1440": {
+     "pixelPct": 0.98,
+     "pixelPctMasked": 0.59,
+     "mask": "801:98,1666:128,2566:128,3588:135",
+     "heightDelta": 0,
+     "headerCropPct": 0,
+     "footerCropPct": 0.32,
+     "contentDiffSummary": "proto→published (root main|.lg-root): 35 vs 36 text nodes, 0 🔴; 1 🟠 EXTRA cta = the embed source URL (hidden, editable)",
+     "aiReadability": {
+      "strict": 100,
+      "code": 100
+     },
+     "computedStyleGuard": {
+      "pass": "all but cls",
+      "cls": 0.1436,
+      "clsCause": "the pipeline <picture> hero (1140×300) has no intrinsic size — sections below shift on load; fixed with aspect-ratio 1140/300 (styles.css, pending commit); the Marketo frame mounts with 900px reserved (blocks/embed/embed.css min-height 907px, pending commit, harness shift 0)",
+      "pageerrors": "3 × \"jQuery is not defined\" raised inside the info.sciex.com/LP=2259 frame after it mounts (0 before) — third-party, live carries the same frame",
+      "iframe": "mounted 585×900 under the production CSP (frame-src https:)",
+      "grantsform": "section id server-side, CTA jumps",
+      "disclaimerTail": "under license. RUO-MKT-18-10525-A"
+     },
+     "anchors": "15/15 module anchors within ±2px (hero 1140, intro/CTA, 8 tiles 205px, form h2)",
+     "drive": "8/8 on the published page",
+     "evidence": [
+      "stardust/replica/gates/education-grant-support-published-1440/{live,published,diff,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+      "stardust/.work/deploy/g4/gates/education-grant-support-1440/"
+     ]
+    },
+    "ts": "2026-09-18T14:48:44.105Z",
+    "origin": "https://main--sdt-sciex--aemcoder.aem.live/education/grant-support",
+    "codeCommit": "9bd3edd (+ b7794f1 — compound section style grant-intro legacy-cta orange was one inert class before it; all grant measurements re-taken after)",
+    "plain": "200, 1 h1, 0 about:error, 9 img",
+    "reconcile": [
+     "styles/styles.css: grant row geometry (see 360 verdict) + grant-hero aspect-ratio reserve",
+     "blocks/embed/embed.css: .embed.legacy .embed-frame min-height 907px"
+    ]
+   }
   }
- ]
+ ],
+ "publishedGate": {
+  "ts": "2026-09-18T14:48:44.105Z",
+  "phase": "g4:verify",
+  "verdict": "3 pages live; 1440 pixel PASS ×3 (masked 3.11 / 1.00 / 0.59 %), 360 PASS ×2 + grant FAIL (−122px, root-caused, fixed in tree); chrome crops ≥98.5% except support-360 footer (fixed in tree); ai-readability 100/100 ×3; guards pass except the tree-fixed footer14 / CLS; drives 30/30 on the origin. ONE reconcile round used: 5 tree edits, needsCommit — see stardust/.work/deploy/g4/ready.json",
+  "needsCommit": [
+   "styles/styles.css",
+   "blocks/footer/footer.css",
+   "blocks/embed/embed.css",
+   "blocks/support-hero/support-hero.css"
+  ],
+  "afterCommit": "re-stitch grant-support 360 + support 360, re-run guard-g4 (footer14 / cls), re-crop support-360 footer"
+ }
 }

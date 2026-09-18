@@ -612,3 +612,13 @@ body.sciex-now footer .ftr-col-mobile ul {
 @media (width >= 640px) {
   body.sciex-now footer .ftr-links > * ~ * { margin-left: 17.5px; } /* sm:tw-space-x-5 at a 14px rem */
 }
+
+/* --- template sciex-now, part 2 (APPENDED): the three rem compensations above tie with the legacy
+   variant's :has() selector on specificity and lose on order — restate them at the variant's own
+   specificity (published guard: .ftr-col-mobile computed 12.5px, live 17.5px at a 14px rem). --- */
+body.sciex-now footer .footer:has(.ftr-social a[href*="twitter.com"]) .ftr-col-mobile { padding: 17.5px 0; }
+body.sciex-now footer .footer:has(.ftr-social a[href*="twitter.com"]) .ftr-lang-label { margin-left: 10.5px; }
+
+@media (width >= 640px) {
+  body.sciex-now footer .footer:has(.ftr-social a[href*="twitter.com"]) .ftr-links > * ~ * { margin-left: 17.5px; }
+}

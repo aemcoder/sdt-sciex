@@ -153,3 +153,14 @@ Not created: `legacy-band` (D1 → section style, one heading), `sn-contact` (D1
 - **Text 🟡/🟠 left standing:** round-trip EXTRA cta for the two search links and the two media/embed source links (authored
   form actions / media URLs, hidden but editable), MISSING BODY " min" (dropped junk); lint D1 advisories on the
   template-slotted single-column blocks (bespoke widgets/media) and D3 on `support-shell` (container shape).
+
+## 6. Phase 2 — published-origin verification (2026-09-18)
+
+- **Compound section styles were inert on the published origin:** the pipeline delivers a multi-value `style` as ONE
+  hyphen-joined class (`grant-intro legacy-cta orange` → `class="grant-intro-legacy-cta-orange"`, seen in `.plain.html`;
+  comma-separated joins too). Fixed at runtime by the coordinator (commit b7794f1, `splitCompoundSectionStyles` in
+  scripts/scripts.js, token set read from styles.css) — content styles unchanged. Every grant-page measurement taken
+  before that commit was discarded and re-run.
+- **Published gates (1440):** pixel 3.19/3.11 % (support; Δh −2 = header), 1.19/1.00 % (software-support), 0.98/0.59 % (grant); header crops 100 %/99.66 %, footer crops 98.5–99.7 %; anchors within ±2px on all three; content-diff clean on pages 2–3 (grant: 1 🟠 embed URL), /support 34 🔴 all inside the decided-out dashboard/modal; ai-readability 100/100 ×3; drives 30/30 against the origin (hover swap works on the real `<picture>` once it has loaded).
+- **Reconcile round 1 (tree, needsCommit):** (a) /support header 131 vs live 129 → `body.sciex-now { --nav-height: 129px }` ≥1024; (b) footer rem compensations (17.5px mobile columns, 10.5 label, 17.5 gaps) lost to the legacy variant's `:has()` specificity → restated (support-360 footer crop 93.6 % → the missing 40px); (c) grant 360 was +122px: live's app-page row is `main + 30px` (390px @−15 at 360; hero/RUO the full 360) → `grant-*`/`ruo-note` wrappers `width: min(100% + 30px, 1170px)` centred by calc, `grant-hero` 1140 unpadded — harness re-measure 14/14 anchors at 360, 15/15 at 1440; (d) CLS 0.14 on grant = the hero `<picture>` without intrinsic size → `aspect-ratio: 1140/300` (and 847/350 on the support hero); (e) the Marketo frame mounts into a reserved 907px box (`min-height`, shift 0). Pending commit → re-stitch support/grant at 360 and re-run the guards.
+- **Findings left standing:** grant qa-gate/guard pageerrors = the Marketo frame's own jQuery errors; chrome-parity "All" facet `<button>`→`<span>` (header block, site-wide); family-name fork `geogrotesque → geogrotesque-legacy` (scoped alias, same file).

@@ -24,6 +24,7 @@
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: 847 / 350; /* reserve the slide's box before the picture lands (CLS) */
   border: 1px solid #d3d3d3;
 }
 
