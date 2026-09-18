@@ -1,0 +1,314 @@
+{
+ "source": "http://localhost:8833/support-instrument-service-and-support-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Support",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "instrument-service-and-support",
+     "href": "/support/instrument-service-and-support"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "LC-MS and CE instrumentation service and support"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unlock the potential of your LC-MS or CE instrument"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Generate more throughput, better results, increased ROI, and higher productivity with your LC-MS and capillary electrophoresis (CE) systems using SCIEX service and support. Unlock the potential of your instruments and operational capabilities with the help of an expert team of engineers, technicians and instrument specialists."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Our service and support team is trained at SCIEX training centers and manufacturing sites along with research and development teams to learn how to quickly identify issues. Whether it’s the latest SCIEX technology or a system that has been running in your lab for years, our team has a solution for your problem."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "service-plans",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Avoid downtime and ensure peak performance"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mass spectrometer service and support plans"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "LC-MS plans designed to provide the confidence you need to achieve your analytical goals."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "See plans",
+     "href": "https://www.sciex.com/support/instrument-service-and-support/lc-ms-hardware-plans?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Clinical service and support plans"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "In a clinical diagnostic laboratory, you need to know that downtime won’t delay results and that you can depend on certified medical device service professionals to keep you up and running. Our clinical service and support plan is specifically designed for this purpose."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "See plan",
+     "href": "https://www.sciex.com/support/instrument-service-and-support/clinical-service-plan?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "CE service and support plans"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Get high-quality results consistently and ensure maximum uptime for your CE system with expert instrument and workflow support."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "See plans",
+     "href": "https://www.sciex.com/support/instrument-service-and-support/ce-service-plans?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Intabio ZT system service plan"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "If your system performance is less than optimal, your data will be too. Having accurate multi dimensional data that accelerates candidate selection can mean the difference between success and failure for your lab."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "See plan",
+     "href": "https://sciex.com/support/instrument-service-and-support/intabio-zt-system-service-plan"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "explore-service",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore SCIEX service and support"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Software support plans"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Keep your results on the cutting edge with a support plan for your operating and processing software. Use your SCIEX software with confidence that it is up to date and secure."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore plans",
+     "href": "https://www.sciex.com/support/software-support/sw-support-plns?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "StatusScope remote monitoring service"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Experience real-time diagnosis, resolution and monitoring of your system with the StatusScope remote monitoring service. Get full visibility into critical parameters directly in your SCIEX Now dashboard."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://www.sciex.com/support/instrument-service-and-support/statusscope-remote-monitoring?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "SCIEX Now Visual Assist augmented reality remote support"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Bring your system back online in minutes instead of hours. Receive immediate visual support from a SCIEX service engineer while you are in front of your instrument. Identify problems faster and allow SCIEX specialists to see what you are experiencing."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "/support/instrument-service-and-support/visual-assist"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "SCIEX Now Learning Hub Success Programs"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Get the training your team needs to succeed with SCIEX Now Learning Hub success programs. These series of training courses and resources are designed to upskill your staff to use the latest SCIEX instruments and software."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://www.sciex.com/support/training/success-programs?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "coverage",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Maximum uptime"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Keep your lab moving forward. Return to full operational status quickly with guaranteed onsite response, parts delivery and access to remote monitoring services."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Full SCIEX coverage"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Access unrivalled expertise, parts availability and training across the full portfolio of SCIEX instruments, workflows and software."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Total workflow support"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "From instrument installations to relocations, software training, workflow validations and beyond, SCIEX has the coverage to support you across your entire workflow."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "SCIEX Service and Support Portfolio"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Download",
+     "href": "https://www.sciex.com/content/dam/SCIEX/pdf/brochures/sciex-guide-to-customer-lifecycle-management.pdf?ajs_aid=373e90f4-3e0b-494f-bfc1-cc01d0d48657"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.profile",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

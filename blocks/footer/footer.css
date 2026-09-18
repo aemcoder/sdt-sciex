@@ -587,3 +587,28 @@ footer .footer:has(.ftr-social a[href*="twitter.com"]) .ftr-social a[href*="twit
   background: currentcolor;
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M5.02682 14.3295C11.0345 14.3295 14.3448 9.36398 14.3448 5.07279C14.3448 4.95019 14.3448 4.76628 14.3448 4.64367C14.9579 4.15325 15.5096 3.60153 16 2.9272C15.387 3.17241 14.7739 3.35632 14.0996 3.41762C14.7739 2.9885 15.2644 2.37547 15.5096 1.57854C14.8966 1.94636 14.1609 2.25287 13.4253 2.37547C12.8123 1.76245 11.954 1.33333 11.0345 1.33333C9.2567 1.33333 7.78544 2.80459 7.78544 4.58237C7.78544 4.82758 7.78544 5.07279 7.84674 5.318C5.14943 5.2567 2.69732 3.96934 1.10345 2.00766C0.858238 2.49808 0.67433 3.0498 0.67433 3.66283C0.67433 4.82758 1.22605 5.80842 2.14559 6.36015C1.59387 6.36015 1.10345 6.17624 0.613027 5.93103C0.613027 5.93103 0.613027 5.93103 0.613027 5.99233C0.613027 7.5862 1.71648 8.87356 3.24904 9.18007C3.00383 9.24137 2.69732 9.30268 2.3908 9.30268C2.2069 9.30268 1.96169 9.30268 1.77778 9.24137C2.2069 10.5287 3.37165 11.5096 4.84291 11.5096C3.73946 12.3678 2.3295 12.9195 0.796935 12.9195C0.551724 12.9195 0.245211 12.9195 0 12.8582C1.47126 13.7778 3.18774 14.3295 5.02682 14.3295Z' fill='%23000'/%3E%3C/svg%3E") center / 16px 16px no-repeat;
 }
+
+/* --- template sciex-now (/support): the legacy footer XF inherits the SCIEX Now shell's 14px/22.4px body type
+   and html{font-size:14px} scales its rem utilities ×1.4 (stardust/prototypes/css/support.css § .page--sn;
+   chrome-parity iter1: 47 footer deltas). APPENDED after the legacy variant, same :has() hook applies. --- */
+body.sciex-now footer .ftr-col-head,
+body.sciex-now footer .ftr-col-desktop ul,
+body.sciex-now footer .ftr-col-desktop a,
+body.sciex-now footer .ftr-social span {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+body.sciex-now footer .ftr-lang-label { margin-left: 10.5px; }
+body.sciex-now footer .ftr-col-mobile { padding: 17.5px 0; }
+
+body.sciex-now footer .ftr-col-mobile button,
+body.sciex-now footer .ftr-col-mobile a,
+body.sciex-now footer .ftr-col-mobile ul {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+@media (width >= 640px) {
+  body.sciex-now footer .ftr-links > * ~ * { margin-left: 17.5px; } /* sm:tw-space-x-5 at a 14px rem */
+}

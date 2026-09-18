@@ -1,0 +1,294 @@
+{
+ "source": "http://localhost:8831/education-grant-support-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "_provenance": {
+  "writtenBy": "stardust:deploy g4:convert",
+  "writtenAt": "2026-09-18T13:12:25.078Z",
+  "from": "stardust/eds-schema/education-grant-support.raw.json",
+  "note": "Re-cut per block in page order; the research h2 is default-content head in the cards section; the form h2 is default-content head in the embed section."
+ },
+ "sections": [
+  {
+   "section": "header",
+   "items": [],
+   "repeats": []
+  },
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home",
+     "href": "/"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Grant Support Programs"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.lg-breadcrumb__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ],
+   "shape": "simple"
+  },
+  {
+   "section": "grant-research",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get started with access to the latest application research:"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "General technology"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Powerful scan modes of QTRAP® technology >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/QTRAP-Scan-Modes.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "SelexION® Differential Mobility Separation Technology: the solution to selectivity challenges in quantitative analysis >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/SelexION-Technology-Solution-to-Selectivity-Challenges.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Proteomics"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Accelerating SWATH® Acquisition for protein quantification — up to 100 samples per day >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Accelerating-SWATH-Acquisition-for-Protein-Quantitation-Up-to-100-Samples-per-Day.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Rapidly advance quantitative proteomics with a high-throughput SWATH® Acquisition solution >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Rapidly-Advance-Quantitative-Proteomics-HighThroughput-SWATH-Acquisition-Solution.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Lipidomics"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Achieve broad lipid quantification using a high throughput targeted lipidomics method >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Achieve-Broad-Lipid-Quantitation-using-a-High-Throughput-Targeted-Lipidomics-Method.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Workflow with optimized automated flow injection platform for lipidomics biomarker discovery >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Automated-FIA_MSMSall_TripleTOF6600.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Metabolomics"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Improved metabolite coverage over traditional data dependent techniques for untargeted metabolomics >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/SWATH-Acquisition-Improves-Metabolite-Coverage.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Higher sensitivity and coverage of polar metabolites for targeted metabolomics >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Microflow-LC-Targeted-Metabolomics_RUO-MKT-02-6110-A4.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Antibody therapy development"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Native LC-MS analysis of intact cysteine-linked antibody-drug conjugate >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Native-ADC-Merck.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Native state charge variant analysis of commercialized monoclonal antibodies in minutes >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/native-state-charge-variant-analysis-of-commercialized-tech-note.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Biopharma"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Native state charge variant analysis of commercialized monoclonal antibodies in minutes >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Oligonucleotide_Quant_Qual_MRMHR_workflow.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Pharma drug discovery"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "HTS-4 defining benefits of Echo® MS System >",
+     "href": "/content/dam/SCIEX/pdf/posters/4-benefits-of-echo-ms.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 20,
+     "text": "Environmental and industrial"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "GeXP product brochure >",
+     "href": "/content/dam/SCIEX/pdf/brochures/GeXP-Brochure.pdf"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "DIV.lg-tile",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ],
+   "shape": "container",
+   "block": "cards tiles"
+  },
+  {
+   "section": "grant-form",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Speak to a grant writing expert and receive curated grant applications"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [],
+   "shape": "simple",
+   "block": "embed legacy"
+  },
+  {
+   "section": "footer",
+   "items": [],
+   "repeats": []
+  }
+ ],
+ "defaultContentSections": [
+  {
+   "section": "grant-hero",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": [],
+   "defaultContent": true
+  },
+  {
+   "section": "grant-intro",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Grant funding support & resource tools"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Helping make your research possible"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Our team is here to help you leverage grant opportunities so that your lab can pursue the resources it needs. SCIEX believes in connecting scientists to research and funding tools that empower you to make your next discovery. That starts here."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Make decisions about your lab’s future with the latest content to support your application."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Connect with a team of scientific experts to refine and submit your grant proposal."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Expand your COVID-19 grant research — we can help show you the top funding opportunities within your industry."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Get your lab off to a great start with our academic packages, which are available in three diverse coverage options."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "The SCIEX team is here for you along the way. Receive grant application information for your industry when you contact our team."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Contact a grant writing expert",
+     "href": "#grantsform"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [],
+   "defaultContent": true
+  },
+  {
+   "section": "ruo-note",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "RUO-MKT-18-8016-A"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [],
+   "defaultContent": true
+  }
+ ]
+}

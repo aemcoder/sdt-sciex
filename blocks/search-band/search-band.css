@@ -1,0 +1,94 @@
+/* search-band — live .banner-bottom-search.section-space (stardust/prototypes/css/support.css § green search
+   band). 62px clip at desktop; the lede keeps the live 'proxima-nova', Arial, Verdana stack — the Typekit
+   kit is never rehosted, Arial is the live stack's own fallback (permanent justified 🟠). The 30×30 submit
+   glyph (live search-white.png) is a fixed asset inlined as a data URI. */
+.search-band .sn-band {
+  position: relative;
+  height: 62px;
+  margin: 15px 0 80px;
+  overflow: hidden;
+  font-family: helvetica, arial, sans-serif;
+  color: #fff;
+}
+
+.search-band .sn-band-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  padding: 15px;
+  background: #65bc28;
+}
+
+.search-band .sn-band-col {
+  position: relative;
+  flex: 0 0 50%;
+  width: 100%;
+  max-width: 50%;
+  min-height: 1px;
+  padding: 0 6px;
+}
+
+.search-band .sn-band-lede p {
+  margin: 5px 0 0;
+  font-family: proxima-nova, arial, verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.search-band .sn-band-search { margin-bottom: 10px; }
+
+.search-band .sn-band-label p { margin: 0; }
+
+.search-band .sn-band-input {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  font: 400 14px/22.4px arial, verdana, sans-serif;
+  color: #5f6062;
+  background-color: revert;
+  border: revert; /* live: UA-default border + appearance auto — Chromium paints the native textfield */
+  appearance: auto;
+}
+
+.search-band .sn-band-input::placeholder {
+  color: #7e8083;
+  opacity: 1;
+}
+
+.search-band .sn-band-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 36px;
+  height: 34px;
+  padding: 1px 6px;
+  font: 400 14px/22.4px helvetica, arial, sans-serif;
+  color: #fff;
+  background: #00afdb url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaVJREFUeNrslr8vQ1EUx3vLooZGQhci8SMsXQgbIQYaE1b8B6b+BUxWic1gNdiIrUnFImZtYjRoNbW0A4mmPJ/Drdy89Op7fWhET/LJTe69531v7j3f0yrHcUKtiHCoRdEW/qfCSqlPiC7YgnMogdigDBeQhG5zvxtbqHp2qiWwNstwBP1wC2koQi/MwwjkYYOcdD0Bq11lwY2eX4AKFGENlCtPDr0K91CFhNfvv2tYFnrgAQow/NVbsT4Ad1CCvqDC285HrHgpFPYt6f27XoWV5Q2uIcq7DXqtUr5zI8VKzpiXN7bZSZIvfTrkSooNoc4gPpb5V5/CVZ0XDiIs1on7FJ6AHFddCSJ8IsJc24zH953SwqchH0VRD7HIoxSMWKtBfhQy8AxDgeykEza1RbIwaRGNa1FHN5rRQHYyWuY6wwFEIKVbZgFiumUuwgvUKjkHCfIzTbdMV2fa193JjLyeFwsdG/PS8aabvmrLIWMwrkdlzHfAoSFehrlvE25QZPJse4b4Eyz/uLBxgB1DPPVrwlo8CWcQ8fsj0f6z1xb+u8JvAgwA146l7R4AQ88AAAAASUVORK5CYII=") 50% 50% no-repeat;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+  white-space: pre;
+}
+
+@media (width <= 767px) {
+  .search-band .sn-band {
+    height: auto;
+    overflow: visible;
+  }
+
+  .search-band .sn-band-col {
+    flex: 0 1 auto;
+    max-width: none;
+  }
+
+  .search-band .sn-band-lede p {
+    margin: 0 0 14px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

@@ -25,3 +25,11 @@
 @font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 330; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
 @font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 270; font-display: swap; src: url('../fonts/geogrotesque-sharp-vf.woff2') format('woff2'); }
 @font-face { font-family: geogrotesque-legacy; font-style: normal; font-weight: 200; font-display: swap; src: url('../fonts/geogrotesque-ultlt.woff2') format('woff2'); }
+
+/* Legacy SCIEX Now icon fonts (G4 templates `sciex-now` / `legacy`; open licences — fonts/LICENSING.md):
+   hs-admin-icons = the Unify admin theme glyphs of the /support sidebar (align-left e905, angle-right e90f,
+   pie-chart e9f6, search ea0f); Glyphicons Halflings (Bootstrap 3, MIT) is declared for the legacy card
+   chevron span, whose ::before computes FontAwesome U+F105 on live. The support-shell block CSS repeats the
+   hs-admin-icons declaration so the sidebar glyphs never paint tofu before this lazily-loaded file lands. */
+@font-face { font-family: hs-admin-icons; font-style: normal; font-weight: 400; font-display: block; src: url('../fonts/hs-admin-icons.woff') format('woff'); }
+@font-face { font-family: glyphicons-halflings; font-style: normal; font-weight: 400; font-display: block; src: url('../fonts/glyphicons-halflings-regular.woff') format('woff'); }

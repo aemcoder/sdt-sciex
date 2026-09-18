@@ -230,7 +230,14 @@ export default async function decorate(block) {
           for (let n = walker.nextNode(); n; n = walker.nextNode()) {
             if (n.textContent.trim()) last = n;
           }
-          if (last) last.textContent = last.textContent.replace(/\b[A-Z]{2,}(?:-[A-Z0-9]+)+\.?\s*$/, `${code}`);
+          if (last) {
+            const re = /\b[A-Z]{2,}(?:-[A-Z0-9]+)+\.?\s*$/;
+            // Replace the fragment's trailing code; when the fragment carries none
+            // (legacy footer), append the page's text after the sentence.
+            last.textContent = re.test(last.textContent)
+              ? last.textContent.replace(re, `${code}`)
+              : `${last.textContent.replace(/\s*$/, '')} ${code}`;
+          }
         }
         d.append(p); bottom.append(d);
       }

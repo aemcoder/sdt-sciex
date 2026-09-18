@@ -1,0 +1,132 @@
+/* support-hero — live .overlayboxcarousel > #myCarousel (one slide). Values lifted from
+   stardust/prototypes/css/support.css § hero carousel + interaction parity. */
+.support-hero {
+  position: relative;
+  margin-bottom: 25px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+.support-hero .sn-hero-inner { position: relative; } /* no clip — the indicator hangs 50px below */
+
+.support-hero .sn-hero-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.support-hero .sn-hero-img { line-height: 0; }
+
+.support-hero .sn-hero-img p {
+  margin: 0;
+  line-height: 0;
+}
+
+.support-hero .sn-hero-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid #d3d3d3;
+}
+
+.support-hero .sn-hero-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.support-hero .sn-hero-indicators li {
+  box-sizing: content-box;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  padding: 0;
+  text-indent: -999px;
+  cursor: pointer;
+  background: #0084a9;
+  border: 1px solid #0084a9;
+}
+
+.support-hero .sn-hero-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 13px 15px 13px 10px;
+  background: rgb(95 96 98 / 75%);
+  color: #fff;
+  font-size: 15px;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.support-hero .sn-hero-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 8px 0;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: normal;
+  color: #0084a9;
+}
+
+.support-hero .sn-hero-text p {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.support-hero .sn-hero-cta {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.support-hero .sn-hero-cta p { margin: 0; }
+
+/* live .btn.orange.login-link — painted on the anchor whatever mark it carries (edit mode drops .button) */
+.support-hero .sn-hero-cta a:any-link {
+  display: block;
+  float: right;
+  width: auto;
+  min-width: 0;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 7px 15px;
+  font: 400 14px/21px helvetica, arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background: #f99d31;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.support-hero .sn-hero-cta a::after { content: none; }
+
+.support-hero .sn-hero-cta a:any-link:hover {
+  background: #00afdb;
+  color: #fff;
+}
+
+@media (width <= 767px) {
+  .support-hero .sn-hero-bar {
+    position: relative;
+    padding: 5px;
+  }
+
+  .support-hero .sn-hero-title { font-size: 18px; }
+}

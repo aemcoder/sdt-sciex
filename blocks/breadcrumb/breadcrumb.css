@@ -178,3 +178,12 @@ main .section.breadcrumb-container .default-content-wrapper p img {
     font-size: 64px;
   }
 }
+
+/* --- legacy variant on the G4 templates (APPENDED; stardust/eds-conversion-log-g4.md § 4): the shared
+   decode self-links the current item (aria-current) while the live legacy crumb renders plain bold text —
+   keep it visually inert (no hover recolour, default cursor). --- */
+.breadcrumb.legacy .breadcrumb-trail li a[aria-current="page"],
+.breadcrumb.legacy .breadcrumb-trail li a[aria-current="page"]:hover {
+  color: #5f6062;
+  cursor: default;
+}

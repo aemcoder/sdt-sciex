@@ -881,3 +881,30 @@ body.kb-article header .hdr-dropbtn {
   font-weight: 400;
   padding: 0;
 }
+
+/* --- G4 legacy templates (metadata `Template: legacy` / `Template: sciex-now`) — APPENDED, same scope as the
+   kb-article rule above (chrome-parity: legacy "All" search button weight 400 / padding 0; on the SCIEX Now
+   shell the XF inherits the shell's 14px/22.4px body type — stardust/prototypes/css/support.css § .page--sn). --- */
+body.legacy header .hdr-dropbtn,
+body.sciex-now header .hdr-dropbtn {
+  font-weight: 400;
+  padding: 0;
+}
+
+body.sciex-now header .hdr-nav-row > ul > li > a,
+body.sciex-now header .hdr-dropbtn {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+/* --- G3 template page-content (metadata `Template: page-content` → body.page-content; the legacy
+   v2 page-content template, /support/professional-lab-services) — APPENDED. Live wraps header + body
+   in `.tw` and its components inject `<style>.tw a { color: #428bca }</style>`, so every header link
+   without a more specific colour rule renders #428bca (blue nav labels, blue Login / Shop / Request a
+   quote). Replicated as captured — inconsistency-register candidate (live bug: the v3 header is
+   recoloured on this template); stardust/prototypes/css/support-professional-lab-services.css § chrome quirk. --- */
+body.page-content header .hdr-utility-link > a,
+body.page-content header .hdr-rfq > a,
+body.page-content header .hdr-nav-row > ul > li > a {
+  color: #428bca;
+}

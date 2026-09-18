@@ -1,0 +1,109 @@
+/* image-map — live .ig-comp (inline <style> mirrored in stardust/prototypes/css/support.css § support-network).
+   Desktop: artwork ≤1000px wide, copy panel absolutely centred in the right 350px, one state visible.
+   ≤1024: artwork hidden, the same copy nodes stack as the live .ig-mobile list (rest state hidden). */
+.image-map {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.image-map .ig-stage {
+  position: relative;
+  max-width: 1000px;
+  margin: 80px auto 0;
+}
+
+.image-map .ig-images { position: relative; }
+
+.image-map .ig-image { line-height: 0; }
+
+.image-map .ig-image p {
+  margin: 0;
+  line-height: 0;
+}
+
+.image-map .ig-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-map .ig-image[hidden] { display: none; }
+
+.image-map .ig-copy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 350px;
+  height: 100%;
+  padding: 0 20px;
+  pointer-events: none;
+}
+
+.image-map .ig-copy-item { display: none; }
+.image-map .ig-copy-item.is-active { display: block; }
+
+.image-map .ig-copy :is(h1, h2) {
+  margin: 0 0 7px;
+  font-family: inherit;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: normal;
+  color: #0084a9;
+}
+
+.image-map .ig-copy h3 {
+  margin: 0 0 7px;
+  font-family: inherit;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: normal;
+  color: #00afdb;
+}
+
+.image-map area { cursor: pointer; }
+
+@media (width <= 1024px) {
+  .image-map .ig-stage { margin-top: 0; }
+
+  .image-map .ig-images,
+  .image-map map { display: none; }
+
+  .image-map .ig-copy {
+    position: static;
+    display: block;
+    max-width: none;
+    height: auto;
+    padding: 0;
+    pointer-events: auto;
+  }
+
+  .image-map .ig-copy-item,
+  .image-map .ig-copy-item.is-active { display: block; }
+
+  .image-map .ig-copy-item:first-child { display: none; } /* the rest state is desktop-only on live */
+
+  .image-map .ig-copy :is(h1, h2) {
+    margin: 10px 0 7px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0084a9;
+  }
+
+  .image-map .ig-copy h3 {
+    margin: 0 0 7px;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    background: none;
+    color: #5f6062;
+  }
+}

@@ -23,7 +23,9 @@ export default function decorate(block) {
   // Current page: the last item has no link on the ENCODE side; live renders it as a
   // self-link with aria-current — wrap the item's nodes (no text added, no text rebuilt).
   const last = list.lastElementChild;
-  if (last && !last.querySelector('a') && last.textContent.trim()) {
+  // Legacy templates render the last crumb as plain bold text (no self-link).
+  const selfLink = !block.classList.contains('legacy');
+  if (selfLink && last && !last.querySelector('a') && last.textContent.trim()) {
     const a = document.createElement('a');
     a.href = window.location.pathname;
     a.setAttribute('aria-current', 'page');

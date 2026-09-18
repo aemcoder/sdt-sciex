@@ -1,0 +1,522 @@
+{
+ "source": "http://localhost:8833/support-training-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Support",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Training",
+     "href": "/support/training"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX Now Learning Hub for all your mass spectrometer, LC, and CE training"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The Learning Hub helps you get the most from instruments"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "When it comes to mass spectrometer training, we believe your go-to source should be the people that know the technology, applications, workflows and methods the best. That’s why SCIEX offers diverse and flexible learning options for expert-led training, with best-in-class content that helps you get the most out of your instrument and take your lab to the next level. And now, lab managers have the ability to manage SCIEX training for all of their staff through the Learning Manager."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "welcome-video",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Pause"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Play"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "% buffered"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "00:00"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "05:57"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Unmute"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Mute"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Disable captions"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Enable captions"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Settings"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Captions"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Disabled"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Quality"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "undefined"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Speed"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Normal"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Captions"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Go back to previous menu"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Quality"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Go back to previous menu"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Speed"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Go back to previous menu"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "0.5×"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "0.75×"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Normal"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "1.25×"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "1.5×"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "1.75×"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "2×"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "4×"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "PIP"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Exit fullscreen"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Enter fullscreen"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Play"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "BUTTON.plyr__controls__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.plyr__controls__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "learning-hub-features",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Centralized"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "View your enrolled and completed courses, print your certificates and browse the course catalog with a single login."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Access your Learning Hub dashboard",
+     "href": "https://training.sciex.com/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Comprehensive"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Search self-paced online course catalog designed to help you build skills, deepen knowledge, and get the most out of your SCIEX instruments – anytime, anywhere."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "View catalog of self-paced learning",
+     "href": "https://sciex.com/search-results?contentType=Training&facetId=trainingcoursetype&value=Self%20paced%20learning"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Adaptable"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Virtual and in-person training options to suit your learning needs."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Virtual training",
+     "href": "https://sciex.com/support/training/success-programs/success-virtual-training-program"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Management"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Manage your staff’s development with Learning Manager."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Learn more",
+     "href": "https://www.sciex.com/support/training/learning-manager-overview?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.profile",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "in-person-cta",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "In person training",
+     "href": "https://sciex.com/resource-hub/instructor-led-training"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "training-topics",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Training topics"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Instrument operation"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "View courses",
+     "href": "https://sciex.com/search-results?contentType=Training&facetId=trainingtopiccategories&value=Operations"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Troubleshooting and maintenance"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "View courses",
+     "href": "https://sciex.com/search-results?contentType=Training&facetId=trainingtopiccategories&value=Troubleshooting"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Software"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "View courses",
+     "href": "https://sciex.com/search-results?contentType=Training&facetId=softwarecategories&value=SCIEX%20OS%20software"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Method development and validation"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "View courses",
+     "href": "https://sciex.com/support/training/success-programs/advanced-lc-ms-method-development-training"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Applications and workflows"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "View courses",
+     "href": "https://sciex.com/search-results?contentType=Training&facetId=trainingtopiccategories&value=Applications"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.profile",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "learning-manager-banner",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "success-programs",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Earn a workflow certificate or receive fully personalized application support"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Learning Hub Success Programs offer a comprehensive training option, with personalized, blended online and in-person courses. Successful completion provides you with a workflow certificate. Each program is purposefully designed based on renowned spaced learning models that are proven to maximize your knowledge retention by up to 16-times."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more about our Success Programs",
+     "href": "https://sciex.com/support/training/success-programs"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Work with a SCIEX applications support specialist to create a training agenda just for you. There are a wide range of applications supported to build a program that is most suited to your lab users"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more about personalized application support",
+     "href": "https://sciex.com/education/customer-site-training/personalized-application-support-at-customer-site"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.profile",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "closing-rule",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

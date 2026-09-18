@@ -1,0 +1,28 @@
+/* embed — default: responsive 16:9 frame (Block Collection). Variant `legacy` = the live Marketo landing-page
+   frame of /education/grant-support (#grantsform .form-container-landing > iframe: inline, 50% wide, 900px,
+   UA inset border kept — stardust/prototypes/css/education-grant-support.css § grant form). */
+.embed .embed-frame { width: 100%; }
+
+.embed .embed-frame iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+}
+
+.embed .embed-source p { margin: 0; }
+
+.embed.legacy .embed-frame {
+  line-height: 24px;
+  text-align: center;
+}
+
+.embed.legacy .embed-frame iframe {
+  display: inline;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  width: 50%;
+  height: 900px;
+  aspect-ratio: auto;
+  border: 2px inset currentcolor; /* the UA iframe border, as live; the inline line box adds the 7px strut */
+}

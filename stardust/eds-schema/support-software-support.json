@@ -1,0 +1,179 @@
+{
+ "source": "http://localhost:8831/support-software-support-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "_provenance": {
+  "writtenBy": "stardust:deploy g4:convert",
+  "writtenAt": "2026-09-18T13:12:25.078Z",
+  "from": "stardust/eds-schema/support-software-support.raw.json",
+  "note": "Re-cut per block in page order; band h1 → h2 and card h4 → h3 on the EDS side."
+ },
+ "sections": [
+  {
+   "section": "header",
+   "items": [],
+   "repeats": []
+  },
+  {
+   "section": "page-title",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Mass spectrometry software support"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [],
+   "shape": "simple"
+  },
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home",
+     "href": "/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Support",
+     "href": "/support"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Software Support"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.lg-breadcrumb__item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ],
+   "shape": "simple"
+  },
+  {
+   "section": "cards",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Softwares support plans"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Get the most from your SCIEX software with application support, for optimal results."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Software downloads"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Download the latest software updates, hotfixes, add-on tools and free trials."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Browse downloads",
+     "href": "/support/software-support/software-downloads"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.lg-card",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ],
+   "shape": "container"
+  },
+  {
+   "section": "footer",
+   "items": [],
+   "repeats": []
+  }
+ ],
+ "defaultContentSections": [
+  {
+   "section": "richtext",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get technical support to help maximize your instrument"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "At SCIEX we provide superior mass spec software support, ensuring you get maximum value from your instruments, in the shortest time. By running the best software version for your workflow, you will experience improved productivity and better quality data."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Our software ecosystem combines best-in-class capabilities, comprehensive and proactive support services; all driven by industry-leading innovations. The SCIEX support team is committed to delivering the right kind of support fast, to meet the varying demands of your lab."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Learn more about"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "SCIEX software >",
+     "href": "/products/software"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [],
+   "defaultContent": true
+  },
+  {
+   "section": "legacy-band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get the most from your mass spectrometry systems"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [],
+   "defaultContent": true
+  }
+ ]
+}

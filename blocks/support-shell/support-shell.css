@@ -1,0 +1,309 @@
+/* support-shell — SCIEX Now brand bar + sidebar (live header.u-header + aside.sidebar-wrapper, Unify admin
+   theme). Values lifted from stardust/prototypes/css/support.css § shell / bar / sidebar / interaction
+   parity. The block's section is the sidebar column (styles.css § template sciex-now floats it 292px). */
+
+/* Unify admin icon font (open licence; also declared in styles/fonts.css — repeated here because fonts.css
+   loads lazily and the sidebar glyphs would paint tofu first) */
+@font-face {
+  font-family: hs-admin-icons;
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../../fonts/hs-admin-icons.woff") format("woff");
+}
+
+.support-shell {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #007aa0;
+}
+
+.support-shell [class^="hs-admin-"] {
+  display: inline-block;
+  font-family: hs-admin-icons, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+.support-shell .hs-admin-align-left::before { content: "\e905"; }
+.support-shell .hs-admin-search::before { content: "\ea0f"; }
+
+/* --- bar: absolute over the shell top (main is the containing block), fixed once stuck --- */
+.support-shell .sn-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  font-size: 13px;
+  line-height: 20.8px;
+  color: #fff;
+}
+
+.support-shell .sn-bar.stuck {
+  position: fixed;
+  z-index: 0;
+}
+
+.support-shell .sn-bar-section {
+  position: relative;
+  min-height: 65px;
+}
+
+.support-shell .sn-bar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.support-shell .sn-bar-brand-box {
+  display: flex;
+  width: 292px;
+  max-width: 100%;
+  padding: 12px 15px;
+  background: #e4f0f4;
+  overflow: hidden;
+}
+
+.support-shell .sn-bar-brand {
+  display: flex;
+  align-self: center;
+  margin: 5px 14px 0 0;
+  padding: 0 15px;
+  font-size: 17.5px;
+  line-height: 17.5px;
+  white-space: nowrap;
+}
+
+.support-shell .sn-bar-brand p {
+  margin: 0;
+  line-height: 0;
+}
+
+.support-shell .sn-bar-brand a { display: block; }
+
+.support-shell .sn-bar-brand img {
+  display: block;
+  width: 135px;
+  height: 50px;
+}
+
+.support-shell .sn-bar-toggler {
+  position: relative;
+  display: flex;
+  align-self: center;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #007aa0;
+  cursor: pointer;
+}
+
+.support-shell .sn-bar-toggler i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  line-height: 20px;
+  transform: translate(-10px, -10px);
+}
+
+/* --- sidebar (live aside.sidebar-wrapper: 292px, padding-top 85 clears the bar) --- */
+.support-shell .sn-side {
+  width: 100%;
+  min-height: 100%;
+  padding: 85px 6px 0;
+  background: #e4f0f4;
+  color: #007aa0;
+}
+
+.support-shell .sn-search { height: 106px; } /* live .sidebar-search-cont — fixed, so the help margin never collapses */
+
+.support-shell .sn-search-form { margin: 0 15px; }
+
+.support-shell .sn-search-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  max-width: 450px;
+}
+
+.support-shell .sn-search-input {
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  height: 46px;
+  margin: 0;
+  padding: 14px 40px 14px 14px;
+  font: 400 14px/21px arial, verdana, sans-serif;
+  color: #007aa0;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 7.5%);
+  outline: 0;
+}
+
+.support-shell .sn-search-input::placeholder {
+  color: #007aa0;
+  opacity: 1;
+}
+
+.support-shell .sn-search-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  margin: 0 0 5px;
+  padding: 7px 15px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
+  background: #00afdb;
+  border: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.support-shell .sn-search-btn i {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.support-shell .sn-help { margin: 5px 15px 10px; }
+
+.support-shell .sn-help p { margin: 0; }
+
+/* Get Help (live .btn.orange, width 100%) — styled on the anchor, mark-agnostic (button classes die in edit mode) */
+.support-shell .sn-help a:any-link {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  min-width: 0;
+  margin: 0 0 5px;
+  padding: 7px 15px;
+  font: 400 14px/21px helvetica, arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background: #f99d31;
+  border: 1px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.support-shell .sn-help a::after { content: none; }
+
+/* --- nav groups: uppercase header, glyph links (icons are pseudo-elements on the authored <a>) --- */
+.support-shell .sn-nav-header {
+  margin: 40px 0 10px;
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 19.2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.support-shell .sn-nav-header p {
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+.support-shell .sn-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.support-shell .sn-nav li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.support-shell .sn-nav li p { margin: 0; }
+
+.support-shell .sn-nav a:any-link {
+  display: flex;
+  align-items: center;
+  min-height: 42.4px;
+  padding: 10px 15px;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #007aa0;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.support-shell .sn-nav a::before {
+  content: "\e9f6";
+  flex: 0 0 auto;
+  margin-right: 10px;
+  font: 400 18px/18px hs-admin-icons, sans-serif;
+  color: #007aa0;
+}
+
+.support-shell .sn-nav a::after {
+  content: "\e90f";
+  flex: 0 0 auto;
+  margin-left: auto;
+  font: 400 14px/14px hs-admin-icons, sans-serif;
+}
+
+.support-shell .sn-nav a:any-link:hover { color: #f99d31; }
+
+/* --- mini state (toggler): 50px column, labels/search/help collapse --- */
+main.sn-mini .support-shell .sn-bar-brand-box {
+  width: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+main.sn-mini .support-shell .sn-bar-brand { display: none; }
+main.sn-mini .support-shell .sn-bar-toggler { margin: 0 10px 0 auto; }
+
+main.sn-mini .support-shell .sn-search-form,
+main.sn-mini .support-shell .sn-help,
+main.sn-mini .support-shell .sn-nav-header { opacity: 0; }
+
+main.sn-mini .support-shell .sn-side {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+main.sn-mini .support-shell .sn-nav a:any-link {
+  font-size: 0;
+  padding-left: 15px;
+  padding-right: 0;
+}
+
+@media (width <= 767px) {
+  .support-shell .sn-bar,
+  .support-shell .sn-side { display: none; }
+}

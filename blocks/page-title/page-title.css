@@ -1,0 +1,96 @@
+/* page-title (variant legacy) — live .pagetitle band + brand colour bar. Values lifted from
+   stardust/prototypes/css/support-software-support.css § page title band. The block is full-bleed:
+   body.legacy's 1170px column is lifted off this wrapper below; the content re-caps at 1140px. */
+body.legacy main > .section > .page-title-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.page-title.legacy { font-family: helvetica, arial, sans-serif; }
+
+.page-title.legacy .pagetitle-bar { background: #e4f1f5; }
+
+.page-title.legacy .pagetitle-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  min-height: 250px;
+  margin: 0 auto;
+}
+
+.page-title.legacy .pagetitle-icon {
+  flex: 0 0 16%;
+  align-self: center;
+}
+
+.page-title.legacy .pagetitle-icon p {
+  margin: 0;
+  line-height: 0;
+}
+
+.page-title.legacy .pagetitle-icon img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.page-title.legacy .pagetitle-text {
+  flex: 1 1 auto;
+  align-self: center;
+}
+
+.page-title.legacy .pagetitle-text :is(h1, h2, h3) {
+  display: inline;
+  margin: 0 0 15px;
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0084a9;
+}
+
+/* zero-height container, four 25% floats hanging into the next wrapper's top padding (as live) */
+.page-title.legacy .brand-color-bar {
+  max-width: 1140px;
+  height: 0;
+  margin: 0 auto;
+}
+
+.page-title.legacy .brand-color-bar > div {
+  float: left;
+  width: 25%;
+  height: 10px;
+}
+
+.page-title.legacy .brand-color-bar-grey { background: #b1b1b1; }
+.page-title.legacy .brand-color-bar-blue { background: #007da4; }
+.page-title.legacy .brand-color-bar-green { background: #76bc21; }
+.page-title.legacy .brand-color-bar-navy { background: #003e52; }
+
+@media (width <= 767px) {
+  .page-title.legacy .pagetitle-bar {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .page-title.legacy .pagetitle-content {
+    flex-wrap: wrap;
+    min-height: 150px;
+  }
+
+  .page-title.legacy .pagetitle-icon {
+    flex: 0 0 100%;
+    max-width: 100px;
+  }
+
+  .page-title.legacy .pagetitle-text {
+    flex: 1 1 100%;
+    text-align: left;
+  }
+
+  .page-title.legacy .pagetitle-text :is(h1, h2, h3) {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,29 @@
+/* video — live .StandardVideo > .video-banner > .video-wrapper (stardust/prototypes/css/support.css § video).
+   860px column, 30/15 padding; the player is inline-block on the baseline (live: 6.4px strut under it);
+   the padding-bottom also models the live caption block's empty h1 (padding-top 10 + margin 5) and the
+   never-populated " min" line (17.6px) — dropped junk, heights kept (#112). */
+.video .video-wrap {
+  position: relative;
+  display: block;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 30px 15px 62.6px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.video .video-wrap video {
+  display: inline-block;
+  vertical-align: baseline;
+  width: 100%;
+  max-width: 100%;
+}
+
+.video .video-poster[hidden] { display: none; }
+
+.video .video-source p { margin: 0; }
+
+@media (width <= 767px) {
+  .video .video-wrap { padding-bottom: 67px; } /* mobile body-copy line 22px */
+}

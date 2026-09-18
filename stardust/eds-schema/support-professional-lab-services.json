@@ -1,0 +1,347 @@
+{
+ "source": "http://localhost:8833/support-professional-lab-services-proposed.html",
+ "width": 1440,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Support",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Professional laboratory services",
+     "href": "/support/professional-lab-services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "hero-teaser",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Professional laboratory services"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "At SCIEX, we offer a range of professional lab services to help our customers tackle their most pressing scientific challenges."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-image",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "overview",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Overview"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Expertise and professionalism your lab can rely on."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "The SCIEX professional services team draws upon decades of experience from all aspects of life science workflows and laboratory environments. The vast level of expertise, attention to detail and care that is delivered throughout your project will be second to none. There are lots of key projects that the SCIEX Professional Services team can help you with to ensure your lab increases productivity, compliance attainment, instrument verification and relocation. Regardless of the task in hand the SCIEX Professional Service experts are your trusted partners in delivering laboratory and scientific excellence."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore our services Explore our services",
+     "href": "https://sciex.com/support/professional-lab-services#related"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tcd__col",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "service-pillars",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "/"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "1"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "1"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Customization"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "One size does not fit all. SCIEX professional services understands that all labs and workflows are different. Standards and regulations vary by region and updates may need to be applied to a system where all activities must be documented in a SOP record. You can trust that the team will bring the same level of support and commitment to a first-time request as to a reoccurring common procedure."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Experts"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "The SCIEX professional services consists of an extensive team of industry and system specialists who are focused on understanding and addressing the challenges you face and providing a clear path to a robust solution. Our expertise covers workflows, instrument configurations, method validations, compliance and more."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Budget"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "We understand that budgets are not infinite. The services and products we deliver will be sized accordinging to your labs needs and available budget. Timelines, can be sensitive and certain projects may need expediting. During the consultation phase of your project, the team will work within your parameters to deliver the best tailored solution within your financial and time considerations."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Coverage"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "SCIEX professional services are not limited to mass spectrometry workflows. The team has proven experience across the entire SCIEX portfolio from capillary electrophoresis and software, including delivering a seamless transition from Analyst software to SCIEX OS software."
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.mcr__slide",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "bespoke-solutions",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Bespoke solutions for your lab's needs"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Laboratories are unique, there is not one set of services that can comprehensively support requirements, objectives and goals. The SCIEX professional services team offer customized solutions and services to help realise your lab’s ambition. The team offer the following:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Full consultation and evaluation of your needs"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Improved efficiencies and increased productivity"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Complete visibility into financial considerations for cost reduction"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Resource support"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "As the team find out more about your needs and the scope of the work required you will receive a project pan with costings aligned to your budgets, along with an expected timeline. All this information is provided prior to the commencement of the project. If you would like to request SCIEX professional services then please follow the link below."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Request a quote Request a quote",
+     "href": "/form-pages/product-request"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "areas-of-expertise",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Our areas of expertise"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Software and IT services"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Integrating and optimizing the technology in your lab is ongoing. We can assist in maximizing automation to make your lab efficient and to mitigate risks of downtime and data loss. We specialize in the migration from Analyst to SCIEX OS software ensuring a seamless transition to the latest and most powerful software for your system."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services/software-and-it"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": ".tw a { transition: all 0.25s ease; color: #00afdb; text-decoration: none; color: #428bca; text-decoration: none; background: transparent; }"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Lab compliance services"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Regulatory compliance is at the core of success for your lab. Our certified SCIEX engineers guide you through installation qualification (IQ), operational qualification (OQ), performance qualification (PQ), and re-qualification."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services/lab-compliance-services"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": ".tw a { transition: all 0.25s ease; color: #00afdb; text-decoration: none; color: #428bca; text-decoration: none; background: transparent; }"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Lab optimization"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Let our team of experts audit and assess your laboratory workflows and process strategies to unlock productivity potential in your lab. This optimization service will improve efficiencies of your labs which could help contribute to your operation's bottom line."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services/lab-optimization-services"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": ".tw a { transition: all 0.25s ease; color: #00afdb; text-decoration: none; color: #428bca; text-decoration: none; background: transparent; }"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Consulting and customized lab training"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Lab staff turnover sometimes puts your workflow in a knowledge deficit. Support and training packages are available to improve onboarding and upskilling to drive productivity and system efficiencies. Training will enable consistency of your workflows, and system maintenance along with increased staff confidence and proficiency in operating your systems."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services/customized-lab-training"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": ".tw a { transition: all 0.25s ease; color: #00afdb; text-decoration: none; color: #428bca; text-decoration: none; background: transparent; }"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Lab relocation services"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Sometimes, you must move your systems from one room to another, or to another building, state or country. Regardless of your need, offers a relocation service that protects your system throughout its journey and reinstallation."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Learn more",
+     "href": "https://sciex.com/support/professional-lab-services/lab-relocation-services"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": ".tw a { transition: all 0.25s ease; color: #00afdb; text-decoration: none; color: #428bca; text-decoration: none; background: transparent; }"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.expertise__cell",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

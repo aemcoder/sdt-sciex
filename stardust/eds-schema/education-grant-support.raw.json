@@ -1,0 +1,3122 @@
+{
+ "source": "http://localhost:8831/education-grant-support-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "site-header",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Search"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Close search"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Open menu"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Close menu"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "All"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "All",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Applications",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "eCommerce",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Knowledge base articles",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Products and services",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Regulatory documents",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "SCIEX How",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Technical notes",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Training",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "User guides",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Login",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Create an account",
+     "href": "/support/create-account"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Already have an account?Sign in now",
+     "href": "/bin/sciex/login"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "My profile",
+     "href": "/support/profile"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "My favorite resources",
+     "href": "/resource-hub/myfavorite"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Shop",
+     "href": "https://us-store.sciex.com/USD"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Request a quote",
+     "href": "/form-pages/product-request"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "SCIEX Now Dashboard",
+     "href": "/support"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Enter search term"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Search"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Applications",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Training",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Support",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Service",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Resource hub",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "About us",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Shop",
+     "href": "https://us-store.sciex.com/USD"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "My account",
+     "href": "/bin/sciex/login"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "My profile",
+     "href": "/support/profile"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Logout"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Request a quote",
+     "href": "/form-pages/product-request"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Applications",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Training",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Support",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Service",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Resource hub",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "About us",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "QTOF systems",
+     "href": "/products/mass-spectrometers/qtof-systems"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "ZenoTOF 8600 system",
+     "href": "/products/mass-spectrometers/qtof-systems/8600-system"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "ZenoTOF 7600+ system",
+     "href": "/products/mass-spectrometers/qtof-systems/7600-plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "ZenoTOF 7600 system",
+     "href": "/products/mass-spectrometers/qtof-systems/zenotof-7600-system"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "X500 family",
+     "href": "/products/mass-spectrometers/qtof-systems/x-series-qtof-systems"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "QTRAP systems",
+     "href": "/products/mass-spectrometers/qtrap-systems"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "7500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "QTRAP 6500+ system",
+     "href": "/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "novus V55 system–QTRAP",
+     "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "5500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "QTRAP 4500 system",
+     "href": "/products/mass-spectrometers/qtrap-systems/qtrap-4500-system"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Triple Quad systems",
+     "href": "/products/mass-spectrometers/triple-quad-systems"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "7500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Triple Quad 6500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-6500plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "novus V55 system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/novus-v55-system"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "5500+ system",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-5500-plus-system"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Clinical diagnostics",
+     "href": "/products/in-vitro-diagnostics/medical-devices"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Citrine system",
+     "href": "/products/in-vitro-diagnostics/medical-devices/citrine-system"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "4500MD system",
+     "href": "/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "LC-MS methods",
+     "href": "/products/methods"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Mass spectral libraries",
+     "href": "/products/spectral-library"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Capillary electrophoresis",
+     "href": "/products/capillary-electrophoresis"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "Intabio ZT system",
+     "href": "/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "BioPhase 8800 system",
+     "href": "/products/capillary-electrophoresis/biophase-8800"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "PA 800 Plus system",
+     "href": "/products/capillary-electrophoresis/pa-800-plus-pharmaceutical-analysis-system"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "P/ACE MDQ Plus system",
+     "href": "/products/capillary-electrophoresis/p-ace-mdq-plus"
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "CESI 8000 Plus system",
+     "href": "/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 91,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 92,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 93,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "HPLC products",
+     "href": "/products/hplc-products"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "ExionLC AE system",
+     "href": "/products/hplc-products/exionlc-ae"
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "Intabio ZT system",
+     "href": "/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "cta",
+     "order": 100,
+     "text": "CESI 8000 Plus system",
+     "href": "/products/capillary-electrophoresis/cesi-8000-plus-esi-ms-high-performance-system"
+    },
+    {
+     "role": "cta",
+     "order": 101,
+     "text": "ExionLC 2.0 system",
+     "href": "/products/hplc-products/exionlc-2"
+    },
+    {
+     "role": "cta",
+     "order": 102,
+     "text": "HPLC products",
+     "href": "/products/hplc-products"
+    },
+    {
+     "role": "cta",
+     "order": 103,
+     "text": "SelexION device",
+     "href": "/products/ion-mobility-spectrometry/selexion-differential-mobility-separation-device"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Micro HPLC columns",
+     "href": "/products/hplc-products/microlc-products/micro-hplc-columns"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 109,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 110,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 111,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 112,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "Integrated solutions",
+     "href": "/products/integrated-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "Echo® MS+ system",
+     "href": "/products/integrated-solutions/echo-ms-plus"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "Intabio ZT system",
+     "href": "/products/integrated-solutions/intabio-zt-system"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 119,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 120,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 121,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 122,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 123,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 124,
+     "text": "Instrument control software",
+     "href": "/products/software/mass-spectrometry-software-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 125,
+     "text": "SCIEX OS software",
+     "href": "/products/software/sciex-os-software"
+    },
+    {
+     "role": "cta",
+     "order": 126,
+     "text": "Analyst software",
+     "href": "/products/software/analyst-software"
+    },
+    {
+     "role": "cta",
+     "order": 127,
+     "text": "Analyst TF software",
+     "href": "/products/software/analyst-tf-software"
+    },
+    {
+     "role": "cta",
+     "order": 128,
+     "text": "Workflow module software",
+     "href": "/products/software/mass-spectrometry-software-solutions#workflow-module"
+    },
+    {
+     "role": "cta",
+     "order": 129,
+     "text": "MultiQuant software",
+     "href": "/products/software/multiquant-software"
+    },
+    {
+     "role": "cta",
+     "order": 130,
+     "text": "AI Quantitation software",
+     "href": "/products/software/artificial-intelligence-quant"
+    },
+    {
+     "role": "cta",
+     "order": 131,
+     "text": "Application module software",
+     "href": "/products/software/mass-spectrometry-software-solutions#application-module"
+    },
+    {
+     "role": "cta",
+     "order": 132,
+     "text": "Biologics Explorer software",
+     "href": "/products/software/biologics-explorer-software"
+    },
+    {
+     "role": "cta",
+     "order": 133,
+     "text": "Molecule Profiler software",
+     "href": "/products/software/molecule-profiler-software"
+    },
+    {
+     "role": "cta",
+     "order": 134,
+     "text": "Analyst TF software",
+     "href": "/products/software/analyst-tf-software"
+    },
+    {
+     "role": "cta",
+     "order": 135,
+     "text": "Software support",
+     "href": "/support/software-support"
+    },
+    {
+     "role": "cta",
+     "order": 136,
+     "text": "Software support policy",
+     "href": "/support/software-support/software-support-policy"
+    },
+    {
+     "role": "cta",
+     "order": 137,
+     "text": "Software activation",
+     "href": "/support/activate-software"
+    },
+    {
+     "role": "cta",
+     "order": 138,
+     "text": "Software support plans",
+     "href": "/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "cta",
+     "order": 139,
+     "text": "Software feature request portal",
+     "href": "/support/sciex-now-feature-requests"
+    },
+    {
+     "role": "cta",
+     "order": 140,
+     "text": "Software partners",
+     "href": "/products/software/partner-software"
+    },
+    {
+     "role": "cta",
+     "order": 141,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 142,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 143,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 144,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 145,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 146,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 147,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 148,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 149,
+     "text": "Technology Explore the innovations and scientific breakthroughs behind pioneering LC-MS and capillary electrophoresis technology.",
+     "href": "/technology"
+    },
+    {
+     "role": "cta",
+     "order": 150,
+     "text": "Mass spectrometry",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 151,
+     "text": "Capillary electrophoresis",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 152,
+     "text": "HPLC products",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 153,
+     "text": "Integrated solutions",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 154,
+     "text": "Software",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 155,
+     "text": "Technology",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 156,
+     "text": "Standards and reagent kits",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 157,
+     "text": "View all Products",
+     "href": "/products"
+    },
+    {
+     "role": "cta",
+     "order": 158,
+     "text": "Standards and reagent kits Custom-designed consumables and standards for streamlined, efficient sample analysis",
+     "href": "/products/consumables"
+    },
+    {
+     "role": "cta",
+     "order": 159,
+     "text": "eCommerce and eProcurement solutions Request your catalog today, and our team will be in touch to assist you further",
+     "href": "/supplemental/eProcurement"
+    },
+    {
+     "role": "cta",
+     "order": 160,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 161,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 162,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 163,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 164,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 165,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 166,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 167,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 168,
+     "text": "Biopharma / pharma research Unleash full analytical potential in pharma and biopharma development with cutting-edge solutions from discovery to delivery",
+     "href": "/applications/pharma-and-biopharma"
+    },
+    {
+     "role": "cta",
+     "order": 169,
+     "text": "Bioanalysis and DMPK Enhance drug metabolism and pharmacokinetics research with robust LC-MS solutions and intuitive software",
+     "href": "/applications/pharma-and-biopharma/bioanalysis-and-dmpk"
+    },
+    {
+     "role": "cta",
+     "order": 170,
+     "text": "Cell and gene therapy analysis Advanced analytical solutions for gene-editing tools and vaccines, improving cell and gene therapy development",
+     "href": "/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 171,
+     "text": "Drug discovery research Accelerate drug discovery with integrated LC-MS solutions, providing high-quality data for confident decision-making",
+     "href": "/applications/pharma-and-biopharma/drug-discovery-research"
+    },
+    {
+     "role": "cta",
+     "order": 172,
+     "text": "Impurity analysis Compliant-ready impurity analysis solutions with sensitive LC-MS systems and comprehensive software support",
+     "href": "/applications/pharma-and-biopharma/impurity-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 173,
+     "text": "mRNA-LNP research Innovative solutions for mRNA-LNP therapeutics and vaccines, enabling efficient and in-depth genetic medicine development",
+     "href": "/applications/pharma-and-biopharma/mrna-research"
+    },
+    {
+     "role": "cta",
+     "order": 174,
+     "text": "Oligonucleotide analysis Break new ground in oligonucleotide analysis with precision solutions for advanced nucleic acid research",
+     "href": "/applications/pharma-and-biopharma/oligonucleotide-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 175,
+     "text": "Protein therapeutics Tailored analytical strategies for complex protein therapeutics, enhancing understanding and helping to ensure quality and safety",
+     "href": "/applications/pharma-and-biopharma/protein-therapeutics"
+    },
+    {
+     "role": "cta",
+     "order": 176,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 177,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 178,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 179,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 180,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 181,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 182,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 183,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 184,
+     "text": "Clinical Empower clinical laboratories with affordable, robust technologies for accurate diagnostics and efficient patient care",
+     "href": "/applications/clinical"
+    },
+    {
+     "role": "cta",
+     "order": 185,
+     "text": "Clinical research Enhance clinical research with sensitive MS techniques for biomarker discovery and personalized treatment development",
+     "href": "/applications/clinical/clinical-research"
+    },
+    {
+     "role": "cta",
+     "order": 186,
+     "text": "Clinical diagnostics Advanced MS-based diagnostics for comprehensive disease understanding and personalized medicine, supporting modern clinical laboratories",
+     "href": "/applications/clinical/clinical-diagnostics"
+    },
+    {
+     "role": "cta",
+     "order": 187,
+     "text": "Clinical mass spec knowledge center Enable clinical mass spectrometry users with customized resources they need to succeed",
+     "href": "/education/clinical-mass-spec-knowledge-center"
+    },
+    {
+     "role": "cta",
+     "order": 188,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 189,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 190,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 191,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 192,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 193,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 194,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 195,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 196,
+     "text": "Environmental testing Advanced LC-MS/MS solutions for accurate, efficient environmental contaminant detection and analysis",
+     "href": "/applications/environmental-testing"
+    },
+    {
+     "role": "cta",
+     "order": 197,
+     "text": "Water and wastewater analysis Mass spectrometry-driven water analysis for sensitive detection of pollutants in drinking and wastewater",
+     "href": "/applications/environmental-testing/water-and-waste-water-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 198,
+     "text": "Industrial and agrochemical analysis Robust LC-MS/MS technology for in-depth analysis in agrochemical and crop science research",
+     "href": "/applications/environmental-testing/industrial-and-agrochemical-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 199,
+     "text": "Exposome High-resolution accurate mass spectrometry for comprehensive study of environmental impact on human health",
+     "href": "/applications/environmental-testing/the-exposome-and-exposomics"
+    },
+    {
+     "role": "cta",
+     "order": 200,
+     "text": "Emerging pollutants LC-MS/MS-driven analysis of diverse environmental contaminants for in-depth ecological and health impact studies",
+     "href": "/applications/environmental-testing/contaminants-of-emerging-concern"
+    },
+    {
+     "role": "cta",
+     "order": 201,
+     "text": "PFAS analysis Trace-level detection and quantification of PFAS chemicals in and beyond water testing",
+     "href": "/applications/environmental-testing/pfas-analysis-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 202,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 203,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 204,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 205,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 206,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 207,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 208,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 209,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 210,
+     "text": "Food and beverage testing End-to-end mass spectrometry solutions for versatile, reliable food safety and quality analysis",
+     "href": "/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "cta",
+     "order": 211,
+     "text": "Food safety testing Our quantitation workflows empower residue testing laboratories worldwide to meet and exceed the rigorous standards established by food safety regulatory authorities, every day.",
+     "href": "/applications/food-and-beverage-testing/food-safety-testing"
+    },
+    {
+     "role": "cta",
+     "order": 212,
+     "text": "Food authenticity testing Testing solutions to protect food integrity and safety against adulteration and contamination",
+     "href": "/applications/food-and-beverage-testing/food-authenticity-testing"
+    },
+    {
+     "role": "cta",
+     "order": 213,
+     "text": "Quality assurance and quality control Robust LC-MS/MS solutions for ensuring food safety and regulatory compliance in QA/QC processes",
+     "href": "/applications/food-and-beverage-testing/quality-assurance-and-quality-control"
+    },
+    {
+     "role": "cta",
+     "order": 214,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 215,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 216,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 217,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 218,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 219,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 220,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 221,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 222,
+     "text": "Cannabis and hemp testing LC-MS/MS for comprehensive cannabis analysis to help ensure safety and compliance in a growing market",
+     "href": "/applications/cannabis-testing"
+    },
+    {
+     "role": "cta",
+     "order": 223,
+     "text": "Pesticide Testing Innovative technology to enhance pesticide analysis and meet regulatory requirements",
+     "href": "/applications/cannabis-testing/pesticide-testing"
+    },
+    {
+     "role": "cta",
+     "order": 224,
+     "text": "Mycotoxin Testing LC-MS/MS tried and tested cannabis solutions for accurate trace-level analysis in complex matrices",
+     "href": "/applications/cannabis-testing/mycotoxin-testing"
+    },
+    {
+     "role": "cta",
+     "order": 225,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 226,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 227,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 228,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 229,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 230,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 231,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 232,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 233,
+     "text": "Forensic testing Comprehensive forensic solutions for accurate substance analysis in evolving crime and legal landscapes",
+     "href": "/applications/forensics-testing"
+    },
+    {
+     "role": "cta",
+     "order": 234,
+     "text": "Forensic toxicology Tailored LC-MS/MS solutions for complex drug testing and toxicological analysis in forensic laboratories",
+     "href": "/applications/forensics-testing/forensic-toxicology"
+    },
+    {
+     "role": "cta",
+     "order": 235,
+     "text": "Cannabinoid analysis and potency testing Precision LC-MS/MS methods for accurate cannabinoid potency testing and forensic analysis.",
+     "href": "/applications/forensics-testing/cannabinoid-analysis-and-potency-testing"
+    },
+    {
+     "role": "cta",
+     "order": 236,
+     "text": "Doping control Advanced mass spectrometry solutions for rigorous, sensitive doping substance detection in sports",
+     "href": "/applications/forensics-testing/doping-control"
+    },
+    {
+     "role": "cta",
+     "order": 237,
+     "text": "Biopharma / pharma research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 238,
+     "text": "Clinical",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 239,
+     "text": "Environmental testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 240,
+     "text": "Food and beverage testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 241,
+     "text": "Cannabis and hemp testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 242,
+     "text": "Forensic testing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 243,
+     "text": "Biomedical and omics research",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 244,
+     "text": "View all Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 245,
+     "text": "Biomedical and omics research Cutting-edge omics technologies driving revolutionary discoveries in human health and life sciences",
+     "href": "/applications/biomedical-and-omics-research"
+    },
+    {
+     "role": "cta",
+     "order": 246,
+     "text": "Proteomics Advanced LC-MS/MS techniques for comprehensive protein analysis and impactful biological insights",
+     "href": "/applications/biomedical-and-omics-research/proteomics"
+    },
+    {
+     "role": "cta",
+     "order": 247,
+     "text": "Lipidomics Specialized mass spectrometry solutions for detailed lipidome analysis in critical biological processes",
+     "href": "/applications/biomedical-and-omics-research/lipidomics"
+    },
+    {
+     "role": "cta",
+     "order": 248,
+     "text": "Metabolomics Integrated LC-MS solutions for exploring metabolomics and its role in disease and precision medicine",
+     "href": "/applications/biomedical-and-omics-research/metabolomics"
+    },
+    {
+     "role": "cta",
+     "order": 249,
+     "text": "Extraordinary science Discover groundbreaking science performed by biomedical and omics researchers using the ZenoTOF 7600 system",
+     "href": "/applications/biomedical-and-omics-research/extraordinary-science"
+    },
+    {
+     "role": "cta",
+     "order": 250,
+     "text": "Genomics Innovative analytical solutions for advancing gene therapy and next-generation vaccine development",
+     "href": "/applications/pharma-and-biopharma/cell-and-gene-therapy-analysis"
+    },
+    {
+     "role": "cta",
+     "order": 251,
+     "text": "My Learning HubLogin to access your training content including >200 free self-paced online courses, personalized learning paths, blended online and in-person courses",
+     "href": "https://training.sciex.com"
+    },
+    {
+     "role": "cta",
+     "order": 252,
+     "text": "Catalog of self-paced learningSearch self-paced online course catalog, designed to help you build skills, deepen knowledge, and get the most out of your SCIEX instruments - anytime, anywhere",
+     "href": "/search-results?contentType=Training&facetId=trainingcoursetype&value=Self%20paced%20learning"
+    },
+    {
+     "role": "cta",
+     "order": 253,
+     "text": "Clinical Knowledge CenterMaximize your SCIEX clinical instruments' efficiency with a wealth of learning resources and expert insights",
+     "href": "/education/clinical-mass-spec-knowledge-center"
+    },
+    {
+     "role": "cta",
+     "order": 254,
+     "text": "Learning ManagerStreamlined training management for staff competency, offering refreshed content and robust learning tools",
+     "href": "/support/training/learning-manager-overview"
+    },
+    {
+     "role": "cta",
+     "order": 255,
+     "text": "Training optionsExpert-led, flexible training options to maximize your instrument's potential and elevate lab efficiency",
+     "href": "/support/training"
+    },
+    {
+     "role": "cta",
+     "order": 256,
+     "text": "Premium access contentUnlock exclusive training content and knowledge-base articles for advanced analytical proficiency",
+     "href": "/support/software-support/premium-access-content"
+    },
+    {
+     "role": "cta",
+     "order": 257,
+     "text": "On-site customized trainingTailored on-site training by SCIEX experts to address specific lab challenges and optimize operations",
+     "href": "/support/professional-lab-services/customized-lab-training"
+    },
+    {
+     "role": "cta",
+     "order": 258,
+     "text": "Success Programs at Your SiteCustomized LC-MS and CE training programs designed to meet your lab's specific needs and goals",
+     "href": "/support/training/success-programs"
+    },
+    {
+     "role": "cta",
+     "order": 259,
+     "text": "View all Training",
+     "href": "/support/training"
+    },
+    {
+     "role": "cta",
+     "order": 260,
+     "text": "SCIEX Now",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 261,
+     "text": "Grant writing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 262,
+     "text": "Regulatory documents",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 263,
+     "text": "SCIEX Now dashboard",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 264,
+     "text": "SCIEX Now",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 265,
+     "text": "Support cases",
+     "href": "/support/support-cases"
+    },
+    {
+     "role": "cta",
+     "order": 266,
+     "text": "SCIEX Now Learning Hub",
+     "href": "https://training.sciex.com"
+    },
+    {
+     "role": "cta",
+     "order": 267,
+     "text": "Manage my instruments",
+     "href": "/support/manage-my-instruments"
+    },
+    {
+     "role": "cta",
+     "order": 268,
+     "text": "Manage my software",
+     "href": "/support/registered-software"
+    },
+    {
+     "role": "cta",
+     "order": 269,
+     "text": "My notifications",
+     "href": "/support/my-notifications"
+    },
+    {
+     "role": "cta",
+     "order": 270,
+     "text": "New feature request",
+     "href": "/support/sciex-now-feature-requests"
+    },
+    {
+     "role": "cta",
+     "order": 271,
+     "text": "Resource hub",
+     "href": "/resource-hub"
+    },
+    {
+     "role": "cta",
+     "order": 272,
+     "text": "SCIEX Now",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 273,
+     "text": "Grant writing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 274,
+     "text": "Regulatory documents",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 275,
+     "text": "SCIEX Now dashboard",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 276,
+     "text": "Grant writing",
+     "href": "/education/grant-support"
+    },
+    {
+     "role": "cta",
+     "order": 277,
+     "text": "Grant writing support",
+     "href": "/education/grant-support"
+    },
+    {
+     "role": "cta",
+     "order": 278,
+     "text": "Academic partnership program",
+     "href": "/education/grant-support/academic-partnership"
+    },
+    {
+     "role": "cta",
+     "order": 279,
+     "text": "Academic partners",
+     "href": "/education/grant-support/academic-partners"
+    },
+    {
+     "role": "cta",
+     "order": 280,
+     "text": "SCIEX Now",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 281,
+     "text": "Grant writing",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 282,
+     "text": "Regulatory documents",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 283,
+     "text": "SCIEX Now dashboard",
+     "href": "/support"
+    },
+    {
+     "role": "cta",
+     "order": 284,
+     "text": "Regulatory documents",
+     "href": "/resource-hub/regulatory-documents"
+    },
+    {
+     "role": "cta",
+     "order": 285,
+     "text": "Declaration of conformance",
+     "href": "/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Declaration%20of%20conformance"
+    },
+    {
+     "role": "cta",
+     "order": 286,
+     "text": "Safety data sheets",
+     "href": "/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Safety%20data%20sheet"
+    },
+    {
+     "role": "cta",
+     "order": 287,
+     "text": "Certificate of analysis",
+     "href": "/search-results?contentType=Regulatory%20documents&facetId=technicaldocuments&value=Certificate%20of%20analysis"
+    },
+    {
+     "role": "cta",
+     "order": 288,
+     "text": "Instrument service plans",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 289,
+     "text": "Professional services",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 290,
+     "text": "Software service plans",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 291,
+     "text": "View all Services",
+     "href": "/support/professional-lab-services"
+    },
+    {
+     "role": "cta",
+     "order": 292,
+     "text": "Professional services",
+     "href": "/support/professional-lab-services"
+    },
+    {
+     "role": "cta",
+     "order": 293,
+     "text": "Software and IT services",
+     "href": "/support/professional-lab-services/software-and-it"
+    },
+    {
+     "role": "cta",
+     "order": 294,
+     "text": "Compliance services",
+     "href": "/support/professional-lab-services/lab-compliance-services"
+    },
+    {
+     "role": "cta",
+     "order": 295,
+     "text": "Lab optimization",
+     "href": "/support/professional-lab-services/lab-optimization-services"
+    },
+    {
+     "role": "cta",
+     "order": 296,
+     "text": "Relocation services",
+     "href": "/support/professional-lab-services/lab-relocation-services"
+    },
+    {
+     "role": "cta",
+     "order": 297,
+     "text": "Instrument service plans",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 298,
+     "text": "Professional services",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 299,
+     "text": "Software service plans",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 300,
+     "text": "View all Services",
+     "href": "/support/professional-lab-services"
+    },
+    {
+     "role": "cta",
+     "order": 301,
+     "text": "Instrument service plans",
+     "href": "/support/instrument-service-and-support"
+    },
+    {
+     "role": "cta",
+     "order": 302,
+     "text": "LC-MS service plans",
+     "href": "/support/instrument-service-and-support/lc-ms-hardware-plans"
+    },
+    {
+     "role": "cta",
+     "order": 303,
+     "text": "CE service plans",
+     "href": "/support/instrument-service-and-support/ce-service-plans"
+    },
+    {
+     "role": "cta",
+     "order": 304,
+     "text": "Clinical service plans",
+     "href": "/support/instrument-service-and-support/clinical-service-plan"
+    },
+    {
+     "role": "cta",
+     "order": 305,
+     "text": "Intabio ZT system service plans",
+     "href": "/support/instrument-service-and-support/intabio-zt-system-service-plan"
+    },
+    {
+     "role": "cta",
+     "order": 306,
+     "text": "Protect Plus plan",
+     "href": "/support/instrument-service-and-support/lc-ms-hardware-plans/protect-plus-plan"
+    },
+    {
+     "role": "cta",
+     "order": 307,
+     "text": "Visual Assist",
+     "href": "/support/instrument-service-and-support/visual-assist"
+    },
+    {
+     "role": "cta",
+     "order": 308,
+     "text": "StatusScope remote monitoring",
+     "href": "/support/instrument-service-and-support/statusscope-remote-monitoring"
+    },
+    {
+     "role": "cta",
+     "order": 309,
+     "text": "Remote Instrument Optimization and Calibration",
+     "href": "/support/instrument-service-and-support/remote-instrument-optimization-and-calibration"
+    },
+    {
+     "role": "cta",
+     "order": 310,
+     "text": "Instrument service plans",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 311,
+     "text": "Professional services",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 312,
+     "text": "Software service plans",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 313,
+     "text": "View all Services",
+     "href": "/support/professional-lab-services"
+    },
+    {
+     "role": "cta",
+     "order": 314,
+     "text": "Software service plans",
+     "href": "/support/software-support"
+    },
+    {
+     "role": "cta",
+     "order": 315,
+     "text": "Software support plans",
+     "href": "/support/software-support/sw-support-plns"
+    },
+    {
+     "role": "cta",
+     "order": 316,
+     "text": "Software downloads",
+     "href": "/support/software-support/software-downloads"
+    },
+    {
+     "role": "cta",
+     "order": 317,
+     "text": "Software accelerator program",
+     "href": "/products/software"
+    },
+    {
+     "role": "cta",
+     "order": 318,
+     "text": "Premium access content",
+     "href": "/support/software-support/premium-access-content"
+    },
+    {
+     "role": "cta",
+     "order": 319,
+     "text": "Resource hub",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 320,
+     "text": "Resource hub",
+     "href": "/resource-hub"
+    },
+    {
+     "role": "cta",
+     "order": 321,
+     "text": "Knowledge base articles",
+     "href": "/resource-hub/knowledge-base-articles"
+    },
+    {
+     "role": "cta",
+     "order": 322,
+     "text": "Self-paced learning",
+     "href": "/resource-hub/self-paced-learning"
+    },
+    {
+     "role": "cta",
+     "order": 323,
+     "text": "Instructor led training",
+     "href": "/resource-hub/instructor-led-training"
+    },
+    {
+     "role": "cta",
+     "order": 324,
+     "text": "Technical notes",
+     "href": "/resource-hub/technical-notes"
+    },
+    {
+     "role": "cta",
+     "order": 325,
+     "text": "Regulatory documents",
+     "href": "/resource-hub/regulatory-documents"
+    },
+    {
+     "role": "cta",
+     "order": 326,
+     "text": "User guides",
+     "href": "/resource-hub/user-guides"
+    },
+    {
+     "role": "cta",
+     "order": 327,
+     "text": "About SCIEX",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 328,
+     "text": "Contact us",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 329,
+     "text": "News & events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 330,
+     "text": "Community",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 331,
+     "text": "SCIEX Stories",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 332,
+     "text": "About us",
+     "href": "/about-us"
+    },
+    {
+     "role": "cta",
+     "order": 333,
+     "text": "About SCIEX",
+     "href": "/about-us#about-sciex"
+    },
+    {
+     "role": "cta",
+     "order": 334,
+     "text": "Our history",
+     "href": "/about-us/our-history"
+    },
+    {
+     "role": "cta",
+     "order": 335,
+     "text": "Meet our executives",
+     "href": "/about-us/executive-management"
+    },
+    {
+     "role": "cta",
+     "order": 336,
+     "text": "Sustainability",
+     "href": "/Hidden/landing-pages/sciex-sustainability"
+    },
+    {
+     "role": "cta",
+     "order": 337,
+     "text": "Echo® MS Center of Excellence",
+     "href": "/about-us/echo-ms-center-of-excellence"
+    },
+    {
+     "role": "cta",
+     "order": 338,
+     "text": "Careers opportunities",
+     "href": "https://jobs.danaher.com/global/en/sciex"
+    },
+    {
+     "role": "cta",
+     "order": 339,
+     "text": "About SCIEX",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 340,
+     "text": "Contact us",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 341,
+     "text": "News & events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 342,
+     "text": "Community",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 343,
+     "text": "SCIEX Stories",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 344,
+     "text": "News & events",
+     "href": "/about-us/press-releases"
+    },
+    {
+     "role": "cta",
+     "order": 345,
+     "text": "Press releases",
+     "href": "/about-us/press-releases"
+    },
+    {
+     "role": "cta",
+     "order": 346,
+     "text": "In the news",
+     "href": "/about-us/press-releases/in-the-news"
+    },
+    {
+     "role": "cta",
+     "order": 347,
+     "text": "Events",
+     "href": "/events"
+    },
+    {
+     "role": "cta",
+     "order": 348,
+     "text": "About SCIEX",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 349,
+     "text": "Contact us",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 350,
+     "text": "News & events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 351,
+     "text": "Community",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 352,
+     "text": "SCIEX Stories",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 353,
+     "text": "Contact us",
+     "href": "/about-us/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 354,
+     "text": "Request information",
+     "href": "/form-pages/request-information"
+    },
+    {
+     "role": "cta",
+     "order": 355,
+     "text": "Request a quote",
+     "href": "/form-pages/product-request"
+    },
+    {
+     "role": "cta",
+     "order": 356,
+     "text": "Request support",
+     "href": "/support/request-support"
+    },
+    {
+     "role": "cta",
+     "order": 357,
+     "text": "Upcoming events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 358,
+     "text": "On-demand",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 359,
+     "text": "Upcoming events",
+     "href": "/events?event=upcoming"
+    },
+    {
+     "role": "cta",
+     "order": 360,
+     "text": "North America",
+     "href": "/events?region=North%20America&event=upcoming"
+    },
+    {
+     "role": "cta",
+     "order": 361,
+     "text": "Europe",
+     "href": "/events?region=europe&event=upcoming"
+    },
+    {
+     "role": "cta",
+     "order": 362,
+     "text": "India",
+     "href": "/events?region=india&event=upcoming"
+    },
+    {
+     "role": "cta",
+     "order": 363,
+     "text": "Korea",
+     "href": "/events?region=korea&event=upcoming"
+    },
+    {
+     "role": "cta",
+     "order": 364,
+     "text": "Upcoming events",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 365,
+     "text": "On-demand",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 366,
+     "text": "On-demand",
+     "href": "/events?event=on-demand"
+    },
+    {
+     "role": "cta",
+     "order": 367,
+     "text": "North America",
+     "href": "/events?region=North%20America&event=on-demand"
+    },
+    {
+     "role": "cta",
+     "order": 368,
+     "text": "Europe",
+     "href": "/events?region=europe&event=on-demand"
+    },
+    {
+     "role": "body",
+     "order": 369,
+     "text": "Close navigation"
+    }
+   ],
+   "imgCount": 32,
+   "editableTexts": 39,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.hdr-utility__link",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 5,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__menu",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 114,
+      "imgs": 11,
+      "textRuns": 114
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__panel",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 29,
+      "imgs": 2,
+      "textRuns": 29
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__panel",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 16,
+      "imgs": 2,
+      "textRuns": 16
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__panel",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 12,
+      "imgs": 1,
+      "textRuns": 12
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__panel",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 9,
+      "imgs": 1,
+      "textRuns": 9
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__panel",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 12,
+      "imgs": 0,
+      "textRuns": 12
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.hdr-mega__panel",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 7,
+      "imgs": 1,
+      "textRuns": 7
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "page",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home",
+     "href": "/"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Grant Support Programs"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Grant funding support & resource tools"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Helping make your research possible"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Our team is here to help you leverage grant opportunities so that your lab can pursue the resources it needs. SCIEX believes in connecting scientists to research and funding tools that empower you to make your next discovery. That starts here."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Make decisions about your lab’s future with the latest content to support your application."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Connect with a team of scientific experts to refine and submit your grant proposal."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Expand your COVID-19 grant research — we can help show you the top funding opportunities within your industry."
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Get your lab off to a great start with our academic packages, which are available in three diverse coverage options."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "The SCIEX team is here for you along the way. Receive grant application information for your industry when you contact our team."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Contact a grant writing expert",
+     "href": "#grantsform"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Get started with access to the latest application research:"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "General technology"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Powerful scan modes of QTRAP® technology >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/QTRAP-Scan-Modes.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "SelexION® Differential Mobility Separation Technology: the solution to selectivity challenges in quantitative analysis >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/SelexION-Technology-Solution-to-Selectivity-Challenges.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Proteomics"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Accelerating SWATH® Acquisition for protein quantification — up to 100 samples per day >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Accelerating-SWATH-Acquisition-for-Protein-Quantitation-Up-to-100-Samples-per-Day.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Rapidly advance quantitative proteomics with a high-throughput SWATH® Acquisition solution >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Rapidly-Advance-Quantitative-Proteomics-HighThroughput-SWATH-Acquisition-Solution.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Lipidomics"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Achieve broad lipid quantification using a high throughput targeted lipidomics method >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Achieve-Broad-Lipid-Quantitation-using-a-High-Throughput-Targeted-Lipidomics-Method.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Workflow with optimized automated flow injection platform for lipidomics biomarker discovery >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Automated-FIA_MSMSall_TripleTOF6600.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Metabolomics"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Improved metabolite coverage over traditional data dependent techniques for untargeted metabolomics >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/SWATH-Acquisition-Improves-Metabolite-Coverage.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Higher sensitivity and coverage of polar metabolites for targeted metabolomics >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Microflow-LC-Targeted-Metabolomics_RUO-MKT-02-6110-A4.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Antibody therapy development"
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Native LC-MS analysis of intact cysteine-linked antibody-drug conjugate >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Native-ADC-Merck.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Native state charge variant analysis of commercialized monoclonal antibodies in minutes >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/native-state-charge-variant-analysis-of-commercialized-tech-note.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Biopharma"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Native state charge variant analysis of commercialized monoclonal antibodies in minutes >",
+     "href": "/content/dam/SCIEX/pdf/tech-notes/all/Oligonucleotide_Quant_Qual_MRMHR_workflow.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Pharma drug discovery"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "HTS-4 defining benefits of Echo® MS System >",
+     "href": "/content/dam/SCIEX/pdf/posters/4-benefits-of-echo-ms.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Environmental and industrial"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "GeXP product brochure >",
+     "href": "/content/dam/SCIEX/pdf/brochures/GeXP-Brochure.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 33,
+     "text": "Speak to a grant writing expert and receive curated grant applications"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "RUO-MKT-18-8016-A"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 30,
+   "repeats": [
+    {
+     "unitSelector": "LI.lg-breadcrumb__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "H2.blue-text",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.lg-tile",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "footer",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Linkedin",
+     "href": "https://www.linkedin.com/company/sciex"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Twitter",
+     "href": "https://twitter.com/SCIEXnews"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Facebook",
+     "href": "https://www.facebook.com/SCIEXnews"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Instagram",
+     "href": "https://instagram.com/instasciex"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "English"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Products"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mass spectrometers",
+     "href": "https://sciex.com/products/mass-spectrometers"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Capillary electrophoresis",
+     "href": "https://sciex.com/products/capillary-electrophoresis"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Software",
+     "href": "https://sciex.com/products/software"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Integrated solutions",
+     "href": "https://sciex.com/products/integrated-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Front-end HPLC MS",
+     "href": "https://sciex.com/products/hplc-products"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Ion mobility",
+     "href": "https://sciex.com/products/ion-mobility-spectrometry"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Ion sources",
+     "href": "https://sciex.com/products/ion-sources"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Spectral libraries",
+     "href": "https://sciex.com/products/spectral-library"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Consumables",
+     "href": "https://sciex.com/products/consumables"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Products"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Mass spectrometers",
+     "href": "https://sciex.com/products/mass-spectrometers"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Capillary electrophoresis",
+     "href": "https://sciex.com/products/capillary-electrophoresis"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Software",
+     "href": "https://sciex.com/products/software"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Integrated solutions",
+     "href": "https://sciex.com/products/integrated-solutions"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Front-end HPLC MS",
+     "href": "https://sciex.com/products/hplc-products"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Ion mobility",
+     "href": "https://sciex.com/products/ion-mobility-spectrometry"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Ion sources",
+     "href": "https://sciex.com/products/ion-sources"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Spectral libraries",
+     "href": "https://sciex.com/products/spectral-library"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Consumables",
+     "href": "https://sciex.com/products/consumables"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Applications"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Pharma and biopharma",
+     "href": "https://sciex.com/applications/pharma-and-biopharma"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Clinical",
+     "href": "https://sciex.com/applications/clinical"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Environmental",
+     "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Food and beverage",
+     "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Forensic testing",
+     "href": "https://sciex.com/applications/forensics-testing"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "Life science research",
+     "href": "https://sciex.com/applications/life-science-research"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Applications"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Pharma and biopharma",
+     "href": "https://sciex.com/applications/pharma-and-biopharma"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Clinical",
+     "href": "https://sciex.com/applications/clinical"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Environmental",
+     "href": "https://sciex.com/applications/environmental-testing"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Food and beverage",
+     "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Forensic testing",
+     "href": "https://sciex.com/applications/forensics-testing"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Life science research",
+     "href": "https://sciex.com/applications/life-science-research"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Connect"
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Support",
+     "href": "https://sciex.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Training",
+     "href": "https://sciex.com/support/training"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Professional services",
+     "href": "https://sciex.com/support/professional-lab-services"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Careers",
+     "href": "https://jobs.danaher.com/global/en/sciex"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Contact",
+     "href": "https://sciex.com/about-us/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Resource library",
+     "href": "https://sciex.com/resource-library?view=knowledge%20base%20articles"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Innovation advisory board",
+     "href": "https://community.sciex.com/innovation-advisory-board/"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Connect"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Support",
+     "href": "https://sciex.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Training",
+     "href": "https://sciex.com/support/training"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Professional services",
+     "href": "https://sciex.com/support/professional-lab-services"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Careers",
+     "href": "https://jobs.danaher.com/global/en/sciex"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Contact",
+     "href": "https://sciex.com/about-us/contact-us"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Resource library",
+     "href": "https://sciex.com/resource-library?view=knowledge%20base%20articles"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Innovation advisory board",
+     "href": "https://community.sciex.com/innovation-advisory-board/"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "About SCIEX",
+     "href": "https://sciex.com/about-us"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Our history",
+     "href": "https://sciex.com/about-us/our-history"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "SCIEX stories",
+     "href": "https://sciex.com/stories"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Latest news",
+     "href": "https://sciex.com/about-us/press-releases"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Executive management",
+     "href": "https://sciex.com/about-us/executive-management"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Company"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "About SCIEX",
+     "href": "https://sciex.com/about-us"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Our history",
+     "href": "https://sciex.com/about-us/our-history"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "SCIEX stories",
+     "href": "https://sciex.com/stories"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Latest news",
+     "href": "https://sciex.com/about-us/press-releases"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Executive management",
+     "href": "https://sciex.com/about-us/executive-management"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "English"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "© Copyright 2025 SCIEX"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Privacy Policy",
+     "href": "https://sciex.com/legal-pages/privacy-policy"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Cookies Settings",
+     "href": "#"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Organizational Model and Code of Ethics D.Lgs 231/2001",
+     "href": "/legal-pages/organizational-model-and-code-of-ethics-d-lgs-231-2001"
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Legal Info",
+     "href": "https://sciex.com/legal-pages/legal-information"
+    },
+    {
+     "role": "cta",
+     "order": 73,
+     "text": "Do Not Sell My Data",
+     "href": "https://sciex.com/legal-pages/do-not-sell-my-data"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "The SCIEX clinical diagnostic portfolio is For In Vitro Diagnostic Use. Rx Only. Product(s) not available in all countries. For information on availability, please contact your local sales representative or refer to www.sciex.com/diagnostics. All other products are For Research Use Only. Not for use in Diagnostic Procedures. Trademarks and/or registered trademarks mentioned herein, including associated logos, are the property of AB Sciex Pte. Ltd. or their respective owners in the United States and/or certain other countries (see www.sciex.com/trademarks). Echo and Echo MS + system are trademarks or registered trademarks of Labcyte, Inc. in the United States and other countries, and are being used under license."
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "RUO-MKT-18-10525-A"
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Choose your Language:"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "English"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Japanese"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Chinese"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Korean"
+    }
+   ],
+   "imgCount": 14,
+   "editableTexts": 12,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.ftr-col",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 9,
+      "imgs": 0,
+      "textRuns": 10
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

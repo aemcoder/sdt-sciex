@@ -1,0 +1,1035 @@
+{
+ "source": "http://localhost:8831/support-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "sn-bar",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "sn-sidebar",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Get Help",
+     "href": "#getHelpModal"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Get Help"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Search the or Log in or create an account to Submit a new case."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Knowledge Base Article",
+     "href": "/resource-hub/knowledge-base-articles"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Log in",
+     "href": "/bin/sciex/login"
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "My Lab"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "My Instruments",
+     "href": "/support/instruments"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Support Cases",
+     "href": "/support/support-cases"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "My Software",
+     "href": "/support/registered-software"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Activate My Software",
+     "href": "/support/activate-software"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "My Learning Hub",
+     "href": "https://training.sciex.com/"
+    },
+    {
+     "role": "eyebrow",
+     "order": 11,
+     "text": "Resources"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Resource hub",
+     "href": "/resource-hub"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "My favorite resources",
+     "href": "/resource-hub/myfavorite"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "SCIEX User Community",
+     "href": "https://community.sciex.com/"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Self-paced learning courses",
+     "href": "/search-results?contentType=Training&facetId=trainingcoursetype&value=Self-paced"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "SCIEX Now Feature Requests",
+     "href": "/support/sciex-now-feature-requests"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Software Feature Requests",
+     "href": "/support/software-feature-requests"
+    },
+    {
+     "role": "eyebrow",
+     "order": 18,
+     "text": "Market place"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Buy Online",
+     "href": "https://us-store.sciex.com/USD"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Newest Products",
+     "href": "https://sciex.com/products"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "UL.sn-nav",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 5,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.sn-nav__item",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.sn-nav__item",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.sn-nav__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sn-search",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Get Help",
+     "href": "#getHelpModal"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Get Help"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Search the or Log in or create an account to Submit a new case."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Knowledge Base Article",
+     "href": "/resource-hub/knowledge-base-articles"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Log in",
+     "href": "/bin/sciex/login"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "support-landing",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The destination for all your support needs"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Log in to SCIEX Now",
+     "href": "https://sciex.com/bin/sciex/login"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "You have CE, LC, mass spec questions? SCIEX has the answers."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "SCIEX support is the single destination for your mass spectrometry questions. We aim to fully assist you with virtually every application of our instruments, helping you to get the most out of your lab resources and assets."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Maximize your productivity, increase your uptime and accelerate the quality of your results with the SCIEX Now support network – the only team that can deliver all the support your lab needs."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "SCIEX Now™ Support Network"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "The Destination for All Your Support Needs."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Onboarding"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "You are automatically registered to SCIEX Now Online, enrolled to your Learning Hub learning path, and set you up for success."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Learning Hub"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Best-in-class content, personalized learning paths - delivered using the latest memory science techniques."
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Workflow support"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Whatever your challenge, the SCIEX Support team is here to help you achieve your scientific goals quickly and efficiently."
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Self-help resources"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Our Knowledge Base and Community help you move your science forward and find the answers you need from SCIEX experts as well as your peers."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Lab enhancement services"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "A holistic approach to your lab to increase productivity and reduce system downtime. We help you meet tight deadlines, improve the quality of results and ultimately increase your profit."
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "Data integrity"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Increase your confidence with compliance services to help you safeguard your data, confirm data integrity, and ensure system modifications can be traced."
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Everything You Need, Anytime You Need It"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "min"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "SCIEX Now gives you everything you need"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Manage your instruments"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Submit and manage support cases, track status and history"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Access online training courses and Knowledge Base articles"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Manage software licenses linked to your registered instruments"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "View and report critical instrument statistics when connected to StatusScope remote monitoring service"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Be a part of the SCIEX community by submitting questions and comments"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Receive notifications from SCIEX with content based on your preferences"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Find recommended applications"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Get recommended courses"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Save your favorite content from the resource library"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Download flyer to learn more >",
+     "href": "https://sciex.com/content/dam/SCIEX/pdf/documents/brochures/SCIEXNow-support-network.pdf"
+    },
+    {
+     "role": "heading",
+     "order": 33,
+     "text": "Contact Support"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 24,
+   "repeats": [
+    {
+     "unitSelector": "DIV.richtext",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.",
+     "count": 6,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.sn-band__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The destination for all your support needs"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Log in to SCIEX Now",
+     "href": "https://sciex.com/bin/sciex/login"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "You have CE, LC, mass spec questions? SCIEX has the answers."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SCIEX support is the single destination for your mass spectrometry questions. We aim to fully assist you with virtually every application of our instruments, helping you to get the most out of your lab resources and assets."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Maximize your productivity, increase your uptime and accelerate the quality of your results with the SCIEX Now support network – the only team that can deliver all the support your lab needs."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "support-network",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX Now™ Support Network"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "The Destination for All Your Support Needs."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Onboarding"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "You are automatically registered to SCIEX Now Online, enrolled to your Learning Hub learning path, and set you up for success."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Learning Hub"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Best-in-class content, personalized learning paths - delivered using the latest memory science techniques."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Workflow support"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Whatever your challenge, the SCIEX Support team is here to help you achieve your scientific goals quickly and efficiently."
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Self-help resources"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Our Knowledge Base and Community help you move your science forward and find the answers you need from SCIEX experts as well as your peers."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Lab enhancement services"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "A holistic approach to your lab to increase productivity and reduce system downtime. We help you meet tight deadlines, improve the quality of results and ultimately increase your profit."
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Data integrity"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Increase your confidence with compliance services to help you safeguard your data, confirm data integrity, and ensure system modifications can be traced."
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 6,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "search-band",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Everything You Need, Anytime You Need It"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.sn-band__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "video",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "min"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "sn-video",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "min"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "benefits",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX Now gives you everything you need"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Manage your instruments"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Submit and manage support cases, track status and history"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Access online training courses and Knowledge Base articles"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Manage software licenses linked to your registered instruments"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "View and report critical instrument statistics when connected to StatusScope remote monitoring service"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Be a part of the SCIEX community by submitting questions and comments"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Receive notifications from SCIEX with content based on your preferences"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Find recommended applications"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Get recommended courses"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Save your favorite content from the resource library"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Download flyer to learn more >",
+     "href": "https://sciex.com/content/dam/SCIEX/pdf/documents/brochures/SCIEXNow-support-network.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "contact",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Contact Support"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "subheader",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Total instruments registered 0"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "listing-cont",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "buttons-cont",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Manage My Instruments",
+     "href": "/support/manage-my-instruments"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Add instruments",
+     "href": "#modaladdinstrument"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "View all instruments - 0",
+     "href": "/support/instruments"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "flex-grow-1",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "0",
+     "href": "/support/support-cases"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Open Cases"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "flex-grow-1",
+   "items": [],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.d-flex",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "chart",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "0"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "0"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text-content",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Recommended Courses List"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "buttons-cont",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Launch Learning Hub",
+     "href": "https://training.sciex.com/?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Self-paced learning courses",
+     "href": "/search-results?contentType=Training&facetId=trainingcoursetype&value=Self%20paced%20learning"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "team-section",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Interested in efficiently assessing, tracking training and ensuring competency of your staff?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "See how SCIEX can help"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Start Managing My Team Training Today",
+     "href": "/support/training/learning-manager"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "buttons-cont",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Start Managing My Team Training Today",
+     "href": "/support/training/learning-manager"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "listing-spaced",
+   "items": [],
+   "imgCount": 3,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "buttons-cont",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "View All",
+     "href": "/search-results?contentType=SCIEX%20How"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "listing-spaced",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Save your favorite content from the . Your most recent pinned resources will appear here on your dashboard!"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Resource hub",
+     "href": "https://author-p93412-e854706.adobeaemcloud.com/resource-hub.html"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Filter, find and save resources by clicking on the pin icon beside each item."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "listing-spaced",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "listing-spaced-row",
+   "items": [],
+   "imgCount": 6,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}
