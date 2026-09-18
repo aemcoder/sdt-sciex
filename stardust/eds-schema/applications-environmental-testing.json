@@ -1,0 +1,307 @@
+{
+ "source": "http://localhost:8832/applications-environmental-testing-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Environmental testing solutions",
+     "href": "/applications/environmental-testing"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Environmental testing solutions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Respond quickly and meet regulations (MRLs) with confident results for the screening, identification, and quantitation of low-level chemical contaminants."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-image",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Environmental testing solutions:"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Guiding regulatory decisions to safeguard human and environmental health."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Environmental testing solutions track how chemicals released into the environment affect established ecosystems. As chemicals are produced and released at a rapidly rising rate, regulatory authorities struggle to keep up with monitoring and investigating their effects."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Traditional methods for environmental testing have some drawbacks, including extensive sample preparation protocols, a lack of sensitivity and limits on the number and classes of compounds that can be targeted per analysis. LC-MS/MS environmental testing solutions from SCIEX can help you overcome these challenges."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "SCIEX environmental testing solutions can be used to analyze a variety of sample types, such as industrial effluents, agricultural and urban runoff, municipal wastewater, soil, air and landfill leachates. Methods are provided for detecting many common pollutants, from novel chemical species to low-level regulated contaminants, including:"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Per- and polyfluoroalkyl substances (PFAS) and their derivatives"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Residual pesticides or pharmaceuticals"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Microcystins and other toxic aquatic substances"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Endocrine-disrupting compounds (EDCs)"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Phthalates"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Brominated flame retardants"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Polycyclic aromatic hydrocarbons (PAHs) and polychlorinated biphenyls (PCBs)"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Additional organic pollutants"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Comprehensive environmental contaminant analysis"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Whether you are an environmental consultant, an agricultural professional or a scientist in a government lab assessing water, air, soil or waste quality, our environmental testing solutions are tailored to help you meet regulatory demands, gain accreditation and uphold the reputation of your lab. Discover how our robust instrumentation empowers labs to handle high-throughput samples and consistently produce fast, accurate reporting results, and learn how our regulatory support helps safeguard human health and the environment."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "applications",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Environmental testing applications"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Contaminants of emerging concern"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Identify, track and map pollutants in the environment so your lab can facilitate pollution control and policy generation."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing/contaminants-of-emerging-concern"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Exposome and exposomics"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Leverage the power of mass spectrometry using omics-based approaches to understand, characterize and quantify the impact of the environment on our health."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing/the-exposome-and-exposomics"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Industrial and agrochemical analysis"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Enable your agrochemical and crop science research to consistently produce accurate, reliable data with LC-MS/MS technology."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing/industrial-and-agrochemical-analysis"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Water and wastewater analysis"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Monitor for many classes of compounds on a single analytical instrument to ensure wastewater is treated and discharged in accordance with regulations."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing/water-and-waste-water-analysis"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "events",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Events and webinars"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.events__row",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Learn more",
+     "href": "https://sciex.com/events"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  }
+ ]
+}

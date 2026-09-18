@@ -114,3 +114,39 @@
 {"ts":"2026-09-18T13:37:37Z","skill":"stardust:deploy","phase":"g4:education-grant-support:convert","event":"start","group":"g4","detail":"cards tiles + embed legacy + grant-* section styles; content/education/grant-support.html"}
 {"ts":"2026-09-18T13:37:37Z","skill":"stardust:deploy","phase":"g4:education-grant-support:convert","event":"end","group":"g4","result":"cards tiles + embed legacy; lint 0 🔴, owned roundtrip exit 0, qa-gate 17/18 (third-party frame jQuery errors only), EW 32/32 Δ0, drive 8/8, anchors identical","artifact":"stardust/.work/deploy/g4/progress.json"}
 {"ts":"2026-09-18T13:38:35Z","skill":"stardust:deploy","phase":"g4:convert","event":"end","group":"g4","result":"3/3 legacy pages converted: 7 new blocks + 2 cards CSS variants + templates legacy/sciex-now; lint 0 🔴, owned round-trips exit 0, EW Δ0 on all, drives 30/30, anchors ≤2px; 21 media uploads pending; no commit, no DA write","artifact":"stardust/.work/deploy/g4/ready.json"}
+{"ts":"2026-09-18T13:42:02.748Z","skill":"stardust:deploy","phase":"g2:applications-forensics-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:42:13.272Z","skill":"stardust:deploy","phase":"g2:applications-clinical:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:42:24.075Z","skill":"stardust:deploy","phase":"g2:applications-environmental-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:42:34.281Z","skill":"stardust:deploy","phase":"g2:applications-food-and-beverage-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:42:44.996Z","skill":"stardust:deploy","phase":"g2:applications-biomedical-and-omics-research:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:42:55.273Z","skill":"stardust:deploy","phase":"g2:applications-cannabis-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:43:05.343Z","skill":"stardust:deploy","phase":"g2:education-clinical-mass-spec-knowledge-center:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:46:54.268Z","skill":"stardust:deploy","phase":"g2:applications:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:47:04.797Z","skill":"stardust:deploy","phase":"g2:applications-forensics-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:47:14.247Z","skill":"stardust:deploy","phase":"g2:applications-clinical:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:47:24.132Z","skill":"stardust:deploy","phase":"g2:applications-environmental-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:47:33.991Z","skill":"stardust:deploy","phase":"g2:applications-food-and-beverage-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:47:43.919Z","skill":"stardust:deploy","phase":"g2:applications-biomedical-and-omics-research:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:47:53.510Z","skill":"stardust:deploy","phase":"g2:applications-cannabis-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:48:02.965Z","skill":"stardust:deploy","phase":"g2:education-clinical-mass-spec-knowledge-center:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:55:55.236Z","skill":"stardust:deploy","phase":"g2:applications:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:56:05.487Z","skill":"stardust:deploy","phase":"g2:applications-forensics-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:56:14.701Z","skill":"stardust:deploy","phase":"g2:applications-clinical:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:56:24.243Z","skill":"stardust:deploy","phase":"g2:applications-environmental-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:56:33.533Z","skill":"stardust:deploy","phase":"g2:applications-food-and-beverage-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:56:43.071Z","skill":"stardust:deploy","phase":"g2:applications-biomedical-and-omics-research:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:56:52.492Z","skill":"stardust:deploy","phase":"g2:applications-cannabis-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:57:02.137Z","skill":"stardust:deploy","phase":"g2:education-clinical-mass-spec-knowledge-center:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T13:59:51.527Z","skill":"stardust:deploy","phase":"g2:applications:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:02.367Z","skill":"stardust:deploy","phase":"g2:applications-forensics-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:11.569Z","skill":"stardust:deploy","phase":"g2:applications-clinical:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:21.147Z","skill":"stardust:deploy","phase":"g2:applications-environmental-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:30.488Z","skill":"stardust:deploy","phase":"g2:applications-food-and-beverage-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:40.563Z","skill":"stardust:deploy","phase":"g2:applications-biomedical-and-omics-research:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:50.098Z","skill":"stardust:deploy","phase":"g2:applications-cannabis-testing:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:00:59.366Z","skill":"stardust:deploy","phase":"g2:education-clinical-mass-spec-knowledge-center:convert","event":"end","group":"g2","result":"lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts": "2026-09-18T14:02:59Z", "skill": "stardust:deploy", "phase": "g3:about-us:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts": "2026-09-18T14:02:59Z", "skill": "stardust:deploy", "phase": "g3:about-us-press-releases:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts": "2026-09-18T14:02:59Z", "skill": "stardust:deploy", "phase": "g3:support-instrument-service-and-support:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts": "2026-09-18T14:02:59Z", "skill": "stardust:deploy", "phase": "g3:support-training:convert", "event": "end", "group": "g3", "result": "lint=0 roundtrip=0 ew=0 qa=0"}
+{"ts":"2026-09-18T14:06:32.003Z","skill":"stardust:deploy","phase":"g2:convert","event":"end","group":"g2","result":"8/8 pages lint=0 roundtrip=0 ew=0 qa=0; drive PASS; ready.json written (needsCommit, no DA write)"}

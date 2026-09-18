@@ -1,0 +1,192 @@
+{
+ "source": "http://localhost:8832/applications-cannabis-testing-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Cannabis and Hemp Analysis Solutions",
+     "href": "/applications/cannabis-testing"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Cannabis and hemp testing analytical solutions & technologies"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-small",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "For cannabis and hemp professionals interested in chemical composition, compliance testing, and research, having a sensitive and selective technique such as liquid chromatography with tandem mass spectrometry (LC-MS/MS) and an expert on hand can help enhance testing to deliver safe and quality products to consumers."
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "The rapid growth of the cannabis and hemp market has led to the explosion of new products lines ranging from medicines to edibles to beverages emerging almost every day. This has propelled more stringent regulations that demand streamlined methodical testing that deliver higher quality and safety requirements to support consumer protection."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "With all the hype, analyzing your cannabis and hemp samples for the following is even more crucial:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Pesticides, including insecticides, fungicides, and rodenticides"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Potency of cannabinoids including tetrahydrocannabinol (THC), cannabidiol (CBD), cannabigerol (CBG) and cannabigerol (CBN)"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Mycotoxins ( i.e., aflatoxin B1 and B2 or ochratoxin A) and mold (i.e., Fusarium or Aspergillus)"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "This is where mass spectrometry plays a role in cannabis testing technology."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "LC-MS/MS technology will help you optimize your cannabis and hemp testing"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Cannabis sativa plants contain hundreds of distinct chemical compounds in a wide range of concentrations. Moreover, the end-product form is equally complex because it can take many forms, from edibles to essential oils. These complexities demand an analytical technique that is sensitive, selective, and specific to tackle extremely low concentrations and one that can reduce potential matrices inferences. It would help if you had an instrument capable of matching all chemical residues at the lowest possible limits to analyze samples for pesticides and mycotoxins."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "This is where you can rely on the power of LC-MS/MS instrumentation and SCIEX method and application support team. Whether you’re a manufacturer, cultivator, grower, or even lab, SCIEX can deliver high-quality end-to-end cannabis and hemp testing solutions that can accommodate your unique need."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Download the cannabis & hemp testing info kit",
+     "href": "http://info.sciex.com/cannabis-testing-infokit?ajs_aid=b63592a4-302e-448d-9c4e-b11bf5196e61"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "media-cards",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Maximize your lab’s throughput with SCIEX cannabis testing solutions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Pesticide Testing"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Pesticides rank high on the list of safety concerns and regulated compounds include a breadth of pesticides which ranges from 0.01 µg/g (10 ppb) to above 1 µg/g (1 ppm)."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "/applications/cannabis-testing/pesticide-testing"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Mycotoxin Testing"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Many regulatory agencies require testing for the presence of aflatoxin B1, B2, G1, G2 and ochratoxin A. LC-MS/MS is the tried and tested cannabis solution for accurate trace level analysis of these mycotoxins and its metabolites in complex matrices."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "/applications/cannabis-testing/mycotoxin-testing"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

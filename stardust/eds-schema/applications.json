@@ -1,0 +1,238 @@
+{
+ "source": "http://localhost:8832/applications-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Mass spectrometry and capillary electrophoresis application workflows that redefine what is achievable"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "From routine testing to the most complex analytical experiments, our research and development teams are constantly innovating so that you have the tools you need to elevate your work in new and innovative ways."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "SCIEX technologies deliver unique application workflows that redefine your lab. Our mass spectrometers, capillary electrophoresis instruments, front-end HPLC systems and software portfolio are designed by scientists like you with your applications in mind. Together with easy data interpretation, technical expertise, application workflow optimization and system service, we work closely with you to discover those answers."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Innovative, intuitive solutions"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "With SCIEX you get more than industry leading technologies. We value working in partnership, bringing a global network of expert scientists and workflow enhancement specialists to guide you and ensure you have the best data possible, and can react quickly."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Together we are advancing science"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "With the right technology, critical decisions become much easier. Whether you specialize in life science research, drug discovery and development, clinical diagnostics, forensics or food and environmental testing, SCIEX can help you turn data into answers that lead to insights."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "It’s what we do together that sets us apart"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "applications",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Applications of mass spectrometry and capillary electrophoresis"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Whether you are identifying antibody drug conjugates to treat cancer cells, monitoring lifesaving immunosuppressant drug doses, or analyzing components to combat contaminant adulteration, SCIEX helps make possible what was once impossible."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Biomedical and omics research"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Scale up your research to identify key genes, proteins, lipids and metabolites and easily integrate your data to find relevant insights."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/biomedical-and-omics-research"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Pharma and biopharma"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Make complex workflows easier and more efficient and deliver the highest data quality to transform your pharma discovery, development and manufacturing pipeline."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/pharma-and-biopharma"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Clinical research and diagnostics"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Explore SCIEX solutions for clinical laboratories engaged in multiple workflows from discovering and validating new biomarkers to executing end-to-end validated workflows for high throughput testing in the clinic."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/clinical"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Forensic analysis"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Deliver fast, highly accurate data across a multitude of compounds and biomarkers, from the known to the new, and the novel."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Food testing"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Detect and identify targeted and non-targeted analysis at or below maximum residue limits with high-quality data you can trust."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/food-and-beverage-testing"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Environmental testing"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Respond quickly and meet regulations (MRLs) with confident results for the screening, identification, and quantitation of low-level chemical contaminants."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/environmental-testing"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

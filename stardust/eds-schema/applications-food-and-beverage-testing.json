@@ -1,0 +1,192 @@
+{
+ "source": "http://localhost:8832/applications-food-and-beverage-testing-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Food and Beverage Testing",
+     "href": "/applications/food-and-beverage-testing"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Food and beverage testing"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Stay compliant and up-to-date with today’s food safety standards. Power the productivity and output of your food testing lab with tailored solutions, stable instrumentation, and reliable data collection."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "page-image",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Food and beverage solutions for maximum precision and efficiency"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Your food testing laboratory faces numerous challenges that require industry expertise coupled with robust instrumentation. These challenges include:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Complex matrices that require specialized approaches"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Staying compliant with regulatory requirements and maximum residue limits (MRLs)"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Efficient turnaround times to meet increasing sample volumes, testing requirements and customer expectations"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Our tailored solutions cover everything from sample preparation techniques to liquid chromatography columns and mass spectrometry instruments, all designed to enhance stability and reliability. Our expertise in method development and mass spectrometry helps ensure the development of robust analytical methods that enable accurate and consistent reporting, maximizing your laboratory's output."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "image-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Food and beverage testing applications"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "This is the food testing resource hub. Dive deep into each component and discover all the applications and methods SCIEX has within its arsenal to enable and assist with your testing needs"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Food authenticity"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Maintain and enhance safety for the food samples your laboratory is testing. Isolate and identify the harmful residues and contaminants, then quantify them with precision through instrumentation and software you can rely on."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Learn more",
+     "href": "/applications/food-and-beverage-testing/food-authenticity-testing"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Food safety testing"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "What's really in your food? From meat, fruit and vegetables to alcohol, juice and spices, knowledge demand is at an all-time high. The accuracy and speed of your lab's result generation are crucial to supporting safe consumption, consumer confidence, and understanding health implications."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Learn more",
+     "href": "/applications/food-and-beverage-testing/food-safety-testing"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Quality assurance"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "With the world trending towards healthy living and sustainable food production and consumption, the nutritional value of food stuffs and the ingredient composition will continue to be a trending topic. Leveraging the right LC-MS/MS and software combination, discover how nutrition and ingredient profiling is becoming an important segment in the food­ testing world."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Learn more",
+     "href": "/applications/food-and-beverage-testing/quality-assurance-and-quality-control"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

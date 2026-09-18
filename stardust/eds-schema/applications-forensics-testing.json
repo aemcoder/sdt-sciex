@@ -1,0 +1,815 @@
+{
+ "source": "http://localhost:8832/applications-forensics-testing-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Forensics Testing",
+     "href": "/applications/forensics-testing"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Forensic testing and analysis"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero-small",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Forensic solutions easily integrated into your existing laboratory operations"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "When samples are sent to your forensic laboratory for analysis, there are many factors that can affect the range and nature of your testing. Increased violence, terrorism, the emergence of new drugs, evolving local and federal regulations—all these factors affect the nature and range of the samples sent to your forensic laboratory for analysis. Whether testing seized drug samples, screening for illicit substances in biological samples, analyzing biological specimens for the presence of performance-enhancing drugs or detecting residue levels of explosives from a crime scene, your laboratory requires ultimate confidence in scientific instrumentation to accurately detect, identify and quantify relevant compounds in critical samples."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "SCIEX offers comprehensive forensic testing solutions that can be easily incorporated into your existing laboratory operations. Our innovative LC-MS/MS portfolio enables forensic laboratories to quickly deliver highly accurate data for a variety of compounds across a wide range of workflows. Explore how our solutions can ensure the integrity of your results in an industry where the requirements keep changing. Regardless of your forensic workflow needs, SCIEX is your trusted partner in crime."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Explore SCIEX new vodcast series"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Decoding forensic toxicology with LC-MS/MS"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "split-right",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tox Chat Box"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dive into the world of forensic toxicology with leading experts discussing the transformative power of LC-MS/MS technology for a variety of workflows and applications. This vodcast series will highlight how forensic toxicology experts leverage mass spectrometry for their most challenging workflows."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore series now",
+     "href": "/applications/forensics-testing/tox-chat-box"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Pause"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Play"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "% buffered"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "00:00"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "01:13"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Unmute"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Mute"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Disable captions"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Enable captions"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Settings"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Captions"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Disabled"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Quality"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "undefined"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Speed"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Normal"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Captions"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Go back to previous menu"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Quality"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Go back to previous menu"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Speed"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Go back to previous menu"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "0.5×"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "0.75×"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Normal"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "1.25×"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "1.5×"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "1.75×"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "2×"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "4×"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "PIP"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Exit fullscreen"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Enter fullscreen"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Play"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "BUTTON.plyr__controls__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.plyr__controls__item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Uncover low-level drug detection in keratinized matrices"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Hair and nail analysis in forensic applications"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "split-right",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "On-demand webinar"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Gain a broader understanding of past drug use through the analysis of keratinized matrices, which offer a wide detection window and non-invasive collection. This webinar will discuss LC-MS/MS-based methods, highlighting the benefits and necessity of high-sensitivity mass spectrometry for detecting low-level drugs."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Watch now",
+     "href": "https://sciex.com/Hidden/landing-pages/hair-and-nail-analysis-in-forensic-applications-on-demand-webinar"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "ghost",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "media-cards",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More forensic-related content"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Forensic toxicology"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Whether you need to comprehensively screen for drugs, confirm and quantify them, identify unknown substances or characterize new and emerging drugs, SCIEX has a solution that meets all your most demanding requirements."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/forensic-toxicology"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Doping control"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Unveil the truth hidden in doping samples by leveraging SCIEX solutions to confidently detect, identify and quantify trace levels of prohibited substances in biological specimens. Our robust suite of instruments provides the sensitivity, specificity and selectivity required to deliver confident results and keep competition fair."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/doping-control"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Homeland security"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Detecting trace levels of seized drugs, chemical warfare agents, explosives or illicit materials requires high throughput and sensitive instrumentation. SCIEX has an extensive portfolio of LC-MS/MS instrumentation that provides the evidence required by the forensic and security communities."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/homeland-security"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Cannabinoid analysis and potency testing"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "The diversity of cannabinoids makes it hard to perform analysis and potency testing accurately. SCIEX provides sensitive, precise instrumentation capable of differentiating synthetic and natural cannabinoids. Forensic labs, where such use is permitted under local state or country law, can now test with the highest confidence."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/cannabinoid-analysis-and-potency-testing"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "PFAS biomonitoring"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Accurately quantify and identify PFAS contaminants with SCIEX LC-MS/MS solutions, offering unmatched sensitivity and specificity for both targeted and non-targeted analysis."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/pfas-biomonitoring"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Drug surveillance in wastewater"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Monitor drug consumption trends with SCIEX LC-MS/MS instruments, providing robust and sensitive analysis of trace levels of drugs and metabolites in wastewater."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/drug-surveillance-in-wastewater"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Environmental contaminant biomonitoring"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Reliably detect low-level environmental contaminants in various biological matrices using SCIEX LC-MS/MS solutions, ensuring precise and accurate monitoring of pesticides, herbicides and more."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Learn more",
+     "href": "https://sciex.com/applications/forensics-testing/environmental-contaminant-biomonitoring"
+    }
+   ],
+   "imgCount": 7,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 7,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Forensic testing systems from SCIEX"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Find out how the newest solutions from SCIEX can enhance your forensic applications. Quantify low levels of drugs and metabolites in complex biological samples with high precision and accuracy. Detect previously undetectable potent novel psychoactive substances (NPS) with confidence. Expand the capabilities of your forensic laboratory to test the most challenging samples in complex biological matrices."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "ZenoTOF 7600 system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Get qualitative flexibility combined with quantitative power. The ZenoTOF 7600 system represents a crucial step change in MS/MS technology with electron activated dissociation (EAD) and provides a new level of power for characterizing your forensic samples."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/zenotof-7600-system"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Technical notes"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Get confident identification of potent novel opioids",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/highly-sensitive-ms-ms-detection-for-confident-identification-of"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Read about NPS characterization",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/enhancing-nps-characterization-using-electron-activated-dissocia"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "X500R QTOF system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Benefit from an easy-to-use mass spectrometry system that analyzes data faster through the power of data-independent acquisition with SWATH DIA."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/qtof-systems/x-series-qtof-systems/x500r-qtof-system"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Technical notes"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Expand NPS screening capabilities in your lab",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/expanding-nps-screening-capabilities-in-the-forensic-toxicology-"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Investigate the changes induced from long-term drug abuse",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/investigating-the-metabolomic-changes-induced-from-long-term-dru"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SCIEX 7500+ system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Find out how the SCIEX 7500+ system can enhance your forensic applications. Start detecting previously undetectable novel psychoactive substances. Quantify at lower levels with higher sensitivity and precision. Expand your forensic laboratory to test complex and challenging samples and matrices."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "/products/mass-spectrometers/triple-quad-systems/triple-quad-7500-plus-system"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Technical notes"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Improve sensitivity in complex biological matrices",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/leveraging-sensitivity-improvements-for-low-level-detection-of-d"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Detect potent novel synthetic opioids",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/reaching-new-sensitivity-levels-for-the-detection-of-fentanyl-an"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "split-left",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "QTRAP 6500+ system"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Experience better identification, characterization and quantitation with an instrument that combines QTRAP system functionality and the MRM sensitivity of a triple quadrupole system from SCIEX."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://sciex.com/products/mass-spectrometers/qtrap-systems/qtrap-6500plus-system"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Technical notes"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Get ultra-sensitive forensic analysis workflow in hair",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/ultra-sensitive-forensic-analysis-workflow-of-cocaine-and-its-me"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Detect multi-panel drugs and drug metabolites in hair",
+     "href": "https://sciex.com/tech-notes/forensic/toxicology/multi-panel-detection-of-drugs-and-drug-metabolites-in-hair-samp"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

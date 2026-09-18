@@ -1,0 +1,206 @@
+{
+ "source": "http://localhost:8832/applications-clinical-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero-small",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Clinical"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "hero",
+   "items": [],
+   "imgCount": 0,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Applications",
+     "href": "/applications"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Clinical",
+     "href": "/applications/clinical"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Applications from biomarker discovery to verified diagnostic test"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "It is vital for clinical laboratory scientists—from healthcare innovators pursuing clinical research to those performing frontline diagnostics in hospital testing labs—to have affordable, reliable and robust technologies that deliver the results with the utmost accuracy as quickly as possible. However, many busy clinical laboratories have settled for the undesirable compromise of costly send-out testing, as cutting-edge technologies have previously been unobtainable. The implication is high outsourcing expenditure, extended turnaround times and compromises on assay performance, all of which directly influence patient care."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "SCIEX is the ideal partner for addressing these concerns and helping your modern clinical biochemistry laboratory meet its analytical goals now and in the future. We provide a strong portfolio of , workflow solutions, , and third party relationships to meet and exceed your daily needs. In addition, as next-generation research into disease and medicine dictates the needs of tomorrow, SCIEX robust, sensitive, and easy-to-use systems, such as the and the , support the entire clinical laboratory pipeline, from research to the clinic. From discovering and validating new biomarkers to executing end-to-end validated workflows for high-throughput testing in the clinic, we are trusted by scientists to advance their work in clinical research and diagnostics."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "mass spectrometers",
+     "href": "https://sciex.com/products/mass-spectrometers"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "software",
+     "href": "https://sciex.com/products/software"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "aftercare",
+     "href": "https://sciex.com/support"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Citrine system",
+     "href": "https://sciex.com/products/in-vitro-diagnostics/medical-devices/citrine-system"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "4500MD system",
+     "href": "https://sciex.com/products/in-vitro-diagnostics/medical-devices/4500md-mass-spectrometer"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "media-cards",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Clinical research"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Engage with our wealth of experience in the ever-evolving field of cutting-edge clinical research. See how SCIEX technologies are utilized daily in identifying and quantifying new and emerging biomarkers and metabolites, whether they are small molecules, proteins or lipids. Learn how to empower your research while developing novel testing protocols for improving human health."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "/applications/clinical/clinical-research"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Clinical diagnostics"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Learn how SCIEX medical devices are used worldwide to quantify known disease biomarkers, therapeutic drugs, toxins and illicit compounds to aid clinical scientists in diagnosing and managing diseases. Discover how adopting these technologies into modern clinical laboratories can empower scientists to expand their portfolios, bring costly send-out testing in-house and improve throughput and efficiency for core diagnostic workflows."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Learn more",
+     "href": "/applications/clinical/clinical-diagnostics"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.card",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "The SCIEX clinical diagnostic portfolio is For In Vitro Diagnostic Use. Rx Only. Product(s) not available in all countries. For information on availability, please contact your local sales representative or contact us ."
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "here",
+     "href": "https://www.sciex.com/about-us/contact-us?ajs_aid=ded1a1b5-3665-4fd6-95c1-91f5ff21b355"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

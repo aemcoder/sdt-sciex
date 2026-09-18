@@ -1,0 +1,239 @@
+/* event-rows — live v3 .events-row (values: stardust/prototypes/css/v3-applications.css § EVENTS ROW,
+   lifted from tokens-g2-applications-environmental-testing-*). Wrappers carry the layout; the
+   authored h2 / h3 / p / picture are styled through them (EW2). */
+.event-rows {
+  padding: 32px 0;
+}
+
+.event-rows .event-head {
+  padding-bottom: 32px;
+  border-top: 1px solid var(--border-default);
+}
+
+.event-rows .event-head :is(h1, h2, h3) {
+  padding-top: 24px;
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+.event-rows .event-row {
+  border-top: 1px solid var(--border-default);
+  padding-top: 24px;
+  padding-bottom: 32px;
+}
+
+.event-rows .event-row-last {
+  padding-bottom: 0;
+}
+
+.event-rows .event-item {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  text-decoration: none;
+}
+
+.event-rows .event-thumb-col {
+  width: 100%;
+}
+
+.event-rows .event-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin-bottom: 20px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.event-rows .event-thumb picture {
+  display: contents;
+}
+
+.event-rows .event-thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-rows .event-mid {
+  display: flex;
+}
+
+/* status + play badge (live .text-sm 13/18 → 14/20, weight 330) */
+.event-rows .event-meta {
+  width: 25%;
+}
+
+.event-rows .event-meta p {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 330;
+  letter-spacing: 0.065px;
+  line-height: 18px;
+}
+
+.event-rows .event-icon {
+  display: inline-block;
+  box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  padding: 9px;
+  border: 1px solid #c6c6c6;
+  border-radius: 9999px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath d='M4.49902 16.191V3.80902L16.881 10L4.49902 16.191Z' stroke='%23141414'/%3E%3C/svg%3E") center / 20px 20px no-repeat;
+}
+
+.event-rows .event-body {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin-left: 20px;
+}
+
+.event-rows .event-body p {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: 330;
+  letter-spacing: 0.065px;
+  line-height: 18px;
+}
+
+/* title = live p.text-lg (17/25 → 18/26, weight 330 — not bold) */
+.event-rows .event-body :is(h2, h3, h4) {
+  margin: 0 0 12px;
+  color: #000;
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+  overflow-wrap: break-word;
+}
+
+/* CTA — the unwrapped "Watch now" paragraph painted as the live .link-arrow (the row is the link) */
+.event-rows .event-cta {
+  width: 75%;
+  margin-left: auto;
+  padding-left: 16px;
+}
+
+.event-rows .event-cta p {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0 0 6px;
+  color: var(--blue-700);
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+  background: linear-gradient(currentcolor, currentcolor) no-repeat 0 100% / calc(100% - 24px) 1px;
+}
+
+.event-rows .event-cta p::after {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 14px;
+  margin-left: 8px;
+  background: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 14'%3E%3Cpath d='M0 7L15 7' stroke='%23000'/%3E%3Cpath d='M9 1L15 7L9 13' stroke='%23000'/%3E%3C/svg%3E") center / 16px 14px no-repeat;
+}
+
+@media (width >= 768px) {
+  .event-rows {
+    padding: 48px 0;
+  }
+
+  .event-rows .event-head {
+    padding-bottom: 48px;
+  }
+
+  .event-rows .event-head :is(h1, h2, h3) {
+    padding-top: 32px;
+  }
+
+  .event-rows .event-row {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .event-rows .event-row-last {
+    padding-bottom: 0;
+  }
+
+  .event-rows .event-item {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .event-rows .event-thumb-col {
+    width: 25%;
+  }
+
+  .event-rows .event-thumb {
+    max-width: 192px;
+    margin-bottom: 0;
+  }
+
+  .event-rows .event-mid {
+    width: 58.3333%;
+  }
+
+  .event-rows .event-meta {
+    margin-left: 32px;
+  }
+
+  .event-rows .event-meta p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    line-height: 20px;
+  }
+
+  .event-rows .event-icon {
+    width: 32px;
+    height: 32px;
+    padding: 15px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 32 32'%3E%3Cpath d='M7.41675 25.4532V6.5469L26.323 16L7.41675 25.4532Z' stroke='%23141414' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-size: 32px 32px;
+  }
+
+  .event-rows .event-body {
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .event-rows .event-body p {
+    margin-bottom: 12px;
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    line-height: 20px;
+  }
+
+  .event-rows .event-body :is(h2, h3, h4) {
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .event-rows .event-cta {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    width: 16.6667%;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .event-rows .event-cta p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+}

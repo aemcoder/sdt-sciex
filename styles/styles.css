@@ -1453,7 +1453,7 @@ body.legacy main .default-content-wrapper sup { top: -0.5em; }
 
 /* breadcrumb.legacy on these templates: the 40px lead spacer sits BELOW the crumb (live .lg-lead-spacer /
    .lg-grant__crumbspacer), the wrapper keeps its 8px padding — the KB variant puts the 40px above. */
-body.legacy .breadcrumb.legacy { padding: 8px 15px 48px; }
+body.legacy .breadcrumb.legacy { padding: 8px 0 48px; } /* the wrapper already carries the column's 15px */
 
 @media (width <= 767px) {
   body.legacy main .section.grant-crumb .breadcrumb.legacy { padding-bottom: 28px; } /* crumbspacer 20px at mobile */
@@ -1670,4 +1670,762 @@ body.sciex-now main .section.contact-bar .default-content-wrapper h2 {
   }
   body.sciex-now main .section.sn-benefits .default-content-wrapper p:has(a) { margin: 50px 0 56px; }
   body.sciex-now main .section.contact-bar .default-content-wrapper h2 { margin-bottom: 7px; }
+}
+
+/* --- G4 templates: live module rhythm relies on margin collapsing across the single .no-bleed flow —
+   the foundation's flow-root default-content wrapper (a BFC) would add adjacent margins instead
+   (+14px above the image map, +18px above the contact bar, measured); lists inherit the template
+   type, not the 16/24 list rule (10 × 22.4 = 224px on live). --- */
+body.sciex-now main > .section > .default-content-wrapper,
+body.legacy main > .section > .default-content-wrapper { display: block; }
+
+body.sciex-now main .default-content-wrapper li,
+body.legacy main .default-content-wrapper li {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* ==========================================================================================
+   G3 — about + support (v3) + the legacy `page-content` template — APPENDED by the stardust:deploy
+   G3 agent (stardust/eds-conversion-log-g3.md § 1 / § 2). Closed set: section styles `hero-text`
+   [+ `big-lede`], `hero-side-image`, `media-video`, `ruled-after`, `legacy-hero`; `a.button.accent` =
+   the live `.btn-secondary` outline pill; template `page-content` (`body.page-content`). Descendant
+   selectors only on prose (EW10); no positional pseudo-classes on authored elements.
+   ========================================================================================== */
+
+/* `hero-text` — the interior h1 in its OWN section (about-us: h1 BEFORE the hero image; live
+   .hero-text tw-pt-32 md:tw-pt-48 tw-pb-32 md:tw-pb-48). Type = the breadcrumb-section h1 (text-alfa). */
+main .section.hero-text .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+main .section.hero-text .default-content-wrapper h1 {
+  width: 100%;
+  color: #000;
+  font-size: 34px;
+  font-weight: 270;
+  line-height: 42px;
+  overflow-wrap: break-word;
+}
+
+/* `hero-text big-lede` — /stories title band: h1 + lede BOTH at text-alfa (lede grey-500), no gap,
+   section pt/pb 64 → 96 (live text-container tw-pt-64 md:tw-pt-96 tw-pb-64 md:tw-pb-96). */
+main .section.hero-text.big-lede .default-content-wrapper {
+  gap: 0;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+main .section.hero-text.big-lede .default-content-wrapper h1 {
+  color: var(--grey-900);
+}
+
+main .section.hero-text.big-lede .default-content-wrapper p {
+  margin: 0;
+  width: 100%;
+  color: var(--grey-500);
+  font-size: 34px;
+  font-weight: 270;
+  line-height: 42px;
+  overflow-wrap: break-word;
+}
+
+/* `hero-side-image` — the breadcrumb section's h1 with a side picture (live .hero-text: h1 col
+   md:tw-w-8/12 md:tw-pr-32 | picture img tw-mt-32 tw-aspect-[4/3] md:tw-mt-0 md:tw-w-4/12), pb 32/48 */
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper {
+  flex-flow: row wrap;
+  align-items: flex-start;
+  gap: 0;
+  padding-bottom: 32px;
+}
+
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper h1 {
+  width: 100%;
+}
+
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper p:has(> picture, > img, > a > picture, > a > img) {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin: 32px 0 0;
+  line-height: 0;
+}
+
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper p picture {
+  display: contents;
+}
+
+main .section.breadcrumb-container.hero-side-image .default-content-wrapper p img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* `media-video` — the v3 `.media-video` section (live: contained 16:9 Plyr player, 32/48 rhythm) hosting
+   the `video` block, whose own frame is the legacy 860 px SCIEX Now column (G4). Re-fit to the container. */
+main .section.media-video .video {
+  padding: 32px 0;
+}
+
+main .section.media-video .video .video-wrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: none;
+  padding: 0 24px;
+  font: inherit;
+  line-height: 0;
+}
+
+main .section.media-video .video .video-wrap video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+/* `ruled-after` — live trailing text-container with an EMPTY `tw-border-t` column (pt 0; inner pt 24/32;
+   section pb 32/48) after a `sec--pb0` card list: an empty section cannot survive the pipeline, so the
+   rule rides the preceding block's container (the section itself carries `flush-bottom`). */
+main .section.ruled-after .block .container::after {
+  content: "";
+  display: block;
+  padding-top: 56px;
+  border-top: 1px solid var(--border-default);
+}
+
+/* `a.button.accent` (<em><strong><a>) = the live `.btn-secondary` outline pill ("View all thought
+   leaders" / "View all topics" on /stories): 1 px blue-700 border, radius 4, grey-900 label, arrow,
+   hover fills blue-800 from the bottom. Overrides the foundation's "same as primary" placeholder. */
+/* stylelint-disable-next-line no-duplicate-selectors -- appended override of the foundation accent (cascade order) */
+a.button.accent,
+button.button.accent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid var(--blue-700);
+  border-radius: 4px;
+  padding: 12px 16px;
+  color: var(--grey-900);
+  background-color: transparent;
+  background-image: linear-gradient(to right, var(--blue-800), var(--blue-800), var(--blue-800));
+  background-size: 100% 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 400;
+  text-align: left;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+
+a.button.accent::after,
+button.button.accent::after {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 14px;
+  margin-left: 16px;
+  background: currentcolor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 16 14'%3E%3Cpath d='M0 7L15 7' stroke='%23000'/%3E%3Cpath d='M9 1L15 7L9 13' stroke='%23000'/%3E%3C/svg%3E") center / 16px 14px no-repeat;
+}
+
+a.button.accent:hover,
+button.button.accent:hover {
+  color: #fff;
+  background-size: 100% 100%;
+}
+
+a.button.accent:active,
+button.button.accent:active {
+  color: #fff;
+  background-color: #004ebc;
+}
+
+main .section.lead .default-content-wrapper p:has(> em > strong > a, > strong > em > a, > a.button.accent) {
+  width: 100%;
+}
+
+@media (width >= 600px) {
+  main .section.hero-text .default-content-wrapper h1,
+  main .section.hero-text.big-lede .default-content-wrapper p {
+    font-size: calc(7.5294px + 4.4118vw);
+  }
+}
+
+@media (width >= 768px) {
+  main .section.hero-text .default-content-wrapper {
+    gap: 20px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  main .section.hero-text .default-content-wrapper h1,
+  main .section.hero-text.big-lede .default-content-wrapper p {
+    line-height: 1.2;
+  }
+
+  main .section.hero-text.big-lede .default-content-wrapper {
+    gap: 0;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper {
+    padding-bottom: 48px;
+  }
+
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper h1 {
+    width: 66.6667%;
+    padding-right: 32px;
+  }
+
+  main .section.breadcrumb-container.hero-side-image .default-content-wrapper p:has(> picture, > img, > a > picture, > a > img) {
+    width: 33.3333%;
+    margin-top: 0;
+  }
+
+  main .section.media-video .video {
+    padding: 48px 0;
+  }
+
+  main .section.ruled-after .block .container::after {
+    padding-top: 80px;
+  }
+
+  a.button.accent,
+  button.button.accent {
+    display: inline-flex;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  main .section.media-video .video .video-wrap {
+    padding: 0 40px;
+  }
+}
+
+@media (width >= 1280px) {
+  main .section.hero-text .default-content-wrapper h1,
+  main .section.hero-text.big-lede .default-content-wrapper p {
+    font-size: 64px;
+  }
+
+  main .section.media-video .video .video-wrap {
+    padding: 0 64px;
+  }
+}
+
+/* ======================================================================================
+   G3 template `page-content` — metadata `Template: page-content` → body.page-content
+   (/support/professional-lab-services: the legacy v2 page-content template, sciex-v2 clientlibs,
+   static Geogrotesque Regular at 400, weights 330 / 450, body colour #5f6062, legacy footer XF with
+   the 10 px strip and no support band). Values: stardust/prototypes/css/support-professional-lab-services.css.
+   ====================================================================================== */
+body.page-content {
+  --body-font-family: geogrotesque-legacy, geogrotesque-fallback, helvetica, arial, sans-serif;
+  --heading-font-family: geogrotesque-legacy, geogrotesque-fallback, helvetica, arial, sans-serif;
+}
+
+body.page-content main {
+  color: #5f6062;
+  padding-bottom: 50px; /* legacy .home-section 40 + the footer XF's 10 px white strip (as kb-article / legacy) */
+}
+
+/* legacy v2 breadcrumb (`.lcrumb`) on the v3 `breadcrumb` block: 8 px wrapper + 4 px section margins,
+   15 px gutters, py 16/24, 13 → 14 px grey-500 at 330, 7.5 px link gaps, 6×10 chevrons */
+body.page-content .breadcrumb {
+  padding: 8px 15px;
+}
+
+body.page-content .breadcrumb nav {
+  margin: 4px 0;
+}
+
+body.page-content .breadcrumb .breadcrumb-trail ul,
+body.page-content .breadcrumb .breadcrumb-trail ol {
+  padding: 16px 0;
+  font-size: 13px;
+  font-weight: 330;
+  letter-spacing: normal;
+  line-height: 18px;
+}
+
+body.page-content .breadcrumb .breadcrumb-trail li a {
+  margin: 0 7.5px;
+  letter-spacing: 0.005em;
+}
+
+body.page-content .breadcrumb .breadcrumb-trail li:first-child a {
+  margin: 0 7.5px 0 0;
+}
+
+body.page-content .breadcrumb .breadcrumb-trail li + li::before {
+  width: 6px;
+  height: 10px;
+  margin: 0;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='10' viewBox='0 0 6 10' fill='none'%3E%3Cpath d='M1 1L5 5L1 9' stroke='%23000'/%3E%3C/svg%3E") center / 6px 10px no-repeat;
+}
+
+/* `legacy-hero` — live .hero.teaser (h2 52/64 at 330, 7/12 + lede 4/12 max 420): the page's h1 + lede */
+body.page-content main .section.legacy-hero .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+body.page-content main .section.legacy-hero .default-content-wrapper h1 {
+  margin: 0 0 32px;
+  color: var(--grey-900);
+  font-size: 52px;
+  font-weight: 330;
+  line-height: 38px;
+}
+
+body.page-content main .section.legacy-hero .default-content-wrapper p {
+  margin: 0 0 40px;
+  color: var(--grey-900);
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: 0.005em;
+  line-height: 22px;
+}
+
+/* slinky CTA (live .request-cta.btn-slinky): every primary CTA on this template is the 50 px blue pill */
+body.page-content a.button.primary,
+body.page-content button.button.primary {
+  display: inline-flex;
+  align-self: flex-start;
+  width: auto;
+  margin-right: 24px;
+  padding: 10px 16px;
+  border-radius: 2.5px;
+  background-image: none;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  white-space: nowrap;
+  transition: all 0.3s ease-in;
+}
+
+body.page-content a.button.primary:hover,
+body.page-content button.button.primary:hover {
+  background-color: var(--blue-800);
+  border-color: var(--blue-800);
+}
+
+@media (width >= 768px) {
+  body.page-content .breadcrumb .breadcrumb-trail ul,
+  body.page-content .breadcrumb .breadcrumb-trail ol {
+    padding: 24px 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  body.page-content main .section.legacy-hero .default-content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+
+  body.page-content main .section.legacy-hero .default-content-wrapper h1 {
+    width: 58.3333%;
+    margin: 0 32px 0 0;
+    line-height: 64px;
+  }
+
+  body.page-content main .section.legacy-hero .default-content-wrapper p {
+    width: 33.3333%;
+    max-width: 420px;
+    margin: 12px 0 24px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  body.page-content a.button.primary,
+  body.page-content button.button.primary {
+    padding: 12px 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* ==========================================================================================
+   G2 — applications (v3 application landings) — APPENDED by the stardust:deploy G2 agent.
+   Closed-set additions (stardust/eds-conversion-log-g2.md § 1/§ 2):
+   · `.button.accent` (<em><strong><a>) = the live `.btn-secondary` outline CTA (grey-900 text,
+     blue border, bottom-up gradient fill on hover); primary/accent hover fill (live transition).
+   · `lead bravo` · `lead big-lede` · `lead small` · `lead center` · `lead` disc lists + inline
+     links (live .richtext a) — descendant selectors only (EW10).
+   · rhythm `gap-top` (16/20 = the live atomic-child rhythm) · `mid-top` · `mid-bottom` (24/32).
+   · `video-split` — a section holding the split copy as default content + the `video` block
+     (live .split--right with a Plyr media frame; D2 forbids a player inside a columns cell).
+   ========================================================================================== */
+
+/* observed on live (motion JSON, forensics + biomedical): background-size .15s fill on hover */
+a.button.primary:hover,
+a.button.primary:focus-visible,
+a.button.accent:hover,
+a.button.accent:focus-visible {
+  background-size: 100% 100%;
+}
+
+a.button.accent:hover,
+a.button.accent:focus-visible {
+  color: #fff;
+}
+
+/* edit-mode repaint of the accent mark (EW3): <em><strong><a> */
+.prosemirror-editor p > em > strong > a:any-link,
+.prosemirror-editor p > a:any-link:has(> em > strong:only-child) {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--blue-700);
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: var(--grey-900);
+  background: transparent;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+/* --- `lead bravo`: h2 at live text-bravo (31/38 → fluid → 52 @1280) --- */
+main .section.lead.bravo .default-content-wrapper h2 {
+  font-size: 31px;
+  font-weight: 270;
+  line-height: 38px;
+}
+
+/* --- `lead big-lede`: the non-CTA paragraphs paint at the wrapper's heading scale, grey-500
+   (live .atomic-heading h2.text-charlie + p.text-charlie.text-grey-500; 0 gap under the heading) --- */
+main .section.lead.big-lede .default-content-wrapper:has(h2) p:not(:has(a)) {
+  margin-top: -16px;
+  color: var(--grey-500);
+  font-size: 27px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+main .section.lead.big-lede .default-content-wrapper:has(h3) p:not(:has(a)) {
+  margin-top: -16px;
+  color: var(--grey-500);
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+main .section.lead.big-lede .default-content-wrapper:has(h4) p:not(:has(a)) {
+  margin-top: -16px;
+  color: var(--grey-500);
+  font-size: 20px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+/* --- `lead small`: body at live text-sm (13/18 → 14/20, weight 330) --- */
+main .section.lead.small .default-content-wrapper p {
+  font-size: 13px;
+  font-weight: 330;
+  letter-spacing: 0.065px;
+  line-height: 18px;
+}
+
+/* --- `lead` prose lists (live .atomic-richtext-content ul: disc, 16 px indent) + inline links --- */
+main .section.lead:not(.ticks) .default-content-wrapper ul {
+  margin: 0 0 0 16px;
+  padding: 0;
+  list-style: disc;
+  color: var(--grey-500);
+}
+
+main .section.lead:not(.ticks, .compact) .default-content-wrapper li {
+  color: var(--grey-500);
+  font-size: 17px;
+  font-weight: 330;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+main .section.lead .default-content-wrapper p a:not(.button) {
+  color: inherit;
+  font-weight: 530;
+  text-decoration: underline;
+}
+
+/* --- rhythm: `gap-top` (tw-pt-16 md:tw-pt-20, the atomic-child rhythm), `mid-top` / `mid-bottom`
+   (tw-pt-24 md:tw-pt-32) — same pattern as the G1 values --- */
+main .section.gap-top:where(.lead, .page-image),
+main .section.gap-top > div > .block { padding-top: 16px; }
+
+main .section.mid-top:where(.lead, .page-image),
+main .section.mid-top > div > .block { padding-top: 24px; }
+
+main .section.mid-bottom:where(.lead, .page-image),
+main .section.mid-bottom > div > .block { padding-bottom: 24px; }
+
+/* --- `video-split`: the section IS the live .split--right .container (copy 5/12 | player 6/12,
+   media first < 768) — default content (h3, p, CTA) + the `video` block --- */
+main .section.video-split {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 32px 24px;
+}
+
+main .section.video-split > .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 24px 0 0;
+}
+
+main .section.video-split > .video-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+main .section.video-split .video .video-wrap {
+  max-width: none;
+  padding: 0;
+  font: inherit;
+  line-height: 0;
+}
+
+main .section.video-split .video .video-wrap video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #000;
+}
+
+main .section.video-split .default-content-wrapper :is(h2, h3, h4) {
+  color: var(--grey-900);
+  overflow-wrap: break-word;
+}
+
+main .section.video-split .default-content-wrapper h3 {
+  font-size: 23px;
+  font-weight: 270;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+main .section.video-split .default-content-wrapper p {
+  color: var(--grey-500);
+  overflow-wrap: break-word;
+}
+
+main .section.video-split .default-content-wrapper p:has(> a.button, > strong > a, > em > a) {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media (width >= 640px) {
+  main .section.video-split { max-width: 640px; }
+}
+
+@media (width >= 768px) {
+  main .section.lead.bravo .default-content-wrapper h2 {
+    font-size: calc(12.4706px + 3.0882vw);
+    line-height: 1.2;
+  }
+
+  main .section.lead.big-lede .default-content-wrapper:has(h2) p:not(:has(a)) {
+    margin-top: -20px;
+    font-size: calc(15.5294px + 1.9118vw);
+    line-height: 1.3;
+  }
+
+  main .section.lead.big-lede .default-content-wrapper:has(h3) p:not(:has(a)) {
+    margin-top: -20px;
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+
+  main .section.lead.big-lede .default-content-wrapper:has(h4) p:not(:has(a)) {
+    margin-top: -20px;
+    font-size: calc(14.588px + 0.7353vw);
+    line-height: 1.3;
+  }
+
+  main .section.lead.small .default-content-wrapper p {
+    font-size: 14px;
+    letter-spacing: 0.07px;
+    line-height: 20px;
+  }
+
+  /* live .atomic-container-center-1-col centres from md up only */
+  main .section.lead.center .default-content-wrapper {
+    justify-content: center;
+    text-align: center;
+  }
+
+  main .section.lead:not(.ticks, .compact) .default-content-wrapper li {
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  main .section.gap-top:where(.lead, .page-image),
+  main .section.gap-top > div > .block { padding-top: 20px; }
+
+  main .section.mid-top:where(.lead, .page-image),
+  main .section.mid-top > div > .block { padding-top: 32px; }
+
+  main .section.mid-bottom:where(.lead, .page-image),
+  main .section.mid-bottom > div > .block { padding-bottom: 32px; }
+
+  main .section.video-split {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 768px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  main .section.video-split > .default-content-wrapper {
+    width: 41.6667%;
+    padding-top: 0;
+  }
+
+  main .section.video-split > .video-wrapper {
+    width: 50%;
+  }
+
+  main .section.video-split .default-content-wrapper h3 {
+    font-size: calc(15.0588px + 1.3235vw);
+    line-height: 1.3;
+  }
+}
+
+@media (width >= 1024px) {
+  main .section.video-split {
+    max-width: 1024px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (width >= 1280px) {
+  main .section.lead.bravo .default-content-wrapper h2 { font-size: 52px; }
+  main .section.lead.big-lede .default-content-wrapper:has(h2) p:not(:has(a)) { font-size: 40px; }
+  main .section.lead.big-lede .default-content-wrapper:has(h3) p:not(:has(a)) { font-size: 32px; }
+  main .section.lead.big-lede .default-content-wrapper:has(h4) p:not(:has(a)) { font-size: 24px; }
+  main .section.video-split .default-content-wrapper h3 { font-size: 32px; }
+
+  main .section.video-split {
+    max-width: 1280px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (width >= 1440px) {
+  main .section.video-split { max-width: 1440px; }
+}
+
+@media (width >= 1536px) {
+  main .section.video-split { max-width: 1536px; }
+}
+
+/* G2 addendum — `video-split`: the live media frame keeps its Splide pager margin under the player
+   (.media-frame__pager margin-top 12 → 16 @768) */
+main .section.video-split > div.video-wrapper {
+  padding-bottom: 12px;
+}
+
+@media (width >= 768px) {
+  main .section.video-split > div.video-wrapper {
+    padding-bottom: 16px;
+  }
+}
+
+/* G2 addendum — `lead` prose lists: live .richtext ul carries no padding-top (the list sits flush under its
+   paragraph; the following paragraph keeps its 16/20) */
+main .section.lead:not(.ticks) div.default-content-wrapper ul {
+  margin-top: -16px;
+}
+
+@media (width >= 768px) {
+  main .section.lead:not(.ticks) div.default-content-wrapper ul {
+    margin-top: -20px;
+  }
+}
+
+/* G2 addendum — `lead ticks spaced`: the application landings' tick list keeps the live li rhythm
+   (tw-pb-8 per item, last 0 — the G1 products variant has none) */
+main .section.lead.ticks.spaced .default-content-wrapper li {
+  padding-bottom: 8px;
+}
+
+main .section.lead.ticks.spaced .default-content-wrapper li:last-child {
+  padding-bottom: 0;
+}
+
+/* G2 addendum — `lead`: a body paragraph (66.67 % from 1280) must not leave room for the CTA paragraph
+   that follows it on the same flex row (live .atomic-buttons is a new block) — the margin fills the row */
+@media (width >= 1280px) {
+  main .section.lead:not(.center) .default-content-wrapper p:not(:has(> a.button, > strong > a, > em > a)) {
+    margin-right: 33.333%;
+  }
+}
+
+/* G2 addendum — the live .btn-secondary arrow sits flush against the label (svg margin-left 0; the primary's is 16) */
+main .section.lead a.button.accent::after,
+.columns.lead a.button.accent::after {
+  margin-left: 0;
+}
+
+/* `media-video` — the video frame follows the container caps (the live `.media-video .container`),
+   never the viewport: at 1600 the prototype frame is 1536 wide (qa-gate wide-1600 cross-check). */
+@media (width >= 640px) {
+  main .section.media-video .video .video-wrap { max-width: 640px; }
+}
+
+@media (width >= 768px) {
+  main .section.media-video .video .video-wrap { max-width: 768px; }
+}
+
+@media (width >= 1024px) {
+  main .section.media-video .video .video-wrap { max-width: 1024px; }
+}
+
+@media (width >= 1280px) {
+  main .section.media-video .video .video-wrap { max-width: 1280px; }
+}
+
+@media (width >= 1440px) {
+  main .section.media-video .video .video-wrap { max-width: 1440px; }
+}
+
+@media (width >= 1536px) {
+  main .section.media-video .video .video-wrap { max-width: 1536px; }
 }

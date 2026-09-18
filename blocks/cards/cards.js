@@ -360,6 +360,192 @@ function decorateIconGrid(block, cards) {
   block.replaceChildren(container);
 }
 
+/* ==========================================================================================
+   G3 variant `media` [+ `grid`] — APPENDED by the stardust:deploy G3 agent (function hoisted;
+   dispatcher branch above). Live `.media-card-carousel` ("Latest Stories" on /stories: Splide
+   perPage 2, gap 4, full-bleed list, arrows + "N / total" page pagination at every width) and
+   `.media-card` (the 13 topic-tab panels: 3-up grid from 768, gap 32×48). Cards are article
+   teasers whose media is a picture OR a video poster (57 of 108 live cards are muted hover-play
+   Plyr players with hidden controls). Schema: stardust/eds-schema/stories.json
+   § media-card-carousel / tabs. Decode tier: reconstructive; every authored node MOVES (EW1–EW3,
+   EW8).
+ *
+ * Authoring (one row per card, cells media | body):
+ *   <div>
+ *     <div><p><img src="https://content.da.live/…/media/about-support/ChrisHigginsPursuit-V1-HeaderVideo-frame.jpg" alt=""></p>
+ *          <p><a href="https://sciex.com/content/dam/SCIEX/stories/…/ChrisHigginsPursuit-V1-HeaderVideo.mp4">https://sciex.com/…mp4</a></p></div>   ← video cards only
+ *     <div><h3>A lifetime of exposure</h3><p>The pursuit</p>
+ *          <p><em><a href="https://sciex.com/stories/articles/a-lifetime-of-exposure">Find out more</a></em></p></div>
+ *   </div>
+ * Section head (<h2>) is DEFAULT CONTENT before the block, reabsorbed into the ruled head row
+ * beside the controls (EW8). The mp4 link paragraph MOVES into an sr-only `.media-source` wrapper
+ * (editable; EW5 never drops it) and drives hover-to-play (a muted looping <video> is created on
+ * first pointerenter, paused on leave; not under prefers-reduced-motion). The card's link target
+ * is the article CTA (`mediaLink`, aria-label = CTA text). Generated text: page numerals
+ * "1 / " … "N" (runtime values, allowlisted — as `carousel quotes`).
+   ========================================================================================== */
+const isVideoLink = (n) => {
+  const a = n.querySelector && n.querySelector('a[href]');
+  return !!a && /\.(mp4|webm|ogv|m4v)(\?|$)/i.test(a.getAttribute('href') || '');
+};
+
+function decorateMedia(block, cards) {
+  const grid = block.classList.contains('grid');
+  const container = el('div', 'container');
+  const authoredHead = sectionHead(block);
+  const headRow = el('div', 'media-head');
+  const titleWrap = el('div', 'media-title');
+  if (authoredHead) { titleWrap.append(...authoredHead.childNodes); authoredHead.remove(); }
+  const controls = el('div', 'media-controls');
+  headRow.append(titleWrap, controls);
+  if (authoredHead || !grid) container.append(headRow);
+
+  const list = el('ul', 'media-list');
+  list.setAttribute('role', 'presentation');
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  cards.forEach((card, i) => {
+    const li = el('li', `media-slide ${i % 2 ? 'is-right' : 'is-left'}`);
+    if (!grid) {
+      li.setAttribute('role', 'tabpanel');
+      li.setAttribute('aria-label', `${i + 1} of ${cards.length}`);
+    }
+    const videoP = card.ctas.find(isVideoLink) || null;
+    const ctas = card.ctas.filter((c) => c !== videoP);
+    if (card.media || videoP) {
+      const thumb = el('div', 'media-thumb');
+      const a = mediaLink({ ...card, ctas });
+      if (card.media) {
+        const pic = card.media.matches('picture, img') ? card.media : card.media.querySelector('picture, img');
+        a.append(pic);
+      }
+      thumb.append(a);
+      if (videoP) {
+        thumb.classList.add('has-video');
+        const src = el('div', 'media-source sr-only');
+        src.append(videoP);
+        thumb.append(src);
+        const { href } = videoP.querySelector('a[href]');
+        let video = null;
+        const ensureVideo = () => {
+          if (video) return video;
+          video = el('video', 'media-video');
+          video.muted = true; video.loop = true;
+          video.setAttribute('muted', ''); video.setAttribute('playsinline', '');
+          video.preload = 'none';
+          const s = el('source'); s.src = href;
+          s.type = /\.webm(\?|$)/i.test(href) ? 'video/webm' : 'video/mp4';
+          video.append(s);
+          a.append(video);
+          return video;
+        };
+        // a poster-less video card (live: no poster attribute, black until hover) keeps the box
+        if (!card.media) { thumb.classList.add('no-poster'); ensureVideo(); }
+        a.addEventListener('pointerenter', () => {
+          if (reduce.matches) return;
+          ensureVideo();
+          thumb.classList.add('is-playing');
+          video.play().catch(() => {});
+        });
+        a.addEventListener('pointerleave', () => {
+          if (video) video.pause();
+          thumb.classList.remove('is-playing');
+        });
+      }
+      li.append(thumb);
+    }
+    const text = el('div', 'media-text');
+    if (card.heading) { const t = el('div', 'media-card-title'); t.append(card.heading); text.append(t); }
+    if (card.texts.length) { const t = el('div', 'media-kicker'); t.append(...card.texts); text.append(t); }
+    ctas.forEach((c) => text.append(c));
+    li.append(text);
+    list.append(li);
+  });
+
+  if (grid) {
+    container.append(list);
+    block.replaceChildren(container);
+    return;
+  }
+  const rail = el('div', 'media-rail');
+  rail.append(list);
+  block.replaceChildren(container, rail);
+
+  /* page-based rail (live Splide perPage 2 / 1, translateX .6s ease-in-out, page pagination) */
+  const slides = [...list.children];
+  let page = 0;
+  let go;
+  const gap = () => parseFloat(getComputedStyle(slides[0]).marginRight) || 0;
+  const pitch = () => slides[0].getBoundingClientRect().width + gap();
+  const perPage = () => Math.max(1, Math.round(
+    (list.getBoundingClientRect().width + gap()) / pitch(),
+  ));
+  const pages = () => Math.ceil(slides.length / perPage());
+  const paint = (animate) => {
+    const total = pages();
+    block.classList.toggle('is-overflow', total > 1);
+    if (total <= 1) {
+      controls.replaceChildren(); page = 0;
+      list.style.transition = ''; list.style.transform = 'translateX(0px)';
+      slides.forEach((s) => { s.classList.add('is-visible'); s.removeAttribute('aria-hidden'); });
+      return;
+    }
+    page = Math.max(0, Math.min(total - 1, page));
+    const pagCount = controls.querySelectorAll('.media-pagination button').length;
+    if (!controls.firstChild || pagCount !== total) {
+      controls.replaceChildren();
+      const arrows = el('div', 'media-arrows');
+      const prev = el('button', 'media-arrow media-arrow-prev');
+      prev.type = 'button'; prev.setAttribute('aria-label', 'Previous slide');
+      prev.innerHTML = ARROW_PREV;
+      const next = el('button', 'media-arrow media-arrow-next');
+      next.type = 'button'; next.setAttribute('aria-label', 'Next slide');
+      next.innerHTML = ARROW_NEXT;
+      const pag = el('ul', 'media-pagination');
+      pag.setAttribute('role', 'tablist'); pag.setAttribute('aria-label', 'Select a slide to show');
+      Array.from({ length: total }).forEach((_, k) => {
+        const li = el('li'); li.setAttribute('role', 'presentation');
+        const b = el('button'); b.type = 'button'; b.setAttribute('role', 'tab');
+        b.setAttribute('aria-label', `Go to page ${k + 1}`); b.tabIndex = -1;
+        b.setAttribute('aria-hidden', 'true');
+        b.textContent = k < total - 1 ? `${k + 1}\u00a0/\u00a0` : `${k + 1}`;
+        b.addEventListener('click', () => go(k));
+        li.append(b); pag.append(li);
+      });
+      prev.addEventListener('click', () => go(page - 1));
+      next.addEventListener('click', () => go(page + 1));
+      arrows.append(prev, pag, next);
+      controls.append(arrows);
+    }
+    controls.querySelector('.media-arrow-prev').disabled = page <= 0;
+    controls.querySelector('.media-arrow-next').disabled = page >= total - 1;
+    controls.querySelectorAll('.media-pagination button').forEach((b, k) => {
+      b.classList.toggle('is-active', k === page);
+      b.setAttribute('aria-selected', k === page ? 'true' : 'false');
+    });
+    const n = perPage();
+    const first = Math.min(page * n, slides.length - n);
+    list.style.transition = animate && !reduce.matches ? 'transform 600ms ease-in-out' : '';
+    list.style.transform = `translateX(${-first * pitch()}px)`;
+    slides.forEach((s, k) => {
+      const vis = k >= first && k < first + n;
+      s.classList.toggle('is-visible', vis);
+      s.classList.toggle('is-active', k === first);
+      s.classList.toggle('is-prev', k === first - 1);
+      s.classList.toggle('is-next', k === first + n);
+      if (vis) s.removeAttribute('aria-hidden'); else s.setAttribute('aria-hidden', 'true');
+    });
+  };
+  go = (i) => { page = Math.max(0, Math.min(pages() - 1, i)); paint(true); };
+  paint(false);
+  window.addEventListener('resize', () => paint(false));
+  window.addEventListener('load', () => paint(false));
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(() => paint(false));
+    ro.observe(list); ro.observe(slides[0]);
+  }
+  requestAnimationFrame(() => requestAnimationFrame(() => paint(false)));
+}
+
 export default async function decorate(block) {
   const rows = [...block.children];
   if (!rows.length) return;
@@ -367,6 +553,7 @@ export default async function decorate(block) {
   if (block.classList.contains('promo')) decoratePromo(block, cards.filter((c) => c.media));
   else if (block.classList.contains('icons')) decorateIcons(block, cards);
   else if (block.classList.contains('stories')) decorateStories(block, cards);
+  else if (block.classList.contains('media')) decorateMedia(block, cards);
   else if (block.classList.contains('image-text')) decorateImageText(block, cards);
   else if (block.classList.contains('icon-grid')) decorateIconGrid(block, cards);
   else if (block.classList.contains('image')) decorateImage(block, cards);

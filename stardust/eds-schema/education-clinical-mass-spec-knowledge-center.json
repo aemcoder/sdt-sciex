@@ -1,0 +1,224 @@
+{
+ "source": "http://localhost:8832/education-clinical-mass-spec-knowledge-center-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "breadcrumb",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Clinical Mass Spec Knowledge Center",
+     "href": "/education/clinical-mass-spec-knowledge-center"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "hero-text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Clinical Mass Spec Knowledge Center"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "A resource and educational platform for your every day mass spectrometry needs"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get the most from your SCIEX clinical diagnostics instruments. The Clinical Mass Spec Knowledge Center gives you access to valuable resources and reliable solutions for your clinical labs."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "At SCIEX, we are committed to providing clinical learning and education resources to maximize your investment in our diagnostic LC-MS/MS technology. With your needs at the very heart of everything we do, our experts are continually developing IVD mass spec resources and insights to help you save time, cut costs and support physicians with greater confidence and better results."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Explore our extensive and evolving library, which includes:"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Mass spec fundamentals"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Video learning series and webinars"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "E-books"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Performance sheets"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Case studies"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "E-learning modules"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "SCIEX Diagnostics is sharing its 30-years of experience delivering high-performance LC-MS/MS systems, software, service and support to help clinical diagnostic labs across reach new levels of performance."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Your success starts here."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "text",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Empowering clinical mass spectrometry users with the resources they need to succeed"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Browse through our library of content to access technical resources you need to successfully implement mass spectrometry in your clinical laboratory setting. Regardless of your skill level, our clinical knowledge center has an extensive library of educational videos tailored to your learning needs. Learning topics include basic elements of mass spectrometry experiments, mass spectrometry operation, data interpretation but also areas including software and IT services, regulatory compliance, laboratory relocation, consulting and customized laboratory training. The various training modules offered can be customized to meet your laboratory and staff needs. Leverage our expertise to maintain your lab’s productivity and performance to ensure you make the most of your SCIEX mass spectrometry IVD medical devices."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ab",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "image-text",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Mass spec operator"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Everything you need to enable your LC-MS/MS workflows and to transition to mass spec instruments, techniques and methods"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more",
+     "href": "https://sciex.com/education/clinical-mass-spec-knowledge-center/clinical-mass-spec-operators"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Method development"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "With an ever-growing demand for assays that are more reliable, accurate and robust, LC-MS/MS has become a vital tool for laboratorians and method developers"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Learn more",
+     "href": "https://sciex.com/education/clinical-mass-spec-knowledge-center/clinical-method-developers"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Laboratory manager"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Reliable, cost-effective solutions that provide timely results to aid physicians in their patient diagnoses, LC-MS/MS, can transform the performance of your lab"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Learn more",
+     "href": "https://sciex.com/education/clinical-mass-spec-knowledge-center/clinical-lab-managers"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.imgtext__item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

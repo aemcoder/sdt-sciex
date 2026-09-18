@@ -1156,8 +1156,12 @@
 }
 
 .cards.legacy .card-text p,
-.cards.tiles .card-text p {
+.cards.tiles .card-text p,
+.cards.legacy .card-body p,
+.cards.tiles .card-body p {
   padding-top: 0;
+  font-weight: 400;
+  letter-spacing: normal;
   color: #585857;
 }
 
@@ -1182,11 +1186,29 @@
 }
 
 .cards.legacy .card {
+  display: flex;
+  flex-direction: column;
   flex: 0 0 49%;
   margin: 0.5%;
-  padding: 10px 10px 70px; /* .lg-card__wrap 10 + .lg-card__content padding-bottom 60 */
+  padding: 10px;
   text-align: center;
 }
+
+/* live: .lg-card__content padding-bottom 60 with the chevron row ABSOLUTE at bottom 10. Modelled as a flex
+   column with the row pushed to the bottom (margin-top: auto) — same geometry (text → rule 35px, rule → card
+   edge 20px), and no absolutely positioned authored paragraph: an empty contenteditable root around an
+   out-of-flow <p> grows a caret line box in edit mode (measured +44px). */
+.cards.legacy .card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  align-items: stretch;
+  padding-bottom: 10px;
+}
+
+.cards.legacy .card-text { padding-bottom: 15px; }
+
+.cards.legacy .card-body > :last-child { margin-top: auto; }
 
 .cards.legacy .card-media {
   padding: 23.5%;
@@ -1207,12 +1229,8 @@
   line-height: 20px;
 }
 
-/* the chevron link (.lg-card__more): full-width rule pinned 10px above the card bottom */
+/* the chevron link (.lg-card__more): full-width rule at the bottom of the card body */
 .cards.legacy .card-body p:has(a) {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
   margin: 0;
   padding-top: 10px;
   border-top: 1px solid #dbdbdb;
@@ -1314,11 +1332,10 @@
     line-height: 18px;
   }
 
-  .cards.legacy .card-body p:has(a) {
-    position: relative;
-    bottom: auto;
-    padding-top: 20px;
-  }
+  .cards.legacy .card-body { padding-bottom: 0; }
+  .cards.legacy .card-text { padding-bottom: 0; }
+  .cards.legacy .card-body > :last-child { margin-top: 0; }
+  .cards.legacy .card-body p:has(a) { padding-top: 20px; }
 
   .cards.tiles .card {
     flex-basis: 100%;
@@ -1339,4 +1356,458 @@
     font-size: 13px;
     line-height: 18px;
   }
+}
+
+/* ==========================================================================================
+   G3 variants — APPENDED by the stardust:deploy G3 agent (stardust/eds-conversion-log-g3.md).
+   `image-text plain-head` — live .image-text-2-col heading row WITHOUT the top rule / h2 padding
+   (/support/training "success programs", /stories "Discover thought leaders").
+   `media` [+ `grid`] — live .media-card-carousel ("Latest Stories": 2-up full-bleed rail, gap 4,
+   ruled head row with arrows + page pagination) and .media-card (topic panels: 3-up grid from 768,
+   gap 32×48). Values: stardust/.work/deploy/g3/stories-probe3.json. Variant specificity (#109);
+   descendant selectors on authored elements only (EW2).
+   ========================================================================================== */
+.cards.image-text.plain-head .imgtext-head {
+  border-top: 0;
+}
+
+.cards.image-text.plain-head .imgtext-head :is(h1, h2, h3, h4) {
+  padding-top: 0;
+}
+
+/* ---- media ---- */
+.cards.media {
+  position: relative;
+  overflow: hidden;
+  padding: 32px 0;
+}
+
+.cards.media .media-head {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid var(--border-default);
+}
+
+.cards.media .media-title {
+  display: grid;
+  gap: 16px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.cards.media .media-title :is(h1, h2, h3) {
+  color: var(--grey-900);
+}
+
+.cards.media .media-controls {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cards.media .media-arrows {
+  display: flex;
+  align-items: center;
+}
+
+.cards.media .media-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: 1px solid var(--blue-700);
+  border-radius: 9999px;
+  background-color: var(--blue-700);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cards.media .media-arrow:hover:enabled {
+  background-color: var(--blue-800);
+}
+
+.cards.media .media-arrow:disabled {
+  border: 0;
+  background-color: transparent;
+  color: var(--blue-700);
+  cursor: not-allowed;
+}
+
+.cards.media .media-arrow svg {
+  display: block;
+  width: 16px;
+  height: 16px;
+  fill: none;
+}
+
+.cards.media .media-arrow-prev {
+  margin-right: 12px;
+}
+
+.cards.media .media-arrow-next {
+  margin-left: 12px;
+}
+
+.cards.media .media-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards.media .media-pagination li {
+  display: inline-block;
+  margin: 0;
+  line-height: 1;
+}
+
+.cards.media .media-pagination button {
+  display: flex;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--blue-700);
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+  white-space: pre;
+  cursor: pointer;
+}
+
+/* rail: the list is FULL-BLEED (live .media-card-carousel-full-bleed-container), the head stays in the container */
+.cards.media .media-rail {
+  overflow: hidden;
+}
+
+.cards.media .media-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transform: translateX(0);
+}
+
+.cards.media .media-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 100%;
+  margin: 0 4px 0 0;
+}
+
+.cards.media .media-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.cards.media .media-thumb a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cards.media .media-thumb picture {
+  display: contents;
+}
+
+.cards.media .media-thumb img,
+.cards.media .media-thumb video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.cards.media .media-thumb a:hover img {
+  transform: scale(1.05);
+}
+
+/* video poster: the live Plyr overlaid play control (blue-700 disc, white glyph, .9 opacity); controls hidden */
+.cards.media .media-thumb.has-video::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: 63px;
+  height: 63px;
+  border-radius: 100%;
+  background: var(--blue-700);
+  opacity: 0.9;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: opacity 0.3s, visibility 0.3s;
+  mask: none;
+}
+
+.cards.media .media-thumb.has-video::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Cpath d='M15.562 8.1L3.87.225C3.052-.337 2 .225 2 1.125v15.75c0 .9 1.052 1.462 1.87.9L15.563 9.9c.584-.45.584-1.35 0-1.8z'/%3E%3C/svg%3E") center / 18px 18px no-repeat;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.cards.media .media-thumb.has-video.is-playing::after,
+.cards.media .media-thumb.has-video.is-playing::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.cards.media .media-thumb video {
+  z-index: 1;
+}
+
+.cards.media .media-source p {
+  margin: 0;
+}
+
+.cards.media .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* text under the media: card-left aligns to the container's left gutter, card-right to the right one */
+.cards.media .media-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  flex: 1 1 0%;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 32px 24px 0;
+}
+
+.cards.media .media-card-title :is(h2, h3, h4) {
+  margin: 0 0 6px;
+  color: var(--grey-900);
+  font-size: 17px;
+  font-weight: 530;
+  letter-spacing: 0.085px;
+  line-height: 25px;
+}
+
+.cards.media .media-kicker {
+  flex-grow: 1;
+  margin: 0;
+  color: var(--grey-500);
+  overflow-wrap: break-word;
+}
+
+.cards.media .media-kicker p {
+  margin: 0;
+  color: var(--grey-500);
+  font-size: 15px;
+  font-weight: 330;
+  letter-spacing: 0.075px;
+  line-height: 23px;
+}
+
+.cards.media .media-text p:has(> a.button, > em > a, > strong > a) {
+  margin: 12px 0 0;
+}
+
+/* ---- grid (topic panels): no rail, 1 → 3 columns, text without side gutters ---- */
+.cards.media.grid .media-list {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.cards.media.grid .media-slide {
+  width: auto;
+  margin: 0 0 32px;
+}
+
+.cards.media.grid .media-text {
+  max-width: none;
+  margin: 0;
+  padding: 32px 0 0;
+}
+
+@media (width >= 640px) {
+  .cards.media .media-slide.is-left .media-text {
+    margin-right: 0;
+    padding-right: 16px;
+  }
+
+  .cards.media .media-slide.is-right .media-text {
+    margin-left: 0;
+    padding-left: 16px;
+  }
+}
+
+@media (width >= 768px) {
+  .cards.media {
+    padding: 48px 0;
+  }
+
+  .cards.media .media-head {
+    padding-top: 32px;
+  }
+
+  .cards.media .media-title {
+    gap: 20px;
+  }
+
+  .cards.media .media-arrow {
+    width: 32px;
+    height: 32px;
+  }
+
+  .cards.media .media-pagination button {
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+
+  .cards.media .media-slide {
+    width: calc(50% - 2px);
+  }
+
+  .cards.media .media-text {
+    max-width: 384px;
+  }
+
+  .cards.media .media-card-title :is(h2, h3, h4) {
+    margin-bottom: 8px;
+    font-size: 18px;
+    letter-spacing: 0.048px;
+    line-height: 26px;
+  }
+
+  .cards.media .media-kicker p {
+    font-size: 16px;
+    letter-spacing: 0.08px;
+    line-height: 24px;
+  }
+
+  .cards.media .media-text p:has(> a.button, > em > a, > strong > a) {
+    margin-top: 16px;
+  }
+
+  .cards.media.grid .media-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 48px 32px;
+  }
+
+  .cards.media.grid .media-slide {
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards.media .media-head {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 48px;
+  }
+
+  .cards.media .media-title {
+    width: 58.3333%;
+    padding-bottom: 0;
+  }
+
+  .cards.media .media-controls {
+    min-width: max-content;
+  }
+
+  .cards.media .media-text {
+    max-width: 512px;
+  }
+
+  .cards.media .media-slide.is-left .media-text {
+    padding-left: 40px;
+  }
+
+  .cards.media .media-slide.is-right .media-text {
+    padding-right: 40px;
+  }
+}
+
+@media (width >= 1280px) {
+  .cards.media .media-text {
+    max-width: 640px;
+  }
+
+  .cards.media .media-slide.is-left .media-text {
+    padding-left: 64px;
+  }
+
+  .cards.media .media-slide.is-right .media-text {
+    padding-right: 64px;
+  }
+}
+
+@media (width >= 1440px) {
+  .cards.media .media-text {
+    max-width: 720px;
+  }
+}
+
+@media (width >= 1536px) {
+  .cards.media .media-text {
+    max-width: 768px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards.media .media-list,
+  .cards.media .media-thumb img,
+  .cards.media .media-thumb video,
+  .cards.media .media-arrow {
+    transition: none;
+  }
+
+  .cards.media .media-thumb a:hover img {
+    transform: none;
+  }
+}
+
+/* ==========================================================================================
+   G2 variant (applications) — APPENDED by the stardust:deploy G2 agent.
+   cards image-text flat — live .image-text-2-col on the application landings (food, biomedical,
+   knowledge center): the head (h3 = text-delta [+ p]) carries NO top rule / top padding; the rows
+   keep their rules. Values: stardust/prototypes/css/v3-applications.css § IMAGE-TEXT 2 COL.
+   ========================================================================================== */
+.cards.image-text.flat .imgtext-head {
+  border-top: 0;
+}
+
+.cards.image-text.flat .imgtext-head :is(h1, h2, h3, h4) {
+  padding-top: 0;
+}
+
+/* media: poster-less video card (live `.play-on-hover` video without a poster attribute) — dark box */
+.cards.media .media-thumb.no-poster {
+  background: var(--grey-900);
 }

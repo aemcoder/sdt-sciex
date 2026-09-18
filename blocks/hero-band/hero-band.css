@@ -278,3 +278,36 @@
 @media (width >= 1536px) {
   .hero-band-container-md { max-width: 1536px; }
 }
+
+/* ==========================================================================================
+   G3 variant `tight` — APPENDED by the stardust:deploy G3 agent. Live .hero-small WITHOUT copy on
+   /about-us (`.hero-image`): the band wrapper pads 16 / 24 instead of the products band's 32 / 48
+   (stardust/prototypes/css/v3-about-support.css § HERO IMAGE).
+   ========================================================================================== */
+.hero-band.tight {
+  padding-bottom: 16px;
+}
+
+@media (width >= 768px) {
+  .hero-band.tight {
+    padding-bottom: 24px;
+  }
+}
+
+/* ==========================================================================================
+   G2 variant (applications) — APPENDED by the stardust:deploy G2 agent.
+   hero-band tall — live /applications/clinical: the `hero` clientlib fixes the whole component at
+   512 px at EVERY width (`.hero-small{height:512px}`; the 420 px mobile frame leaves the live gap),
+   and the picture variant may carry the page <h1> [+ lede] in white (live .hero-small__actions).
+   Values: stardust/prototypes/css/v3-applications.css § HERO SMALL (--h512).
+   ========================================================================================== */
+.hero-band.tall {
+  height: 512px;
+}
+
+.hero-band:not(.product) .hero-band-title :is(h1, h2, h3),
+.hero-band:not(.product) .hero-band-inner p {
+  margin: 0;
+  color: #fff;
+  overflow-wrap: break-word;
+}
