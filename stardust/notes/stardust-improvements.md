@@ -295,3 +295,22 @@ suggested change. Project-specific quirks stay out; only plugin-level items.
   residuals. Also Plyr's CSS is injected by a clientlib JS, so the lift must pull vendor CSS.
 - **Suggest:** a `--video-poster` policy in the gate (compare only outside video boxes, or mask
   `<video>` rects on both sides) and a harvest rule "first frame + 5 s clip" documented.
+
+## N-33 — deploy-batch's ledger does not accumulate across `--paths` runs
+- **Observed:** after five consecutive `--paths` runs the ledger held only the last run's
+  entry ("ledger live: 1 of 1"); every run reported "0 already live" even for pages
+  delivered minutes earlier. Idempotent skipping — the driver's main selling point — is
+  lost when a site is delivered in slices.
+- **Suggest:** load the existing ledger, merge, and write back; key by web path.
+
+## N-34 — Multi-value section styles are delivered as ONE hyphen-joined class (both comma- and space-separated)
+- **Observed:** `style: hero-text, big-lede` → `<div class="hero-text-big-lede">`, `style: lead center small
+  flush-top` → `lead-center-small-flush-top` on the published origin. deploy SKILL.md #120 says
+  "only the FIRST class" — the current pipeline behaviour is different (join), and four
+  conversion agents authored compound styles because their harness emulator split them.
+  Caught by the coordinator's side-by-side eyeball (stories page 550 px short), not by any gate.
+- **Fix shipped here:** `scripts/scripts.js` tokenises hyphen-joined classes back into the
+  known section-style set (read from styles.css) in `decorateMain`.
+- **Suggest:** update #120 to the observed join behaviour; make `build-harness.mjs`/the
+  harness emulator reproduce the pipeline's join so local gates catch it; add a lint rule
+  in davids-model-lint for multi-value `style` rows (🟡 with the exact delivered class).
