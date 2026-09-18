@@ -874,3 +874,16 @@ main .section.lead .default-content-wrapper p {
     width: 66.6667%;
   }
 }
+
+/* article-body rhythm ≤767 (published-origin reconcile, 360): the live richtext lines are 22px
+   (p line-height) and the bare-<br> line box follows the body's 23px, so the modelled heights are
+   2×22 = 44 (trailing <br><br>&nbsp;), 20 + 23 = 43 ("Answer" gap) and a 22px "Answer" line — the
+   desktop values above (48 / 44 / inherit 24) measured +6px on the published 360 page. */
+@media (width <= 767px) {
+  main .section.article-body .default-content-wrapper { padding-bottom: 44px; }
+
+  main .section.article-body .default-content-wrapper h2 {
+    margin-top: 43px;
+    line-height: 22px;
+  }
+}
