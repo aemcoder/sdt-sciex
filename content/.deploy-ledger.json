@@ -25,5 +25,32 @@
     "preview": 200,
     "live": 200,
     "verify": "ok"
+  },
+  "/applications/pharma-and-biopharma": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T10:45:03.815Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer-legacy": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T10:45:42.916Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-18T10:46:53.806Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
   }
 }

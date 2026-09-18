@@ -1,791 +1,969 @@
 {
- "pages": [
-  {
-   "archetype": "home",
-   "pageType": "landing",
-   "liveUrl": "https://sciex.com/",
-   "protoPath": "stardust/prototypes/home-proposed.html",
-   "protoServedAt": "http://localhost:8795/home-proposed.html (8791 was held by a foreign stardust server — moved per brief)",
-   "contentRoot": ".container-v2.aem-GridColumn",
-   "regime": "prototype",
-   "sharedLayers": {
-    "css": [
-     "stardust/prototypes/css/canon.css",
-     "stardust/prototypes/css/home.css"
-    ],
-    "js": [
-     "stardust/prototypes/js/motion.js",
-     "stardust/prototypes/js/home.js"
-    ],
-    "interactionSpec": "stardust/prototypes/interaction-spec.md",
-    "builder": "stardust/replica/capture/build-home.py"
-   },
-   "fontsPolicy": "self-hosted-reuse, licence confirmation pending (owner) — Geogrotesque_Sharp_VF.woff2 + Geogrotesque-UltLt.woff2 copied from stardust/current/assets/fonts/ to stardust/prototypes/assets/fonts/; @font-face declarations mirror live (discrete weights 200/270/300/330/450/530 on the variable face). A Barlow metric-matched substitute was prepared first (stardust/replica/capture/fonts-size-adjust.json) and dropped on the coordinator's decision.",
-   "capture": {
-    "tokens": [
-     "stardust/replica/capture/tokens-1440.json",
-     "stardust/replica/capture/tokens-360.json",
-     "stardust/replica/capture/tokens-1920.json"
-    ],
-    "cssRules": "stardust/replica/capture/css-rules-home.json",
-    "svgs": "stardust/replica/capture/svgs-home.json",
-    "megaMenu": [
-     "stardust/replica/capture/megamenu-desktop.json",
-     "stardust/replica/capture/megamenu-extra.json"
-    ],
-    "media": "stardust/prototypes/assets/media/ (+ _manifest.json; 246 Dynamic Media renditions, flags, Danaher logo, 26 mega-menu promo jpgs)"
-   },
-   "breakpoints": {
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.01,
-       "heightDelta": 0,
-       "contentRed": 0,
-       "fixes": "three-card last card mb-0; button font-variation-settings:inherit (preflight) — both applied before iter1 from build-side anchor diffs"
+  "pages": [
+    {
+      "archetype": "home",
+      "pageType": "landing",
+      "liveUrl": "https://sciex.com/",
+      "protoPath": "stardust/prototypes/home-proposed.html",
+      "protoServedAt": "http://localhost:8795/home-proposed.html (8791 was held by a foreign stardust server — moved per brief)",
+      "contentRoot": ".container-v2.aem-GridColumn",
+      "regime": "prototype",
+      "sharedLayers": {
+        "css": [
+          "stardust/prototypes/css/canon.css",
+          "stardust/prototypes/css/home.css"
+        ],
+        "js": [
+          "stardust/prototypes/js/motion.js",
+          "stardust/prototypes/js/home.js"
+        ],
+        "interactionSpec": "stardust/prototypes/interaction-spec.md",
+        "builder": "stardust/replica/capture/build-home.py"
       },
-      {
-       "label": "iter2",
-       "pixelPct": 0,
-       "heightDelta": 0,
-       "contentRed": 0,
-       "note": "24 px"
+      "fontsPolicy": "self-hosted-reuse, licence confirmation pending (owner) — Geogrotesque_Sharp_VF.woff2 + Geogrotesque-UltLt.woff2 copied from stardust/current/assets/fonts/ to stardust/prototypes/assets/fonts/; @font-face declarations mirror live (discrete weights 200/270/300/330/450/530 on the variable face). A Barlow metric-matched substitute was prepared first (stardust/replica/capture/fonts-size-adjust.json) and dropped on the coordinator's decision.",
+      "capture": {
+        "tokens": [
+          "stardust/replica/capture/tokens-1440.json",
+          "stardust/replica/capture/tokens-360.json",
+          "stardust/replica/capture/tokens-1920.json"
+        ],
+        "cssRules": "stardust/replica/capture/css-rules-home.json",
+        "svgs": "stardust/replica/capture/svgs-home.json",
+        "megaMenu": [
+          "stardust/replica/capture/megamenu-desktop.json",
+          "stardust/replica/capture/megamenu-extra.json"
+        ],
+        "media": "stardust/prototypes/assets/media/ (+ _manifest.json; 246 Dynamic Media renditions, flags, Danaher logo, 26 mega-menu promo jpgs)"
       },
-      {
-       "label": "motion",
-       "pixelPct": 0,
-       "heightDelta": 0,
-       "note": "24 px, byte-identical"
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "runs": [
+            {
+              "label": "iter1",
+              "pixelPct": 0.01,
+              "heightDelta": 0,
+              "contentRed": 0,
+              "fixes": "three-card last card mb-0; button font-variation-settings:inherit (preflight) — both applied before iter1 from build-side anchor diffs"
+            },
+            {
+              "label": "iter2",
+              "pixelPct": 0,
+              "heightDelta": 0,
+              "contentRed": 0,
+              "note": "24 px"
+            },
+            {
+              "label": "motion",
+              "pixelPct": 0,
+              "heightDelta": 0,
+              "note": "24 px, byte-identical"
+            },
+            {
+              "label": "final",
+              "pixelPct": 0,
+              "heightDelta": 0
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "yellow": 0,
+            "orange": 0,
+            "visualFlags": "2 justified",
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "headerCropPct": 0,
+            "footerCropPct": 0,
+            "supportBandCropPct": 0,
+            "chromeParity": "quiet (exit 0)",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "IMAGERY GAP 94 vs 25",
+              "why": "hidden 0×0 live images (see 1440)"
+            },
+            {
+              "probe": "visual",
+              "flag": "STRETCHED IMAGE hero w375 natural 360×127 → 360×482",
+              "why": "object-fit: cover crop, identical on live (heroImg nat [360,127] rendered 482)"
+            }
+          ],
+          "residuals": [],
+          "captureState": []
+        },
+        "1440": {
+          "iterations": 2,
+          "runs": [
+            {
+              "label": "iter1",
+              "pixelPct": 0.41,
+              "heightDelta": 0,
+              "contentRed": 0,
+              "fixes": "none needed for content; chrome-parity: header position relative→static, footer sr-only label order (+16px pair Δ), footer col max-width md-only"
+            },
+            {
+              "label": "iter2",
+              "pixelPct": 0.4,
+              "heightDelta": 0,
+              "contentRed": 0,
+              "fixes": "stories slide height:auto (live Splide inline style; slide 2 was 634px vs 658)"
+            },
+            {
+              "label": "motion",
+              "pixelPct": 0.4,
+              "heightDelta": 0,
+              "note": "after motion layer — differing-pixel count byte-identical (31492)"
+            },
+            {
+              "label": "final",
+              "pixelPct": 0.4,
+              "heightDelta": 0,
+              "note": "31492 px"
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "yellow": 0,
+            "orange": 0,
+            "visualFlags": "1 justified",
+            "pixelPct": 0.4,
+            "pixelPctMasked": 0,
+            "heightDelta": 0,
+            "headerCropPct": 0,
+            "footerCropPct": 0.25,
+            "supportBandCropPct": 1.94,
+            "chromeParity": "quiet (exit 0) header/footer/support",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "IMAGERY GAP source 94 vs build 25",
+              "why": "live counts 69 hidden 0×0 images (mega-menu tiles, language flags); every rendered image is present"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "rows 801–899, 1701–1799, 2601–2699, 3501–3599, 4425–4499, 5427–5501 (every chunk bottom)",
+              "pct": 0.4,
+              "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left 68×46; chat launcher bottom-right ~78×78) repeat at each stitched-chunk seam; not site markup — excluded from the prototype per coordinator; masked number 0.00% (9 px) with --mask 801:99,1701:99,2601:99,3501:99,4425:75,5427:75",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "support band crop",
+              "pct": 1.94,
+              "cause": "same widget rows (4425–4499) inside the band; parity quiet",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "footer crop",
+              "pct": 0.25,
+              "cause": "same widget rows (5427–5501); parity quiet",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "open states (not gated)",
+              "cause": "mega-menu Products/Mass-spec panel 429px vs live 448px; account dropdown 360px vs live 260px — hidden at t=0, live mid-column/flex metrics not lifted",
+              "flaggedFor": "delivery"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "WalkMe copilot tab + chat launcher (fixed, third-party) in live capture",
+              "where": "every viewport bottom"
+            },
+            {
+              "what": "OneTrust banner dismissed via --dismiss (not part of the page)",
+              "where": "hero"
+            }
+          ],
+          "wideCheck1920": "box map identical to live (doc 5483 both; h1 938.7, lede 586.7, tiles 688×430, cards 448×336, tab text 281, slides 688×694, disclaimer 1310, search 492.8, login li 172.8)"
+        }
       },
-      {
-       "label": "final",
-       "pixelPct": 0,
-       "heightDelta": 0
+      "motion": {
+        "observed": [
+          "desktop nav click → menu-active (border .2s ease, chevron rotate .3s ease), in-flow mega panel, overlay, close button; submenu-active bar",
+          "search category dropdown click → display block; account dropdown click → display flex; click-away closes",
+          "tabs click → is-active swap, grid-rows 1fr/0fr (.3s ease-in-out <768), chevron rotate",
+          "stories rail (360 only, is-overflow): arrow → translateX(-324px) transition transform 600ms ease-in-out; is-active/is-visible/is-prev/is-next; pagination is-active; arrows disabled at ends",
+          "footer mobile accordion → ul max-height:250px (.7s), chevron rotate-180 (.2s)",
+          "language modal (footer button) → display flex, opacity fade .5s ease-out",
+          "mobile search button → search form 46px; mobile hamburger → level-1 panel calc(100vh-119px) + overlay; Open/Close li swaps"
+        ],
+        "implemented": [
+          "all of the above in js/motion.js (canon) and js/home.js (home widgets); same class/inline-style mechanics and durations"
+        ],
+        "dead": [
+          "hover: card/tile image scale(1.05) (hover:tw-scale-[1.05]) — no change on hover probe",
+          "hover: arrow-link underline slide (group-hover:tw-left-[100%]) and arrow shift (group-hover:tw-ml-12)",
+          "hover: nav link / footer link / social / Login colour changes",
+          "hover: primary button gradient fill (hover:tw-bg-[length:100%_100%])",
+          ".dropdown:hover opener (CSS rule present, not fired)",
+          "scroll-entrance animations (0 animations recorded)",
+          "header scroll morph (none — header is static)"
+        ],
+        "notProbed": [
+          "mobile menu level-2 panels",
+          "desktop language button (same component as the observed mobile button)",
+          "search submit"
+        ]
+      },
+      "approvedBy": null,
+      "notes": [
+        "Promo tiles are a static 2-up .media-grid on the captured home (no Splide classes, no controls) — the brief's 'carousel with prev/next + dots' was not in the DOM or the observation.",
+        "h1 carries a U+2028 line separator after 'spectrometry' (live byte pattern) — mirrored; it is what forces the 2-line wrap.",
+        "Live <button> UA font shorthand resets font-variation-settings; the preflight 'font-variation-settings: inherit' is load-bearing for tab-label wraps.",
+        "Live mega-menu 'Stories' and 'Community' panels have no nav item (dead) — not reproduced."
+      ],
+      "published": {
+        "360": {
+          "pixelPct": 1.05,
+          "heightDelta": -5,
+          "cls": 0.0117,
+          "computedStyleGuard": {
+            "blocks": 7,
+            "decorated": 7,
+            "gridFlex": 7,
+            "header": "loaded",
+            "footer": "loaded",
+            "visibleImgs": 18,
+            "zeroWidthImgs": 0,
+            "pageerrors": 0,
+            "pass": true
+          },
+          "anchor": "all main section tops identical through footer top 6359; delta inside footer block: .ftr-legal 772 vs live 767 (social/columns 360=360, partners 860=860)",
+          "evidence": [
+            "stardust/replica/gates/home-published-360/{live,published}.png",
+            "anchor-published.json",
+            "anchor-live.json"
+          ]
+        },
+        "1440": {
+          "pixelPct": 0.47,
+          "heightDelta": 0,
+          "headerCropPct": 0,
+          "footerCropPct": 0.25,
+          "chromeParity": "header 13 pairs/2 findings (live All facet <button> padding vs EDS <span>; sr-only brand text), footer 44 pairs/18 findings (div→h3, span→p, disclaimer split, sr-only partner names) — semantic only, no geometry drift",
+          "contentDiffSummary": "proto→published (eds profile, root main): 10 findings — 5 🔴 ROLE SWAP body→heading (card <h3> semantic upgrade, accepted), 3 🟠 support-band EXTRA (outside proto <main>), 2 🟡 generated pagination numerals; live→published with root main not comparable (live main wraps mega-menu)",
+          "aiReadability": {
+            "strict": 100,
+            "code": 100,
+            "min": 98
+          },
+          "computedStyleGuard": {
+            "blocks": 7,
+            "decorated": 7,
+            "gridFlex": 7,
+            "header": "loaded",
+            "footer": "loaded",
+            "visibleImgs": 18,
+            "zeroWidthImgs": 0,
+            "pageerrors": 0,
+            "pass": true
+          },
+          "cls": 0.0002,
+          "evidence": [
+            "stardust/replica/gates/home-published-1440/{live,published,diff-coord}.png",
+            "chrome-header-diff.png",
+            "chrome-footer-diff.png",
+            "chrome-parity.json",
+            "content-diff-proto.txt",
+            "content-diff.txt (root-contaminated)",
+            "ai-readability.txt",
+            "anchor-published.json"
+          ]
+        },
+        "url": "https://main--sdt-sciex--aemcoder.aem.live/",
+        "regime": "published-origin",
+        "gatedAt": "2026-09-18T09:58:00Z",
+        "commit": "f0f8090",
+        "residuals": [
+          "360: footer .ftr-legal band +5px vs live (blocks/footer, not section rhythm) — footer owner",
+          "chrome-parity semantic findings: live search facet \"All\" is a <button> (8px padding) vs EDS <span>; footer column labels <h3> vs live <div>; partner names sr-only in EDS only",
+          "content-diff ROLE SWAP: card titles authored <h3> vs live <p> (accepted semantic upgrade)",
+          "1440 footer crop 0.25% thick texture (partner-logo strip antialiasing)"
+        ],
+        "fixesPending": [
+          "footer .ftr-legal 360 +5px (footer owner)"
+        ],
+        "remeasuredAfterStoriesFix": {
+          "1440": {
+            "pixelPct": 0.47,
+            "heightDelta": 0,
+            "storiesControlsAtDesktop": false,
+            "evidence": "stardust/replica/gates/home-published-1440/{published-v2,diff-v2}.png"
+          },
+          "at": "2026-09-18T10:44:18.187Z",
+          "commit": "9cd9ad9"
+        }
       }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "2 justified",
-      "pixelPct": 0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0,
-      "supportBandCropPct": 0,
-      "chromeParity": "quiet (exit 0)",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "IMAGERY GAP 94 vs 25",
-       "why": "hidden 0×0 live images (see 1440)"
-      },
-      {
-       "probe": "visual",
-       "flag": "STRETCHED IMAGE hero w375 natural 360×127 → 360×482",
-       "why": "object-fit: cover crop, identical on live (heroImg nat [360,127] rendered 482)"
-      }
-     ],
-     "residuals": [],
-     "captureState": []
     },
-    "1440": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.41,
-       "heightDelta": 0,
-       "contentRed": 0,
-       "fixes": "none needed for content; chrome-parity: header position relative→static, footer sr-only label order (+16px pair Δ), footer col max-width md-only"
+    {
+      "archetype": "kb-article",
+      "pageType": "article",
+      "family": "support/knowledge-base-articles/* (1,789 of 2,826 sitemap URLs)",
+      "liveUrl": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
+      "capturedSlug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+      "protoPath": "stardust/prototypes/kb-article-proposed.html",
+      "protoServedAt": "http://localhost:8796/kb-article-proposed.html (8794 held by a 13-day-old foreign http.server from another stardust project — moved, not killed)",
+      "contentRoot": ".sciex-section",
+      "template": "LEGACY front end — body.globalpage (Bootstrap 3 grid + clientlib-global/base, html{font-size:62.5%}) under the shared v3 header/footer XFs; footer XF here is cmp-experiencefragment--new-footer (older content than home's footer-v3)",
+      "regime": "prototype",
+      "sharedLayers": {
+        "css": [
+          "stardust/prototypes/css/canon.css",
+          "stardust/prototypes/css/kb-article.css"
+        ],
+        "js": [
+          "stardust/prototypes/js/motion.js",
+          "inline star-fill script in kb-article-proposed.html"
+        ],
+        "chromeMarkup": "header/footer copied verbatim from home-proposed.html (final, 10:29) minus the support band; footer carries data-deviation"
       },
-      {
-       "label": "iter2",
-       "pixelPct": 0.4,
-       "heightDelta": 0,
-       "contentRed": 0,
-       "fixes": "stories slide height:auto (live Splide inline style; slide 2 was 634px vs 658)"
+      "fontsPolicy": "Article title/body/meta/CTA compute Helvetica, Arial, sans-serif on live (legacy #master rule overrides body's proxima-nova) — system stack, reproduced as-is, no substitution, no 🟠 fork. proxima-nova (Typekit) is declared on live body but never rendered in the content root — NOT rehosted, not referenced. Icons: FontAwesome 4.2 (SIL OFL) harvested woff self-hosted. Chrome: Geogrotesque VF per canon + Ge2003-Rg.woff2 declared at weight 400 (same-owner reuse) because legacy pages also load the static Geogrotesque family and weight-400 chrome text renders that face (chrome-parity: copyright 139px live vs 149px).",
+      "capture": {
+        "tokens": [
+          "stardust/replica/capture/tokens-kb-1440.json",
+          "stardust/replica/capture/tokens-kb-360.json",
+          "stardust/replica/capture/tokens-kb-1920.json"
+        ],
+        "lift": "stardust/replica/capture/lift-kb.mjs",
+        "buildProbe": "stardust/replica/capture/probe-kb-build.mjs",
+        "assets": [
+          "stardust/prototypes/assets/fonts/fontawesome-webfont.woff",
+          "stardust/prototypes/assets/fonts/Ge2003-Rg.woff2",
+          "stardust/prototypes/assets/media/Avatars_MaleCust-3_263x260-c7353b6c.png (hidden comment template img)"
+        ]
       },
-      {
-       "label": "motion",
-       "pixelPct": 0.4,
-       "heightDelta": 0,
-       "note": "after motion layer — differing-pixel count byte-identical (31492)"
+      "breakpoints": {
+        "360": {
+          "iterations": 3,
+          "runs": [
+            {
+              "label": "iter1",
+              "pixelPct": 8.97,
+              "heightDelta": -135,
+              "fixes": "breadcrumb wrapper hidden ≤992 (live hides .cmp-breadcrumb itself, −20), footer mobile col padding 12.5 (−60), no mobile language toggle on this footer XF (−55)"
+            },
+            {
+              "label": "iter2",
+              "pixelPct": 0.58,
+              "heightDelta": 0,
+              "fixes": "column margin-left only ≥640 (sm:space-x) — 360 parity Δx +13 on all mobile columns"
+            },
+            {
+              "label": "iter3",
+              "pixelPct": 0.47,
+              "heightDelta": 0,
+              "fixes": "note paragraph 14pt must out-specify the ≤767 p rule (15px vs 18.67 live) — applied after iter3, verified in the final round"
+            },
+            {
+              "label": "final (post canon re-sync + motion)",
+              "pixelPct": 0.22,
+              "heightDelta": 0,
+              "note": "2054 px; masked 0.02% (140 px)"
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "yellow": 0,
+            "orange": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.22,
+            "pixelPctMasked": 0.02,
+            "heightDelta": 0,
+            "headerCropPct": 0,
+            "footerCropPct": 0.35,
+            "chromeParity": "quiet (exit 0) header/footer",
+            "contentDiff": "23/23 nodes — none",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [
+            {
+              "band": "rows 1660–1700 and 2510–2550 (chunk bottoms)",
+              "pct": 0.2,
+              "cause": "capture-state: Qualtrics chat launcher (fixed bottom-right) repeated at stitch seams; masked number 0.02%",
+              "flaggedFor": "delivery"
+            },
+            {
+              "region": "footer crop",
+              "pct": 0.35,
+              "cause": "the same launcher falls inside the footer band; parity quiet",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "Qualtrics launcher (third-party) — not recreated",
+              "where": "fixed bottom-right"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 3,
+          "runs": [
+            {
+              "label": "iter1",
+              "pixelPct": 2.46,
+              "heightDelta": -110,
+              "fixes": "content geometry exact at first render; all delta in footer: chrome-parity named 48 deltas → footer col padding 32, 12.5px space-x gap (10px rem), unpadded partner li, header All button weight/padding, Twitter icon, © 2025, no GEN-MKT span"
+            },
+            {
+              "label": "iter2",
+              "pixelPct": 0.68,
+              "heightDelta": 0,
+              "fixes": "weight-400 static Geogrotesque face (copyright width fork)"
+            },
+            {
+              "label": "iter3",
+              "pixelPct": 0.66,
+              "heightDelta": 0,
+              "fixes": "partner row align-items:flex-start (footer crop thick texture) — applied after iter3, verified in the final round"
+            },
+            {
+              "label": "final (post canon re-sync + motion + breadcrumb colour fix)",
+              "pixelPct": 0.38,
+              "heightDelta": 0,
+              "note": "9598 px; masked 0.10% (2305 px)"
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "yellow": 0,
+            "orange": 0,
+            "visualFlags": "1 justified",
+            "pixelPct": 0.38,
+            "pixelPctMasked": 0.1,
+            "heightDelta": 0,
+            "headerCropPct": 0,
+            "footerCropPct": 0.31,
+            "chromeParity": "quiet (exit 0) header/footer",
+            "contentDiff": "23/23 nodes, 1 h, 9 CTA, 13 body, 1 img — none",
+            "pass": true
+          },
+          "justified": [
+            {
+              "probe": "visual",
+              "flag": "IMAGERY GAP source 75 vs build 11",
+              "why": "live's extra images are hidden mega-menu tiles rendered 0×0 outside the content root; every rendered image present"
+            }
+          ],
+          "residuals": [
+            {
+              "band": "rows 800–892 and 1693–1759 (chunk bottoms)",
+              "pct": 0.28,
+              "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left 78×48, Qualtrics chat launcher bottom-right ~80×80) repeated at each stitch seam; masked number 0.10%",
+              "flaggedFor": "delivery"
+            },
+            {
+              "region": "footer crop",
+              "pct": 0.31,
+              "cause": "same widgets fall inside the footer band (seam at y≈1693) + partner-logo/disclaimer glyph antialiasing; parity quiet",
+              "flaggedFor": "user"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "WalkMe 'please login' balloon/copilot + Qualtrics launcher (third-party, not site markup) — not recreated",
+              "where": "fixed, bottom-left/right"
+            },
+            {
+              "what": "AddThis share toolbox renders empty on live (dead script) — mirrored as empty div",
+              "where": ".kb-tools__share"
+            },
+            {
+              "what": "anonymous rating state (0 votes, 5 outline stars; rate/comment/pin login-only) frozen as captured",
+              "where": ".kb-stars, .kb-comment"
+            }
+          ]
+        }
       },
-      {
-       "label": "final",
-       "pixelPct": 0.4,
-       "heightDelta": 0,
-       "note": "31492 px"
+      "wideCheck": {
+        "width": 1920,
+        "result": "box map byte-identical live vs build (docH 1705/1705; .no-bleed fixed 1170 centred; footer container 1536; partner li 146×107) — content model is fixed-width by design (legacy .no-bleed max-width:1170px), not fluid"
+      },
+      "motion": {
+        "observed": "stardust/replica/motion/kb-article.json — 0 animations, 0 header morph (headerTimeline all null), hover diffs: Comment .btn bg #00afdb→#004a65 (.25s), breadcrumb link colour →#f59831 (.25s), category/Print links colour →#034a59 (.25s), rate-stars hover fills 1..n via class mutation fa-star-o→fa-star (JS), avg stars/td no change",
+        "implemented": [
+          "btn-legacy:hover/:focus background",
+          "kb-breadcrumb__link:hover colour",
+          "kb-details a / kb-tools__utilities a :hover colour",
+          "rate-star hover fill (inline JS, same class state machine; mouseleave restores)",
+          "canon js/motion.js (mega menu, dropdowns, mobile nav, footer accordions, language modal) inherited"
+        ],
+        "dead": [
+          "AddThis share (script dead on source — empty toolbox mirrored)",
+          "avg-rating star hover (no change)",
+          "table cell hover (no change)",
+          "a:focus outline-width transition (declared, never fires in capture)",
+          "#kbarticlepin (display:none, login-only)",
+          "comment/rating submission (login-only — anonymous state frozen)"
+        ],
+        "verification": "prototype hover run: all 4 hover diffs reproduce exactly; star 3 hover → [fa-star×3, fa-star-o×2], leave → all fa-star-o; header static after scroll; 0 pageerrors; pixel returned to 0.38%/0.22% (masked 0.10/0.02)"
+      },
+      "backportCandidates": [
+        "canon: footer-spacer/support band are template-conditional — legacy globalpage pages have NO support band and a 10px white strip (.sciex-footer padding-top) instead of 64/96px",
+        "canon: footer XF version differs by template — legacy pages ship cmp-experiencefragment--new-footer: Twitter bird (not X), '© Copyright 2025 SCIEX', empty trailing span (no GEN-MKT-18-7897-A), no mobile language toggle, 32px desktop column padding, grid-cols-4 with sm:space-x-5 (no 32px gap), partner li unpadded, ul align-items:flex-start, disclaimer weight 330 — inconsistency-register candidate (two live footers)",
+        "canon: legacy html{font-size:62.5%} makes every Tailwind rem utility in the chrome resolve at a 10px rem (col padding 12.5, lang label margin 7.5, disclaimer pr 120) — canon values assume 16px rem",
+        "canon: legacy pages also load the static Geogrotesque family (Ge2003-*.woff2) → weight 400 text renders the static Regular, not the 450 VF face; consider declaring Ge2003-Rg at 400 canon-wide or documenting the fork",
+        "canon: header standalone-search 'All' dropbtn computes weight 400 / padding 0 on this template (canon: 330 / 8px)",
+        "canon: visual-diff IMAGERY GAP is a header artefact (hidden mega-menu tiles) — same justification as home"
+      ],
+      "modules": [
+        {
+          "name": "kb-breadcrumb",
+          "note": "legacy cmp-breadcrumb variant: 14px grey, FontAwesome chevrons, bold last item, hidden ≤992px, 3× Home links as captured (fixed per page tree)"
+        },
+        {
+          "name": "kb-article__title + rule",
+          "note": "h1 28px Helvetica #0084a9 with ® sup, 1px #dbe0e0 hr (variable: title)"
+        },
+        {
+          "name": "kb-meta",
+          "note": "Bootstrap row: details table (Date, Categories links) 10/2 cols + avg-rating stars (variable: date, categories[], rating, voteCount)"
+        },
+        {
+          "name": "kb-tools",
+          "note": "shade-box: Print (javascript:print()), Rate Article stars (anonymous → login link), dead AddThis slot, hidden pin button (fixed)"
+        },
+        {
+          "name": "kb-body",
+          "note": "AEM richtext with byte patterns: 14pt bold RUO note, <br>, 14pt bold 'Answer', prose with <br><br>&nbsp; tail (variable: body HTML)"
+        },
+        {
+          "name": "kb-comment",
+          "note": "Comment .btn.blue → /bin/sciex/login (fixed in anonymous state) + empty comments list + hidden comment template (fixed)"
+        }
+      ],
+      "iterationNote": "Two fixes (1440 partner-row align-items; 360 note font-size) were named by the iter3 instruments and applied after the cap, then verified in the mandatory post-motion re-run rather than in a 4th gate round; the post-canon-resync round is also folded into 'final'. Breadcrumb link colour (specificity) was caught by the motion behaviour-match run, not the pixel probes.",
+      "ts": "2026-09-18T08:43:37Z",
+      "postGateFixes": [
+        {
+          "at": "2026-09-18T08:47:15.133Z",
+          "by": "coordinator",
+          "what": "Comment CTA label invisible: `.sciex-section a` (0,1,1) out-specified `.btn-legacy` (0,1,0) → label rendered in the button colour. Raised to `.sciex-section a.btn-legacy`. Found by side-by-side eyeball; pixel probes rated it noise (0.38 → 0.37 % at 1440).",
+          "evidence": [
+            "stardust/replica/gates/kb-article-1440/diff-final-commentfix.png",
+            "stardust/replica/gates/kb-article-360/diff-final-commentfix.png"
+          ]
+        }
+      ],
+      "published": {
+        "360": {
+          "pixelPct": 5.74,
+          "heightDelta": -11,
+          "headerCropPct": 0,
+          "footerCropPct": 4.85,
+          "cls": 0.0003,
+          "computedStyleGuard": {
+            "pass": true,
+            "pageerrors": 0
+          },
+          "status": "reconcile round 1 pending re-measure",
+          "diagnosis": "+6 article-body ≤767 line-box heights (fixed in styles.css, awaiting commit) + 5 footer .ftr-copy (footer owner)",
+          "evidence": [
+            "stardust/replica/gates/kb-article-published-360/{published,diff-unmasked,chrome-header-diff,chrome-footer-diff}.png",
+            "pixel-unmasked.txt",
+            "chrome-parity.json",
+            "anchor-published.json",
+            "guard.json"
+          ]
+        },
+        "1440": {
+          "pixelPct": 0.42,
+          "pixelPctMasked": 0.11,
+          "masks": "800:93,1630:130 (widget seams)",
+          "heightDelta": 0,
+          "headerCropPct": 0,
+          "footerCropPct": 0.31,
+          "chromeParity": "header 13 pairs / 2 semantic (All button→span, sr-only brand); footer 45 pairs / semantic only (div→h3, span→p, wrapper padding, sr-only partner names, icon-order noise); family-name geogrotesque-legacy on every atom = template-scoped alias, not a face change",
+          "contentDiffSummary": "proto→published eds: 1 🔴 ROLE SWAP Answer body→heading (intended h2), 🟠 EXTRA hidden rate link, 🟡 EXTRA hidden rating snapshot, 🟡 MISSING hidden comment-template text",
+          "aiReadability": {
+            "strict": 100,
+            "code": 100,
+            "min": 98
+          },
+          "computedStyleGuard": {
+            "blocks": 3,
+            "decorated": 3,
+            "header": "loaded",
+            "footer": "loaded",
+            "legacyFooterVariant": true,
+            "visibleImgs": 2,
+            "zeroWidthImgs": 0,
+            "pageerrors": 0,
+            "pass": true
+          },
+          "cls": 0.0005,
+          "pass": true,
+          "evidence": [
+            "stardust/replica/gates/kb-article-published-1440/{published,diff-unmasked,diff-masked,chrome-header-diff,chrome-footer-diff}.png",
+            "pixel-unmasked.txt",
+            "pixel-masked.txt",
+            "chrome-parity.json",
+            "content-diff-proto.txt",
+            "ai-readability.txt",
+            "anchor-published.json",
+            "guard.json"
+          ]
+        },
+        "url": "https://main--sdt-sciex--aemcoder.aem.live/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
+        "slugMapping": {
+          "captured": "…-in-analyst_en_us",
+          "delivered": "…-in-analyst-en-us",
+          "why": "admin webPath normalisation (preview 404 on the underscore source)"
+        },
+        "regime": "published-origin",
+        "gatedAt": "2026-09-18T10:56:55.921Z",
+        "commit": "9cd9ad9",
+        "footerFragment": "/footer-legacy",
+        "residuals": [
+          "360: footer legal band +5px — .ftr-copy <p> taller than live inline <span> (shared blocks/footer, footer owner; same as home 360)",
+          "1440 footer crop 0.31% thick = WalkMe + Qualtrics fixed widgets in the live capture (capture-state, not markup)",
+          "chrome-parity: live \"All\" facet is a <button> vs EDS <span> (same as home); footer column labels <h3> vs live <div>; partner names sr-only in EDS only",
+          "content-diff ROLE SWAP: \"Answer\" authored <h2> vs live bold <p> (accepted semantic upgrade)"
+        ],
+        "fixesPending": [
+          "styles.css ≤767 article-body rhythm — in tree, needs commit + code-sync + 360 re-measure",
+          "footer .ftr-copy 360 +5px (footer owner)"
+        ]
       }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "1 justified",
-      "pixelPct": 0.4,
-      "pixelPctMasked": 0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0.25,
-      "supportBandCropPct": 1.94,
-      "chromeParity": "quiet (exit 0) header/footer/support",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "IMAGERY GAP source 94 vs build 25",
-       "why": "live counts 69 hidden 0×0 images (mega-menu tiles, language flags); every rendered image is present"
+    },
+    {
+      "archetype": "applications-pharma-and-biopharma",
+      "pageType": "landing",
+      "liveUrl": "https://sciex.com/applications/pharma-and-biopharma",
+      "protoPath": "stardust/prototypes/applications-pharma-and-biopharma-proposed.html",
+      "protoServedAt": "http://localhost:8792/applications-pharma-and-biopharma-proposed.html",
+      "contentRoot": ".container-v2.aem-GridColumn",
+      "regime": "prototype",
+      "gatedAt": "2026-09-18T08:58:44Z",
+      "sharedLayers": {
+        "css": [
+          "stardust/prototypes/css/canon.css",
+          "stardust/prototypes/css/applications-pharma-and-biopharma.css"
+        ],
+        "js": [
+          "stardust/prototypes/js/motion.js",
+          "inline page script (sub-nav scroll-spy/glide, testimonial fade, stories rail)"
+        ],
+        "chromeSplice": "stardust/replica/capture/splice-chrome-pharma.py (header + footer-spacer/support-band/footer copied verbatim from home-proposed.html between canon:* markers)"
+      },
+      "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2 in stardust/prototypes/assets/fonts/, copied by home from stardust/current/assets/fonts/); no substitutes, proxima-nova never rehosted; 0 font forks at both breakpoints",
+      "capture": {
+        "tokens": [
+          "stardust/replica/capture/tokens-pharma-1440.json",
+          "stardust/replica/capture/tokens-pharma-360.json",
+          "stardust/replica/capture/tokens-pharma-1920.json"
+        ],
+        "scrollProbe": [
+          "stardust/replica/capture/scroll-pharma-1440.json",
+          "stardust/replica/capture/scroll-pharma-360.json"
+        ],
+        "lifter": "stardust/replica/capture/lift-pharma.mjs",
+        "media": "16 page images copied from stardust/current/assets/media/ to stardust/prototypes/assets/media/ (clean names) + 3 harvested 375-wide Dynamic Media renditions (hero, 2 LinkedIn banners) — not yet in _manifest.json"
+      },
+      "breakpoints": {
+        "360": {
+          "iterations": 2,
+          "runs": [
+            {
+              "label": "iter1",
+              "pixelPct": 3.55,
+              "differingPx": 115562,
+              "heightDelta": -30,
+              "contentRed": 0,
+              "fixes": "first hot band 6500–7000 → anchor diff named #D-list 467 vs 435: rail slides inherited the app-card mobile margin-bottom 32px (.card) — set .stories__slide margin-bottom:0; sub-pixel 0.4/0.8px from rendition choice — harvested the 375-wide hero + LinkedIn banner renditions and wired <source media=(max-width:375px)> as live"
+            },
+            {
+              "label": "iter2",
+              "pixelPct": 0,
+              "differingPx": 44,
+              "heightDelta": 0,
+              "contentRed": 0
+            },
+            {
+              "label": "motion",
+              "pixelPct": 0,
+              "differingPx": 44,
+              "heightDelta": 0,
+              "note": "after interaction layer — byte-identical"
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "yellow": 0,
+            "orange": 0,
+            "visualFlags": "none",
+            "pixelPct": 0,
+            "heightDelta": 0,
+            "headerCropPct": 0,
+            "supportBandCropPct": 0,
+            "footerCropPct": 0,
+            "chromeParity": "quiet (exit 0) header/footer/support",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [],
+          "captureState": [
+            {
+              "what": "no third-party fixed widgets rendered in the 360 live capture (44 differing px total)",
+              "where": "-"
+            }
+          ]
+        },
+        "1440": {
+          "iterations": 1,
+          "runs": [
+            {
+              "label": "iter1",
+              "pixelPct": 0.32,
+              "differingPx": 28270,
+              "heightDelta": 0,
+              "contentRed": 0,
+              "fixes": "none — first gate run; build-side pre-checks fixed stories slide height:auto (Splide inline style) and footer disclaimer code (page XF variant)"
+            },
+            {
+              "label": "iter2",
+              "pixelPct": 0.32,
+              "differingPx": 28270,
+              "heightDelta": 0,
+              "note": "re-run after 360 fixes — byte-identical"
+            },
+            {
+              "label": "motion",
+              "pixelPct": 0.32,
+              "differingPx": 28270,
+              "heightDelta": 0,
+              "note": "after interaction layer — byte-identical; masked 113 px"
+            }
+          ],
+          "result": {
+            "structuralRed": 0,
+            "yellow": 0,
+            "orange": 0,
+            "visualFlags": "none",
+            "pixelPct": 0.32,
+            "pixelPctMasked": 0,
+            "heightDelta": 0,
+            "headerCropPct": 0,
+            "supportBandCropPct": 0,
+            "footerCropPct": 0.25,
+            "chromeParity": "quiet (exit 0) header/footer/support (header live selector .headerbar)",
+            "pass": true
+          },
+          "justified": [],
+          "residuals": [
+            {
+              "band": "rows 802–899, 1701–1799, 2601–2699, 3525–3599, 4401–4499, 5995–6069 (every stitched-chunk bottom; x 61–142 and 1350–1418)",
+              "pct": 0.32,
+              "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left, chat launcher bottom-right) repeat at each chunk seam; not site markup — excluded from the prototype per brief; masked 0.00% (113 px) with --mask 802:98,1701:99,2601:99,3525:75,4401:99,5995:75",
+              "flaggedFor": "user"
+            },
+            {
+              "region": "footer crop",
+              "pct": 0.25,
+              "cause": "same widget rows (5995–6069) inside the footer crop; chrome-parity quiet; texture reads thick because the widgets are blocks",
+              "flaggedFor": "user"
+            },
+            {
+              "band": "rows 4562–4563 x 383–434",
+              "pct": 0,
+              "cause": "104 px inside the LinkedIn pharma banner — webp decode/scaling noise of the 1440 rendition",
+              "flaggedFor": "none"
+            }
+          ],
+          "captureState": [
+            {
+              "what": "WalkMe copilot tab + chat launcher (fixed, third-party) in live capture",
+              "where": "every viewport bottom"
+            },
+            {
+              "what": "WalkMe 'please login to sciex.com' balloon present in the extract screenshot but NOT in the gate live capture (never rendered headless here)",
+              "where": "under header"
+            },
+            {
+              "what": "OneTrust banner dismissed via --dismiss",
+              "where": "viewport"
+            }
+          ],
+          "wideCheck1920": "box map identical to live in all 20 probed boxes (doc 6113 both; h1 1408×76.8, lede 704, hero img 1920×720, sub-nav outer 1536, overview body 938.7, cards 328×544 img 328×246, quote 1171.3, meta 204.7, story slide 448×538, D track 1568 @x176, connect col 688, banner 688×160.5, spacer p 560, footer y5283 h829.5)"
+        }
+      },
+      "motion": {
+        "evidence": [
+          "stardust/replica/motion/applications-pharma-and-biopharma.json",
+          "stardust/replica/motion/applications-pharma-and-biopharma-360.json",
+          "stardust/replica/motion/applications-pharma-and-biopharma-hover2.json",
+          "stardust/replica/motion/applications-pharma-and-biopharma-widgets-1440.json"
+        ],
+        "observed": [
+          "sub-nav wrapper gets .sticky-subnav (+ .no-scrollbar on the anchor track) on first scroll; scroll-spy adds .active to the anchor of the section in view (underline span width/background-color .5s); header static, scrolls away (headerTimeline empty)",
+          "sub-nav anchor click → smooth glide (html scroll-behavior: smooth live), lands at section top − 52px (1449 for #B@1500.8)",
+          "testimonial fade carousel: arrows/pagination click → is-prev / is-active is-visible / is-next class swap, slide opacity .4s cubic-bezier(.25,1,.5,1); pagination text = 'N / ' + total with is-active on index; prev disabled at 0, next disabled at last",
+          "stories rail (360 only, is-overflow): arrows/pagination → list translateX(−index × 324px) transition transform .6s ease-in-out, same slide/pagination class swaps; controls absent at ≥1024 (3 slides fit)",
+          "hover: card image transform scale(1.05) .5s; Learn more/Watch now link color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s; sub-nav anchor color → #0068fa .3s; enabled carousel arrow bg → #005bdb + gradient fill 100% (measured under the resting pointer after click)"
+        ],
+        "implemented": [
+          "all of the above — inline page script + applications-pharma-and-biopharma.css § INTERACTION PARITY (behaviour-match: stardust/replica/capture/verify-motion-pharma.mjs — mid-fade opacity .20/.80 vs live .195/.805, glide landing 1449 = live, rail −324px, pagination text, disabled ends, 0 pageerrors); canon js/motion.js loaded for the shared header/footer behaviours"
+        ],
+        "dead": [
+          "breadcrumb link hover:tw-text-grey-900 (2 hover probes, no change) — not implemented",
+          "pagination button hover (no change) — not implemented",
+          "carousel arrow active:tw-bg-blue-900 / focus-visible outlines — not observed (no keyboard/active probe) — not implemented",
+          "stitch-shot freeze: t=0 state only; autoplay not present on either carousel"
+        ],
+        "approximations": [
+          "scroll-spy threshold = sticky nav height (65/48px): consistent with every observed active state and with the stitched seams (0.00% masked); the live JS threshold is not readable from the observation (mutations sampled mid-scroll between 71 and 94px before section top)"
+        ]
+      },
+      "backportCandidates": [
+        ".breadcrumb (nav#breadcrumb: pt16 pb32/48, .t-sm 13/18→14/20 w330, home icon 16, chevron 12 ml4, link ml8 grey-500, hover DEAD) — chrome on every interior page, not in canon.css",
+        ".t-alfa (interior h1: 34/42 → calc(7.52941px+4.41176vw) from 600 → 64px @1280, lh 1.2 @768) and .t-echo (20/26 → 19px lh1.3 → calc(14.588px+.73529vw) → 24px @1280) — canon has only .t-echo-md without a base rule",
+        ".richtext paragraph rhythm (p padding-top 16/20, :first-child 0, b 530, a 530 underline) — canon has no .richtext rules though home uses the class",
+        ".link-arrow hover rules (color blue-800, underline left 100%, svg margin-left 12px) — fired on this page; home recorded no hover change on its families",
+        ".card__media img:hover { transform: scale(1.05) } — fired on this page's cards",
+        "html { scroll-behavior: smooth } — live html computes smooth site-wide",
+        "footer disclaimer code varies per page footer XF: home GEN-MKT-18-7897-A vs application pages MKT-27286-A — patched via splice (data-deviation on the span); canon footer needs a slot for it",
+        "chrome-parity default header selector: live has no <header> element — pass --region header=.headerbar|header"
+      ],
+      "newModules": [
+        {
+          "name": "breadcrumb",
+          "desc": "nav#breadcrumb with home icon + chevron separators, schema.org ListItem"
+        },
+        {
+          "name": "hero-text",
+          "desc": "interior-page hero: h1 .t-alfa + 50%-width lede, no media (live .hero-text)"
+        },
+        {
+          "name": "page-image",
+          "desc": "full-bleed media-image section with Dynamic Media picture (1440×540)"
+        },
+        {
+          "name": "page-sub-nav",
+          "desc": "sticky anchor sub-nav (JS-added sticky class, scroll-spy underline, smooth glide −52px)"
+        },
+        {
+          "name": "text-container",
+          "desc": "atomic 1-col (Overview: h2 + 66.6% richtext @1280) and 2-col (Let's connect: h3 + p .t-echo) text blocks"
+        },
+        {
+          "name": "image-card-grid",
+          "desc": "application cards 1/2/4 columns, 4:3 media, title div + richtext + arrow link (7 cards)"
+        },
+        {
+          "name": "testimonial-carousel",
+          "desc": "dark fade carousel: eyebrow, quote .t-delta 330, portrait 112/64 + name/role in bordered column, arrows + 'N / total' pagination"
+        },
+        {
+          "name": "story-card-carousel",
+          "desc": "Thought leaders Splide rail: perPage 3/gap 32/padding 80 (lg), 1-up/gap 12/padding 24 (<768) with lock semantics"
+        },
+        {
+          "name": "media-image (in 2-col)",
+          "desc": "LinkedIn banner links (600×140 renditions) with nested .container spacer richtext of two &nbsp; paragraphs"
+        }
+      ],
+      "pluginNotes": [
+        "anchor.mjs on this AEM template lists only the footer under --main .container-v2.aem-GridColumn (live wraps every section in a single #container-<hash> div) — section-level anchors need the build side + the tokens lift; pixel gate remained authoritative",
+        "motion-observe hover probes on a 0×0 inline <a> wrapping an absolutely positioned <img> read no change — hover the img itself; hover probes run AFTER --click pokes, so an end-state (disabled) arrow measures as 'no hover' — probe hovers in a separate run",
+        "motion-observe widgetSamples had trackTransform null for both Splide widgets (track selector mapping) — durations recovered from events.transitions (dur) + a custom state probe; pagination TEXT changes are not recorded by the instrument",
+        "chrome-parity default 'header' region fails on sites without a <header> element (live: .headerbar) — needs a live selector fallback or a clearer default",
+        "zsh: a Bash line starting with '=====' is parsed as an =cmd expansion and aborts the chain — avoid leading '=' in echo separators"
+      ],
+      "published": {
+        "360": {
+          "pixelPct": 3.66,
+          "heightDelta": -11,
+          "headerCropPct": 0,
+          "footerCropPct": 4.72,
+          "supportCropPct": 0.18,
+          "cls": 0,
+          "computedStyleGuard": {
+            "blocks": 7,
+            "decorated": 7,
+            "gridFlex": 7,
+            "visibleImgs": 16,
+            "zeroWidthImgs": 0,
+            "pageerrors": 0,
+            "pass": true
+          },
+          "anchors": "identical through the stories rail (5588/6213); connect head 32px short (live .textblock__col pb 32 <768) → columns-container 516 vs 548; support band 266=266; footer 2025 vs live 2002 (+23, shared footer block)",
+          "reconcile": {
+            "status": "pending-commit",
+            "patch": "blocks/columns/columns.css — connect head wrapper padding-bottom 32px <768 (0 at ≥768)",
+            "expected": "connect band back to 548 → main anchors identical; residual Δh = footer +23"
+          },
+          "evidence": [
+            "stardust/replica/gates/applications-pharma-and-biopharma-published-360/{live,published,diff,inspect-6000-8200}.png",
+            "chrome-{header,footer,support}-diff.png",
+            "anchor-published.json",
+            "pixel-unmasked.txt"
+          ]
+        },
+        "1440": {
+          "pixelPct": 0.35,
+          "pixelPctMasked": 0.03,
+          "mask": "802:98,1701:99,2601:99,3525:75,4401:99,5995:75 (live fixed WalkMe/chat widgets at chunk seams — same as prototype gate)",
+          "heightDelta": 0,
+          "headerCropPct": 0,
+          "footerCropPct": 0.31,
+          "supportCropPct": 0.07,
+          "anchors": "every main section top identical to prototype/live (1157/1501/2976/3634/4376/4851/5106, doc 6070)",
+          "chromeParity": "header 13 pairs/2 findings (live \"All\" facet <button> vs EDS <span>; sr-only brand text), footer 18 findings (div→h3, span→p, disclaimer code MKT-27286-A live vs GEN-MKT-18-7897-A EDS shared footer) — semantic/content, no geometry drift",
+          "contentDiffSummary": "proto→published eds: 14 findings — 10 🔴 ROLE SWAP card titles body(div)→heading(h3) (accepted canonicalisation, same as home), 4 🟠 EXTRA support-band (outside proto <main>)",
+          "aiReadability": {
+            "strict": 100,
+            "code": 100,
+            "min": 98
+          },
+          "cls": 0.0002,
+          "computedStyleGuard": {
+            "blocks": 7,
+            "decorated": 7,
+            "gridFlex": 7,
+            "header": "loaded",
+            "footer": "loaded",
+            "visibleImgs": 16,
+            "zeroWidthImgs": 0,
+            "pageerrors": 0,
+            "leadStyleApplied": true,
+            "subnavTargetsResolved": 4,
+            "pass": true
+          },
+          "evidence": [
+            "stardust/replica/gates/applications-pharma-and-biopharma-published-1440/{live,published,diff,diff-masked}.png",
+            "chrome-{header,footer,support}-diff.png",
+            "chrome-parity.json",
+            "content-diff-proto.txt",
+            "ai-readability.txt",
+            "anchor-published.json",
+            "pixel-{unmasked,masked}.txt"
+          ]
+        },
+        "url": "https://main--sdt-sciex--aemcoder.aem.live/applications/pharma-and-biopharma",
+        "regime": "published-origin",
+        "gatedAt": "2026-09-18T10:52:18.234Z",
+        "commit": "9cd9ad9",
+        "delivery": {
+          "put": 201,
+          "preview": 200,
+          "live": 200,
+          "plain": "200 · 1 h1 · 0 about:error · 16 img/16 picture",
+          "mediaUploaded": 14,
+          "ledger": "content/.deploy-ledger.json"
+        },
+        "residuals": [
+          "360 footer band 4.72% / +23px vs live: shared footer block (copyright/link spacing) and disclaimer code variant (live pharma XF footer ends \"MKT-27286-A\", EDS shared footer \"GEN-MKT-18-7897-A\") — footer owner, not page rhythm",
+          "1440 footer crop 0.31% thick texture (partner-logo strip antialiasing; same class as home 0.25%)",
+          "chrome-parity semantic findings identical to home (All facet button, sr-only brand, footer div→h3/span→p)",
+          "content-diff ROLE SWAP: card titles <h3> in EDS vs <div> on live/prototype (accepted semantic upgrade)"
+        ]
       }
-     ],
-     "residuals": [
-      {
-       "band": "rows 801–899, 1701–1799, 2601–2699, 3501–3599, 4425–4499, 5427–5501 (every chunk bottom)",
-       "pct": 0.4,
-       "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left 68×46; chat launcher bottom-right ~78×78) repeat at each stitched-chunk seam; not site markup — excluded from the prototype per coordinator; masked number 0.00% (9 px) with --mask 801:99,1701:99,2601:99,3501:99,4425:75,5427:75",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "support band crop",
-       "pct": 1.94,
-       "cause": "same widget rows (4425–4499) inside the band; parity quiet",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.25,
-       "cause": "same widget rows (5427–5501); parity quiet",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "open states (not gated)",
-       "cause": "mega-menu Products/Mass-spec panel 429px vs live 448px; account dropdown 360px vs live 260px — hidden at t=0, live mid-column/flex metrics not lifted",
-       "flaggedFor": "delivery"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "WalkMe copilot tab + chat launcher (fixed, third-party) in live capture",
-       "where": "every viewport bottom"
-      },
-      {
-       "what": "OneTrust banner dismissed via --dismiss (not part of the page)",
-       "where": "hero"
-      }
-     ],
-     "wideCheck1920": "box map identical to live (doc 5483 both; h1 938.7, lede 586.7, tiles 688×430, cards 448×336, tab text 281, slides 688×694, disclaimer 1310, search 492.8, login li 172.8)"
     }
-   },
-   "motion": {
-    "observed": [
-     "desktop nav click → menu-active (border .2s ease, chevron rotate .3s ease), in-flow mega panel, overlay, close button; submenu-active bar",
-     "search category dropdown click → display block; account dropdown click → display flex; click-away closes",
-     "tabs click → is-active swap, grid-rows 1fr/0fr (.3s ease-in-out <768), chevron rotate",
-     "stories rail (360 only, is-overflow): arrow → translateX(-324px) transition transform 600ms ease-in-out; is-active/is-visible/is-prev/is-next; pagination is-active; arrows disabled at ends",
-     "footer mobile accordion → ul max-height:250px (.7s), chevron rotate-180 (.2s)",
-     "language modal (footer button) → display flex, opacity fade .5s ease-out",
-     "mobile search button → search form 46px; mobile hamburger → level-1 panel calc(100vh-119px) + overlay; Open/Close li swaps"
-    ],
-    "implemented": [
-     "all of the above in js/motion.js (canon) and js/home.js (home widgets); same class/inline-style mechanics and durations"
-    ],
-    "dead": [
-     "hover: card/tile image scale(1.05) (hover:tw-scale-[1.05]) — no change on hover probe",
-     "hover: arrow-link underline slide (group-hover:tw-left-[100%]) and arrow shift (group-hover:tw-ml-12)",
-     "hover: nav link / footer link / social / Login colour changes",
-     "hover: primary button gradient fill (hover:tw-bg-[length:100%_100%])",
-     ".dropdown:hover opener (CSS rule present, not fired)",
-     "scroll-entrance animations (0 animations recorded)",
-     "header scroll morph (none — header is static)"
-    ],
-    "notProbed": [
-     "mobile menu level-2 panels",
-     "desktop language button (same component as the observed mobile button)",
-     "search submit"
-    ]
-   },
-   "approvedBy": null,
-   "notes": [
-    "Promo tiles are a static 2-up .media-grid on the captured home (no Splide classes, no controls) — the brief's 'carousel with prev/next + dots' was not in the DOM or the observation.",
-    "h1 carries a U+2028 line separator after 'spectrometry' (live byte pattern) — mirrored; it is what forces the 2-line wrap.",
-    "Live <button> UA font shorthand resets font-variation-settings; the preflight 'font-variation-settings: inherit' is load-bearing for tab-label wraps.",
-    "Live mega-menu 'Stories' and 'Community' panels have no nav item (dead) — not reproduced."
-   ],
-   "published": {
-    "360": {
-     "pixelPct": 1.05,
-     "heightDelta": -5,
-     "cls": 0.0117,
-     "computedStyleGuard": {
-      "blocks": 7,
-      "decorated": 7,
-      "gridFlex": 7,
-      "header": "loaded",
-      "footer": "loaded",
-      "visibleImgs": 18,
-      "zeroWidthImgs": 0,
-      "pageerrors": 0,
-      "pass": true
-     },
-     "anchor": "all main section tops identical through footer top 6359; delta inside footer block: .ftr-legal 772 vs live 767 (social/columns 360=360, partners 860=860)",
-     "evidence": [
-      "stardust/replica/gates/home-published-360/{live,published}.png",
-      "anchor-published.json",
-      "anchor-live.json"
-     ]
-    },
-    "1440": {
-     "pixelPct": 0.47,
-     "heightDelta": 0,
-     "headerCropPct": 0,
-     "footerCropPct": 0.25,
-     "chromeParity": "header 13 pairs/2 findings (live All facet <button> padding vs EDS <span>; sr-only brand text), footer 44 pairs/18 findings (div→h3, span→p, disclaimer split, sr-only partner names) — semantic only, no geometry drift",
-     "contentDiffSummary": "proto→published (eds profile, root main): 10 findings — 5 🔴 ROLE SWAP body→heading (card <h3> semantic upgrade, accepted), 3 🟠 support-band EXTRA (outside proto <main>), 2 🟡 generated pagination numerals; live→published with root main not comparable (live main wraps mega-menu)",
-     "aiReadability": {
-      "strict": 100,
-      "code": 100,
-      "min": 98
-     },
-     "computedStyleGuard": {
-      "blocks": 7,
-      "decorated": 7,
-      "gridFlex": 7,
-      "header": "loaded",
-      "footer": "loaded",
-      "visibleImgs": 18,
-      "zeroWidthImgs": 0,
-      "pageerrors": 0,
-      "pass": true
-     },
-     "cls": 0.0002,
-     "evidence": [
-      "stardust/replica/gates/home-published-1440/{live,published,diff-coord}.png",
-      "chrome-header-diff.png",
-      "chrome-footer-diff.png",
-      "chrome-parity.json",
-      "content-diff-proto.txt",
-      "content-diff.txt (root-contaminated)",
-      "ai-readability.txt",
-      "anchor-published.json"
-     ]
-    },
-    "url": "https://main--sdt-sciex--aemcoder.aem.live/",
-    "regime": "published-origin",
-    "gatedAt": "2026-09-18T09:58:00Z",
-    "commit": "f0f8090",
-    "residuals": [
-     "360: footer .ftr-legal band +5px vs live (blocks/footer, not section rhythm) — footer owner",
-     "chrome-parity semantic findings: live search facet \"All\" is a <button> (8px padding) vs EDS <span>; footer column labels <h3> vs live <div>; partner names sr-only in EDS only",
-     "content-diff ROLE SWAP: card titles authored <h3> vs live <p> (accepted semantic upgrade)",
-     "1440 footer crop 0.25% thick texture (partner-logo strip antialiasing)"
-    ],
-    "fixesPending": [
-     "stories controls desktop — FIXED in blocks/cards/cards.js (ResizeObserver + rAF repaint), verified on harness, awaiting commit/push + /index redeliver",
-     "footer .ftr-legal 360 +5px (footer owner)"
-    ]
-   }
-  },
-  {
-   "archetype": "kb-article",
-   "pageType": "article",
-   "family": "support/knowledge-base-articles/* (1,789 of 2,826 sitemap URLs)",
-   "liveUrl": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
-   "capturedSlug": "support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us",
-   "protoPath": "stardust/prototypes/kb-article-proposed.html",
-   "protoServedAt": "http://localhost:8796/kb-article-proposed.html (8794 held by a 13-day-old foreign http.server from another stardust project — moved, not killed)",
-   "contentRoot": ".sciex-section",
-   "template": "LEGACY front end — body.globalpage (Bootstrap 3 grid + clientlib-global/base, html{font-size:62.5%}) under the shared v3 header/footer XFs; footer XF here is cmp-experiencefragment--new-footer (older content than home's footer-v3)",
-   "regime": "prototype",
-   "sharedLayers": {
-    "css": [
-     "stardust/prototypes/css/canon.css",
-     "stardust/prototypes/css/kb-article.css"
-    ],
-    "js": [
-     "stardust/prototypes/js/motion.js",
-     "inline star-fill script in kb-article-proposed.html"
-    ],
-    "chromeMarkup": "header/footer copied verbatim from home-proposed.html (final, 10:29) minus the support band; footer carries data-deviation"
-   },
-   "fontsPolicy": "Article title/body/meta/CTA compute Helvetica, Arial, sans-serif on live (legacy #master rule overrides body's proxima-nova) — system stack, reproduced as-is, no substitution, no 🟠 fork. proxima-nova (Typekit) is declared on live body but never rendered in the content root — NOT rehosted, not referenced. Icons: FontAwesome 4.2 (SIL OFL) harvested woff self-hosted. Chrome: Geogrotesque VF per canon + Ge2003-Rg.woff2 declared at weight 400 (same-owner reuse) because legacy pages also load the static Geogrotesque family and weight-400 chrome text renders that face (chrome-parity: copyright 139px live vs 149px).",
-   "capture": {
-    "tokens": [
-     "stardust/replica/capture/tokens-kb-1440.json",
-     "stardust/replica/capture/tokens-kb-360.json",
-     "stardust/replica/capture/tokens-kb-1920.json"
-    ],
-    "lift": "stardust/replica/capture/lift-kb.mjs",
-    "buildProbe": "stardust/replica/capture/probe-kb-build.mjs",
-    "assets": [
-     "stardust/prototypes/assets/fonts/fontawesome-webfont.woff",
-     "stardust/prototypes/assets/fonts/Ge2003-Rg.woff2",
-     "stardust/prototypes/assets/media/Avatars_MaleCust-3_263x260-c7353b6c.png (hidden comment template img)"
-    ]
-   },
-   "breakpoints": {
-    "360": {
-     "iterations": 3,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 8.97,
-       "heightDelta": -135,
-       "fixes": "breadcrumb wrapper hidden ≤992 (live hides .cmp-breadcrumb itself, −20), footer mobile col padding 12.5 (−60), no mobile language toggle on this footer XF (−55)"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.58,
-       "heightDelta": 0,
-       "fixes": "column margin-left only ≥640 (sm:space-x) — 360 parity Δx +13 on all mobile columns"
-      },
-      {
-       "label": "iter3",
-       "pixelPct": 0.47,
-       "heightDelta": 0,
-       "fixes": "note paragraph 14pt must out-specify the ≤767 p rule (15px vs 18.67 live) — applied after iter3, verified in the final round"
-      },
-      {
-       "label": "final (post canon re-sync + motion)",
-       "pixelPct": 0.22,
-       "heightDelta": 0,
-       "note": "2054 px; masked 0.02% (140 px)"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.22,
-      "pixelPctMasked": 0.02,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0.35,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentDiff": "23/23 nodes — none",
-      "pass": true
-     },
-     "justified": [],
-     "residuals": [
-      {
-       "band": "rows 1660–1700 and 2510–2550 (chunk bottoms)",
-       "pct": 0.2,
-       "cause": "capture-state: Qualtrics chat launcher (fixed bottom-right) repeated at stitch seams; masked number 0.02%",
-       "flaggedFor": "delivery"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.35,
-       "cause": "the same launcher falls inside the footer band; parity quiet",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "Qualtrics launcher (third-party) — not recreated",
-       "where": "fixed bottom-right"
-      }
-     ]
-    },
-    "1440": {
-     "iterations": 3,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 2.46,
-       "heightDelta": -110,
-       "fixes": "content geometry exact at first render; all delta in footer: chrome-parity named 48 deltas → footer col padding 32, 12.5px space-x gap (10px rem), unpadded partner li, header All button weight/padding, Twitter icon, © 2025, no GEN-MKT span"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.68,
-       "heightDelta": 0,
-       "fixes": "weight-400 static Geogrotesque face (copyright width fork)"
-      },
-      {
-       "label": "iter3",
-       "pixelPct": 0.66,
-       "heightDelta": 0,
-       "fixes": "partner row align-items:flex-start (footer crop thick texture) — applied after iter3, verified in the final round"
-      },
-      {
-       "label": "final (post canon re-sync + motion + breadcrumb colour fix)",
-       "pixelPct": 0.38,
-       "heightDelta": 0,
-       "note": "9598 px; masked 0.10% (2305 px)"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "1 justified",
-      "pixelPct": 0.38,
-      "pixelPctMasked": 0.1,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "footerCropPct": 0.31,
-      "chromeParity": "quiet (exit 0) header/footer",
-      "contentDiff": "23/23 nodes, 1 h, 9 CTA, 13 body, 1 img — none",
-      "pass": true
-     },
-     "justified": [
-      {
-       "probe": "visual",
-       "flag": "IMAGERY GAP source 75 vs build 11",
-       "why": "live's extra images are hidden mega-menu tiles rendered 0×0 outside the content root; every rendered image present"
-      }
-     ],
-     "residuals": [
-      {
-       "band": "rows 800–892 and 1693–1759 (chunk bottoms)",
-       "pct": 0.28,
-       "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left 78×48, Qualtrics chat launcher bottom-right ~80×80) repeated at each stitch seam; masked number 0.10%",
-       "flaggedFor": "delivery"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.31,
-       "cause": "same widgets fall inside the footer band (seam at y≈1693) + partner-logo/disclaimer glyph antialiasing; parity quiet",
-       "flaggedFor": "user"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "WalkMe 'please login' balloon/copilot + Qualtrics launcher (third-party, not site markup) — not recreated",
-       "where": "fixed, bottom-left/right"
-      },
-      {
-       "what": "AddThis share toolbox renders empty on live (dead script) — mirrored as empty div",
-       "where": ".kb-tools__share"
-      },
-      {
-       "what": "anonymous rating state (0 votes, 5 outline stars; rate/comment/pin login-only) frozen as captured",
-       "where": ".kb-stars, .kb-comment"
-      }
-     ]
-    }
-   },
-   "wideCheck": {
-    "width": 1920,
-    "result": "box map byte-identical live vs build (docH 1705/1705; .no-bleed fixed 1170 centred; footer container 1536; partner li 146×107) — content model is fixed-width by design (legacy .no-bleed max-width:1170px), not fluid"
-   },
-   "motion": {
-    "observed": "stardust/replica/motion/kb-article.json — 0 animations, 0 header morph (headerTimeline all null), hover diffs: Comment .btn bg #00afdb→#004a65 (.25s), breadcrumb link colour →#f59831 (.25s), category/Print links colour →#034a59 (.25s), rate-stars hover fills 1..n via class mutation fa-star-o→fa-star (JS), avg stars/td no change",
-    "implemented": [
-     "btn-legacy:hover/:focus background",
-     "kb-breadcrumb__link:hover colour",
-     "kb-details a / kb-tools__utilities a :hover colour",
-     "rate-star hover fill (inline JS, same class state machine; mouseleave restores)",
-     "canon js/motion.js (mega menu, dropdowns, mobile nav, footer accordions, language modal) inherited"
-    ],
-    "dead": [
-     "AddThis share (script dead on source — empty toolbox mirrored)",
-     "avg-rating star hover (no change)",
-     "table cell hover (no change)",
-     "a:focus outline-width transition (declared, never fires in capture)",
-     "#kbarticlepin (display:none, login-only)",
-     "comment/rating submission (login-only — anonymous state frozen)"
-    ],
-    "verification": "prototype hover run: all 4 hover diffs reproduce exactly; star 3 hover → [fa-star×3, fa-star-o×2], leave → all fa-star-o; header static after scroll; 0 pageerrors; pixel returned to 0.38%/0.22% (masked 0.10/0.02)"
-   },
-   "backportCandidates": [
-    "canon: footer-spacer/support band are template-conditional — legacy globalpage pages have NO support band and a 10px white strip (.sciex-footer padding-top) instead of 64/96px",
-    "canon: footer XF version differs by template — legacy pages ship cmp-experiencefragment--new-footer: Twitter bird (not X), '© Copyright 2025 SCIEX', empty trailing span (no GEN-MKT-18-7897-A), no mobile language toggle, 32px desktop column padding, grid-cols-4 with sm:space-x-5 (no 32px gap), partner li unpadded, ul align-items:flex-start, disclaimer weight 330 — inconsistency-register candidate (two live footers)",
-    "canon: legacy html{font-size:62.5%} makes every Tailwind rem utility in the chrome resolve at a 10px rem (col padding 12.5, lang label margin 7.5, disclaimer pr 120) — canon values assume 16px rem",
-    "canon: legacy pages also load the static Geogrotesque family (Ge2003-*.woff2) → weight 400 text renders the static Regular, not the 450 VF face; consider declaring Ge2003-Rg at 400 canon-wide or documenting the fork",
-    "canon: header standalone-search 'All' dropbtn computes weight 400 / padding 0 on this template (canon: 330 / 8px)",
-    "canon: visual-diff IMAGERY GAP is a header artefact (hidden mega-menu tiles) — same justification as home"
-   ],
-   "modules": [
-    {
-     "name": "kb-breadcrumb",
-     "note": "legacy cmp-breadcrumb variant: 14px grey, FontAwesome chevrons, bold last item, hidden ≤992px, 3× Home links as captured (fixed per page tree)"
-    },
-    {
-     "name": "kb-article__title + rule",
-     "note": "h1 28px Helvetica #0084a9 with ® sup, 1px #dbe0e0 hr (variable: title)"
-    },
-    {
-     "name": "kb-meta",
-     "note": "Bootstrap row: details table (Date, Categories links) 10/2 cols + avg-rating stars (variable: date, categories[], rating, voteCount)"
-    },
-    {
-     "name": "kb-tools",
-     "note": "shade-box: Print (javascript:print()), Rate Article stars (anonymous → login link), dead AddThis slot, hidden pin button (fixed)"
-    },
-    {
-     "name": "kb-body",
-     "note": "AEM richtext with byte patterns: 14pt bold RUO note, <br>, 14pt bold 'Answer', prose with <br><br>&nbsp; tail (variable: body HTML)"
-    },
-    {
-     "name": "kb-comment",
-     "note": "Comment .btn.blue → /bin/sciex/login (fixed in anonymous state) + empty comments list + hidden comment template (fixed)"
-    }
-   ],
-   "iterationNote": "Two fixes (1440 partner-row align-items; 360 note font-size) were named by the iter3 instruments and applied after the cap, then verified in the mandatory post-motion re-run rather than in a 4th gate round; the post-canon-resync round is also folded into 'final'. Breadcrumb link colour (specificity) was caught by the motion behaviour-match run, not the pixel probes.",
-   "ts": "2026-09-18T08:43:37Z",
-   "postGateFixes": [
-    {
-     "at": "2026-09-18T08:47:15.133Z",
-     "by": "coordinator",
-     "what": "Comment CTA label invisible: `.sciex-section a` (0,1,1) out-specified `.btn-legacy` (0,1,0) → label rendered in the button colour. Raised to `.sciex-section a.btn-legacy`. Found by side-by-side eyeball; pixel probes rated it noise (0.38 → 0.37 % at 1440).",
-     "evidence": [
-      "stardust/replica/gates/kb-article-1440/diff-final-commentfix.png",
-      "stardust/replica/gates/kb-article-360/diff-final-commentfix.png"
-     ]
-    }
-   ]
-  },
-  {
-   "archetype": "applications-pharma-and-biopharma",
-   "pageType": "landing",
-   "liveUrl": "https://sciex.com/applications/pharma-and-biopharma",
-   "protoPath": "stardust/prototypes/applications-pharma-and-biopharma-proposed.html",
-   "protoServedAt": "http://localhost:8792/applications-pharma-and-biopharma-proposed.html",
-   "contentRoot": ".container-v2.aem-GridColumn",
-   "regime": "prototype",
-   "gatedAt": "2026-09-18T08:58:44Z",
-   "sharedLayers": {
-    "css": [
-     "stardust/prototypes/css/canon.css",
-     "stardust/prototypes/css/applications-pharma-and-biopharma.css"
-    ],
-    "js": [
-     "stardust/prototypes/js/motion.js",
-     "inline page script (sub-nav scroll-spy/glide, testimonial fade, stories rail)"
-    ],
-    "chromeSplice": "stardust/replica/capture/splice-chrome-pharma.py (header + footer-spacer/support-band/footer copied verbatim from home-proposed.html between canon:* markers)"
-   },
-   "fontsPolicy": "self-hosted-reuse: canon @font-face (Geogrotesque_Sharp_VF.woff2 in stardust/prototypes/assets/fonts/, copied by home from stardust/current/assets/fonts/); no substitutes, proxima-nova never rehosted; 0 font forks at both breakpoints",
-   "capture": {
-    "tokens": [
-     "stardust/replica/capture/tokens-pharma-1440.json",
-     "stardust/replica/capture/tokens-pharma-360.json",
-     "stardust/replica/capture/tokens-pharma-1920.json"
-    ],
-    "scrollProbe": [
-     "stardust/replica/capture/scroll-pharma-1440.json",
-     "stardust/replica/capture/scroll-pharma-360.json"
-    ],
-    "lifter": "stardust/replica/capture/lift-pharma.mjs",
-    "media": "16 page images copied from stardust/current/assets/media/ to stardust/prototypes/assets/media/ (clean names) + 3 harvested 375-wide Dynamic Media renditions (hero, 2 LinkedIn banners) — not yet in _manifest.json"
-   },
-   "breakpoints": {
-    "360": {
-     "iterations": 2,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 3.55,
-       "differingPx": 115562,
-       "heightDelta": -30,
-       "contentRed": 0,
-       "fixes": "first hot band 6500–7000 → anchor diff named #D-list 467 vs 435: rail slides inherited the app-card mobile margin-bottom 32px (.card) — set .stories__slide margin-bottom:0; sub-pixel 0.4/0.8px from rendition choice — harvested the 375-wide hero + LinkedIn banner renditions and wired <source media=(max-width:375px)> as live"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0,
-       "differingPx": 44,
-       "heightDelta": 0,
-       "contentRed": 0
-      },
-      {
-       "label": "motion",
-       "pixelPct": 0,
-       "differingPx": 44,
-       "heightDelta": 0,
-       "note": "after interaction layer — byte-identical"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "supportBandCropPct": 0,
-      "footerCropPct": 0,
-      "chromeParity": "quiet (exit 0) header/footer/support",
-      "pass": true
-     },
-     "justified": [],
-     "residuals": [],
-     "captureState": [
-      {
-       "what": "no third-party fixed widgets rendered in the 360 live capture (44 differing px total)",
-       "where": "-"
-      }
-     ]
-    },
-    "1440": {
-     "iterations": 1,
-     "runs": [
-      {
-       "label": "iter1",
-       "pixelPct": 0.32,
-       "differingPx": 28270,
-       "heightDelta": 0,
-       "contentRed": 0,
-       "fixes": "none — first gate run; build-side pre-checks fixed stories slide height:auto (Splide inline style) and footer disclaimer code (page XF variant)"
-      },
-      {
-       "label": "iter2",
-       "pixelPct": 0.32,
-       "differingPx": 28270,
-       "heightDelta": 0,
-       "note": "re-run after 360 fixes — byte-identical"
-      },
-      {
-       "label": "motion",
-       "pixelPct": 0.32,
-       "differingPx": 28270,
-       "heightDelta": 0,
-       "note": "after interaction layer — byte-identical; masked 113 px"
-      }
-     ],
-     "result": {
-      "structuralRed": 0,
-      "yellow": 0,
-      "orange": 0,
-      "visualFlags": "none",
-      "pixelPct": 0.32,
-      "pixelPctMasked": 0,
-      "heightDelta": 0,
-      "headerCropPct": 0,
-      "supportBandCropPct": 0,
-      "footerCropPct": 0.25,
-      "chromeParity": "quiet (exit 0) header/footer/support (header live selector .headerbar)",
-      "pass": true
-     },
-     "justified": [],
-     "residuals": [
-      {
-       "band": "rows 802–899, 1701–1799, 2601–2699, 3525–3599, 4401–4499, 5995–6069 (every stitched-chunk bottom; x 61–142 and 1350–1418)",
-       "pct": 0.32,
-       "cause": "capture-state: third-party fixed widgets on live (WalkMe copilot tab bottom-left, chat launcher bottom-right) repeat at each chunk seam; not site markup — excluded from the prototype per brief; masked 0.00% (113 px) with --mask 802:98,1701:99,2601:99,3525:75,4401:99,5995:75",
-       "flaggedFor": "user"
-      },
-      {
-       "region": "footer crop",
-       "pct": 0.25,
-       "cause": "same widget rows (5995–6069) inside the footer crop; chrome-parity quiet; texture reads thick because the widgets are blocks",
-       "flaggedFor": "user"
-      },
-      {
-       "band": "rows 4562–4563 x 383–434",
-       "pct": 0,
-       "cause": "104 px inside the LinkedIn pharma banner — webp decode/scaling noise of the 1440 rendition",
-       "flaggedFor": "none"
-      }
-     ],
-     "captureState": [
-      {
-       "what": "WalkMe copilot tab + chat launcher (fixed, third-party) in live capture",
-       "where": "every viewport bottom"
-      },
-      {
-       "what": "WalkMe 'please login to sciex.com' balloon present in the extract screenshot but NOT in the gate live capture (never rendered headless here)",
-       "where": "under header"
-      },
-      {
-       "what": "OneTrust banner dismissed via --dismiss",
-       "where": "viewport"
-      }
-     ],
-     "wideCheck1920": "box map identical to live in all 20 probed boxes (doc 6113 both; h1 1408×76.8, lede 704, hero img 1920×720, sub-nav outer 1536, overview body 938.7, cards 328×544 img 328×246, quote 1171.3, meta 204.7, story slide 448×538, D track 1568 @x176, connect col 688, banner 688×160.5, spacer p 560, footer y5283 h829.5)"
-    }
-   },
-   "motion": {
-    "evidence": [
-     "stardust/replica/motion/applications-pharma-and-biopharma.json",
-     "stardust/replica/motion/applications-pharma-and-biopharma-360.json",
-     "stardust/replica/motion/applications-pharma-and-biopharma-hover2.json",
-     "stardust/replica/motion/applications-pharma-and-biopharma-widgets-1440.json"
-    ],
-    "observed": [
-     "sub-nav wrapper gets .sticky-subnav (+ .no-scrollbar on the anchor track) on first scroll; scroll-spy adds .active to the anchor of the section in view (underline span width/background-color .5s); header static, scrolls away (headerTimeline empty)",
-     "sub-nav anchor click → smooth glide (html scroll-behavior: smooth live), lands at section top − 52px (1449 for #B@1500.8)",
-     "testimonial fade carousel: arrows/pagination click → is-prev / is-active is-visible / is-next class swap, slide opacity .4s cubic-bezier(.25,1,.5,1); pagination text = 'N / ' + total with is-active on index; prev disabled at 0, next disabled at last",
-     "stories rail (360 only, is-overflow): arrows/pagination → list translateX(−index × 324px) transition transform .6s ease-in-out, same slide/pagination class swaps; controls absent at ≥1024 (3 slides fit)",
-     "hover: card image transform scale(1.05) .5s; Learn more/Watch now link color → #005bdb .3s, underline span left 0→100% .5s, arrow svg margin-left 8→12px .5s; sub-nav anchor color → #0068fa .3s; enabled carousel arrow bg → #005bdb + gradient fill 100% (measured under the resting pointer after click)"
-    ],
-    "implemented": [
-     "all of the above — inline page script + applications-pharma-and-biopharma.css § INTERACTION PARITY (behaviour-match: stardust/replica/capture/verify-motion-pharma.mjs — mid-fade opacity .20/.80 vs live .195/.805, glide landing 1449 = live, rail −324px, pagination text, disabled ends, 0 pageerrors); canon js/motion.js loaded for the shared header/footer behaviours"
-    ],
-    "dead": [
-     "breadcrumb link hover:tw-text-grey-900 (2 hover probes, no change) — not implemented",
-     "pagination button hover (no change) — not implemented",
-     "carousel arrow active:tw-bg-blue-900 / focus-visible outlines — not observed (no keyboard/active probe) — not implemented",
-     "stitch-shot freeze: t=0 state only; autoplay not present on either carousel"
-    ],
-    "approximations": [
-     "scroll-spy threshold = sticky nav height (65/48px): consistent with every observed active state and with the stitched seams (0.00% masked); the live JS threshold is not readable from the observation (mutations sampled mid-scroll between 71 and 94px before section top)"
-    ]
-   },
-   "backportCandidates": [
-    ".breadcrumb (nav#breadcrumb: pt16 pb32/48, .t-sm 13/18→14/20 w330, home icon 16, chevron 12 ml4, link ml8 grey-500, hover DEAD) — chrome on every interior page, not in canon.css",
-    ".t-alfa (interior h1: 34/42 → calc(7.52941px+4.41176vw) from 600 → 64px @1280, lh 1.2 @768) and .t-echo (20/26 → 19px lh1.3 → calc(14.588px+.73529vw) → 24px @1280) — canon has only .t-echo-md without a base rule",
-    ".richtext paragraph rhythm (p padding-top 16/20, :first-child 0, b 530, a 530 underline) — canon has no .richtext rules though home uses the class",
-    ".link-arrow hover rules (color blue-800, underline left 100%, svg margin-left 12px) — fired on this page; home recorded no hover change on its families",
-    ".card__media img:hover { transform: scale(1.05) } — fired on this page's cards",
-    "html { scroll-behavior: smooth } — live html computes smooth site-wide",
-    "footer disclaimer code varies per page footer XF: home GEN-MKT-18-7897-A vs application pages MKT-27286-A — patched via splice (data-deviation on the span); canon footer needs a slot for it",
-    "chrome-parity default header selector: live has no <header> element — pass --region header=.headerbar|header"
-   ],
-   "newModules": [
-    {
-     "name": "breadcrumb",
-     "desc": "nav#breadcrumb with home icon + chevron separators, schema.org ListItem"
-    },
-    {
-     "name": "hero-text",
-     "desc": "interior-page hero: h1 .t-alfa + 50%-width lede, no media (live .hero-text)"
-    },
-    {
-     "name": "page-image",
-     "desc": "full-bleed media-image section with Dynamic Media picture (1440×540)"
-    },
-    {
-     "name": "page-sub-nav",
-     "desc": "sticky anchor sub-nav (JS-added sticky class, scroll-spy underline, smooth glide −52px)"
-    },
-    {
-     "name": "text-container",
-     "desc": "atomic 1-col (Overview: h2 + 66.6% richtext @1280) and 2-col (Let's connect: h3 + p .t-echo) text blocks"
-    },
-    {
-     "name": "image-card-grid",
-     "desc": "application cards 1/2/4 columns, 4:3 media, title div + richtext + arrow link (7 cards)"
-    },
-    {
-     "name": "testimonial-carousel",
-     "desc": "dark fade carousel: eyebrow, quote .t-delta 330, portrait 112/64 + name/role in bordered column, arrows + 'N / total' pagination"
-    },
-    {
-     "name": "story-card-carousel",
-     "desc": "Thought leaders Splide rail: perPage 3/gap 32/padding 80 (lg), 1-up/gap 12/padding 24 (<768) with lock semantics"
-    },
-    {
-     "name": "media-image (in 2-col)",
-     "desc": "LinkedIn banner links (600×140 renditions) with nested .container spacer richtext of two &nbsp; paragraphs"
-    }
-   ],
-   "pluginNotes": [
-    "anchor.mjs on this AEM template lists only the footer under --main .container-v2.aem-GridColumn (live wraps every section in a single #container-<hash> div) — section-level anchors need the build side + the tokens lift; pixel gate remained authoritative",
-    "motion-observe hover probes on a 0×0 inline <a> wrapping an absolutely positioned <img> read no change — hover the img itself; hover probes run AFTER --click pokes, so an end-state (disabled) arrow measures as 'no hover' — probe hovers in a separate run",
-    "motion-observe widgetSamples had trackTransform null for both Splide widgets (track selector mapping) — durations recovered from events.transitions (dur) + a custom state probe; pagination TEXT changes are not recorded by the instrument",
-    "chrome-parity default 'header' region fails on sites without a <header> element (live: .headerbar) — needs a live selector fallback or a clearer default",
-    "zsh: a Bash line starting with '=====' is parsed as an =cmd expansion and aborts the chain — avoid leading '=' in echo separators"
-   ]
-  }
- ]
+  ]
 }

@@ -119,6 +119,7 @@
    that precedes THIS variant (no JS reabsorption; descendant selectors only — EW10). */
 main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper > .columns.banners) {
   padding-top: 32px;
+  padding-bottom: 32px; /* live .textblock__col pb 32 below 768 (the head col is not the row's last child) */
 }
 
 main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper > .columns.banners) :is(h1, h2, h3) {
@@ -152,6 +153,7 @@ main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper 
 @media (width >= 768px) {
   main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper > .columns.banners) {
     padding-top: 48px;
+    padding-bottom: 0;
   }
 
   main .section.columns-container .default-content-wrapper:has(+ .columns-wrapper > .columns.banners) :is(h1, h2, h3),

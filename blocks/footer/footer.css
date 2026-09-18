@@ -245,11 +245,18 @@ footer .ftr-legal-row {
 }
 
 footer .ftr-copy {
+  /* live: an INLINE span whose margin-bottom has no effect; it sits in the row's
+     23px line box (parent 15px/23px). Modelled as a 23px block, no margin (#360 Δ5). */
   display: block;
   color: var(--grey-400);
-  margin-bottom: 20px;
+  margin-bottom: 0;
   font-size: 13px;
-  line-height: 18px;
+  line-height: 23px;
+}
+
+footer .ftr-copy p {
+  margin: 0;
+  line-height: inherit;
 }
 
 footer .ftr-legal-nav {

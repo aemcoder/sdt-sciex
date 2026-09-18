@@ -652,7 +652,7 @@
       "url": "https://sciex.com/applications/pharma-and-biopharma",
       "title": "Biopharma / pharma research",
       "type": "program",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -671,16 +671,23 @@
           "at": "2026-09-18T09:00:19.516Z",
           "approvedBy": "hands-off",
           "gate": "stardust/replica/progress.json"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T10:52:18.234Z",
+          "via": "stardust:deploy",
+          "commit": "9cd9ad9"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/applications-pharma-and-biopharma.json",
       "prototypePath": "stardust/prototypes/applications-pharma-and-biopharma-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "content/applications/pharma-and-biopharma.html",
       "family": "v3-application-page",
       "aemTemplate": "page-template",
-      "archetype": true
+      "archetype": true,
+      "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/applications/pharma-and-biopharma"
     },
     {
       "slug": "applications",
@@ -1401,7 +1408,7 @@
       "url": "https://sciex.com/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst_en_us",
       "title": "Resetting Root Directory to Analyst® Data Folder Restores Selexion® DMS Functionality",
       "type": "article",
-      "status": "approved",
+      "status": "migrated",
       "history": [
         {
           "status": "extracted",
@@ -1420,16 +1427,24 @@
           "at": "2026-09-18T09:00:19.516Z",
           "approvedBy": "hands-off",
           "gate": "stardust/replica/progress.json"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-18T10:54:53Z",
+          "via": "stardust:deploy",
+          "commit": "9cd9ad9",
+          "note": "delivered at the hyphenated slug (admin webPath normalises _en_us → -en-us); redirect from the captured _en_us form pending the KB URL-normalisation decision"
         }
       ],
       "stale": false,
       "staleReason": null,
       "currentStatePath": "stardust/current/pages/support-knowledge-base-articles-resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.json",
       "prototypePath": "stardust/prototypes/kb-article-proposed.html",
-      "migratedPath": null,
+      "migratedPath": "content/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us.html",
       "family": "kb-article",
       "aemTemplate": "knowledge-base-article-template",
-      "archetype": true
+      "archetype": true,
+      "deployUrl": "https://main--sdt-sciex--aemcoder.aem.live/support/knowledge-base-articles/resetting-root-director-to-analyst-data-folder-restores-selexion-functionality-in-analyst-en-us"
     },
     {
       "slug": "support-knowledge-base-articles-where-is-the-current-instrument-data-file-current-dat-file-for-sciex-triple-quad-or-qtrap-system-is-backed-up-to-en-us",

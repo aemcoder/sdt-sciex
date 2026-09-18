@@ -218,7 +218,22 @@ export default async function decorate(block) {
   const bottom = el('div', 'ftr-bottom');
   if (disclaimerSec) {
     [...disclaimerSec.querySelectorAll('p')].forEach((p) => {
-      if (p.querySelector('picture, img')) { const d = el('div', 'ftr-danaher'); d.append(p); bottom.append(d); } else { const d = el('div', 'ftr-disclaimer'); d.id = 'disclaimer'; d.append(p); bottom.append(d); }
+      if (p.querySelector('picture, img')) { const d = el('div', 'ftr-danaher'); d.append(p); bottom.append(d); } else {
+        const d = el('div', 'ftr-disclaimer'); d.id = 'disclaimer';
+        // Per-page marketing code (live: every page's footer XF ends with its own
+        // GEN-MKT-…/MKT-… code). Page metadata `Disclaimer Code` overrides the
+        // authored /footer value; config-shaped per D14, so it rides metadata.
+        const code = getMetadata('disclaimer-code');
+        if (code) {
+          const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+          let last = null;
+          for (let n = walker.nextNode(); n; n = walker.nextNode()) {
+            if (n.textContent.trim()) last = n;
+          }
+          if (last) last.textContent = last.textContent.replace(/\b[A-Z]{2,}(?:-[A-Z0-9]+)+\.?\s*$/, `${code}`);
+        }
+        d.append(p); bottom.append(d);
+      }
     });
   }
   legalContainer.append(bottom);
